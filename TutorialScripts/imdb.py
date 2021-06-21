@@ -1,3 +1,6 @@
+# Script to run the sample fine-tuning training in the Higgingface documentation here:
+# https://huggingface.co/transformers/training.html#
+
 from datasets import load_dataset, load_metric
 import numpy as np
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trainer, TrainingArguments
