@@ -26,6 +26,10 @@ full_eval_dataset = tokenized_datasets["test"]
 model = AutoModelForSequenceClassification.from_pretrained("bert-base-cased", num_labels=2)
 metric = load_metric("accuracy")
 
+# In the named arguments below, replace full_train_dataset
+# and full-eval_dataset with small_train_dataset and
+# small_eval_dataset, respectively, for experimentation with
+# a small subset of the input data and a shorter running time.
 def compute_metrics(eval_pred):
     logits, labels = eval_pred
     predictions = np.argmax(logits, axis=-1)
