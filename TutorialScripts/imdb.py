@@ -13,6 +13,7 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trai
 raw_datasets = load_dataset("imdb")
 tokenizer = AutoTokenizer.from_pretrained("bert-base-cased")
 
+
 def tokenize_function(examples):
     return tokenizer(examples["text"], padding="max_length", truncation=True)
 
@@ -26,6 +27,7 @@ full_eval_dataset = tokenized_datasets["test"]
 
 model = AutoModelForSequenceClassification.from_pretrained("bert-base-cased", num_labels=2)
 metric = load_metric("accuracy")
+
 
 # In the named arguments below, replace full_train_dataset
 # and full-eval_dataset with small_train_dataset and
