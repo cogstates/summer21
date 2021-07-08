@@ -22,8 +22,9 @@ class CognitiveStateFromText:
     belief = ""  # belief value (values are corpus-specific)
     sentiment = ""  # sentiment value (values are corpus-specific)
 
-    def __init__(self, this_text, this_head_start, this_head_end, this_belief):
+    def __init__(self, this_text, this_snippet, this_head_start, this_head_end, this_belief):
         text = this_text
+        snippet = this_snippet
         head_start = this_head_start
         head_end = this_head_end
         belief = this_belief
