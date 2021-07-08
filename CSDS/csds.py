@@ -16,6 +16,7 @@
 
 class CognitiveStateFromText:
     text = ""  # sentence
+    snippet = "" # text snippet
     head_start = -1  # offset of start of head word of proposition
     head_end = -1  # offset of end of head word of proposition
     belief = ""  # belief value (values are corpus-specific)
