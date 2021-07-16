@@ -22,7 +22,28 @@ class CognitiveStateFromText:
     sentiment = ""  # sentiment value (values are corpus-specific)
 
     def __init__(self, this_text, this_head_start, this_head_end, this_belief):
-        text = this_text
-        head_start = this_head_start
-        head_end = this_head_end
-        belief = this_belief
+        self.text = this_text
+        self.head_start = this_head_start
+        self.head_end = this_head_end
+        self.belief = this_belief
+
+    def get_info_short(self):
+        return "<CSDS instance " + self.belief + "> "
+
+
+class CSDS:
+    instances = []
+    corpus = ""
+
+    def __init__(self, this_corpus):
+        self.corpus = this_corpus
+
+
+    def get_info_short(self):
+        print("<CSDS from \"" + self.corpus + "\"; " + str(len(self.instances)) + " instances>")
+
+    def get_info_long(self):
+        print("<CSDS from \"" + self.corpus + "\"; " + str(len(self.instances)) + " instances:")
+        for instance in self.instances:
+            print("   " + instance.get_info_short())
+        print(">")
