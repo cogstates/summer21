@@ -1,6 +1,5 @@
 import xml.etree.ElementTree as ET
-
-from CSDS.csds import CognitiveStateFromText
+from CSDS.csds import CognitiveStateFromText, CSDS
 
 in_file = '/Users/erinye/Desktop/20000415_apw_eng-New.xml'
 tree = ET.parse(in_file)
@@ -17,13 +16,12 @@ for annotation_set in annotation_sets:
     for node in annotation_set:
         print(node.attrib['StartNode'], node.attrib['EndNode'], node.attrib['Type'])
 
-c = 0
-csds = {}
+c = CSDS("No text corpus")
+new = {}
 for annotation in annotation_sets:
     for node in annotation:
         while c < len(list):
-            cd = CognitiveStateFromText(list[c], node.attrib['StartNode'], node.attrib['EndNode'], node.attrib['Type'], '')
-            csds[c] = cd
+            c.instances.append(CognitiveStateFromText(list[c], node.attrib['StartNode'], node.attrib['EndNode'], node.attrib['Type'], ''))
             c += 1
 
 # still need to check that StartNode - EndNode = length of snippet
