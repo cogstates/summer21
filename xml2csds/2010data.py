@@ -16,14 +16,15 @@ for annotation_set in annotation_sets:
     for node in annotation_set:
         print(node.attrib['StartNode'], node.attrib['EndNode'], node.attrib['Type'])
 
-c = CSDS("No text corpus")
+b = CSDS("No text corpus")
+c = 0
 new = {}
 for annotation in annotation_sets:
     for node in annotation:
         while c < len(list):
-            c.instances.append(CognitiveStateFromText(list[c], node.attrib['StartNode'], node.attrib['EndNode'], node.attrib['Type'], ''))
+            b.instances.append(CognitiveStateFromText(list[c], node.attrib['StartNode'], node.attrib['EndNode'], node.attrib['Type']))
             c += 1
-
+print(b.get_info_long())
 # still need to check that StartNode - EndNode = length of snippet
 # still need to synthesize sentences
 # still need to change offsets so that they start with every new line
