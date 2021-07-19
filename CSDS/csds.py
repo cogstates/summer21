@@ -50,6 +50,7 @@ class CSDS:
     def get_all_instances(self):
         return self.instances
 
+
     def get_info_short(self):
         print("<CSDS from \"" + self.corpus + "\"; " + str(len(self.instances)) + " instances>")
 
