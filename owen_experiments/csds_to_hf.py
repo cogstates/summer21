@@ -11,7 +11,7 @@ from datasets import Dataset, DatasetDict, ClassLabel, load_metric
 # First create a mapping from string labels to integers
 c2l = ClassLabel(num_classes=3, names=['CB', 'NCB', 'NA'])
 
-csds_train_dict = {'text': ["John said he likes beets.",
+csds_train_dict = {'text': ["John said he * likes * beets.",
                             "Mary sometimes says she likes beets.",
                             "Mary sometimes says she likes beets.",
                             "Mary sometimes says she likes beets.",
@@ -89,7 +89,7 @@ tokenized_csds_datasets = csds_datasets.map(tokenize_function, batched=True)
 
 notify("Done tokenizing dataset")
 
-model = AutoModelForSequenceClassification.from_pretrained("bert-base-cased", num_labels=2)
+model = AutoModelForSequenceClassification.from_pretrained("bert-base-cased", num_labels=3)
 metric = load_metric("accuracy")
 
 
