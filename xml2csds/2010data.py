@@ -23,6 +23,11 @@ for annotation_set in annotation_sets:
 
 attempt = CSDS('corpus')
 c = 0
-while c < len(list):
-    cog_state = CognitiveStateFromText
-    attempt.add_instance(cog_state)
+while c < len(list1):
+    for annotation in annotation_sets:
+        for node in annotation:
+            cog_state = CognitiveStateFromText(list1[c], node.attrib['StartNode'], node.attrib['EndNode'], node.attrib['Type'])
+            attempt.add_instance(cog_state)
+    c += 1
+
+# test to make sure everything is working as intended
