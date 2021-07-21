@@ -44,7 +44,7 @@ class CSDS:
 
     # add a list of new instances
     def add_list_of_instances(self, list_of_new_instances):
-        self.instances = self.instances.extend(list_of_new_instances)
+        self.instances.extend(list_of_new_instances)
 
     # return instances as list
     def get_all_instances(self):
@@ -56,10 +56,11 @@ class CSDS:
             yield instance
 
     def get_info_short(self):
-        print("<CSDS from \"" + self.corpus + "\"; " + str(len(self.instances)) + " instances>")
+        return "<CSDS from \"" + self.corpus + "\"; " + str(len(self.instances)) + " instances>"
 
     def get_info_long(self):
-        print("<CSDS from \"" + self.corpus + "\"; " + str(len(self.instances)) + " instances:")
+        message = "<CSDS from \"" + self.corpus + "\"; " + str(len(self.instances)) + " instances:\n"
         for instance in self.instances:
-            print("   " + instance.get_info_short())
-        print(">")
+            message += "   " + instance.get_info_short() + "\n"
+        message += ">\n"
+        return message
