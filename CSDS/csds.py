@@ -44,12 +44,16 @@ class CSDS:
 
     # add a list of new instances
     def add_list_of_instances(self, list_of_new_instances):
-        self.corpus = self.instances.extend(list_of_new_instances)
+        self.instances = self.instances.extend(list_of_new_instances)
 
     # return instances as list
     def get_all_instances(self):
         return self.instances
 
+    # generator: return the next instance in an iteration over the instances
+    def get_next_instance(self):
+        for instance in self.instances:
+            yield instance
 
     def get_info_short(self):
         print("<CSDS from \"" + self.corpus + "\"; " + str(len(self.instances)) + " instances>")
