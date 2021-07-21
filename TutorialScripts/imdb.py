@@ -55,8 +55,8 @@ training_args = TrainingArguments("test_trainer")
 trainer = Trainer(
     model=model,
     args=training_args,
-    train_dataset=full_train_dataset,
-    eval_dataset=full_eval_dataset,
+    train_dataset=small_train_dataset,
+    eval_dataset=small_eval_dataset,
     compute_metrics=compute_metrics,
 )
 trainer.train()
