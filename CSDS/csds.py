@@ -38,6 +38,18 @@ class CSDS:
     def __init__(self, this_corpus):
         self.corpus = this_corpus
 
+    # add a single new instance
+    def add_instance(self, new_instance):
+        self.instances.append(new_instance)
+
+    # add a list of new instances
+    def add_list_of_instances(self, list_of_new_instances):
+        self.corpus = self.instances.extend(list_of_new_instances)
+
+    # return instances as list
+    def get_all_instances(self):
+        return self.instances
+
 
     def get_info_short(self):
         print("<CSDS from \"" + self.corpus + "\"; " + str(len(self.instances)) + " instances>")
@@ -47,5 +59,3 @@ class CSDS:
         for instance in self.instances:
             print("   " + instance.get_info_short())
         print(">")
-
-
