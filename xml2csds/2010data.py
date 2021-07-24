@@ -1,5 +1,3 @@
-# testing out ElementTree parsing
-
 import xml.etree.ElementTree as ET
 from CSDS.csds import CognitiveStateFromText, CSDS
 
@@ -11,10 +9,6 @@ print(text_with_nodes.text)
 for node in text_with_nodes.findall('Node'):
     print(node.attrib['id'], node.tail.replace('\n', ''))
 
-list1 = [text_with_nodes.text]
-for node in text_with_nodes.findall('Node'):
-    list1.append(node.tail.replace('\n', ''))
-print(list1)
 
 annotation_sets = tree.findall('AnnotationSet')
 print("length:", len(annotation_sets))
@@ -23,7 +17,7 @@ for annotation_set in annotation_sets:
         print(node.attrib['StartNode'], node.attrib['EndNode'], node.attrib['Type'])
 
 
-attempt = CSDS('corpus')
+attempt = CSDS(in_file)
 
 for annotation in annotation_sets:
     for node in annotation:
