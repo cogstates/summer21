@@ -8,6 +8,7 @@ tree = et.parse(in_file)
 text_with_nodes = tree.find('TextWithNodes')
 
 nodes = {0: text_with_nodes.text}
+
 for node in text_with_nodes.findall('Node'):
     nodes[node.attrib['id']] = node.tail.replace('\n', '')
 
