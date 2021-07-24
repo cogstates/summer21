@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 from CSDS.csds import CognitiveStateFromText, CSDS
 
-in_file = '/Users/erinye/Desktop/20000415_apw_eng-New.xml'
+in_file = './20000415_apw_eng-New.xml'
 tree = ET.parse(in_file)
 text_with_nodes = tree.find('TextWithNodes')
 print(text_with_nodes.text)
