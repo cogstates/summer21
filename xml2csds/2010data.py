@@ -7,13 +7,27 @@ from CSDS.csds import CognitiveStateFromText, CSDS
 def add_file(xml_file, csds_collection):
     tree = et.parse(xml_file)
     text_with_nodes = tree.find('TextWithNodes')
-    nodes = {0: text_with_nodes.text}
+    sentence = text_with_nodes.tail
+    nodes_in_sentence = []
+    nodes_to_sentences = {}
+    nodes_to_targets = {0: text_with_nodes.text}
     for node in text_with_nodes.findall('Node'):
-        nodes[node.attrib['id']] = node.tail.replace('\n', '')
+        text = node.tail
+        node_id = node.attrib['id']
+        nodes_to_targets[node_id] = text
+        nodes_in_sentence.append(node_id)
+        if '\n' in text:
+            parts = text.split('\n')
+            sentence += parts[0]
+            for node_in_sentence in nodes_in_sentence:
+                nodes_to_sentences[node_in_sentence] = sentence
+            sentence = parts[-1]
+        else:
+            sentence += text
     annotation_sets = tree.findall('AnnotationSet')
     for annotation_set in annotation_sets:
         for annotation in annotation_set:
-            cog_state = CognitiveStateFromText(nodes[annotation.attrib['StartNode']],
+            cog_state = CognitiveStateFromText(nodes_to_sentences[annotation.attrib['StartNode']],
                                                annotation.attrib['StartNode'],
                                                annotation.attrib['EndNode'],
                                                annotation.attrib['Type']
