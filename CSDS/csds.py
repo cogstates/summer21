@@ -18,17 +18,20 @@ class CognitiveStateFromText:
     text = ""  # sentence
     head_start = -1  # offset of start of head word of proposition
     head_end = -1  # offset of end of head word of proposition
+    head = ""  # target of annotation within sentence
     belief = ""  # belief value (values are corpus-specific)
     sentiment = ""  # sentiment value (values are corpus-specific)
 
-    def __init__(self, this_text, this_head_start, this_head_end, this_belief):
+    def __init__(self, this_text, this_head_start, this_head_end, this_belief, this_head=""):
         self.text = this_text
         self.head_start = this_head_start
         self.head_end = this_head_end
         self.belief = this_belief
+        self.head = this_head
 
     def get_info_short(self):
-        return "<CSDS instance (" + self.head_start + ") (" + self.text + ") (" + self.belief + ")> "
+        return "<CSDS instance (" + self.head_start + ") (" + self.text + ") (" + \
+               self.head + ") (" + self.belief + ")> "
 
 
 class CSDS:
