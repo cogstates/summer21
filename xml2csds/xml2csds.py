@@ -64,6 +64,7 @@ class XMLCorpusToCSDSCollection:
         self.add_file_to_csds_collection(tree)
         self.nodes_to_sentences.clear()
         self.nodes_to_targets.clear()
+        self.nodes_to_offsets.clear()
 
     def create_and_get_collection(self):
         for file in glob.glob(self.corpus_directory + '/*.xml'):
