@@ -4,8 +4,7 @@ import xml.etree.ElementTree as et
 from CSDS.csds import CognitiveStateFromText, CSDS
 
 
-def add_file(xml_file, csds_collection):
-    tree = et.parse(xml_file)
+def update_nodes_dictionaries(tree, nodes_to_sentences, nodes_to_targets):
     text_with_nodes = tree.find('TextWithNodes')
     nodes_in_sentence = []
     nodes_to_sentences = {}
@@ -25,6 +24,10 @@ def add_file(xml_file, csds_collection):
             sentence = parts[-1]
         else:
             sentence += text
+    return (nodes_to_sentences, nodes_to_targets)
+
+
+def create_csds_collection(tree, nodes_to_sentences, nodes_to_targets, csds_collection):
     annotation_sets = tree.findall('AnnotationSet')
     for annotation_set in annotation_sets:
         for annotation in annotation_set:
@@ -36,6 +39,12 @@ def add_file(xml_file, csds_collection):
                                                )
             csds_collection.add_instance(cog_state)
             print(cog_state.get_info_short())
+
+
+def add_file(xml_file, csds_collection):
+    tree = et.parse(xml_file)
+    nodes_to_sentences, nodes_to_targets = update_nodes_dictionaries(tree, {}, {})
+    create_csds_collection(tree, nodes_to_sentences, nodes_to_targets, csds_collection)
 
 
 if __name__ == '__main__':
