@@ -34,7 +34,7 @@ class CognitiveStateFromText:
                self.head + ") (" + self.belief + ")> "
 
 
-class CSDS:
+class CSDSCollection:
     instances = []
     corpus = ""
 

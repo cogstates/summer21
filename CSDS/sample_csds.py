@@ -1,7 +1,7 @@
 # This file creates a sample instance of a CSDS to run tests
 # and serves as a unit test of the CSDS API.
 
-from csds import CognitiveStateFromText, CSDS
+from csds import CognitiveStateFromText, CSDSCollection
 
 sample_corpus = [
     ("John said he likes beets.", 5, 9, "CB"),
@@ -18,7 +18,7 @@ def make_cognitive_state(sample_tuple):
 
 
 if __name__ == "__main__":
-    sample_csds = CSDS("No text corpus")
+    sample_csds = CSDSCollection("No text corpus")
     for sample in sample_corpus:
         sample_csds.add_instance(CognitiveStateFromText(*sample))
     print("Created sample CSDS instance")

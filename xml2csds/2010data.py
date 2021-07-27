@@ -1,6 +1,6 @@
 import glob
 import xml.etree.ElementTree as et
-from CSDS.csds import CognitiveStateFromText, CSDS
+from CSDS.csds import CognitiveStateFromText, CSDSCollection
 
 
 class XMLCorpusToCSDSCollection:
@@ -13,7 +13,7 @@ class XMLCorpusToCSDSCollection:
     def __init__(self, corpus_name, corpus_directory):
         self.corpus_name = corpus_name
         self.corpus_directory = corpus_directory
-        self.csds_collection = CSDS(self.corpus_name)
+        self.csds_collection = CSDSCollection(self.corpus_name)
 
     def update_nodes_dictionaries(self, tree):
         text_with_nodes = tree.find('TextWithNodes')
