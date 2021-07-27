@@ -7,9 +7,9 @@ from CSDS.csds import CognitiveStateFromText, CSDS
 def add_file(xml_file, csds_collection):
     tree = et.parse(xml_file)
     text_with_nodes = tree.find('TextWithNodes')
-    sentence = text_with_nodes.tail
     nodes_in_sentence = []
     nodes_to_sentences = {}
+    sentence = text_with_nodes.text
     nodes_to_targets = {0: text_with_nodes.text}
     for node in text_with_nodes.findall('Node'):
         text = node.tail
@@ -21,6 +21,7 @@ def add_file(xml_file, csds_collection):
             sentence += parts[0]
             for node_in_sentence in nodes_in_sentence:
                 nodes_to_sentences[node_in_sentence] = sentence
+            nodes_in_sentence.clear()
             sentence = parts[-1]
         else:
             sentence += text
@@ -30,7 +31,8 @@ def add_file(xml_file, csds_collection):
             cog_state = CognitiveStateFromText(nodes_to_sentences[annotation.attrib['StartNode']],
                                                annotation.attrib['StartNode'],
                                                annotation.attrib['EndNode'],
-                                               annotation.attrib['Type']
+                                               annotation.attrib['Type'],
+                                               nodes_to_targets[annotation.attrib['StartNode']]
                                                )
             csds_collection.add_instance(cog_state)
             print(cog_state.get_info_short())
