@@ -15,7 +15,6 @@ class XMLCorpusToCSDSCollection:
     nodes_to_sentences = {}
     nodes_to_targets = {}
     nodes_to_offsets = {}
-    text_length = 0
 
     def __init__(self, corpus_name, corpus_directory):
         self.corpus_name = corpus_name
@@ -41,21 +40,22 @@ class XMLCorpusToCSDSCollection:
                     self.nodes_to_sentences[node_in_sentence] = sentence
                 nodes_in_sentence.clear()
                 sentence = parts[-1]
+                sentence_length_so_far = len(sentence)
             else:
                 sentence += text
                 sentence_length_so_far += len(text)
-                self.text_length = sentence_length_so_far
 
     def add_file_to_csds_collection(self, tree):
         annotation_sets = tree.findall('AnnotationSet')
         for annotation_set in annotation_sets:
             for annotation in annotation_set:
-                # Do the necessary arithmetic here to get the head_end.
-                # Use that value for the head_end argument to the cSDS constructor.
-                head_start = int(annotation.attrib['StartNode'])
-                head_start -= self.text_length
-                head_end = int(annotation.attrib['EndNode'])
-                head_end -= self.text_length
+                node_id = annotation.attrib['StartNode']
+                head_start = self.nodes_to_offsets[node_id]
+                target_length = len(self.nodes_to_targets[node_id])
+                length_check = int(annotation.attrib['EndNode']) - int(node_id)
+                if length_check != target_length:
+                    print("Error: Node " + node_id + " has an incorrect end marking.")
+                head_end = head_start + target_length
                 cog_state = CognitiveStateFromText(self.nodes_to_sentences[annotation.attrib['StartNode']],
                                                    head_start,
                                                    head_end,
