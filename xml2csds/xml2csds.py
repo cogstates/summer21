@@ -15,6 +15,7 @@ class XMLCorpusToCSDSCollection:
     nodes_to_sentences = {}
     nodes_to_targets = {}
     nodes_to_offsets = {}
+    text_length = 0
 
     def __init__(self, corpus_name, corpus_directory):
         self.corpus_name = corpus_name
@@ -43,6 +44,7 @@ class XMLCorpusToCSDSCollection:
             else:
                 sentence += text
                 sentence_length_so_far += len(text)
+                self.text_length = sentence_length_so_far
 
     def add_file_to_csds_collection(self, tree):
         annotation_sets = tree.findall('AnnotationSet')
@@ -50,9 +52,13 @@ class XMLCorpusToCSDSCollection:
             for annotation in annotation_set:
                 # Do the necessary arithmetic here to get the head_end.
                 # Use that value for the head_end argument to the cSDS constructor.
+                head_start = int(annotation.attrib['StartNode'])
+                head_start -= self.text_length
+                head_end = int(annotation.attrib['EndNode'])
+                head_end -= self.text_length
                 cog_state = CognitiveStateFromText(self.nodes_to_sentences[annotation.attrib['StartNode']],
-                                                   annotation.attrib['StartNode'],
-                                                   annotation.attrib['EndNode'],
+                                                   head_start,
+                                                   head_end,
                                                    annotation.attrib['Type'],
                                                    self.nodes_to_targets[annotation.attrib['StartNode']]
                                                    )
