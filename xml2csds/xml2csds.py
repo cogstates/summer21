@@ -1,6 +1,6 @@
 import glob
 import xml.etree.ElementTree as et
-from CSDS.csds import CognitiveStateFromText, CSDSCollection
+from CSDS.csds import CSDS, CSDSCollection
 
 
 class XMLCorpusToCSDSCollection:
@@ -49,7 +49,7 @@ class XMLCorpusToCSDSCollection:
                 sentence += text
                 sentence_length_so_far += len(text)
 
-    def add_file_to_csds_collection(self, tree):
+    def add_file_to_csds_collection(self, tree, xml_file):
         annotation_sets = tree.findall('AnnotationSet')
         for annotation_set in annotation_sets:
             for annotation in annotation_set:
@@ -60,35 +60,37 @@ class XMLCorpusToCSDSCollection:
                 target_length = len(self.nodes_to_targets[node_id])
                 length_check = int(annotation.attrib['EndNode']) - int(node_id)
                 if length_check != target_length:
-                    print("Error: Node " + node_id + " has an incorrect end marking.")
+                    print(f'File: {xml_file} - Node: {node_id} has an end marking mismatch.')
                 head_end = head_start + target_length
-                cog_state = CognitiveStateFromText(self.nodes_to_sentences[annotation.attrib['StartNode']],
-                                                   head_start,
-                                                   head_end,
-                                                   annotation.attrib['Type'],
-                                                   self.nodes_to_targets[annotation.attrib['StartNode']]
-                                                   )
+                cog_state = CSDS(self.nodes_to_sentences[annotation.attrib['StartNode']],
+                                 head_start,
+                                 head_end,
+                                 annotation.attrib['Type'],
+                                 self.nodes_to_targets[annotation.attrib['StartNode']]
+                                 )
                 self.csds_collection.add_instance(cog_state)
 
     def add_file(self, xml_file):
         tree = et.parse(xml_file)
         self.update_nodes_dictionaries(tree)
-        self.add_file_to_csds_collection(tree)
+        self.add_file_to_csds_collection(tree, xml_file)
         self.nodes_to_sentences.clear()
         self.nodes_to_targets.clear()
         self.nodes_to_offsets.clear()
 
     def create_and_get_collection(self):
         for file in glob.glob(self.corpus_directory + '/*.xml'):
-            print("File: " + file)
             self.add_file(file)
         return self.csds_collection
 
 
 if __name__ == '__main__':
+    # Set verbose to True below to show the CSDS instances in the output.
+    verbose = False;
     input_processor = XMLCorpusToCSDSCollection(
         '2010 Language Understanding',
         'test')
     collection = input_processor.create_and_get_collection()
-    for entry in collection.get_next_instance():
-        print(entry.get_info_short())
+    if verbose:
+        for entry in collection.get_next_instance():
+            print(entry.get_info_short())

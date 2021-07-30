@@ -1,7 +1,7 @@
-# This is the Cognitive States Data Structure (CSDS) which represents information about writer cognitive state and
-# the text from which we have gleaned this information.
-
-# Basic information per instance of CognitiveStateFromText:
+# Cognitive States Data Structure (CSDS): Represents information about
+# the writer's cognitive state and the text from which we have gleaned
+# this information.
+# Basic information per CSDS instance:
 # - the text
 # - the proposition in the text about which we record the cognitive state;
 #     we represent this by the start and end of the syntactic headword of the
@@ -14,9 +14,14 @@
 # Many more fields will be added as we go along.
 
 
-class CognitiveStateFromText:
-    text = ""  # sentence
-    head_start = -1  # offset of start of head word of proposition
+class CSDS:
+    """
+    Cognitive States Data Structure (CSDS): Represents information about 
+    the writer's cognitive state and the text from which we have gleaned 
+    this information.
+    """
+    text = ""  # sentence in which the annotated head occurs
+    head_start = -1  # offset within sentence of start of head word of proposition
     head_end = -1  # offset of end of head word of proposition
     head = ""  # target of annotation within sentence
     belief = ""  # belief value (values are corpus-specific)
