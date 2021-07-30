@@ -89,7 +89,7 @@ if __name__ == '__main__':
     verbose = False;
     input_processor = XMLCorpusToCSDSCollection(
         '2010 Language Understanding',
-        '../CMU')
+        'test')
     collection = input_processor.create_and_get_collection()
     if verbose:
         for entry in collection.get_next_instance():
