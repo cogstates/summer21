@@ -33,7 +33,7 @@ class XMLCorpusToCSDSCollection:
             text = node.tail
             node_id = node.attrib['id']
             if text is None:
-
+                continue
             self.nodes_to_targets[node_id] = text
             nodes_in_sentence.append(node_id)
             self.nodes_to_offsets[node_id] = sentence_length_so_far
