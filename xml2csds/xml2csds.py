@@ -24,12 +24,16 @@ class XMLCorpusToCSDSCollection:
     def update_nodes_dictionaries(self, tree):
         text_with_nodes = tree.find('TextWithNodes')
         nodes_in_sentence = []
-        sentence = text_with_nodes.text
+        sentence = ""
+        if text_with_nodes.text is not None:
+            sentence += text_with_nodes.text
         sentence_length_so_far = len(sentence)
         self.nodes_to_targets[0] = text_with_nodes.text
         for node in text_with_nodes.findall('Node'):
             text = node.tail
             node_id = node.attrib['id']
+            if text is None:
+
             self.nodes_to_targets[node_id] = text
             nodes_in_sentence.append(node_id)
             self.nodes_to_offsets[node_id] = sentence_length_so_far
@@ -49,6 +53,8 @@ class XMLCorpusToCSDSCollection:
         annotation_sets = tree.findall('AnnotationSet')
         for annotation_set in annotation_sets:
             for annotation in annotation_set:
+                if annotation.attrib['Type'] == 'paragraph':
+                    continue
                 node_id = annotation.attrib['StartNode']
                 head_start = self.nodes_to_offsets[node_id]
                 target_length = len(self.nodes_to_targets[node_id])
@@ -74,12 +80,15 @@ class XMLCorpusToCSDSCollection:
 
     def create_and_get_collection(self):
         for file in glob.glob(self.corpus_directory + '/*.xml'):
+            print("File: " + file)
             self.add_file(file)
         return self.csds_collection
 
 
 if __name__ == '__main__':
-    input_processor = XMLCorpusToCSDSCollection('2010 Language Understanding', '.')
+    input_processor = XMLCorpusToCSDSCollection(
+        '2010 Language Understanding',
+        'test')
     collection = input_processor.create_and_get_collection()
     for entry in collection.get_next_instance():
         print(entry.get_info_short())
