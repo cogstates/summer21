@@ -30,7 +30,7 @@ class CognitiveStateFromText:
         self.head = this_head
 
     def get_info_short(self):
-        return "<CSDS instance (" + self.head_start + ") (" + self.text + ") (" + \
+        return "<CSDS instance (" + str(self.head_start) + ") (" + self.text + ") (" + \
                self.head + ") (" + self.belief + ")> "
 
 
