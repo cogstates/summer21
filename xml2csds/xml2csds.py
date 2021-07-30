@@ -1,6 +1,6 @@
 import glob
 import xml.etree.ElementTree as et
-from CSDS.csds import CognitiveStateFromText, CSDSCollection
+from CSDS.csds import CSDS, CSDSCollection
 
 
 class XMLCorpusToCSDSCollection:
@@ -62,12 +62,12 @@ class XMLCorpusToCSDSCollection:
                 if length_check != target_length:
                     print(f'File: {xml_file} - Node: {node_id} has an end marking mismatch.')
                 head_end = head_start + target_length
-                cog_state = CognitiveStateFromText(self.nodes_to_sentences[annotation.attrib['StartNode']],
-                                                   head_start,
-                                                   head_end,
-                                                   annotation.attrib['Type'],
-                                                   self.nodes_to_targets[annotation.attrib['StartNode']]
-                                                   )
+                cog_state = CSDS(self.nodes_to_sentences[annotation.attrib['StartNode']],
+                                 head_start,
+                                 head_end,
+                                 annotation.attrib['Type'],
+                                 self.nodes_to_targets[annotation.attrib['StartNode']]
+                                 )
                 self.csds_collection.add_instance(cog_state)
 
     def add_file(self, xml_file):
