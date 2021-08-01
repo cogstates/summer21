@@ -86,10 +86,10 @@ class XMLCorpusToCSDSCollection:
 
 if __name__ == '__main__':
     # Set verbose to True below to show the CSDS instances in the output.
-    verbose = False;
+    verbose = True
     input_processor = XMLCorpusToCSDSCollection(
         '2010 Language Understanding',
-        'test')
+        '../CMU')
     collection = input_processor.create_and_get_collection()
     if verbose:
         for entry in collection.get_next_instance():
