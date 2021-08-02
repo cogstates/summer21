@@ -40,7 +40,7 @@ class CSDS:
 
     def get_marked_text(self):
         # puts stars around annotated snippet
-        new_sentence = self.text[0:self.head_start] + " * " + self.text[self.head_start:self.head_end] + " * " + self.text[self.head_end: len(self.text)]
+        new_sentence = self.text[0:self.head_start] + "* " + self.text[self.head_start:self.head_end] + " *" + self.text[self.head_end: len(self.text)]
         return new_sentence
 
 class CSDSCollection:
