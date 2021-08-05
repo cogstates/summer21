@@ -3,7 +3,6 @@
 import datasets
 import numpy as np
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trainer, TrainingArguments
-
 from datasets import Dataset, DatasetDict, ClassLabel, load_metric
 
 # create a CSDS as dict
@@ -60,9 +59,6 @@ csds_eval_dict = {'text': ["Peter said he likes beets.",
                   'label': map(c2l.str2int, ["CB", "NCB", "NCB", "NCB", "NCB", "NCB", "NCB",
                             "NCB", "NCB", "NCB", "NCB", "NCB", "NCB", "NCB",
                             "NCB", "NCB", "NCB", "NCB", "NCB", "NCB"])}
-
-
-
 
 
 
