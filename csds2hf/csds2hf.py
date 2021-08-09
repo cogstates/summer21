@@ -2,9 +2,6 @@ from datasets import Dataset, DatasetDict, ClassLabel, load_metric
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trainer, TrainingArguments
 from xml2csds.xml2csds import XMLCorpusToCSDSCollection
 
-# First create a mapping from string labels to integers
-cl = ClassLabel(num_classes=3, names=['CB', 'NCB', 'NA'])
-
 
 class CSDS2HF:
 
