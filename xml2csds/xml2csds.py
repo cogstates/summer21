@@ -64,7 +64,7 @@ class XMLCorpusToCSDSCollection:
                     print(f'File: {xml_file} - Node: {node_id} has an end marking mismatch.')
                 head_end = head_start + target_length
                 annotation_type = annotation.attrib['Type']
-                annotation_type = re.sub('\s*[fF]uture$', '', annotation_type)
+                annotation_type = re.sub(r'\s*future$', '', annotation_type, flags=re.I)
                 cog_state = CSDS(self.nodes_to_sentences[annotation.attrib['StartNode']],
                                  head_start,
                                  head_end,
