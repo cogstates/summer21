@@ -1,5 +1,6 @@
 import glob
 import xml.etree.ElementTree as et
+import re
 from CSDS.csds import CSDS, CSDSCollection
 
 
@@ -62,15 +63,12 @@ class XMLCorpusToCSDSCollection:
                 if length_check != target_length:
                     print(f'File: {xml_file} - Node: {node_id} has an end marking mismatch.')
                 head_end = head_start + target_length
-                type = annotation.attrib['Type']
-                if type == 'Committed Belief Future':
-                    type = 'Committed Belief'
-                elif type == 'Non-Committed Belief Future':
-                    type = 'Non-Committed Belief'
+                annotation_type = annotation.attrib['Type']
+                annotation_type = re.sub('\s*[fF]uture$', '', annotation_type)
                 cog_state = CSDS(self.nodes_to_sentences[annotation.attrib['StartNode']],
                                  head_start,
                                  head_end,
-                                 type,
+                                 annotation_type,
                                  self.nodes_to_targets[annotation.attrib['StartNode']]
                                  )
                 self.csds_collection.add_instance(cog_state)
