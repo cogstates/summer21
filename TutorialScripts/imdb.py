@@ -9,9 +9,16 @@
 from datasets import load_dataset, load_metric
 import numpy as np
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trainer, TrainingArguments
+from datetime import datetime
 
 def notify (string):
     print(">>>>   ", string, "   <<<<")
+    # datetime object containing current date and time
+    now = datetime.now()
+    # dd/mm/YY H:M:S
+    dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+    print("date and time =", dt_string)
+
 
 notify("Loading imdb dataset")
 

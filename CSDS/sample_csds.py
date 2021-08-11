@@ -21,11 +21,11 @@ if __name__ == "__main__":
     sample_csds = CSDSCollection("No text corpus")
     for sample in sample_corpus:
         sample_csds.add_instance(CSDS(*sample))
-    # print("Created sample CSDS instance")
-    # print(sample_csds.get_info_short())
-    # print(sample_csds.get_info_long())
-    # # Not something you would normally do--therefore not in the API:
-    # sample_csds.instances.clear()
+    print("Created sample CSDS instance")
+    print(sample_csds.get_info_short())
+    print(sample_csds.get_info_long())
+    # Not something you would normally do--therefore not in the API:
+    sample_csds.instances.clear()
     new_samples = list(map(make_cognitive_state, sample_corpus))
     sample_csds.add_list_of_instances(new_samples)
     print(sample_csds.get_info_short())
