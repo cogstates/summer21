@@ -22,7 +22,7 @@ def compute_metrics(eval_pred):
 if __name__ == '__main__':
     input_processor = XMLCorpusToCSDSCollection(
         '2010 Language Understanding',
-        '../CMU')
+        'CMU')
     collection = input_processor.create_and_get_collection()
     csds2hf = CSDS2HF(collection)
     csds_datasets = csds2hf.get_dataset_dict()
