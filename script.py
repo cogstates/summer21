@@ -33,7 +33,7 @@ if __name__ == '__main__':
     model = AutoModelForSequenceClassification.from_pretrained("bert-base-cased", num_labels=5)
     metric = load_metric("accuracy")
     notify("Starting training")
-    training_args = TrainingArguments("../CSDS/test_trainer")
+    training_args = TrainingArguments("CSDS/test_trainer")
     trainer = Trainer(
         model=model,
         args=training_args,
