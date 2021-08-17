@@ -88,7 +88,7 @@ class XMLCorpusToCSDSCollection:
 
 
 if __name__ == '__main__':
-    # Set verbose to True below to show the CSDS instances in the output.
+    # Set verbose to True below to show the CSDS labeled_instances in the output.
     verbose = True
     input_processor = XMLCorpusToCSDSCollection(
         '2010 Language Understanding',

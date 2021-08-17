@@ -32,7 +32,7 @@ if __name__ == '__main__':
     tokenized_csds_datasets = csds_datasets.map(tokenize_function, batched=True)
     notify("Done tokenizing dataset")
     model = AutoModelForSequenceClassification.from_pretrained("bert-base-cased", num_labels=5)
-    metric = load_metric("accuracy")
+    metric = load_metric("accuracy", "recall")
     notify("Starting training")
     training_args = TrainingArguments("CSDS/test_trainer")
     trainer = Trainer(
