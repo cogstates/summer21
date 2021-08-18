@@ -13,9 +13,11 @@ class XMLCorpusToCSDSCollection:
     corpus_name = ""
     corpus_directory = ""
     csds_collection = None
+    doc_id = -1
     nodes_to_sentences = {}
     nodes_to_targets = {}
     nodes_to_offsets = {}
+    sentences = []
 
     def __init__(self, corpus_name, corpus_directory):
         self.corpus_name = corpus_name
@@ -26,6 +28,7 @@ class XMLCorpusToCSDSCollection:
         text_with_nodes = tree.find('TextWithNodes')
         nodes_in_sentence = []
         sentence = ""
+        sentence_id = 0
         if text_with_nodes.text is not None:
             sentence += text_with_nodes.text
         sentence_length_so_far = len(sentence)
@@ -41,16 +44,19 @@ class XMLCorpusToCSDSCollection:
             if '\n' in text:
                 parts = text.split('\n')
                 sentence += parts[0]
+                self.sentences.append(sentence)
                 for node_in_sentence in nodes_in_sentence:
-                    self.nodes_to_sentences[node_in_sentence] = sentence
+                    self.nodes_to_sentences[node_in_sentence] = sentence_id
                 nodes_in_sentence.clear()
                 sentence = parts[-1]
                 sentence_length_so_far = len(sentence)
+                sentence_id += 1
             else:
                 sentence += text
                 sentence_length_so_far += len(text)
 
     def add_file_to_csds_collection(self, tree, xml_file):
+        self.doc_id += 1
         annotation_sets = tree.findall('AnnotationSet')
         for annotation_set in annotation_sets:
             for annotation in annotation_set:
@@ -65,12 +71,16 @@ class XMLCorpusToCSDSCollection:
                 head_end = head_start + target_length
                 annotation_type = annotation.attrib['Type']
                 annotation_type = re.sub(r'\s*future$', '', annotation_type, flags=re.I)
-                cog_state = CSDS(self.nodes_to_sentences[annotation.attrib['StartNode']],
-                                 head_start,
-                                 head_end,
-                                 annotation_type,
-                                 self.nodes_to_targets[annotation.attrib['StartNode']]
-                                 )
+                sentence_id = self.nodes_to_sentences[annotation.attrib['StartNode']]
+                cog_state = CSDS(
+                    self.sentences[sentence_id],
+                    head_start,
+                    head_end,
+                    annotation_type,
+                    self.nodes_to_targets[annotation.attrib['StartNode']],
+                    self.doc_id,
+                    sentence_id
+                )
                 self.csds_collection.add_instance(cog_state)
 
     def add_file(self, xml_file):
