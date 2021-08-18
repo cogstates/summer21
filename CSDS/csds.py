@@ -56,6 +56,8 @@ class CSDS:
     def get_belief(self):
         return self.belief
 
+    def get_doc_id(self):
+        return self.doc_id
 
 class CSDSCollection:
     labeled_instances = []
@@ -91,6 +93,12 @@ class CSDSCollection:
             instances = self.labeled_instances
         for instance in instances:
             yield instance
+
+    def get_labeled_instances_length(self):
+        return len(self.labeled_instances)
+
+    def get_o_instances_length(self):
+        return len(self.o_instances)
 
     def get_info_short(self):
         return "<CSDS from \"" + self.corpus + "\"; " + str(len(self.labeled_instances)) + " labeled_instances>"
