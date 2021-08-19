@@ -59,6 +59,7 @@ class CSDS:
     def get_doc_id(self):
         return self.doc_id
 
+
 class CSDSCollection:
     labeled_instances = []
     o_instances = []

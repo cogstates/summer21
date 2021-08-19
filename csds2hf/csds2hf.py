@@ -18,7 +18,7 @@ class CSDS2HF:
         # checks example sentences in each document
         doc_id_count_table = {}
         size = self.csds_collection.get_labeled_instances_length() + self.csds_collection.get_o_instances_length()
-        size_training = size - size // 4
+
         for instance in self.csds_collection.get_next_instance():
             # add get_doc_id in CSDS
             doc_id = instance.get_doc_id()
@@ -29,6 +29,7 @@ class CSDS2HF:
 
         # assigns train or testing to the documents
         doc_id_train_or_test = {}
+        size_training = size - size // 4
         size_training_so_far = 0
         size_check_sum = 0
         for document in doc_id_count_table:
@@ -39,7 +40,7 @@ class CSDS2HF:
                 doc_id_train_or_test[document] = 'test'
             size_check_sum += doc_id_count_table[document]
         print('Size of training corpus:', size_training_so_far)
-        print('Percent of training text:', size_training_so_far // size)
+        print('Percent of training text:', (size_training_so_far / size)*100)
         if size != size_check_sum:
             print('Warning: size does not check out')
 
@@ -58,9 +59,6 @@ class CSDS2HF:
         beliefs += self.training_labels
         beliefs += self.test_labels
         self.unique_labels = list(set(beliefs))
-
-        if (len(self.test_labels) - len(self.training_labels)) > 0:
-            print('Error: unseen labels in test_labels')
 
     def get_dataset_dict(self):
         self.populate_lists()
