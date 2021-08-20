@@ -2,6 +2,7 @@ import glob
 import xml.etree.ElementTree as et
 import re
 from CSDS.csds import CSDS, CSDSCollection
+from nltk.tokenize import SpaceTokenizer
 
 
 class XMLCorpusToCSDSCollection:
@@ -18,6 +19,7 @@ class XMLCorpusToCSDSCollection:
     nodes_to_targets = {}
     nodes_to_offsets = {}
     sentences = []
+    sentence_to_annotation_offsets = {}
 
     def __init__(self, corpus_name, corpus_directory):
         self.corpus_name = corpus_name
@@ -44,6 +46,7 @@ class XMLCorpusToCSDSCollection:
             if '\n' in text:
                 parts = text.split('\n')
                 sentence += parts[0]
+                self.sentence_to_annotation_offsets[sentence_id] = []
                 self.sentences.append(sentence)
                 for node_in_sentence in nodes_in_sentence:
                     self.nodes_to_sentences[node_in_sentence] = sentence_id
@@ -82,14 +85,42 @@ class XMLCorpusToCSDSCollection:
                     sentence_id
                 )
                 self.csds_collection.add_instance(cog_state)
+                self.sentence_to_annotation_offsets[sentence_id].append((head_start, head_end))
+
+    def add_o_annotations(self):
+        tokenizer = SpaceTokenizer()
+        for sentence_id, sentence in enumerate(self.sentences):
+            o_offset_pairs = list(tokenizer.span_tokenize(sentence))
+            includes = []
+            for pair in o_offset_pairs:
+                include = True
+                for annotated_pair in self.sentence_to_annotation_offsets[sentence_id]:
+                    if pair[0] >= annotated_pair[0] and pair[1] <= annotated_pair[1]:
+                        include = False
+                        break
+                if include:
+                    includes.append(pair)
+            for (start, end) in includes:
+                cog_state = CSDS(
+                    sentence,
+                    start,
+                    end,
+                    "O",
+                    sentence[start:end],
+                    self.doc_id,
+                    sentence_id
+                )
+                self.csds_collection.add_instance(cog_state, 'o')
 
     def add_file(self, xml_file):
         tree = et.parse(xml_file)
         self.update_nodes_dictionaries(tree)
         self.add_file_to_csds_collection(tree, xml_file)
+        self.add_o_annotations()
         self.nodes_to_sentences.clear()
         self.nodes_to_targets.clear()
         self.nodes_to_offsets.clear()
+        self.sentences.clear()
 
     def create_and_get_collection(self):
         for file in glob.glob(self.corpus_directory + '/*.xml'):
@@ -106,4 +137,6 @@ if __name__ == '__main__':
     collection = input_processor.create_and_get_collection()
     if verbose:
         for entry in collection.get_next_instance():
+            print(entry.get_info_short())
+        for entry in collection.get_next_instance('o'):
             print(entry.get_info_short())
