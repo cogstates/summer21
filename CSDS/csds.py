@@ -13,6 +13,8 @@
 
 # Many more fields will be added as we go along.
 
+from itertools import chain
+
 
 class CSDS:
     """
@@ -61,52 +63,120 @@ class CSDS:
 
 
 class CSDSCollection:
+    """
+    Holds a collection of CSDS objects for a single corpus, each of which represents
+    a single example in the corpus.
+    Each example consists of a sentence in the corpus, together with a label
+    annotating a word or phrase in the sentence, which is called the head.
+    A single collection represents an entire corpus.
+    Maintains separate lists of CSDS objects whose labels correspond
+    to actual annotations and to default pseudo-annotations (for un-annotated
+    tokens), respectively.  The pseudo-annotation appears as the 'O' label here.
+    The client code determines whether to populate the second list.
+    """
+    # List of examples from the corpus that were originally annotated with a real label.
     labeled_instances = []
+
+    # List of examples consisting of non-annotated words with the "O" pseudo-label.
     o_instances = []
+
+    # Name of the corpus from which the examples in this collection were drawn.
+    # This collection represents a single corpus.
     corpus = ""
 
     def __init__(self, this_corpus):
+        """
+        Stores the name of the corpus from which the examples are drawn.
+        :param this_corpus:
+        """
         self.corpus = this_corpus
 
-    # add a single new instance
-    def add_instance(self, new_instance, instance_type='labeled'):
-        if instance_type == 'o':
-            self.o_instances.append(new_instance)
-        else:
-            self.labeled_instances.append(new_instance)
+    def add_labeled_instance(self, new_instance):
+        """
+        Adds a single CSDS object to the collection for an actual annotation.
+        :param new_instance: The CSDS object representing the example.
+        :return: None.
+        """
+        self.labeled_instances.append(new_instance)
 
-    # add a list of new labeled_instances
-    def add_list_of_instances(self, list_of_new_instances, instance_type='labeled'):
-        if instance_type == 'o':
-            self.o_instances.extend(list_of_new_instances)
-        else:
-            self.labeled_instances.extend(list_of_new_instances)
+    def add_o_instance(self, new_instance):
+        """
+        Adds a single CSDS object to the collection for an un-annotated word.
+        :param new_instance: The CSDS object representing the example.
+        :return: None.
+        """
+        self.o_instances.append(new_instance)
 
-    # return labeled_instances as list
+    def add_list_of_labeled_instances(self, list_of_new_instances):
+        """
+        Adds a list of CSDS objects to this collection, where each
+        CSDS object corresponds to an actual annotation in the corpus.
+        :param list_of_new_instances: List of CSDS objects with a label based on an annotation.
+        :return: None.
+        """
+        self.labeled_instances.extend(list_of_new_instances)
+
+    def add_list_of_o_instances(self, list_of_new_instances):
+        """
+        Adds a list of CSDS objects to this collection, where each
+        CSDS object corresponds to word in the corpus that has not been annotated.
+        :param list_of_new_instances: List of CSDS objects with the 'O' label.
+        :return: None.
+        """
+        self.o_instances.extend(list_of_new_instances)
+
     def get_all_instances(self):
+        """
+        Returns two lists of CSDS objects:
+        1. The first corresponding to actual annotations in the corpus
+        2. The second corresponding to non-annotated words in the corpus.
+        :return: A pair of lists of CSDS objects.
+        """
         return self.labeled_instances, self.o_instances
 
-    # generator: return the next instance in an iteration over the labeled_instances
-    def get_next_instance(self, instance_type='labeled'):
-        if instance_type == 'o':
-            instances = self.o_instances
-        else:
-            instances = self.labeled_instances
-        for instance in instances:
-            yield instance
+    def get_next_instance(self):
+        """
+        Provides for iteration over all CSDS objects in the collection.
+        :return: An iterator that includes all internal lists of CSDS objects.
+        """
+        return chain(self.labeled_instances, self.o_instances)
 
-    def get_labeled_instances_length(self):
+    def get_num_labeled_instances(self):
+        """
+        Gets the number of CSDS objects in this collection corresponding
+        to actual annotations in the corpus.
+        :return:  An integer, the count of labeled CSDS objects.
+        """
         return len(self.labeled_instances)
 
     def get_o_instances_length(self):
+        """
+            Gets the number of CSDS objects in this collection corresponding
+            to un-annotated instances of words in the corpus.
+            :return:  An integer, the count of 'O'-labeled CSDS objects.
+            """
         return len(self.o_instances)
 
     def get_info_short(self):
-        return "<CSDS from \"" + self.corpus + "\"; " + str(len(self.labeled_instances)) + " labeled_instances>"
+        """
+        Gets a brief string representation of this collection.
+        :return: A string containing essential details about this collection.
+        """
+        return (
+                f"<CSDS collection from \"{self.corpus}\": {str(len(self.labeled_instances))} " 
+                f"labeled_instances>"
+        )
 
     def get_info_long(self):
-        message = "<CSDS from \"" + self.corpus + "\"; " + str(len(self.labeled_instances)) + " labeled_instances:\n"
+        """
+        Gets a detailed string representation of the collection.
+        :return: A string including representations of each labeled instance in the collection.
+        """
+        message = (
+            f"<CSDS collection from \"{self.corpus}\": {str(len(self.labeled_instances))} "
+            f"labeled_instances:\n"
+        )
         for instance in self.labeled_instances:
-            message += "   " + instance.get_info_short() + "\n"
+            message += f"   {instance.get_info_short()}\n"
         message += ">\n"
         return message

@@ -20,14 +20,14 @@ def make_cognitive_state(sample_tuple):
 if __name__ == "__main__":
     sample_csds = CSDSCollection("No text corpus")
     for sample in sample_corpus:
-        sample_csds.add_instance(CSDS(*sample))
+        sample_csds.add_labeled_instance(CSDS(*sample))
     print("Created sample CSDS instance")
     print(sample_csds.get_info_short())
     print(sample_csds.get_info_long())
     # Not something you would normally do--therefore not in the API:
     sample_csds.labeled_instances.clear()
     new_samples = list(map(make_cognitive_state, sample_corpus))
-    sample_csds.add_list_of_instances(new_samples)
+    sample_csds.add_list_of_labeled_instances(new_samples)
     print(sample_csds.get_info_short())
     for sample in sample_csds.get_next_instance():
         print(sample.get_marked_text())
