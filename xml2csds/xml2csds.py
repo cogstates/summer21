@@ -84,7 +84,7 @@ class XMLCorpusToCSDSCollection:
                     self.doc_id,
                     sentence_id
                 )
-                self.csds_collection.add_instance(cog_state)
+                self.csds_collection.add_labeled_instance(cog_state)
                 self.sentence_to_annotation_offsets[sentence_id].append((head_start, head_end))
 
     def add_o_annotations(self):
@@ -110,7 +110,7 @@ class XMLCorpusToCSDSCollection:
                     self.doc_id,
                     sentence_id
                 )
-                self.csds_collection.add_instance(cog_state, 'o')
+                self.csds_collection.add_labeled_instance(cog_state, 'o')
 
     def add_file(self, xml_file):
         tree = et.parse(xml_file)

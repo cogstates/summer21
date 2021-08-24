@@ -17,7 +17,7 @@ class CSDS2HF:
     def populate_lists(self):
         # checks example sentences in each document
         doc_id_count_table = {}
-        size = self.csds_collection.get_labeled_instances_length() + self.csds_collection.get_o_instances_length()
+        size = self.csds_collection.get_num_labeled_instances() + self.csds_collection.get_o_instances_length()
 
         for instance in self.csds_collection.get_next_instance():
             # add get_doc_id in CSDS
