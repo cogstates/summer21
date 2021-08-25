@@ -110,7 +110,7 @@ class XMLCorpusToCSDSCollection:
                     self.doc_id,
                     sentence_id
                 )
-                self.csds_collection.add_labeled_instance(cog_state, 'o')
+                self.csds_collection.add_o_instance(cog_state)
 
     def add_file(self, xml_file):
         tree = et.parse(xml_file)
@@ -137,6 +137,4 @@ if __name__ == '__main__':
     collection = input_processor.create_and_get_collection()
     if verbose:
         for entry in collection.get_next_instance():
-            print(entry.get_info_short())
-        for entry in collection.get_next_instance('o'):
             print(entry.get_info_short())

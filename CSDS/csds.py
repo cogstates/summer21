@@ -141,6 +141,14 @@ class CSDSCollection:
         """
         return chain(self.labeled_instances, self.o_instances)
 
+    def get_next_labeled_instance(self):
+        """
+        Provides for iteration over only those CSDS objects in the collection
+        that correspond to annotations in the corpus.
+        :return: An iterator that includes only the list of labeled instances.
+        """
+        yield self.labeled_instances
+
     def get_num_labeled_instances(self):
         """
         Gets the number of CSDS objects in this collection corresponding
