@@ -147,7 +147,17 @@ class CSDSCollection:
         that correspond to annotations in the corpus.
         :return: An iterator that includes only the list of labeled instances.
         """
-        yield self.labeled_instances
+        for instance in self.labeled_instances:
+            yield instance
+
+    def get_next_o_instance(self):
+        """
+        Provides for iteration over only those CSDS objects in the collection
+        that correspond to words not annotated in the corpus.
+        :return: An iterator that includes only the list of instances labeled 'O.'
+        """
+        for instance in self.o_instances:
+            yield instance
 
     def get_num_labeled_instances(self):
         """
