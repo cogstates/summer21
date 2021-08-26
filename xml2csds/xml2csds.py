@@ -87,6 +87,26 @@ class XMLCorpusToCSDSCollection:
                 self.csds_collection.add_labeled_instance(cog_state)
                 self.sentence_to_annotation_offsets[sentence_id].append((head_start, head_end))
 
+    def add_file(self, xml_file):
+        tree = et.parse(xml_file)
+        self.update_nodes_dictionaries(tree)
+        self.add_file_to_csds_collection(tree, xml_file)
+        self.nodes_to_sentences.clear()
+        self.nodes_to_targets.clear()
+        self.nodes_to_offsets.clear()
+        self.sentences.clear()
+
+    def create_and_get_collection(self):
+        for file in glob.glob(self.corpus_directory + '/*.xml'):
+            self.add_file(file)
+        return self.csds_collection
+
+
+class XMLCorpusToCSDSCollectionWithOLabels(XMLCorpusToCSDSCollection):
+
+    def __init__(self, corpus_name, corpus_directory):
+        super().__init__(corpus_name, corpus_directory)
+
     def add_o_annotations(self):
         tokenizer = SpaceTokenizer()
         for sentence_id, sentence in enumerate(self.sentences):
@@ -122,11 +142,6 @@ class XMLCorpusToCSDSCollection:
         self.nodes_to_offsets.clear()
         self.sentences.clear()
 
-    def create_and_get_collection(self):
-        for file in glob.glob(self.corpus_directory + '/*.xml'):
-            self.add_file(file)
-        return self.csds_collection
-
 
 if __name__ == '__main__':
     # Set verbose to True below to show the CSDS labeled_instances in the output.
@@ -137,6 +152,4 @@ if __name__ == '__main__':
     collection = input_processor.create_and_get_collection()
     if verbose:
         for entry in collection.get_next_instance():
-            print(entry.get_info_short())
-        for entry in collection.get_next_labeled_instance():
             print(entry.get_info_short())
