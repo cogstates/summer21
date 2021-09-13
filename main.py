@@ -16,9 +16,7 @@ def tokenize_function(examples):
 
 def compute_metrics(pred):
     labels = pred.label_ids
-    print(labels)
     preds = pred.predictions.argmax(-1)
-    print(preds)
     precision, recall, f1, _ = precision_recall_fscore_support(labels, preds, average=None)
     acc = accuracy_score(labels, preds)
     return {
