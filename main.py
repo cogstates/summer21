@@ -1,10 +1,10 @@
 from datasets import load_metric
 import numpy as np
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trainer, TrainingArguments
+from sklearn.metrics import precision_recall_fscore_support, accuracy_score
 
 from csds2hf.csds2hf import CSDS2HF
-from xml2csds.xml2csds import XMLCorpusToCSDSCollection
-
+from xml2csds.xml2csds import XMLCorpusToCSDSCollection, XMLCorpusToCSDSCollectionWithOLabels
 
 def notify(string):
     print(">>>>   ", string, "   <<<<")
@@ -14,10 +14,19 @@ def tokenize_function(examples):
     return tokenizer(examples["text"], padding="max_length", truncation=True)
 
 
-def compute_metrics(eval_pred):
-    logits, labels = eval_pred
-    predictions = np.argmax(logits, axis=-1)
-    return metric.compute(predictions=predictions, references=labels)
+def compute_metrics(pred):
+    labels = pred.label_ids
+    print(labels)
+    preds = pred.predictions.argmax(-1)
+    print(preds)
+    precision, recall, f1, _ = precision_recall_fscore_support(labels, preds, average=None)
+    acc = accuracy_score(labels, preds)
+    return {
+        'accuracy': acc,
+        'f1': f1,
+        'precision': precision,
+        'recall': recall
+    }
 
 
 if __name__ == '__main__':
@@ -31,10 +40,16 @@ if __name__ == '__main__':
     tokenizer = AutoTokenizer.from_pretrained("bert-base-cased")
     tokenized_csds_datasets = csds_datasets.map(tokenize_function, batched=True)
     notify("Done tokenizing dataset")
-    model = AutoModelForSequenceClassification.from_pretrained("bert-base-cased", num_labels=5)
-    metric = load_metric("accuracy", "recall")
+    model = AutoModelForSequenceClassification.from_pretrained("bert-base-cased", num_labels=3)
     notify("Starting training")
-    training_args = TrainingArguments("/gpfs/home/jmurzaku/cogstates/test_trainer")
+    training_args = args = TrainingArguments(
+        "test",
+    evaluation_strategy = "epoch",
+    per_device_train_batch_size=1,
+    per_device_eval_batch_size=1,
+    num_train_epochs=0.01,
+    logging_dir='logs',
+)
     trainer = Trainer(
         model=model,
         args=training_args,
