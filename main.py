@@ -38,19 +38,10 @@ if __name__ == '__main__':
     tokenizer = AutoTokenizer.from_pretrained("bert-base-cased")
     tokenized_csds_datasets = csds_datasets.map(tokenize_function, batched=True)
     notify("Done tokenizing dataset")
-    model = AutoModelForSequenceClassification.from_pretrained("bert-base-cased", num_labels=3)
+    model = AutoModelForSequenceClassification.from_pretrained("bert-base-cased", num_labels=5)
     notify("Starting training")
-    training_args = args = TrainingArguments(
-        "test",
-    evaluation_strategy = "epoch",
-    per_device_train_batch_size=1,
-    per_device_eval_batch_size=1,
-    num_train_epochs=0.01,
-    logging_dir='logs',
-)
     trainer = Trainer(
         model=model,
-        args=training_args,
         train_dataset=tokenized_csds_datasets['train'],
         eval_dataset=tokenized_csds_datasets['eval'],
         compute_metrics=compute_metrics,
