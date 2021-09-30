@@ -2,6 +2,7 @@
 from __future__ import annotations
 from typing import Any, Callable, Iterable, TypeVar, Union
 import os
+import shelve
 
 
 def safe_iter(arg: Union[Any, Iterable[Any]]) -> Iterable[Any]:
@@ -84,6 +85,15 @@ class Filter:
         return Filter(lambda *args, **kwargs: not self.fn(*args, **kwargs))
 
 
+def shelf(path: str) -> Any:
+    # Use an open handle if it exists.
+    if hasattr(cache, path) and not hasattr(getattr(cache, path).dict, "closed"):
+        return getattr(cache, path)
+    # Otherwise open a new handle.
+    setattr(cache, path, shelve.open(f"{path}.shelf"))
+    return getattr(cache, path)
+
+
 # TODO: Does this really need to support generator functions?
 # TODO: Maybe this should be a class so it can have a "clear()".
 # fmt: off
@@ -99,11 +109,10 @@ def cache(path: str) -> Callable[..., Any]:
     """
     def decorator(fn: Callable[..., Any]) -> Callable[..., Any]:
         def wrapper(*args: Any, **kwargs: Any) -> Any:
-            import shelve
             import pickle
             import inspect
 
-            with shelve.open(f"{path}.shelf") as db:
+            with shelf(path) as db:
                 key = str(pickle.dumps(tuple(list(args) + list(kwargs.values()))))
                 if inspect.isgeneratorfunction(fn):
                     if key not in db:
