@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import annotations
-from typing import Any, Callable, Iterable, TypeVar, Union
+from typing import Any, Callable, Iterable, Iterator, TypeVar, Union
 import os
 import shelve
 
@@ -37,9 +37,9 @@ def save_iter(itr: Iterable[Any], path: str, mode: str = "w") -> None:
                 map(
                     operator.itemgetter("english"),
                     itertools.islice(
-                        costep.search(
+                        filter(
                             german(contains("ja")),
-                            ("german", "english")
+                            sentences("german", "english")
                         ),
                         5
                     )
@@ -60,6 +60,32 @@ def save_iter(itr: Iterable[Any], path: str, mode: str = "w") -> None:
             fd.write(str(first))
             for line in itr:
                 fd.write("\n" + str(line))
+
+
+def ilen(itr: Iterator[Any]) -> int:
+    """
+    Return the number of items in a given iterable.
+
+        >>> ilen(x for x in range(1000000) if x % 3 == 0)
+        333334
+
+    This consumes the iterable, so handle with care.
+
+    Note:
+        Stolen from more_itertools.
+
+    Args:
+        itr (Iterator[Any]): An iterator.
+
+    Returns:
+        The number of items in the iterator.
+    """
+    import itertools
+    import collections
+
+    cntr = itertools.count()
+    collections.deque(zip(itr, cntr), maxlen=0)
+    return next(cntr)
 
 
 class Filter:

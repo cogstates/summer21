@@ -146,7 +146,7 @@ def language(lang: str) -> Callable[[Filter], Filter]:
 
     Examples:
         >>> german = language("german")
-        >>> next(costep.search(german(contains("ja")), ("german", "english")))
+        >>> next(filter(german(contains("ja")), sentences("german", "english")))
         {'german': 'Wir haben ja mit Ihnen einen Experten, der ohnehin mit diesen...',
          'english': 'After all, we have in you an expert who is in any case closely...',
          'meta': {'session': '1996-04-15',
@@ -210,7 +210,7 @@ def every(*args: Filter) -> Filter:
 
     Examples:
         >>> german = language("german")
-        >>> next(costep.search(german(every(contains("ja"), contains("sagen"))), ("german", "english")))
+        >>> next(filter(german(every(contains("ja"), contains("sagen"))), sentences("german", "english")))
         {'german': 'Daß wir ja zur Zollunion sagen müssen, weil so die islamische Gefahr gebannt...',
          'english': 'That we should approve the customs union as a means to curbing the threat...',
          'meta': {'session': '1996-06-20',
@@ -240,7 +240,7 @@ def some(*args: Filter) -> Filter:
 
     Examples:
         >>> german = language("german")
-        >>> next(costep.search(german(~every(~contains("ja"), ~contains("sagen"))), ("german", "english")))
+        >>> next(filter(german(~some(~contains("ja"), ~contains("sagen"))), sentences("german", "english")))
         {'german': 'Daß wir ja zur Zollunion sagen müssen, weil so die islamische Gefahr gebannt...',
          'english': 'That we should approve the customs union as a means to curbing the threat...',
          'meta': {'session': '1996-06-20',
@@ -258,22 +258,20 @@ def some(*args: Filter) -> Filter:
     return functools.reduce(operator.or_, args)
 
 
-def search(fltr: Filter, langs: list[str]) -> Iterator[Any]:
+def sentences(*langs: str) -> Iterator[Any]:
     """
-    Searches CoStEP sentences using the given filter and returns parallel text for
-    the requested languages.
+    An iterator that yields CoStEP sentences that align for the given languages.
 
     Args:
-        fltr (Filter): A filter to search the corpus with.
-        langs (list[str]): The languages to return data for.
+        *langs (list[str]): The languages to ensure exist and line up.
 
     Yields:
-        Data for the next sentence matching the given filter.
+        Data for sentences where those languages have the same number of sentences.
 
     Examples:
         >>> german = language("german")
         >>> english = language("english")
-        >>> next(costep.search(german(contains("ja")) & english(contains("that")), ("german", "english")))
+        >>> next(filter(german(contains("ja")) & english(contains("that")), sentences("german", "english")))
         {'german': 'Herr Verfasser der Stellungnahme, das ist ja ein amüsanter Zufall, ...',
          'english': 'Mr Soulier, it is amusing that the version in which there is a...',
          'meta': {'session': '1996-04-15',
@@ -292,5 +290,4 @@ def search(fltr: Filter, langs: list[str]) -> Iterator[Any]:
                 attr: speech[attr] for attr in ("session", "chapter", "turn")
             }
             sent["meta"]["speaker"] = speech["speaker"]
-            if fltr(sent):
-                yield sent
+            yield sent
