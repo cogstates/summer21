@@ -2,7 +2,7 @@
 import functools
 import operator
 import os
-from typing import Any, Callable, Iterator, Optional, TypeVar, cast
+from typing import Any, Callable, Dict, Iterator, List, Optional, TypeVar, cast
 
 import nltk  # type: ignore
 import pycountry  # type: ignore
@@ -46,7 +46,7 @@ def download() -> None:
 
 
 @cache(os.path.join(_ARCHIVE_PATH, "sessions"))
-def session(date: str) -> Iterator[dict[str, Any]]:
+def session(date: str) -> Iterator[Dict[str, Any]]:
     """
     Read a session from the CoStEP archive.
 
@@ -113,7 +113,7 @@ def session(date: str) -> Iterator[dict[str, Any]]:
             pass  # Ignore
 
 
-def dates() -> list[str]:
+def dates() -> List[str]:
     """Return a sorted list of session dates."""
     from glob import glob
 
@@ -125,7 +125,7 @@ def dates() -> list[str]:
     )
 
 
-def speeches() -> Iterator[dict[str, Any]]:
+def speeches() -> Iterator[Dict[str, Any]]:
     download()  # Download the corpus if we haven't already.
     for date in dates():
         for speech in session(date):
@@ -155,11 +155,30 @@ def language(lang: str) -> Callable[[Filter], Filter]:
           'speaker': {'president': 'yes'}}}
     """
     def decorator(fn: Filter) -> Filter:
-        def fltr(item: dict[str, str]) -> bool:
+        def fltr(item: Dict[str, str]) -> bool:
             return fn(item[lang].lower().split())
         return Filter(fltr)
     return decorator
 # fmt: on
+
+
+def speaker(lang: str) -> Filter:
+    """
+    Creates a filter that will search for sentences where the speaker was
+    originally speaking the given language.
+
+    Args:
+        lang (str): The language for the filter (E.g. "german", "German", "de", "DE")
+
+    Returns:
+        Filter: A filter which searches for sentences originally spoken in that language.
+    """
+    lang = pycountry.languages.lookup(lang).alpha_2
+
+    def fltr(sent: Any) -> bool:
+        return bool(sent["meta"]["speaker"].get("language") == lang)
+
+    return Filter(fltr)
 
 
 def contains(phrase: str) -> Filter:
@@ -167,14 +186,14 @@ def contains(phrase: str) -> Filter:
     Creates a filter that will search for sentences containing the given phrase.
 
     Args:
-        phrase(str): A space delimited phrase to search for.
+        phrase (str): A space delimited phrase to search for.
 
     Returns:
         Filter: A filter which searches sentences for that phrase.
     """
     phr = tuple(phrase.lower().split())
 
-    def fltr(sent: list[str]) -> bool:
+    def fltr(sent: List[str]) -> bool:
         return phr in nltk.FreqDist(nltk.ngrams(sent, len(phr)))
 
     return Filter(fltr)
@@ -192,7 +211,7 @@ def starts_with(phrase: str) -> Filter:
     """
     phr = phrase.lower().split()
 
-    def fltr(sent: list[str]) -> bool:
+    def fltr(sent: List[str]) -> bool:
         return sent[: len(phr)] == phr
 
     return Filter(fltr)
