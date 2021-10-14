@@ -12,6 +12,12 @@ train_path = '/Users/john/PycharmProjects/summer21/conll2csds/factbank_v1/train.
 dev_path = '/Users/john/PycharmProjects/summer21/conll2csds/factbank_v1/dev.conll'
 test_path = '/Users/john/PycharmProjects/summer21/conll2csds/factbank_v1/test.conll'
 
+
+'''
+class ConllCSDS(CSDS):
+Extension class to CSDS with minor changes to allow for CONLL data
+'''
+
 class ConllCSDS(CSDS):
     head_idx = -1
 
@@ -29,7 +35,15 @@ class ConllCSDS(CSDS):
     def get_marked_text(self):
         return self.text
 
-def read_conll_data(path, iter=False):
+'''
+read_conll_data
+@param path: path to conll file
+Usage:
+train_data = read_conll_data(path/to/train)
+'''
+
+
+def read_conll_data(path):
     csds = CSDSCollection("")
 
     sentences = []
@@ -83,8 +97,14 @@ def read_conll_data(path, iter=False):
 
     #ataset = Dataset.from_dict({"text": text, "labels": belief})
     return text, belief
+
+'''
+Running Factbank experiments
+'''
 train, train_b = read_conll_data(train_path)
-test, test_b = read_conll_data(test_path, iter = True)
+test, test_b = read_conll_data(test_path)
+#Interesting CSDS Bug
+# TODO: CSDS overwrites and stays in memory
 test = test[6636:]
 test_b = test_b[6636:]
 train_dict = Dataset.from_dict({"text": train, "labels": train_b})
