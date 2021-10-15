@@ -28,3 +28,7 @@ repos:
         language: system
         types: [python]
         args: [--strict]
+        exclude: |
+            (?x)^(
+                jadoch/bin/train.py # transformers breaks type checking.
+            )$
