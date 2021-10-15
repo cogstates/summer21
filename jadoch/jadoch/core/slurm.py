@@ -18,7 +18,7 @@ def sbatch(
     cmds: Iterable[str],
     flags: Optional[Dict[str, str]] = None,
     modules: Optional[Iterable[str]] = None,
-) -> subprocess.CompletedProcess[bytes]:  # pylint: disable=unsubscriptable-object
+) -> "subprocess.CompletedProcess[bytes]":
     # Parse inputs.
     cmds = safe_iter(cmds)
     flags = flags or _FLAGS
