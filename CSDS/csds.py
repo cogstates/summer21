@@ -22,6 +22,7 @@ class CSDS:
     the writer's cognitive state and the text from which we have gleaned 
     this information.
     """
+    '''
     doc_id = -1  # unique index of origin document within corpus
     sentence_id = -1  # index of sentence within document
     text = ""  # sentence in which the annotated head occurs
@@ -30,7 +31,7 @@ class CSDS:
     head = ""  # target of annotation within sentence
     belief = ""  # belief value (values are corpus-specific)
     sentiment = ""  # sentiment value (values are corpus-specific)
-
+    '''
     def __init__(
             self, this_text, this_head_start, this_head_end, this_belief, this_head="",
             this_doc_id=-1, this_sentence_id=-1
@@ -74,22 +75,20 @@ class CSDSCollection:
     tokens), respectively.  The pseudo-annotation appears as the 'O' label here.
     The client code determines whether to populate the second list.
     """
-    # List of examples from the corpus that were originally annotated with a real label.
-    labeled_instances = []
-
-    # List of examples consisting of non-annotated words with the "O" pseudo-label.
-    o_instances = []
-
-    # Name of the corpus from which the examples in this collection were drawn.
-    # This collection represents a single corpus.
-    corpus = ""
-
     def __init__(self, this_corpus):
         """
         Stores the name of the corpus from which the examples are drawn.
         :param this_corpus:
         """
+        # Name of the corpus from which the examples in this collection were drawn.
         self.corpus = this_corpus
+
+        # List of examples from the corpus that were originally annotated with a real label.
+        self.labeled_instances = []
+
+        # List of examples consisting of non-annotated words with the "O" pseudo-label.
+        self.o_instances = []
+
 
     def add_labeled_instance(self, new_instance):
         """
