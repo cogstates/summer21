@@ -1,13 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import argparse
-import os
-import sys
-
+import transformers
 from datasets import DatasetDict
-from transformers import AutoTokenizer, AutoModelForSequenceClassification, Trainer
 
-from jadoch.core import slurm
+from jadoch.core.app import harness, slurmify
 
 
 def compute_metrics(pred):
@@ -28,31 +24,30 @@ def compute_metrics(pred):
     }
 
 
-def main():
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("path")
-    parser.add_argument("-p", "--partition", default="gpu,gpu-long,gpu-large")
-    parser.add_argument("-l", "--local", action="store_true")
-    args = parser.parse_args()
-
-    if sys.stdin.isatty() and not args.local:
-        return slurm.sbatch(
-            f"python -u {os.path.abspath(__file__)} {' '.join(sys.argv[1:])}",
-            flags=dict(partition=args.partition, exclude="sn-nvda8"),
-            modules=["cuda102/toolkit/10.2"],
-        ).returncode
-
+def main(ctx):
+    ctx.parser.add_argument("path")
+    ctx.parser.set_defaults(
+        sb_partition="gpu,gpu-long,gpu-large",
+        sb_exclude="sn-nvda8",
+        sb_time="08:00:00",
+        modules=["cuda102/toolkit/10.2"],
+    )
+    args = slurmify(ctx.parser)
+    # Set up logging.
+    transformers.logging.disable_default_handler()
+    transformers.logging.enable_propagation()
+    # Tokenize the data.
     dataset = DatasetDict.load_from_disk(args.path)
-    tokenizer = AutoTokenizer.from_pretrained("bert-base-cased")
+    tokenizer = transformers.AutoTokenizer.from_pretrained("bert-base-cased")
     tokenized_dataset = dataset.map(
         lambda dt: tokenizer(dt["text"], padding="max_length", truncation=True),
         batched=True,
     )
-
-    model = AutoModelForSequenceClassification.from_pretrained(
+    # Train the model.
+    model = transformers.AutoModelForSequenceClassification.from_pretrained(
         "bert-base-cased", num_labels=2
     )
-    trainer = Trainer(
+    trainer = transformers.Trainer(
         model=model,
         train_dataset=tokenized_dataset["train"],
         eval_dataset=tokenized_dataset["test"],
@@ -60,17 +55,20 @@ def main():
     )
     trainer.train()
     results = trainer.evaluate()
+    ctx.log.info(results)
+    # Print labels if verbose.
+    if not args.verbose:
+        return 0
     labels = ["na", "ja"]
     for idx, pred in enumerate(results["eval_preds"]):
-        print(
+        ctx.log.debug(
             {
                 "text": tokenized_dataset["test"][idx]["text"],
                 "label": labels[tokenized_dataset["test"][idx]["label"]],
                 "prediction": labels[pred],
             }
         )
-    print(results)
 
 
 if __name__ == "__main__":
-    main()
+    harness(main)

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import logging
 import os
 import subprocess
 import sys
@@ -11,6 +12,7 @@ _FLAGS = {
     "job-name": os.path.basename(sys.argv[0]),
     "output": "/gpfs/scratch/%u/%x.%j.out",
     "partition": "medium-28core",
+    "time": "08:00:00",
 }
 
 
@@ -18,6 +20,7 @@ def sbatch(
     cmds: Iterable[str],
     flags: Optional[Dict[str, str]] = None,
     modules: Optional[Iterable[str]] = None,
+    dryrun: bool = False,
 ) -> "subprocess.CompletedProcess[bytes]":
     # Parse inputs.
     cmds = safe_iter(cmds)
@@ -36,7 +39,14 @@ def sbatch(
         stdin.append(f"module load {module}")
     stdin.append("")
     stdin += cmds
-    print("\n".join(stdin))
+    log = logging.getLogger(__name__)
+    # Handle dryruns.
+    if dryrun:
+        stdin.append("=" * 32 + " DRYRUN " + "=" * 32)
+        stdin.insert(0, "=" * 32 + " DRYRUN " + "=" * 32)
+        log.info("Would submit to slurm.\n%s", "\n".join(stdin))
+        return subprocess.CompletedProcess("", 0)
+    log.info("Submitting to slurm.\n%s", "\n".join(stdin))
     # Submit the job.
     return subprocess.run(
         ["sbatch"],
