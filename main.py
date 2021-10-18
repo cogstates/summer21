@@ -1,10 +1,9 @@
-from datasets import load_metric
-import numpy as np
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trainer, TrainingArguments
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
 
 from csds2hf.csds2hf import CSDS2HF
 from xml2csds.xml2csds import XMLCorpusToCSDSCollection, XMLCorpusToCSDSCollectionWithOLabels
+
 
 def notify(string):
     print(">>>>   ", string, "   <<<<")
