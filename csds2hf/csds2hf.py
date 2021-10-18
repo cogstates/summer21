@@ -59,6 +59,7 @@ class CSDS2HF:
         beliefs += self.training_labels
         beliefs += self.test_labels
         self.unique_labels = list(set(beliefs))
+        self.unique_labels.sort()
 
     def get_dataset_dict(self):
         self.populate_lists()
