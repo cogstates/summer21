@@ -77,7 +77,7 @@ class TextPassage:
 @dataclass
 class CSDS:
     """
-    Cognitive States Data Structure (CSDS): Represents information about 
+    Cognitive States Data Structure (CSDS): Represents information about
     cognitive agents' cognitive state and the text from which we have gleaned
     this information.
     """
