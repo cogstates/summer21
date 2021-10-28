@@ -34,6 +34,10 @@ class TextReferent:
     type: str = ""  # types will vary by corpus, but could be "event" and "entity"
     subtype: str = ""  # some types may have subtypes *(ntities can be person, org, etc), corpus-specific
 
+    # Add a passage to the list of passages associated with this referent
+    def add_passage(self, text_passage):
+        self.text_passages.append(text_passage)
+
 
 @dataclass
 class TextPassage:
@@ -104,6 +108,7 @@ class CSDS:
 
 
 
+@dataclass
 class CSDSCollection:
     instances: list      # list of instances of cognitive states
     corpus: str = ""     # corpus from which they are drawn
@@ -139,3 +144,39 @@ class CSDSCollection:
             message += "   " + instance.get_info_short() + "\n"
         message += ">\n"
         return message
+
+
+#########################################################
+## General functions
+#########################################################
+
+# Create both a text passage and a text referent, link them up properly,
+# and return the text passage
+def create_headed_text_passage_and_referent (sentence, head_start, head_end, head, referent_name):
+    my_text_referent = create_named_text_referent(referent_name)
+    my_text_passage = create_headed_text_passage(head, head_end, head_start, sentence)
+    mutually_link(my_text_passage, my_text_referent)
+    return my_text_passage
+
+
+# Create a text referent with a name
+def create_named_text_referent(referent_name):
+    my_text_referent = TextReferent()
+    my_text_referent.name = referent_name
+    return my_text_referent
+
+
+# Create a text passage with head info
+def create_headed_text_passage(head, head_end, head_start, sentence):
+    my_text_passage = TextPassage()
+    my_text_passage.head_start = head_start
+    my_text_passage.head_end = head_end
+    my_text_passage.head = head
+    my_text_passage.sentence = sentence
+    return my_text_passage
+
+
+# Add mutual links between a text passage and a text referent
+def mutually_link(my_text_passage, my_text_referent):
+    my_text_referent.text_passages.append(my_text_passage)
+    my_text_passage.referent = my_text_referent
