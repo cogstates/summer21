@@ -1,4 +1,5 @@
 from datasets import load_metric
+# from dataclasses import dataclass
 import numpy as np
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trainer, TrainingArguments
 
@@ -7,16 +8,17 @@ from xml2csds.xml2csds import XMLCorpusToCSDSCollection
 import argparse
 
 
+def notify(string):
+    print(">>>>   ", string, "   <<<<")
+
 
 class Experiment:
-
-    corpora = []
     # training_corpora = [] # selects the corpus used for training
     # test_corpora = [] # selects the corpus used for testing / evaluating
     # ml_system = []  # for now, just huggingface.
-    language_model = "" # selects the language model
+    language_model = ""  # selects the language model
     # presentation = [] #
-    label_mapping = set() # choosing which labels to track: CB, NCB, NA, O. should define externally in json files
+    label_mapping = set()  # choosing which labels to track: CB, NCB, NA, O. should define externally in json files
 
     def __init__(self, corpora, language_model, label_mapping):
         self.corpora = corpora
@@ -24,6 +26,12 @@ class Experiment:
         self.language_model = language_model
         # self.presentation = presentation
         self.label_mapping = label_mapping
+        self.collection = None
+        self.csds_datasets = None
+        self.tokenizer = None
+        self.tokenized_csds_datasets = None
+        self.metric = None
+        self.trainer = None
 
     def xml2csds(self):
         input_processor = XMLCorpusToCSDSCollection(self.corpora[0], self.corpora[1])
@@ -37,73 +45,78 @@ class Experiment:
         self.tokenizer = AutoTokenizer.from_pretrained(self.language_model)  # language_model input here
         self.tokenized_csds_datasets = self.csds_datasets.map(self.tokenize_function, batched=True)
 
+    def tokenize_function(self, examples):
+        return self.tokenizer(examples["text"], padding="max_length", truncation=True)
+
     def train(self):
-        model = AutoModelForSequenceClassification.from_pretrained(self.language_model, num_labels=5)  # language_model input here
+        model = AutoModelForSequenceClassification.from_pretrained(self.language_model,
+                                                                   num_labels=5)  # language_model input here
         self.metric = load_metric("accuracy", "recall")
         training_args = TrainingArguments("CSDS/test_trainer")
-        trainer = Trainer(
+        self.trainer = Trainer(
             model=model,
             args=training_args,
             train_dataset=self.tokenized_csds_datasets['train'],
             eval_dataset=self.tokenized_csds_datasets['eval'],
             compute_metrics=self.compute_metrics,
         )
-        trainer.train()
+        self.trainer.train()
 
     def evaluate(self):
         results = self.trainer.evaluate()
         print(results)
 
-    def notify(self, string):
-        print(">>>>   ", string, "   <<<<")
-
-    def tokenize_function(self, examples):
-        return self.tokenizer(examples["text"], padding="max_length", truncation=True)
-
+    # Edit: option to print out logits, labels
     def compute_metrics(self, eval_pred):
         logits, labels = eval_pred
         predictions = np.argmax(logits, axis=-1)
         return self.metric.compute(predictions=predictions, references=labels)
+
+# Edit: (in Experiments) pre-trained word embeddings; initializing at beginning of training
+# input: file, output: embedding matrix ; numpy.load(). path to embedding matrix, etc; in argparser
+# purpose: Glove, pretrained from BERT.
 
 
 if __name__ == '__main__':
     print('ready to accept arguments')
     parser = argparse.ArgumentParser(description='Run Experiment')
 
-    # Setup of experiment settings
+    # Setup of experiment settings with argument parsing
     base_parser = argparse.ArgumentParser(add_help=False)
-    base_parser.add_argument_group('corpus', type=str, help='corpus '
-                                                       'file path')
-    base_parser.add_argument('language model', type=str, help='language model')
-    base_parser.add_argument('label mapping', type=str, help='label set')
+    base_parser.add_argument_group('--corpus', type=str, help='corpus '
+                                                              'file path')
+    base_parser.add_argument('--language_model', type=str, help='language model')
+    base_parser.add_argument('--label_set', type=str, help='label set', nargs='+')
 
+    args = base_parser.parse_args()
     experiment = Experiment(
-        ('2010 Language Understanding', 'CMU'), # selects corpora
-        "bert-base-cased", # selects language model
-        {'CB', 'O'} # selects the labels to be tagged in our experiment
+        ('2010 Language Understanding', 'CMU'),  # selects corpora
+        "bert-base-cased",  # selects language model
+        {'CB', 'O'}  # selects the labels to be tagged in our experiment
     )
     # start xml to csds
+    # Edit: (in Experiments) hard-code corpus-dependent conversion to CSDS.
+    # Edit: (in Experiments) Conditional control flow, invokes correct converter.
+    #       Dictionary: corpus name -> conversion routine. don't have in main
     experiment.xml2csds()
     print("XML to CSDS done")
 
     # start csds to hf
+    # Edit: as long as we use HF. should be in Experiments, not main().
     experiment.csds2hf()
     print("CSDS to HF done")
 
     # start tokenizing
-    experiment.notify("Created dataset, now tokenizing dataset")
+    notify("Created dataset, now tokenizing dataset")
     experiment.tokenize()
-    experiment.notify("Done tokenizing dataset")
+    notify("Done tokenizing dataset")
 
     # start training
-    experiment.notify("Starting training")
+    notify("Starting training")
     experiment.train()
-    experiment.notify("Done training")
+    notify("Done training")
 
     # start evaluating
     experiment.evaluate()
 
-
-
-
-
+    # Edit: set up debug logger.
