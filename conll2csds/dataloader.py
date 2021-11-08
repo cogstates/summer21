@@ -2,7 +2,7 @@ import numpy as np
 import torch
 from torch.utils.data import Dataset
 from transformers import AutoTokenizer, AutoConfig
-from conll2csds.factbank2csds import read_conll_data
+from factbank2csds import read_conll_data
 
 class FactbankLoader(Dataset):
     def __init__(self, file_path, max_len, tokenizer):

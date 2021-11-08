@@ -5,6 +5,7 @@ NONEXIST = -1
 # inbuilt lib imports:
 from typing import List, Dict, Tuple, Any, NamedTuple
 import math
+from CSDS.csds import CSDS, CSDSCollection
 
 import numpy as np
 from tqdm import tqdm
@@ -12,6 +13,24 @@ import numpy as np
 from collections import defaultdict
 
 import copy
+
+class ConllCSDS(CSDS):
+    head_idx = -1
+
+    def __init__(
+            self, this_text, head_idx, this_belief, this_head="",
+            this_doc_id=-1, this_sentence_id=-1
+    ):
+        self.doc_id = this_doc_id
+        self.sentence_id = this_sentence_id
+        self.text = this_text
+        self.head_idx = head_idx
+        self.belief = this_belief
+        self.head = this_head
+
+    def get_marked_text(self):
+        return self.text
+
 
 
 class Tree(object):
@@ -117,6 +136,21 @@ train_path = '/Users/john/PycharmProjects/summer21/conll2csds/factbank_v1/train.
 dev_path = '/Users/john/PycharmProjects/summer21/conll2csds/factbank_v1/dev.conll'
 test_path = '/Users/john/PycharmProjects/summer21/conll2csds/factbank_v1/test.conll'
 
+def get_spans(heads):
+    spans = []
+    for i in heads:
+        vals, inverse, count =np.unique(i, return_inverse=True,
+                                      return_counts=True)
+        idx_vals_repeated = np.where(count > 1)[0]
+        vals_repeated = vals[idx_vals_repeated]
+
+        rows, cols = np.where(inverse == idx_vals_repeated[:, np.newaxis])
+        _, inverse_rows = np.unique(rows, return_index=True)
+        res = np.split(cols, inverse_rows[1:])
+        spans.append(res)
+    return spans
+
+
 def read_conll_data(data_file_path: str):
     """
     Reads Sentences and Trees from a CONLL formatted data file.
@@ -126,13 +160,16 @@ def read_conll_data(data_file_path: str):
     data_file_path : ``str``
         Path to data to be read.
     """
+    csds = CSDSCollection("")
+
     sentences = []
-    trees = []
     heads = []
     spans = []
+    labels = []
     with open(data_file_path, 'r') as file:
         sentence_tokens = []
         h = []
+        s = []
         for line in tqdm(file):
             line = line.strip()
             array = line.split('\t')
@@ -141,36 +178,58 @@ def read_conll_data(data_file_path: str):
                     sentences.append(sentence_tokens)
                     sentence_tokens = []
                 heads.append(h)
-                '''
-                for h in heads:
-                    h = np.array(h)
+                labels.append(s)
 
-                    vals, idx_start, count = np.unique(h, return_counts=True, return_index=True)
-                    spans.append(vals)
-                '''
+                s = []
                 h = []
             else:
                 word = array[1]
                 belief = (array[2])
+                s.append(belief)
                 head = int(array[4])
                 pos = array[5]
-                if pos == 'ROOT':
-                    head = 0
-                    h.append(head)
-                else:
-                    h.append(head)
-                token = [(word, belief,
-                              head)]
+                h.append(head)
+                token = word
                 sentence_tokens.append(token)
+    corpus = []
+    for sent_index, i in enumerate(labels):
+        for index, ii in enumerate(i):
+            if ii != '_':
+                sform = np.array(sentences[sent_index])
+                print(sent_index)
+                temp = (get_spans(heads)[sent_index])
+
+                head_temp = sentences[sent_index][int(heads[sent_index][index])]
+                replacement = "* " + sentences[sent_index][int(heads[sent_index][index])] + " *"
+                (sform[int(heads[sent_index][index])]) = replacement
+                joined = ' '.join(sform)
+                #joined = re.sub(r'\s+([?.!,":`])', r'\1', joined)
+                corpus.append(
+                    (joined, int(heads[sent_index][index]), int(float(ii)) + 3, sentences[sent_index][int(heads[sent_index][index])]))
+                (sform[int(heads[sent_index][index])]) = head_temp
+    for sentence_id, sample in enumerate(corpus):
+        csds.add_labeled_instance(ConllCSDS(*sample, 0, sentence_id))
+
+    text = []
+    belief = []
+    for instance in csds.get_next_instance():
+        text.append(instance.get_marked_text())
+        belief.append(instance.get_belief())
+
+    return sentences, heads
 
 
 
+sentence, heads = read_conll_data(train_path)
 
-    return sentences, heads, spans
+for i in sentence:
+    i = np.array(i)
 
+sen = np.array(sentence[0])
+idx = get_spans(heads)[0][0]
+print(idx)
+print(' '.join(sen[idx]))
+#print(heads[0])
+#print(get_spans(heads)[0])
+#for i in get_spans(heads)[0]:
 
-sentence, heads, spans = read_conll_data(train_path)
-print(
-    heads[1]
-)
-print(tree_to_adj(len(heads[1]), head_to_tree(heads[1])))
