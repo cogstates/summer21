@@ -164,7 +164,7 @@ def read_conll_data(data_file_path: str):
 
     sentences = []
     heads = []
-    spans = []
+    sp = []
     labels = []
     with open(data_file_path, 'r') as file:
         sentence_tokens = []
@@ -192,12 +192,19 @@ def read_conll_data(data_file_path: str):
                 token = word
                 sentence_tokens.append(token)
     corpus = []
+    spans = get_spans(heads)
+    bv = []
     for sent_index, i in enumerate(labels):
-        for index, ii in enumerate(i):
-            if ii != '_':
+        spans_sent_index = spans[sent_index]
+        for index, belief_value in enumerate(i):
+            if belief_value != '_':
+
+                t = []
+                bvv = []
                 sform = np.array(sentences[sent_index])
-                print(sent_index)
-                temp = (get_spans(heads)[sent_index])
+                for i in spans_sent_index:
+                    t.append(sform[i])
+                    bvv.append(belief_value)
 
                 head_temp = sentences[sent_index][int(heads[sent_index][index])]
                 replacement = "* " + sentences[sent_index][int(heads[sent_index][index])] + " *"
@@ -205,8 +212,10 @@ def read_conll_data(data_file_path: str):
                 joined = ' '.join(sform)
                 #joined = re.sub(r'\s+([?.!,":`])', r'\1', joined)
                 corpus.append(
-                    (joined, int(heads[sent_index][index]), int(float(ii)) + 3, sentences[sent_index][int(heads[sent_index][index])]))
+                    (joined, int(heads[sent_index][index]), int(float(belief_value)) + 3, sentences[sent_index][int(heads[sent_index][index])]))
                 (sform[int(heads[sent_index][index])]) = head_temp
+                sp.append(t)
+                bv.append(bvv)
     for sentence_id, sample in enumerate(corpus):
         csds.add_labeled_instance(ConllCSDS(*sample, 0, sentence_id))
 
@@ -216,20 +225,24 @@ def read_conll_data(data_file_path: str):
         text.append(instance.get_marked_text())
         belief.append(instance.get_belief())
 
-    return sentences, heads
+    final = []
+    final_bv = []
+    for i in sp:
+        for ii in i:
+            final.append(' '.join(ii))
+
+    for i in bv:
+        for ii in i:
+            final_bv.append(float(ii))
+
+    return sentences, heads, final, final_bv
 
 
 
-sentence, heads = read_conll_data(train_path)
+sentence, heads, spans, bv = read_conll_data(train_path)
 
-for i in sentence:
-    i = np.array(i)
 
-sen = np.array(sentence[0])
-idx = get_spans(heads)[0][0]
-print(idx)
-print(' '.join(sen[idx]))
-#print(heads[0])
+print(spans)#print(heads[0])
 #print(get_spans(heads)[0])
 #for i in get_spans(heads)[0]:
 
