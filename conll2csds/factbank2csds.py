@@ -9,9 +9,9 @@ train_path = "/gpfs/scratch/jmurzaku/cogstates/conll2csds/factbank_v1/train.conl
 dev_path = "/gpfs/scratch/jmurzaku/cogstates/conll2csds/factbank_v1/dev.conll"
 test_path = "/gpfs/scratch/jmurzaku/cogstates/conll2csds/factbank_v1/test.conll"
 
-train_path = '/Users/john/PycharmProjects/summer21/conll2csds/factbank_v1/train.conll'
-dev_path = '/Users/john/PycharmProjects/summer21/conll2csds/factbank_v1/dev.conll'
-test_path = '/Users/john/PycharmProjects/summer21/conll2csds/factbank_v1/test.conll'
+#train_path = '/Users/john/PycharmProjects/summer21/conll2csds/factbank_v1/train.conll'
+##dev_path = '/Users/john/PycharmProjects/summer21/conll2csds/factbank_v1/dev.conll'
+#test_path = '/Users/john/PycharmProjects/summer21/conll2csds/factbank_v1/test.conll'
 
 
 '''
@@ -49,71 +49,47 @@ def get_spans(heads):
         spans.append(res)
     return spans
 
-def read_conll_data(data_file_path: str):
-    """
-    Reads Sentences and Trees from a CONLL formatted data file.
-
-    Parameters
-    ----------
-    data_file_path : ``str``
-        Path to data to be read.
-    """
+def read_conll_data(path):
     csds = CSDSCollection("")
 
     sentences = []
-    heads = []
-    sp = []
-    labels = []
-    with open(data_file_path, 'r') as file:
+    b = []
+    h = []
+    with open(path, 'r') as file:
         sentence_tokens = []
-        h = []
-        s = []
+        beliefs = []
+        heads = []
         for line in tqdm(file):
             line = line.strip()
             array = line.split('\t')
             if len(array) < 7:
-                if sentence_tokens:
-                    sentences.append(sentence_tokens)
-                    sentence_tokens = []
-                heads.append(h)
-                labels.append(s)
-
-                s = []
-                h = []
+                sentences.append(sentence_tokens)
+                b.append(beliefs)
+                h.append(heads)
+                sentence_tokens = []
+                beliefs = []
+                heads = []
             else:
-                word = array[1]
+                word = (array[1])
                 belief = (array[2])
-                s.append(belief)
                 head = int(array[4])
-                pos = array[5]
-                h.append(head)
-                token = word
-                sentence_tokens.append(token)
+                sentence_tokens.append(word)
+                beliefs.append(belief)
+                heads.append(head)
+    file.close()
     corpus = []
-    spans = get_spans(heads)
-    bv = []
-    for sent_index, i in enumerate(labels):
-        spans_sent_index = spans[sent_index]
-        for index, belief_value in enumerate(i):
-            if belief_value != '_':
 
-                t = []
-                bvv = []
-                sform = np.array(sentences[sent_index])
-                for i in spans_sent_index:
-                    t.append(sform[i])
-                    bvv.append(belief_value)
-
-                head_temp = sentences[sent_index][int(heads[sent_index][index])]
-                replacement = "* " + sentences[sent_index][int(heads[sent_index][index])] + " *"
-                (sform[int(heads[sent_index][index])]) = replacement
+    for sent_index, i in enumerate(b):
+        for index, ii in enumerate(i):
+            if ii != '_':
+                sform = sentences[sent_index]
+                head_temp = sentences[sent_index][int(h[sent_index][index])]
+                replacement = "* " + sentences[sent_index][int(h[sent_index][index])] + " *"
+                (sform[int(h[sent_index][index])]) = replacement
                 joined = ' '.join(sform)
-                #joined = re.sub(r'\s+([?.!,":`])', r'\1', joined)
                 corpus.append(
-                    (joined, int(heads[sent_index][index]), int(float(belief_value)) + 3, sentences[sent_index][int(heads[sent_index][index])]))
-                (sform[int(heads[sent_index][index])]) = head_temp
-                sp.append(t)
-                bv.append(bvv)
+                    (joined, int(h[sent_index][index]), float(ii), sentences[sent_index][int(h[sent_index][index])]))
+                (sform[int(h[sent_index][index])]) = head_temp
     for sentence_id, sample in enumerate(corpus):
         csds.add_labeled_instance(ConllCSDS(*sample, 0, sentence_id))
 
@@ -123,26 +99,18 @@ def read_conll_data(data_file_path: str):
         text.append(instance.get_marked_text())
         belief.append(instance.get_belief())
 
-    final = []
-    final_bv = []
-    for i in sp:
-        for ii in i:
-            final.append(' '.join(ii))
+    #ataset = Dataset.from_dict({"text": text, "labels": belief})
+    return text, belief
 
-    for i in bv:
-        for ii in i:
-            final_bv.append(float(ii))
-
-    return sentences, heads, final, final_bv
+'''
+Running Factbank experiments
+'''
 
 
-train, train_b, train_span, train_span_labels = read_conll_data(train_path)
-test, test_b, test_span, test_span_labels = read_conll_data(test_path)
-
-print(len(test))
-train_dict = Dataset.from_dict({"text": train_span, "labels": train_span_labels})
-test_dict = ataset = Dataset.from_dict({"text": test_span, "labels": test_span_labels})
-
+train, train_b = read_conll_data(train_path)
+test, test_b = read_conll_data(test_path)
+train_dict = Dataset.from_dict({"text": train, "labels": train_b})
+test_dict = ataset = Dataset.from_dict({"text": test, "labels": test_b})
 hf = DatasetDict({'train': train_dict, 'eval': test_dict})
 
 from datasets import load_metric
@@ -181,10 +149,10 @@ def compute_metrics(pred):
 
 csds_datasets = hf
 notify("Created dataset, now tokenizing dataset")
-tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
+tokenizer = AutoTokenizer.from_pretrained('roberta-base')
 tokenized_csds_datasets = csds_datasets.map(tokenize_function, batched=True)
 notify("Done tokenizing dataset")
-model = AutoModelForSequenceClassification.from_pretrained('bert-base-uncased', num_labels = 1)
+model = AutoModelForSequenceClassification.from_pretrained('roberta-base', num_labels = 1)
 notify("Starting training")
 #args = TrainingArguments(num_train_epochs=1, per_device_train_batch_size=2, per_device_eval_batch_size=2, output_dir='/gpfs/scratch/jmurzaku/cogstates')
 trainer = Trainer(
