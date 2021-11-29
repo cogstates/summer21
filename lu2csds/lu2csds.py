@@ -5,7 +5,7 @@ from CSDS.csds import CSDS, CSDSCollection
 from nltk.tokenize import SpaceTokenizer
 
 
-class XMLCorpusToCSDSCollection:
+class LUCorpusToCSDSCollection:
     """
     Class to create a Cognitive State Data Structure (CSDS) collection
     corresponding to a corpus consisting of XML files with annotations
@@ -153,7 +153,7 @@ class XMLCorpusToCSDSCollection:
         return self.csds_collection
 
 
-class XMLCorpusToCSDSCollectionWithOLabels(XMLCorpusToCSDSCollection):
+class LUCorpusToCSDSCollectionWithOLabels(LUCorpusToCSDSCollection):
     """
     Class to create a Cognitive State Data Structure (CSDS) collection
     corresponding to a corpus consisting of XML files with annotations
@@ -219,7 +219,7 @@ class XMLCorpusToCSDSCollectionWithOLabels(XMLCorpusToCSDSCollection):
 if __name__ == '__main__':
     # Set verbose to True below to show the CSDS labeled_instances in the output.
     verbose = True
-    input_processor = XMLCorpusToCSDSCollection(
+    input_processor = LUCorpusToCSDSCollection(
         '2010 Language Understanding',
         '../CMU')
     collection = input_processor.create_and_get_collection()

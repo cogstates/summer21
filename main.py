@@ -2,7 +2,7 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trai
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
 
 from csds2hf.csds2hf import CSDS2HF
-from lu2csds.lu2csds import XMLCorpusToCSDSCollection, XMLCorpusToCSDSCollectionWithOLabels
+from lu2csds.lu2csds import LUCorpusToCSDSCollection, LUCorpusToCSDSCollectionWithOLabels
 
 
 def notify(string):
@@ -27,7 +27,7 @@ def compute_metrics(pred):
 
 
 if __name__ == '__main__':
-    input_processor = XMLCorpusToCSDSCollection(
+    input_processor = LUCorpusToCSDSCollection(
         '2010 Language Understanding',
         'CMU')
     collection = input_processor.create_and_get_collection()
