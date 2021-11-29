@@ -8,31 +8,8 @@ from nltk.tokenize import SpaceTokenizer
 
 class LUCorpusToSqliteDatabase:
     """
-    Class to create a Cognitive State Data Structure (CSDS) collection
-    corresponding to a corpus consisting of XML files with annotations
-    on text targets (heads) following the GATE format.
+    Class to create a SQLite Database representing the LU Corpus data.
     """
-
-    # Map from node ID number to the sentences within which the node
-    # element occurs. Node id numbers are unique within a given document.
-    nodes_to_sentences = {}
-
-    # Map from node ID number to the text snippet with which it is
-    # associated. This may be an annotation head, but the map includes
-    # text following a head end node as well.
-    nodes_to_targets = {}
-
-    # Map from node ID to a pair of indices giving the locations within
-    # the sentence of the start and one past the end of the text immediately
-    # following the node element in the XML file and associated with the node.
-    nodes_to_offsets = {}
-
-    # List of sentences within the current document, kept in sequence.
-    sentences = []
-
-    # Map from each sentence to a list of pairs of indices within the
-    # sentence, each of which pair describes an annotation target (head).
-    sentence_to_annotation_offsets = {}
 
     def __init__(self, corpus_name, corpus_directory):
 
@@ -47,7 +24,28 @@ class LUCorpusToSqliteDatabase:
         # In normal usage, create_database iterates
         # through all the files of the corpus and calls add_file
         # on each file.  doc_id represents the sequence number of this iteration.
-        doc_id = -1
+        self.doc_id = -1
+
+        # Map from node ID number to the sentences within which the node
+        # element occurs. Node id numbers are unique within a given document.
+        self.nodes_to_sentences = {}
+
+        # Map from node ID number to the text snippet with which it is
+        # associated. This may be an annotation head, but the map includes
+        # text following a head end node as well.
+        self.nodes_to_targets = {}
+
+        # Map from node ID to a pair of indices giving the locations within
+        # the sentence of the start and one past the end of the text immediately
+        # following the node element in the XML file and associated with the node.
+        self.nodes_to_offsets = {}
+
+        # List of sentences within the current document, kept in sequence.
+        self.sentences = []
+
+        # Map from each sentence to a list of pairs of indices within the
+        # sentence, each of which pair describes an annotation target (head).
+        self.sentence_to_annotation_offsets = {}
 
         # SQLite database connection object.
         self.con = sqlite3.connect('lu_data.db')
