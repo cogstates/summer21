@@ -2,7 +2,7 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trai
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
 
 from csds2hf.csds2hf import CSDS2HF
-from xml2csds.xml2csds import XMLCorpusToCSDSCollection, XMLCorpusToCSDSCollectionWithOLabels
+from lu2csds.lu2csds import XMLCorpusToCSDSCollection, XMLCorpusToCSDSCollectionWithOLabels
 
 
 def notify(string):
