@@ -2,7 +2,7 @@ from datasets import load_metric
 import numpy as np
 
 from csds2hf.csds2hf import CSDS2HF
-from xml2csds.xml2csds import XMLCorpusToCSDSCollection
+from lu2csds.lu2csds import XMLCorpusToCSDSCollection
 
 
 def notify(string):
