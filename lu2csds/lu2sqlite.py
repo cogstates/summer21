@@ -13,19 +13,6 @@ class LUCorpusToSqliteDatabase:
     on text targets (heads) following the GATE format.
     """
 
-    corpus_name = ""
-
-    # Can be a relative or absolute path to the directory holding
-    # the XML files of the corpus:
-    corpus_directory = ""
-
-    # A unique, sequential integer identifying the document
-    # within the corpus being processed on a call to add_file.
-    # In normal usage, create_database iterates
-    # through all the files of the corpus and calls add_file
-    # on each file.  doc_id represents the sequence number of this iteration.
-    doc_id = -1
-
     # Map from node ID number to the sentences within which the node
     # element occurs. Node id numbers are unique within a given document.
     nodes_to_sentences = {}
@@ -48,10 +35,27 @@ class LUCorpusToSqliteDatabase:
     sentence_to_annotation_offsets = {}
 
     def __init__(self, corpus_name, corpus_directory):
+
         self.corpus_name = corpus_name
+
+        # Can be a relative or absolute path to the directory holding
+        # the XML files of the corpus:
         self.corpus_directory = corpus_directory
+
+        # A unique, sequential integer identifying the document
+        # within the corpus being processed on a call to add_file.
+        # In normal usage, create_database iterates
+        # through all the files of the corpus and calls add_file
+        # on each file.  doc_id represents the sequence number of this iteration.
+        doc_id = -1
+
+        # SQLite database connection object.
         self.con = sqlite3.connect('lu_data.db')
+
+        # SQLite database cursor object.
         self.cur = self.con.cursor()
+
+        # Create the initial empty database for this corpus.
         self.cur.execute('''
             CREATE TABLE IF NOT EXISTS lu_data(
                 doc_id INTEGER,
