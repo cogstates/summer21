@@ -65,26 +65,26 @@ labels = {
     'NA': 0.0
 }
 labels_ldc = {
-    'CB': 3,
+    'CB': 2,
     'NCB': 1,
     'ROB': 0,
     'NA': 0
 }
 
 clf = {
-    'CT+': 3,
-    'PR+': 2,
-    'PS+': 2,
+    'CT+': 2,
+    'PR+': 1,
+    'PS+': 1,
     'Uu': 0,
-    'PS-': 2,
-    'PR-': 2,
-    'CT-': 1,
-    'CTu': 0,
+    'PS-': 1,
+    'PR-': 1,
+    'CT-': 2,
+    'CTu': 2,
     'NA': 0
 }
 
-x_train, x_test, y_train, y_test = train_test_split(t, l, test_size=1 - train_ratio, shuffle=True)
-x_val, x_test, y_val, y_test = train_test_split(x_test, y_test, test_size=test_ratio/(test_ratio + validation_ratio), shuffle=True)
+x_train, x_test, y_train, y_test = train_test_split(t, l, test_size=1 - train_ratio, shuffle=True, random_state=21)
+x_val, x_test, y_val, y_test = train_test_split(x_test, y_test, test_size=test_ratio/(test_ratio + validation_ratio), shuffle=True, random_state=21)
 
 
 y = []
@@ -104,11 +104,15 @@ def get_data(file_annotation, file_source):
 
     labels = []
     offsets = []
+    heads = []
+
     for annotation in root.findall("annotation"):
         belief = annotation.find('belief_type').text
-        # annotation_text = annotation.find('annotation_text').text
+        annotation_text = annotation.find('annotation_text').text
         labels.append(belief)
         offsets.append(annotation.get('offset'))
+        heads.append(annotation_text)
+
 
     # Text to annotation:
     # sentence, label
@@ -132,7 +136,10 @@ def get_data(file_annotation, file_source):
         new_end = text.find('.', starting)
         # print(new_starting)
         # print(new_end)
+        new_head = '* ' + str(heads[i]) + ' *'
         sentence = text[new_starting + 2:new_end + 1]
+        sentence = sentence.replace(str(heads[i]), new_head)
+
         txt.append(sentence)
         lbls.append(labels[i])
     return txt, labels
@@ -189,6 +196,18 @@ ldc_y_test = []
 for i in test_labels:
     ldc_y_test.append(labels_ldc[i])
 
+train_text = np.array(train_text)
+ldc_y_train = np.array(ldc_y_train)
+empty = np.where(train_text != '')[0]
+train_text = list(train_text[empty])
+ldc_y_train = list(ldc_y_train[empty])
+
+test_text = np.array(test_text)
+ldc_y_test = np.array(ldc_y_test)
+empty = np.where(test_text != '')[0]
+test_text = list(test_text[empty])
+ldc_y_test = list(ldc_y_test[empty])
+
 
 x_train = x_train + (train_text)
 x_test = x_test + (test_text)
@@ -216,7 +235,7 @@ def tokenize_function(examples):
 from scipy.stats import pearsonr
 from sklearn.metrics import mean_absolute_error
 
-from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trainer, TrainingArguments
+from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trainer, TrainingArguments, DebertaTokenizer, DebertaForSequenceClassification
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
 
 
@@ -246,10 +265,10 @@ def compute_f1(pred):
 
 csds_datasets = hf
 notify("Created dataset, now tokenizing dataset")
-tokenizer = AutoTokenizer.from_pretrained('bert-large-cased')
+tokenizer = DebertaTokenizer.from_pretrained('microsoft/deberta-base')
 tokenized_csds_datasets = csds_datasets.map(tokenize_function, batched=True)
 notify("Done tokenizing dataset")
-model = AutoModelForSequenceClassification.from_pretrained('bert-large-cased', num_labels = 4)
+model = DebertaForSequenceClassification.from_pretrained('microsoft/deberta-base', num_labels = 3)
 notify("Starting training")
 #args = TrainingArguments(num_train_epochs=1, per_device_train_batch_size=2, per_device_eval_batch_size=2, output_dir='/gpfs/scratch/jmurzaku/cogstates')
 trainer = Trainer(

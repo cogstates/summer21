@@ -122,10 +122,16 @@ ldc_y_test = []
 for i in test_labels:
     ldc_y_test.append(labels_ldc[i])
 
+train_text = np.array(train_text)
+ldc_y_train = np.array(ldc_y_train)
+empty = np.where(train_text != '')[0]
+train_text = list(train_text[empty])
+ldc_y_train = list(ldc_y_train[empty])
 
-print(train_labels.count("NCB"))
-print(train_labels.count("NA"))
-print(train_labels.count("ROB"))
-print(train_labels.count("CB"))
+test_text = np.array(test_text)
+ldc_y_test = np.array(ldc_y_test)
+empty = np.where(test_text != '')[0]
+test_text = list(test_text[empty])
+ldc_y_test = list(ldc_y_test[empty])
 
-print(len(train_labels) + len(test_labels))
+print(test_text[0:100])

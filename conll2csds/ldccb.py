@@ -30,11 +30,15 @@ def get_data(file_annotation, file_source):
 
     labels = []
     offsets = []
+    heads = []
+
     for annotation in root.findall("annotation"):
         belief = annotation.find('belief_type').text
-        # annotation_text = annotation.find('annotation_text').text
+        annotation_text = annotation.find('annotation_text').text
         labels.append(belief)
         offsets.append(annotation.get('offset'))
+        heads.append(annotation_text)
+
 
     # Text to annotation:
     # sentence, label
@@ -58,12 +62,15 @@ def get_data(file_annotation, file_source):
         new_end = text.find('.', starting)
         # print(new_starting)
         # print(new_end)
+        new_head = '* ' + str(heads[i]) + ' *'
         sentence = text[new_starting + 2:new_end + 1]
+        sentence = sentence.replace(str(heads[i]), new_head)
+
         txt.append(sentence)
         lbls.append(labels[i])
     return txt, labels
 
-CLEANR = re.compile('<.*?>|&([a-z0-9]+|#[0-9]{1,6}|#x[0-9a-f]{1,6});')
+CLEANR = re.compile('<.?>|&([a-z0-9]+|#[0-9]{1,6}|#x[0-9a-f]{1,6});')
 def cleanhtml(raw_html):
   cleantext = re.sub(CLEANR, '', raw_html)
   cleantext = re.sub("\n","",cleantext)
@@ -95,7 +102,6 @@ for file_annotation, file_source in zip(sorted(glob.glob("*.xml")), sorted(glob.
 test_labels = [item for sublist in test_labels for item in sublist]
 test_text =  [cleanhtml(item).strip() for sublist in test_text for item in sublist]
 
-
 labels_ldc = {
     'CB': 3,
     'NCB': 2,
@@ -110,7 +116,21 @@ for i in train_labels:
 ldc_y_test = []
 for i in test_labels:
     ldc_y_test.append(labels_ldc[i])
+train_text = np.array(train_text)
+ldc_y_train = np.array(ldc_y_train)
+empty = np.where(train_text != '')[0]
+train_text = list(train_text[empty])
+ldc_y_train = list(ldc_y_train[empty])
 
+test_text = np.array(test_text)
+ldc_y_test = np.array(ldc_y_test)
+empty = np.where(test_text != '')[0]
+test_text = list(test_text[empty])
+ldc_y_test = list(ldc_y_test[empty])
+
+
+
+#print(train_labels)
 
 train_dict = Dataset.from_dict({"text": train_text, "labels": ldc_y_train})
 test_dict = Dataset.from_dict({"text": test_text, "labels": ldc_y_test})
@@ -142,26 +162,30 @@ def compute_metrics(pred):
         "mae: ": mae
     }
 
+from sklearn.metrics import f1_score
+
 def compute_f1(pred):
     labels = pred.label_ids
     preds = pred.predictions.argmax(-1)
     precision, recall, f1, _ = precision_recall_fscore_support(labels, preds, average=None)
     acc = accuracy_score(labels, preds)
+    macro = f1_score(labels, preds, average='macro')
     return {
         'accuracy': acc,
         'f1': f1,
         'precision': precision,
-        'recall': recall
+        'recall': recall,
+        'macro': macro
     }
 
 
 
 csds_datasets = hf
 notify("Created dataset, now tokenizing dataset")
-tokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased')
+tokenizer = AutoTokenizer.from_pretrained('microsoft/deberta-base')
 tokenized_csds_datasets = csds_datasets.map(tokenize_function, batched=True)
 notify("Done tokenizing dataset")
-model = AutoModelForSequenceClassification.from_pretrained('distilbert-base-uncased', num_labels = 4)
+model = AutoModelForSequenceClassification.from_pretrained('microsoft/deberta-base', num_labels = 4)
 notify("Starting training")
 #args = TrainingArguments(num_train_epochs=1, per_device_train_batch_size=2, per_device_eval_batch_size=2, output_dir='/gpfs/scratch/jmurzaku/cogstates')
 trainer = Trainer(

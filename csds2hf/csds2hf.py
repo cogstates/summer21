@@ -59,16 +59,17 @@ class CSDS2HF:
         beliefs += self.training_labels
         beliefs += self.test_labels
         self.unique_labels = list(set(beliefs))
+        print(self.unique_labels)
         self.unique_labels.sort()
 
     def get_dataset_dict(self):
         self.populate_lists()
         class_label = ClassLabel(num_classes=len(self.unique_labels), names=self.unique_labels)
         csds_train_dataset = Dataset.from_dict(
-            {"text": self.training_text, "labels": list(map(class_label.str2int, self.training_labels))}
+            {"text": self.training_text, "labels": list(self.training_labels)}
         )
         csds_test_dataset = Dataset.from_dict(
-            {"text": self.test_text, "labels": list(map(class_label.str2int, self.test_labels))}
+            {"text": self.test_text, "labels": list(self.test_labels)}
         )
         return DatasetDict({'train': csds_train_dataset, 'eval': csds_test_dataset})
 

@@ -53,43 +53,32 @@ Running Factbank experiments
 train_ratio = 0.68
 validation_ratio = 0.25
 test_ratio = 0.07
-labels = {
-    'CT+': 3.0,
-    'PR+': 1.0,
-    'PS+': 1.0,
-    'Uu': 0.0,
-    'PS-': -1.0,
-    'PR-': -1.0,
-    'CT-': -3.0,
-    'CTu': 0.0,
-    'NA': 0.0
-}
+
 lu_labels_clf = {
-    'Committed Belief': 3,
-    'Non-Committed Belief': 2,
+    'Committed Belief': 2,
+    'Non-Committed Belief': 1,
     'Not Applicable': 0
 }
 labels_ldc = {
-    'CB': 3,
-    'NCB': 2, #maybe this happemned
+    'CB': 2,
+    'NCB': 1, #maybe this happemned
     'ROB': 0,
     'NA': 0
 }
 
 clf = {
-    'CT+': 3,
-    'PR+': 2,
-    'PS+': 2,
+    'CT+': 2,
+    'PR+': 1,
+    'PS+': 1,
     'Uu': 0,
-    'PS-': 2,
-    'PR-': 2,
-    'CT-': 3,
+    'PS-': 1,
+    'PR-': 1,
+    'CT-': 2,
     'CTu': 0,
     'NA': 0
 }
-
-x_train, x_test, y_train, y_test = train_test_split(t, l, test_size=1 - train_ratio, shuffle=True)
-x_val, x_test, y_val, y_test = train_test_split(x_test, y_test, test_size=test_ratio/(test_ratio + validation_ratio), shuffle=True)
+x_train, x_test, y_train, y_test = train_test_split(t, l, test_size=1 - train_ratio, shuffle=True, random_state=21)
+x_val, x_test, y_val, y_test = train_test_split(x_test, y_test, test_size=test_ratio/(test_ratio + validation_ratio), shuffle=True, random_state=21)
 
 
 y = []
@@ -109,11 +98,15 @@ def get_data(file_annotation, file_source):
 
     labels = []
     offsets = []
+    heads = []
+
     for annotation in root.findall("annotation"):
         belief = annotation.find('belief_type').text
-        # annotation_text = annotation.find('annotation_text').text
+        annotation_text = annotation.find('annotation_text').text
         labels.append(belief)
         offsets.append(annotation.get('offset'))
+        heads.append(annotation_text)
+
 
     # Text to annotation:
     # sentence, label
@@ -137,7 +130,10 @@ def get_data(file_annotation, file_source):
         new_end = text.find('.', starting)
         # print(new_starting)
         # print(new_end)
+        new_head = '* ' + str(heads[i]) + ' *'
         sentence = text[new_starting + 2:new_end + 1]
+        sentence = sentence.replace(str(heads[i]), new_head)
+
         txt.append(sentence)
         lbls.append(labels[i])
     return txt, labels
@@ -174,7 +170,7 @@ for file_annotation, file_source in zip(sorted(glob.glob("*.xml")), sorted(glob.
 test_labels = [item for sublist in test_labels for item in sublist]
 test_text =  [cleanhtml(item).strip() for sublist in test_text for item in sublist]
 labels_ldc = {
-    'CB': 3,
+    'CB': 2,
     'NCB': 1,
     'ROB': 0,
     'NA': 0
@@ -188,6 +184,19 @@ for i in train_labels:
 ldc_y_test = []
 for i in test_labels:
     ldc_y_test.append(labels_ldc[i])
+
+train_text = np.array(train_text)
+ldc_y_train = np.array(ldc_y_train)
+empty = np.where(train_text != '')[0]
+train_text = list(train_text[empty])
+ldc_y_train = list(ldc_y_train[empty])
+
+test_text = np.array(test_text)
+ldc_y_test = np.array(ldc_y_test)
+empty = np.where(test_text != '')[0]
+test_text = list(test_text[empty])
+ldc_y_test = list(ldc_y_test[empty])
+
 
 #LU
 input_processor = XMLCorpusToCSDSCollection(
@@ -238,7 +247,7 @@ def tokenize_function(examples):
 from scipy.stats import pearsonr
 from sklearn.metrics import mean_absolute_error
 
-from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trainer, TrainingArguments
+from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trainer, TrainingArguments, DebertaTokenizer, DebertaForSequenceClassification
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
 
 
@@ -251,17 +260,20 @@ def compute_metrics(pred):
         "r:": r,
         "mae: ": mae
     }
+from sklearn.metrics import f1_score
 
 def compute_f1(pred):
     labels = pred.label_ids
     preds = pred.predictions.argmax(-1)
     precision, recall, f1, _ = precision_recall_fscore_support(labels, preds, average=None)
     acc = accuracy_score(labels, preds)
+    macro = f1_score(labels, preds, average='macro')
     return {
         'accuracy': acc,
         'f1': f1,
         'precision': precision,
-        'recall': recall
+        'recall': recall,
+        'macro': macro
     }
 
 
@@ -271,7 +283,7 @@ notify("Created dataset, now tokenizing dataset")
 tokenizer = AutoTokenizer.from_pretrained('bert-base-cased')
 tokenized_csds_datasets = csds_datasets.map(tokenize_function, batched=True)
 notify("Done tokenizing dataset")
-model = AutoModelForSequenceClassification.from_pretrained('bert-base-cased', num_labels = 4)
+model = AutoModelForSequenceClassification.from_pretrained('bert-base-cased', num_labels = 3)
 notify("Starting training")
 #args = TrainingArguments(num_train_epochs=1, per_device_train_batch_size=2, per_device_eval_batch_size=2, output_dir='/gpfs/scratch/jmurzaku/cogstates')
 trainer = Trainer(

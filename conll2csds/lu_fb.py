@@ -25,10 +25,11 @@ t = []
 for i in text:
     i = ([i.strip("''") for i in i])
     i = ([i.strip("'\\'") for i in i])
+    i = [i.replace("'", "") for i in i]
     i = ' '.join(i)
 
     t.append(i)
-
+print(t)
 labels = (list(corpus['label']))
 l = []
 for i in labels:
@@ -42,11 +43,11 @@ validation_ratio = 0.25
 test_ratio = 0.07
 labels = {
     'CT+': 3.0,
-    'PR+': 1.0,
+    'PR+': 2.0,
     'PS+': 1.0,
     'Uu': 0.0,
     'PS-': -1.0,
-    'PR-': -1.0,
+    'PR-': -2.0,
     'CT-': -3.0,
     'CTu': 0.0,
     'NA': 0.0
@@ -54,30 +55,30 @@ labels = {
 
 lu_labels = {
     'Committed Belief': 3.0,
-    'Non-Committed Belief': -3.0,
+    'Non-Committed Belief': 2.0,
     'Not Applicable': 0.0
 }
 
 lu_labels_clf = {
-    'Committed Belief': 3,
-    'Non-Committed Belief': 2,
+    'Committed Belief': 2,
+    'Non-Committed Belief':1,
     'Not Applicable': 0
 }
 
 clf = {
-    'CT+': 3,
-    'PR+': 2,
-    'PS+': 2,
+    'CT+': 2,
+    'PR+': 1,
+    'PS+': 1,
     'Uu': 0,
-    'PS-': 2,
-    'PR-': 2,
-    'CT-': 3,
-    'CTu': 3,
+    'PS-': 1,
+    'PR-': 1,
+    'CT-': 2,
+    'CTu': 0,
     'NA': 0
 }
 
-x_train, x_test, y_train, y_test = train_test_split(t, l, test_size=1 - train_ratio, shuffle=True)
-x_val, x_test, y_val, y_test = train_test_split(x_test, y_test, test_size=test_ratio/(test_ratio + validation_ratio), shuffle=True)
+x_train, x_test, y_train, y_test = train_test_split(t, l, test_size=1 - train_ratio, shuffle=True, random_state=21)
+x_val, x_test, y_val, y_test = train_test_split(x_test, y_test, test_size=test_ratio/(test_ratio + validation_ratio), shuffle=True, random_state=21)
 
 
 y = []
@@ -114,14 +115,12 @@ for i in lu_test_labels:
     lu_y_test.append(lu_labels_clf[i])
 
 x_train = x_train + (lu_train_text)
-x_test = x_test + (lu_test_text)
 
+x_test = x_test
 y_train = y_train + (lu_y_train)
-y_test = y_test + (lu_y_test)
-
+y_test = y_test
 train_dict = Dataset.from_dict({"text": x_train, "labels": y_train})
 test_dict = Dataset.from_dict({"text": x_test, "labels": y_test})
-print(len(train_dict))
 hf = DatasetDict({'train': train_dict, 'eval': test_dict})
 
 from datasets import load_metric
@@ -142,6 +141,7 @@ from sklearn.metrics import mean_absolute_error
 
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trainer, TrainingArguments
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
+from sklearn.metrics import f1_score
 
 
 def compute_metrics(pred):
@@ -154,26 +154,29 @@ def compute_metrics(pred):
         "mae: ": mae
     }
 
+
 def compute_f1(pred):
     labels = pred.label_ids
     preds = pred.predictions.argmax(-1)
     precision, recall, f1, _ = precision_recall_fscore_support(labels, preds, average=None)
     acc = accuracy_score(labels, preds)
+    macro = f1_score(labels, preds, average='macro')
     return {
         'accuracy': acc,
-        'f1': f1,
+        'per label f1': f1,
         'precision': precision,
-        'recall': recall
+        'recall': recall,
+        'macro': macro
     }
 
 
 
 csds_datasets = hf
 notify("Created dataset, now tokenizing dataset")
-tokenizer = AutoTokenizer.from_pretrained('distilbert-base-uncased')
+tokenizer = AutoTokenizer.from_pretrained('microsoft/deberta-base')
 tokenized_csds_datasets = csds_datasets.map(tokenize_function, batched=True)
 notify("Done tokenizing dataset")
-model = AutoModelForSequenceClassification.from_pretrained('distilbert-base-uncased', num_labels = 4)
+model = AutoModelForSequenceClassification.from_pretrained('microsoft/deberta-base', num_labels = 3)
 notify("Starting training")
 #args = TrainingArguments(num_train_epochs=1, per_device_train_batch_size=2, per_device_eval_batch_size=2, output_dir='/gpfs/scratch/jmurzaku/cogstates')
 trainer = Trainer(

@@ -66,8 +66,7 @@ csds_train_dataset = Dataset.from_dict(csds_train_dict)
 csds_eval_dataset = Dataset.from_dict(csds_eval_dict)
 csds_datasets = DatasetDict({'train': csds_train_dataset,
                              'eval': csds_eval_dataset})
-
-
+"""
 def notify(string):
     print(">>>>   ", string, "   <<<<")
 
@@ -115,3 +114,4 @@ notify("Done training")
 
 results = trainer.evaluate()
 print(results)
+"""

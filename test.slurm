@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#SBATCH --job-name=test-gpu
+#SBATCH --job-name=cogstates
 #SBATCH --output=res.txt
 #SBATCH --ntasks-per-node=28
 #SBATCH --nodes=1
@@ -12,5 +12,7 @@ module load shared
 module load cuda102/toolkit/10.2
 cd /gpfs/home/jmurzaku/cogstates
 source cogstates/bin/activate
+cd /gpfs/scratch/jmurzaku/cogstates
+cd conll2csds
 
-python main.py
+python factbank2csds.py
