@@ -5,10 +5,12 @@ description = ""
 authors = ["Your Name <you@example.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = ">=3.7.1,<4.0"
 nltk = "^3.6.5"
 pycountry = "^20.7.3"
 requests = "^2.26.0"
+spacy = "^3.1.4"
+nlpaug = "^1.1.8"
 
 [tool.poetry.dev-dependencies]
 jupyterlab = "^3.1.18"

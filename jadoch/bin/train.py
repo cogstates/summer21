@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+import getpass
+
 import transformers
 from datasets import DatasetDict
 
@@ -29,7 +31,7 @@ def main(ctx):
     ctx.parser.set_defaults(
         sb_partition="gpu,gpu-long,gpu-large",
         sb_exclude="sn-nvda8",
-        sb_time="08:00:00",
+        sb_time="16:00:00",
         modules=["cuda102/toolkit/10.2"],
     )
     args = slurmify(ctx.parser)
@@ -52,6 +54,9 @@ def main(ctx):
         train_dataset=tokenized_dataset["train"],
         eval_dataset=tokenized_dataset["test"],
         compute_metrics=compute_metrics,
+        args=transformers.TrainingArguments(
+            output_dir=f"/gpfs/scratch/{getpass.getuser()}/tmp_trainer",
+        ),
     )
     trainer.train()
     results = trainer.evaluate()
