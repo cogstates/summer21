@@ -30,5 +30,6 @@ repos:
         args: [--strict]
         exclude: |
             (?x)^(
-                jadoch/bin/train.py # transformers breaks type checking.
+                jadoch/bin/train.py | # transformers breaks type checking.
+                jadoch/bin/data.py  # lazy.
             )$
