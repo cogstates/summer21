@@ -137,13 +137,13 @@ class LUCorpusToSqliteDatabase:
                 self.cur.execute(
                     "INSERT INTO lu_data VALUES(?, ?, ?, ?, ?, ?, ?)",
                     (
+                        self.doc_id,
+                        sentence_id,
                         self.sentences[sentence_id],
                         head_start,
                         head_end,
                         annotation_type,
-                        self.nodes_to_targets[annotation.attrib['StartNode']],
-                        self.doc_id,
-                        sentence_id
+                        self.nodes_to_targets[annotation.attrib['StartNode']]
                     )
                 )
                 self.sentence_to_annotation_offsets[sentence_id].append((head_start, head_end))
@@ -205,13 +205,13 @@ class LUCorpusToSqliteDatabaseWithOLabels(LUCorpusToSqliteDatabase):
                 self.cur.execute(
                     "INSERT INTO lu_data VALUES(?, ?, ?, ?, ?, ?, ?)",
                     (
+                        self.doc_id,
+                        sentence_id,
                         sentence,
                         start,
                         end,
                         "O",
                         sentence[start:end],
-                        self.doc_id,
-                        sentence_id
                     )
                 )
 
