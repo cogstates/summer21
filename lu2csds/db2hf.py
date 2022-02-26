@@ -132,7 +132,7 @@ class DB2HF:
 
         result_sentence = ""
         if start != 0:
-            result_sentence = raw_sentence[0:start] + "**" + head + "**" + raw_sentence[end:]
+            result_sentence = raw_sentence[0:start] + "* " + head + " *" + raw_sentence[end:]
         else:
             result_sentence = "* " + head + " *" + raw_sentence[end:]
 
