@@ -3,15 +3,14 @@ from datasets import Dataset, DatasetDict, ClassLabel, load_metric
 
 class CSDS2HF:
 
-    training_text = []
-    test_text = []
-    training_labels = []
-    test_labels = []
-    unique_labels = []
-    csds_collection = None
-
     def __init__(self, csds_collection):
         self.csds_collection = csds_collection
+
+        self.training_text = []
+        self.test_text = []
+        self.training_labels = []
+        self.test_labels = []
+        self.unique_labels = []
 
     # splits data into train and test
     def populate_lists(self):
