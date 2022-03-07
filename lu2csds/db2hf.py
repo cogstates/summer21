@@ -124,7 +124,7 @@ GROUP BY s.file, s.sentId;"""
 
         head_length = offset_end - offset_start
         offset_start -= file_offset
-        while 0 <= offset_start < len(raw_sentence) and raw_sentence[offset_start] != ' ':
+        while 0 < offset_start < len(raw_sentence) and raw_sentence[offset_start] != ' ':
             offset_start -= 1
         if offset_start > 0:
             offset_start += 1
