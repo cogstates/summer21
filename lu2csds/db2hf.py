@@ -4,6 +4,7 @@
 
 import sqlite3
 from datasets import Dataset, DatasetDict, ClassLabel
+import nltk
 
 # translator class to take sqlite factbank data and output a dictionary
 # containing lists of training and testing data for hugging face
@@ -17,7 +18,9 @@ class DB2HF:
     TOKEN_LOCATION = 2
     TEXT = 3
     FACT_VALUE = 4
-    SPECIAL_TOKENS = ["\'s", ",", ".", "!"]
+    OFFSET_INIT = 5
+    OFFSET_END = 6
+    SENTENCE_ID = 7
 
     def __init__(self):
         self.master_data_size = 0
@@ -28,18 +31,27 @@ class DB2HF:
         self.training_labels = []
         self.test_labels = []
         self.unique_labels = []
+        self.tokens = [] # storing the non-space tokens to ensure correct indexing for head labeling
 
-        self.master_query = """SELECT DISTINCT s.file, s.sent, t.tokLoc, t.text, f.factValue
-    FROM sentences s
-    JOIN tokens_tml t
-        ON s.file = t.file
-               AND s.sentId = t.sentId
-    JOIN fb_factValue f
-        ON f.sentId = t.sentId
-               AND f.eId = t.tmlTagId
-               AND f.eText = t.text
-               AND f.relSourceText = "'AUTHOR'"
-    GROUP BY s.file, s.sentId;"""
+        self.initialOffsets = {}
+
+        self.errors = {}
+
+        self.master_query = """SELECT DISTINCT s.file, s.sent, t.tokLoc, t.text, f.factValue, o.offsetInit, o.offsetEnd, o.sentId
+FROM sentences s
+JOIN tokens_tml t
+    ON s.file = t.file
+           AND s.sentId = t.sentId
+join offsets o
+    on t.file = o.file
+        and t.sentId = o.sentId
+            and t.tokLoc = o.tokLoc
+JOIN fb_factValue f
+    ON f.sentId = t.sentId
+           AND f.eId = t.tmlTagId
+           AND f.eText = t.text
+           AND f.relSourceText = "'AUTHOR'"
+GROUP BY s.file, s.sentId;"""
 
         self.data_count_query = """SELECT count(*) from (SELECT DISTINCT *
     FROM sentences s
@@ -53,29 +65,86 @@ class DB2HF:
                AND f.relSourceText = "'AUTHOR'"
     GROUP BY s.file, s.sentId);"""
 
+        # self.tokens_query = """SELECT DISTINCT text FROM tokens_tml ORDER BY text;"""
+
+        self.offsetsQuery = """select o.file, o.sentId, o.offsetInit from offsets o where o.tokLoc = 0;"""
+
     # connecting to the database file and executing the master query to grab all labeled instances
     def get_data(self):
         con = sqlite3.connect('factbank_data.db')
         cur = con.cursor()
 
+        # building dictionary of initial offsets for later use in asterisk-placing
+        sql_return = cur.execute(self.offsetsQuery)
+        for row in sql_return:
+            self.initialOffsets[(row[self.FILE][1:-1], row[self.SENTENCE])] = row[2]
+
+        # training data collection, cleanup and cataloguing
         sql_return = cur.execute(self.master_query)
 
-        # data cleanup
         for row in sql_return:
             cleanRow = list(row)
 
             # removing enclosing single quotes
             cleanRow[self.FILE] = cleanRow[self.FILE][1:-1]
-            cleanRow[self.TEXT] = cleanRow[self.TEXT][1:-1]
+            cleanRow[self.TEXT] = cleanRow[self.TEXT][1:-1].replace("\\", "")
             cleanRow[self.FACT_VALUE] = cleanRow[self.FACT_VALUE][1:-2]
 
             # putting asterisks around the head
-            cleanRow[self.SENTENCE] = self.do_asterisks(cleanRow[self.SENTENCE][1:-2], cleanRow[self.TEXT])
+            cleanRow[self.SENTENCE] = self.do_asterisks(cleanRow[self.FILE],
+                                                        cleanRow[self.SENTENCE_ID],
+                                                        cleanRow[self.SENTENCE][1:-2].replace("\\", ""),
+                                                        cleanRow[self.TOKEN_LOCATION],
+                                                        cleanRow[self.OFFSET_INIT],
+                                                        cleanRow[self.OFFSET_END],
+                                                        cleanRow[self.TEXT])
 
+            # print(cleanRow)
             self.raw_fb_dataset.append(cleanRow)
 
         # total row count of returned query
         self.master_data_size = cur.execute(self.data_count_query).fetchone()[0]
+
+        # building list of tokens
+        # sql_return = cur.execute(self.tokens_query)
+        #
+        # for row in sql_return:
+        #     cleanRow = list(row)
+        #     cleanRow[0] = cleanRow[0][1:-1]
+        #     self.tokens.append(cleanRow[0])
+
+    # adding asterisks around head of sentence
+    def do_asterisks(self, file, sent_id, raw_sentence, tokLoc, offsetStart, offsetEnd, head):
+
+        # tokens = nltk.word_tokenize(raw_sentence)
+        # pred_head = tokens[tokLoc]
+        # if pred_head != head:
+        #     print("WARNING: No match")
+        #     print('pred_head:', pred_head, 'head:', head)
+        #     print('raw_sentence:', raw_sentence, 'tokLoc:', tokLoc)
+        #     print('tokens:', tokens)
+        #
+        # tokens[tokLoc] = "* " + pred_head + " *"
+        #
+        # return " ".join(tokens)
+
+        # calculating the initial offset, since the indicies are file-based and not sentence-based in the DB
+        fileOffset = self.initialOffsets[(file, sent_id)]
+        offsetStart -= fileOffset
+        offsetEnd -= fileOffset
+        pred_head = raw_sentence[offsetStart:offsetEnd]
+
+        result_sentence = raw_sentence[:offsetStart] + "* " + head + " *" + raw_sentence[offsetEnd:]
+        if pred_head != head:
+            self.errors[(file, sent_id)] = (offsetStart, offsetEnd, pred_head, head, raw_sentence, result_sentence)
+
+        # print('pred_head:', pred_head, 'head:', head)
+        # print('raw_sentence:', raw_sentence, 'tokLoc:', tokLoc)
+        # print('result_sentence:', result_sentence)
+        # print("\n\n")
+        return result_sentence
+
+
 
     # splitting data into training and testing sets
     def populate_lists(self):
@@ -125,18 +194,13 @@ class DB2HF:
         self.unique_labels = list(set(beliefs))
         self.unique_labels.sort()
 
-    # adding asterisks around head of sentence
-    def do_asterisks(self, raw_sentence, head):
-        start = raw_sentence.index(head)
-        end = start + len(head)
 
-        result_sentence = ""
-        if start != 0:
-            result_sentence = raw_sentence[0:start] + "* " + head + " *" + raw_sentence[end:]
-        else:
-            result_sentence = "* " + head + " *" + raw_sentence[end:]
-
-        return result_sentence
+    def get_examples_with_head_more_than_once(self):
+        results = []
+        for row in self.raw_fb_dataset:
+            if row[self.SENTENCE].count(row[self.TEXT]) > 1:
+                results.append(row)
+        return results
 
     # returning final dictionary containing train and test data for feeding into hf
     def get_dataset_dict(self):
@@ -152,3 +216,8 @@ class DB2HF:
 
 testinstance = DB2HF()
 print(testinstance.get_dataset_dict())
+for key1, key2 in testinstance.errors:
+    print(key1, key2)
+    print(testinstance.errors[(key1, key2)])
+    print("\n\n")
+print(len(testinstance.errors))
