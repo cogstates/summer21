@@ -33,7 +33,7 @@ class FbSentenceProcessor:
         self.sources = []
         self.next_source_id = 1
 
-        self.attitudes = []
+        self.attitudes = {}
         self.next_attitude_id = 1
 
         # self.problem_eid_label_keys = []
@@ -168,8 +168,10 @@ class FbSentenceProcessor:
                         target_token_id = self.next_mention_id
                         self.next_mention_id += 1
 
-                        self.attitudes.append((self.next_attitude_id, attitude_source_id,
-                                               target_token_id, fact_value, 'Belief'))
+                        attitude_key = (attitude_source_id, target_token_id)
+
+                        self.attitudes[attitude_key] = [self.next_attitude_id, attitude_source_id,
+                                                        target_token_id, fact_value, 'Belief']
                         self.next_attitude_id += 1
         bar.next()
 
@@ -219,7 +221,8 @@ class FbSentenceProcessor:
         """
         num_changes = 0
         i = 0
-        for bottom_attitude in self.attitudes:
+        for key in self.attitudes:
+            bottom_attitude = self.attitudes[key]
             bottom_label = bottom_attitude[3]
             if bottom_label != 'Uu':
                 relevant_target_token_id = bottom_attitude[2]
@@ -230,23 +233,18 @@ class FbSentenceProcessor:
                     if i % 1000 == 0:
                         print(i)
                     current_source = self.sources[parent_source_id - 1]
+                    current_source_id = parent_source_id
                     parent_source_id = current_source[3]
-                    current_source_id = current_source[0]
                     current_attitude = None
-                    for cur_attitude in self.attitudes:
-                        if cur_attitude[1] == current_source_id and cur_attitude[2] == relevant_target_token_id:
-                            current_attitude = cur_attitude
-                            break
-                    if current_attitude is None:
-                        continue
-                    else:
-                        print('at least this is working')
-                    current_attitude_id = current_attitude[0]
-                    current_label = current_attitude[3]
-                    if current_label == 'Uu':
-                        self.attitudes[current_attitude_id - 1] = 'ROB'
-                        num_changes += 1
-        print('{} changes from Uu to ROB'.format(num_changes))
+                print('got to AUTHOR')
+                    # attitude_key = (current_source_id, )
+
+                    # current_attitude_id = current_attitude[0]
+                    # current_label = current_attitude[3]
+                    # if current_label == 'Uu':
+                    #     self.attitudes[current_attitude_id - 1] = 'ROB'
+                    #     num_changes += 1
+        # print('{} changes from Uu to ROB'.format(num_changes))
 
 
     # calculating the initial offset, since the indices are file-based and not sentence-based in the DB

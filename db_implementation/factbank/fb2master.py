@@ -117,6 +117,11 @@ class FB2Master:
         sp = FbSentenceProcessor(sentences_sql_return, self.initial_offsets, self.rel_source_texts,
                                  self.source_offsets, self.target_offsets, self.targets, self.fact_values)
         sp.go()
+
+        final_attitudes = []
+        for key in sp.attitudes:
+            final_attitudes.append(sp.attitudes[key])
+
         self.errors, self.num_errors = sp.get_errors()
 
         # inserting python data into master schema
@@ -130,7 +135,7 @@ class FB2Master:
                                 'VALUES (?, ?, ?, ?, ?, ?);', sp.sources)
         self.ma_con.executemany('INSERT INTO attitudes '
                                 '(attitude_id, source_id, target_token_id, label, label_type) '
-                                'VALUES (?, ?, ?, ?, ?);', sp.attitudes)
+                                'VALUES (?, ?, ?, ?, ?);', final_attitudes)
 
     def commit(self):
         self.fb_con.commit()
