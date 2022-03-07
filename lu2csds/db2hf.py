@@ -124,11 +124,16 @@ GROUP BY s.file, s.sentId;"""
 
         head_length = offset_end - offset_start
         offset_start -= file_offset
-        while 0 < offset_start < len(raw_sentence) and raw_sentence[offset_start] != ' ':
+        while (
+                0 < offset_start < len(raw_sentence) and
+                raw_sentence[offset_start] != ' ' and
+                raw_sentence[offset_start] != '`'
+        ):
             offset_start -= 1
         if offset_start > 0:
             offset_start += 1
-        pred_head = raw_sentence[offset_start:(offset_start + head_length)]
+        offset_end = offset_start + head_length
+        pred_head = raw_sentence[offset_start:offset_end]
 
         result_sentence = raw_sentence[:offset_start] + "* " + head + " *" + raw_sentence[offset_end:]
         if pred_head != head:
