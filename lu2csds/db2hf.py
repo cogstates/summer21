@@ -126,8 +126,7 @@ GROUP BY s.file, s.sentId;"""
         offset_start -= file_offset
         while (
                 0 < offset_start < len(raw_sentence) and
-                raw_sentence[offset_start] != ' ' and
-                raw_sentence[offset_start] != '`'
+                raw_sentence[offset_start] not in ' `"'
         ):
             offset_start -= 1
         if offset_start > 0:
