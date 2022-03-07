@@ -33,7 +33,7 @@ class DB2HF:
         self.unique_labels = []
         self.tokens = [] # storing the non-space tokens to ensure correct indexing for head labeling
 
-        self.initialOffsets = {}
+        self.initial_offsets = {}
 
         self.errors = {}
 
@@ -67,7 +67,7 @@ GROUP BY s.file, s.sentId;"""
 
         # self.tokens_query = """SELECT DISTINCT text FROM tokens_tml ORDER BY text;"""
 
-        self.offsetsQuery = """select o.file, o.sentId, o.offsetInit from offsets o where o.tokLoc = 0;"""
+        self.offsets_query = """select o.file, o.sentId, o.offsetInit from offsets o where o.tokLoc = 0;"""
 
     # connecting to the database file and executing the master query to grab all labeled instances
     def get_data(self):
@@ -75,32 +75,32 @@ GROUP BY s.file, s.sentId;"""
         cur = con.cursor()
 
         # building dictionary of initial offsets for later use in asterisk-placing
-        sql_return = cur.execute(self.offsetsQuery)
+        sql_return = cur.execute(self.offsets_query)
         for row in sql_return:
-            self.initialOffsets[(row[self.FILE][1:-1], row[self.SENTENCE])] = row[2]
+            self.initial_offsets[(row[self.FILE][1:-1], row[self.SENTENCE])] = row[2]
 
         # training data collection, cleanup and cataloguing
         sql_return = cur.execute(self.master_query)
 
         for row in sql_return:
-            cleanRow = list(row)
+            row = list(row)
 
             # removing enclosing single quotes
-            cleanRow[self.FILE] = cleanRow[self.FILE][1:-1]
-            cleanRow[self.TEXT] = cleanRow[self.TEXT][1:-1].replace("\\", "")
-            cleanRow[self.FACT_VALUE] = cleanRow[self.FACT_VALUE][1:-2]
+            row[self.FILE] = row[self.FILE][1:-1]
+            row[self.TEXT] = row[self.TEXT][1:-1].replace("\\", "")
+            row[self.FACT_VALUE] = row[self.FACT_VALUE][1:-2]
 
             # putting asterisks around the head
-            cleanRow[self.SENTENCE] = self.do_asterisks(cleanRow[self.FILE],
-                                                        cleanRow[self.SENTENCE_ID],
-                                                        cleanRow[self.SENTENCE][1:-2].replace("\\", ""),
-                                                        cleanRow[self.TOKEN_LOCATION],
-                                                        cleanRow[self.OFFSET_INIT],
-                                                        cleanRow[self.OFFSET_END],
-                                                        cleanRow[self.TEXT])
+            row[self.SENTENCE] = self.do_asterisks(row[self.FILE],
+                                                        row[self.SENTENCE_ID],
+                                                        row[self.SENTENCE][1:-2].replace("\\", ""),
+                                                        row[self.TOKEN_LOCATION],
+                                                        row[self.OFFSET_INIT],
+                                                        row[self.OFFSET_END],
+                                                        row[self.TEXT])
 
-            # print(cleanRow)
-            self.raw_fb_dataset.append(cleanRow)
+            # print(row)
+            self.raw_fb_dataset.append(row)
 
         # total row count of returned query
         self.master_data_size = cur.execute(self.data_count_query).fetchone()[0]
@@ -109,34 +109,30 @@ GROUP BY s.file, s.sentId;"""
         # sql_return = cur.execute(self.tokens_query)
         #
         # for row in sql_return:
-        #     cleanRow = list(row)
-        #     cleanRow[0] = cleanRow[0][1:-1]
-        #     self.tokens.append(cleanRow[0])
+        #     row = list(row)
+        #     row[0] = row[0][1:-1]
+        #     self.tokens.append(row[0])
 
     # adding asterisks around head of sentence
-    def do_asterisks(self, file, sent_id, raw_sentence, tokLoc, offsetStart, offsetEnd, head):
-
-        # tokens = nltk.word_tokenize(raw_sentence)
-        # pred_head = tokens[tokLoc]
-        # if pred_head != head:
-        #     print("WARNING: No match")
-        #     print('pred_head:', pred_head, 'head:', head)
-        #     print('raw_sentence:', raw_sentence, 'tokLoc:', tokLoc)
-        #     print('tokens:', tokens)
-        #
-        # tokens[tokLoc] = "* " + pred_head + " *"
-        #
-        # return " ".join(tokens)
+    def do_asterisks(self, file, sent_id, raw_sentence, tokLoc, offset_start, offset_end, head):
 
         # calculating the initial offset, since the indicies are file-based and not sentence-based in the DB
-        fileOffset = self.initialOffsets[(file, sent_id)]
-        offsetStart -= fileOffset
-        offsetEnd -= fileOffset
-        pred_head = raw_sentence[offsetStart:offsetEnd]
+        file_offset = self.initial_offsets[(file, sent_id)]
+        # offset_start -= file_offset
+        # offset_end -= file_offset
+        # pred_head = raw_sentence[offset_start:offset_end]
 
-        result_sentence = raw_sentence[:offsetStart] + "* " + head + " *" + raw_sentence[offsetEnd:]
+        head_length = offset_end - offset_start
+        offset_start -= file_offset
+        while 0 <= offset_start < len(raw_sentence) and raw_sentence[offset_start] != ' ':
+            offset_start -= 1
+        if offset_start > 0:
+            offset_start += 1
+        pred_head = raw_sentence[offset_start:(offset_start + head_length)]
+
+        result_sentence = raw_sentence[:offset_start] + "* " + head + " *" + raw_sentence[offset_end:]
         if pred_head != head:
-            self.errors[(file, sent_id)] = (offsetStart, offsetEnd, pred_head, head, raw_sentence, result_sentence)
+            self.errors[(file, sent_id)] = (offset_start, offset_end, pred_head, head, raw_sentence, result_sentence)
 
         # print('pred_head:', pred_head, 'head:', head)
         # print('raw_sentence:', raw_sentence, 'tokLoc:', tokLoc)
