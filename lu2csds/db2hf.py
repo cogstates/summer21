@@ -4,7 +4,6 @@
 
 import sqlite3
 from datasets import Dataset, DatasetDict, ClassLabel
-import nltk
 
 # translator class to take sqlite factbank data and output a dictionary
 # containing lists of training and testing data for hugging face
