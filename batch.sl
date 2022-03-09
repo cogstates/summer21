@@ -6,9 +6,9 @@
 #SBATCH --partition=gpuv100
 #SBATCH --time=01:00:00
 #SBATCH --mail-type=BEGIN,END,FAIL.
-#SBATCH --mail-user=aviram@bc.edu
+#SBATCH --mail-user=osbornty@bc.edu
 
 module load transformers
-cd /mmfs1/data/aviram/cogstates/summer21
+cd /data/osbornty/summer21
 python3 main.py
  
