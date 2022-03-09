@@ -91,7 +91,7 @@ GROUP BY s.file, s.sentId;"""
             row[self.FACT_VALUE] = row[self.FACT_VALUE][1:-2]
 
             # putting asterisks around the head
-            row[self.SENTENCE] = self.do_asterisks(row[self.FILE],
+            row[self.SENTENCE], success = self.do_asterisks(row[self.FILE],
                                                         row[self.SENTENCE_ID],
                                                         row[self.SENTENCE][1:-2].replace("\\", ""),
                                                         row[self.TOKEN_LOCATION],
@@ -100,7 +100,8 @@ GROUP BY s.file, s.sentId;"""
                                                         row[self.TEXT])
 
             # print(row)
-            self.raw_fb_dataset.append(row)
+            if success:
+                self.raw_fb_dataset.append(row)
 
         # total row count of returned query
         self.master_data_size = cur.execute(self.data_count_query).fetchone()[0]
@@ -118,9 +119,7 @@ GROUP BY s.file, s.sentId;"""
 
         # calculating the initial offset, since the indicies are file-based and not sentence-based in the DB
         file_offset = self.initial_offsets[(file, sent_id)]
-        # offset_start -= file_offset
-        # offset_end -= file_offset
-        # pred_head = raw_sentence[offset_start:offset_end]
+        success = True
 
         head_length = offset_end - offset_start
         offset_start -= file_offset
@@ -136,13 +135,14 @@ GROUP BY s.file, s.sentId;"""
 
         result_sentence = raw_sentence[:offset_start] + "* " + head + " *" + raw_sentence[offset_end:]
         if pred_head != head:
+            success = False
             self.errors[(file, sent_id)] = (offset_start, offset_end, pred_head, head, raw_sentence, result_sentence)
 
         # print('pred_head:', pred_head, 'head:', head)
         # print('raw_sentence:', raw_sentence, 'tokLoc:', tokLoc)
         # print('result_sentence:', result_sentence)
         # print("\n\n")
-        return result_sentence
+        return result_sentence, success
 
 
 
