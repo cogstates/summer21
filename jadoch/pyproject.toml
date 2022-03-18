@@ -11,6 +11,7 @@ pycountry = "^20.7.3"
 requests = "^2.26.0"
 spacy = "^3.1.4"
 nlpaug = "^1.1.8"
+more-itertools = "^8.12.0"
 
 [tool.poetry.dev-dependencies]
 jupyterlab = "^3.1.18"

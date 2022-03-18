@@ -26,18 +26,20 @@ def compute_metrics(pred):
     }
 
 
+# TODO: Have this save the model somewhere reasonable.
 def main(ctx):
     ctx.parser.add_argument("path")
     ctx.parser.set_defaults(
-        sb_partition="gpu,gpu-long,gpu-large",
+        sb_partition="gpu,gpu-long,gpu-large,p100,v100",
         sb_exclude="sn-nvda8",
-        sb_time="16:00:00",
+        sb_time="32:00:00",
         modules=["cuda102/toolkit/10.2"],
     )
     args = slurmify(ctx.parser)
     # Set up logging.
     transformers.logging.disable_default_handler()
     transformers.logging.enable_propagation()
+    ctx.log.info("Reading %s", args.path)
     # Tokenize the data.
     dataset = DatasetDict.load_from_disk(args.path)
     tokenizer = transformers.AutoTokenizer.from_pretrained("bert-base-cased")
