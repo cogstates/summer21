@@ -1,8 +1,7 @@
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trainer, TrainingArguments
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
 
-from csds2hf.csds2hf import CSDS2HF
-from lu2csds.lu2csds import LUCorpusToCSDSCollection, LUCorpusToCSDSCollectionWithOLabels
+from lu2csds.db2hf import DB2HF
 
 
 def notify(string):
@@ -27,12 +26,8 @@ def compute_metrics(pred):
 
 
 if __name__ == '__main__':
-    input_processor = LUCorpusToCSDSCollection(
-        '2010 Language Understanding',
-        'CMU')
-    collection = input_processor.create_and_get_collection()
-    csds2hf = CSDS2HF(collection)
-    csds_datasets = csds2hf.get_dataset_dict()
+    db2hf = DB2HF()
+    csds_datasets = db2hf.get_dataset_dict()
     notify("Created dataset, now tokenizing dataset")
     tokenizer = AutoTokenizer.from_pretrained("bert-base-cased")
     tokenized_csds_datasets = csds_datasets.map(tokenize_function, batched=True)

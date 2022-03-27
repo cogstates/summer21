@@ -80,8 +80,10 @@ GROUP BY s.file, s.sentId;"""
 
         # training data collection, cleanup and cataloguing
         sql_return = cur.execute(self.master_query)
-
+        i = 0
         for row in sql_return:
+            if i > 200:
+                break
             row = list(row)
 
             # removing enclosing single quotes
@@ -101,6 +103,7 @@ GROUP BY s.file, s.sentId;"""
             # print(row)
             if success:
                 self.raw_fb_dataset.append(row)
+                i += 1
 
         # total row count of returned query
         self.master_data_size = cur.execute(self.data_count_query).fetchone()[0]
