@@ -69,6 +69,6 @@ class CSDS2HF:
         csds_test_dataset = Dataset.from_dict(
             {"text": self.test_text, "labels": list(map(class_label.str2int, self.test_labels))}
         )
-        return DatasetDict({'train': csds_train_dataset, 'eval': csds_test_dataset})
+        return DatasetDict({'train': csds_train_dataset, 'eval': csds_test_dataset}), len(self.unique_labels)
 
 
