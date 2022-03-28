@@ -97,7 +97,6 @@ GROUP BY s.file, s.sentId;"""
                                                         row[self.OFFSET_END],
                                                         row[self.TEXT])
 
-            # print(row)
             if success:
                 self.raw_fb_dataset.append(row)
 
@@ -136,13 +135,7 @@ GROUP BY s.file, s.sentId;"""
             success = False
             self.errors[(file, sent_id)] = (offset_start, offset_end, pred_head, head, raw_sentence, result_sentence)
 
-        # print('pred_head:', pred_head, 'head:', head)
-        # print('raw_sentence:', raw_sentence, 'tokLoc:', tokLoc)
-        # print('result_sentence:', result_sentence)
-        # print("\n\n")
         return result_sentence, success
-
-
 
     # splitting data into training and testing sets
     def populate_lists(self):
