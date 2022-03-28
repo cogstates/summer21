@@ -32,7 +32,7 @@ if __name__ == '__main__':
     tokenizer = AutoTokenizer.from_pretrained("bert-base-cased")
     tokenized_csds_datasets = csds_datasets.map(tokenize_function, batched=True)
     notify("Done tokenizing dataset")
-    model = AutoModelForSequenceClassification.from_pretrained("bert-base-cased", num_labels=5)
+    model = AutoModelForSequenceClassification.from_pretrained("bert-base-cased", num_labels=9)
     notify("Starting training")
     trainer = Trainer(
         model=model,
