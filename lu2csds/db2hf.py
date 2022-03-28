@@ -192,7 +192,6 @@ GROUP BY s.file, s.sentId;"""
         self.unique_labels = list(set(beliefs))
         self.unique_labels.sort()
 
-
     def get_examples_with_head_more_than_once(self):
         results = []
         for row in self.raw_fb_dataset:
@@ -210,7 +209,8 @@ GROUP BY s.file, s.sentId;"""
         test_dataset = Dataset.from_dict(
             {"text": self.test_text, "labels": list(map(class_label.str2int, self.test_labels))}
         )
-        return DatasetDict({'train': train_dataset, 'eval': test_dataset})
+        return DatasetDict({'train': train_dataset, 'eval': test_dataset}), len(self.unique_labels)
+
 
 testinstance = DB2HF()
 print(testinstance.get_dataset_dict())

@@ -27,12 +27,12 @@ def compute_metrics(pred):
 
 if __name__ == '__main__':
     db2hf = DB2HF()
-    csds_datasets = db2hf.get_dataset_dict()
+    csds_datasets, num_labels = db2hf.get_dataset_dict()
     notify("Created dataset, now tokenizing dataset")
     tokenizer = AutoTokenizer.from_pretrained("bert-base-cased")
     tokenized_csds_datasets = csds_datasets.map(tokenize_function, batched=True)
     notify("Done tokenizing dataset")
-    model = AutoModelForSequenceClassification.from_pretrained("bert-base-cased", num_labels=9)
+    model = AutoModelForSequenceClassification.from_pretrained("bert-base-cased", num_labels=num_labels)
     notify("Starting training")
     trainer = Trainer(
         model=model,
