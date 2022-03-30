@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<GateDocument>
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">text/plain</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/dhdavis/Desktop/aceTool2005/Annotation%20Files/ENRON-pearson-email-25jul02.txt</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">docNewLineType</Name>
+  <Value className="java.lang.String">LF</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes><Node id="0" />Message-ID: &lt;15770467.1075840346156.JavaMail.evans@thyme>
+&lt;LU_ANNOTATE>
+Date: Wed, 25 Jul 2001 16:45:08 -0700 (PDT)
+From: rpearson@oilstates.com
+To: don.baughman@enron.com
+&lt;/LU_ANNOTATE>
+Subject: RE: Unclassified <Node id="213" />rules<Node id="218" />
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+X-From: "Robert Pearson" &lt;rpearson@oilstates.com>@ENRON
+X-To: Baughman Jr., Don &lt;/O=ENRON/OU=NA/CN=RECIPIENTS/CN=DBAUGHM>
+X-cc:
+X-bcc:
+X-Folder: \ExMerge - Baughman Jr., Don\Personal\Letters
+X-Origin: BAUGHMAN-D
+X-FileName: don baughman 6-25-02.PST<Node id="560" />
+
+<Node id="562" />&lt;LU_ANNOTATE>
+HOWDY,<Node id="582" />
+
+<Node id="584" />WHAT'S BEEN <Node id="596" />GOING ON<Node id="604" /> AMIGO.  
+I HAVE <Node id="621" />NOT TALKED TO<Node id="634" /> YOU IN A WHILE.  
+<Node id="653" />GIVE<Node id="657" /> YOU THE <Node id="666" />SCOPE<Node id="671" /> OF WHATS BEEN <Node id="686" />GOING ON<Node id="694" /> WITH ME.  
+I <Node id="708" />LEFT<Node id="712" /> OILSTATES BACK IN MARCH WITH ANOTHER COMPANY.  
+<Node id="761" />DID<Node id="764" /> A LOT OF <Node id="774" />TRAVELING<Node id="783" /> AND THEY (OILSTATES) <Node id="805" />MADE<Node id="809" /> ME A SWEET <Node id="821" />OFFER<Node id="826" /> <Node id="827" />TO COME BACK<Node id="839" />.
+SO I <Node id="846" />AM BACK<Node id="853" />.<Node id="854" />
+
+<Node id="856" />WHO'S <Node id="862" />GETTING MARRIED<Node id="877" />?  
+<Node id="881" />SOUNDS LIKE<Node id="892" /> THIS IS GOING TO <Node id="910" />BE A GREAT BACHELOR PARTY<Node id="935" />.  
+<Node id="939" />GIVE<Node id="943" /> ME A <Node id="949" />CALL<Node id="953" /> SOMETIME CELL: 713 991 - 5621.<Node id="984" />
+
+<Node id="986" />ROB
+&lt;/LU_ANNOTATE WC=91>
+<Node id="1011" /></TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Factivity">
+<Annotation Id="5" Type="Committed Belief" StartNode="213" EndNode="218">
+</Annotation>
+<Annotation Id="6" Type="Committed Belief" StartNode="621" EndNode="634">
+</Annotation>
+<Annotation Id="7" Type="Committed Belief" StartNode="653" EndNode="657">
+</Annotation>
+<Annotation Id="8" Type="Committed Belief" StartNode="666" EndNode="671">
+</Annotation>
+<Annotation Id="9" Type="Committed Belief" StartNode="686" EndNode="694">
+</Annotation>
+<Annotation Id="10" Type="Committed Belief" StartNode="708" EndNode="712">
+</Annotation>
+<Annotation Id="11" Type="Committed Belief" StartNode="761" EndNode="764">
+</Annotation>
+<Annotation Id="12" Type="Committed Belief" StartNode="774" EndNode="783">
+</Annotation>
+<Annotation Id="13" Type="Committed Belief" StartNode="805" EndNode="809">
+</Annotation>
+<Annotation Id="14" Type="Committed Belief" StartNode="821" EndNode="826">
+</Annotation>
+<Annotation Id="15" Type="Committed Belief" StartNode="846" EndNode="853">
+</Annotation>
+<Annotation Id="17" Type="Committed Belief" StartNode="939" EndNode="943">
+</Annotation>
+<Annotation Id="16" Type="Committed Belief" StartNode="881" EndNode="892">
+</Annotation>
+<Annotation Id="19" Type="Committed Belief" StartNode="827" EndNode="839">
+</Annotation>
+<Annotation Id="18" Type="Not Applicable" StartNode="596" EndNode="604">
+</Annotation>
+<Annotation Id="21" Type="Committed Belief Future" StartNode="910" EndNode="935">
+</Annotation>
+<Annotation Id="20" Type="Not Applicable" StartNode="862" EndNode="877">
+</Annotation>
+<Annotation Id="22" Type="Non-Committed Belief Future" StartNode="949" EndNode="953">
+</Annotation>
+</AnnotationSet>
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Original markups">
+<Annotation Id="0" Type="paragraph" StartNode="0" EndNode="560">
+</Annotation>
+<Annotation Id="1" Type="paragraph" StartNode="562" EndNode="582">
+</Annotation>
+<Annotation Id="2" Type="paragraph" StartNode="584" EndNode="854">
+</Annotation>
+<Annotation Id="3" Type="paragraph" StartNode="856" EndNode="984">
+</Annotation>
+<Annotation Id="4" Type="paragraph" StartNode="986" EndNode="1011">
+</Annotation>
+</AnnotationSet>
+</GateDocument>

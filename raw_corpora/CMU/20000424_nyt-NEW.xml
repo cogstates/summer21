@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<GateDocument>
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/dhdavis/Desktop/aceTool2005/Annotation%20Files/Committed%20Belief/20000424_nyt-NEW.doc</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">application/ msword</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>IRAQ-POVERTY (Washington)
+&lt;LU_ANNOTATE>
+Rep. Tony Hall, D-Ohio, <Node id="66" />urges<Node id="71" /> the United Nations <Node id="91" />to allow<Node id="99" /> a freer <Node id="108" />flow<Node id="112" /> of food and medicine into Iraq.
+
+Hall, who recently <Node id="167" />returned<Node id="175" /> from a trip to Iraq, <Node id="197" />said<Node id="201" /> U.N. <Node id="207" />economic sanctions<Node id="225" /> have <Node id="231" />hurt<Node id="235" /> millions of civilians there.
+
+By AUSTIN ZALKIN.
+&lt;/LU_ANNOTATE WC = 41>
+
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Factivity">
+<Annotation Id="1" Type="Committed Belief" StartNode="66" EndNode="71">
+</Annotation>
+<Annotation Id="2" Type="Committed Belief" StartNode="167" EndNode="175">
+</Annotation>
+<Annotation Id="3" Type="Committed Belief" StartNode="197" EndNode="201">
+</Annotation>
+<Annotation Id="4" Type="Non-Committed Belief" StartNode="207" EndNode="225">
+</Annotation>
+<Annotation Id="5" Type="Non-Committed Belief" StartNode="231" EndNode="235">
+</Annotation>
+<Annotation Id="6" Type="Not Applicable" StartNode="91" EndNode="99">
+</Annotation>
+<Annotation Id="7" Type="Not Applicable" StartNode="108" EndNode="112">
+</Annotation>
+</AnnotationSet>
+</GateDocument>
