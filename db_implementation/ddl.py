@@ -1,6 +1,6 @@
 # author: tyler osborne
 # osbornty@bc.edu
-# 3/30/2021
+# 03/30/2021
 
 import sqlite3
 
@@ -38,8 +38,6 @@ def create_tables():
                 'target_token_id REFERENCES MENTIONS(token_id),'
                 'label VARCHAR2(255),'
                 'label_type VARCHAR2(255) )')
-
-    print('success')
 
 def clear_database():
     cur.execute('DROP TABLE ATTITUDES')
