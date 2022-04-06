@@ -42,8 +42,10 @@ class FB2Master:
 
         self.initial_offsets = {}
         self.final_offsets = {}
+        self.errors = {}
         self.offsets_query = """SELECT o.file, o.sentId, o.offsetInit FROM offsets o WHERE o.tokLoc = 0;"""
         self.raw_fb_dataset = []
+
 
     def load_data(self):
         # building dictionary of initial offsets for later calculation of sentence-based token offsets
@@ -60,8 +62,57 @@ class FB2Master:
             row[self.FILE] = row[self.FILE][1:-1]
             row[self.TEXT] = row[self.TEXT][1:-1].replace("\\", "").replace("`", "")
             row[self.FACT_VALUE] = row[self.FACT_VALUE][1:-2]
+            row[self.SENTENCE] = row[self.SENTENCE][1:-2].replace("\\", "").replace("`", "")
 
-            row[self.SENTENCE], success = self.calc_offsets
+            row[self.OFFSET_INIT], row[self.OFFSET_END], success = self.calc_offsets(row[self.FILE],
+                                                                                     row[self.SENTENCE_ID],
+                                                                                     row[self.SENTENCE],
+                                                                                     row[self.OFFSET_INIT],
+                                                                                     row[self.OFFSET_END],
+                                                                                     row[self.TEXT])
+
+            if success:
+                self.raw_fb_dataset.append(row)
+
+    def calc_offsets(self, file, sent_id, raw_sentence, offset_start, offset_end, head):
+        # calculating the initial offset, since the indicies are file-based and not sentence-based in the DB
+        file_offset = self.initial_offsets[(file, sent_id)]
+        success = True
+
+        # ad hoc logic to adjust offsets
+        head_length = offset_end - offset_start
+        offset_start -= file_offset
+        while (
+                0 < offset_start < len(raw_sentence) and
+                raw_sentence[offset_start] not in ' `"'
+        ):
+            offset_start -= 1
+        if offset_start > 0:
+            offset_start += 1
+        offset_end = offset_start + head_length
+        pred_head = raw_sentence[offset_start:offset_end]
+
+        # keeping the asterisks just for easier understanding of the error dataset
+        result_sentence = raw_sentence[:offset_start] + "* " + head + " *" + raw_sentence[offset_end:]
+        if pred_head != head:
+            success = False
+            self.errors[(file, sent_id)] = (offset_start, offset_end, pred_head, head, raw_sentence, result_sentence)
+
+        return offset_start, offset_end, success
+
+    def populate_database(self):
+        for row in self.raw_fb_dataset:
+            # inserting sentences
+            self.ma_cur.execute('INSERT INTO sentences (file, file_sentence_id, sentence) VALUES (?, ?, ?);',
+                                (row[self.FILE], row[self.SENTENCE_ID], row[self.SENTENCE]))
+
+            # need to retrieve the global sentence id since the db generates it before inserting on mentions table
+            global_sentence_id = self.ma_cur.execute('SELECT sentence_id FROM sentences ORDER BY sentence_id DESC LIMIT 1;').fetchone()[0]
+
+            self.ma_cur.execute('INSERT INTO mentions (sentence_id, token_text, token_offset_start, token_offset_end) VALUES (?, ?, ?, ?);',
+                                (global_sentence_id, row[self.TEXT], row[self.OFFSET_INIT], row[self.OFFSET_END]))
+
+
 
 
     def close(self):
@@ -72,6 +123,9 @@ class FB2Master:
 
 if __name__ == "__main__":
     test = FB2Master()
+    test.load_data()
+    test.populate_database()
+    print(len(test.errors))
     test.close()
 
 
