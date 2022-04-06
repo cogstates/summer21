@@ -54,6 +54,7 @@ class DDL:
 
 if __name__ == "__main__":
     test = DDL()
+    test.clear_database()
     test.create_tables()
     test.close()
     print('success')
