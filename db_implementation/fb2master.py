@@ -106,8 +106,6 @@ class FB2Master:
         nesting_level = source_text.count('_')
         return nesting_level, source_text[:source_text.index('_')]
 
-
-
     def calc_offsets(self, file, sent_id, raw_sentence, offset_start, offset_end, head):
         # calculating the initial offset, since the indicies are file-based and not sentence-based in the DB
         file_offset = self.initial_offsets[(file, sent_id)]
@@ -141,11 +139,17 @@ class FB2Master:
                                 (row[self.FILE], row[self.SENTENCE_ID], row[self.SENTENCE]))
 
             # need to retrieve the global sentence id since the db generates it before inserting on mentions table
-            global_sentence_id = self.ma_cur.execute('SELECT sentence_id FROM sentences ORDER BY sentence_id DESC LIMIT 1;').fetchone()[0]
-            self.ma_cur.execute('INSERT INTO mentions (sentence_id, token_text, token_offset_start, token_offset_end) VALUES (?, ?, ?, ?);',
-                                (global_sentence_id, row[self.TEXT], row[self.OFFSET_INIT], row[self.OFFSET_END]))
+            global_sentence_id = self.ma_cur.execute(
+                'SELECT sentence_id FROM sentences ORDER BY sentence_id DESC LIMIT 1;'
+            ).fetchone()[0]
+            self.ma_cur.execute(
+                'INSERT INTO mentions (sentence_id, token_text, token_offset_start, token_offset_end) VALUES '
+                '(?, ?, ?, ?);',
+                (global_sentence_id, row[self.TEXT], row[self.OFFSET_INIT], row[self.OFFSET_END])
+            )
 
-            # similarly, need to retrieve the global token id since the db generates it before inserting on sources table
+            # similarly, need to retrieve the global token id since the db generates it before inserting on
+            # sources table
             global_token_id = self.ma_cur.execute('SELECT token_id FROM mentions ORDER BY token_id DESC LIMIT 1;').fetchone()[0]
 
             # calculating nesting level from underscore notation
@@ -155,8 +159,10 @@ class FB2Master:
                                 (global_token_id, nesting_level, row[self.REL_SOURCE_TEXT]))
 
             # ditto on above two global ids
-            global_source_id = global_token_id = self.ma_cur.execute('SELECT source_id FROM sources ORDER BY source_id DESC LIMIT 1;').fetchone()[0]
-            self.ma_cur.execute('INSERT INTO attitudes (source_id, target_token_id, label, label_type) VALUES (?, ?, ?, ?);',
+            global_source_id = global_token_id = \
+                self.ma_cur.execute('SELECT source_id FROM sources ORDER BY source_id DESC LIMIT 1;').fetchone()[0]
+            self.ma_cur.execute('INSERT INTO attitudes (source_id, target_token_id, label, label_type) VALUES '
+                                '(?, ?, ?, ?);',
                                 (global_source_id, global_token_id, row[self.FACT_VALUE], 'Belief'))
 
 
