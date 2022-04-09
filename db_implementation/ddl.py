@@ -6,8 +6,8 @@ import sqlite3
 from os.path import exists
 
 class DDL:
-    def __init__(self):
-        self.con = sqlite3.connect('fb_master.db')
+    def __init__(self, name):
+        self.con = sqlite3.connect(name + 'master.db')
         self.cur = self.con.cursor()
 
     # DDL for tables
@@ -53,7 +53,7 @@ class DDL:
 
 
 if __name__ == "__main__":
-    test = DDL()
+    test = DDL("test")
     test.clear_database()
     test.create_tables()
     test.close()

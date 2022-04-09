@@ -3,6 +3,7 @@
 # 04/03/2021
 
 import sqlite3
+from ddl import DDL
 
 
 class FB2Master:
@@ -15,16 +16,18 @@ class FB2Master:
     OFFSET_INIT = 5
     OFFSET_END = 6
     SENTENCE_ID = 7
+    REL_SOURCE_TEXT = 8
 
     def __init__(self):
         self.fb_con = sqlite3.connect("db_corpora/factbank_data.db")
         self.fb_cur = self.fb_con.cursor()
 
+        self.create_tables()
         self.ma_con = sqlite3.connect("fb_master.db")
         self.ma_cur = self.ma_con.cursor()
 
-        self.fb_master_query = """
-            SELECT DISTINCT s.file, s.sent, t.tokLoc, t.text, f.factValue, o.offsetInit, o.offsetEnd, o.sentId
+        self.fb_master_query_author = """
+            SELECT DISTINCT s.file, s.sent, t.tokLoc, t.text, f.factValue, o.offsetInit, o.offsetEnd, o.sentId, f.relSourceText
             FROM sentences s
             JOIN tokens_tml t
                 ON s.file = t.file
@@ -39,6 +42,22 @@ class FB2Master:
                        AND f.eText = t.text
                        AND f.relSourceText = "'AUTHOR'"
             GROUP BY s.file, s.sentId;"""
+        self.fb_master_query_nested = """
+                    SELECT DISTINCT s.file, s.sent, t.tokLoc, t.text, f.factValue, o.offsetInit, o.offsetEnd, o.sentId, f.relSourceText
+                    FROM sentences s
+                    JOIN tokens_tml t
+                        ON s.file = t.file
+                               AND s.sentId = t.sentId
+                    JOIN offsets o
+                        on t.file = o.file
+                            and t.sentId = o.sentId
+                                and t.tokLoc = o.tokLoc
+                    JOIN fb_factValue f
+                        ON f.sentId = t.sentId
+                               AND f.eId = t.tmlTagId
+                               AND f.eText = t.text
+                               AND f.relSourceText <> "'AUTHOR'"
+                    GROUP BY s.file, s.sentId;"""
 
         self.initial_offsets = {}
         self.final_offsets = {}
@@ -46,15 +65,19 @@ class FB2Master:
         self.offsets_query = """SELECT o.file, o.sentId, o.offsetInit FROM offsets o WHERE o.tokLoc = 0;"""
         self.raw_fb_dataset = []
 
+    def create_tables(self):
+        db = DDL('fb_')
+        db.create_tables()
+        db.close()
 
-    def load_data(self):
+    def load_data(self, query):
         # building dictionary of initial offsets for later calculation of sentence-based token offsets
         sql_return = self.fb_cur.execute(self.offsets_query)
         for row in sql_return:
             self.initial_offsets[(row[self.FILE][1:-1], row[self.SENTENCE])] = row[2]
 
         # training data collection, cleanup and cataloguing
-        sql_return = self.fb_cur.execute(self.fb_master_query)
+        sql_return = self.fb_cur.execute(query)
         for row in sql_return:
             row = list(row)
 
@@ -63,6 +86,7 @@ class FB2Master:
             row[self.TEXT] = row[self.TEXT][1:-1].replace("\\", "").replace("`", "")
             row[self.FACT_VALUE] = row[self.FACT_VALUE][1:-2]
             row[self.SENTENCE] = row[self.SENTENCE][1:-2].replace("\\", "").replace("`", "")
+            row[self.REL_SOURCE_TEXT] = row[self.REL_SOURCE_TEXT][1:-1]
 
             row[self.OFFSET_INIT], row[self.OFFSET_END], success = self.calc_offsets(row[self.FILE],
                                                                                      row[self.SENTENCE_ID],
@@ -73,6 +97,16 @@ class FB2Master:
 
             if success:
                 self.raw_fb_dataset.append(row)
+
+    def calc_nesting_level(self, source_text):
+        if '=' in source_text:
+            source_text = source_text[source_text.index('=') + 1:]
+        if source_text == 'AUTHOR':
+            return 0, None
+        nesting_level = source_text.count('_')
+        return nesting_level, source_text[:source_text.index('_')]
+
+
 
     def calc_offsets(self, file, sent_id, raw_sentence, offset_start, offset_end, head):
         # calculating the initial offset, since the indicies are file-based and not sentence-based in the DB
@@ -108,11 +142,22 @@ class FB2Master:
 
             # need to retrieve the global sentence id since the db generates it before inserting on mentions table
             global_sentence_id = self.ma_cur.execute('SELECT sentence_id FROM sentences ORDER BY sentence_id DESC LIMIT 1;').fetchone()[0]
-
             self.ma_cur.execute('INSERT INTO mentions (sentence_id, token_text, token_offset_start, token_offset_end) VALUES (?, ?, ?, ?);',
                                 (global_sentence_id, row[self.TEXT], row[self.OFFSET_INIT], row[self.OFFSET_END]))
 
+            # similarly, need to retrieve the global token id since the db generates it before inserting on sources table
+            global_token_id = self.ma_cur.execute('SELECT token_id FROM mentions ORDER BY token_id DESC LIMIT 1;').fetchone()[0]
 
+            # calculating nesting level from underscore notation
+            nesting_level, row[self.REL_SOURCE_TEXT] = self.calc_nesting_level(row[self.REL_SOURCE_TEXT])
+
+            self.ma_cur.execute('INSERT INTO sources (token_id, nesting_level, source) VALUES (?, ?, ?);',
+                                (global_token_id, nesting_level, row[self.REL_SOURCE_TEXT]))
+
+            # ditto on above two global ids
+            global_source_id = global_token_id = self.ma_cur.execute('SELECT source_id FROM sources ORDER BY source_id DESC LIMIT 1;').fetchone()[0]
+            self.ma_cur.execute('INSERT INTO attitudes (source_id, target_token_id, label, label_type) VALUES (?, ?, ?, ?);',
+                                (global_source_id, global_token_id, row[self.FACT_VALUE], 'Belief'))
 
 
     def close(self):
@@ -123,7 +168,9 @@ class FB2Master:
 
 if __name__ == "__main__":
     test = FB2Master()
-    test.load_data()
+    test.load_data(test.fb_master_query_author)
+    test.load_data(test.fb_master_query_nested)
+    print(len(test.raw_fb_dataset))
     test.populate_database()
     print(len(test.errors))
     test.close()
