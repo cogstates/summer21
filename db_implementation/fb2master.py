@@ -87,7 +87,7 @@ class FB2Master:
             row[self.FILE] = row[self.FILE][1:-1]
             row[self.TEXT] = row[self.TEXT][1:-1].replace("\\", "").replace("`", "")
             row[self.FACT_VALUE] = row[self.FACT_VALUE][1:-2]
-            row[self.SENTENCE] = row[self.SENTENCE][1:-2].replace("\\", "").replace("`", "")
+            row[self.SENTENCE] = str(row[self.SENTENCE][1:-2].replace("\\", "").replace("`", ""))
             row[self.REL_SOURCE_TEXT] = row[self.REL_SOURCE_TEXT][1:-1]
 
             row[self.OFFSET_INIT], row[self.OFFSET_END], success = self.calc_offsets(row[self.FILE],
@@ -136,19 +136,23 @@ class FB2Master:
 
     def populate_database(self):
         self.dupes.clear()
-        prev_file_sentence_id = 0
-        prev_file = ''
+        # prev_file_sentence_id = 0
+        # prev_file = ''
+        prev_sentence = ''
 
+        print("raw length: " + str(len(self.raw_fb_dataset)))
         for row in self.raw_fb_dataset:
             # inserting sentences
-            dupe = False
-            if row[self.FILE] != prev_file or row[self.SENTENCE_ID] != prev_file_sentence_id:
-                prev_file = row[self.FILE]
-                prev_file_sentence_id = row[self.SENTENCE_ID]
+            # if row[self.FILE] != prev_file or row[self.SENTENCE_ID] != prev_file_sentence_id:
+            if row[self.SENTENCE] != prev_sentence:
+                # prev_file = row[self.FILE]
+                # prev_file_sentence_id = row[self.SENTENCE_ID]
+                prev_sentence = row[self.SENTENCE]
                 self.ma_cur.execute('INSERT INTO sentences (file, file_sentence_id, sentence) VALUES (?, ?, ?);',
                                     (row[self.FILE], row[self.SENTENCE_ID], row[self.SENTENCE]))
             else:
-                dupe = True
+                print('found a dupe!')
+                self.dupes.append((prev_sentence, row[self.SENTENCE]))
 
             # need to retrieve the global sentence id since the db generates it before inserting on mentions table
             global_sentence_id = self.ma_cur.execute(
@@ -177,9 +181,6 @@ class FB2Master:
             self.ma_cur.execute('INSERT INTO attitudes (source_id, target_token_id, label, label_type) VALUES '
                                 '(?, ?, ?, ?);',
                                 (global_source_id, global_token_id, row[self.FACT_VALUE], 'Belief'))
-
-            if dupe:
-                self.dupes.append(row[self.SENTENCE])
 
     def close(self):
         self.fb_con.commit()
