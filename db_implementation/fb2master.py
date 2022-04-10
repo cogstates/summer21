@@ -64,6 +64,7 @@ class FB2Master:
         self.errors = {}
         self.offsets_query = """SELECT o.file, o.sentId, o.offsetInit FROM offsets o WHERE o.tokLoc = 0;"""
         self.raw_fb_dataset = []
+        self.dupes = []
 
     def create_tables(self):
         db = DDL('fb_')
@@ -134,13 +135,14 @@ class FB2Master:
         return offset_start, offset_end, success
 
     def populate_database(self):
+        self.dupes.clear()
         prev_file_sentence_id = 0
         prev_file = ''
-        dupe = False
 
         for row in self.raw_fb_dataset:
             # inserting sentences
-            if row[self.FILE] != prev_file and row[self.SENTENCE_ID] != prev_file_sentence_id:
+            dupe = False
+            if row[self.FILE] != prev_file or row[self.SENTENCE_ID] != prev_file_sentence_id:
                 prev_file = row[self.FILE]
                 prev_file_sentence_id = row[self.SENTENCE_ID]
                 self.ma_cur.execute('INSERT INTO sentences (file, file_sentence_id, sentence) VALUES (?, ?, ?);',
@@ -177,17 +179,7 @@ class FB2Master:
                                 (global_source_id, global_token_id, row[self.FACT_VALUE], 'Belief'))
 
             if dupe:
-                self.raw_fb_dataset.remove(row)
-
-    def find_dupes(self):
-        data = {}
-        dupes = []
-        for row in self.raw_fb_dataset:
-            if row[self.SENTENCE] not in data:
-                data[row[self.SENTENCE]] = 1
-            else:
-                dupes.append(row)
-        return dupes
+                self.dupes.append(row[self.SENTENCE])
 
     def close(self):
         self.fb_con.commit()
@@ -200,11 +192,11 @@ if __name__ == "__main__":
     test = FB2Master()
     test.load_data(test.fb_master_query_author)
     test.populate_database()
-    print(len(test.find_dupes()))
+    print("\n\n" + str(len(test.dupes)))
 
     test.load_data(test.fb_master_query_nested)
     test.populate_database()
-    print(len(test.find_dupes()))
+    print("\n\n" + str(len(test.dupes)))
     # print(len(test.raw_fb_dataset))
     # print(len(test.errors))
     test.close()
