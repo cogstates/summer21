@@ -200,11 +200,13 @@ if __name__ == "__main__":
     test = FB2Master()
     test.load_data(test.fb_master_query_author)
     test.populate_database()
+    print(len(test.find_dupes()))
+
     test.load_data(test.fb_master_query_nested)
     test.populate_database()
+    print(len(test.find_dupes()))
     # print(len(test.raw_fb_dataset))
     # print(len(test.errors))
-    print(len(test.find_dupes()))
     test.close()
 
 
