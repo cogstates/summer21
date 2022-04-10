@@ -71,6 +71,7 @@ class FB2Master:
         db.close()
 
     def load_data(self, query):
+        self.raw_fb_dataset.clear()
         # building dictionary of initial offsets for later calculation of sentence-based token offsets
         sql_return = self.fb_cur.execute(self.offsets_query)
         for row in sql_return:
@@ -99,11 +100,11 @@ class FB2Master:
                 self.raw_fb_dataset.append(row)
 
     def calc_nesting_level(self, source_text):
+        nesting_level = source_text.count('_')
         if '=' in source_text:
-            source_text = source_text[source_text.index('=') + 1:]
+            return nesting_level, source_text[0:source_text.index('=')]
         if source_text == 'AUTHOR':
             return 0, None
-        nesting_level = source_text.count('_')
         return nesting_level, source_text[:source_text.index('_')]
 
     def calc_offsets(self, file, sent_id, raw_sentence, offset_start, offset_end, head):
@@ -133,10 +134,19 @@ class FB2Master:
         return offset_start, offset_end, success
 
     def populate_database(self):
+        prev_file_sentence_id = 0
+        prev_file = ''
+        dupe = False
+
         for row in self.raw_fb_dataset:
             # inserting sentences
-            self.ma_cur.execute('INSERT INTO sentences (file, file_sentence_id, sentence) VALUES (?, ?, ?);',
-                                (row[self.FILE], row[self.SENTENCE_ID], row[self.SENTENCE]))
+            if row[self.FILE] != prev_file and row[self.SENTENCE_ID] != prev_file_sentence_id:
+                prev_file = row[self.FILE]
+                prev_file_sentence_id = row[self.SENTENCE_ID]
+                self.ma_cur.execute('INSERT INTO sentences (file, file_sentence_id, sentence) VALUES (?, ?, ?);',
+                                    (row[self.FILE], row[self.SENTENCE_ID], row[self.SENTENCE]))
+            else:
+                dupe = True
 
             # need to retrieve the global sentence id since the db generates it before inserting on mentions table
             global_sentence_id = self.ma_cur.execute(
@@ -150,7 +160,8 @@ class FB2Master:
 
             # similarly, need to retrieve the global token id since the db generates it before inserting on
             # sources table
-            global_token_id = self.ma_cur.execute('SELECT token_id FROM mentions ORDER BY token_id DESC LIMIT 1;').fetchone()[0]
+            global_token_id = \
+                self.ma_cur.execute('SELECT token_id FROM mentions ORDER BY token_id DESC LIMIT 1;').fetchone()[0]
 
             # calculating nesting level from underscore notation
             nesting_level, row[self.REL_SOURCE_TEXT] = self.calc_nesting_level(row[self.REL_SOURCE_TEXT])
@@ -165,6 +176,18 @@ class FB2Master:
                                 '(?, ?, ?, ?);',
                                 (global_source_id, global_token_id, row[self.FACT_VALUE], 'Belief'))
 
+            if dupe:
+                self.raw_fb_dataset.remove(row)
+
+    def find_dupes(self):
+        data = {}
+        dupes = []
+        for row in self.raw_fb_dataset:
+            if row[self.SENTENCE] not in data:
+                data[row[self.SENTENCE]] = 1
+            else:
+                dupes.append(row)
+        return dupes
 
     def close(self):
         self.fb_con.commit()
@@ -172,13 +195,16 @@ class FB2Master:
         self.fb_con.close()
         self.ma_con.close()
 
+
 if __name__ == "__main__":
     test = FB2Master()
     test.load_data(test.fb_master_query_author)
-    test.load_data(test.fb_master_query_nested)
-    print(len(test.raw_fb_dataset))
     test.populate_database()
-    print(len(test.errors))
+    test.load_data(test.fb_master_query_nested)
+    test.populate_database()
+    # print(len(test.raw_fb_dataset))
+    # print(len(test.errors))
+    print(len(test.find_dupes()))
     test.close()
 
 
