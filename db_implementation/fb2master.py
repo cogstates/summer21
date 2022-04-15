@@ -64,7 +64,6 @@ class FB2Master:
         self.errors = {}
         self.offsets_query = """SELECT o.file, o.sentId, o.offsetInit FROM offsets o WHERE o.tokLoc = 0;"""
         self.raw_fb_dataset = []
-        self.dupes = []
 
     def create_tables(self):
         db = DDL('fb_')
@@ -135,7 +134,6 @@ class FB2Master:
         return offset_start, offset_end, success
 
     def populate_database(self):
-        self.dupes.clear()
         # prev_file_sentence_id = 0
         # prev_file = ''
         # prev_sentence = ''
@@ -145,16 +143,14 @@ class FB2Master:
             # inserting sentences
             # if row[self.FILE] != prev_file or row[self.SENTENCE_ID] != prev_file_sentence_id:
             # if row[self.SENTENCE] != prev_sentence:
-            if self.ma_cur.execute('SELECT COUNT(*) FROM sentences WHERE sentence = ?;',
-                                   [row[self.SENTENCE]]).fetchone() != 0:
+            dupe_found = self.ma_cur.execute('SELECT COUNT(*) FROM sentences WHERE sentence = ?;',
+                                             [row[self.SENTENCE]]).fetchone()[0]
+            if dupe_found == 0:
                 # prev_file = row[self.FILE]
                 # prev_file_sentence_id = row[self.SENTENCE_ID]
                 # prev_sentence = row[self.SENTENCE]
                 self.ma_cur.execute('INSERT INTO sentences (file, file_sentence_id, sentence) VALUES (?, ?, ?);',
                                     (row[self.FILE], row[self.SENTENCE_ID], row[self.SENTENCE]))
-            else:
-                # print('found a dupe!')
-                self.dupes.append(row[self.SENTENCE])
 
             # need to retrieve the global sentence id since the db generates it before inserting on mentions table
             global_sentence_id = self.ma_cur.execute(
@@ -190,16 +186,28 @@ class FB2Master:
         self.fb_con.close()
         self.ma_con.close()
 
+    def findDupes(self):
+        sql_return = self.ma_cur.execute("SELECT sentence FROM SENTENCES")
+        items = []
+        dupes = 0
+        for row in sql_return:
+            sentence = row[0]
+            if sentence not in items:
+                items.append(sentence)
+            else:
+                dupes += 1
+        return dupes
+
 
 if __name__ == "__main__":
     test = FB2Master()
     test.load_data(test.fb_master_query_author)
     test.populate_database()
-    print("\n\n" + str(len(test.dupes)))
+    print("\n\nDUPLICATES: " + str(test.findDupes()))
 
     test.load_data(test.fb_master_query_nested)
     test.populate_database()
-    print("\n\n" + str(len(test.dupes)))
+    print("\n\nDUPLICATES: " + str(test.findDupes()))
     # print(len(test.raw_fb_dataset))
     # print(len(test.errors))
     test.close()
