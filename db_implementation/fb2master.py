@@ -138,21 +138,23 @@ class FB2Master:
         self.dupes.clear()
         # prev_file_sentence_id = 0
         # prev_file = ''
-        prev_sentence = ''
+        # prev_sentence = ''
 
         print("raw length: " + str(len(self.raw_fb_dataset)))
         for row in self.raw_fb_dataset:
             # inserting sentences
             # if row[self.FILE] != prev_file or row[self.SENTENCE_ID] != prev_file_sentence_id:
-            if row[self.SENTENCE] != prev_sentence:
+            # if row[self.SENTENCE] != prev_sentence:
+            if self.ma_cur.execute('SELECT COUNT(*) FROM sentences WHERE sentence = ?;',
+                                   [row[self.SENTENCE]]).fetchone() != 0:
                 # prev_file = row[self.FILE]
                 # prev_file_sentence_id = row[self.SENTENCE_ID]
-                prev_sentence = row[self.SENTENCE]
+                # prev_sentence = row[self.SENTENCE]
                 self.ma_cur.execute('INSERT INTO sentences (file, file_sentence_id, sentence) VALUES (?, ?, ?);',
                                     (row[self.FILE], row[self.SENTENCE_ID], row[self.SENTENCE]))
             else:
-                print('found a dupe!')
-                self.dupes.append((prev_sentence, row[self.SENTENCE]))
+                # print('found a dupe!')
+                self.dupes.append(row[self.SENTENCE])
 
             # need to retrieve the global sentence id since the db generates it before inserting on mentions table
             global_sentence_id = self.ma_cur.execute(
