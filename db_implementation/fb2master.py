@@ -64,6 +64,7 @@ class FB2Master:
         self.errors = {}
         self.offsets_query = """SELECT o.file, o.sentId, o.offsetInit FROM offsets o WHERE o.tokLoc = 0;"""
         self.raw_fb_dataset = []
+        self.nesteds = {}
 
     def create_tables(self):
         db = DDL('fb_')
@@ -134,21 +135,12 @@ class FB2Master:
         return offset_start, offset_end, success
 
     def populate_database(self):
-        # prev_file_sentence_id = 0
-        # prev_file = ''
-        # prev_sentence = ''
-
         print("raw length: " + str(len(self.raw_fb_dataset)))
         for row in self.raw_fb_dataset:
             # inserting sentences
-            # if row[self.FILE] != prev_file or row[self.SENTENCE_ID] != prev_file_sentence_id:
-            # if row[self.SENTENCE] != prev_sentence:
             dupe_found = self.ma_cur.execute('SELECT COUNT(*) FROM sentences WHERE sentence = ?;',
                                              [row[self.SENTENCE]]).fetchone()[0]
             if dupe_found == 0:
-                # prev_file = row[self.FILE]
-                # prev_file_sentence_id = row[self.SENTENCE_ID]
-                # prev_sentence = row[self.SENTENCE]
                 self.ma_cur.execute('INSERT INTO sentences (file, file_sentence_id, sentence) VALUES (?, ?, ?);',
                                     (row[self.FILE], row[self.SENTENCE_ID], row[self.SENTENCE]))
 
@@ -169,6 +161,11 @@ class FB2Master:
 
             # calculating nesting level from underscore notation
             nesting_level, row[self.REL_SOURCE_TEXT] = self.calc_nesting_level(row[self.REL_SOURCE_TEXT])
+            if nesting_level > 0:
+                if nesting_level not in self.nesteds:
+                    self.nesteds[nesting_level] = 1
+                else:
+                    self.nesteds[nesting_level] += 1
 
             self.ma_cur.execute('INSERT INTO sources (token_id, nesting_level, source) VALUES (?, ?, ?);',
                                 (global_token_id, nesting_level, row[self.REL_SOURCE_TEXT]))
@@ -179,10 +176,14 @@ class FB2Master:
             self.ma_cur.execute('INSERT INTO attitudes (source_id, target_token_id, label, label_type) VALUES '
                                 '(?, ?, ?, ?);',
                                 (global_source_id, global_token_id, row[self.FACT_VALUE], 'Belief'))
+        self.commit()
 
-    def close(self):
+    def commit(self):
         self.fb_con.commit()
         self.ma_con.commit()
+
+    def close(self):
+        self.commit()
         self.fb_con.close()
         self.ma_con.close()
 
@@ -208,8 +209,9 @@ if __name__ == "__main__":
     test.load_data(test.fb_master_query_nested)
     test.populate_database()
     print("\n\nDUPLICATES: " + str(test.findDupes()))
+    print(test.nesteds)
     # print(len(test.raw_fb_dataset))
-    # print(len(test.errors))
+    print(len(test.errors))
     test.close()
 
 
