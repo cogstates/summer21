@@ -97,7 +97,9 @@ class FB2Master:
                                                                                      row[self.SENTENCE],
                                                                                      row[self.OFFSET_INIT],
                                                                                      row[self.OFFSET_END],
-                                                                                     row[self.TEXT])
+                                                                                     row[self.TEXT],
+                                                                                     row[self.REL_SOURCE_TEXT],
+                                                                                     row[self.FACT_VALUE])
 
             if success:
                 self.raw_fb_dataset.append(row)
@@ -110,7 +112,7 @@ class FB2Master:
             return 0, None
         return nesting_level, source_text[:source_text.index('_')]
 
-    def calc_offsets(self, file, sent_id, raw_sentence, offset_start, offset_end, head):
+    def calc_offsets(self, file, sent_id, raw_sentence, offset_start, offset_end, head, rel_source_text, fact_value):
         # calculating the initial offset, since the indicies are file-based and not sentence-based in the DB
 
         file_offset = self.initial_offsets[(file, sent_id)]
@@ -135,7 +137,8 @@ class FB2Master:
         result_sentence = raw_sentence[:offset_start] + "* " + head + " *" + raw_sentence[offset_end:]
         if pred_head != head:
             success = False
-            self.errors[(file, sent_id)] = (original_offset_start, offset_start, offset_end, pred_head, head, raw_sentence, result_sentence)
+            self.errors[(file, sent_id)] = (original_offset_start, offset_start, offset_end, pred_head,
+                                            head, raw_sentence, result_sentence, rel_source_text, fact_value)
 
         return offset_start, offset_end, success
 
@@ -223,7 +226,7 @@ if __name__ == "__main__":
     f.write('##### ERROR COUNT: {0} #####\n\n\n\n\n'.format(len(test.errors)))
     for error in test.errors:
         f.write('self.errors[(file, sent_id)] = (original_offset_start,\n offset_start,\n '
-                'offset_end,\n pred_head,\n head,\n raw_sentence,\n result_sentence)\n')
+                'offset_end,\n pred_head,\n head,\n raw_sentence,\n result_sentence, rel_source_text,\n fact_value)\n')
         f.write(str(error))
         for item in test.errors[error]:
             f.write("\n" + str(item))
