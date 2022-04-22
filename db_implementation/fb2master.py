@@ -67,7 +67,7 @@ class FB2Master:
         self.nesteds = {}
 
     def create_tables(self):
-        db = DDL('fb_')
+        db = DDL('fb')
         db.create_tables()
         db.close()
 
@@ -110,12 +110,15 @@ class FB2Master:
 
     def calc_offsets(self, file, sent_id, raw_sentence, offset_start, offset_end, head):
         # calculating the initial offset, since the indicies are file-based and not sentence-based in the DB
+
         file_offset = self.initial_offsets[(file, sent_id)]
         success = True
 
         # ad hoc logic to adjust offsets
         head_length = offset_end - offset_start
         offset_start -= file_offset
+        original_offset_start = offset_start
+
         while (
                 0 < offset_start < len(raw_sentence) and
                 raw_sentence[offset_start] not in ' `"'
@@ -130,7 +133,7 @@ class FB2Master:
         result_sentence = raw_sentence[:offset_start] + "* " + head + " *" + raw_sentence[offset_end:]
         if pred_head != head:
             success = False
-            self.errors[(file, sent_id)] = (offset_start, offset_end, pred_head, head, raw_sentence, result_sentence)
+            self.errors[(file, sent_id)] = (original_offset_start, offset_start, offset_end, pred_head, head, raw_sentence, result_sentence)
 
         return offset_start, offset_end, success
 
@@ -212,6 +215,10 @@ if __name__ == "__main__":
     print(test.nesteds)
     # print(len(test.raw_fb_dataset))
     print(len(test.errors))
+    for error in test.errors:
+        print(error)
+        for item in test.errors[error]:
+            print("\t" + str(item))
     test.close()
 
 

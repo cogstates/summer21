@@ -4,15 +4,17 @@
 
 import sqlite3
 from os.path import exists
+from os import remove
 
 class DDL:
     def __init__(self, name):
-        self.con = sqlite3.connect(name + 'master.db')
+        self.check_if_exists(name)
+        self.con = sqlite3.connect(name + '_master.db')
         self.cur = self.con.cursor()
 
     # DDL for tables
     def create_tables(self):
-        self.cur.execute('CREATE TABLE sentences ('
+        self.cur.execute('CREATE TABLE IF NOT EXISTS sentences ('
                     'sentence_id INTEGER PRIMARY KEY AUTOINCREMENT,'
                     'file VARCHAR2(255) NOT NULL,'
                     'file_sentence_id INTEGER NOT NULL,'
@@ -50,6 +52,13 @@ class DDL:
     def close(self):
         self.con.commit()
         self.con.close()
+
+    def check_if_exists(self, name):
+        full_name = name + "_master.db"
+        if exists(full_name):
+            print("file already exists")
+            remove(full_name)
+
 
 
 if __name__ == "__main__":
