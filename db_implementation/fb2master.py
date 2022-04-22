@@ -4,6 +4,8 @@
 
 import sqlite3
 from ddl import DDL
+from os.path import exists
+from os import remove
 
 
 class FB2Master:
@@ -149,8 +151,8 @@ class FB2Master:
 
             # need to retrieve the global sentence id since the db generates it before inserting on mentions table
             global_sentence_id = self.ma_cur.execute(
-                'SELECT sentence_id FROM sentences ORDER BY sentence_id DESC LIMIT 1;'
-            ).fetchone()[0]
+                'SELECT sentence_id FROM sentences WHERE sentence = ?;',
+                (row[self.SENTENCE],)).fetchone()[0]
             self.ma_cur.execute(
                 'INSERT INTO mentions (sentence_id, token_text, token_offset_start, token_offset_end) VALUES '
                 '(?, ?, ?, ?);',
@@ -160,7 +162,9 @@ class FB2Master:
             # similarly, need to retrieve the global token id since the db generates it before inserting on
             # sources table
             global_token_id = \
-                self.ma_cur.execute('SELECT token_id FROM mentions ORDER BY token_id DESC LIMIT 1;').fetchone()[0]
+                self.ma_cur.execute('SELECT token_id FROM sentences s JOIN mentions m '
+                                    'ON s.sentence_id = m.sentence_id WHERE s.sentence_id = ?;',
+                                    (global_sentence_id,)).fetchone()[0]
 
             # calculating nesting level from underscore notation
             nesting_level, row[self.REL_SOURCE_TEXT] = self.calc_nesting_level(row[self.REL_SOURCE_TEXT])
@@ -175,7 +179,7 @@ class FB2Master:
 
             # ditto on above two global ids
             global_source_id = global_token_id = \
-                self.ma_cur.execute('SELECT source_id FROM sources ORDER BY source_id DESC LIMIT 1;').fetchone()[0]
+                self.ma_cur.execute('SELECT source_id FROM sources WHERE token_id = ?;', (global_token_id,)).fetchone()[0]
             self.ma_cur.execute('INSERT INTO attitudes (source_id, target_token_id, label, label_type) VALUES '
                                 '(?, ?, ?, ?);',
                                 (global_source_id, global_token_id, row[self.FACT_VALUE], 'Belief'))
@@ -214,11 +218,17 @@ if __name__ == "__main__":
     print("\n\nDUPLICATES: " + str(test.findDupes()))
     print(test.nesteds)
     # print(len(test.raw_fb_dataset))
-    print(len(test.errors))
+
+    f = open('errors.txt', 'w')
+    f.write('##### ERROR COUNT: {0} #####\n\n\n\n\n'.format(len(test.errors)))
     for error in test.errors:
-        print(error)
+        f.write('self.errors[(file, sent_id)] = (original_offset_start,\n offset_start,\n '
+                'offset_end,\n pred_head,\n head,\n raw_sentence,\n result_sentence)\n')
+        f.write(str(error))
         for item in test.errors[error]:
-            print("\t" + str(item))
+            f.write("\n" + str(item))
+        f.write('\n\n\n\n')
+    f.close()
     test.close()
 
 
