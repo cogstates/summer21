@@ -75,6 +75,7 @@ class FB2Master:
         self.initial_offsets = {}
         self.final_offsets = {}
         self.errors = {}
+        self.num_errors = 0
         self.fixed_errors = {}
         self.offsets_query = """SELECT o.file, o.sentId, o.offsetInit FROM offsets o WHERE o.tokLoc = 0;"""
         self.raw_fb_dataset = []
@@ -161,10 +162,25 @@ class FB2Master:
         result_sentence = raw_sentence[:offset_start] + "* " + head + " *" + raw_sentence[offset_end:]
         # self.fixed_errors[(file, file_sentence_id, head, rel_source_text, fact_value)] = (offset_start, offset_end)
 
-        if pred_head != head:
-            success = False
-            self.errors[(file, sent_id)] = (offset_start, offset_end, pred_head,
-                                            head, raw_sentence, result_sentence, rel_source_text, fact_value)
+        if pred_head != head and raw_sentence.count(head) == 1:
+            # attempting index method if head exists uniquely in sentence
+            new_offset_start = raw_sentence.index(head)
+            new_offset_end = new_offset_start + head_length
+            new_pred_head = raw_sentence[new_offset_start:new_offset_end]
+            if new_pred_head == head:
+                offset_start = new_offset_start
+                offset_end = new_offset_end
+            else:
+                success = False
+        if not success:
+            self.num_errors += 1
+            error_key = (file, sent_id)
+            entry = (offset_start, offset_end, pred_head, head,
+                     raw_sentence, result_sentence, rel_source_text, fact_value)
+            if error_key not in self.errors:
+                self.errors[error_key] = [entry]
+            else:
+                self.errors[error_key].append(entry)
 
         return offset_start, offset_end, success
 
@@ -261,21 +277,22 @@ class FB2Master:
 
     def generate_error_txt(self):
         f = open('errors.txt', 'w')
-        f.write('##### ERROR COUNT: {0} #####\n\n\n\n\n'.format(len(self.errors)))
+        f.write('##### ERROR COUNT: {0} #####\n\n\n\n\n'.format(self.num_errors))
         for error in self.errors:
             f.write('self.errors[(file, sent_id)] = (\n offset_start,\n '
                     'offset_end,\n pred_head,\n head,\n raw_sentence,\n result_sentence,\n '
                     'rel_source_text,\n fact_value\n)')
             f.write(str(error))
-            for item in self.errors[error]:
-                f.write("\n" + str(item))
-            f.write('\n\n\n\n')
+            for sentence_list in self.errors[error]:
+                for item in sentence_list:
+                    f.write("\n" + str(item))
+                f.write('\n\n\n\n')
         f.close()
 
     def populate_fixed_errors(self):
         self.fixed_errors.clear()
         f = open('fb_fixed_errors.txt', 'r')
-        for i in range(31):
+        for i in range(40):
             data = f.readline().replace('\n', '').split(",")
             file = data[0]
             file_sentence_id = int(data[1])
