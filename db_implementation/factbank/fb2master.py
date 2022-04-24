@@ -268,8 +268,11 @@ class FB2Master:
         items = {}
         dupes = 0
         for row in sql_return:
-            if row not in items:
-                items[row] = 1
+            data = ''
+            for item in row:
+                data += str(item)
+            if data not in items:
+                items[data] = 1
             else:
                 dupes += 1
         return dupes
