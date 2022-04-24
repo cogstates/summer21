@@ -42,8 +42,7 @@ class FB2Master:
                 ON f.sentId = t.sentId
                        AND f.eId = t.tmlTagId
                        AND f.eText = t.text
-                       AND f.relSourceText = "'AUTHOR'"
-            GROUP BY s.file, s.sentId;"""
+                       AND f.relSourceText = "'AUTHOR'";"""
         self.fb_master_query_nested = """
                     SELECT DISTINCT s.file, s.sent, t.tokLoc, t.text, f.factValue, o.offsetInit, o.offsetEnd, o.sentId, f.relSourceText
                     FROM sentences s
@@ -58,7 +57,7 @@ class FB2Master:
                         ON f.sentId = t.sentId
                                AND f.eId = t.tmlTagId
                                AND f.eText = t.text
-                               AND f.relSourceText <> "'AUTHOR'"
+                               AND f.relSourceText <> "'AUTHOR'";
                     --GROUP BY s.file, s.sentId;"""
         self.dupes_query = """
                     SELECT s.sentence, m.token_text, m.token_offset_start,
@@ -320,7 +319,7 @@ if __name__ == "__main__":
 
     test.load_data(test.fb_master_query_nested)
     test.populate_database()
-    # print("\n\nDUPLICATES: " + str(test.findDupes()))
+    print("\n\nDUPLICATES: " + str(test.findDupes()))
     print(test.nesteds)
 
     test.generate_error_txt()
