@@ -21,7 +21,7 @@ class FB2Master:
     REL_SOURCE_TEXT = 8
 
     def __init__(self):
-        self.fb_con = sqlite3.connect("db_corpora/factbank_data.db")
+        self.fb_con = sqlite3.connect("factbank_data.db")
         self.fb_cur = self.fb_con.cursor()
 
         self.create_tables()
