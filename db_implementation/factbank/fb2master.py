@@ -19,6 +19,7 @@ class FB2Master:
     OFFSET_END = 6
     SENTENCE_ID = 7
     REL_SOURCE_TEXT = 8
+    RAW_OFFSET_INIT = 2
 
     def __init__(self):
         self.fb_con = sqlite3.connect("factbank_data.db")
@@ -29,7 +30,8 @@ class FB2Master:
         self.ma_cur = self.ma_con.cursor()
 
         self.fb_master_query_author = """
-            SELECT DISTINCT s.file, s.sent, t.tokLoc, t.text, f.factValue, o.offsetInit, o.offsetEnd, o.sentId, f.relSourceText
+            SELECT DISTINCT s.file, s.sent, t.tokLoc, t.text, f.factValue, o.offsetInit, o.offsetEnd, o.sentId,
+                f.relSourceText
             FROM sentences s
             JOIN tokens_tml t
                 ON s.file = t.file
@@ -43,8 +45,9 @@ class FB2Master:
                        AND f.eId = t.tmlTagId
                        AND f.eText = t.text
                        AND f.relSourceText = "'AUTHOR'";"""
-        self.fb_master_query_nested = """
-                    SELECT DISTINCT s.file, s.sent, t.tokLoc, t.text, f.factValue, o.offsetInit, o.offsetEnd, o.sentId, f.relSourceText
+        self.fb_master_query_nested_source = """
+                    SELECT DISTINCT s.file, s.sent, t.tokLoc, t.text, f.factValue, o.offsetInit, o.offsetEnd, o.sentId,
+                        f.relSourceText
                     FROM sentences s
                     JOIN tokens_tml t
                         ON s.file = t.file
@@ -57,8 +60,7 @@ class FB2Master:
                         ON f.sentId = t.sentId
                                AND f.eId = t.tmlTagId
                                AND f.eText = t.text
-                               AND f.relSourceText <> "'AUTHOR'";
-                    --GROUP BY s.file, s.sentId;"""
+                               AND f.relSourceText <> "'AUTHOR'";"""
         self.dupes_query = """
                     SELECT s.sentence, m.token_text, m.token_offset_start,
                     m.token_offset_end, s.nesting_level, s.source, a.label FROM sentences s
@@ -77,7 +79,7 @@ class FB2Master:
         self.num_errors = 0
         self.fixed_errors = {}
         self.offsets_query = """SELECT o.file, o.sentId, o.offsetInit FROM offsets o WHERE o.tokLoc = 0;"""
-        self.raw_fb_dataset = []
+        self.fb_dataset = []
         self.nesteds = {}
 
     def create_tables(self):
@@ -86,11 +88,11 @@ class FB2Master:
         db.close()
 
     def load_data(self, query):
-        self.raw_fb_dataset.clear()
+        self.fb_dataset.clear()
         # building dictionary of initial offsets for later calculation of sentence-based token offsets
         sql_return = self.fb_cur.execute(self.offsets_query)
         for row in sql_return:
-            self.initial_offsets[(row[self.FILE][1:-1], row[self.SENTENCE])] = row[2]
+            self.initial_offsets[(row[self.FILE][1:-1], row[self.SENTENCE])] = row[self.RAW_OFFSET_INIT]
 
         # training data collection, cleanup and cataloguing
         sql_return = self.fb_cur.execute(query)
@@ -126,7 +128,7 @@ class FB2Master:
                                                                                      row[self.FACT_VALUE],
                                                                                      error_correction)
             if success:
-                self.raw_fb_dataset.append(row)
+                self.fb_dataset.append(row)
 
     def calc_nesting_level(self, source_text):
         nesting_level = source_text.count('_')
@@ -184,8 +186,8 @@ class FB2Master:
         return offset_start, offset_end, success
 
     def populate_database(self):
-        print("raw length: " + str(len(self.raw_fb_dataset)))
-        for row in self.raw_fb_dataset:
+        print("raw length: " + str(len(self.fb_dataset)))
+        for row in self.fb_dataset:
             # inserting sentences
             dupe_found = self.ma_cur.execute('SELECT COUNT(*) FROM sentences WHERE sentence = ?;',
                                              [row[self.SENTENCE]]).fetchone()[0]
@@ -320,7 +322,7 @@ if __name__ == "__main__":
     test.populate_database()
     # print("\n\nDUPLICATES: " + str(test.findDupes()))
 
-    test.load_data(test.fb_master_query_nested)
+    test.load_data(test.fb_master_query_nested_source)
     test.populate_database()
     print("\n\nDUPLICATES: " + str(test.findDupes()))
     print(test.nesteds)
