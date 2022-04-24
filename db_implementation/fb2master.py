@@ -59,11 +59,23 @@ class FB2Master:
                                AND f.eId = t.tmlTagId
                                AND f.eText = t.text
                                AND f.relSourceText <> "'AUTHOR'"
-                    GROUP BY s.file, s.sentId;"""
+                    --GROUP BY s.file, s.sentId;"""
+        self.dupes_query = """
+                    SELECT s.sentence, m.token_text, m.token_offset_start,
+                    m.token_offset_end, s.nesting_level, s.source, a.label FROM sentences s
+                    JOIN mentions m
+                        ON s.sentence_id = m.sentence_id
+                    JOIN sources s
+                        ON m.token_id = s.token_id
+                    JOIN attitudes a 
+                        ON m.token_id = a.target_token_id 
+                        AND s.source_id = a.source_id
+                    ORDER BY s.file, s.file_sentence_id;"""
 
         self.initial_offsets = {}
         self.final_offsets = {}
         self.errors = {}
+        self.fixed_errors = {}
         self.offsets_query = """SELECT o.file, o.sentId, o.offsetInit FROM offsets o WHERE o.tokLoc = 0;"""
         self.raw_fb_dataset = []
         self.nesteds = {}
@@ -92,6 +104,18 @@ class FB2Master:
             row[self.SENTENCE] = str(row[self.SENTENCE][1:-2].replace("\\", "").replace("`", ""))
             row[self.REL_SOURCE_TEXT] = row[self.REL_SOURCE_TEXT][1:-1]
 
+            # adjusting offsets for remaining of incorrect alignment not caught by ad-hoc logic
+            # self.fixed_errors[(file, file_sentence_id, head, rel_source_text, fact_value)] = (offset_start, offset_end)
+            error_key = (row[self.FILE], row[self.SENTENCE_ID], row[self.TEXT],
+                         row[self.REL_SOURCE_TEXT], row[self.FACT_VALUE])
+            error_correction = False
+            if error_key in self.fixed_errors:
+                error_correction = True
+                corrected_offsets = self.fixed_errors[error_key]
+                row[self.OFFSET_INIT] = corrected_offsets[0]
+                row[self.OFFSET_END] = corrected_offsets[1]
+                print(row[self.OFFSET_INIT], row[self.OFFSET_END], row[self.REL_SOURCE_TEXT])
+
             row[self.OFFSET_INIT], row[self.OFFSET_END], success = self.calc_offsets(row[self.FILE],
                                                                                      row[self.SENTENCE_ID],
                                                                                      row[self.SENTENCE],
@@ -99,8 +123,8 @@ class FB2Master:
                                                                                      row[self.OFFSET_END],
                                                                                      row[self.TEXT],
                                                                                      row[self.REL_SOURCE_TEXT],
-                                                                                     row[self.FACT_VALUE])
-
+                                                                                     row[self.FACT_VALUE],
+                                                                                     error_correction)
             if success:
                 self.raw_fb_dataset.append(row)
 
@@ -112,7 +136,7 @@ class FB2Master:
             return 0, None
         return nesting_level, source_text[:source_text.index('_')]
 
-    def calc_offsets(self, file, sent_id, raw_sentence, offset_start, offset_end, head, rel_source_text, fact_value):
+    def calc_offsets(self, file, sent_id, raw_sentence, offset_start, offset_end, head, rel_source_text, fact_value, error_correction):
         # calculating the initial offset, since the indicies are file-based and not sentence-based in the DB
 
         file_offset = self.initial_offsets[(file, sent_id)]
@@ -120,24 +144,26 @@ class FB2Master:
 
         # ad hoc logic to adjust offsets
         head_length = offset_end - offset_start
-        offset_start -= file_offset
-        original_offset_start = offset_start
+        if not error_correction:
+            offset_start -= file_offset
 
-        while (
-                0 < offset_start < len(raw_sentence) and
-                raw_sentence[offset_start] not in ' `"'
-        ):
-            offset_start -= 1
-        if offset_start > 0:
-            offset_start += 1
-        offset_end = offset_start + head_length
+            while (
+                    0 < offset_start < len(raw_sentence) and
+                    raw_sentence[offset_start] not in ' `"'
+            ):
+                offset_start -= 1
+            if offset_start > 0:
+                offset_start += 1
+            offset_end = offset_start + head_length
         pred_head = raw_sentence[offset_start:offset_end]
 
         # keeping the asterisks just for easier understanding of the error dataset
         result_sentence = raw_sentence[:offset_start] + "* " + head + " *" + raw_sentence[offset_end:]
+        # self.fixed_errors[(file, file_sentence_id, head, rel_source_text, fact_value)] = (offset_start, offset_end)
+
         if pred_head != head:
             success = False
-            self.errors[(file, sent_id)] = (original_offset_start, offset_start, offset_end, pred_head,
+            self.errors[(file, sent_id)] = (offset_start, offset_end, pred_head,
                                             head, raw_sentence, result_sentence, rel_source_text, fact_value)
 
         return offset_start, offset_end, success
@@ -156,36 +182,61 @@ class FB2Master:
             global_sentence_id = self.ma_cur.execute(
                 'SELECT sentence_id FROM sentences WHERE sentence = ?;',
                 (row[self.SENTENCE],)).fetchone()[0]
-            self.ma_cur.execute(
-                'INSERT INTO mentions (sentence_id, token_text, token_offset_start, token_offset_end) VALUES '
-                '(?, ?, ?, ?);',
-                (global_sentence_id, row[self.TEXT], row[self.OFFSET_INIT], row[self.OFFSET_END])
-            )
+
+            dupe_found = self.ma_cur.execute('SELECT COUNT(*) FROM mentions m '
+                                             'JOIN sources s ON m.token_id = s.token_id '
+                                             'JOIN attitudes a ON s.source_id = a.source_id '
+                                             'AND a.target_token_id = m.token_id '
+                                             'WHERE m.sentence_id = ? AND m.token_text = ? '
+                                             'AND m.token_offset_start = ? AND m.token_offset_end = ? '
+                                             'AND s.source = ? AND a.label = ?',
+                                             (global_sentence_id, row[self.TEXT],
+                                              row[self.OFFSET_INIT], row[self.OFFSET_END],
+                                              row[self.REL_SOURCE_TEXT], row[self.FACT_VALUE])).fetchone()[0]
+            if dupe_found == 0:
+                self.ma_cur.execute(
+                    'INSERT INTO mentions (sentence_id, token_text, token_offset_start, token_offset_end) VALUES '
+                    '(?, ?, ?, ?);',
+                    (global_sentence_id, row[self.TEXT], row[self.OFFSET_INIT], row[self.OFFSET_END])
+                )
 
             # similarly, need to retrieve the global token id since the db generates it before inserting on
             # sources table
             global_token_id = \
-                self.ma_cur.execute('SELECT token_id FROM sentences s JOIN mentions m '
-                                    'ON s.sentence_id = m.sentence_id WHERE s.sentence_id = ?;',
-                                    (global_sentence_id,)).fetchone()[0]
+                self.ma_cur.execute('SELECT m.token_id FROM mentions m '
+                                    'WHERE sentence_id = ? AND m.token_text = ? '
+                                    'AND m.token_offset_start = ? AND m.token_offset_end = ?;',
+                                    (global_sentence_id, row[self.TEXT],
+                                     row[self.OFFSET_INIT], row[self.OFFSET_END])).fetchone()[0]
 
             # calculating nesting level from underscore notation
             nesting_level, row[self.REL_SOURCE_TEXT] = self.calc_nesting_level(row[self.REL_SOURCE_TEXT])
-            if nesting_level > 0:
-                if nesting_level not in self.nesteds:
-                    self.nesteds[nesting_level] = 1
-                else:
-                    self.nesteds[nesting_level] += 1
+            if nesting_level not in self.nesteds:
+                self.nesteds[nesting_level] = 1
+            else:
+                self.nesteds[nesting_level] += 1
 
-            self.ma_cur.execute('INSERT INTO sources (token_id, nesting_level, source) VALUES (?, ?, ?);',
-                                (global_token_id, nesting_level, row[self.REL_SOURCE_TEXT]))
+            dupe_found = self.ma_cur.execute('SELECT COUNT(*) FROM mentions m JOIN sources s '
+                                             'ON m.token_id = s.token_id '
+                                             'WHERE m.token_id = ? AND m.token_text = ? '
+                                             'AND s.source = ? AND s.nesting_level = ?;',
+                                             (global_token_id, row[self.TEXT],
+                                              row[self.REL_SOURCE_TEXT], nesting_level)).fetchone()[0]
+            if dupe_found == 0:
+                self.ma_cur.execute('INSERT INTO sources (token_id, nesting_level, source) VALUES (?, ?, ?);',
+                                    (global_token_id, nesting_level, row[self.REL_SOURCE_TEXT]))
 
-            # ditto on above two global ids
-            global_source_id = global_token_id = \
-                self.ma_cur.execute('SELECT source_id FROM sources WHERE token_id = ?;', (global_token_id,)).fetchone()[0]
-            self.ma_cur.execute('INSERT INTO attitudes (source_id, target_token_id, label, label_type) VALUES '
-                                '(?, ?, ?, ?);',
-                                (global_source_id, global_token_id, row[self.FACT_VALUE], 'Belief'))
+            global_source_id = self.ma_cur.execute('SELECT source_id FROM sources WHERE token_id = ?;',
+                                                   (global_token_id,)).fetchone()[0]
+
+            dupe_found = self.ma_cur.execute('SELECT COUNT(*) FROM mentions m '
+                                             'JOIN attitudes a ON m.token_id = a.target_token_id '
+                                             'WHERE a.label = ? AND a.source_id = ?;',
+                                             (row[self.FACT_VALUE], global_source_id)).fetchone()[0]
+            if dupe_found == 0:
+                self.ma_cur.execute('INSERT INTO attitudes (source_id, target_token_id, label, label_type) VALUES '
+                                    '(?, ?, ?, ?);',
+                                    (global_source_id, global_token_id, row[self.FACT_VALUE], 'Belief'))
         self.commit()
 
     def commit(self):
@@ -198,40 +249,64 @@ class FB2Master:
         self.ma_con.close()
 
     def findDupes(self):
-        sql_return = self.ma_cur.execute("SELECT sentence FROM SENTENCES")
-        items = []
+        sql_return = self.ma_cur.execute(self.dupes_query)
+        items = {}
         dupes = 0
         for row in sql_return:
-            sentence = row[0]
-            if sentence not in items:
-                items.append(sentence)
+            if row not in items:
+                items[row] = 1
             else:
                 dupes += 1
         return dupes
 
+    def generate_error_txt(self):
+        f = open('errors.txt', 'w')
+        f.write('##### ERROR COUNT: {0} #####\n\n\n\n\n'.format(len(self.errors)))
+        for error in self.errors:
+            f.write('self.errors[(file, sent_id)] = (\n offset_start,\n '
+                    'offset_end,\n pred_head,\n head,\n raw_sentence,\n result_sentence,\n '
+                    'rel_source_text,\n fact_value\n)')
+            f.write(str(error))
+            for item in self.errors[error]:
+                f.write("\n" + str(item))
+            f.write('\n\n\n\n')
+        f.close()
+
+    def populate_fixed_errors(self):
+        self.fixed_errors.clear()
+        f = open('fb_fixed_errors.txt', 'r')
+        for i in range(31):
+            data = f.readline().replace('\n', '').split(",")
+            file = data[0]
+            file_sentence_id = int(data[1])
+
+            sentence = f.readline().replace('\n', '')
+            head = f.readline().replace('\n', '')
+            rel_source_text = f.readline().replace('\n', '')
+            fact_value = f.readline().replace('\n', '')
+
+            offsets = f.readline().replace('\n', '').split(",")
+            offset_start = int(offsets[0])
+            offset_end = int(offsets[1])
+
+            self.fixed_errors[(file, file_sentence_id, head, rel_source_text, fact_value)] = (offset_start, offset_end)
+            f.readline()
+        f.close()
+
 
 if __name__ == "__main__":
     test = FB2Master()
+    test.populate_fixed_errors()
     test.load_data(test.fb_master_query_author)
     test.populate_database()
-    print("\n\nDUPLICATES: " + str(test.findDupes()))
+    # print("\n\nDUPLICATES: " + str(test.findDupes()))
 
     test.load_data(test.fb_master_query_nested)
     test.populate_database()
-    print("\n\nDUPLICATES: " + str(test.findDupes()))
+    # print("\n\nDUPLICATES: " + str(test.findDupes()))
     print(test.nesteds)
-    # print(len(test.raw_fb_dataset))
 
-    f = open('errors.txt', 'w')
-    f.write('##### ERROR COUNT: {0} #####\n\n\n\n\n'.format(len(test.errors)))
-    for error in test.errors:
-        f.write('self.errors[(file, sent_id)] = (original_offset_start,\n offset_start,\n '
-                'offset_end,\n pred_head,\n head,\n raw_sentence,\n result_sentence, rel_source_text,\n fact_value)\n')
-        f.write(str(error))
-        for item in test.errors[error]:
-            f.write("\n" + str(item))
-        f.write('\n\n\n\n')
-    f.close()
+    test.generate_error_txt()
     test.close()
 
 
