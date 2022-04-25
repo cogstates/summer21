@@ -108,15 +108,8 @@ class FB2Master:
 
             # adjusting offsets for remaining of incorrect alignment not caught by ad-hoc logic
             # self.fixed_errors[(file, file_sentence_id, head, rel_source_text, fact_value)] = (offset_start, offset_end)
-            error_key = (row[self.FILE], row[self.SENTENCE_ID], row[self.TEXT],
-                         row[self.REL_SOURCE_TEXT], row[self.FACT_VALUE])
-            error_correction = False
-            if error_key in self.fixed_errors:
-                error_correction = True
-                corrected_offsets = self.fixed_errors[error_key]
-                row[self.OFFSET_INIT] = corrected_offsets[0]
-                row[self.OFFSET_END] = corrected_offsets[1]
-                print(row[self.OFFSET_INIT], row[self.OFFSET_END], row[self.REL_SOURCE_TEXT])
+            # error_key = (row[self.FILE], row[self.SENTENCE_ID], row[self.TEXT],
+                         # row[self.REL_SOURCE_TEXT], row[self.FACT_VALUE])
 
             row[self.OFFSET_INIT], row[self.OFFSET_END], success = self.calc_offsets(row[self.FILE],
                                                                                      row[self.SENTENCE_ID],
@@ -125,8 +118,7 @@ class FB2Master:
                                                                                      row[self.OFFSET_END],
                                                                                      row[self.TEXT],
                                                                                      row[self.REL_SOURCE_TEXT],
-                                                                                     row[self.FACT_VALUE],
-                                                                                     error_correction)
+                                                                                     row[self.FACT_VALUE])
             if success:
                 self.fb_dataset.append(row)
 
@@ -138,7 +130,7 @@ class FB2Master:
             return 0, None
         return nesting_level, source_text[:source_text.index('_')]
 
-    def calc_offsets(self, file, sent_id, raw_sentence, offset_start, offset_end, head, rel_source_text, fact_value, error_correction):
+    def calc_offsets(self, file, sent_id, raw_sentence, offset_start, offset_end, head, rel_source_text, fact_value):
         # calculating the initial offset, since the indicies are file-based and not sentence-based in the DB
 
         file_offset = self.initial_offsets[(file, sent_id)]
@@ -146,17 +138,17 @@ class FB2Master:
 
         # ad hoc logic to adjust offsets
         head_length = offset_end - offset_start
-        if not error_correction:
-            offset_start -= file_offset
 
-            while (
-                    0 < offset_start < len(raw_sentence) and
-                    raw_sentence[offset_start] not in ' `"'
-            ):
-                offset_start -= 1
-            if offset_start > 0:
-                offset_start += 1
-            offset_end = offset_start + head_length
+        offset_start -= file_offset
+
+        while (
+                0 < offset_start < len(raw_sentence) and
+                raw_sentence[offset_start] not in ' `"'
+        ):
+            offset_start -= 1
+        if offset_start > 0:
+            offset_start += 1
+        offset_end = offset_start + head_length
         pred_head = raw_sentence[offset_start:offset_end]
 
         # keeping the asterisks just for easier understanding of the error dataset
@@ -293,31 +285,10 @@ class FB2Master:
                 f.write('\n\n\n\n')
         f.close()
 
-    def populate_fixed_errors(self):
-        self.fixed_errors.clear()
-        f = open('fb_fixed_errors.txt', 'r')
-        for i in range(40):
-            data = f.readline().replace('\n', '').split(",")
-            file = data[0]
-            file_sentence_id = int(data[1])
-
-            sentence = f.readline().replace('\n', '')
-            head = f.readline().replace('\n', '')
-            rel_source_text = f.readline().replace('\n', '')
-            fact_value = f.readline().replace('\n', '')
-
-            offsets = f.readline().replace('\n', '').split(",")
-            offset_start = int(offsets[0])
-            offset_end = int(offsets[1])
-
-            self.fixed_errors[(file, file_sentence_id, head, rel_source_text, fact_value)] = (offset_start, offset_end)
-            f.readline()
-        f.close()
-
 
 if __name__ == "__main__":
     test = FB2Master()
-    test.populate_fixed_errors()
+    # test.populate_fixed_errors()
     test.load_data(test.fb_master_query_author)
     test.populate_database()
     # print("\n\nDUPLICATES: " + str(test.findDupes()))
@@ -327,7 +298,7 @@ if __name__ == "__main__":
     print("\n\nDUPLICATES: " + str(test.findDupes()))
     print(test.nesteds)
 
-    test.generate_error_txt()
+    # test.generate_error_txt()
     test.close()
 
 
