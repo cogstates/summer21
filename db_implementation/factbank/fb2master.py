@@ -43,8 +43,8 @@ class FB2Master:
             JOIN fb_factValue f
                 ON f.sentId = t.sentId
                        AND f.eId = t.tmlTagId
-                       AND f.eText = t.text
-                       AND f.relSourceText = "'AUTHOR'";"""
+                       AND f.eText = t.text;
+                       --AND f.relSourceText = "'AUTHOR'";"""
         self.fb_master_query_nested_source = """
                     SELECT DISTINCT s.file, s.sent, t.tokLoc, t.text, f.factValue, o.offsetInit, o.offsetEnd, o.sentId,
                         f.relSourceText
@@ -193,15 +193,10 @@ class FB2Master:
                 (row[self.SENTENCE],)).fetchone()[0]
 
             dupe_found = self.ma_cur.execute('SELECT COUNT(*) FROM mentions m '
-                                             'JOIN sources s ON m.token_id = s.token_id '
-                                             'JOIN attitudes a ON s.source_id = a.source_id '
-                                             'AND a.target_token_id = m.token_id '
                                              'WHERE m.sentence_id = ? AND m.token_text = ? '
-                                             'AND m.token_offset_start = ? AND m.token_offset_end = ? '
-                                             'AND s.source = ? AND a.label = ?',
+                                             'AND m.token_offset_start = ? AND m.token_offset_end = ?;',
                                              (global_sentence_id, row[self.TEXT],
-                                              row[self.OFFSET_INIT], row[self.OFFSET_END],
-                                              row[self.REL_SOURCE_TEXT], row[self.FACT_VALUE])).fetchone()[0]
+                                              row[self.OFFSET_INIT], row[self.OFFSET_END])).fetchone()[0]
             if dupe_found == 0:
                 self.ma_cur.execute(
                     'INSERT INTO mentions (sentence_id, token_text, token_offset_start, token_offset_end) VALUES '
@@ -213,10 +208,9 @@ class FB2Master:
             # sources table
             global_token_id = \
                 self.ma_cur.execute('SELECT m.token_id FROM mentions m '
-                                    'WHERE sentence_id = ? AND m.token_text = ? '
+                                    'WHERE m.sentence_id = ? AND m.token_text = ? '
                                     'AND m.token_offset_start = ? AND m.token_offset_end = ?;',
-                                    (global_sentence_id, row[self.TEXT],
-                                     row[self.OFFSET_INIT], row[self.OFFSET_END])).fetchone()[0]
+                                    (global_sentence_id, row[self.TEXT], row[self.OFFSET_INIT], row[self.OFFSET_END])).fetchone()[0]
 
             # calculating nesting level from underscore notation
             nesting_level, row[self.REL_SOURCE_TEXT] = self.calc_nesting_level(row[self.REL_SOURCE_TEXT])
@@ -225,12 +219,9 @@ class FB2Master:
             else:
                 self.nesteds[nesting_level] += 1
 
-            dupe_found = self.ma_cur.execute('SELECT COUNT(*) FROM mentions m JOIN sources s '
-                                             'ON m.token_id = s.token_id '
-                                             'WHERE m.token_id = ? AND m.token_text = ? '
-                                             'AND s.source = ? AND s.nesting_level = ?;',
-                                             (global_token_id, row[self.TEXT],
-                                              row[self.REL_SOURCE_TEXT], nesting_level)).fetchone()[0]
+            dupe_found = self.ma_cur.execute('SELECT COUNT(*) FROM sources s '
+                                             'WHERE s.token_id = ? AND s.source = ? AND s.nesting_level = ?;',
+                                             (global_token_id, row[self.REL_SOURCE_TEXT], nesting_level)).fetchone()[0]
             if dupe_found == 0:
                 self.ma_cur.execute('INSERT INTO sources (token_id, nesting_level, source) VALUES (?, ?, ?);',
                                     (global_token_id, nesting_level, row[self.REL_SOURCE_TEXT]))
@@ -238,10 +229,9 @@ class FB2Master:
             global_source_id = self.ma_cur.execute('SELECT source_id FROM sources WHERE token_id = ?;',
                                                    (global_token_id,)).fetchone()[0]
 
-            dupe_found = self.ma_cur.execute('SELECT COUNT(*) FROM mentions m '
-                                             'JOIN attitudes a ON m.token_id = a.target_token_id '
-                                             'WHERE a.label = ? AND a.source_id = ?;',
-                                             (row[self.FACT_VALUE], global_source_id)).fetchone()[0]
+            dupe_found = self.ma_cur.execute('SELECT COUNT(*) FROM attitudes a '
+                                             'WHERE a.source_id = ? AND a.target_token_id = ?;',
+                                             (global_source_id, global_token_id)).fetchone()[0]
             if dupe_found == 0:
                 self.ma_cur.execute('INSERT INTO attitudes (source_id, target_token_id, label, label_type) VALUES '
                                     '(?, ?, ?, ?);',
@@ -293,8 +283,8 @@ if __name__ == "__main__":
     test.populate_database()
     # print("\n\nDUPLICATES: " + str(test.findDupes()))
 
-    test.load_data(test.fb_master_query_nested_source)
-    test.populate_database()
+    # test.load_data(test.fb_master_query_nested_source)
+    # test.populate_database()
     print("\n\nDUPLICATES: " + str(test.findDupes()))
     print(test.nesteds)
 
