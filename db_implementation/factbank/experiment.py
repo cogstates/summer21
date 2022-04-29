@@ -28,14 +28,19 @@ def check_source_count_in_sentence():
     cur = con.cursor()
 
     sql_return = cur.execute(QUERY)
+    failure_sentences = {}
     success = 0
     failure = 0
     for row in sql_return:
+        row = list(row)
+        row[REL_SOURCE_TEXT] = row[REL_SOURCE_TEXT][1:]
         source = calc_source(row[REL_SOURCE_TEXT])
         sentence = row[SENTENCE]
         if sentence.count(source) == 1:
             success += 1
         else:
+            failure_sentences[source] = sentence
+            print(sentence, source)
             failure += 1
     con.close()
     print('SUCCESSES: {0}, FAILURES: {1}'.format(success, failure))

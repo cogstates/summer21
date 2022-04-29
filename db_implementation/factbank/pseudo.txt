@@ -1,0 +1,32 @@
+Before algorithm:
+1. reserve sentid 0 for dummy, gen and author mentions
+2. reserve mention and source ids 0, 1 and 2 for author, gen and dummy
+
+
+for sentid in file, sentence:
+    insert sentence to sentences table
+    for each nesting_level(1 and up):
+         query for all sources at this nesting level from fb_relsource
+         (start with file, sentid, then use python logic to pare down to correct # of underscores)
+         TRY FIRST: query offsets joined with fb_source, lining up file, sentid, and tokloc/sourceloc to get offsets
+         insert each source to mentions, with offsets from query above
+         decide on parent source id before inserting on our sources table:
+            if nesting_level == 1:
+                parent_source_id = 0
+            else:
+                go back to query results from  line 9, to get relsourcetext, slice relsourcetext (but preserve original) for just the parent source,
+                which is between the first and second underscore --> this yields the parent source text
+                we now have, file, file_sentid (and thus global sentid), parent text and nesting level
+                query our sources table with whatever metadata is needed for the parent source id
+
+                if source not gen/dummy:
+                    now, we insert on our sources table for the current nested source and get its source id to store
+
+                use file, sentid, original relsourcetext to query fb_factval to get get eid and label,
+                then use file, sentid, eid = tmltagid to find tokloc in tokens_tml
+                use that tokloc (file, sentid) to get offsets from FB, do file offsets as before
+                insert target on mentions
+                finally, insert fact_value to attitudes where gen/dummy sources use reserved source id values (no parent in this case)
+
+
+
