@@ -15,11 +15,11 @@ class DDL:
 
     # DDL for tables
     def create_tables(self):
-        self.cur.execute('CREATE TABLE IF NOT EXISTS sentences ('
+        self.cur.execute('CREATE TABLE sentences ('
                          'sentence_id INTEGER PRIMARY KEY AUTOINCREMENT,'
-                         'file VARCHAR2(255) NOT NULL,'
-                         'file_sentence_id INTEGER NOT NULL,'
-                         'sentence VARCHAR2(255) NOT NULL )')
+                         'file VARCHAR2(255),'
+                         'file_sentence_id INTEGER,'
+                         'sentence VARCHAR2(255) )')
 
         self.cur.execute('CREATE TABLE mentions ('
                          'token_id INTEGER PRIMARY KEY AUTOINCREMENT,'
@@ -33,7 +33,9 @@ class DDL:
 
         self.cur.execute('CREATE TABLE sources ('
                          'source_id INTEGER PRIMARY KEY AUTOINCREMENT,'
+                         'sentence_id REFERENCES sentences(sentence_id),'
                          'token_id REFERENCES mentions(token_id),'
+                         'parent_source_id INTEGER,'
                          'nesting_level INTEGER,'
                          '[source] VARCHAR2(255) )')
 
