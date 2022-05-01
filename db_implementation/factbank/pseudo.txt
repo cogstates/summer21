@@ -1,6 +1,6 @@
 Before algorithm:
-1. reserve sentid 0 for dummy, gen and author mentions
-2. reserve mention and source ids 0, 1 and 2 for author, gen and dummy
+1. reserve sentid 0 for author, gen & dummy mentions
+2. reserve mention and source ids 0, 1 and 2 for author, gen & dummy
 
 
 for sentid in file, sentence:
@@ -22,7 +22,7 @@ for sentid in file, sentence:
                 if source not gen/dummy:
                     now, we insert on our sources table for the current nested source and get its source id to store
 
-                use file, sentid, original relsourcetext to query fb_factval to get get eid and label,
+                use file, sentid, original relsourcetext to query fb_factval to get eid and label,
                 then use file, sentid, eid = tmltagid to find tokloc in tokens_tml
                 use that tokloc (file, sentid) to get offsets from FB, do file offsets as before
                 insert target on mentions
