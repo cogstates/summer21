@@ -9,7 +9,7 @@ from os import remove
 
 
 class FB2Master:
-    # static constants to index into the raw factbank dataset
+    #  static constants to index into the raw factbank dataset
     # FILE = 0
     # SENTENCE = 1
     # TOKEN_LOCATION = 2
