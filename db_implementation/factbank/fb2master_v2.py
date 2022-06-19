@@ -6,10 +6,11 @@ import sqlite3
 from ddl import DDL
 from os.path import exists
 from os import remove
+from time import sleep
 
 
 class FB2Master:
-    #  static constants to index into the raw factbank dataset
+    # static constants to index into the raw factbank dataset
     # FILE = 0
     # SENTENCE = 1
     # TOKEN_LOCATION = 2
@@ -253,12 +254,15 @@ class FB2Master:
                                                                (global_sentence_id, global_source_token_id,
                                                                 current_nesting_level - 1,
                                                                 parent_source_text))
+                        print('Current nesting level is not 1:', current_nesting_level, parent_source_id.fetchone())
                         if parent_source_id.fetchone() is None:
-                            print("Empty: ", rel_source_text, global_sentence_id, global_source_token_id, current_nesting_level - 1,
+                            print("Empty: ", rel_source_text, global_sentence_id, global_source_token_id,
+                                  current_nesting_level - 1,
                                   relevant_source, parent_source_text)
+                            quit()
                         else:
                             parent_source_id = parent_source_id.fetchone()
-                    # continue
+                    continue
                     if relevant_source != 'GEN' and relevant_source != 'DUMMY':
                         # insert current source into our sources table
                         print((global_sentence_id, global_source_token_id, parent_source_id, current_nesting_level,
@@ -268,6 +272,7 @@ class FB2Master:
                                             (global_sentence_id, global_source_token_id, parent_source_id,
                                              current_nesting_level, relevant_source))
 
+                    sleep(0.5)
                     continue
 
                     # getting back that source id that we just inserted
