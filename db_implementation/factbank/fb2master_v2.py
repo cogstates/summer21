@@ -227,9 +227,9 @@ class FB2Master:
                                             (global_sentence_id, relevant_source, offset_start, offset_end))
 
                     # getting global token id from row we just inserted on mentions above
-                    if relevant_source == 'GEN':
+                    if relevant_source == 'GEN' and current_nesting_level < 2:
                         global_source_token_id = 2
-                    elif relevant_source == 'DUMMY':
+                    elif relevant_source == 'DUMMY' and current_nesting_level < 2:
                         global_source_token_id = 3
                     else:
                         global_source_token_id = \
@@ -259,10 +259,12 @@ class FB2Master:
                             print("Empty: ", rel_source_text, global_sentence_id, global_source_token_id,
                                   current_nesting_level - 1,
                                   relevant_source, parent_source_text)
+                            self.ma_con.commit()
+                            self.ma_con.close()
                             quit()
                         else:
                             parent_source_id = parent_source_id.fetchone()
-                    continue
+
                     if relevant_source != 'GEN' and relevant_source != 'DUMMY':
                         # insert current source into our sources table
                         print((global_sentence_id, global_source_token_id, parent_source_id, current_nesting_level,
@@ -271,9 +273,6 @@ class FB2Master:
                                             'VALUES (?, ?, ?, ?, ?);',
                                             (global_sentence_id, global_source_token_id, parent_source_id,
                                              current_nesting_level, relevant_source))
-
-                    sleep(0.5)
-                    continue
 
                     # getting back that source id that we just inserted
                     if relevant_source == 'GEN':
