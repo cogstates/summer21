@@ -265,9 +265,9 @@ class FB2Master:
                         else:
                             parent_source_id = parent_source_id.fetchone()
 
-                    if relevant_source != 'GEN' and relevant_source != 'DUMMY':
+                    if current_nesting_level < 2 or (relevant_source != 'GEN' and relevant_source != 'DUMMY'):
                         # insert current source into our sources table
-                        print((global_sentence_id, global_source_token_id, parent_source_id, current_nesting_level,
+                        print("Inserting", (global_sentence_id, global_source_token_id, parent_source_id, current_nesting_level,
                                relevant_source, rel_source_text))
                         self.ma_cur.execute('INSERT INTO sources (sentence_id, token_id, parent_source_id, nesting_level, [source]) '
                                             'VALUES (?, ?, ?, ?, ?);',
