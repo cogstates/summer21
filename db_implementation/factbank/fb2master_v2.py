@@ -201,7 +201,8 @@ class FB2Master:
 
                 for rel_source_text in sources_sql_return:
                     nesting_level, relevant_source = self.calc_nesting_level(rel_source_text)
-                    if nesting_level != current_nesting_level:
+                    if (nesting_level != current_nesting_level) or \
+                            (relevant_source in ["GEN", "DUMMY"]):
                         continue
 
                     # getting the source offsets
