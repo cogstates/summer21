@@ -265,7 +265,7 @@ class FB2Master:
                             self.ma_con.commit()
                             self.ma_con.close()
                             quit()
-                        elif len(parent_source_id) > 1:
+                        else:
                             parent_source_id = parent_source_id[0]
 
                     if current_nesting_level < 2 or (relevant_source != 'GEN' and relevant_source != 'DUMMY'):
