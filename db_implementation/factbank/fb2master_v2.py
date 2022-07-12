@@ -200,9 +200,10 @@ class FB2Master:
                 # for each source in each nesting level, find the offsets for the head and insert on mentions
 
                 for rel_source_text in sources_sql_return:
+                    if "GEN_" in rel_source_text or "DUMMY_" in rel_source_text:
+                        continue
                     nesting_level, relevant_source = self.calc_nesting_level(rel_source_text)
-                    if (nesting_level != current_nesting_level) or \
-                            (relevant_source in ["GEN", "DUMMY"]):
+                    if nesting_level != current_nesting_level:
                         continue
 
                     # getting the source offsets
