@@ -200,8 +200,8 @@ class FB2Master:
                 # for each source in each nesting level, find the offsets for the head and insert on mentions
 
                 for rel_source_text in sources_sql_return:
-                    if "GEN_" in rel_source_text or "DUMMY_" in rel_source_text:
-                        continue
+                    # if "GEN_" in rel_source_text or "DUMMY_" in rel_source_text:
+                    #     continue
                     nesting_level, relevant_source = self.calc_nesting_level(rel_source_text)
                     if nesting_level != current_nesting_level:
                         continue
@@ -230,11 +230,12 @@ class FB2Master:
                                             (global_sentence_id, relevant_source, offset_start, offset_end))
 
                     # getting global token id from row we just inserted on mentions above
-                    if relevant_source == 'GEN' and current_nesting_level < 2:
+                    if relevant_source == 'GEN':
                         global_source_token_id = 2
-                    elif relevant_source == 'DUMMY' and current_nesting_level < 2:
+                    elif relevant_source == 'DUMMY':
                         global_source_token_id = 3
                     else:
+                        print("TRYING TO GET PARENT TOKEN ID", rel_source_text)
                         global_source_token_id = \
                             self.ma_cur.execute('SELECT token_id FROM mentions '
                                                 'WHERE sentence_id = ? AND token_text = ? '
@@ -297,8 +298,9 @@ class FB2Master:
                     print(relevant_source, attitude_source_id)
                     continue
                     # dealing with targets now
+                    print("Getting EID", row[self.FILE], row[self.SENTENCE_ID], rel_source_text)
                     eid_label_sql_return = self.fb_cur.execute('SELECT eId, factValue FROM fb_factValue '
-                                                               'WHERE file = ? AND sentId = ? '
+                                                               'WHERE file = \'?\' AND sentId = ? '
                                                                'AND relSourceText = ?',
                                                                (row[self.FILE], row[self.SENTENCE_ID],
                                                                 rel_source_text)).fetchone()
@@ -348,7 +350,10 @@ class FB2Master:
     def calc_parent_source(self, source_text):
         start_index = source_text.index('_') + 1
         parent_source = source_text[start_index:]
-        return parent_source[:parent_source.index('_')]
+        parent_source = parent_source[:parent_source.index('_')]
+        if '=' in source_text:
+            parent_source = parent_source[:parent_source.index('=')]
+        return parent_source
 
     def calc_nesting_level(self, source_text):
         # print(source_text)
