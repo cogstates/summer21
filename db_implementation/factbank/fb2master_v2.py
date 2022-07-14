@@ -251,9 +251,9 @@ class FB2Master:
                     # if global_source_token_id > 3:
                     #     print(global_source_token_id, rel_source_text)
                     # continue
-                    if current_nesting_level == 0:
+                    if nesting_level == 0:
                         parent_source_id = None
-                    elif current_nesting_level == 1:
+                    elif nesting_level == 1:
                         parent_source_id = 1
                     else:
                         parent_source_text = self.calc_parent_source(rel_source_text)
@@ -265,16 +265,15 @@ class FB2Master:
                                                                     current_nesting_level - 1,
                                                                     parent_source_text))
                         parent_source_id = parent_source_id_set.fetchone()
-                        if parent_source_id is None:
-                            # print("Empty: ", rel_source_text, global_sentence_id, global_source_token_id,
-                            #       current_nesting_level - 1,
-                            #       relevant_source, parent_source_text)
-                            self.ma_con.commit()
-                            self.ma_con.close()
-                            quit()
-                        else:
-                            parent_source_id = parent_source_id[0]
-
+                        parent_source_id = parent_source_id[0]
+                        # if parent_source_id is None:
+                        #     # print("Empty: ", rel_source_text, global_sentence_id, global_source_token_id,
+                        #     #       current_nesting_level - 1,
+                        #     #       relevant_source, parent_source_text)
+                        #     self.ma_con.commit()
+                        #     self.ma_con.close()
+                        #     quit()
+                        # else:
                     if current_nesting_level < 2 or (relevant_source != 'GEN' and relevant_source != 'DUMMY'):
                         # insert current source into our sources table
                         # print("Inserting",
