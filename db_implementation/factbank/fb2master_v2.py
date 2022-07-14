@@ -167,7 +167,8 @@ class FB2Master:
         #     print(key)
 
         # inserting sentences
-        sentences_sql_return = self.fb_cur.execute(self.fb_sentences_query)
+        sentences_sql_return = self.fb_cur.execute(self.fb_sentences_query).fetchall()
+
         for row in sentences_sql_return:
 
             if row[self.SENTENCE_ID] == 0:
@@ -296,22 +297,25 @@ class FB2Master:
                                                                   relevant_source)).fetchone()[0]
 
                     print(relevant_source, attitude_source_id)
-                    continue
+                    # continue
                     # dealing with targets now
                     print("Getting EID", row[self.FILE], row[self.SENTENCE_ID], rel_source_text)
                     eid_label_sql_return = self.fb_cur.execute('SELECT eId, factValue FROM fb_factValue '
-                                                               'WHERE file = \'?\' AND sentId = ? '
+                                                               'WHERE file = ? AND sentId = ? '
                                                                'AND relSourceText = ?',
                                                                (row[self.FILE], row[self.SENTENCE_ID],
-                                                                rel_source_text)).fetchone()
+                                                                "'{}'".format(rel_source_text))).fetchone()
                     eid = eid_label_sql_return[0]
-                    fact_value = eid_label_sql_return[1][1:-1]
+                    fact_value = eid_label_sql_return[1][1:-2]
+                    print(eid, fact_value)
+                    # continue
+
                     target_sql_return = self.fb_cur.execute('SELECT tokLoc, text FROM tokens_tml '
                                                             'WHERE file = ? AND sentId = ? '
                                                             'AND tmlTagId = ?;',
                                                             (row[self.FILE], row[self.SENTENCE_ID], eid)).fetchone()
                     tok_loc = target_sql_return[0]
-                    target_head = target_sql_return[1]
+                    target_head = target_sql_return[1][1:-1]
 
                     # getting target offsets before inserting on mentions
                     target_offsets_sql_return = self.fb_cur.execute('SELECT offsetInit, offsetEnd FROM offsets '
@@ -335,6 +339,9 @@ class FB2Master:
                                         'token_offset_start, token_offset_end) '
                                         'VALUES (?, ?, ?, ?);', (global_sentence_id, target_head,
                                                                  target_offset_start, target_offset_end))
+
+                    # continue
+
                     # getting back the token id we just inserted
                     target_token_id = self.ma_cur.execute('SELECT token_id FROM mentions '
                                                           'WHERE sentence_id = ? AND token_text = ? '
