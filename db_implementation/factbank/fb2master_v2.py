@@ -4,6 +4,7 @@
 
 import sqlite3
 from ddl import DDL
+from progress.bar import Bar
 from os.path import exists
 from os import remove
 from time import sleep
@@ -168,7 +169,7 @@ class FB2Master:
 
         # inserting sentences
         sentences_sql_return = self.fb_cur.execute(self.fb_sentences_query).fetchall()
-
+        bar = Bar('Sentences Processed', max=len(sentences_sql_return))
         for row in sentences_sql_return:
 
             if row[self.SENTENCE_ID] == 0:
@@ -196,7 +197,7 @@ class FB2Master:
             sources_sql_return = self.rel_source_texts[rel_source_key]
 
             # for each nesting level 1 --> 3, get all sources from fb_relsource
-            for current_nesting_level in range(1, 3):
+            for current_nesting_level in range(0, 3):
                 # grabbing relevant sources for the sentence at the relevant nesting level
                 # for each source in each nesting level, find the offsets for the head and insert on mentions
 
@@ -231,12 +232,14 @@ class FB2Master:
                                             (global_sentence_id, relevant_source, offset_start, offset_end))
 
                     # getting global token id from row we just inserted on mentions above
-                    if relevant_source == 'GEN':
+                    if nesting_level == 0:
+                        global_source_token_id = 1
+                    elif relevant_source == 'GEN':
                         global_source_token_id = 2
                     elif relevant_source == 'DUMMY':
                         global_source_token_id = 3
                     else:
-                        print("TRYING TO GET PARENT TOKEN ID", rel_source_text)
+                        # print("TRYING TO GET PARENT TOKEN ID", rel_source_text)
                         global_source_token_id = \
                             self.ma_cur.execute('SELECT token_id FROM mentions '
                                                 'WHERE sentence_id = ? AND token_text = ? '
@@ -248,8 +251,9 @@ class FB2Master:
                     # if global_source_token_id > 3:
                     #     print(global_source_token_id, rel_source_text)
                     # continue
-
-                    if current_nesting_level == 1:
+                    if current_nesting_level == 0:
+                        parent_source_id = None
+                    elif current_nesting_level == 1:
                         parent_source_id = 1
                     else:
                         parent_source_text = self.calc_parent_source(rel_source_text)
@@ -262,9 +266,9 @@ class FB2Master:
                                                                     parent_source_text))
                         parent_source_id = parent_source_id_set.fetchone()
                         if parent_source_id is None:
-                            print("Empty: ", rel_source_text, global_sentence_id, global_source_token_id,
-                                  current_nesting_level - 1,
-                                  relevant_source, parent_source_text)
+                            # print("Empty: ", rel_source_text, global_sentence_id, global_source_token_id,
+                            #       current_nesting_level - 1,
+                            #       relevant_source, parent_source_text)
                             self.ma_con.commit()
                             self.ma_con.close()
                             quit()
@@ -273,9 +277,9 @@ class FB2Master:
 
                     if current_nesting_level < 2 or (relevant_source != 'GEN' and relevant_source != 'DUMMY'):
                         # insert current source into our sources table
-                        print("Inserting",
-                              (global_sentence_id, global_source_token_id, parent_source_id, current_nesting_level,
-                               relevant_source, rel_source_text))
+                        # print("Inserting",
+                        #       (global_sentence_id, global_source_token_id, parent_source_id, current_nesting_level,
+                        #        relevant_source, rel_source_text))
                         self.ma_cur.execute(
                             'INSERT INTO sources (sentence_id, token_id, parent_source_id, nesting_level, [source]) '
                             'VALUES (?, ?, ?, ?, ?);',
@@ -283,7 +287,9 @@ class FB2Master:
                              current_nesting_level, relevant_source))
 
                     # getting back that source id that we just inserted
-                    if relevant_source == 'GEN':
+                    if current_nesting_level == 0:
+                        attitude_source_id = 1
+                    elif relevant_source == 'GEN':
                         attitude_source_id = 2
                     elif relevant_source == 'DUMMY':
                         attitude_source_id = 3
@@ -296,18 +302,21 @@ class FB2Master:
                                                                   parent_source_id, current_nesting_level,
                                                                   relevant_source)).fetchone()[0]
 
-                    print(relevant_source, attitude_source_id)
+                    # print(relevant_source, attitude_source_id)
                     # continue
                     # dealing with targets now
-                    print("Getting EID", row[self.FILE], row[self.SENTENCE_ID], rel_source_text)
+                    # print("Getting EID", row[self.FILE], row[self.SENTENCE_ID], rel_source_text)
                     eid_label_sql_return = self.fb_cur.execute('SELECT eId, factValue FROM fb_factValue '
                                                                'WHERE file = ? AND sentId = ? '
                                                                'AND relSourceText = ?',
                                                                (row[self.FILE], row[self.SENTENCE_ID],
                                                                 "'{}'".format(rel_source_text))).fetchone()
+                    if eid_label_sql_return is None:
+                        continue
+
                     eid = eid_label_sql_return[0]
                     fact_value = eid_label_sql_return[1][1:-2]
-                    print(eid, fact_value)
+                    # print(eid, fact_value)
                     # continue
 
                     target_sql_return = self.fb_cur.execute('SELECT tokLoc, text FROM tokens_tml '
@@ -353,8 +362,12 @@ class FB2Master:
                     self.ma_cur.execute('INSERT INTO attitudes (source_id, target_token_id, label, label_type) '
                                         'VALUES (?, ?, ?, ?)',
                                         (attitude_source_id, target_token_id, fact_value, 'Belief'))
+            bar.next()
+        bar.finish()
 
     def calc_parent_source(self, source_text):
+        if source_text == 'AUTHOR':
+            return None
         start_index = source_text.index('_') + 1
         parent_source = source_text[start_index:]
         parent_source = parent_source[:parent_source.index('_')]
@@ -374,7 +387,7 @@ class FB2Master:
     def calc_offsets(self, file, sent_id, raw_sentence, offset_start, offset_end, head, rel_source_text):
         # calculating the initial offset, since the indicies are file-based and not sentence-based in the DB
 
-        if offset_start is None and offset_end is None:
+        if (offset_start is None and offset_end is None) or head is None:
             return None, None, True
 
         file_offset = self.initial_offsets[(file, sent_id)]
