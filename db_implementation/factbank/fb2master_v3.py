@@ -12,16 +12,6 @@ from time import sleep
 
 class FB2Master:
     # static constants to index into the raw factbank dataset
-    # FILE = 0
-    # SENTENCE = 1
-    # TOKEN_LOCATION = 2
-    # TEXT = 3
-    # FACT_VALUE = 4
-    # OFFSET_INIT = 5
-    # OFFSET_END = 6
-    # SENTENCE_ID = 7
-    # REL_SOURCE_TEXT = 8
-
     FILE = 0
     SENTENCE_ID = 1
     SENTENCE = 2
@@ -93,6 +83,7 @@ class FB2Master:
         self.offsets_query = """SELECT o.file, o.sentId, o.offsetInit FROM offsets o WHERE o.tokLoc = 0;"""
         self.rel_source_texts = {}
         self.source_offsets = {}
+        self.eid_errors = []
 
     def create_tables(self):
         db = DDL('fb')
@@ -126,58 +117,16 @@ class FB2Master:
         for row in offsets_sql_return:
             self.initial_offsets[(row[self.FILE], row[self.SENTENCE_ID])] = row[self.RAW_OFFSET_INIT]
 
-        # inserting reserved sentence, mention and source values for AUTHOR, GEN & DUMMY
-
-        # sentence id 1
-        self.ma_cur.execute('INSERT INTO sentences (file, file_sentence_id, sentence)'
-                            'VALUES (NULL, NULL, NULL);')
-
-        # mention ids 1, 2 & 3
-        # AUTHOR --> token id 1
-        self.ma_cur.execute('INSERT INTO mentions '
-                            '(sentence_id, token_text) '
-                            'VALUES (1, "AUTHOR");')
-
-        # GEN --> token id 2
-        self.ma_cur.execute('INSERT INTO mentions '
-                            '(sentence_id, token_text) '
-                            'VALUES (1, "GEN");')
-
-        # DUMMY --> token id 3
-        self.ma_cur.execute('INSERT INTO mentions '
-                            '(sentence_id, token_text) '
-                            'VALUES (1, "DUMMY");')
-
-        # source ids 1, 2 & 3
-        # AUTHOR --> source id 1
-        self.ma_cur.execute('INSERT INTO sources '
-                            '(sentence_id, token_id) '
-                            'VALUES (1, 1)')
-
-        # GEN --> source id 2
-        self.ma_cur.execute('INSERT INTO sources '
-                            '(sentence_id, token_id) '
-                            'VALUES (1, 2)')
-
-        # DUMMY --> source id 3
-        self.ma_cur.execute('INSERT INTO sources '
-                            '(sentence_id, token_id) '
-                            'VALUES (1, 3)')
-
-        # for key in self.rel_source_texts:
-        #     print(key)
-
         # inserting sentences
         sentences_sql_return = self.fb_cur.execute(self.fb_sentences_query).fetchall()
         bar = Bar('Sentences Processed', max=len(sentences_sql_return))
-        for row in sentences_sql_return:
 
+        for row in sentences_sql_return:
             if row[self.SENTENCE_ID] == 0:
                 continue
             row = list(row)
 
             # removing enclosing single quotes where necessary
-            # row[self.FILE] = row[self.FILE][1:-1]
             row[self.SENTENCE] = str(row[self.SENTENCE][1:-2].replace("\\", "").replace("`", ""))
 
             # inserting sentences to our sentences table
@@ -189,22 +138,16 @@ class FB2Master:
             global_sentence_id = self.ma_cur.execute('SELECT sentence_id FROM sentences WHERE sentence = ?',
                                                      (row[self.SENTENCE],)).fetchone()[0]
 
-            # print(global_sentence_id, row[self.FILE], row[self.SENTENCE_ID])
-
             rel_source_key = (row[self.FILE], row[self.SENTENCE_ID])
             if rel_source_key not in self.rel_source_texts:
                 self.rel_source_texts[rel_source_key] = ['AUTHOR']
-            sources_sql_return = self.rel_source_texts[rel_source_key]
+            sources = self.rel_source_texts[rel_source_key]
 
-            # for each nesting level 1 --> 3, get all sources from fb_relsource
+            # for each nesting level 0 --> 3, get all sources from fb_relsource
             for current_nesting_level in range(0, 3):
-                # grabbing relevant sources for the sentence at the relevant nesting level
-                # for each source in each nesting level, find the offsets for the head and insert on mentions
-
-                for rel_source_text in sources_sql_return:
-                    # if "GEN_" in rel_source_text or "DUMMY_" in rel_source_text:
-                    #     continue
+                for rel_source_text in sources:
                     nesting_level, relevant_source = self.calc_nesting_level(rel_source_text)
+
                     if nesting_level != current_nesting_level:
                         continue
 
@@ -212,50 +155,31 @@ class FB2Master:
                     source_offsets_key = (row[self.FILE], row[self.SENTENCE_ID])
                     if source_offsets_key not in self.source_offsets:
                         self.source_offsets[source_offsets_key] = (None, None, relevant_source)
-                        # print(rel_source_text, row[self.FILE], row[self.SENTENCE_ID])
-                        # continue
-                    source_offsets_sql_return = self.source_offsets[source_offsets_key]
-
-                    # why can't i remove \\ and ` strings without error???
-                    # source_head = source_offsets_sql_return[2]
+                    source_offsets = self.source_offsets[source_offsets_key]
 
                     offset_start, offset_end, success = self.calc_offsets(row[self.FILE], row[self.SENTENCE_ID],
                                                                           row[self.SENTENCE],
-                                                                          source_offsets_sql_return[0],
-                                                                          source_offsets_sql_return[1],
+                                                                          source_offsets[0],
+                                                                          source_offsets[1],
                                                                           relevant_source, rel_source_text)
 
                     # inserting on mentions
-                    if offset_start is not None:
-                        self.ma_cur.execute('INSERT INTO mentions (sentence_id, token_text, token_offset_start, '
-                                            'token_offset_end) VALUES (?, ?, ?, ?);',
-                                            (global_sentence_id, relevant_source, offset_start, offset_end))
+                    self.ma_cur.execute('INSERT INTO mentions (sentence_id, token_text, token_offset_start, '
+                                        'token_offset_end) VALUES (?, ?, ?, ?);',
+                                        (global_sentence_id, relevant_source, offset_start, offset_end))
 
                     # getting global token id from row we just inserted on mentions above
-                    if nesting_level == 0:
-                        global_source_token_id = 1
-                    elif relevant_source == 'GEN':
-                        global_source_token_id = 2
-                    elif relevant_source == 'DUMMY':
-                        global_source_token_id = 3
-                    else:
-                        # print("TRYING TO GET PARENT TOKEN ID", rel_source_text)
-                        global_source_token_id = \
-                            self.ma_cur.execute('SELECT token_id FROM mentions '
-                                                'WHERE sentence_id = ? AND token_text = ? '
-                                                'AND token_offset_start = ? AND token_offset_end = ?;',
-                                                (global_sentence_id, relevant_source,
-                                                 offset_start, offset_end)).fetchone()[0]
+                    global_source_token_id = \
+                        self.ma_cur.execute('SELECT token_id FROM mentions '
+                                            'WHERE sentence_id = ? AND token_text = ? '
+                                            'AND token_offset_start = ? AND token_offset_end = ?;',
+                                            (global_sentence_id, relevant_source,
+                                             offset_start, offset_end)).fetchone()[0]
 
-                    # special case: if current nesting level is 1, AUTHOR is always the parent
-                    # if global_source_token_id > 3:
-                    #     print(global_source_token_id, rel_source_text)
-                    # continue
                     if nesting_level == 0:
-                        parent_source_id = None
-                    elif nesting_level == 1:
-                        parent_source_id = 1
+                        parent_source_id = -1
                     else:
+                        # print(rel_source_text)
                         parent_source_text = self.calc_parent_source(rel_source_text)
                         parent_source_id_set = self.ma_cur.execute('SELECT source_id FROM sources '
                                                                    'WHERE sentence_id = ? '
@@ -266,57 +190,39 @@ class FB2Master:
                                                                     parent_source_text))
                         parent_source_id = parent_source_id_set.fetchone()
                         parent_source_id = parent_source_id[0]
-                        # if parent_source_id is None:
-                        #     # print("Empty: ", rel_source_text, global_sentence_id, global_source_token_id,
-                        #     #       current_nesting_level - 1,
-                        #     #       relevant_source, parent_source_text)
-                        #     self.ma_con.commit()
-                        #     self.ma_con.close()
-                        #     quit()
-                        # else:
-                    if current_nesting_level > 0:
-                        # insert current source into our sources table
-                        # print("Inserting",
-                        #       (global_sentence_id, global_source_token_id, parent_source_id, current_nesting_level,
-                        #        relevant_source, rel_source_text))
-                        self.ma_cur.execute(
-                            'INSERT INTO sources (sentence_id, token_id, parent_source_id, nesting_level, [source]) '
-                            'VALUES (?, ?, ?, ?, ?);',
-                            (global_sentence_id, global_source_token_id, parent_source_id,
-                             current_nesting_level, relevant_source))
+
+                    self.ma_cur.execute(
+                        'INSERT INTO sources (sentence_id, token_id, parent_source_id, nesting_level, [source]) '
+                        'VALUES (?, ?, ?, ?, ?);',
+                        (global_sentence_id, global_source_token_id, parent_source_id,
+                         current_nesting_level, relevant_source))
 
                     # getting back that source id that we just inserted
-                    if current_nesting_level == 0:
-                        attitude_source_id = 1
-                    elif relevant_source == 'GEN':
-                        attitude_source_id = 2
-                    elif relevant_source == 'DUMMY':
-                        attitude_source_id = 3
-                    else:
-                        attitude_source_id = self.ma_cur.execute('SELECT source_id FROM sources '
-                                                                 'WHERE sentence_id = ? AND token_id = ? '
-                                                                 'AND parent_source_id = ? AND nesting_level = ? '
-                                                                 'AND [source] = ?;',
-                                                                 (global_sentence_id, global_source_token_id,
-                                                                  parent_source_id, current_nesting_level,
-                                                                  relevant_source)).fetchone()[0]
+                    # print('global_sentence_id:', global_sentence_id,
+                    #       'global_source_token_id:', global_source_token_id,
+                    #       'parent_source_id:', parent_source_id,
+                    #       'current_nesting_level:', current_nesting_level,
+                    #       'relevant_source:', relevant_source)
 
-                    # print(relevant_source, attitude_source_id)
-                    # continue
-                    # dealing with targets now
-                    # print("Getting EID", row[self.FILE], row[self.SENTENCE_ID], rel_source_text)
+                    attitude_source_id = self.ma_cur.execute('SELECT source_id FROM sources '
+                                                             'WHERE sentence_id = ? AND token_id = ? '
+                                                             'AND parent_source_id = ? AND nesting_level = ? '
+                                                             'AND [source] = ?;',
+                                                             (global_sentence_id, global_source_token_id,
+                                                              parent_source_id, current_nesting_level,
+                                                              relevant_source)).fetchone()[0]
+
                     eid_label_sql_return = self.fb_cur.execute('SELECT eId, factValue FROM fb_factValue '
                                                                'WHERE file = ? AND sentId = ? '
                                                                'AND relSourceText = ?',
                                                                (row[self.FILE], row[self.SENTENCE_ID],
                                                                 "'{}'".format(rel_source_text))).fetchone()
                     if eid_label_sql_return is None:
+                        self.eid_errors.append((row[self.FILE], row[self.SENTENCE_ID], rel_source_text))
                         continue
 
                     eid = eid_label_sql_return[0]
                     fact_value = eid_label_sql_return[1][1:-2]
-                    # print(eid, fact_value)
-                    # continue
 
                     target_sql_return = self.fb_cur.execute('SELECT tokLoc, text FROM tokens_tml '
                                                             'WHERE file = ? AND sentId = ? '
@@ -369,8 +275,9 @@ class FB2Master:
             return None
         start_index = source_text.index('_') + 1
         parent_source = source_text[start_index:]
-        parent_source = parent_source[:parent_source.index('_')]
-        if '=' in source_text:
+        if parent_source.count('_') > 0:
+            parent_source = parent_source[:parent_source.index('_')]
+        if '=' in parent_source:
             parent_source = parent_source[:parent_source.index('=')]
         return parent_source
 
@@ -380,14 +287,14 @@ class FB2Master:
         if '=' in source_text:
             return nesting_level, source_text[0:source_text.index('=')]
         if source_text == 'AUTHOR':
-            return 0, None
+            return 0, 'AUTHOR'
         return nesting_level, source_text[:source_text.index('_')]
 
     def calc_offsets(self, file, sent_id, raw_sentence, offset_start, offset_end, head, rel_source_text):
         # calculating the initial offset, since the indicies are file-based and not sentence-based in the DB
 
         if (offset_start is None and offset_end is None) or head is None:
-            return None, None, True
+            return -1, -1, True
 
         file_offset = self.initial_offsets[(file, sent_id)]
         success = True
@@ -477,6 +384,8 @@ if __name__ == "__main__":
     test.load_rel_source_texts()
     test.load_source_offsets()
     test.load_data()
+    for i in range(5):
+        print(test.eid_errors[i])
     # print("\n\nDUPLICATES: " + str(test.findDupes()))
 
     # test.load_data(test.fb_master_query_nested_source)
