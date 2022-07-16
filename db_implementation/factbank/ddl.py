@@ -16,13 +16,13 @@ class DDL:
     # DDL for tables
     def create_tables(self):
         self.cur.execute('CREATE TABLE sentences ('
-                         'sentence_id INTEGER PRIMARY KEY AUTOINCREMENT,'
+                         'sentence_id INTEGER PRIMARY KEY,'
                          'file VARCHAR2(255),'
                          'file_sentence_id INTEGER,'
                          'sentence VARCHAR2(255) )')
 
         self.cur.execute('CREATE TABLE mentions ('
-                         'token_id INTEGER PRIMARY KEY AUTOINCREMENT,'
+                         'token_id INTEGER PRIMARY KEY,'
                          'sentence_id REFERENCES sentences(sentence_id),'
                          'token_text VARCHAR2(255),'
                          'token_offset_start INTEGER,'
@@ -32,7 +32,7 @@ class DDL:
                          'phrase_offset_end INTEGER )')
 
         self.cur.execute('CREATE TABLE sources ('
-                         'source_id INTEGER PRIMARY KEY AUTOINCREMENT,'
+                         'source_id INTEGER PRIMARY KEY,'
                          'sentence_id REFERENCES sentences(sentence_id),'
                          'token_id REFERENCES mentions(token_id),'
                          'parent_source_id INTEGER,'
@@ -40,7 +40,7 @@ class DDL:
                          '[source] VARCHAR2(255) )')
 
         self.cur.execute('CREATE TABLE attitudes ('
-                         'attitude_id INTEGER PRIMARY KEY AUTOINCREMENT,'
+                         'attitude_id INTEGER PRIMARY KEY,'
                          'source_id REFERENCES sources(source_id),'
                          'target_token_id REFERENCES mentions(token_id),'
                          'label VARCHAR2(255),'
