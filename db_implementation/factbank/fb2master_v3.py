@@ -5,9 +5,6 @@
 import sqlite3
 from ddl import DDL
 from progress.bar import Bar
-import multiprocessing
-from os.path import exists
-from os import remove
 
 
 class FB2Master:
