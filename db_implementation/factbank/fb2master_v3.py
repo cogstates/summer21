@@ -5,6 +5,7 @@
 import sqlite3
 from ddl import DDL
 from progress.bar import Bar
+import time
 
 
 class FB2Master:
@@ -230,46 +231,50 @@ class FB2Master:
                                                            'WHERE file = ? AND sentId = ? '
                                                            'AND relSourceText = ?',
                                                            (row[self.FILE], row[self.SENTENCE_ID],
-                                                            "'{}'".format(rel_source_text))).fetchone()
-                if eid_label_sql_return is None:
-                    self.eid_errors.append((row[self.FILE], row[self.SENTENCE_ID], rel_source_text))
-                    continue
+                                                            "'{}'".format(rel_source_text))).fetchall()
 
-                eid = eid_label_sql_return[0]
-                fact_value = eid_label_sql_return[1][1:-2]
+                for example in eid_label_sql_return:
+                    if eid_label_sql_return is None:
+                        self.eid_errors.append((row[self.FILE], row[self.SENTENCE_ID], rel_source_text))
+                        continue
 
-                target_sql_return = self.fb_cur.execute('SELECT tokLoc, text FROM tokens_tml '
-                                                        'WHERE file = ? AND sentId = ? '
-                                                        'AND tmlTagId = ?;',
-                                                        (row[self.FILE], row[self.SENTENCE_ID], eid)).fetchone()
-                tok_loc = target_sql_return[0]
-                target_head = target_sql_return[1][1:-1]
+                    eid = example[0]
+                    fact_value = example[1][1:-2]
 
-                # getting target offsets before inserting on mentions
-                target_offsets_sql_return = self.fb_cur.execute('SELECT offsetInit, offsetEnd FROM offsets '
-                                                                'WHERE file = ? AND sentId = ? '
-                                                                'AND tokLoc = ?;',
-                                                                (row[self.FILE], row[self.SENTENCE_ID],
-                                                                 tok_loc)).fetchone()
-                target_offset_start = target_offsets_sql_return[0]
-                target_offset_end = target_offsets_sql_return[1]
+                    target_sql_return = self.fb_cur.execute('SELECT tokLoc, text FROM tokens_tml '
+                                                            'WHERE file = ? AND sentId = ? '
+                                                            'AND tmlTagId = ?;',
+                                                            (row[self.FILE], row[self.SENTENCE_ID], eid)).fetchone()
 
-                target_offset_start, target_offset_end, success = self.calc_offsets(row[self.FILE],
-                                                                                    row[self.SENTENCE_ID],
-                                                                                    row[self.SENTENCE],
-                                                                                    target_offset_start,
-                                                                                    target_offset_end,
-                                                                                    target_head,
-                                                                                    rel_source_text)
+                    tok_loc = target_sql_return[0]
+                    target_head = target_sql_return[1][1:-1]
 
-                self.mentions.append((self.next_mention_id, global_sentence_id,
-                                      target_head, target_offset_start, target_offset_end))
+                    # getting target offsets before inserting on mentions
+                    target_offsets_sql_return = self.fb_cur.execute('SELECT offsetInit, offsetEnd FROM offsets '
+                                                                    'WHERE file = ? AND sentId = ? '
+                                                                    'AND tokLoc = ?;',
+                                                                    (row[self.FILE], row[self.SENTENCE_ID],
+                                                                     tok_loc)).fetchone()
+                    target_offset_start = target_offsets_sql_return[0]
+                    target_offset_end = target_offsets_sql_return[1]
 
-                target_token_id = self.next_mention_id
-                self.next_mention_id += 1
+                    target_offset_start, target_offset_end, success = self.calc_offsets(row[self.FILE],
+                                                                                        row[self.SENTENCE_ID],
+                                                                                        row[self.SENTENCE],
+                                                                                        target_offset_start,
+                                                                                        target_offset_end,
+                                                                                        target_head,
+                                                                                        rel_source_text)
 
-                self.attitudes.append((self.next_attitude_id, attitude_source_id, target_token_id, fact_value, 'Belief'))
-                self.next_attitude_id += 1
+                    self.mentions.append((self.next_mention_id, global_sentence_id,
+                                          target_head, target_offset_start, target_offset_end))
+
+                    target_token_id = self.next_mention_id
+                    self.next_mention_id += 1
+
+                    self.attitudes.append((self.next_attitude_id, attitude_source_id,
+                                           target_token_id, fact_value, 'Belief'))
+                    self.next_attitude_id += 1
 
         bar.next()
 
@@ -334,7 +339,7 @@ class FB2Master:
         if not success:
             self.num_errors += 1
             error_key = (file, sent_id)
-            entry = (offset_start, offset_end, pred_head, head,
+            entry = (file[1:-1], sent_id, offset_start, offset_end, pred_head, head,
                      raw_sentence, result_sentence, rel_source_text)
             if error_key not in self.errors:
                 self.errors[error_key] = [entry]
@@ -352,11 +357,37 @@ class FB2Master:
         self.fb_con.close()
         self.ma_con.close()
 
+    def load_errors(self):
+        print('Loading errors...')
+        self.ma_cur.execute('CREATE TABLE errors ('
+                            'error_id INTEGER PRIMARY KEY AUTOINCREMENT,'
+                            'file VARCHAR2(255),'
+                            'file_sentence_id INTEGER,'
+                            'offset_start INTEGER,'
+                            'offset_end INTEGER,'
+                            'predicted_head VARCHAR2(255),'
+                            'head VARCHAR2(255),'
+                            'raw_sentence VARCHAR2(255),'
+                            'result_sentence VARCHAR2(255),'
+                            'rel_source_text VARCHAR2(255) )')
+        bar = Bar('Errors Processed', max=len(self.errors))
+        for key in self.errors:
+            self.ma_cur.executemany('INSERT INTO errors (file, file_sentence_id, offset_start, '
+                                    'offset_end, predicted_head, head, raw_sentence, result_sentence, rel_source_text)'
+                                    'VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)', self.errors[key])
+            bar.next()
+        bar.finish()
+
 
 if __name__ == "__main__":
+    start_time = time.time()
     test = FB2Master()
     test.load_rel_source_texts()
     test.load_source_offsets()
     test.load_data()
-
+    test.load_errors()
     test.close()
+    print('Done.')
+
+    run_time = time.time() - start_time
+    print("Runtime:", run_time / 60, 'min', run_time % 60, 'sec')
