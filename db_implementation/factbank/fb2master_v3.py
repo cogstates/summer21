@@ -41,66 +41,7 @@ class FB2Master:
         SELECT DISTINCT s.file, s.sentid, s.sent
         FROM sentences s
         ORDER BY s.file, s.sentid;"""
-
-        self.fb_master_query_author = """
-            SELECT DISTINCT s.file, s.sent, t.tokLoc, t.text, f.factValue, o.offsetInit, o.offsetEnd, o.sentId,
-                f.relSourceText
-            FROM sentences s
-            JOIN tokens_tml t
-                ON s.file = t.file
-                       AND s.sentId = t.sentId
-            JOIN offsets o
-                on t.file = o.file
-                    and t.sentId = o.sentId
-                        and t.tokLoc = o.tokLoc
-            JOIN fb_factValue f
-                ON f.sentId = t.sentId
-                       AND f.eId = t.tmlTagId
-                       AND f.eText = t.text;
-                       --AND f.relSourceText = "'AUTHOR'";"""
-        self.fb_master_query_nested_source = """
-                    SELECT DISTINCT s.file, s.sent, t.tokLoc, t.text, f.factValue, o.offsetInit, o.offsetEnd, o.sentId,
-                        f.relSourceText
-                    FROM sentences s
-                    JOIN tokens_tml t
-                        ON s.file = t.file
-                               AND s.sentId = t.sentId
-                    JOIN offsets o
-                        on t.file = o.file
-                            and t.sentId = o.sentId
-                                and t.tokLoc = o.tokLoc
-                    JOIN fb_factValue f
-                        ON f.sentId = t.sentId
-                               AND f.eId = t.tmlTagId
-                               AND f.eText = t.text
-                               AND f.relSourceText <> "'AUTHOR'";"""
-        self.dupes_query = """
-                    SELECT s.sentence, m.token_text, m.token_offset_start,
-                    m.token_offset_end, s.nesting_level, s.source, a.label FROM sentences s
-                    JOIN mentions m
-                        ON s.sentence_id = m.sentence_id
-                    JOIN sources s
-                        ON m.token_id = s.token_id
-                    JOIN attitudes a 
-                        ON m.token_id = a.target_token_id 
-                        AND s.source_id = a.source_id
-                    ORDER BY s.file, s.file_sentence_id;"""
         self.offsets_query = """SELECT o.file, o.sentId, o.offsetInit FROM offsets o WHERE o.tokLoc = 0;"""
-
-
-
-        # python representation of database for data pre-processing
-        # self.sentences = []
-        # self.next_sentence_id = 1
-        #
-        # self.mentions = []
-        # self.next_mention_id = 1
-        #
-        # self.sources = []
-        # self.next_source_id = 1
-        #
-        # self.attitudes = []
-        # self.next_attitude_id = 1
 
     # since FactBank's offsets are file-based, we need to convert them to sentence-based
     def load_initial_offsets(self):
@@ -234,6 +175,7 @@ if __name__ == "__main__":
     bar.next()
     test.load_source_offsets()
     bar.next()
+    bar.finish()
 
     print('\nLoading data into master schema...')
     test.load_data()
@@ -242,4 +184,4 @@ if __name__ == "__main__":
     print('Done.')
 
     run_time = time.time() - start_time
-    print("Runtime:", round(run_time / 60), 'min', round(run_time % 60), 'sec')
+    print("Runtime:", round(run_time % 60, 3), 'sec')
