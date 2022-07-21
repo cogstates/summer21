@@ -1,12 +1,14 @@
 # author: tyler osborne
 # osbornty@bc.edu
-# 04/03/2021
+# 07/15/2022
+from time import time
+START_TIME = time()
 
 import sqlite3
 from ddl import DDL
 from fb_sentence_processor import FB_SENTENCE_PROCESSOR
 from progress.bar import Bar
-import time
+
 
 class FB2Master:
     # static constants to index into the raw factbank dataset
@@ -18,9 +20,6 @@ class FB2Master:
     REL_SOURCE_TEXT = 2
 
     def __init__(self):
-
-        self.start_time = time.time()
-
         # connecting to origin and destination database files
         self.fb_con = sqlite3.connect("factbank_data.db")
         self.fb_cur = self.fb_con.cursor()
@@ -182,7 +181,7 @@ class FB2Master:
         self.close()
         print('Done.')
 
-        run_time = time.time() - self.start_time
+        run_time = time() - START_TIME
         print("Runtime:", round(run_time % 60, 3), 'sec')
 
 if __name__ == "__main__":
