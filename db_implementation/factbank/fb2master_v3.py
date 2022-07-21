@@ -23,7 +23,7 @@ class FB2Master:
         self.fb_cur = self.fb_con.cursor()
 
         self.create_tables()
-        self.ma_con = sqlite3.connect("fb_master_fast.db")
+        self.ma_con = sqlite3.connect("fb_master.db")
         self.ma_cur = self.ma_con.cursor()
 
         self.initial_offsets = {}
@@ -147,6 +147,7 @@ class FB2Master:
         sp = FB_SENTENCE_PROCESSOR(sentences_sql_return, self.initial_offsets, self.rel_source_texts,
                                    self.source_offsets, self.target_offsets, self.targets, self.fact_values)
         sp.go()
+        self.errors, self.num_errors = sp.get_errors()
 
         # inserting python data into master schema
         self.ma_con.executemany('INSERT INTO SENTENCES (sentence_id, file, file_sentence_id, sentence) '
@@ -215,15 +216,26 @@ class FB2Master:
         bar.finish()
 
 
+
 if __name__ == "__main__":
     start_time = time.time()
     test = FB2Master()
+    print("Loading Factbank data into Python data structures...")
+    bar = Bar('Data Imported', max=6)
     test.load_targets()
+    bar.next()
     test.load_target_offsets()
+    bar.next()
     test.load_fact_values()
+    bar.next()
     test.load_initial_offsets()
+    bar.next()
     test.load_rel_source_texts()
+    bar.next()
     test.load_source_offsets()
+    bar.next()
+
+    print('\nLoading data into master schema...')
     test.load_data()
     test.load_errors()
     test.close()
