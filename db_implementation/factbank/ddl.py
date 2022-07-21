@@ -59,7 +59,7 @@ class DDL:
     def check_if_exists(self, name):
         full_name = name + "_master.db"
         if exists(full_name):
-            print("file already exists")
+            print("Output file already exists. Overwriting...")
             remove(full_name)
 
 
