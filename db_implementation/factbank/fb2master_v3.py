@@ -18,6 +18,9 @@ class FB2Master:
     REL_SOURCE_TEXT = 2
 
     def __init__(self):
+
+        self.start_time = time.time()
+
         # connecting to origin and destination database files
         self.fb_con = sqlite3.connect("factbank_data.db")
         self.fb_cur = self.fb_con.cursor()
@@ -156,32 +159,33 @@ class FB2Master:
             bar.next()
         bar.finish()
 
+    def generate_database(self):
+        print("Loading Factbank data into Python data structures...")
+        bar = Bar('Data Imported', max=6)
+        self.load_targets()
+        bar.next()
+        self.load_target_offsets()
+        bar.next()
+        self.load_fact_values()
+        bar.next()
+        self.load_initial_offsets()
+        bar.next()
+        self.load_rel_source_texts()
+        bar.next()
+        self.load_source_offsets()
+        bar.next()
+        bar.finish()
 
+        print('\nLoading data into master schema...')
+        self.load_data()
+        self.load_errors()
+        self.close()
+        print('Done.')
+
+        run_time = time.time() - self.start_time
+        print("Runtime:", round(run_time % 60, 3), 'sec')
 
 if __name__ == "__main__":
-    start_time = time.time()
     test = FB2Master()
-    print("Loading Factbank data into Python data structures...")
-    bar = Bar('Data Imported', max=6)
-    test.load_targets()
-    bar.next()
-    test.load_target_offsets()
-    bar.next()
-    test.load_fact_values()
-    bar.next()
-    test.load_initial_offsets()
-    bar.next()
-    test.load_rel_source_texts()
-    bar.next()
-    test.load_source_offsets()
-    bar.next()
-    bar.finish()
+    test.generate_database()
 
-    print('\nLoading data into master schema...')
-    test.load_data()
-    test.load_errors()
-    test.close()
-    print('Done.')
-
-    run_time = time.time() - start_time
-    print("Runtime:", round(run_time % 60, 3), 'sec')
