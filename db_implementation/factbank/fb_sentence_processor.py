@@ -1,14 +1,13 @@
-import multiprocessing
 from progress.bar import Bar
 
 
 class FB_SENTENCE_PROCESSOR:
+
     FILE = 0
     SENTENCE_ID = 1
     SENTENCE = 2
     RAW_OFFSET_INIT = 2
     REL_SOURCE_TEXT = 2
-
 
     def __init__(self, sentences_set, initial_offsets, rel_source_texts,
                  source_offsets, target_offsets, targets, fact_values):
@@ -24,7 +23,6 @@ class FB_SENTENCE_PROCESSOR:
         self.fact_values = fact_values
         self.targets = targets
 
-
         # python representation of database for data pre-processing
         self.sentences = []
         self.next_sentence_id = 1
@@ -38,27 +36,21 @@ class FB_SENTENCE_PROCESSOR:
         self.attitudes = []
         self.next_attitude_id = 1
 
-
     def go(self):
-        # pool = multiprocessing.Pool(5)
         bar = Bar('Sentences Processed', max=len(self.sentences_set))
-        counter = 1
         for row in self.sentences_set:
             row = list(row)
-            self.process_sentence(row, bar, counter)
-            # pool.apply_async(func=self.process_sentence, args=(row, bar, counter))
-            counter += 1
-        # pool.close()
-        # pool.join()
-        print('Sentence processing complete.')
+            self.process_sentence(row, bar)
+        print('\nSentence processing complete.')
 
         bar.finish()
 
+    def get_errors(self):
+        return self.errors, self.num_errors
 
-    # dealing with a single sentence -- go nesting level by nesting level, dealing with each top-level source as it appears in FactBank
-    def process_sentence(self, row, bar, i):
-        if i % 500 == 0:
-            print('PROCESSING SENTENCE:', i)
+    # dealing with a single sentence -- go nesting level by nesting level,
+    # dealing with each top-level source as it appears in FactBank
+    def process_sentence(self, row, bar):
         if row[self.SENTENCE_ID] == 0:
             return
 
@@ -125,46 +117,29 @@ class FB_SENTENCE_PROCESSOR:
                 attitude_source_id = self.next_source_id
                 self.next_source_id += 1
 
-                # eid_label_sql_return = self.fb_cur.execute('SELECT eId, factValue FROM fb_factValue '
-                #                                            'WHERE file = ? AND sentId = ? '
-                #                                            'AND relSourceText = ?',
-                #                                            (row[self.FILE], row[self.SENTENCE_ID],
-                #                                             "'{}'".format(rel_source_text))).fetchall()
                 eid_label_key = (row[self.FILE], row[self.SENTENCE_ID],
                                  "'{}'".format(rel_source_text))
                 if eid_label_key not in self.fact_values:
                     continue
                 else:
-                    eid_label_sql_return = self.fact_values[eid_label_key]
+                    eid_label_return = self.fact_values[eid_label_key]
 
-                for example in eid_label_sql_return:
-                    if eid_label_sql_return is None:
+                for example in eid_label_return:
+                    if eid_label_return is None:
                         continue
 
                     eid = example[0]
                     fact_value = example[1][1:-2]
+                    target_return = self.targets[(row[self.FILE], row[self.SENTENCE_ID], eid)]
 
-                    # target_sql_return = self.fb_cur.execute('SELECT tokLoc, text FROM tokens_tml '
-                    #                                         'WHERE file = ? AND sentId = ? '
-                    #                                         'AND tmlTagId = ?;',
-                    #                                         (row[self.FILE], row[self.SENTENCE_ID], eid)).fetchone()
-                    target_sql_return = self.targets[(row[self.FILE], row[self.SENTENCE_ID], eid)]
+                    tok_loc = target_return[0]
+                    target_head = target_return[1][1:-1]
 
-                    tok_loc = target_sql_return[0]
-                    target_head = target_sql_return[1][1:-1]
+                    target_offsets_return = self.target_offsets[(row[self.FILE], row[self.SENTENCE_ID],
+                                                                tok_loc)]
 
-                    # getting target offsets before inserting on mentions
-                    # target_offsets_sql_return = self.fb_cur.execute('SELECT offsetInit, offsetEnd FROM offsets '
-                    #                                                 'WHERE file = ? AND sentId = ? '
-                    #                                                 'AND tokLoc = ?;',
-                    #                                                 (row[self.FILE], row[self.SENTENCE_ID],
-                    #                                                  tok_loc)).fetchone()
-
-                    target_offsets_sql_return = self.target_offsets[(row[self.FILE], row[self.SENTENCE_ID],
-                                                                     tok_loc)]
-
-                    target_offset_start = target_offsets_sql_return[0]
-                    target_offset_end = target_offsets_sql_return[1]
+                    target_offset_start = target_offsets_return[0]
+                    target_offset_end = target_offsets_return[1]
 
                     target_offset_start, target_offset_end, success = self.calc_offsets(row[self.FILE],
                                                                                         row[self.SENTENCE_ID],
@@ -198,7 +173,6 @@ class FB_SENTENCE_PROCESSOR:
         return parent_source
 
     def calc_nesting_level(self, source_text):
-        # print(source_text)
         nesting_level = source_text.count('_')
         if '=' in source_text:
             return nesting_level, source_text[0:source_text.index('=')]
@@ -206,9 +180,8 @@ class FB_SENTENCE_PROCESSOR:
             return 0, 'AUTHOR'
         return nesting_level, source_text[:source_text.index('_')]
 
+    # calculating the initial offset, since the indices are file-based and not sentence-based in the DB
     def calc_offsets(self, file, sent_id, raw_sentence, offset_start, offset_end, head, rel_source_text):
-        # calculating the initial offset, since the indicies are file-based and not sentence-based in the DB
-
         if (offset_start is None and offset_end is None) or head is None:
             return -1, -1, True
 
@@ -232,7 +205,6 @@ class FB_SENTENCE_PROCESSOR:
 
         # keeping the asterisks just for easier understanding of the error dataset
         result_sentence = raw_sentence[:offset_start] + "* " + head + " *" + raw_sentence[offset_end:]
-        # self.fixed_errors[(file, file_sentence_id, head, rel_source_text, fact_value)] = (offset_start, offset_end)
 
         if pred_head != head and raw_sentence.count(head) == 1:
             # attempting index method if head exists uniquely in sentence
