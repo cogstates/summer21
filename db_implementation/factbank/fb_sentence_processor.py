@@ -36,12 +36,16 @@ class FB_SENTENCE_PROCESSOR:
         self.attitudes = []
         self.next_attitude_id = 1
 
+        # self.problem_eid_label_keys = []
+
     def go(self):
         bar = Bar('Sentences Processed', max=len(self.sentences_set))
         for row in self.sentences_set:
             row = list(row)
             self.process_sentence(row, bar)
         print('\nSentence processing complete.')
+        # for row in self.problem_eid_label_keys:
+        #     print(row)
 
         bar.finish()
 
@@ -89,6 +93,8 @@ class FB_SENTENCE_PROCESSOR:
                                                                       source_offsets[1],
                                                                       relevant_source, rel_source_text)
 
+                if not success:
+                    continue
                 # saving the newly-minted mention for later insertion
                 self.mentions.append(
                     (self.next_mention_id, global_sentence_id, relevant_source, offset_start, offset_end))
@@ -120,13 +126,12 @@ class FB_SENTENCE_PROCESSOR:
                 eid_label_key = (row[self.FILE], row[self.SENTENCE_ID],
                                  "'{}'".format(rel_source_text))
                 if eid_label_key not in self.fact_values:
+                    # self.problem_eid_label_keys.append(eid_label_key) # DEBUGGING
                     continue
                 else:
                     eid_label_return = self.fact_values[eid_label_key]
 
                 for example in eid_label_return:
-                    if eid_label_return is None:
-                        continue
 
                     eid = example[0]
                     fact_value = example[1][1:-2]
@@ -134,6 +139,7 @@ class FB_SENTENCE_PROCESSOR:
 
                     tok_loc = target_return[0]
                     target_head = target_return[1][1:-1]
+
 
                     target_offsets_return = self.target_offsets[(row[self.FILE], row[self.SENTENCE_ID],
                                                                 tok_loc)]
@@ -208,14 +214,13 @@ class FB_SENTENCE_PROCESSOR:
 
         if pred_head != head and raw_sentence.count(head) == 1:
             # attempting index method if head exists uniquely in sentence
-            new_offset_start = raw_sentence.index(head)
-            new_offset_end = new_offset_start + head_length
-            new_pred_head = raw_sentence[new_offset_start:new_offset_end]
-            if new_pred_head == head:
-                offset_start = new_offset_start
-                offset_end = new_offset_end
-            else:
+            offset_start = raw_sentence.index(head)
+            offset_end = offset_start + len(head)
+            pred_head = raw_sentence[offset_start:offset_end]
+            if pred_head != head:
                 success = False
+            else:
+                success = True
         if not success:
             self.num_errors += 1
             error_key = (file, sent_id)

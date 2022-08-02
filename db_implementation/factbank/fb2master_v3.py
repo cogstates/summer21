@@ -75,8 +75,6 @@ class FB2Master:
             value = (row[2], row[3], str(row[4])[1:-2])
             self.source_offsets[key] = value
 
-
-
     # initializing the DDL for the master schema
     def create_tables(self):
         db = DDL('fb')
@@ -111,6 +109,8 @@ class FB2Master:
         for row in targets_raw:
             target_key = (row[0], row[1], row[2])
             self.targets[target_key] = [row[3], row[4]]
+            if row[4].count('$') != 0 and row[2] != "''":
+                print(target_key)
 
     def load_target_offsets(self):
         target_offsets_raw = self.fb_cur.execute('SELECT file, sentId, tokLoc, offsetInit, offsetEnd FROM offsets;').fetchall()
