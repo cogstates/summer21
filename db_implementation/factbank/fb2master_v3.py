@@ -107,10 +107,12 @@ class FB2Master:
     def load_targets(self):
         targets_raw = self.fb_cur.execute('SELECT file, sentId, tmlTagId, tokLoc, text FROM tokens_tml;').fetchall()
         for row in targets_raw:
+            if row[0] == "'wsj_0135.tml'" and row[1] == 4 and row[2] == "'e138'":
+                print("***HIT***", row[4])
             target_key = (row[0], row[1], row[2])
             self.targets[target_key] = [row[3], row[4]]
-            if row[4].count('$') != 0 and row[2] != "''":
-                print(target_key)
+            # if row[4].count('$') != 0 and row[2] != "''":
+            #     print(target_key)
 
     def load_target_offsets(self):
         target_offsets_raw = self.fb_cur.execute('SELECT file, sentId, tokLoc, offsetInit, offsetEnd FROM offsets;').fetchall()
@@ -120,6 +122,8 @@ class FB2Master:
 
 
     def load_fact_values(self):
+        # if row[self.FILE] == "'wsj_0135.tml'" and row[self.SENTENCE_ID] == 4 and rel_source_text == 'it=maker_AUTHOR':
+
         fact_values_raw = self.fb_cur.execute('SELECT file, sentId, relSourceText, eId, factValue FROM fb_factValue;').fetchall()
         for row in fact_values_raw:
             fact_value_key = (row[0], row[1], row[2])

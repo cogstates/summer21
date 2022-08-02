@@ -122,23 +122,38 @@ class FB_SENTENCE_PROCESSOR:
                 # dealing with targets now
                 attitude_source_id = self.next_source_id
                 self.next_source_id += 1
+                # if row[self.FILE] == "'wsj_0135.tml'" and row[self.SENTENCE_ID] == 4 and rel_source_text == 'it=maker_AUTHOR':
+                #     print('***HIT***')
 
                 eid_label_key = (row[self.FILE], row[self.SENTENCE_ID],
                                  "'{}'".format(rel_source_text))
+
+                # ("'wsj_0135.tml'", 4, "'e138'")
+                # if eid_label_key == ("'wsj_0135.tml'", 4, "'e138'"):
+                #     print('our debugging example detected!')
+
                 if eid_label_key not in self.fact_values:
+
                     # self.problem_eid_label_keys.append(eid_label_key) # DEBUGGING
                     continue
                 else:
                     eid_label_return = self.fact_values[eid_label_key]
+                    # if eid_label_key[0] == "'wsj_0135.tml'" and eid_label_key[1] == 4 and rel_source_text == 'AUTHOR':
+                    #     print('***HIT***', eid_label_return, rel_source_text)
 
                 for example in eid_label_return:
 
                     eid = example[0]
                     fact_value = example[1][1:-2]
+
                     target_return = self.targets[(row[self.FILE], row[self.SENTENCE_ID], eid)]
+                    # if eid_label_key[0] == "'wsj_0135.tml'" and eid_label_key[1] == 4 and rel_source_text == 'AUTHOR' and eid == "'e138'":
+                    #     print('***HIT***', target_return)
 
                     tok_loc = target_return[0]
                     target_head = target_return[1][1:-1]
+                    # if target_head.count('$') > 0:
+                    #     print('dollar sign head')
 
 
                     target_offsets_return = self.target_offsets[(row[self.FILE], row[self.SENTENCE_ID],
@@ -188,6 +203,7 @@ class FB_SENTENCE_PROCESSOR:
 
     # calculating the initial offset, since the indices are file-based and not sentence-based in the DB
     def calc_offsets(self, file, sent_id, raw_sentence, offset_start, offset_end, head, rel_source_text):
+
         if (offset_start is None and offset_end is None) or head is None:
             return -1, -1, True
 
