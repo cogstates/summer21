@@ -105,10 +105,12 @@ class FB2Master:
 
 
     def load_targets(self):
-        targets_raw = self.fb_cur.execute('SELECT file, sentId, tmlTagId, tokLoc, text FROM tokens_tml;').fetchall()
+        targets_raw = self.fb_cur.execute('SELECT o.file, o.sentId, o.tmlTagId, o.tokLoc, t.eText from tokens_tml o '
+                                          'JOIN fb_factValue t ON o.file = t.file '
+                                          'AND o.sentId = t.sentId AND o.tmlTagId = t.eId;').fetchall()
         for row in targets_raw:
-            if row[0] == "'wsj_0135.tml'" and row[1] == 4 and row[2] == "'e138'":
-                print("***HIT***", row[4])
+            # if row[0] == "'wsj_0135.tml'" and row[1] == 4 and row[2] == "'e138'":
+            #     print("***HIT***", row[4])
             target_key = (row[0], row[1], row[2])
             self.targets[target_key] = [row[3], row[4]]
             # if row[4].count('$') != 0 and row[2] != "''":

@@ -169,16 +169,18 @@ class FB_SENTENCE_PROCESSOR:
                                                                                         target_offset_end,
                                                                                         target_head,
                                                                                         rel_source_text)
+                    if success:
 
-                    self.mentions.append((self.next_mention_id, global_sentence_id,
-                                          target_head, target_offset_start, target_offset_end))
+                        self.mentions.append((self.next_mention_id, global_sentence_id,
+                                              target_head, target_offset_start, target_offset_end))
 
-                    target_token_id = self.next_mention_id
-                    self.next_mention_id += 1
+                        target_token_id = self.next_mention_id
+                        self.next_mention_id += 1
 
-                    self.attitudes.append((self.next_attitude_id, attitude_source_id,
-                                           target_token_id, fact_value, 'Belief'))
-                    self.next_attitude_id += 1
+                        self.attitudes.append((self.next_attitude_id, attitude_source_id,
+                                               target_token_id, fact_value, 'Belief'))
+                        self.next_attitude_id += 1
+
 
         bar.next()
 
@@ -237,6 +239,7 @@ class FB_SENTENCE_PROCESSOR:
                 success = False
             else:
                 success = True
+
         if not success:
             self.num_errors += 1
             error_key = (file, sent_id)
