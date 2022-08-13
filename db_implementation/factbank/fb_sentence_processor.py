@@ -58,7 +58,7 @@ class FB_SENTENCE_PROCESSOR:
         if row[self.SENTENCE_ID] == 0:
             return
 
-        row[self.SENTENCE] = str(row[self.SENTENCE][1:-2].replace("\\", "").replace("`", ""))
+        row[self.SENTENCE] = str(row[self.SENTENCE][1:-2].replace("\\", ""))
 
         self.sentences.append(
             (self.next_sentence_id, row[self.FILE][1:-1], row[self.SENTENCE_ID], row[self.SENTENCE]))
@@ -87,6 +87,7 @@ class FB_SENTENCE_PROCESSOR:
                 source_offsets = self.source_offsets[source_offsets_key]
 
                 # tweaking offsets as needed
+                relevant_source = relevant_source.replace("\\", "")
                 offset_start, offset_end, success = self.calc_offsets(row[self.FILE], row[self.SENTENCE_ID],
                                                                       row[self.SENTENCE],
                                                                       source_offsets[0],
@@ -162,6 +163,7 @@ class FB_SENTENCE_PROCESSOR:
                     target_offset_start = target_offsets_return[0]
                     target_offset_end = target_offsets_return[1]
 
+                    target_head = target_head.replace("\\", "")
                     target_offset_start, target_offset_end, success = self.calc_offsets(row[self.FILE],
                                                                                         row[self.SENTENCE_ID],
                                                                                         row[self.SENTENCE],
@@ -189,7 +191,7 @@ class FB_SENTENCE_PROCESSOR:
             return None
         start_index = source_text.index('_') + 1
         parent_source = source_text[start_index:]
-        if parent_source.count('_') > 0:
+        if '_' in parent_source:
             parent_source = parent_source[:parent_source.index('_')]
         if '=' in parent_source:
             parent_source = parent_source[:parent_source.index('=')]
@@ -198,39 +200,22 @@ class FB_SENTENCE_PROCESSOR:
     def calc_nesting_level(self, source_text):
         nesting_level = source_text.count('_')
         if '=' in source_text:
-            return nesting_level, source_text[0:source_text.index('=')]
+            source_text = source_text[:source_text.index('=')]
         if source_text == 'AUTHOR':
             return 0, 'AUTHOR'
-        return nesting_level, source_text[:source_text.index('_')]
+        if '_' in source_text:
+            source_text = source_text[:source_text.index('_')]
+        return nesting_level, source_text
 
     # calculating the initial offset, since the indices are file-based and not sentence-based in the DB
     def calc_offsets(self, file, sent_id, raw_sentence, offset_start, offset_end, head, rel_source_text):
 
-        if (offset_start is None and offset_end is None) or head is None:
+        if (offset_start is None and offset_end is None) or head in [None, 'AUTHOR', 'GEN', 'DUMMY']:
             return -1, -1, True
 
-        file_offset = self.initial_offsets[(file, sent_id)]
-        success = True
+        success = False
 
-        # ad hoc logic to adjust offsets
-        head_length = offset_end - offset_start
-
-        offset_start -= file_offset
-
-        while (
-                0 < offset_start < len(raw_sentence) and
-                raw_sentence[offset_start] not in ' `"'
-        ):
-            offset_start -= 1
-        if offset_start > 0:
-            offset_start += 1
-        offset_end = offset_start + head_length
-        pred_head = raw_sentence[offset_start:offset_end]
-
-        # keeping the asterisks just for easier understanding of the error dataset
-        result_sentence = raw_sentence[:offset_start] + "* " + head + " *" + raw_sentence[offset_end:]
-
-        if pred_head != head and raw_sentence.count(head) == 1:
+        if raw_sentence.count(head) == 1:
             # attempting index method if head exists uniquely in sentence
             offset_start = raw_sentence.index(head)
             offset_end = offset_start + len(head)
@@ -241,6 +226,52 @@ class FB_SENTENCE_PROCESSOR:
                 success = True
 
         if not success:
+            file_offset = self.initial_offsets[(file, sent_id)]
+            offset_start -= file_offset
+            offset_end = offset_start + len(head)
+
+            left_side_boundary = offset_start
+            right_side_boundary = offset_end
+            search_left = True
+            search_right = True
+
+            while True:
+                # keeping boundaries in range
+                if left_side_boundary < 0:
+                    search_left = False
+                if right_side_boundary > len(raw_sentence):
+                    search_right = False
+
+                # give up if there's nothing left to search
+                if not search_left and not search_right:
+                    break
+
+                # trying the left side
+                if search_left:
+                    pred_head = raw_sentence[left_side_boundary:left_side_boundary + len(head)]
+                    if pred_head == head:
+                        offset_start = left_side_boundary
+                        offset_end = left_side_boundary + len(head)
+                        success = True
+                        break
+
+                # trying the right side
+                if search_right:
+                    pred_head = raw_sentence[right_side_boundary:right_side_boundary + len(head)]
+                    if pred_head == head:
+                        offset_start = right_side_boundary
+                        offset_end = right_side_boundary + len(head)
+                        success = True
+                        break
+
+                # if no match, shift the boundaries
+                left_side_boundary -= 1
+                right_side_boundary += 1
+
+        pred_head = raw_sentence[offset_start:offset_end]
+        if not success:
+            # keeping the asterisks just for easier understanding of the error dataset
+            result_sentence = raw_sentence[:offset_start] + "* " + head + " *" + raw_sentence[offset_end:]
             self.num_errors += 1
             error_key = (file, sent_id)
             entry = (file[1:-1], sent_id, offset_start, offset_end, pred_head, head,

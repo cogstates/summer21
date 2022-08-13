@@ -18,9 +18,11 @@ SENTENCE = 1
 REL_SOURCE_TEXT = 8
 
 
-def calc_source(source_text):
+def calc_nesting_level(source_text):
     if '=' in source_text:
         return source_text[0:source_text.index('=')]
+    if source_text == 'AUTHOR':
+        return 'AUTHOR'
     return source_text[:source_text.index('_')]
 
 def check_source_count_in_sentence():
@@ -44,5 +46,3 @@ def check_source_count_in_sentence():
             failure += 1
     con.close()
     print('SUCCESSES: {0}, FAILURES: {1}'.format(success, failure))
-
-check_source_count_in_sentence()
