@@ -109,12 +109,9 @@ class FB2Master:
                                           'JOIN fb_factValue t ON o.file = t.file '
                                           'AND o.sentId = t.sentId AND o.tmlTagId = t.eId;').fetchall()
         for row in targets_raw:
-            # if row[0] == "'wsj_0135.tml'" and row[1] == 4 and row[2] == "'e138'":
-            #     print("***HIT***", row[4])
             target_key = (row[0], row[1], row[2])
             self.targets[target_key] = [row[3], row[4]]
-            # if row[4].count('$') != 0 and row[2] != "''":
-            #     print(target_key)
+
 
     def load_target_offsets(self):
         target_offsets_raw = self.fb_cur.execute('SELECT file, sentId, tokLoc, offsetInit, offsetEnd FROM offsets;').fetchall()

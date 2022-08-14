@@ -123,24 +123,15 @@ class FB_SENTENCE_PROCESSOR:
                 # dealing with targets now
                 attitude_source_id = self.next_source_id
                 self.next_source_id += 1
-                # if row[self.FILE] == "'wsj_0135.tml'" and row[self.SENTENCE_ID] == 4 and rel_source_text == 'it=maker_AUTHOR':
-                #     print('***HIT***')
 
                 eid_label_key = (row[self.FILE], row[self.SENTENCE_ID],
                                  "'{}'".format(rel_source_text))
 
-                # ("'wsj_0135.tml'", 4, "'e138'")
-                # if eid_label_key == ("'wsj_0135.tml'", 4, "'e138'"):
-                #     print('our debugging example detected!')
-
                 if eid_label_key not in self.fact_values:
 
-                    # self.problem_eid_label_keys.append(eid_label_key) # DEBUGGING
                     continue
                 else:
                     eid_label_return = self.fact_values[eid_label_key]
-                    # if eid_label_key[0] == "'wsj_0135.tml'" and eid_label_key[1] == 4 and rel_source_text == 'AUTHOR':
-                    #     print('***HIT***', eid_label_return, rel_source_text)
 
                 for example in eid_label_return:
 
@@ -148,15 +139,9 @@ class FB_SENTENCE_PROCESSOR:
                     fact_value = example[1][1:-2]
 
                     target_return = self.targets[(row[self.FILE], row[self.SENTENCE_ID], eid)]
-                    # if eid_label_key[0] == "'wsj_0135.tml'" and eid_label_key[1] == 4 and rel_source_text == 'AUTHOR' and eid == "'e138'":
-                    #     print('***HIT***', target_return)
 
                     tok_loc = target_return[0]
                     target_head = target_return[1][1:-1]
-                    # if target_head.count('$') > 0:
-                    #     print('dollar sign head')
-
-
                     target_offsets_return = self.target_offsets[(row[self.FILE], row[self.SENTENCE_ID],
                                                                 tok_loc)]
 
@@ -246,21 +231,14 @@ class FB_SENTENCE_PROCESSOR:
                 if not search_left and not search_right:
                     break
 
-                # trying the left side
-                if search_left:
-                    pred_head = raw_sentence[left_side_boundary:left_side_boundary + len(head)]
-                    if pred_head == head:
-                        offset_start = left_side_boundary
-                        offset_end = left_side_boundary + len(head)
-                        success = True
-                        break
-
-                # trying the right side
-                if search_right:
-                    pred_head = raw_sentence[right_side_boundary:right_side_boundary + len(head)]
-                    if pred_head == head:
-                        offset_start = right_side_boundary
-                        offset_end = right_side_boundary + len(head)
+                # search both sides at the current boundaries, if there's space left, for the head
+                parts = [(search_left, left_side_boundary), (search_right, right_side_boundary)]
+                for part in parts:
+                    search = part[0]
+                    boundary = part[1]
+                    if search and raw_sentence[boundary:boundary + len(head)] == head:
+                        offset_start = boundary
+                        offset_end = boundary + len(head)
                         success = True
                         break
 
