@@ -186,10 +186,20 @@ def main():
     args = parser.parse_args()
 
     os.makedirs(args.outdir, exist_ok=True)
-    srcs = sorted(glob.glob(os.path.join(args.indir, "source", "*")))
-    anns = sorted(glob.glob(os.path.join(args.indir, "annotation", "*")))
-    files = list(zip(srcs, anns))
-    train, dev, test = np.split(files, [int(len(files) * 0.7), int(len(files) * 0.8)])
+    if args.language == "en":
+        test = list(zip(
+            sorted(glob.glob(os.path.join(args.indir, "source", "test", "*"))),
+            sorted(glob.glob(os.path.join(args.indir, "annotation", "test", "*")))
+        ))
+        srcs = sorted(glob.glob(os.path.join(args.indir, "source", "train", "*")))
+        anns = sorted(glob.glob(os.path.join(args.indir, "annotation", "train", "*")))
+        files = list(zip(srcs, anns))
+        train, dev = np.split(files, [int(len(files) * (8 / 9))])
+    else:
+        srcs = sorted(glob.glob(os.path.join(args.indir, "source", "*")))
+        anns = sorted(glob.glob(os.path.join(args.indir, "annotation", "*")))
+        files = list(zip(srcs, anns))
+        train, dev, test = np.split(files, [int(len(files) * 0.7), int(len(files) * 0.8)])
     print("Splits:", list(map(len, [train, dev, test])))
     process(train, os.path.join(args.outdir, "train.jsonl"), args.language)
     process(dev, os.path.join(args.outdir, "dev.jsonl"), args.language)
