@@ -36,7 +36,8 @@ class Context:
         # Intialize logging.
         scriptname = os.path.basename(sys.argv[0]).replace(".py", "")
         logpath = time.strftime(
-            f"/gpfs/scratch/{getpass.getuser()}/logs/{scriptname}.%Y%m%d.%H%M%S.log"
+            #  f"/gpfs/scratch/{getpass.getuser()}/logs/{scriptname}.%Y%m%d.%H%M%S.log"
+            f"/home/{getpass.getuser()}/scratch/logs/{scriptname}.%Y%m%d.%H%M%S.log"
         )
         os.makedirs(os.path.dirname(logpath), exist_ok=True)
         logging.basicConfig(
