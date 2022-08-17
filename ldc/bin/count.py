@@ -7,7 +7,7 @@ Example Usage:
     $ ls data/proc/CMN/
     > dev.jsonl  test.jsonl  train.jsonl
     $ ./bin/count.py data/proc/CMN/
-    > CB    NA   ROB  NCB  total
+    >           CB    NA   ROB  NCB  total
     > train   7235  5077   961  185  13458
     > dev     1049   524   152   12   1737
     > test    2271  1355   193   70   3889
