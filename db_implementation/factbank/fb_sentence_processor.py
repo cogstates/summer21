@@ -1,7 +1,7 @@
 from progress.bar import Bar
 
 
-class FB_SENTENCE_PROCESSOR:
+class FbSentenceProcessor:
 
     FILE = 0
     SENTENCE_ID = 1
@@ -38,19 +38,17 @@ class FB_SENTENCE_PROCESSOR:
 
         # self.problem_eid_label_keys = []
 
+    # sending each sentence to the process_sentence function
     def go(self):
-        bar = Bar('Sentences Processed', max=len(self.sentences_set))
+        bar = Bar('Sentences Processed', max=3631)  # 3631 = number of valid sentences
         for row in self.sentences_set:
             row = list(row)
             self.process_sentence(row, bar)
         print('\nSentence processing complete.')
 
+        # removing internal data before SQL insertion
         for i in range(len(self.sources)):
             self.sources[i] = self.sources[i][:-1]
-
-        # for row in self.problem_eid_label_keys:
-        #     print(row)
-
         bar.finish()
 
     def get_errors(self):
@@ -173,7 +171,9 @@ class FB_SENTENCE_PROCESSOR:
                         self.next_attitude_id += 1
         bar.next()
 
-    def calc_parent_source(self, source_id):
+    # finding the source id after the first underscore; for 's2_s1_s0', we retrieve 's1'
+    @staticmethod
+    def calc_parent_source(source_id):
         if source_id == 's0':
             return None
         start_index = source_id.index('_') + 1
@@ -184,7 +184,9 @@ class FB_SENTENCE_PROCESSOR:
             parent_source = parent_source[:parent_source.index('=')]
         return parent_source
 
-    def calc_nesting_level(self, source_text, rel_source_id):
+    # determining as source's nesting level based on underscore placement in rel_source_id strings
+    @staticmethod
+    def calc_nesting_level(source_text, rel_source_id):
         nesting_level = source_text.count('_')
         if '=' in source_text:
             source_text = source_text[:source_text.index('=')]
@@ -266,5 +268,3 @@ class FB_SENTENCE_PROCESSOR:
                 self.errors[error_key].append(entry)
 
         return offset_start, offset_end, success
-
-
