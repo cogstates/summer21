@@ -44,6 +44,10 @@ class FB_SENTENCE_PROCESSOR:
             row = list(row)
             self.process_sentence(row, bar)
         print('\nSentence processing complete.')
+
+        for i in range(len(self.sources)):
+            self.sources[i] = self.sources[i][:-1]
+
         # for row in self.problem_eid_label_keys:
         #     print(row)
 
@@ -68,13 +72,14 @@ class FB_SENTENCE_PROCESSOR:
         # grabbing the relevant top-level source from the dictionary created earlier
         rel_source_key = (row[self.FILE], row[self.SENTENCE_ID])
         if rel_source_key not in self.rel_source_texts:
-            self.rel_source_texts[rel_source_key] = ['AUTHOR']
+            self.rel_source_texts[rel_source_key] = [(-1, 'AUTHOR')]
         sources = self.rel_source_texts[rel_source_key]
 
         # dealing with each relevant source starting at the lowest nesting level, i.e., AUTHOR
-        for current_nesting_level in range(0, 3):
-            for rel_source_text in sources:
-                nesting_level, relevant_source = self.calc_nesting_level(rel_source_text)
+        for current_nesting_level in range(0, 4):
+            for rel_source_id, rel_source_text in sources:
+                nesting_level, relevant_source_id, relevant_source = \
+                    self.calc_nesting_level(rel_source_text, rel_source_id)
 
                 # only dealing with sources at the relevant nesting level
                 if nesting_level != current_nesting_level:
@@ -107,28 +112,27 @@ class FB_SENTENCE_PROCESSOR:
                 if nesting_level == 0:
                     parent_source_id = -1
                 else:
-                    parent_source_text = self.calc_parent_source(rel_source_text)
+                    parent_relevant_source_id = self.calc_parent_source(rel_source_id)
                     parent_source_id = None
                     for i in range(len(self.sources)):
                         if self.sources[i][1] == global_sentence_id \
-                                and self.sources[i][4] == current_nesting_level \
-                                and self.sources[i][5] == parent_source_text:
+                                and self.sources[i][4] == current_nesting_level - 1 \
+                                and self.sources[i][6] == parent_relevant_source_id:
                             parent_source_id = i + 1
                             break
 
                 self.sources.append(
                     (self.next_source_id, global_sentence_id, global_source_token_id, parent_source_id,
-                     current_nesting_level, relevant_source))
+                     current_nesting_level, relevant_source, relevant_source_id))
 
                 # dealing with targets now
                 attitude_source_id = self.next_source_id
                 self.next_source_id += 1
 
                 eid_label_key = (row[self.FILE], row[self.SENTENCE_ID],
-                                 "'{}'".format(rel_source_text))
+                                 "'{}'".format(rel_source_id))
 
                 if eid_label_key not in self.fact_values:
-
                     continue
                 else:
                     eid_label_return = self.fact_values[eid_label_key]
@@ -169,26 +173,30 @@ class FB_SENTENCE_PROCESSOR:
                         self.next_attitude_id += 1
         bar.next()
 
-    def calc_parent_source(self, source_text):
-        if source_text == 'AUTHOR':
+    def calc_parent_source(self, source_id):
+        if source_id == 's0':
             return None
-        start_index = source_text.index('_') + 1
-        parent_source = source_text[start_index:]
+        start_index = source_id.index('_') + 1
+        parent_source = source_id[start_index:]
         if '_' in parent_source:
             parent_source = parent_source[:parent_source.index('_')]
         if '=' in parent_source:
             parent_source = parent_source[:parent_source.index('=')]
         return parent_source
 
-    def calc_nesting_level(self, source_text):
+    def calc_nesting_level(self, source_text, rel_source_id):
         nesting_level = source_text.count('_')
         if '=' in source_text:
             source_text = source_text[:source_text.index('=')]
         if source_text == 'AUTHOR':
-            return 0, 'AUTHOR'
+            return 0, -1, 'AUTHOR'
         if '_' in source_text:
             source_text = source_text[:source_text.index('_')]
-        return nesting_level, source_text
+        if '=' in rel_source_id:
+            rel_source_id = rel_source_id[:rel_source_id.index('=')]
+        if '_' in rel_source_id:
+            rel_source_id = rel_source_id[:rel_source_id.index('_')]
+        return nesting_level, rel_source_id, source_text
 
     # calculating the initial offset, since the indices are file-based and not sentence-based in the DB
     def calc_offsets(self, file, sent_id, raw_sentence, offset_start, offset_end, head, rel_source_text):
