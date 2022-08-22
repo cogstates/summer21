@@ -167,8 +167,6 @@ class FB_SENTENCE_PROCESSOR:
                         self.attitudes.append((self.next_attitude_id, attitude_source_id,
                                                target_token_id, fact_value, 'Belief'))
                         self.next_attitude_id += 1
-
-
         bar.next()
 
     def calc_parent_source(self, source_text):
@@ -216,11 +214,11 @@ class FB_SENTENCE_PROCESSOR:
             offset_end = offset_start + len(head)
 
             left_side_boundary = offset_start
-            right_side_boundary = offset_end
+            right_side_boundary = left_side_boundary + 1
             search_left = True
             search_right = True
 
-            while True:
+            while not success:
                 # keeping boundaries in range
                 if left_side_boundary < 0:
                     search_left = False
