@@ -17,7 +17,7 @@ class FB2Master:
     SENTENCE_ID = 1
     SENTENCE = 2
     RAW_OFFSET_INIT = 2
-    REL_SOURCE_TEXT = 2
+    REL_SOURCE_TEXT = 3
 
     def __init__(self):
         # connecting to origin and destination database files
@@ -54,14 +54,14 @@ class FB2Master:
 
     # building a dictionary of every relSourceText from FactBank, mapping them to the associated sentence
     def load_rel_source_texts(self):
-        rel_source_data = self.fb_cur.execute('SELECT file, sentId, relSourceText FROM fb_relSource;').fetchall()
+        rel_source_data = self.fb_cur.execute('SELECT file, sentId, relSourceId, relSourceText FROM fb_relSource;').fetchall()
         for row in rel_source_data:
             key = (row[self.FILE], row[self.SENTENCE_ID])
-            value = str(row[self.REL_SOURCE_TEXT])[1:-2]
-            if key not in self.rel_source_texts:
-                self.rel_source_texts[key] = [value]
-            else:
+            value = (row[2][1:-1], str(row[self.REL_SOURCE_TEXT])[1:-2])
+            if key in self.rel_source_texts:
                 self.rel_source_texts[key].append(value)
+            else:
+                self.rel_source_texts[key] = [value]
 
     # same as above except dealing with source token offsets
     def load_source_offsets(self):
@@ -123,7 +123,7 @@ class FB2Master:
     def load_fact_values(self):
         # if row[self.FILE] == "'wsj_0135.tml'" and row[self.SENTENCE_ID] == 4 and rel_source_text == 'it=maker_AUTHOR':
 
-        fact_values_raw = self.fb_cur.execute('SELECT file, sentId, relSourceText, eId, factValue FROM fb_factValue;').fetchall()
+        fact_values_raw = self.fb_cur.execute('SELECT file, sentId, relSourceId, eId, factValue FROM fb_factValue;').fetchall()
         for row in fact_values_raw:
             fact_value_key = (row[0], row[1], row[2])
             if fact_value_key in self.fact_values:
