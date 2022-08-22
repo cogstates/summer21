@@ -1,13 +1,13 @@
 # author: tyler osborne
 # osbornty@bc.edu
 # 07/15/2022
-from time import time
-START_TIME = time()
-
 import sqlite3
 from ddl import DDL
-from fb_sentence_processor import FB_SENTENCE_PROCESSOR
+from fb_sentence_processor import FbSentenceProcessor
 from progress.bar import Bar
+from time import time
+
+START_TIME = time()
 
 
 class FB2Master:
@@ -19,6 +19,7 @@ class FB2Master:
     RAW_OFFSET_INIT = 2
     REL_SOURCE_TEXT = 3
 
+    # constructor
     def __init__(self):
         # connecting to origin and destination database files
         self.fb_con = sqlite3.connect("factbank_data.db")
@@ -54,7 +55,8 @@ class FB2Master:
 
     # building a dictionary of every relSourceText from FactBank, mapping them to the associated sentence
     def load_rel_source_texts(self):
-        rel_source_data = self.fb_cur.execute('SELECT file, sentId, relSourceId, relSourceText FROM fb_relSource;').fetchall()
+        rel_source_data = self.fb_cur.execute('SELECT file, sentId, '
+                                              'relSourceId, relSourceText FROM fb_relSource;').fetchall()
         for row in rel_source_data:
             key = (row[self.FILE], row[self.SENTENCE_ID])
             value = (row[2][1:-1], str(row[self.REL_SOURCE_TEXT])[1:-2])
@@ -75,8 +77,35 @@ class FB2Master:
             value = (row[2], row[3], str(row[4])[1:-2])
             self.source_offsets[key] = value
 
+    # loading all targets and fact values from factbank to a Python dictionary
+    def load_targets(self):
+        targets_raw = self.fb_cur.execute('SELECT o.file, o.sentId, o.tmlTagId, o.tokLoc, t.eText from tokens_tml o '
+                                          'JOIN fb_factValue t ON o.file = t.file '
+                                          'AND o.sentId = t.sentId AND o.tmlTagId = t.eId;').fetchall()
+        for row in targets_raw:
+            target_key = (row[0], row[1], row[2])
+            self.targets[target_key] = [row[3], row[4]]
+
+    def load_target_offsets(self):
+        target_offsets_raw = self.fb_cur.execute('SELECT file, sentId, tokLoc, '
+                                                 'offsetInit, offsetEnd FROM offsets;').fetchall()
+        for row in target_offsets_raw:
+            target_offset_key = (row[0], row[1], row[2])
+            self.target_offsets[target_offset_key] = [row[3], row[4]]
+
+    def load_fact_values(self):
+        fact_values_raw = self.fb_cur.execute('SELECT file, sentId, relSourceId, '
+                                              'eId, factValue FROM fb_factValue;').fetchall()
+        for row in fact_values_raw:
+            fact_value_key = (row[0], row[1], row[2])
+            if fact_value_key in self.fact_values:
+                self.fact_values[fact_value_key].append((row[3], row[4]))
+            else:
+                self.fact_values[fact_value_key] = [(row[3], row[4])]
+
     # initializing the DDL for the master schema
-    def create_tables(self):
+    @staticmethod
+    def create_tables():
         db = DDL('fb')
         db.create_tables()
         db.close()
@@ -85,8 +114,8 @@ class FB2Master:
     def load_data(self):
 
         sentences_sql_return = self.fb_cur.execute(self.fb_sentences_query).fetchall()
-        sp = FB_SENTENCE_PROCESSOR(sentences_sql_return, self.initial_offsets, self.rel_source_texts,
-                                   self.source_offsets, self.target_offsets, self.targets, self.fact_values)
+        sp = FbSentenceProcessor(sentences_sql_return, self.initial_offsets, self.rel_source_texts,
+                                 self.source_offsets, self.target_offsets, self.targets, self.fact_values)
         sp.go()
         self.errors, self.num_errors = sp.get_errors()
 
@@ -103,34 +132,6 @@ class FB2Master:
                                 '(attitude_id, source_id, target_token_id, label, label_type) '
                                 'VALUES (?, ?, ?, ?, ?);', sp.attitudes)
 
-
-    def load_targets(self):
-        targets_raw = self.fb_cur.execute('SELECT o.file, o.sentId, o.tmlTagId, o.tokLoc, t.eText from tokens_tml o '
-                                          'JOIN fb_factValue t ON o.file = t.file '
-                                          'AND o.sentId = t.sentId AND o.tmlTagId = t.eId;').fetchall()
-        for row in targets_raw:
-            target_key = (row[0], row[1], row[2])
-            self.targets[target_key] = [row[3], row[4]]
-
-
-    def load_target_offsets(self):
-        target_offsets_raw = self.fb_cur.execute('SELECT file, sentId, tokLoc, offsetInit, offsetEnd FROM offsets;').fetchall()
-        for row in target_offsets_raw:
-            target_offset_key = (row[0], row[1], row[2])
-            self.target_offsets[target_offset_key] = [row[3], row[4]]
-
-
-    def load_fact_values(self):
-        # if row[self.FILE] == "'wsj_0135.tml'" and row[self.SENTENCE_ID] == 4 and rel_source_text == 'it=maker_AUTHOR':
-
-        fact_values_raw = self.fb_cur.execute('SELECT file, sentId, relSourceId, eId, factValue FROM fb_factValue;').fetchall()
-        for row in fact_values_raw:
-            fact_value_key = (row[0], row[1], row[2])
-            if fact_value_key in self.fact_values:
-                self.fact_values[fact_value_key].append((row[3], row[4]))
-            else:
-                self.fact_values[fact_value_key] = [(row[3], row[4])]
-
     def commit(self):
         self.fb_con.commit()
         self.ma_con.commit()
@@ -140,6 +141,7 @@ class FB2Master:
         self.fb_con.close()
         self.ma_con.close()
 
+    # if errors exist, catalog them
     def load_errors(self):
         print('Loading errors...')
         self.ma_cur.execute('CREATE TABLE errors ('
@@ -186,6 +188,7 @@ class FB2Master:
 
         run_time = time() - START_TIME
         print("Runtime:", round(run_time % 60, 3), 'sec')
+
 
 if __name__ == "__main__":
     test = FB2Master()
