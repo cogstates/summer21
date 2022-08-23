@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 import functools
 import glob
+import html
 import itertools
 import json
 import re
@@ -68,11 +69,13 @@ class Target:
 
         try:
             atext = "".join(text.split())
-            atkns = [tkn.text for tkn in get_spacy(lang)(ann.text.strip())]
-            adx = len(re.sub(rgx, "", re.split(fr"\({ann.aid}\)", atext.replace(" ", ""))[0]))
-            ldx = first(locate(accumulate(map(len, tkns)), lambda v: v > adx))
-            rdx = ldx + len(atkns)
-            assert "".join(tkns)[adx:adx + len(ann.text.strip())] == ann.text.strip()
+            atkns = [tkn.text for tkn in get_spacy(lang)(html.unescape(ann.text).strip())]
+            aldx = len(re.sub(rgx, "", re.split(fr"\({ann.aid}\)", atext.replace(" ", ""))[0]))
+            ardx = aldx + sum(map(len, atkns))
+            ldx = first(locate(accumulate(map(len, tkns)), lambda v: v > aldx))
+            rdx = first(locate(accumulate(map(len, tkns)), lambda v: v >= ardx), sum(map(len, tkns))) + 1
+            #  rdx = ldx + len(atkns)
+            assert "".join(tkns)[aldx:aldx + len(html.unescape(ann.text).strip().replace(" ", ""))] == "".join(html.unescape(ann.text).strip().split())
             assert "".join(atkns) in "".join(tkns[ldx:rdx])
             return cls(
                     span1=[ldx, rdx],
@@ -121,7 +124,10 @@ def add_markers(raw, anns):
     moffset = 0
     for ann in sorted(anns, key=attrgetter("offset")):
         ldx, rdx = moffset + ann.offset, moffset + ann.offset + ann.length
-        assert raw[ldx:rdx] == ann.text
+        try:
+            assert raw[ldx:rdx] == ann.text
+        except:
+            import ipdb; ipdb.set_trace()
         moffset += len(ann.marker)
         raw = raw[:ldx] + ann.marker + raw[ldx:]
     return raw
@@ -142,6 +148,25 @@ def merge_sentences(snts):
     return ret
 
 
+def merge_overflows(snts, anns):
+    ret = []
+    annmap = {ann.aid: ann for ann in anns}
+    for snt in snts:
+        aids = re.findall(rgx, snt)
+        if ret:
+            aids = re.findall(rgx, ret[-1])
+        #  if ret:
+        #      if "ann-487" in aids:
+        #          import ipdb; ipdb.set_trace()
+        #      print(ret[-1])
+        #      print([(aid, len(re.split(fr"\({aid}\)", ret[-1])[-1]), len(annmap[aid].text)) for aid in aids])
+        if ret and any(len(re.split(fr"\({aid}\)", ret[-1])[-1]) < len(annmap[aid].text) for aid in aids):
+            ret[-1] += snt
+        else:
+            ret.append(snt)
+    return ret
+
+
 def process_one(src_path, ann_path, lang):
     ret = []
 
@@ -151,7 +176,8 @@ def process_one(src_path, ann_path, lang):
     root = ElementTree.fromstring("<root>" + add_markers(raw, anns) + "</root>")
     text = "".join([txt.strip() for txt in root.itertext() if txt.strip()])
     sentences = [snt.text.strip() for snt in get_spacy(lang)(text).sents if snt.text.strip()]
-    sentences = merge_sentences(sentences)
+    #sentences = merge_sentences(sentences)
+    sentences = merge_overflows(sentences, anns)
 
     # Get all annotations that apply to each sentence.
     annmap = {ann.aid: ann for ann in anns}
