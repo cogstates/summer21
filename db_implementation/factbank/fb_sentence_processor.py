@@ -140,6 +140,10 @@ class FbSentenceProcessor:
                     eid = example[0]
                     fact_value = example[1][1:-2]
 
+                    # swapping 'Uu' label for 'ROB' in cases where the source is not AUTHOR
+                    if fact_value == 'Uu' and relevant_source not in ['AUTHOR', 'GEN', 'DUMMY']:
+                        fact_value = 'ROB'
+
                     target_return = self.targets[(row[self.FILE], row[self.SENTENCE_ID], eid)]
 
                     tok_loc = target_return[0]
