@@ -4,7 +4,7 @@
 
 import xml.etree.ElementTree as ET
 
-tree = ET.parse('english/data/annotation/NYT_ENG_20131220.0283.best.xml')
+tree = ET.parse('../../raw_corpora/BEST/english/data/annotation/NYT_ENG_20131220.0283.best.xml')
 root = tree.getroot()
 
 relation_annotations = root[0][0]
