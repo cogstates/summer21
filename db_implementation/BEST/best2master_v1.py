@@ -40,14 +40,14 @@ class BEST2MASTER:
         self.source_text[doc_id] = {}
 
         for child in root:
-            if child.tag == 'HEADLINE':
+            if child.tag.upper() == 'HEADLINE':
                 self.source_text[doc_id][0] = child.text
-            elif child.tag == 'TEXT':
+            elif child.tag.upper() == 'TEXT':
                 passage_id = 1
                 for passage in child:
                     self.source_text[doc_id][passage_id] = passage.text
                     passage_id += 1
-            elif child.tag == 'post':
+            elif child.tag.upper() == 'POST':
                 self.source_text[doc_id][child.attrib['id']] = child.text
 
         # testing
