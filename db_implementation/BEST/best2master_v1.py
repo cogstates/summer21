@@ -5,6 +5,10 @@
 import xml.etree.ElementTree as ET
 import os
 
+# TODO:
+# for message boards, make it so that quotes are stored when the text tag's text attribute is empty.
+# also, save author metadata.
+# to ask in meeting: do we care about _____ (Look at ERE and BEST metadata)
 
 class BEST2MASTER:
 
