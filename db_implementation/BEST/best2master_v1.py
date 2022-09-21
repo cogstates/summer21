@@ -12,6 +12,7 @@ import os
 
 class BEST2MASTER:
 
+
     def __init__(self):
         self.source_text = {}
         self.ere = {}

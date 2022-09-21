@@ -51,6 +51,8 @@ class FbSentenceProcessor:
             self.sources[i] = self.sources[i][:-1]
         bar.finish()
 
+        self.uu_to_rob()
+
     def get_errors(self):
         return self.errors, self.num_errors
 
@@ -140,10 +142,6 @@ class FbSentenceProcessor:
                     eid = example[0]
                     fact_value = example[1][1:-2]
 
-                    # swapping 'Uu' label for 'ROB' in cases where the source is not AUTHOR
-                    if fact_value == 'Uu' and relevant_source not in ['AUTHOR', 'GEN', 'DUMMY']:
-                        fact_value = 'ROB'
-
                     target_return = self.targets[(row[self.FILE], row[self.SENTENCE_ID], eid)]
 
                     tok_loc = target_return[0]
@@ -203,6 +201,53 @@ class FbSentenceProcessor:
         if '_' in rel_source_id:
             rel_source_id = rel_source_id[:rel_source_id.index('_')]
         return nesting_level, rel_source_id, source_text
+
+    # changing relevant Uu labels to ROB (reported belief)
+    # in order to more closely match the BEST corpus' annotation style
+    # if bottom of source structure is NOT Uu (GEN and DUMMY do trigger this algo), go up the source tree,
+    # for each intermediate source including the very top, switch Uu to ROB, for the target gotten from the bottom
+    # (look at docs before coding as to ROB)
+    # make a separate method for this - post-processing
+    def uu_to_rob(self):
+        """
+        for each attitude:
+            if label is not Uu:
+                save target_token_id and source_id in variables
+                for each parent source until NULL, find the attitude with the corresponding target_token_id and source_id,
+                and if the label is Uu, change it to ROB
+        :return:
+        """
+        num_changes = 0
+        i = 0
+        for bottom_attitude in self.attitudes:
+            bottom_label = bottom_attitude[3]
+            if bottom_label != 'Uu':
+                relevant_target_token_id = bottom_attitude[2]
+                bottom_source = self.sources[bottom_attitude[1] - 1]
+                parent_source_id = bottom_source[3]
+                while parent_source_id is not None:
+                    i += 1
+                    if i % 1000 == 0:
+                        print(i)
+                    current_source = self.sources[parent_source_id - 1]
+                    parent_source_id = current_source[3]
+                    current_source_id = current_source[0]
+                    current_attitude = None
+                    for cur_attitude in self.attitudes:
+                        if cur_attitude[1] == current_source_id and cur_attitude[2] == relevant_target_token_id:
+                            current_attitude = cur_attitude
+                            break
+                    if current_attitude is None:
+                        continue
+                    else:
+                        print('at least this is working')
+                    current_attitude_id = current_attitude[0]
+                    current_label = current_attitude[3]
+                    if current_label == 'Uu':
+                        self.attitudes[current_attitude_id - 1] = 'ROB'
+                        num_changes += 1
+        print('{} changes from Uu to ROB'.format(num_changes))
+
 
     # calculating the initial offset, since the indices are file-based and not sentence-based in the DB
     def calc_offsets(self, file, sent_id, raw_sentence, offset_start, offset_end, head, rel_source_text):
