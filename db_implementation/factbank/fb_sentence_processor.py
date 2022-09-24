@@ -219,32 +219,29 @@ class FbSentenceProcessor:
                 and if the label is Uu, change it to ROB
         :return:
         """
+        # attitude_key = (attitude_source_id, target_token_id)
         num_changes = 0
-        i = 0
         for key in self.attitudes:
             bottom_attitude = self.attitudes[key]
             bottom_label = bottom_attitude[3]
             if bottom_label != 'Uu':
                 relevant_target_token_id = bottom_attitude[2]
                 bottom_source = self.sources[bottom_attitude[1] - 1]
+
                 parent_source_id = bottom_source[3]
-                while parent_source_id is not None:
-                    i += 1
-                    if i % 1000 == 0:
-                        print(i)
+                while parent_source_id not in (None, -1):
                     current_source = self.sources[parent_source_id - 1]
                     current_source_id = parent_source_id
                     parent_source_id = current_source[3]
-                    current_attitude = None
-                print('got to AUTHOR')
-                    # attitude_key = (current_source_id, )
+                    attitude_key = (current_source_id, relevant_target_token_id)
+                    if attitude_key in self.attitudes:
+                        current_attitude = self.attitudes[attitude_key]
+                        if current_attitude[3] == 'Uu':
+                            current_attitude[3] = 'ROB'
+                            self.attitudes[attitude_key] = current_attitude
+                            num_changes += 1
 
-                    # current_attitude_id = current_attitude[0]
-                    # current_label = current_attitude[3]
-                    # if current_label == 'Uu':
-                    #     self.attitudes[current_attitude_id - 1] = 'ROB'
-                    #     num_changes += 1
-        # print('{} changes from Uu to ROB'.format(num_changes))
+        print('{} changes from Uu to ROB'.format(num_changes))
 
 
     # calculating the initial offset, since the indices are file-based and not sentence-based in the DB
