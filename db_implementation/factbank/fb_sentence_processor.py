@@ -51,7 +51,7 @@ class FbSentenceProcessor:
             self.sources[i] = self.sources[i][:-1]
         bar.finish()
 
-        self.uu_to_rob()
+        # self.uu_to_rob()
 
     def get_errors(self):
         return self.errors, self.num_errors
@@ -177,7 +177,7 @@ class FbSentenceProcessor:
 
     # finding the source id after the first underscore; for 's2_s1_s0', we retrieve 's1'
     @staticmethod
-    def calc_parent_source(source_id):
+    def calc_parent_source(source_id): # s1_s0
         if source_id == 's0':
             return None
         start_index = source_id.index('_') + 1
@@ -195,7 +195,7 @@ class FbSentenceProcessor:
         if '=' in source_text:
             source_text = source_text[:source_text.index('=')]
         if source_text == 'AUTHOR':
-            return 0, -1, 'AUTHOR'
+            return 0, 's0', 'AUTHOR'
         if '_' in source_text:
             source_text = source_text[:source_text.index('_')]
         if '=' in rel_source_id:
@@ -226,8 +226,7 @@ class FbSentenceProcessor:
             bottom_label = bottom_attitude[3]
             if bottom_label != 'Uu':
                 relevant_target_token_id = bottom_attitude[2]
-                bottom_source = self.sources[bottom_attitude[1] - 1]
-
+                bottom_source = self.sources[bottom_attitude[1] - 1] # BILL_JOHN_AUTHOR
                 parent_source_id = bottom_source[3]
                 while parent_source_id not in (None, -1):
                     current_source = self.sources[parent_source_id - 1]
