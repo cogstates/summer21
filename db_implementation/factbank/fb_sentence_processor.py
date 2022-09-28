@@ -28,6 +28,7 @@ class FbSentenceProcessor:
         self.next_sentence_id = 1
 
         self.mentions = []
+        self.unique_mentions = {}
         self.next_mention_id = 1
 
         self.sources = []
@@ -51,7 +52,7 @@ class FbSentenceProcessor:
             self.sources[i] = self.sources[i][:-1]
         bar.finish()
 
-        # self.uu_to_rob()
+        self.uu_to_rob()
 
     def get_errors(self):
         return self.errors, self.num_errors
@@ -102,11 +103,17 @@ class FbSentenceProcessor:
                 if not success:
                     continue
                 # saving the newly-minted mention for later insertion
-                self.mentions.append(
-                    (self.next_mention_id, global_sentence_id, relevant_source, offset_start, offset_end))
+                unique_mention_key = (global_sentence_id, relevant_source, offset_start, offset_end)
+                if unique_mention_key not in self.unique_mentions:
+                    self.unique_mentions[unique_mention_key] = self.next_mention_id
+                    self.mentions.append(
+                        (self.next_mention_id, global_sentence_id, relevant_source, offset_start, offset_end))
 
-                global_source_token_id = self.next_mention_id
-                self.next_mention_id += 1
+                    global_source_token_id = self.next_mention_id
+                    self.next_mention_id += 1
+                else:
+                    global_source_token_id = self.unique_mentions[unique_mention_key]
+
 
                 # if a parent source is relevant, find it
                 if nesting_level == 0:
@@ -162,11 +169,16 @@ class FbSentenceProcessor:
                                                                                         rel_source_text)
                     if success:
 
-                        self.mentions.append((self.next_mention_id, global_sentence_id,
-                                              target_head, target_offset_start, target_offset_end))
+                        unique_mention_key = (global_sentence_id, target_head, target_offset_start, target_offset_end)
+                        if unique_mention_key not in self.unique_mentions:
+                            self.unique_mentions[unique_mention_key] = self.next_mention_id
+                            self.mentions.append((self.next_mention_id, global_sentence_id,
+                                                  target_head, target_offset_start, target_offset_end))
 
-                        target_token_id = self.next_mention_id
-                        self.next_mention_id += 1
+                            target_token_id = self.next_mention_id
+                            self.next_mention_id += 1
+                        else:
+                            target_token_id = self.unique_mentions[unique_mention_key]
 
                         attitude_key = (attitude_source_id, target_token_id)
 
