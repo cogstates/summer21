@@ -37,6 +37,8 @@ class FbSentenceProcessor:
         self.attitudes = {}
         self.next_attitude_id = 1
 
+        self.num_attitude_dupes = 0
+        self.attitude_dupes = []
         # self.problem_eid_label_keys = []
 
     # sending each sentence to the process_sentence function
@@ -46,6 +48,9 @@ class FbSentenceProcessor:
             row = list(row)
             self.process_sentence(row, bar)
         print('\nSentence processing complete.')
+        print("NUMBER OF DUPES: {}".format(self.num_attitude_dupes))
+        for row in self.attitude_dupes:
+            print(row)
 
         # removing internal data before SQL insertion
         for i in range(len(self.sources)):
@@ -181,11 +186,15 @@ class FbSentenceProcessor:
                             target_token_id = self.unique_mentions[unique_mention_key]
 
                         attitude_key = (attitude_source_id, target_token_id)
-
+                        if attitude_key in self.attitudes:
+                            self.num_attitude_dupes += 1
+                            self.attitude_dupes.append((attitude_key, row[self.SENTENCE], relevant_source,
+                                                        target_head, fact_value, self.attitudes[attitude_key]))
                         self.attitudes[attitude_key] = [self.next_attitude_id, attitude_source_id,
                                                         target_token_id, fact_value, 'Belief']
                         self.next_attitude_id += 1
         bar.next()
+
 
     # finding the source id after the first underscore; for 's2_s1_s0', we retrieve 's1'
     @staticmethod
