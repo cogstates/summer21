@@ -48,9 +48,9 @@ class FbSentenceProcessor:
             row = list(row)
             self.process_sentence(row, bar)
         print('\nSentence processing complete.')
-        print("NUMBER OF DUPES: {}".format(self.num_attitude_dupes))
-        for row in self.attitude_dupes:
-            print(row)
+        # print("NUMBER OF DUPES: {}".format(self.num_attitude_dupes))
+        # for row in self.attitude_dupes:
+        #     print(row)
 
         # removing internal data before SQL insertion
         for i in range(len(self.sources)):
@@ -187,11 +187,14 @@ class FbSentenceProcessor:
 
                         attitude_key = (attitude_source_id, target_token_id)
                         if attitude_key in self.attitudes:
-                            self.num_attitude_dupes += 1
-                            self.attitude_dupes.append((attitude_key, row[self.SENTENCE], relevant_source,
-                                                        target_head, fact_value, self.attitudes[attitude_key]))
-                        self.attitudes[attitude_key] = [self.next_attitude_id, attitude_source_id,
-                                                        target_token_id, fact_value, 'Belief']
+                            self.attitudes[attitude_key].append([self.next_attitude_id, attitude_source_id,
+                                                                target_token_id, fact_value, 'Belief'])
+                            # self.num_attitude_dupes += 1
+                            # self.attitude_dupes.append((attitude_key, row[self.SENTENCE], relevant_source,
+                            #                             target_head, fact_value, self.attitudes[attitude_key]))
+                        else:
+                            self.attitudes[attitude_key] = [[self.next_attitude_id, attitude_source_id,
+                                                            target_token_id, fact_value, 'Belief']]
                         self.next_attitude_id += 1
         bar.next()
 
@@ -243,23 +246,27 @@ class FbSentenceProcessor:
         # attitude_key = (attitude_source_id, target_token_id)
         num_changes = 0
         for key in self.attitudes:
-            bottom_attitude = self.attitudes[key]
-            bottom_label = bottom_attitude[3]
-            if bottom_label != 'Uu':
-                relevant_target_token_id = bottom_attitude[2]
-                bottom_source = self.sources[bottom_attitude[1] - 1] # BILL_JOHN_AUTHOR
-                parent_source_id = bottom_source[3]
-                while parent_source_id not in (None, -1):
-                    current_source = self.sources[parent_source_id - 1]
-                    current_source_id = parent_source_id
-                    parent_source_id = current_source[3]
-                    attitude_key = (current_source_id, relevant_target_token_id)
-                    if attitude_key in self.attitudes:
-                        current_attitude = self.attitudes[attitude_key]
-                        if current_attitude[3] == 'Uu':
-                            current_attitude[3] = 'ROB'
-                            self.attitudes[attitude_key] = current_attitude
-                            num_changes += 1
+            bottom_attitude_list = self.attitudes[key]
+            for bottom_attitude in bottom_attitude_list:
+                bottom_label = bottom_attitude[3]
+                if bottom_label != 'Uu':
+                    relevant_target_token_id = bottom_attitude[2]
+                    bottom_source = self.sources[bottom_attitude[1] - 1] # BILL_JOHN_AUTHOR
+                    parent_source_id = bottom_source[3]
+                    while parent_source_id not in (None, -1):
+                        current_source = self.sources[parent_source_id - 1]
+                        current_source_id = parent_source_id
+                        parent_source_id = current_source[3]
+                        attitude_key = (current_source_id, relevant_target_token_id)
+                        if attitude_key in self.attitudes:
+                            current_attitude_list = self.attitudes[attitude_key]
+                            for current_attitude in current_attitude_list:
+                                if current_attitude[3] == 'Uu':
+                                    current_attitude_list.remove(current_attitude)
+                                    current_attitude[3] = 'ROB'
+                                    current_attitude_list.append(current_attitude)
+                                    self.attitudes[attitude_key] = current_attitude_list
+                                    num_changes += 1
 
         print('{} changes from Uu to ROB'.format(num_changes))
 

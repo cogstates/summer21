@@ -120,7 +120,9 @@ class FB2Master:
 
         final_attitudes = []
         for key in sp.attitudes:
-            final_attitudes.append(sp.attitudes[key])
+            current_attitudes_list = sp.attitudes[key]
+            for item in current_attitudes_list:
+                final_attitudes.append(item)
 
         self.errors, self.num_errors = sp.get_errors()
 
