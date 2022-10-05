@@ -7,7 +7,7 @@ from fb_sentence_processor import FbSentenceProcessor
 from progress.bar import Bar
 from time import time
 
-START_TIME = time()
+
 
 
 class FB2Master:
@@ -162,13 +162,17 @@ class FB2Master:
                             'raw_sentence VARCHAR2(255),'
                             'result_sentence VARCHAR2(255),'
                             'rel_source_text VARCHAR2(255) )')
-        bar = Bar('Errors Processed', max=len(self.errors))
-        for key in self.errors:
-            self.ma_cur.executemany('INSERT INTO errors (file, file_sentence_id, offset_start, '
-                                    'offset_end, predicted_head, head, raw_sentence, result_sentence, rel_source_text)'
-                                    'VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)', self.errors[key])
-            bar.next()
-        bar.finish()
+        if self.num_errors == 0:
+            print('0 errors; Data integrity verified.')
+        else:
+            bar = Bar('Errors Processed', max=self.num_errors)
+            for key in self.errors:
+                self.ma_cur.executemany('INSERT INTO errors (file, file_sentence_id, offset_start, '
+                                        'offset_end, predicted_head, head, '
+                                        'raw_sentence, result_sentence, rel_source_text)'
+                                        'VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)', self.errors[key])
+                bar.next()
+            bar.finish()
 
     def generate_database(self):
         print("Loading Factbank data into Python data structures...")
@@ -191,13 +195,15 @@ class FB2Master:
         self.load_data()
         self.load_errors()
         self.close()
-        print('Done.')
 
-        run_time = time() - START_TIME
-        print("Runtime:", round(run_time % 60, 3), 'sec')
 
 
 if __name__ == "__main__":
+    print("fb2master.py version 3.0\n\n")
+    START_TIME = time()
     test = FB2Master()
     test.generate_database()
+    print('\n\nDone.')
+    run_time = time() - START_TIME
+    print("Runtime:", round(run_time % 60, 3), 'sec')
 

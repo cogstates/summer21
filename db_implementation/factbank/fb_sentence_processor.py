@@ -39,7 +39,7 @@ class FbSentenceProcessor:
 
     # sending each sentence to the process_sentence function
     def go(self):
-        bar = Bar('Sentences Processed', max=13506)  # 13506 = number of attitudes
+        bar = Bar('Examples Processed', max=13506)  # 13506 = number of attitudes
         for row in self.sentences_set:
             row = list(row)
             self.process_sentence(row, bar)
@@ -96,16 +96,15 @@ class FbSentenceProcessor:
                 if not success:
                     continue
 
-                global_source_token_id = self.catalog_source_mention(global_sentence_id, relevant_source,
-                                                                     offset_start, offset_end)
+                global_source_token_id = self.catalog_mention(global_sentence_id, relevant_source,
+                                                              offset_start, offset_end)
 
                 parent_source_id = self.find_parent_source(global_sentence_id, nesting_level,
                                                            current_nesting_level, rel_source_id)
 
                 # now we actually insert the source
-                self.sources.append(
-                    (self.next_source_id, global_sentence_id, global_source_token_id, parent_source_id,
-                     current_nesting_level, relevant_source, relevant_source_id))
+                self.sources.append((self.next_source_id, global_sentence_id, global_source_token_id,
+                                     parent_source_id, current_nesting_level, relevant_source, relevant_source_id))
 
                 # dealing with targets now
                 attitude_source_id = self.next_source_id
@@ -157,8 +156,8 @@ class FbSentenceProcessor:
 
     def catalog_attitude(self, global_sentence_id, target_head, target_offset_start,
                          target_offset_end, attitude_source_id, fact_value):
-        target_token_id = self.catalog_target_mention(global_sentence_id, target_head,
-                                                      target_offset_start, target_offset_end)
+        target_token_id = self.catalog_mention(global_sentence_id, target_head,
+                                               target_offset_start, target_offset_end)
 
         # the attitudes table is represented internally as a dictionary of lists, again to help
         # with the UU -> ROB task
@@ -171,20 +170,23 @@ class FbSentenceProcessor:
                                              target_token_id, fact_value, 'Belief']]
         self.next_attitude_id += 1
 
-    def catalog_target_mention(self, global_sentence_id, target_head, target_offset_start, target_offset_end):
+    # saving a newly-minted mention for later insertion
+    # we maintain a separate dictionary of unique mentions in order to
+    # make it easier to perform the UU -> ROB label switch later on
+    def catalog_mention(self, global_sentence_id, text, target_offset_start, target_offset_end):
         # adding the target mention to the aforementioned dictionary of unique mentions
-        unique_mention_key = (global_sentence_id, target_head, target_offset_start, target_offset_end)
+        unique_mention_key = (global_sentence_id, text, target_offset_start, target_offset_end)
         if unique_mention_key not in self.unique_mentions:
             self.unique_mentions[unique_mention_key] = self.next_mention_id
             self.mentions.append((self.next_mention_id, global_sentence_id,
-                                  target_head, target_offset_start, target_offset_end))
+                                  text, target_offset_start, target_offset_end))
 
-            target_token_id = self.next_mention_id
+            global_token_id = self.next_mention_id
             self.next_mention_id += 1
         else:
-            target_token_id = self.unique_mentions[unique_mention_key]
+            global_token_id = self.unique_mentions[unique_mention_key]
 
-        return target_token_id
+        return global_token_id
 
     def find_parent_source(self, global_sentence_id, nesting_level, current_nesting_level, rel_source_id):
         # if a parent source is relevant, find it and catalog it
@@ -201,23 +203,6 @@ class FbSentenceProcessor:
                     break
 
         return parent_source_id
-
-    # saving the newly-minted mention for later insertion
-    # we maintain a separate dictionary of unique mentions in order to
-    # make it easier to perform the UU -> ROB label switch later on
-    def catalog_source_mention(self, global_sentence_id, relevant_source, offset_start, offset_end):
-        unique_mention_key = (global_sentence_id, relevant_source, offset_start, offset_end)
-        if unique_mention_key not in self.unique_mentions:
-            self.unique_mentions[unique_mention_key] = self.next_mention_id
-            self.mentions.append(
-                (self.next_mention_id, global_sentence_id, relevant_source, offset_start, offset_end))
-
-            global_source_token_id = self.next_mention_id
-            self.next_mention_id += 1
-        else:
-            global_source_token_id = self.unique_mentions[unique_mention_key]
-
-        return global_source_token_id
 
     def get_source_offsets(self, row, relevant_source, rel_source_text):
         # getting the source offsets
@@ -280,26 +265,36 @@ class FbSentenceProcessor:
         num_changes = 0
         # for each attitude
         for key in self.attitudes:
+
             bottom_attitude_list = self.attitudes[key]
             for bottom_attitude in bottom_attitude_list:
+
                 bottom_label = bottom_attitude[3]
                 if bottom_label != 'Uu':
+
                     # save target_token_id and source_id in variables
                     relevant_target_token_id = bottom_attitude[2]
                     bottom_source = self.sources[bottom_attitude[1] - 1]
                     parent_source_id = bottom_source[3]
+
                     # for each parent source until NULL
                     while parent_source_id not in (None, -1):
+
                         current_source = self.sources[parent_source_id - 1]
                         current_source_id = parent_source_id
                         parent_source_id = current_source[3]
                         attitude_key = (current_source_id, relevant_target_token_id)
+
                         # find the attitude with the corresponding target_token_id and source_id
                         if attitude_key in self.attitudes:
+
                             current_attitude_list = self.attitudes[attitude_key]
+
                             for current_attitude in current_attitude_list:
+
                                 # if the label is Uu, change it to ROB
                                 if current_attitude[3] == 'Uu':
+
                                     current_attitude_list.remove(current_attitude)
                                     current_attitude[3] = 'ROB'
                                     current_attitude_list.append(current_attitude)
@@ -350,8 +345,10 @@ class FbSentenceProcessor:
                 # search both sides at the current boundaries, if there's space left, for the head
                 parts = [(search_left, left_side_boundary), (search_right, right_side_boundary)]
                 for part in parts:
+
                     search = part[0]
                     boundary = part[1]
+
                     if search and raw_sentence[boundary:boundary + len(head)] == head:
                         offset_start = boundary
                         offset_end = boundary + len(head)
@@ -364,12 +361,14 @@ class FbSentenceProcessor:
 
         pred_head = raw_sentence[offset_start:offset_end]
         if not success:
+
             # keeping the asterisks just for easier understanding of the error dataset
             result_sentence = raw_sentence[:offset_start] + "* " + head + " *" + raw_sentence[offset_end:]
             self.num_errors += 1
             error_key = (file, sent_id)
             entry = (file[1:-1], sent_id, offset_start, offset_end, pred_head, head,
                      raw_sentence, result_sentence, rel_source_text)
+
             if error_key not in self.errors:
                 self.errors[error_key] = [entry]
             else:
