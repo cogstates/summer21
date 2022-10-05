@@ -37,20 +37,13 @@ class FbSentenceProcessor:
         self.attitudes = {}
         self.next_attitude_id = 1
 
-        self.num_attitude_dupes = 0
-        self.attitude_dupes = []
-        # self.problem_eid_label_keys = []
-
     # sending each sentence to the process_sentence function
     def go(self):
-        bar = Bar('Sentences Processed', max=3631)  # 3631 = number of valid sentences
+        bar = Bar('Sentences Processed', max=13506)  # 13506 = number of attitudes
         for row in self.sentences_set:
             row = list(row)
             self.process_sentence(row, bar)
         print('\nSentence processing complete.')
-        # print("NUMBER OF DUPES: {}".format(self.num_attitude_dupes))
-        # for row in self.attitude_dupes:
-        #     print(row)
 
         # removing internal data before SQL insertion
         for i in range(len(self.sources)):
@@ -75,13 +68,19 @@ class FbSentenceProcessor:
         global_sentence_id = self.next_sentence_id
         self.next_sentence_id += 1
 
+        self.traverse_nesting_structure(row, global_sentence_id, bar)
+
+    def traverse_nesting_structure(self, row, global_sentence_id, bar):
         # grabbing the relevant top-level source from the dictionary created earlier
+        # and filling in values for author-only annotations
         rel_source_key = (row[self.FILE], row[self.SENTENCE_ID])
         if rel_source_key not in self.rel_source_texts:
             self.rel_source_texts[rel_source_key] = [(-1, 'AUTHOR')]
         sources = self.rel_source_texts[rel_source_key]
 
         # dealing with each relevant source starting at the lowest nesting level, i.e., AUTHOR
+        # here, rel_source_id represents the sentence-level ID for that source,
+        # i.e., s0, s1, etc. or s2_s1_s0 for nested sources
         for current_nesting_level in range(0, 4):
             for rel_source_id, rel_source_text in sources:
                 nesting_level, relevant_source_id, relevant_source = \
@@ -91,48 +90,19 @@ class FbSentenceProcessor:
                 if nesting_level != current_nesting_level:
                     continue
 
-                # getting the source offsets
-                source_offsets_key = (row[self.FILE], row[self.SENTENCE_ID])
-                if source_offsets_key not in self.source_offsets:
-                    self.source_offsets[source_offsets_key] = (None, None, relevant_source)
-                source_offsets = self.source_offsets[source_offsets_key]
-
-                # tweaking offsets as needed
-                relevant_source = relevant_source.replace("\\", "")
-                offset_start, offset_end, success = self.calc_offsets(row[self.FILE], row[self.SENTENCE_ID],
-                                                                      row[self.SENTENCE],
-                                                                      source_offsets[0],
-                                                                      source_offsets[1],
-                                                                      relevant_source, rel_source_text)
+                relevant_source, offset_start, offset_end, success = \
+                    self.get_source_offsets(row, relevant_source, rel_source_text)
 
                 if not success:
                     continue
-                # saving the newly-minted mention for later insertion
-                unique_mention_key = (global_sentence_id, relevant_source, offset_start, offset_end)
-                if unique_mention_key not in self.unique_mentions:
-                    self.unique_mentions[unique_mention_key] = self.next_mention_id
-                    self.mentions.append(
-                        (self.next_mention_id, global_sentence_id, relevant_source, offset_start, offset_end))
 
-                    global_source_token_id = self.next_mention_id
-                    self.next_mention_id += 1
-                else:
-                    global_source_token_id = self.unique_mentions[unique_mention_key]
+                global_source_token_id = self.catalog_source_mention(global_sentence_id, relevant_source,
+                                                                     offset_start, offset_end)
 
+                parent_source_id = self.find_parent_source(global_sentence_id, nesting_level,
+                                                           current_nesting_level, rel_source_id)
 
-                # if a parent source is relevant, find it
-                if nesting_level == 0:
-                    parent_source_id = -1
-                else:
-                    parent_relevant_source_id = self.calc_parent_source(rel_source_id)
-                    parent_source_id = None
-                    for i in range(len(self.sources)):
-                        if self.sources[i][1] == global_sentence_id \
-                                and self.sources[i][4] == current_nesting_level - 1 \
-                                and self.sources[i][6] == parent_relevant_source_id:
-                            parent_source_id = i + 1
-                            break
-
+                # now we actually insert the source
                 self.sources.append(
                     (self.next_source_id, global_sentence_id, global_source_token_id, parent_source_id,
                      current_nesting_level, relevant_source, relevant_source_id))
@@ -141,6 +111,7 @@ class FbSentenceProcessor:
                 attitude_source_id = self.next_source_id
                 self.next_source_id += 1
 
+                # retrieving all attitudes linked to the source we just inserted, if there are any
                 eid_label_key = (row[self.FILE], row[self.SENTENCE_ID],
                                  "'{}'".format(rel_source_id))
 
@@ -149,55 +120,120 @@ class FbSentenceProcessor:
                 else:
                     eid_label_return = self.fact_values[eid_label_key]
 
-                for example in eid_label_return:
+                self.parse_attitudes(eid_label_return, row, rel_source_text,
+                                     global_sentence_id, attitude_source_id, bar)
 
-                    eid = example[0]
-                    fact_value = example[1][1:-2]
+    def parse_attitudes(self, eid_label_return, row, rel_source_text, global_sentence_id, attitude_source_id, bar):
+        # iterating over each attitude, inserting to the attitudes table
+        for example in eid_label_return:
 
-                    target_return = self.targets[(row[self.FILE], row[self.SENTENCE_ID], eid)]
+            eid = example[0]
+            fact_value = example[1][1:-2]
 
-                    tok_loc = target_return[0]
-                    target_head = target_return[1][1:-1]
-                    target_offsets_return = self.target_offsets[(row[self.FILE], row[self.SENTENCE_ID],
-                                                                tok_loc)]
+            target_return = self.targets[(row[self.FILE], row[self.SENTENCE_ID], eid)]
 
-                    target_offset_start = target_offsets_return[0]
-                    target_offset_end = target_offsets_return[1]
+            # we need the tokLoc in order to get at the target offsets
+            # (this is an artifact of the original FactBank data)
+            tok_loc = target_return[0]
+            target_head = target_return[1][1:-1]
+            target_offsets_return = self.target_offsets[(row[self.FILE], row[self.SENTENCE_ID],
+                                                         tok_loc)]
 
-                    target_head = target_head.replace("\\", "")
-                    target_offset_start, target_offset_end, success = self.calc_offsets(row[self.FILE],
-                                                                                        row[self.SENTENCE_ID],
-                                                                                        row[self.SENTENCE],
-                                                                                        target_offset_start,
-                                                                                        target_offset_end,
-                                                                                        target_head,
-                                                                                        rel_source_text)
-                    if success:
+            target_offset_start = target_offsets_return[0]
+            target_offset_end = target_offsets_return[1]
 
-                        unique_mention_key = (global_sentence_id, target_head, target_offset_start, target_offset_end)
-                        if unique_mention_key not in self.unique_mentions:
-                            self.unique_mentions[unique_mention_key] = self.next_mention_id
-                            self.mentions.append((self.next_mention_id, global_sentence_id,
-                                                  target_head, target_offset_start, target_offset_end))
+            target_head = target_head.replace("\\", "")
+            target_offset_start, target_offset_end, success = self.calc_offsets(row[self.FILE],
+                                                                                row[self.SENTENCE_ID],
+                                                                                row[self.SENTENCE],
+                                                                                target_offset_start,
+                                                                                target_offset_end,
+                                                                                target_head,
+                                                                                rel_source_text)
+            if success:
+                self.catalog_attitude(global_sentence_id, target_head, target_offset_start,
+                                      target_offset_end, attitude_source_id, fact_value)
+            bar.next()
 
-                            target_token_id = self.next_mention_id
-                            self.next_mention_id += 1
-                        else:
-                            target_token_id = self.unique_mentions[unique_mention_key]
+    def catalog_attitude(self, global_sentence_id, target_head, target_offset_start,
+                         target_offset_end, attitude_source_id, fact_value):
+        target_token_id = self.catalog_target_mention(global_sentence_id, target_head,
+                                                      target_offset_start, target_offset_end)
 
-                        attitude_key = (attitude_source_id, target_token_id)
-                        if attitude_key in self.attitudes:
-                            self.attitudes[attitude_key].append([self.next_attitude_id, attitude_source_id,
-                                                                target_token_id, fact_value, 'Belief'])
-                            # self.num_attitude_dupes += 1
-                            # self.attitude_dupes.append((attitude_key, row[self.SENTENCE], relevant_source,
-                            #                             target_head, fact_value, self.attitudes[attitude_key]))
-                        else:
-                            self.attitudes[attitude_key] = [[self.next_attitude_id, attitude_source_id,
-                                                            target_token_id, fact_value, 'Belief']]
-                        self.next_attitude_id += 1
-        bar.next()
+        # the attitudes table is represented internally as a dictionary of lists, again to help
+        # with the UU -> ROB task
+        attitude_key = (attitude_source_id, target_token_id)
+        if attitude_key in self.attitudes:
+            self.attitudes[attitude_key].append([self.next_attitude_id, attitude_source_id,
+                                                 target_token_id, fact_value, 'Belief'])
+        else:
+            self.attitudes[attitude_key] = [[self.next_attitude_id, attitude_source_id,
+                                             target_token_id, fact_value, 'Belief']]
+        self.next_attitude_id += 1
 
+    def catalog_target_mention(self, global_sentence_id, target_head, target_offset_start, target_offset_end):
+        # adding the target mention to the aforementioned dictionary of unique mentions
+        unique_mention_key = (global_sentence_id, target_head, target_offset_start, target_offset_end)
+        if unique_mention_key not in self.unique_mentions:
+            self.unique_mentions[unique_mention_key] = self.next_mention_id
+            self.mentions.append((self.next_mention_id, global_sentence_id,
+                                  target_head, target_offset_start, target_offset_end))
+
+            target_token_id = self.next_mention_id
+            self.next_mention_id += 1
+        else:
+            target_token_id = self.unique_mentions[unique_mention_key]
+
+        return target_token_id
+
+    def find_parent_source(self, global_sentence_id, nesting_level, current_nesting_level, rel_source_id):
+        # if a parent source is relevant, find it and catalog it
+        if nesting_level == 0:
+            parent_source_id = -1
+        else:
+            parent_relevant_source_id = self.calc_parent_source(rel_source_id)
+            parent_source_id = None
+            for i in range(len(self.sources)):
+                if self.sources[i][1] == global_sentence_id \
+                        and self.sources[i][4] == current_nesting_level - 1 \
+                        and self.sources[i][6] == parent_relevant_source_id:
+                    parent_source_id = i + 1
+                    break
+
+        return parent_source_id
+
+    # saving the newly-minted mention for later insertion
+    # we maintain a separate dictionary of unique mentions in order to
+    # make it easier to perform the UU -> ROB label switch later on
+    def catalog_source_mention(self, global_sentence_id, relevant_source, offset_start, offset_end):
+        unique_mention_key = (global_sentence_id, relevant_source, offset_start, offset_end)
+        if unique_mention_key not in self.unique_mentions:
+            self.unique_mentions[unique_mention_key] = self.next_mention_id
+            self.mentions.append(
+                (self.next_mention_id, global_sentence_id, relevant_source, offset_start, offset_end))
+
+            global_source_token_id = self.next_mention_id
+            self.next_mention_id += 1
+        else:
+            global_source_token_id = self.unique_mentions[unique_mention_key]
+
+        return global_source_token_id
+
+    def get_source_offsets(self, row, relevant_source, rel_source_text):
+        # getting the source offsets
+        source_offsets_key = (row[self.FILE], row[self.SENTENCE_ID])
+        if source_offsets_key not in self.source_offsets:
+            self.source_offsets[source_offsets_key] = (None, None, relevant_source)
+        source_offsets = self.source_offsets[source_offsets_key]
+
+        # tweaking offsets as needed
+        relevant_source = relevant_source.replace("\\", "")
+        offset_start, offset_end, success = self.calc_offsets(row[self.FILE], row[self.SENTENCE_ID],
+                                                              row[self.SENTENCE],
+                                                              source_offsets[0],
+                                                              source_offsets[1],
+                                                              relevant_source, rel_source_text)
+        return relevant_source, offset_start, offset_end, success
 
     # finding the source id after the first underscore; for 's2_s1_s0', we retrieve 's1'
     @staticmethod
@@ -232,35 +268,37 @@ class FbSentenceProcessor:
     # in order to more closely match the BEST corpus' annotation style
     # if bottom of source structure is NOT Uu (GEN and DUMMY do trigger this algo), go up the source tree,
     # for each intermediate source including the very top, switch Uu to ROB, for the target gotten from the bottom
-    # (look at docs before coding as to ROB)
-    # make a separate method for this - post-processing
+    """
+    for each attitude:
+        if label is not Uu:
+            save target_token_id and source_id in variables
+            for each parent source until NULL, find the attitude with the corresponding target_token_id and source_id,
+            and if the label is Uu, change it to ROB
+    :return:
+    """
     def uu_to_rob(self):
-        """
-        for each attitude:
-            if label is not Uu:
-                save target_token_id and source_id in variables
-                for each parent source until NULL, find the attitude with the corresponding target_token_id and source_id,
-                and if the label is Uu, change it to ROB
-        :return:
-        """
-        # attitude_key = (attitude_source_id, target_token_id)
         num_changes = 0
+        # for each attitude
         for key in self.attitudes:
             bottom_attitude_list = self.attitudes[key]
             for bottom_attitude in bottom_attitude_list:
                 bottom_label = bottom_attitude[3]
                 if bottom_label != 'Uu':
+                    # save target_token_id and source_id in variables
                     relevant_target_token_id = bottom_attitude[2]
-                    bottom_source = self.sources[bottom_attitude[1] - 1] # BILL_JOHN_AUTHOR
+                    bottom_source = self.sources[bottom_attitude[1] - 1]
                     parent_source_id = bottom_source[3]
+                    # for each parent source until NULL
                     while parent_source_id not in (None, -1):
                         current_source = self.sources[parent_source_id - 1]
                         current_source_id = parent_source_id
                         parent_source_id = current_source[3]
                         attitude_key = (current_source_id, relevant_target_token_id)
+                        # find the attitude with the corresponding target_token_id and source_id
                         if attitude_key in self.attitudes:
                             current_attitude_list = self.attitudes[attitude_key]
                             for current_attitude in current_attitude_list:
+                                # if the label is Uu, change it to ROB
                                 if current_attitude[3] == 'Uu':
                                     current_attitude_list.remove(current_attitude)
                                     current_attitude[3] = 'ROB'
@@ -269,7 +307,6 @@ class FbSentenceProcessor:
                                     num_changes += 1
 
         print('{} changes from Uu to ROB'.format(num_changes))
-
 
     # calculating the initial offset, since the indices are file-based and not sentence-based in the DB
     def calc_offsets(self, file, sent_id, raw_sentence, offset_start, offset_end, head, rel_source_text):
