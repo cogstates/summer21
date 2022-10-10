@@ -130,8 +130,9 @@ class FB2Master:
         self.ma_con.executemany('INSERT INTO SENTENCES (sentence_id, file, file_sentence_id, sentence) '
                                 'VALUES (?, ?, ?, ?);', sp.sentences)
         self.ma_con.executemany('INSERT INTO mentions '
-                                '(token_id, sentence_id, token_text, token_offset_start, token_offset_end) '
-                                'VALUES (?, ?, ?, ?, ?);', sp.mentions)
+                                '(token_id, sentence_id, token_text, token_offset_start, '
+                                'token_offset_end, phrase_text, phrase_offset_start, phrase_offset_end) '
+                                'VALUES (?, ?, ?, ?, ?, ?, ?, ?);', sp.mentions)
         self.ma_con.executemany('INSERT INTO sources '
                                 '(source_id, sentence_id, token_id, parent_source_id, nesting_level, [source]) '
                                 'VALUES (?, ?, ?, ?, ?, ?);', sp.sources)

@@ -1,5 +1,5 @@
 from progress.bar import Bar
-
+import spacy
 
 class FbSentenceProcessor:
 
@@ -37,6 +37,11 @@ class FbSentenceProcessor:
         self.attitudes = {}
         self.next_attitude_id = 1
 
+        self.nlp = spacy.load("en_core_web_sm")
+        self.current_doc = None
+        self.current_sentence = None
+        self.current_head = None
+
     # sending each sentence to the process_sentence function
     def go(self):
         bar = Bar('Examples Processed', max=13506)  # 13506 = number of attitudes
@@ -62,11 +67,16 @@ class FbSentenceProcessor:
             return
 
         row[self.SENTENCE] = str(row[self.SENTENCE][1:-2].replace("\\", ""))
+        row[self.SENTENCE] = row[self.SENTENCE].replace("``", '"')
+        row[self.SENTENCE] = row[self.SENTENCE].replace("''", "\"")
+        self.current_sentence = row[self.SENTENCE]
 
         self.sentences.append(
-            (self.next_sentence_id, row[self.FILE][1:-1], row[self.SENTENCE_ID], row[self.SENTENCE]))
+            (self.next_sentence_id, row[self.FILE][1:-1], row[self.SENTENCE_ID], self.current_sentence))
         global_sentence_id = self.next_sentence_id
         self.next_sentence_id += 1
+
+        self.current_doc = self.nlp(self.current_sentence)
 
         self.traverse_nesting_structure(row, global_sentence_id, bar)
 
@@ -154,6 +164,27 @@ class FbSentenceProcessor:
                                       target_offset_end, attitude_source_id, fact_value)
             bar.next()
 
+    def get_head_span(self, head_token_offset_start, head_token_offset_end):
+
+        pred_head = self.current_sentence[head_token_offset_start:head_token_offset_end]
+        head_token = self.current_doc.char_span(head_token_offset_start, head_token_offset_end)
+        if head_token is None:
+            head_token = self.current_doc.char_span(head_token_offset_start, head_token_offset_end + 1)
+        head_token = head_token[0]
+
+        # print('stop here')
+
+        if head_token.text != head_token.head.text:
+            head_token = head_token.head
+
+        span_start = min(child.idx for child in head_token.children)
+
+        span_end_token = [child for child in head_token.children if child.idx == \
+                          max(child.idx for child in head_token.children if child.dep_ != 'punct')][0]
+        span_end = span_end_token.idx + len(span_end_token.text)
+
+        return (span_start, span_end)
+
     def catalog_attitude(self, global_sentence_id, target_head, target_offset_start,
                          target_offset_end, attitude_source_id, fact_value):
         target_token_id = self.catalog_mention(global_sentence_id, target_head,
@@ -178,8 +209,18 @@ class FbSentenceProcessor:
         unique_mention_key = (global_sentence_id, text, target_offset_start, target_offset_end)
         if unique_mention_key not in self.unique_mentions:
             self.unique_mentions[unique_mention_key] = self.next_mention_id
-            self.mentions.append((self.next_mention_id, global_sentence_id,
-                                  text, target_offset_start, target_offset_end))
+
+            self.current_head = text
+            if target_offset_start != -1:
+                span_offset_start, span_offset_end = self.get_head_span(target_offset_start, target_offset_end)
+                span_text = self.current_sentence[span_offset_start:span_offset_end]
+                self.mentions.append((self.next_mention_id, global_sentence_id,
+                                      text, target_offset_start, target_offset_end,
+                                      span_text, span_offset_start, span_offset_end))
+            else:
+                self.mentions.append((self.next_mention_id, global_sentence_id,
+                                      text, target_offset_start, target_offset_end,
+                                      None, None, None))
 
             global_token_id = self.next_mention_id
             self.next_mention_id += 1
