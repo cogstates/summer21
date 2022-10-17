@@ -185,6 +185,8 @@ class FbSentenceProcessor:
             if self.num_anomalies > 3:
                 exit()
 
+        # use dep_ == ROOT instead of len ancestors
+        # get rid of NUM
         if len(ancestors) == 0 and fb_head_token.pos_ == 'AUX':
             syntactic_head_token = fb_head_token
         elif fb_head_token.pos_ in ['PROPN', 'NOUN', 'VERB']:
