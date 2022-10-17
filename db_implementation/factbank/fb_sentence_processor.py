@@ -167,23 +167,30 @@ class FbSentenceProcessor:
     def get_head_span(self, head_token_offset_start, head_token_offset_end):
 
         pred_head = self.current_sentence[head_token_offset_start:head_token_offset_end]
-        head_token = self.current_doc.char_span(head_token_offset_start, head_token_offset_end)
-        if head_token is None:
-            head_token = self.current_doc.char_span(head_token_offset_start, head_token_offset_end + 1)
-        head_token = head_token[0]
+        fb_head_token = self.current_doc.char_span(head_token_offset_start, head_token_offset_end,
+                                                   alignment_mode='expand')[0]
 
-        # print('stop here')
+        ancestors = list(fb_head_token.ancestors)
+        if len(ancestors) == 0 and fb_head_token.pos_ == 'AUX':
+            syntactic_head_token = fb_head_token
+        elif fb_head_token.pos_ in ['PROPN', 'NOUN', 'VERB']:
+            syntactic_head_token = fb_head_token.head
+        else:
+            syntactic_head_token = None
+            for token in ancestors:
+                if token.pos_ in ['NUM', 'PROPN', 'NOUN', 'VERB']:
+                    syntactic_head_token = token.head
+                    break
+            for token in ancestors:
+                if token.pos_ == 'AUX':
+                    syntactic_head_token = token.head
+                    break
 
-        if head_token.text != head_token.head.text:
-            head_token = head_token.head
 
-        span_start = min(child.idx for child in head_token.children)
+        span_start = syntactic_head_token.left_edge.idx
+        span_end = syntactic_head_token.right_edge.idx
 
-        span_end_token = [child for child in head_token.children if child.idx == \
-                          max(child.idx for child in head_token.children if child.dep_ != 'punct')][0]
-        span_end = span_end_token.idx + len(span_end_token.text)
-
-        return (span_start, span_end)
+        return span_start, span_end
 
     def catalog_attitude(self, global_sentence_id, target_head, target_offset_start,
                          target_offset_end, attitude_source_id, fact_value):
