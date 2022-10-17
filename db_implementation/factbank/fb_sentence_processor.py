@@ -42,6 +42,8 @@ class FbSentenceProcessor:
         self.current_sentence = None
         self.current_head = None
 
+        self.num_anomalies = 0
+
     # sending each sentence to the process_sentence function
     def go(self):
         bar = Bar('Examples Processed', max=13506)  # 13506 = number of attitudes
@@ -170,7 +172,19 @@ class FbSentenceProcessor:
         fb_head_token = self.current_doc.char_span(head_token_offset_start, head_token_offset_end,
                                                    alignment_mode='expand')[0]
 
+
         ancestors = list(fb_head_token.ancestors)
+        if len(ancestors) == 0:
+            print('\n\n')
+            print(self.current_sentence)
+            print(self.current_head)
+            print(fb_head_token.text)
+            print(fb_head_token.right_edge.text)
+            print('\n\n')
+            self.num_anomalies += 1
+            if self.num_anomalies > 3:
+                exit()
+
         if len(ancestors) == 0 and fb_head_token.pos_ == 'AUX':
             syntactic_head_token = fb_head_token
         elif fb_head_token.pos_ in ['PROPN', 'NOUN', 'VERB']:
@@ -178,17 +192,12 @@ class FbSentenceProcessor:
         else:
             syntactic_head_token = None
             for token in ancestors:
-                if token.pos_ in ['NUM', 'PROPN', 'NOUN', 'VERB']:
+                if token.pos_ in ['NOUN', 'NUM', 'PROPN', 'VERB', 'AUX']:
                     syntactic_head_token = token.head
                     break
-            for token in ancestors:
-                if token.pos_ == 'AUX':
-                    syntactic_head_token = token.head
-                    break
-
 
         span_start = syntactic_head_token.left_edge.idx
-        span_end = syntactic_head_token.right_edge.idx
+        span_end = syntactic_head_token.right_edge.idx # add +1 logic here
 
         return span_start, span_end
 
