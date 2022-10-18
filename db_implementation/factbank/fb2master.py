@@ -117,24 +117,13 @@ class FB2Master:
         sp = FbSentenceProcessor(sentences_sql_return, self.initial_offsets, self.rel_source_texts,
                                  self.source_offsets, self.target_offsets, self.targets, self.fact_values)
 
-        debug = False
-        try:
-            sp.go()
-        except Exception:
-            debug = True
+        sp.go()
 
         final_attitudes = []
         for key in sp.attitudes:
             current_attitudes_list = sp.attitudes[key]
             for item in current_attitudes_list:
                 final_attitudes.append(item)
-
-        if debug:
-            final_sources = []
-            for source in sp.sources:
-                final_sources.append(source[:-1])
-        else:
-            final_sources = sp.sources
 
         self.errors, self.num_errors = sp.get_errors()
 
@@ -147,7 +136,7 @@ class FB2Master:
                                 'VALUES (?, ?, ?, ?, ?, ?, ?, ?);', sp.mentions)
         self.ma_con.executemany('INSERT INTO sources '
                                 '(source_id, sentence_id, token_id, parent_source_id, nesting_level, [source]) '
-                                'VALUES (?, ?, ?, ?, ?, ?);', final_sources)
+                                'VALUES (?, ?, ?, ?, ?, ?);', sp.sources)
         self.ma_con.executemany('INSERT INTO attitudes '
                                 '(attitude_id, source_id, target_token_id, label, label_type) '
                                 'VALUES (?, ?, ?, ?, ?);', final_attitudes)
@@ -208,7 +197,6 @@ class FB2Master:
         self.load_data()
         self.load_errors()
         self.close()
-
 
 
 if __name__ == "__main__":

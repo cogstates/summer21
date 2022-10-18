@@ -42,8 +42,6 @@ class FbSentenceProcessor:
         self.current_sentence = None
         self.current_head = None
 
-        self.num_anomalies = 0
-
     # sending each sentence to the process_sentence function
     def go(self):
         bar = Bar('Examples Processed', max=13506)  # 13506 = number of attitudes
@@ -171,35 +169,20 @@ class FbSentenceProcessor:
         pred_head = self.current_sentence[head_token_offset_start:head_token_offset_end]
         fb_head_token = self.current_doc.char_span(head_token_offset_start, head_token_offset_end,
                                                    alignment_mode='expand')[0]
-
-
-        ancestors = list(fb_head_token.ancestors)
-        if len(ancestors) == 0:
-            print('\n\n')
-            print(self.current_sentence)
-            print(self.current_head)
-            print(fb_head_token.text)
-            print(fb_head_token.right_edge.text)
-            print('\n\n')
-            self.num_anomalies += 1
-            if self.num_anomalies > 3:
-                exit()
-
-        # use dep_ == ROOT instead of len ancestors
-        # get rid of NUM
-        if len(ancestors) == 0 and fb_head_token.pos_ == 'AUX':
+        if fb_head_token.dep_ == 'ROOT':
             syntactic_head_token = fb_head_token
-        elif fb_head_token.pos_ in ['PROPN', 'NOUN', 'VERB']:
+        elif fb_head_token.pos_ in ['PRON', 'PROPN', 'NOUN', 'VERB', 'AUX', 'NUM']:
             syntactic_head_token = fb_head_token.head
         else:
             syntactic_head_token = None
+            ancestors = list(fb_head_token.ancestors)
             for token in ancestors:
-                if token.pos_ in ['NOUN', 'NUM', 'PROPN', 'VERB', 'AUX']:
+                if token.pos_ in ['PRON', 'PROPN', 'NOUN', 'VERB', 'AUX', 'NUM']:
                     syntactic_head_token = token.head
                     break
 
         span_start = syntactic_head_token.left_edge.idx
-        span_end = syntactic_head_token.right_edge.idx # add +1 logic here
+        span_end = syntactic_head_token.right_edge.idx + len(syntactic_head_token.right_edge.text)
 
         return span_start, span_end
 
