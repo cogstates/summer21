@@ -206,5 +206,5 @@ if __name__ == "__main__":
     test.generate_database()
     print('\n\nDone.')
     run_time = time() - START_TIME
-    print("Runtime:", round(run_time % 60, 3), 'sec')
+    print("Runtime:", round(run_time, 3), 'sec')
 
