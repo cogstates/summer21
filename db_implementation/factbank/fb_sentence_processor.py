@@ -178,11 +178,19 @@ class FbSentenceProcessor:
             ancestors = list(fb_head_token.ancestors)
             for token in ancestors:
                 if token.pos_ in ['PRON', 'PROPN', 'NOUN', 'VERB', 'AUX', 'NUM']:
-                    syntactic_head_token = token.head
+                    syntactic_head_token = token
                     break
 
-        span_start = syntactic_head_token.left_edge.idx
-        span_end = syntactic_head_token.right_edge.idx + len(syntactic_head_token.right_edge.text)
+        children = list(syntactic_head_token.children)
+        if children[-1].pos_ == 'PUNCT':
+            children = children[:-1]
+        if len(children) <= 1:
+            span_start = syntactic_head_token.idx
+            more_children = [child for child in fb_head_token.children]
+            span_end = more_children[-1].idx + len(more_children[-1].text)
+        else:
+            span_start = children[0].idx
+            span_end = children[-1].idx + len(children[-1].text)
 
         return span_start, span_end
 

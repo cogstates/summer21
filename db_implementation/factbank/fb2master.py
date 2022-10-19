@@ -8,8 +8,6 @@ from progress.bar import Bar
 from time import time
 
 
-
-
 class FB2Master:
     # static constants to index into the raw factbank dataset
 
