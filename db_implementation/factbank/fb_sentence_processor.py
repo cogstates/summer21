@@ -169,6 +169,7 @@ class FbSentenceProcessor:
         pred_head = self.current_sentence[head_token_offset_start:head_token_offset_end]
         fb_head_token = self.current_doc.char_span(head_token_offset_start, head_token_offset_end,
                                                    alignment_mode='expand')[0]
+
         if fb_head_token.dep_ == 'ROOT':
             syntactic_head_token = fb_head_token
         elif fb_head_token.pos_ in ['PRON', 'PROPN', 'NOUN', 'VERB', 'AUX', 'NUM']:
@@ -181,16 +182,22 @@ class FbSentenceProcessor:
                     syntactic_head_token = token
                     break
 
+        ancestors = list(syntactic_head_token.ancestors)
         children = list(syntactic_head_token.children)
-        if children[-1].pos_ == 'PUNCT':
-            children = children[:-1]
-        if len(children) <= 1:
-            span_start = syntactic_head_token.idx
-            more_children = [child for child in fb_head_token.children]
-            span_end = more_children[-1].idx + len(more_children[-1].text)
+        one_ancestor_child = False
+        right_edge = None
+        if len(ancestors) == 1 and len(children) == 1:
+            one_ancestor_child = True
+            right_edge = syntactic_head_token.right_edge.idx + len(syntactic_head_token.right_edge.text)
+            syntactic_head_token = syntactic_head_token.head
+
+        # if children[-1].pos_ == 'PUNCT':
+        #     children = children[:-1]
+        span_start = syntactic_head_token.left_edge.idx
+        if one_ancestor_child:
+            span_end = right_edge
         else:
-            span_start = children[0].idx
-            span_end = children[-1].idx + len(children[-1].text)
+            span_end = syntactic_head_token.right_edge.idx + len(syntactic_head_token.right_edge.text)
 
         return span_start, span_end
 
