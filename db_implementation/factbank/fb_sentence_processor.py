@@ -184,12 +184,15 @@ class FbSentenceProcessor:
 
         ancestors = list(syntactic_head_token.ancestors)
         children = list(syntactic_head_token.children)
+        children_text = [child.text for child in children]
         one_ancestor_child = False
         right_edge = None
         if len(ancestors) == 1 and len(children) == 1:
             one_ancestor_child = True
             right_edge = syntactic_head_token.right_edge.idx + len(syntactic_head_token.right_edge.text)
             syntactic_head_token = syntactic_head_token.head
+        elif ',' in children_text and children_text.index(',') > len(children_text) // 2:
+            children = children[:children_text.index(',') + 1]
 
         # if children[-1].pos_ == 'PUNCT':
         #     children = children[:-1]
@@ -197,7 +200,7 @@ class FbSentenceProcessor:
         if one_ancestor_child:
             span_end = right_edge
         else:
-            span_end = syntactic_head_token.right_edge.idx + len(syntactic_head_token.right_edge.text)
+            span_end = children[-1].idx + len(children[-1].text)
 
         return span_start, span_end
 
