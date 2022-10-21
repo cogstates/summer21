@@ -182,24 +182,28 @@ class FbSentenceProcessor:
                     syntactic_head_token = token
                     break
 
+        span_start, span_end = None, None
         ancestors = list(syntactic_head_token.ancestors)
         children = list(syntactic_head_token.children)
-        children_text = [child.text for child in children]
-        one_ancestor_child = False
-        right_edge = None
         if len(ancestors) == 1 and len(children) == 1:
-            one_ancestor_child = True
-            right_edge = syntactic_head_token.right_edge.idx + len(syntactic_head_token.right_edge.text)
+            span_end = syntactic_head_token.right_edge.idx + len(syntactic_head_token.right_edge.text)
             syntactic_head_token = syntactic_head_token.head
-        elif ',' in children_text and children_text.index(',') > len(children_text) // 2:
-            children = children[:children_text.index(',') + 1]
-
-        # if children[-1].pos_ == 'PUNCT':
-        #     children = children[:-1]
         span_start = syntactic_head_token.left_edge.idx
-        if one_ancestor_child:
-            span_end = right_edge
-        else:
+        if span_end is None:
+            span_end = syntactic_head_token.right_edge.idx + len(syntactic_head_token.right_edge.text)
+
+        first_span = self.current_sentence[span_start:span_end]
+        if pred_head not in first_span:
+            ancestors = list(syntactic_head_token.ancestors)
+            children = list(syntactic_head_token.children)
+            children_text = [child.text for child in children]
+
+            if ',' in children_text and children_text.index(',') > len(children_text) // 2:
+                children = children[:children_text.index(',') + 1]
+
+            if children[-1].pos_ == 'PUNCT':
+                children = children[:-1]
+            span_start = syntactic_head_token.left_edge.idx
             span_end = children[-1].idx + len(children[-1].text)
 
         return span_start, span_end
