@@ -175,6 +175,7 @@ class FbSentenceProcessor:
         else:
             syntactic_head_token = None
             ancestors = list(fb_head_token.ancestors)
+            ancestors.insert(0, fb_head_token)
             if len(ancestors) == 1:
                 syntactic_head_token = ancestors[0]
             else:
