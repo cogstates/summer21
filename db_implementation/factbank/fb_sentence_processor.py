@@ -1,6 +1,7 @@
 from progress.bar import Bar
 import spacy
 
+
 class FbSentenceProcessor:
 
     FILE = 0
@@ -166,7 +167,6 @@ class FbSentenceProcessor:
 
     def get_head_span(self, head_token_offset_start, head_token_offset_end):
 
-        pred_head = self.current_sentence[head_token_offset_start:head_token_offset_end]
         fb_head_token = self.current_doc.char_span(head_token_offset_start, head_token_offset_end,
                                                    alignment_mode='expand')[0]
 
@@ -176,6 +176,7 @@ class FbSentenceProcessor:
             syntactic_head_token = None
             ancestors = list(fb_head_token.ancestors)
             ancestors.insert(0, fb_head_token)
+
             if len(ancestors) == 1:
                 syntactic_head_token = ancestors[0]
             else:
@@ -183,36 +184,15 @@ class FbSentenceProcessor:
                     if token.pos_ in ['PRON', 'PROPN', 'NOUN', 'VERB', 'AUX']:
                         syntactic_head_token = token
                         break
+
                 if syntactic_head_token is None:
                     for token in ancestors:
                         if token.pos_ == 'NUM':
                             syntactic_head_token = token
                             break
 
-
         span_start = syntactic_head_token.left_edge.idx
         span_end = syntactic_head_token.right_edge.idx + len(syntactic_head_token.right_edge.text)
-        # ancestors = list(syntactic_head_token.ancestors)
-        # children = list(syntactic_head_token.children)
-        # lefts = list(syntactic_head_token.lefts)
-        # if len(lefts) == 0:
-        #     span_start = syntactic_head_token.left_edge.idx
-        # else:
-        #     span_start = list(syntactic_head_token.lefts)[0].idx
-        #
-        # rights = list(syntactic_head_token.rights)
-        # if len(rights) == 0:
-        #     span_end = syntactic_head_token.right_edge.idx + len(syntactic_head_token.right_edge.text)
-        #     # span_end_i = syntactic_head_token.right_edge.i
-        # else:
-        #     span_end = rights[-1].idx + len(rights[-1].text)
-            # span_end_i = rights[-1].i
-        #
-        # first_span = self.current_sentence[span_start:span_end]
-        # while pred_head not in first_span and span_end_i + 1 < len(self.current_doc):
-        #     span_end += len(self.current_doc[span_end_i + 1].text) + 1
-        #     span_end_i += 1
-        #     first_span = self.current_sentence[span_start:span_end]
 
         return span_start, span_end
 
