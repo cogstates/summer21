@@ -172,8 +172,6 @@ class FbSentenceProcessor:
 
         if fb_head_token.dep_ == 'ROOT':
             syntactic_head_token = fb_head_token
-        elif fb_head_token.pos_ in ['PRON', 'PROPN', 'NOUN', 'VERB', 'AUX', 'NUM'] and fb_head_token.head.pos_ != 'ADP':
-            syntactic_head_token = fb_head_token.head
         else:
             syntactic_head_token = None
             ancestors = list(fb_head_token.ancestors)
@@ -181,31 +179,39 @@ class FbSentenceProcessor:
                 syntactic_head_token = ancestors[0]
             else:
                 for token in ancestors:
-                    if token.pos_ in ['PRON', 'PROPN', 'NOUN', 'VERB', 'AUX', 'NUM']:
+                    if token.pos_ in ['PRON', 'PROPN', 'NOUN', 'VERB', 'AUX']:
                         syntactic_head_token = token
                         break
+                if syntactic_head_token is None:
+                    for token in ancestors:
+                        if token.pos_ == 'NUM':
+                            syntactic_head_token = token
+                            break
 
+
+        span_start = syntactic_head_token.left_edge.idx
+        span_end = syntactic_head_token.right_edge.idx + len(syntactic_head_token.right_edge.text)
         # ancestors = list(syntactic_head_token.ancestors)
         # children = list(syntactic_head_token.children)
-        lefts = list(syntactic_head_token.lefts)
-        if len(lefts) == 0:
-            span_start = syntactic_head_token.left_edge.idx
-        else:
-            span_start = list(syntactic_head_token.lefts)[0].idx
-
-        rights = list(syntactic_head_token.rights)
-        if len(rights) == 0:
-            span_end = syntactic_head_token.right_edge.idx + len(syntactic_head_token.right_edge.text)
-            span_end_i = syntactic_head_token.right_edge.i
-        else:
-            span_end = rights[-1].idx + len(rights[-1].text)
-            span_end_i = rights[-1].i
-
-        first_span = self.current_sentence[span_start:span_end]
-        while pred_head not in first_span and span_end_i + 1 < len(self.current_doc):
-            span_end += len(self.current_doc[span_end_i + 1].text) + 1
-            span_end_i += 1
-            first_span = self.current_sentence[span_start:span_end]
+        # lefts = list(syntactic_head_token.lefts)
+        # if len(lefts) == 0:
+        #     span_start = syntactic_head_token.left_edge.idx
+        # else:
+        #     span_start = list(syntactic_head_token.lefts)[0].idx
+        #
+        # rights = list(syntactic_head_token.rights)
+        # if len(rights) == 0:
+        #     span_end = syntactic_head_token.right_edge.idx + len(syntactic_head_token.right_edge.text)
+        #     # span_end_i = syntactic_head_token.right_edge.i
+        # else:
+        #     span_end = rights[-1].idx + len(rights[-1].text)
+            # span_end_i = rights[-1].i
+        #
+        # first_span = self.current_sentence[span_start:span_end]
+        # while pred_head not in first_span and span_end_i + 1 < len(self.current_doc):
+        #     span_end += len(self.current_doc[span_end_i + 1].text) + 1
+        #     span_end_i += 1
+        #     first_span = self.current_sentence[span_start:span_end]
 
         return span_start, span_end
 
