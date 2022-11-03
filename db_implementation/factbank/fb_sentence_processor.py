@@ -169,10 +169,9 @@ class FbSentenceProcessor:
 
         fb_head_token = self.current_doc.char_span(head_token_offset_start, head_token_offset_end,
                                                    alignment_mode='expand')[0]
-        #
-        # when on target, don't take CC or CONJ arcs
+        # when above target, eliminate CC or CONJ arcs
         # if on non-FB-target verb mid-traversal, DO take CC or CONJ arcs
-        # if hit AUX, don't take CC or CONJ
+        # if hit AUX, don't take CC or CONJ - don't worry for now
         if fb_head_token.dep_ == 'ROOT':
             syntactic_head_token = fb_head_token
         else:
