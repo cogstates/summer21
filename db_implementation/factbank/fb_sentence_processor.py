@@ -183,7 +183,10 @@ class FbSentenceProcessor:
                 syntactic_head_token = ancestors[0]
             else:
                 for token in ancestors:
-                    if token.pos_ in ['PRON', 'PROPN', 'NOUN', 'VERB', 'AUX']:
+                    if token.pos_ in ['PRON', 'PROPN', 'NOUN'] and token.dep_ not in ['CC', 'CONJ']:
+                        syntactic_head_token = token
+                        break
+                    elif token.pos_ in ['VERB', 'AUX'] and token.dep_ in ['CC', 'CONJ']:
                         syntactic_head_token = token
                         break
 
