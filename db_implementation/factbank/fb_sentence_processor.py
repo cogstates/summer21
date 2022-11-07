@@ -38,7 +38,7 @@ class FbSentenceProcessor:
         self.attitudes = {}
         self.next_attitude_id = 1
 
-        self.nlp = spacy.load("en_core_web_sm")
+        self.nlp = spacy.load("en_core_web_lg")
         self.current_doc = None
         self.current_sentence = None
         self.current_head = None
@@ -174,12 +174,10 @@ class FbSentenceProcessor:
         relevant_tokens = []
 
         for token in syntactic_head_subtree:
-            if token.dep_ not in ['CC', 'CONJ']:
-                relevant_tokens.append(token)
-            elif token.dep_ in ['CC', 'CONJ'] and token.i > fb_head_token.i:
+            if token.dep_ in ['cc', 'conj'] and token.i > fb_head_token.i:
                 break
+            relevant_tokens.append(token)
 
-        relevant_tokens.sort(key=lambda x: x.idx)
         left_edge = relevant_tokens[0].idx
         right_edge = relevant_tokens[-1].idx + len(relevant_tokens[-1].text)
 
@@ -189,6 +187,7 @@ class FbSentenceProcessor:
 
         fb_head_token = self.current_doc.char_span(head_token_offset_start, head_token_offset_end,
                                                    alignment_mode='expand')[0]
+
         # when above target, eliminate CC or CONJ arcs
         # if on non-FB-target verb mid-traversal, DO take CC or CONJ arcs
         # if hit AUX, don't take CC or CONJ - don't worry for now
