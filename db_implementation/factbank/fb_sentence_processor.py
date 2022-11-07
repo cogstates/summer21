@@ -165,6 +165,26 @@ class FbSentenceProcessor:
                                       target_offset_end, attitude_source_id, fact_value)
             bar.next()
 
+    @staticmethod
+    def get_final_span(syntactic_head_token, fb_head_token):
+
+        # mention subtree vs children distinction in meeting!
+        syntactic_head_subtree = list(syntactic_head_token.subtree)
+
+        relevant_tokens = []
+
+        for token in syntactic_head_subtree:
+            if token.dep_ not in ['CC', 'CONJ']:
+                relevant_tokens.append(token)
+            elif token.dep_ in ['CC', 'CONJ'] and token.i > fb_head_token.i:
+                break
+
+        relevant_tokens.sort(key=lambda x: x.idx)
+        left_edge = relevant_tokens[0].idx
+        right_edge = relevant_tokens[-1].idx + len(relevant_tokens[-1].text)
+
+        return left_edge, right_edge
+
     def get_head_span(self, head_token_offset_start, head_token_offset_end):
 
         fb_head_token = self.current_doc.char_span(head_token_offset_start, head_token_offset_end,
@@ -183,10 +203,10 @@ class FbSentenceProcessor:
                 syntactic_head_token = ancestors[0]
             else:
                 for token in ancestors:
-                    if token.pos_ in ['PRON', 'PROPN', 'NOUN'] and token.dep_ not in ['CC', 'CONJ']:
+                    if token.pos_ in ['PRON', 'PROPN', 'NOUN']:
                         syntactic_head_token = token
                         break
-                    elif token.pos_ in ['VERB', 'AUX'] and token != fb_head_token:
+                    elif token.pos_ in ['VERB', 'AUX']:
                         syntactic_head_token = token
                         break
 
@@ -196,8 +216,8 @@ class FbSentenceProcessor:
                             syntactic_head_token = token
                             break
 
-        span_start = syntactic_head_token.left_edge.idx
-        span_end = syntactic_head_token.right_edge.idx + len(syntactic_head_token.right_edge.text)
+        # postprocessing for CC and CONJ -- exclude child arcs with CC or CONJ
+        span_start, span_end = self.get_final_span(syntactic_head_token, fb_head_token)
 
         return span_start, span_end
 
@@ -230,6 +250,7 @@ class FbSentenceProcessor:
             if target_offset_start != -1:
                 span_offset_start, span_offset_end = self.get_head_span(target_offset_start, target_offset_end)
                 span_text = self.current_sentence[span_offset_start:span_offset_end]
+
                 self.mentions.append((self.next_mention_id, global_sentence_id,
                                       text, target_offset_start, target_offset_end,
                                       span_text, span_offset_start, span_offset_end))
