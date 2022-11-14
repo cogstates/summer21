@@ -5,8 +5,7 @@ from spacy import displacy
 # Mr. Stronach will direct an effort to reduce overhead and curb capital spending "until a more satisfactory level of profit is achieved and maintained," Magna said.
 
 nlp = spacy.load("en_core_web_lg")
-doc = nlp('Mr. Stronach will direct an effort to reduce overhead and curb capital spending "until a more satisfactory level of profit is achieved and maintained," Magna said.')
-
+doc = nlp('The Pentagon said today it will re-examine the question are the remains inside the Tomb of the Unknown from the Vietnam War, in fact, known?')
 for token in doc:
     print(token.text)
     sub_tree = list(token.subtree)
