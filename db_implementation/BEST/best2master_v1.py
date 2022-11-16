@@ -10,8 +10,8 @@ import os
 # also, save author metadata.
 # to ask in meeting: do we care about _____ (Look at ERE and BEST metadata)
 
-class BEST2MASTER:
 
+class BEST2MASTER:
 
     def __init__(self):
         self.source_text = {}
@@ -53,13 +53,14 @@ class BEST2MASTER:
                     self.source_text[doc_id][passage_id] = passage.text
                     passage_id += 1
             elif child.tag.upper() == 'POST':
-                self.source_text[doc_id][child.attrib['id']] = child.text
+                for post_child in child:
+                    self.source_text[doc_id][child.attrib['id']] = child.text
 
         # testing
 
         for doc_id in self.source_text:
             doc = self.source_text[doc_id]
-            print(doc_id)
+            # print(doc_id)
             if doc_id == "ENG_DF_000261_20150321_F00000081":
                 for p_id in doc:
                     print(p_id, doc[p_id])
