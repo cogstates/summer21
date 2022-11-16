@@ -16,7 +16,7 @@ SELECT distinct target_data.*, source_data.* FROM
              (SELECT a.attitude_id, s.sentence_id, s.sentence, s.file, s.file_sentence_id, m.token_text target_head,
        m.token_offset_start target_offset_start, m.token_offset_end target_offset_end,
        m.phrase_offset_start target_span_start, m.phrase_offset_end target_span_end,
-       SUBSTR(s.sentence, m.phrase_offset_start, m.phrase_offset_end - m.phrase_offset_start + 1) target_span, m.token_id target_token, a.label
+       phrase_text target_span, m.token_id target_token, a.label
 FROM attitudes a
     JOIN mentions m on m.token_id = a.target_token_id
     JOIN sentences s on m.sentence_id = s.sentence_id) target_data
