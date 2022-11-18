@@ -2,8 +2,10 @@
 # osbornty@bc.edu
 # 09/18/2022
 
-import xml.etree.ElementTree as ET
+import xmltodict
 import os
+import pprint
+from ddl import DDL
 
 # TODO:
 # for message boards, make it so that quotes are stored when the text tag's text attribute is empty.
@@ -12,6 +14,7 @@ import os
 
 
 class BEST2MASTER:
+    pp = pprint.PrettyPrinter()
 
     def __init__(self):
         self.source_text = {}
@@ -33,38 +36,14 @@ class BEST2MASTER:
         for filename in os.listdir(directory):
             f = os.path.join(directory, filename)
             ext = os.path.splitext(f)[1]
-            if ext == '.xml':
+            if ext == '.xml' and 'ENG_DF' not in f:
                 self.parse_source_file(f)
 
     # parsing a single source XML file
-    def parse_source_file(self, f):
-        tree = ET.parse(f)
-        root = tree.getroot()
-        metadata = root.attrib
-        doc_id = metadata['id']
-        self.source_text[doc_id] = {}
-
-        for child in root:
-            if child.tag.upper() == 'HEADLINE':
-                self.source_text[doc_id][0] = child.text
-            elif child.tag.upper() == 'TEXT':
-                passage_id = 1
-                for passage in child:
-                    self.source_text[doc_id][passage_id] = passage.text
-                    passage_id += 1
-            elif child.tag.upper() == 'POST':
-                for post_child in child:
-                    self.source_text[doc_id][child.attrib['id']] = child.text
-
-        # testing
-
-        for doc_id in self.source_text:
-            doc = self.source_text[doc_id]
-            # print(doc_id)
-            if doc_id == "ENG_DF_000261_20150321_F00000081":
-                for p_id in doc:
-                    print(p_id, doc[p_id])
-                print('\n')
+    def parse_source_file(self, f_name):
+        f = open(f_name, encoding='utf-8')
+        tree = xmltodict.parse(f.read())['DOC']
+        self.pp.pprint(tree)
 
     # loading ERE data
     def load_ere(self):
@@ -77,3 +56,4 @@ class BEST2MASTER:
 
 if __name__ == "__main__":
     test = BEST2MASTER()
+    test.load_source_text()
