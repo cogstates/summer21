@@ -6,6 +6,7 @@ import xmltodict
 import os
 import pprint
 from ddl import DDL
+from nltk.tokenize import sent_tokenize
 
 # TODO:
 # for message boards, make it so that quotes are stored when the text tag's text attribute is empty.
@@ -43,7 +44,20 @@ class BEST2MASTER:
     def parse_source_file(self, f_name):
         f = open(f_name, encoding='utf-8')
         tree = xmltodict.parse(f.read())['DOC']
-        self.pp.pprint(tree)
+        # self.pp.pprint(tree)
+        text = tree['TEXT']['P']
+        full_text = ' '.join(text)
+
+        tokenized_sentences = []
+        for sen in text:
+            output = sent_tokenize(sen)
+            for s in output:
+                tokenized_sentences.append(s)
+
+        entry = {'id': tree['@id'], 'headline': tree['HEADLINE'],
+                 'full_text': full_text, 'sentences': tokenized_sentences}
+        self.pp.pprint(entry)
+        print('\n\n\n')
 
     # loading ERE data
     def load_ere(self):
