@@ -21,9 +21,11 @@ class BEST2MASTER:
         self.source_text = {}
         self.ere = {}
         self.best = {}
-        self.load_source_text()
 
     # loading all source text
+    def load_data(self):
+        self.load_xml('source')
+        self.load_xml('annotation')
 
     # source text will be stored as a dictionary of dictionaries,
     # each inner dictionary representing one source XML file,
@@ -32,14 +34,16 @@ class BEST2MASTER:
     # keys for these entries will either be taken directly from the associated XML entry,
     # otherwise we will auto-generate them as ascending integers.
     # headlines will always have an ID of 0 in cases where the XML does not give us IDs
-    def load_source_text(self):
-        directory = '../../raw_corpora/BEST/english/data/source/'
+    def load_xml(self, folder):
+        directory = '../../raw_corpora/BEST/english/data/{}/'.format(folder)
         for filename in os.listdir(directory):
             f = os.path.join(directory, filename)
             ext = os.path.splitext(f)[1]
-            if ext == '.xml' and 'ENG_DF' not in f:
-                self.parse_source_file(f)
-
+            if ext == '.xml' and 'NYT_ENG' in f and 'ENG_DF' not in f:
+                if folder == 'source':
+                    self.parse_source_file(f)
+                elif folder == 'annotation':
+                    self.parse_best_file(f)
     # parsing a single source XML file
     def parse_source_file(self, f_name):
         f = open(f_name, encoding='utf-8')
@@ -56,18 +60,43 @@ class BEST2MASTER:
 
         entry = {'id': tree['@id'], 'headline': tree['HEADLINE'],
                  'full_text': full_text, 'sentences': tokenized_sentences}
-        self.pp.pprint(entry)
+        self.source_text[tree['@id']] = entry
         print('\n\n\n')
 
     # loading ERE data
     def load_ere(self):
         pass
 
-    # loading BEST annotation data
-    def load_best(self):
-        pass
+    def parse_best_file(self, f_name):
+        f = open(f_name, encoding='utf-8')
+        tree = xmltodict.parse(f.read())['belief_sentiment_doc']
+        source_id = f_name[f_name.index('annotation/') + len('annotation/'):f_name.index('.best.xml')]
+        # source = self.source_text[source_id]
+        entry = {source_id: tree}
+        belief_annotations = tree['belief_annotations']
+        belief_relations = belief_annotations['relations']['relation']
+
+
+        max_offset = 0
+        for belief_relation in belief_relations:
+            if 'trigger' in belief_relation and int(belief_relation['trigger']['@offset']) > max_offset:
+                max_offset = int(belief_relation['trigger']['@offset'])
+
+        belief_events = belief_annotations['events']['event']
+
+        entry['belief_relations'] = belief_relations
+        entry['belief_events'] = belief_events
+        entry['max_offset'] = max_offset
+
+        self.best[source_id] = entry
+
 
 
 if __name__ == "__main__":
     test = BEST2MASTER()
-    test.load_source_text()
+    test.load_data()
+    source_text_ids = [key for key in test.source_text.keys()]
+    # test.pp.pprint(test.source_text[source_text_ids[0]])
+    test.pp.pprint(test.best[source_text_ids[0]]['belief_relations'])
+    print(test.best[source_text_ids[0]]['max_offset'])
+    print(len(test.source_text[source_text_ids[0]]['full_text']) + len(test.source_text[source_text_ids[0]]['headline']))
