@@ -1,0 +1,29 @@
+# Offsets Pseudocode: News Articles
+
+text = raw contents of XML source file
+paragraph_indicies = {}
+i = 0
+p_start = text.find('<P>')
+
+while p_start != -1:
+    p_end = text.find('<\\P>')
+    paragraph_indicies[p_start] = p_end
+    
+    text = text[p_end + len('<\\P>'):]
+    p_start = text.find('<P>')
+
+# normalizing offsets
+offset = some offset from XML files
+
+paragraph_starts = paragraph_indicies.keys().sort()
+
+final_p_start = None
+final_p_end = None
+
+for p_start in paragraph_starts:
+    p_end = paragraph_indicies[p_start]
+    
+    if p_start < offset and p_end > offset:
+        final_p_start = p_start
+        final_p_end = p_end
+        break
