@@ -16,6 +16,7 @@ from nltk.tokenize import sent_tokenize
 
 class BEST2MASTER:
     pp = pprint.PrettyPrinter()
+    max_length = 0
 
     def __init__(self):
         self.source_text = {}
@@ -47,7 +48,8 @@ class BEST2MASTER:
     # parsing a single source XML file
     def parse_source_file(self, f_name):
         f = open(f_name, encoding='utf-8')
-        tree = xmltodict.parse(f.read())['DOC']
+        raw_text_orig = f.read()
+        tree = xmltodict.parse(raw_text_orig)['DOC']
         # self.pp.pprint(tree)
         text = tree['TEXT']['P']
         full_text = ' '.join(text)
@@ -55,13 +57,26 @@ class BEST2MASTER:
         tokenized_sentences = []
         for sen in text:
             output = sent_tokenize(sen)
+            paragraph = []
             for s in output:
-                tokenized_sentences.append(s)
+                paragraph.append(s)
+            tokenized_sentences.append(paragraph)
+
+        # populating dictionary of paragraph start indicies "<P>"
+        paragraph_indices = {}
+        raw_text = raw_text_orig
+        p_start = raw_text.find('<P>')
+
+        while p_start != -1:
+            p_end = raw_text.find('</P>', p_start)
+            paragraph_indices[p_start] = p_end
+            p_start = raw_text.find('<P>', p_start + len('<P>'))
 
         entry = {'id': tree['@id'], 'headline': tree['HEADLINE'],
-                 'full_text': full_text, 'sentences': tokenized_sentences}
+                 'raw_text': raw_text_orig, 'full_text': full_text,
+                 'sentences': tokenized_sentences,
+                 'paragraph_indices': paragraph_indices}
         self.source_text[tree['@id']] = entry
-        print('\n\n\n')
 
     # loading ERE data
     def load_ere(self):
@@ -71,24 +86,41 @@ class BEST2MASTER:
         f = open(f_name, encoding='utf-8')
         tree = xmltodict.parse(f.read())['belief_sentiment_doc']
         source_id = f_name[f_name.index('annotation/') + len('annotation/'):f_name.index('.best.xml')]
-        # source = self.source_text[source_id]
-        entry = {source_id: tree}
-        belief_annotations = tree['belief_annotations']
-        belief_relations = belief_annotations['relations']['relation']
+
+        relation_belief_annotations = tree['belief_annotations']['relations']['relation']
+        event_belief_annotations = tree['belief_annotations']['events']['event']
+
+        final_relation_belief_annotations = []
+
+        for relation_belief_annotation in relation_belief_annotations:
+            ere_id = relation_belief_annotation['@ere_id']
+            belief = relation_belief_annotation['beliefs']['belief']
+            if type(belief) != list:
+                label = belief['@type']
+                if label != 'na':
+                    polarity = belief['@polarity']
+                    if belief['@sarcasm'] == 'no':
+                        sarcasm = False
+                    else:
+                        sarcasm = True
+                else:
+                    polarity, sarcasm = None, None
+
+                if 'trigger' in relation_belief_annotation:
+                    trigger = relation_belief_annotation['trigger']
+                    offset = int(trigger['@offset'])
+                    length = int(trigger['@length'])
+                    text = trigger['#text']
+                else:
+                    offset, length, text = None, None, None
+
+                final_relation_belief_annotation = [ere_id, text, offset, length]
+            elif len(belief) > self.max_length:
+                self.max_length = len(belief)
 
 
-        max_offset = 0
-        for belief_relation in belief_relations:
-            if 'trigger' in belief_relation and int(belief_relation['trigger']['@offset']) > max_offset:
-                max_offset = int(belief_relation['trigger']['@offset'])
 
-        belief_events = belief_annotations['events']['event']
 
-        entry['belief_relations'] = belief_relations
-        entry['belief_events'] = belief_events
-        entry['max_offset'] = max_offset
-
-        self.best[source_id] = entry
 
 
 
@@ -97,6 +129,7 @@ if __name__ == "__main__":
     test.load_data()
     source_text_ids = [key for key in test.source_text.keys()]
     # test.pp.pprint(test.source_text[source_text_ids[0]])
-    test.pp.pprint(test.best[source_text_ids[0]]['belief_relations'])
-    print(test.best[source_text_ids[0]]['max_offset'])
-    print(len(test.source_text[source_text_ids[0]]['full_text']) + len(test.source_text[source_text_ids[0]]['headline']))
+    print(source_text_ids[0])
+    test.pp.pprint((test.source_text[source_text_ids[0]]['paragraph_indices']))
+    # print(test.best[source_text_ids[0]]['max_offset'])
+    # print(len(test.source_text[source_text_ids[0]]['full_text']) + len(test.source_text[source_text_ids[0]]['headline']))

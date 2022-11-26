@@ -2,14 +2,13 @@
 
 text = raw contents of XML source file
 paragraph_indicies = {}
-i = 0
 p_start = text.find('<P>')
 
 while p_start != -1:
-    p_end = text.find('<\\P>')
+    p_end = text.find('<\P>')
     paragraph_indicies[p_start] = p_end
     
-    text = text[p_end + len('<\\P>'):]
+    text = text[p_end + len('<\P>'):]
     p_start = text.find('<P>')
 
 # normalizing offsets
