@@ -77,21 +77,22 @@ class BEST2MASTER:
 
         for paragraph in text:
 
-            p_start = p_starts.pop(0)
             sent_tokenized_paragraph = sent_tokenize(paragraph)
-            final_paragraph = []
 
-            for n, s in enumerate(sent_tokenized_paragraph):
 
-                sent_offset_start = raw_text_orig.index(s) - p_start
-                if n > 0:
-                    for s2 in sent_tokenized_paragraph[:n]:
-                        sent_offset_start += len(s2)
+            for s in sent_tokenized_paragraph:
+                final_paragraph = []
 
-                final_paragraph.append((i, sent_offset_start, s))
+                sent_offset_start = raw_text_orig.index(s)
+                sent_offset_end = sent_offset_start + len(s)
+                final_paragraph.append(i)
+                final_paragraph.append(sent_offset_start)
+                final_paragraph.append(sent_offset_end)
+                final_paragraph.append(s)
+                assert s == raw_text_orig[sent_offset_start:sent_offset_end]
                 i += 1
 
-            tokenized_sentences.append(final_paragraph)
+                tokenized_sentences.append(final_paragraph)
 
         entry = {'id': tree['@id'], 'headline': tree['HEADLINE'],
                  'raw_text': raw_text_orig, 'split_text': text,
@@ -164,15 +165,17 @@ class BEST2MASTER:
                     source_offset = int(source['@offset'])
                     source_length = int(source['@length'])
                     source_text = source['#text']
+                    sentence_id = self.find_containing_sentence(source_id, source_offset, source_text, source_length)
 
-                    # assert raw_source_text[source_offset:source_offset + source_length] == source_text
+                    assert raw_source_text[source_offset:source_offset + source_length] == source_text
                 else:
-                    source_ere_id, source_offset, source_length, source_text = None, None, None, None
+                    source_ere_id, source_offset, source_length, source_text, sentence_id = None, None, None, None, None
 
                 this_belief.append(source_ere_id)
                 this_belief.append(source_offset)
                 this_belief.append(source_length)
                 this_belief.append(source_text)
+                this_belief.append(sentence_id)
 
                 result.append(this_belief)
 
@@ -181,17 +184,27 @@ class BEST2MASTER:
                 trigger_offset = int(trigger['@offset'])
                 trigger_length = int(trigger['@length'])
                 trigger_text = trigger['#text']
+                sentence_id = self.find_containing_sentence(source_id, trigger_offset, trigger_text, trigger_length)
 
-                # assert raw_source_text[trigger_offset:trigger_offset+trigger_length] == trigger_text
+                assert raw_source_text[trigger_offset:trigger_offset+trigger_length] == trigger_text
             else:
-                trigger_offset, trigger_length, trigger_text = None, None, None
+                trigger_offset, trigger_length, trigger_text, sentence_id = None, None, None, None
 
-            result.append([trigger_offset, trigger_length, trigger_text])
+            result.append([trigger_offset, trigger_length, trigger_text, sentence_id])
 
             final_relation_belief_annotations.append(result)
 
         self.best[source_id] = {'relation_belief_annotations': final_relation_belief_annotations}
 
+    def find_containing_sentence(self, source_id, offset, text, length):
+        for sentence in self.source_text[source_id]['sentences']:
+            sentence_id = sentence[0]
+            sentence_offset_start, sentence_offset_end = sentence[1], sentence[2]
+            sentence_text = sentence[3]
+            if sentence_offset_start <= offset <= sentence_offset_end:
+                assert text in sentence_text
+                return sentence_id
+        return None
 
 
 
@@ -206,7 +219,8 @@ if __name__ == "__main__":
     # test.pp.pprint(test.source_text[source_text_ids[0]])
     print(source_text_ids[1])
     # test.pp.pprint((test.source_text[source_text_ids[1]]['split_text']))
-    test.pp.pprint((test.source_text[source_text_ids[1]]['sentences']))
+    # test.pp.pprint((test.source_text[source_text_ids[1]]['sentences']))
+    test.pp.pprint((test.best[source_text_ids[1]]['relation_belief_annotations']))
     # test.pp.pprint((test.best[source_text_ids[1]]['relation_belief_annotations']))
     # print(test.best[source_text_ids[0]]['max_offset'])
     # print(len(test.source_text[source_text_ids[0]]['full_text']) + len(test.source_text[source_text_ids[0]]['headline']))
