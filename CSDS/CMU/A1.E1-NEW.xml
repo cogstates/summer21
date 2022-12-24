@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<GateDocument>
+<!-- The document's features-->
+
+<GateDocumentFeatures>
+<Feature>
+  <Name className="java.lang.String">gate.SourceURL</Name>
+  <Value className="java.lang.String">file:/C:/Documents%20and%20Settings/dhdavis/Desktop/aceTool2005/Annotation%20Files/Committed%20Belief/A1.E1-NEW.doc</Value>
+</Feature>
+<Feature>
+  <Name className="java.lang.String">MimeType</Name>
+  <Value className="java.lang.String">application/ msword</Value>
+</Feature>
+</GateDocumentFeatures>
+<!-- The document content area with serialized nodes -->
+
+<TextWithNodes>&lt;DOC docid="artb_004" sysid="ahd">
+&lt;hl>
+&lt;seg id=1> 
+<Node id="55" />Inauguration<Node id="67" /> of free zone in Dubai for e-commerce 
+&lt;/seg>
+&lt;/hl>
+&lt;p>
+&lt;seg id=2>
+
+Dubai 10-28 (FP) - Dubai's Crown Prince Sheikh Mohamed Bin Rashid Al Maktoum <Node id="218" />inaugurated<Node id="229" /> a free zone for e-commerce today, called Dubai Internet City.
+&lt;/seg>
+&lt;/p>
+&lt;p>
+&lt;seg id=3>
+
+The preliminary stages of the <Node id="356" />project<Node id="363" />, the only one of its kind <Node id="390" />according to<Node id="402" /> its designers, are <Node id="422" />estimated at<Node id="434" /> $200 million.
+&lt;/seg>
+&lt;/p>
+<!-- &lt;LU_ANNOTATE> -->
+&lt;p>
+&lt;seg id=4>
+
+Sheikh Mohamed, who <Node id="518" />is<Node id="520" /> also the <Node id="530" />Defense Minister of the United Arab Emirates<Node id="574" />, <Node id="576" />announced<Node id="585" /> at the <Node id="593" />inauguration ceremony<Node id="614" /> that "we <Node id="624" />want<Node id="628" /> <Node id="629" />to make<Node id="636" /> Dubai a new trading center."
+&lt;/seg>
+&lt;/p>
+&lt;p>
+&lt;seg id=5>
+
+The minister, who <Node id="718" />has<Node id="721" /> his <Node id="726" />own website<Node id="737" />, also <Node id="744" />said<Node id="748" />: "I <Node id="753" />want<Node id="757" /> Dubai <Node id="764" />to be the best place<Node id="784" /> in the world for state-of-the-art technology companies."
+&lt;/seg>
+&lt;/p>
+&lt;p>
+&lt;seg id=6>
+
+He <Node id="879" />said<Node id="883" /> companies <Node id="894" />engaged in<Node id="904" /> e-commerce <Node id="916" />would<Node id="921" /> <Node id="922" />be able<Node id="929" /> <Node id="930" />to set up<Node id="939" /> offices, <Node id="949" />employ<Node id="955" /> staff and <Node id="966" />own<Node id="969" /> equipment in the open zone, <Node id="998" />including<Node id="1007" /> fully-owned foreign companies.
+&lt;/seg>
+&lt;/p>
+<!-- &lt;/LU_ANNOTATE WC = 78> -->
+&lt;p>
+&lt;seg id=7>
+
+The e-commerce free zone is <Node id="1125" />situated in<Node id="1136" /> north Dubai, near the industrial free zone in Jebel Ali, the top regional and tenth international leading area in container transit.
+&lt;/seg>
+&lt;/p>
+&lt;p>
+&lt;seg id=8>
+
+The <Node id="1308" />inauguration<Node id="1320" /> of Dubai Internet City <Node id="1344" />coincides<Node id="1353" /> with the <Node id="1363" />opening<Node id="1370" /> of an <Node id="1377" />annual IT show<Node id="1391" /> in Dubai, the Gulf Information Technology Exhibition (Gitex), the biggest in the Middle East.
+&lt;/seg>
+&lt;/p>
+&lt;/DOC>
+
+</TextWithNodes>
+<!-- The default annotation set -->
+
+<AnnotationSet>
+</AnnotationSet>
+<!-- Named annotation set -->
+
+<AnnotationSet Name="Factivity">
+<Annotation Id="0" Type="Committed Belief" StartNode="55" EndNode="67">
+</Annotation>
+<Annotation Id="1" Type="Committed Belief" StartNode="218" EndNode="229">
+</Annotation>
+<Annotation Id="2" Type="Committed Belief" StartNode="356" EndNode="363">
+</Annotation>
+<Annotation Id="3" Type="Committed Belief" StartNode="390" EndNode="402">
+</Annotation>
+<Annotation Id="4" Type="Committed Belief" StartNode="422" EndNode="434">
+</Annotation>
+<Annotation Id="5" Type="Committed Belief" StartNode="518" EndNode="520">
+</Annotation>
+<Annotation Id="6" Type="Committed Belief" StartNode="530" EndNode="574">
+</Annotation>
+<Annotation Id="7" Type="Committed Belief" StartNode="576" EndNode="585">
+</Annotation>
+<Annotation Id="8" Type="Committed Belief" StartNode="593" EndNode="614">
+</Annotation>
+<Annotation Id="9" Type="Committed Belief" StartNode="718" EndNode="721">
+</Annotation>
+<Annotation Id="10" Type="Committed Belief" StartNode="726" EndNode="737">
+</Annotation>
+<Annotation Id="11" Type="Committed Belief" StartNode="744" EndNode="748">
+</Annotation>
+<Annotation Id="12" Type="Committed Belief" StartNode="879" EndNode="883">
+</Annotation>
+<Annotation Id="13" Type="Committed Belief" StartNode="1125" EndNode="1136">
+</Annotation>
+<Annotation Id="14" Type="Committed Belief" StartNode="1308" EndNode="1320">
+</Annotation>
+<Annotation Id="15" Type="Committed Belief" StartNode="1344" EndNode="1353">
+</Annotation>
+<Annotation Id="17" Type="Committed Belief" StartNode="1377" EndNode="1391">
+</Annotation>
+<Annotation Id="16" Type="Committed Belief" StartNode="1363" EndNode="1370">
+</Annotation>
+<Annotation Id="19" Type="Non-Committed Belief" StartNode="753" EndNode="757">
+</Annotation>
+<Annotation Id="18" Type="Non-Committed Belief" StartNode="624" EndNode="628">
+</Annotation>
+<Annotation Id="21" Type="Non-Committed Belief" StartNode="916" EndNode="921">
+</Annotation>
+<Annotation Id="23" Type="Non-Committed Belief" StartNode="998" EndNode="1007">
+</Annotation>
+<Annotation Id="22" Type="Non-Committed Belief" StartNode="894" EndNode="904">
+</Annotation>
+<Annotation Id="25" Type="Not Applicable" StartNode="764" EndNode="784">
+</Annotation>
+<Annotation Id="24" Type="Not Applicable" StartNode="629" EndNode="636">
+</Annotation>
+<Annotation Id="27" Type="Non-Committed Belief Future" StartNode="930" EndNode="939">
+</Annotation>
+<Annotation Id="26" Type="Not Applicable" StartNode="922" EndNode="929">
+</Annotation>
+<Annotation Id="29" Type="Non-Committed Belief Future" StartNode="966" EndNode="969">
+</Annotation>
+<Annotation Id="28" Type="Non-Committed Belief Future" StartNode="949" EndNode="955">
+</Annotation>
+</AnnotationSet>
+</GateDocument>
