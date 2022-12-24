@@ -1,7 +1,7 @@
 import glob
 import xml.etree.ElementTree as et
 import re
-from CSDS.csds import CSDS, CSDSCollection
+from db_implementation.LU.CSDS.csds import CSDS, CSDSCollection
 from nltk.tokenize import SpaceTokenizer
 
 
