@@ -229,7 +229,7 @@ if __name__ == '__main__':
         'CMU')
     collection = input_processor.create_and_get_collection()
     if verbose:
-        for entry in collection.get_next_instance():
-            print(entry.get_info_short())
-        # for entry in collection.get_next_labeled_instance():
+        # for entry in collection.get_next_instance():
         #     print(entry.get_info_short())
+        for entry in collection.get_next_labeled_instance():
+            print(entry.get_info_short())
