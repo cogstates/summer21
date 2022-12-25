@@ -33,8 +33,8 @@ class CSDS:
     sentiment = ""  # sentiment value (values are corpus-specific)
     '''
     def __init__(
-            self, this_text, this_head_start, this_head_end, this_belief, this_head="",
-            this_doc_id=-1, this_sentence_id=-1
+            self, this_text, this_head_start, this_head_end, this_belief, this_file,
+            this_head="", this_doc_id=-1, this_sentence_id=-1
     ):
         self.doc_id = this_doc_id
         self.sentence_id = this_sentence_id
@@ -43,6 +43,7 @@ class CSDS:
         self.head_end = this_head_end
         self.belief = this_belief
         self.head = this_head
+        self.file = this_file
 
     def get_info_short(self):
         return (

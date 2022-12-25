@@ -119,12 +119,19 @@ class XMLCorpusToCSDSCollection:
                 head_end = head_start + target_length
                 annotation_type = annotation.attrib['Type']
                 annotation_type = re.sub(r'\s*future$', '', annotation_type, flags=re.I)
+                if annotation_type == 'Committed Belief':
+                    annotation_type = 'CB'
+                elif annotation_type == 'Non-Committed Belief':
+                    annotation_type = 'NCB'
+                elif annotation_type == 'Not Applicable':
+                    annotation_type = 'NA'
                 sentence_id = self.nodes_to_sentences[annotation.attrib['StartNode']]
                 cog_state = CSDS(
                     self.sentences[sentence_id],
                     head_start,
                     head_end,
                     annotation_type,
+                    xml_file,
                     self.nodes_to_targets[annotation.attrib['StartNode']],
                     self.doc_id,
                     sentence_id
