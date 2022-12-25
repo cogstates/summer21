@@ -1,7 +1,7 @@
 # This file creates a sample instance of a CSDS to run tests
 # and serves as a unit test of the CSDS API.
 
-from csds import CSDS, CSDSCollection
+from db_implementation.LU.csds import CSDS, CSDSCollection
 
 sample_corpus = [
     ("John said he likes beets.", 5, 9, "CB", "said"),

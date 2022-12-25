@@ -231,5 +231,5 @@ if __name__ == '__main__':
     if verbose:
         for entry in collection.get_next_instance():
             print(entry.get_info_short())
-        for entry in collection.get_next_labeled_instance():
-            print(entry.get_info_short())
+        # for entry in collection.get_next_labeled_instance():
+        #     print(entry.get_info_short())
