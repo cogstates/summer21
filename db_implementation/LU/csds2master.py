@@ -50,7 +50,7 @@ class CSDS2Master:
         print('\nExecuting SQL Inserts...')
         self.populate_tables()
         self.close()
-        print(f'Done. \nRuntime: {time() - start} sec')
+        print(f'Done. \nRuntime: {round(time() - start, 2)} sec')
 
     def populate_tables(self):
 
@@ -74,7 +74,7 @@ class CSDS2Master:
         for example in self.collection:
 
             # dealing with sentences -- each CSDS object does not necessarily contain a unique sentence
-            # we use a dictionary with the following function: sentence -> sentence_id
+            # we use a dictionary with the following function: sentence -> (sentence_id, spacy DOC object)
             sentence = example.text
 
             if sentence in self.unique_sentences:
