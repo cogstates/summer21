@@ -95,7 +95,8 @@ class CSDS2Master:
             span_text = sentence[span_start:span_end]
 
             self.mentions.append([mention_id, sentence_id, example.head,
-                                  example.head_start, example.head_end, span_text, span_start, span_end])
+                                  example.head_start, example.head_end,
+                                  span_text, span_start, span_end])
 
             # dealing with sources -- all author
             source_id = self.next_source_id
