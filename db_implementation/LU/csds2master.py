@@ -130,18 +130,19 @@ class CSDS2Master:
 
     def get_head_span(self, head_token_offset_start, head_token_offset_end):
 
-        fb_head_token = self.current_doc.char_span(head_token_offset_start, head_token_offset_end,
-                                                   alignment_mode='expand')[0]
+        head_span = self.current_doc.char_span(head_token_offset_start, head_token_offset_end,
+                                               alignment_mode='expand')
+        head_token = head_span.root
 
         # when above target, eliminate CC or CONJ arcs
         # if on non-FB-target verb mid-traversal, DO take CC or CONJ arcs
         # if hit AUX, don't take CC or CONJ - don't worry for now
-        if fb_head_token.dep_ == 'ROOT':
-            syntactic_head_token = fb_head_token
+        if head_token.dep_ == 'ROOT':
+            syntactic_head_token = head_token
         else:
             syntactic_head_token = None
-            ancestors = list(fb_head_token.ancestors)
-            ancestors.insert(0, fb_head_token)
+            ancestors = list(head_token.ancestors)
+            ancestors.insert(0, head_token)
 
             if len(ancestors) == 1:
                 syntactic_head_token = ancestors[0]
@@ -161,7 +162,7 @@ class CSDS2Master:
                             break
 
         # postprocessing for CC and CONJ -- exclude child arcs with CC or CONJ
-        span_start, span_end = self.get_final_span(syntactic_head_token, fb_head_token)
+        span_start, span_end = self.get_final_span(syntactic_head_token, head_token)
 
         return span_start, span_end
 
