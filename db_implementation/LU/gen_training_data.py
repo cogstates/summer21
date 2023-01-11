@@ -22,11 +22,13 @@ FROM attitudes a
         file = row[0]
         sentence = row[2]
         target_head = row[3]
-        # target_head_offset_start = row[4]
-        # target_head_offset_end = row[5]
-        label = row[6]
-
-        formatted_row = [file, f'LU Predict Factuality: {sentence}', f'({target_head}, {label})']
+        target_head_offset_start = row[4]
+        target_head_offset_end = row[5]
+        label = {'CB' : 0, 'NCB' : 1, 'NA' : 2}[row[6]]
+# f'LU Predict Factuality: {sentence[:target_head_offset_start]} * {target_head} *{sentence[target_head_offset_end:]}'
+        formatted_row = [file,
+                         f'LU Predict Factuality: {sentence}####(target = {target_head}, label = )',
+                         f'{sentence}####(target = {target_head}, label = {label})']
         data.append(formatted_row)
     df = pd.DataFrame(data)
     df.columns = ['file', 'input_text', 'target_text']
