@@ -4,66 +4,16 @@ import sqlite3
 # ...sentence...####(head text, label as number)
 # 0 CB, 1 NCB, 2 NA
 
-def label_to_num(label_txt):
-    if label_txt in ['CTu', 'NA', 'other']:
+def label_norm(label_txt):
+    if label_txt in ['CTu', 'NA', 'other', 'ROB']:
         return None
-    return {'CT+': 1, 'PR+': 2, 'PS+': 3, 'CT-': 4, 'PR-': 5, 'PS-': 6, 'ROB': 8, 'Uu': 9}[label_txt]
-def gen_fb_data_hard():
+    return {'CT+': 'true', 'CT-': 'false',
+            'PS+': 'possibly true', 'PR+': 'possibly true',
+            'PS-': 'possibly false', 'PR-': 'possibly false',
+            'Uu': 'unknown'}[label_txt]
+def gen_fb_data_author_only():
     sql_data = cur.execute('''SELECT target_data.file, target_data.file_sentence_id, target_data.sentence, target_data.target_head, 
-    target_data.label, source_data.source_text FROM
-             (SELECT a.attitude_id, s.sentence_id, s.sentence, s.file, s.file_sentence_id, m.token_text target_head,
-       m.token_offset_start target_offset_start, m.token_offset_end target_offset_end,
-       m.phrase_offset_start target_span_start, m.phrase_offset_end target_span_end,
-       m.phrase_text target_span, m.token_id target_token, a.label
-FROM attitudes a
-    JOIN mentions m on m.token_id = a.target_token_id
-    JOIN sentences s on m.sentence_id = s.sentence_id) target_data
-JOIN (SELECT a.attitude_id, m.token_text source_text,
-       s.nesting_level, m.token_offset_start source_offset_start, m.token_offset_end source_offset_end,
-       m.phrase_offset_start source_span_start, m.phrase_offset_end source_span_end,
-       m.phrase_text source_span,
-       m.token_id source_token_id, s.parent_source_id, s.source_id
-FROM attitudes a
-    JOIN sources s on a.source_id = s.source_id
-    JOIN mentions m on s.token_id = m.token_id
-    JOIN sentences s2 on m.sentence_id = s2.sentence_id) source_data on target_data.attitude_id = source_data.attitude_id
-where source_text not in ('AUTHOR', 'GEN', 'DUMMY')
-order by file, file_sentence_id;''').fetchall()
-
-    data = []
-    encountered_sentences = {}
-    for row in sql_data:
-        file = row[0]
-        file_sentence_id = row[1]
-        sentence = row[2]
-        target_head = row[3]
-
-        label = label_to_num([row[4]])
-        if label is None:
-            continue
-
-        source = row[5]
-        sentence_key = (file, file_sentence_id)
-
-        if sentence_key not in encountered_sentences:
-            encountered_sentences[sentence_key] = [sentence, f'(source = {source}, target = {target_head}, {label});']
-        else:
-            encountered_sentences[sentence_key] = \
-                [sentence, encountered_sentences[sentence_key][1] +
-                 f' (source = {source}, target = {target_head}, {label});']
-
-    for key, value in encountered_sentences.items():
-        file, file_sentence_id = key
-        sentence, target_data = value
-        formatted_row = [f'{file}', f'source target factuality: {sentence}', f'{target_data}']
-        data.append(formatted_row)
-
-    return get_final_split(data)
-
-def gen_data_fb_author_only():
-    sql_data = cur.execute('''
-    SELECT distinct target_data.file, target_data.file_sentence_id, target_data.sentence, target_data.target_head, target_data.label,
-     target_data.target_offset_start, target_data.target_offset_end FROM
+    target_data.label, target_data.target_offset_start, target_data.target_offset_end, source_data.source_text FROM
              (SELECT a.attitude_id, s.sentence_id, s.sentence, s.file, s.file_sentence_id, m.token_text target_head,
        m.token_offset_start target_offset_start, m.token_offset_end target_offset_end,
        m.phrase_offset_start target_span_start, m.phrase_offset_end target_span_end,
@@ -81,25 +31,44 @@ FROM attitudes a
     JOIN mentions m on s.token_id = m.token_id
     JOIN sentences s2 on m.sentence_id = s2.sentence_id) source_data on target_data.attitude_id = source_data.attitude_id
 where source_text in ('AUTHOR')
-order by file, file_sentence_id;
-    ''').fetchall()
+order by file, file_sentence_id;''').fetchall()
 
     data = []
-
+    encountered_sentences = {}
     for row in sql_data:
         file = row[0]
         file_sentence_id = row[1]
         sentence = row[2]
         target_head = row[3]
-        label = label_to_num(row[4])
+        label = label_norm(row[4])
         target_offset_start = row[5]
         target_offset_end = row[6]
+
         if label is None:
             continue
 
-        formatted_row = [file, f'author-only STF: {sentence[:target_offset_start]} ** {target_head} ** '
-                               f'{sentence[target_offset_end:]}', f'(label = {label})']
-        data.append(formatted_row)
+        sentence_key = (file, file_sentence_id)
+        entry = (target_head, target_offset_start, target_offset_end, label)
+
+        if sentence_key not in encountered_sentences:
+            encountered_sentences[sentence_key] = [sentence, [entry]]
+        else:
+            current_list = encountered_sentences[sentence_key][1]
+            current_list.append(entry)
+            encountered_sentences[sentence_key] = \
+                [sentence, current_list]
+
+    for key, value in encountered_sentences.items():
+        file, file_sentence_id = key
+        sentence, tuples = value
+
+        for t in tuples:
+
+
+
+
+        # formatted_row = [f'{file}', f'source target factuality: {sentence}', f'{target_data}']
+        # data.append(formatted_row)
 
     return get_final_split(data)
 
@@ -130,7 +99,7 @@ if __name__ == "__main__":
     con = sqlite3.connect("fb_master.db")
     cur = con.cursor()
 
-    train, test, dev = gen_data_fb_author_only()
+    train, test, dev = gen_fb_data_author_only()
     for df in [(train, 'train'), (test, 'test'), (dev, 'dev')]:
         df[0].loc[:, 'input_text':'target_text'].to_csv(f'formatted_data/FB_initial/{df[1]}.csv', sep='|')
 
