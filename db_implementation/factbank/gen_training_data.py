@@ -62,13 +62,21 @@ order by file, file_sentence_id;''').fetchall()
         file, file_sentence_id = key
         sentence, tuples = value
 
+        gold_sentence = ''
+        start_here = 0
+
         for t in tuples:
+            target_head = t[0]
+            target_offset_start, target_offset_end = t[1], t[2]
+            label = t[3]
 
+            gold_sentence += f'{sentence[start_here:target_offset_start]}[{target_head}|{label}]'
+            start_here = target_offset_end
 
+        gold_sentence += sentence[start_here:]
 
-
-        # formatted_row = [f'{file}', f'source target factuality: {sentence}', f'{target_data}']
-        # data.append(formatted_row)
+        formatted_row = [f'{file}', f'source target factuality: {sentence}', f'{gold_sentence}']
+        data.append(formatted_row)
 
     return get_final_split(data)
 
