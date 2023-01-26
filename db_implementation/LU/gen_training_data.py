@@ -13,23 +13,48 @@ FROM attitudes a
     JOIN sentences s on m.sentence_id = s.sentence_id
     JOIN sources s2 on s2.source_id = a.source_id)
     
-    ORDER BY file;
+    ORDER BY file, file_sentence_id;
     
     ''').fetchall()
 
     data = []
+    encountered_sentences = {}
+
     for row in sql_data:
         file = row[0]
         sentence = row[2]
         target_head = row[3]
         target_head_offset_start = row[4]
         target_head_offset_end = row[5]
-        label = {'CB' : 0, 'NCB' : 1, 'NA' : 2}[row[6]]
-# f'LU Predict Factuality: {sentence[:target_head_offset_start]} * {target_head} *{sentence[target_head_offset_end:]}'
-        formatted_row = [file,
-                         f'LU Predict Factuality: {sentence}####(target = {target_head}, label = )',
-                         f'{sentence}####(target = {target_head}, label = {label})']
+        label = {'CB': 'true', 'NCB': 'false', 'NA': 'unknown'}[row[6]]
+
+        entry = f'({target_head}, {label})'
+
+        key = (file, sentence)
+
+        if key not in encountered_sentences:
+            encountered_sentences[key] = [entry]
+        else:
+            current_list = encountered_sentences[key]
+            current_list.append(entry)
+            encountered_sentences[key] = current_list
+
+
+    for key, value in encountered_sentences.items():
+        file, sentence = key
+        tuples = value
+
+        target_data = ''
+        for t in tuples:
+            target_data += f'{t}; '
+        target_data = target_data[:-2]
+        formatted_row = [f'{file}', f'LU Factuality: {sentence}', f'{target_data}']
         data.append(formatted_row)
+
+
+
+
+
     df = pd.DataFrame(data)
     df.columns = ['file', 'input_text', 'target_text']
 
@@ -66,6 +91,6 @@ if __name__ == "__main__":
 
     train, test, dev = gen_LU_data_classic()
     for df in [(train, 'train'), (test, 'test'), (dev, 'dev')]:
-        df[0].loc[:, 'input_text':'target_text'].to_csv(f'formatted_data/LU_initial/{df[1]}.csv', sep='|')
+        df[0].loc[:, 'input_text':'target_text'].to_csv(f'formatted_data/LU_initial/{df[1]}.csv')
 
     con.close()
