@@ -58,7 +58,7 @@ FROM attitudes a
 
     # connecting to the database file and executing the master query to grab all labeled instances
     def get_data(self):
-        con = sqlite3.connect('LU_master.db')
+        con = sqlite3.connect('db_implementation/LU/LU_master.db')
         cur = con.cursor()
 
         # training data collection, cleanup and cataloguing
