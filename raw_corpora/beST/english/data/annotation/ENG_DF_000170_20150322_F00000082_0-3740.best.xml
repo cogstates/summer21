@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-570bb5cb0000000000000001">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-568eb23c_1_286">
+        <trigger offset="863" length="7">Israeli</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_1_96" offset="755" length="13">TemplarKormac</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_1_296">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_1_96" offset="755" length="13">TemplarKormac</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_1_335">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_1_96" offset="755" length="13">TemplarKormac</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_1_486">
+        <trigger offset="106" length="8">Israelis</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_1_528">
+        <trigger offset="1991" length="7">Israeli</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_1_797" offset="1947" length="10">tinydancer</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_1_975">
+        <trigger offset="575" length="7">Israeli</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_1_102" offset="468" length="12">TheOldSchool</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_1_591">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_1_797" offset="1947" length="10">tinydancer</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_1_1042">
+        <trigger offset="699" length="8">Israel's</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_1_102" offset="468" length="12">TheOldSchool</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_1_1052">
+        <trigger offset="1510" length="7">Israeli</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_1_66" offset="1456" length="7">Mac1958</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_1_1123">
+        <trigger offset="2437" length="5">where</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_1_108" offset="2112" length="10">tinydancer</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_1_1133">
+        <trigger offset="3111" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_1_72" offset="2530" length="7">Mindful</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-568eb23c_1_1072">
+        <trigger offset="999" length="5">death</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_1_96" offset="755" length="13">TemplarKormac</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_1_963" offset="1015" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_1_96" offset="755" length="13">TemplarKormac</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_1_1093">
+        <trigger offset="2031" length="4">cash</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_1_797" offset="1947" length="10">tinydancer</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_1_480" offset="1991" length="16">
+            <text>Israeli liberals</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_1_797" offset="1947" length="10">tinydancer</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_1_582" offset="2056" length="24">
+            <text>the Obama administration</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_1_797" offset="1947" length="10">tinydancer</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_1_1143">
+        <trigger offset="3096" length="5">holds</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_1_78" offset="2630" length="11">montelatici</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_1_665" offset="3075" length="45">
+            <text>an Arab country that holds millions in gulags</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_1_78" offset="2630" length="11">montelatici</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_1_1003" offset="3102" length="8">
+            <text>millions</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_1_78" offset="2630" length="11">montelatici</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_1_1012" offset="3114" length="6">
+            <text>gulags</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_1_78" offset="2630" length="11">montelatici</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-568eb23c_1_66" offset="1456" length="7">
+        <text>Mac1958</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_432" offset="1500" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_438" offset="1527" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_444" offset="1546" length="6">
+        <text>myself</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_450" offset="1659" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_456" offset="1820" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_462" offset="1853" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_468" offset="1868" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_72" offset="2530" length="7">
+        <text>Mindful</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_78" offset="2630" length="11">
+        <text>montelatici</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_84" offset="1067" length="11">
+        <text>NYcarbineer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_90" offset="3153" length="8">
+        <text>Phoenall</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_96" offset="755" length="13">
+        <text>TemplarKormac</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_102" offset="468" length="12">
+        <text>TheOldSchool</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_997" offset="2489" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_108" offset="2112" length="10">
+        <text>tinydancer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_791" offset="2479" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_797" offset="1947" length="10">
+        <text>tinydancer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_985" offset="2418" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_114" offset="116" length="9">
+        <text>Netanyahu</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_126" offset="610" length="9">
+        <text>Netanyahu</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_1_258" offset="650" length="9">the world</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_132" offset="1611" length="4">
+        <text>Bibi</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_138" offset="1697" length="4">
+        <text>Bibi</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_144" offset="1725" length="6">
+        <text>Reagan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_150" offset="2060" length="5">
+        <text>Obama</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_156" offset="3687" length="8">
+        <text>Pakistan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no">
+            <source ere_id="m-568eb23c_1_90" offset="3153" length="8">Phoenall</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_162" offset="3697" length="10">
+        <text>Bangladesh</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_1_90" offset="3153" length="8">Phoenall</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_168" offset="3709" length="11">
+        <text>Afgahnistan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no">
+            <source ere_id="m-568eb23c_1_90" offset="3153" length="8">Phoenall</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_174" offset="668" length="6">
+        <text>Israel</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_1_258" offset="650" length="9">the world</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_180" offset="699" length="6">
+        <text>Israel</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_1_258" offset="650" length="9">the world</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_186" offset="863" length="7">
+        <text>Israeli</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_192" offset="1510" length="7">
+        <text>Israeli</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_198" offset="1621" length="6">
+        <text>Israel</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_204" offset="1991" length="7">
+        <text>Israeli</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_210" offset="2468" length="6">
+        <text>Israel</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_474" offset="1910" length="5">
+        <text>there</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_1_66" offset="1456" length="7">Mac1958</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_496" offset="106" length="8">
+        <text>Israelis</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_512" offset="575" length="7">
+        <text>Israeli</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_1030" offset="1648" length="2">
+        <text>it</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_1036" offset="1672" length="2">
+        <text>it</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_216" offset="890" length="11">
+        <text>Alona Kimhi</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_354" offset="911" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_360" offset="951" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_222" offset="185" length="14">
+        <text>DigitalDrifter</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_237" offset="249" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_228" offset="98" length="16">
+        <text>liberal Israelis</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_252" offset="567" length="17">
+        <text>liberal Israeli's</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_480" offset="1991" length="16">
+        <text>Israeli liberals</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_243" offset="336" length="8">
+        <text>everyone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_258" offset="650" length="9">
+        <text>the world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_267" offset="699" length="24">
+        <text>Israel's liberal parties</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_316" offset="825" length="12">
+        <text>Neanderthals</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_1_216" offset="890" length="11">Alona Kimhi</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_853" offset="839" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_1_216" offset="890" length="11">Alona Kimhi</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_963" offset="1015" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_1_216" offset="890" length="11">Alona Kimhi</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_969" offset="1024" length="10">
+        <text>yourselves</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_1_216" offset="890" length="11">Alona Kimhi</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_345" offset="915" length="8">
+        <text>Facebook</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_582" offset="2056" length="24">
+        <text>the Obama administration</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_991" offset="2421" length="53">
+        <text>one Arab nation where Arabs are more free than Israel</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_638" offset="2443" length="5">
+        <text>Arabs</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_665" offset="3075" length="45">
+        <text>an Arab country that holds millions in gulags</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_954" offset="261" length="9">
+        <text>two-state</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_1_222" offset="185" length="14">DigitalDrifter</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_1003" offset="3102" length="8">
+        <text>millions</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_1012" offset="3114" length="6">
+        <text>gulags</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_1_1021" offset="1507" length="18">
+        <text>an Israeli liberal</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-568eb23c_1_286">
+        <trigger offset="863" length="7">Israeli</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_1_296">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_1_335">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_1_486">
+        <trigger offset="106" length="8">Israelis</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_1_528">
+        <trigger offset="1991" length="7">Israeli</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_1_975">
+        <trigger offset="575" length="7">Israeli</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_1_591">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_1_1042">
+        <trigger offset="699" length="8">Israel's</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_1_1052">
+        <trigger offset="1510" length="7">Israeli</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_1_1123">
+        <trigger offset="2437" length="5">where</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_1_1133">
+        <trigger offset="3111" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-568eb23c_1_1072">
+        <trigger offset="999" length="5">death</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_1_216" offset="890" length="11">Alona Kimhi</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_1_1093">
+        <trigger offset="2031" length="4">cash</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_1_1143">
+        <trigger offset="3096" length="5">holds</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

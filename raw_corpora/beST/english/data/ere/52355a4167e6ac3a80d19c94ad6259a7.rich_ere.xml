@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="557f043e0000000000000055" doc_id="52355a4167e6ac3a80d19c94ad6259a7" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-99" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="3745" length="7">
+        <mention_text>394,195</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="3745" length="7">394,195</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-18" type="PER" specificity="specific">
+      <entity_mention id="m-105" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="3670" length="6">
+        <mention_text>16,789</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="3670" length="6">16,789</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-21" type="PER" specificity="specific">
+      <entity_mention id="m-111" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2855" length="8">
+        <mention_text>peach174</mention_text>
+      </entity_mention>
+      <entity_mention id="m-117" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="85" length="8">
+        <mention_text>peach174</mention_text>
+      </entity_mention>
+      <entity_mention id="m-123" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4057" length="8">
+        <mention_text>peach174</mention_text>
+      </entity_mention>
+      <entity_mention id="m-129" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4159" length="8">
+        <mention_text>peach174</mention_text>
+      </entity_mention>
+      <entity_mention id="m-135" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4717" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-141" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4782" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-147" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="350" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-153" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="459" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-159" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4426" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1100" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4535" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-24" type="PER" specificity="specific">
+      <entity_mention id="m-165" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2689" length="5">
+        <mention_text>Obama</mention_text>
+      </entity_mention>
+      <entity_mention id="m-171" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2527" length="5">
+        <mention_text>Obama</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-27" type="PER" specificity="specific">
+      <entity_mention id="m-177" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2171" length="17">
+        <mention_text>Christie the Hutt</mention_text>
+      </entity_mention>
+      <entity_mention id="m-183" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2197" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-189" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1909" length="8">
+        <mention_text>Christie</mention_text>
+      </entity_mention>
+      <entity_mention id="m-195" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5288" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-201" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5086" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-207" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5064" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-30" type="PER" specificity="specific">
+      <entity_mention id="m-213" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2779" length="12">
+        <mention_text>WorldWatcher</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-33" type="PER" specificity="specific">
+      <entity_mention id="m-219" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2345" length="6">
+        <mention_text>Walker</mention_text>
+      </entity_mention>
+      <entity_mention id="m-225" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2510" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-899" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2368" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-36" type="PER" specificity="specific">
+      <entity_mention id="m-231" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1982" length="112">
+        <mention_text>judges who decide they are going to disregard the will of legistlatures and the populace and impose these things</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="1982" length="6">judges</nom_head>
+      </entity_mention>
+      <entity_mention id="m-243" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2120" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-249" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2147" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-39" type="PER" specificity="specific">
+      <entity_mention id="m-255" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="709" length="7">
+        <mention_text>Valerie</mention_text>
+      </entity_mention>
+      <entity_mention id="m-261" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1592" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-887" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1633" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-42" type="PER" specificity="specific">
+      <entity_mention id="m-267" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1749" length="7">
+        <mention_text>JoeB131</mention_text>
+      </entity_mention>
+      <entity_mention id="m-273" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1953" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-2274" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1970" length="124">
+        <mention_text>a critic of judges who decide they are going to disregard the will of legistlatures and the populace and impose these things</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="1972" length="6">critic</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-45" type="PER" specificity="specific">
+      <entity_mention id="m-279" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1678" length="7">
+        <mention_text>Mr.Nick</mention_text>
+      </entity_mention>
+      <entity_mention id="m-285" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2635" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-48" type="PER" specificity="specific">
+      <entity_mention id="m-291" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5891" length="9">
+        <mention_text>Texanmike</mention_text>
+      </entity_mention>
+      <entity_mention id="m-297" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5994" length="9">
+        <mention_text>Texanmike</mention_text>
+      </entity_mention>
+      <entity_mention id="m-303" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1651" length="4">
+        <mention_text>Mike</mention_text>
+      </entity_mention>
+      <entity_mention id="m-309" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5798" length="4">
+        <mention_text>Mike</mention_text>
+      </entity_mention>
+      <entity_mention id="m-315" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6462" length="4">
+        <mention_text>Mike</mention_text>
+      </entity_mention>
+      <entity_mention id="m-321" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6724" length="4">
+        <mention_text>Mike</mention_text>
+      </entity_mention>
+      <entity_mention id="m-327" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4986" length="9">
+        <mention_text>Texanmike</mention_text>
+      </entity_mention>
+      <entity_mention id="m-333" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6406" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+      <entity_mention id="m-339" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6315" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+      <entity_mention id="m-345" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5820" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-351" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6484" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-357" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="636" length="9">
+        <mention_text>Texanmike</mention_text>
+      </entity_mention>
+      <entity_mention id="m-363" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5742" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+      <entity_mention id="m-369" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5651" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-51" type="PER" specificity="nonspecific">
+      <entity_mention id="m-375" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4824" length="14">
+        <mention_text>their partners</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="4830" length="8">partners</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-54" type="PER" specificity="specific">
+      <entity_mention id="m-381" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4129" length="7">
+        <mention_text>bodecea</mention_text>
+      </entity_mention>
+      <entity_mention id="m-387" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4915" length="7">
+        <mention_text>bodecea</mention_text>
+      </entity_mention>
+      <entity_mention id="m-393" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5964" length="7">
+        <mention_text>bodecea</mention_text>
+      </entity_mention>
+      <entity_mention id="m-399" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6544" length="3">
+        <mention_text>You</mention_text>
+      </entity_mention>
+      <entity_mention id="m-405" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="14" length="7">
+        <mention_text>bodecea</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1181" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5578" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1187" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5660" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-57" type="PER" specificity="nonspecific">
+      <entity_mention id="m-411" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4797" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-417" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4824" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-423" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4861" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-60" type="PER" specificity="specific">
+      <entity_mention id="m-429" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6026" length="10">
+        <mention_text>Plasmaball</mention_text>
+      </entity_mention>
+      <entity_mention id="m-435" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5018" length="10">
+        <mention_text>Plasmaball</mention_text>
+      </entity_mention>
+      <entity_mention id="m-441" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5470" length="2">
+        <mention_text>im</mention_text>
+      </entity_mention>
+      <entity_mention id="m-447" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6134" length="2">
+        <mention_text>im</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1160" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5334" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1232" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6242" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1238" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6324" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-63" type="PER" specificity="specific">
+      <entity_mention id="m-453" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5051" length="9">
+        <mention_text>SFC Ollie</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-66" type="PER" specificity="specific">
+      <entity_mention id="m-459" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="722" length="31">
+        <mention_text>those of you invoking the Bible</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="722" length="5">those</nom_head>
+      </entity_mention>
+      <entity_mention id="m-465" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="921" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-471" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="780" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-69" type="PER" specificity="specific">
+      <entity_mention id="m-477" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2225" length="6">
+        <mention_text>RomBot</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-72" type="PER" specificity="nonspecific">
+      <entity_mention id="m-483" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2455" length="9">
+        <mention_text>democrats</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="2455" length="9">democrats</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-75" type="ORG" specificity="specific">
+      <entity_mention id="m-489" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2584" length="5">
+        <mention_text>House</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-78" type="ORG" specificity="specific">
+      <entity_mention id="m-495" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2611" length="6">
+        <mention_text>Senate</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-81" type="GPE" specificity="specific">
+      <entity_mention id="m-501" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2472" length="8">
+        <mention_text>Illinois</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-84" type="GPE" specificity="specific">
+      <entity_mention id="m-507" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2358" length="9">
+        <mention_text>Wisconsin</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-87" type="GPE" specificity="specific">
+      <entity_mention id="m-513" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1224" length="13">
+        <mention_text>United States</mention_text>
+      </entity_mention>
+      <entity_mention id="m-519" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1148" length="13">
+        <mention_text>United States</mention_text>
+      </entity_mention>
+      <entity_mention id="m-525" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1383" length="13">
+        <mention_text>United States</mention_text>
+      </entity_mention>
+      <entity_mention id="m-531" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="946" length="2">
+        <mention_text>US</mention_text>
+      </entity_mention>
+      <entity_mention id="m-537" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1889" length="4">
+        <mention_text>U.S.</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-90" type="GPE" specificity="specific">
+      <entity_mention id="m-543" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1901" length="2">
+        <mention_text>NJ</mention_text>
+      </entity_mention>
+      <entity_mention id="m-549" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5253" length="10">
+        <mention_text>New Jersey</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-93" type="GPE" specificity="specific">
+      <entity_mention id="m-555" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5451" length="4">
+        <mention_text>cali</mention_text>
+      </entity_mention>
+      <entity_mention id="m-561" noun_type="NAM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6115" length="4">
+        <mention_text>cali</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-96" type="GPE" specificity="specific">
+      <entity_mention id="m-567" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5785" length="10">
+        <mention_text>the states</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="5789" length="6">states</nom_head>
+      </entity_mention>
+      <entity_mention id="m-573" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6449" length="10">
+        <mention_text>the states</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="6453" length="6">states</nom_head>
+      </entity_mention>
+      <entity_mention id="m-579" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6597" length="10">
+        <mention_text>the states</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="6601" length="6">states</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-698" type="PER" specificity="nonspecific">
+      <entity_mention id="m-692" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="155" length="10">
+        <mention_text>Alcoholics</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="155" length="10">Alcoholics</nom_head>
+      </entity_mention>
+      <entity_mention id="m-929" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2914" length="10">
+        <mention_text>Alcoholics</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="2914" length="10">Alcoholics</nom_head>
+      </entity_mention>
+      <entity_mention id="m-959" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="3084" length="10">
+        <mention_text>Alcoholics</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="3084" length="10">Alcoholics</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1058" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4229" length="10">
+        <mention_text>Alcoholics</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="4229" length="10">Alcoholics</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-707" type="PER" specificity="nonspecific">
+      <entity_mention id="m-701" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="183" length="10">
+        <mention_text>Drug users</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="188" length="5">users</nom_head>
+      </entity_mention>
+      <entity_mention id="m-935" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2942" length="10">
+        <mention_text>Drug users</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="2947" length="5">users</nom_head>
+      </entity_mention>
+      <entity_mention id="m-965" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="3113" length="10">
+        <mention_text>Drug users</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="3118" length="5">users</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1064" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4257" length="10">
+        <mention_text>Drug users</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="4262" length="5">users</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-716" type="PER" specificity="nonspecific">
+      <entity_mention id="m-710" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="204" length="7">
+        <mention_text>Smokers</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="204" length="7">Smokers</nom_head>
+      </entity_mention>
+      <entity_mention id="m-941" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2963" length="7">
+        <mention_text>Smokers</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="2963" length="7">Smokers</nom_head>
+      </entity_mention>
+      <entity_mention id="m-971" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="3142" length="7">
+        <mention_text>Smokers</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="3142" length="7">Smokers</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1037" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="3859" length="7">
+        <mention_text>smokers</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="3859" length="7">smokers</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1070" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4278" length="7">
+        <mention_text>Smokers</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="4278" length="7">Smokers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-725" type="PER" specificity="nonspecific">
+      <entity_mention id="m-719" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="233" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-947" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2992" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1076" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4307" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-734" type="PER" specificity="nonspecific">
+      <entity_mention id="m-728" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="254" length="11">
+        <mention_text>Homosexuals</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="254" length="11">Homosexuals</nom_head>
+      </entity_mention>
+      <entity_mention id="m-953" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="3013" length="11">
+        <mention_text>Homosexuals</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="3013" length="11">Homosexuals</nom_head>
+      </entity_mention>
+      <entity_mention id="m-986" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="3202" length="11">
+        <mention_text>homosexuals</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="3202" length="11">homosexuals</nom_head>
+      </entity_mention>
+      <entity_mention id="m-992" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="3247" length="28">
+        <mention_text>one of the identified groups</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="3247" length="3">one</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1004" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="3425" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1043" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="3900" length="11">
+        <mention_text>homosexuals</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="3900" length="11">homosexuals</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1082" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4328" length="11">
+        <mention_text>Homosexuals</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="4328" length="11">Homosexuals</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1130" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4736" length="5">
+        <mention_text>gay's</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="4736" length="5">gay's</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1136" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4754" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-743" type="PER" specificity="nonspecific">
+      <entity_mention id="m-737" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="320" length="28">
+        <mention_text>the self-righteous hypocrite</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="339" length="9">hypocrite</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1088" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4396" length="28">
+        <mention_text>the self-righteous hypocrite</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="4415" length="9">hypocrite</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-752" type="PER" specificity="nonspecific">
+      <entity_mention id="m-746" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="375" length="19">
+        <mention_text>all of those groups</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="375" length="3">all</nom_head>
+      </entity_mention>
+      <entity_mention id="m-998" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="3254" length="21">
+        <mention_text>the identified groups</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="3269" length="6">groups</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1094" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4451" length="19">
+        <mention_text>all of those groups</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="4451" length="3">all</nom_head>
+      </entity_mention>
+      <entity_mention id="m-2216" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="382" length="12">
+        <mention_text>those groups</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="388" length="6">groups</nom_head>
+      </entity_mention>
+      <entity_mention id="m-2322" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="3692" length="17">
+        <mention_text>the listed groups</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="3703" length="6">groups</nom_head>
+      </entity_mention>
+      <entity_mention id="m-2335" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4458" length="12">
+        <mention_text>those groups</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="4464" length="6">groups</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-776" type="PER" specificity="nonspecific">
+      <entity_mention id="m-770" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="524" length="13">
+        <mention_text>gay clientele</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="528" length="9">clientele</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1112" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4600" length="13">
+        <mention_text>gay clientele</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="4604" length="9">clientele</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-785" type="FAC" specificity="nonspecific">
+      <entity_mention id="m-779" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="545" length="20">
+        <mention_text>Retirement Community</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="556" length="9">Community</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1124" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="4621" length="20">
+        <mention_text>Retirement Community</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="4632" length="9">Community</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-794" type="PER" specificity="nonspecific">
+      <entity_mention id="m-788" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="856" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1256" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6613" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1271" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6666" length="3">
+        <mention_text>our</mention_text>
+      </entity_mention>
+      <entity_mention id="m-2252" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="863" length="3">
+        <mention_text>ALL</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-803" type="PER" specificity="nonspecific">
+      <entity_mention id="m-797" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="867" length="7">
+        <mention_text>sinners</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="867" length="7">sinners</nom_head>
+      </entity_mention>
+      <entity_mention id="m-812" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1030" length="7">
+        <mention_text>SINNERS</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="1030" length="7">SINNERS</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-824" type="PER" specificity="nonspecific">
+      <entity_mention id="m-818" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1109" length="52">
+        <mention_text>All persons born or naturalized in the United States</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="1113" length="7">persons</nom_head>
+      </entity_mention>
+      <entity_mention id="m-827" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1208" length="66">
+        <mention_text>citizens of the United States and of the state wherein they reside</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="1208" length="8">citizens</nom_head>
+      </entity_mention>
+      <entity_mention id="m-842" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1263" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-857" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1367" length="29">
+        <mention_text>citizens of the United States</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="1367" length="8">citizens</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-839" type="GPE" specificity="nonspecific">
+      <entity_mention id="m-833" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1245" length="29">
+        <mention_text>the state wherein they reside</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="1249" length="5">state</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-854" type="GPE" specificity="nonspecific">
+      <entity_mention id="m-848" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1276" length="8">
+        <mention_text>No state</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="1279" length="5">state</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-869" type="GPE" specificity="nonspecific">
+      <entity_mention id="m-863" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1409" length="9">
+        <mention_text>any state</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="1412" length="6"> state</nom_head>
+      </entity_mention>
+      <entity_mention id="m-2268" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1527" length="3">
+        <mention_text>its</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-878" type="PER" specificity="nonspecific">
+      <entity_mention id="m-872" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1427" length="10">
+        <mention_text>any person</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="1431" length="6">person</nom_head>
+      </entity_mention>
+      <entity_mention id="m-881" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1509" length="10">
+        <mention_text>any person</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="1513" length="6">person</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-911" type="PER" specificity="nonspecific">
+      <entity_mention id="m-905" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2641" length="21">
+        <mention_text>no leftist slime fuck</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="2658" length="4">fuck</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-920" type="PER" specificity="nonspecific">
+      <entity_mention id="m-914" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2722" length="12">
+        <mention_text>progressives</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="2722" length="12">progressives</nom_head>
+      </entity_mention>
+      <entity_mention id="m-923" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2739" length="14">
+        <mention_text>pathetic fucks</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="2748" length="5">fucks</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-983" type="PER" specificity="nonspecific">
+      <entity_mention id="m-977" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="3168" length="12">
+        <mention_text>Obese people</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="3174" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1016" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1010" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="3455" length="36">
+        <mention_text>others who live unhealthy lifestyles</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="3455" length="6">others</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1025" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1019" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="3768" length="6">
+        <mention_text>People</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="3768" length="6">People</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1034" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1028" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="3841" length="12">
+        <mention_text>a homosexual</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="3843" length="10">homosexual</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1055" type="LOC" specificity="nonspecific">
+      <entity_mention id="m-1049" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="3924" length="11">
+        <mention_text>most places</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="3929" length="6">places</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1317" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="3316" length="11">
+        <mention_text>most places</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="3321" length="6">places</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1148" type="PER" specificity="specific">
+      <entity_mention id="m-1142" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5239" length="24">
+        <mention_text>the people of New Jersey</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="5243" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1154" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5297" length="10">
+        <mention_text>the people</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="5301" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1151" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1175" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5520" length="10">
+        <mention_text>you people</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="5524" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1226" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6184" length="10">
+        <mention_text>you people</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="6188" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1172" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1166" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5397" length="8">
+        <mention_text>anothers</mention_text>
+      </entity_mention>
+      <entity_mention id="m-2362" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6061" length="8">
+        <mention_text>anothers</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1199" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1193" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5838" length="6">
+        <mention_text>NO ONE</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="5841" length="3">ONE</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1250" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6502" length="6">
+        <mention_text>NO ONE</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="6505" length="3">ONE</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1208" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1202" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5828" length="2">
+        <mention_text>us</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1244" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6492" length="2">
+        <mention_text>us</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1217" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1211" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6044" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1220" noun_type="PRO" source="52355a4167e6ac3a80d19c94ad6259a7" offset="5380" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1268" type="GPE" specificity="nonspecific">
+      <entity_mention id="m-1262" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="6640" length="9">
+        <mention_text>the state</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="6644" length="5">state</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-2249" type="PER" specificity="nonspecific">
+      <entity_mention id="m-2243" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="807" length="10">
+        <mention_text>a "sinner"</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="810" length="6">sinner</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-2286" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-2280" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2040" length="13">
+        <mention_text>legistlatures</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="2040" length="13">legistlatures</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-2289" type="PER" specificity="nonspecific">
+      <entity_mention id="m-893" noun_type="NOM" source="52355a4167e6ac3a80d19c94ad6259a7" offset="2058" length="12">
+        <mention_text>the populace</mention_text>
+        <nom_head source="52355a4167e6ac3a80d19c94ad6259a7" offset="2062" length="8">populace</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-593" source="52355a4167e6ac3a80d19c94ad6259a7" offset="1904" length="4" type="title">Gov.</filler>
+  </fillers>
+  <relations>
+    <relation id="r-2024" type="personalsocial" subtype="role">
+      <relation_mention id="relm-585" realis="true">
+        <rel_arg1 entity_id="ent-27" entity_mention_id="m-189" role="per">Christie</rel_arg1>
+        <rel_arg2 filler_id="f-593" role="role">Gov.</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-2025" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-595" realis="true">
+        <rel_arg1 entity_id="ent-27" entity_mention_id="m-189" role="leader">Christie</rel_arg1>
+        <rel_arg2 entity_id="ent-90" entity_mention_id="m-543" role="entity">NJ</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-2026" type="physical" subtype="locatednear">
+      <relation_mention id="relm-605" realis="true">
+        <rel_arg1 entity_id="ent-33" entity_mention_id="m-219" role="entity">Walker</rel_arg1>
+        <rel_arg2 entity_id="ent-84" entity_mention_id="m-507" role="loc">Wisconsin</rel_arg2>
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="2355" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-2027" type="personalsocial" subtype="unspecified">
+      <relation_mention id="relm-615" realis="true">
+        <rel_arg1 entity_id="ent-57" entity_mention_id="m-417" role="per">their</rel_arg1>
+        <rel_arg2 entity_id="ent-51" entity_mention_id="m-375" role="per">their partners</rel_arg2>
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="4830" length="8">partners</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-2028" type="physical" subtype="resident">
+      <relation_mention id="relm-1277" realis="true">
+        <rel_arg1 entity_id="ent-824" entity_mention_id="m-818" role="per">All persons born or naturalized in the United States</rel_arg1>
+        <rel_arg2 entity_id="ent-87" entity_mention_id="m-519" role="loc">United States</rel_arg2>
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="1141" length="2">in</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1287" realis="true">
+        <rel_arg1 entity_id="ent-824" entity_mention_id="m-827" role="per">citizens of the United States and of the state wherein they reside</rel_arg1>
+        <rel_arg2 entity_id="ent-87" entity_mention_id="m-513" role="loc">United States</rel_arg2>
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="1208" length="8">citizens</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1307" realis="true">
+        <rel_arg1 entity_id="ent-824" entity_mention_id="m-857" role="per">citizens of the United States</rel_arg1>
+        <rel_arg2 entity_id="ent-87" entity_mention_id="m-525" role="loc">United States</rel_arg2>
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="1367" length="8">citizens</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-2029" type="physical" subtype="resident">
+      <relation_mention id="relm-1297" realis="true">
+        <rel_arg1 entity_id="ent-824" entity_mention_id="m-842" role="per">they</rel_arg1>
+        <rel_arg2 entity_id="ent-839" entity_mention_id="m-833" role="loc">the state wherein they reside</rel_arg2>
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="1268" length="6">reside</trigger>
+      </relation_mention>
+      <relation_mention id="relm-2258" realis="true">
+        <rel_arg1 entity_id="ent-824" entity_mention_id="m-827" role="per">citizens of the United States and of the state wherein they reside</rel_arg1>
+        <rel_arg2 entity_id="ent-839" entity_mention_id="m-833" role="loc">the state wherein they reside</rel_arg2>
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="1208" length="8">citizens</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-2030" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1323" realis="true">
+        <rel_arg1 entity_id="ent-734" entity_mention_id="m-992" role="entity">one of the identified groups</rel_arg1>
+        <rel_arg2 entity_id="ent-1055" entity_mention_id="m-1317" role="loc">most places</rel_arg2>
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="3313" length="2">in</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1353" realis="true">
+        <rel_arg1 entity_id="ent-734" entity_mention_id="m-1043" role="entity">homosexuals</rel_arg1>
+        <rel_arg2 entity_id="ent-1055" entity_mention_id="m-1049" role="loc">most places</rel_arg2>
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="3921" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-2031" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1343" realis="true">
+        <rel_arg1 entity_id="ent-716" entity_mention_id="m-1037" role="entity">smokers</rel_arg1>
+        <rel_arg2 entity_id="ent-1055" entity_mention_id="m-1049" role="loc">most places</rel_arg2>
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="3921" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-2032" type="physical" subtype="resident">
+      <relation_mention id="relm-1363" realis="true">
+        <rel_arg1 entity_id="ent-1148" entity_mention_id="m-1142" role="per">the people of New Jersey</rel_arg1>
+        <rel_arg2 entity_id="ent-90" entity_mention_id="m-549" role="loc">New Jersey</rel_arg2>
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="5250" length="2">of</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-16">
+      <event_mention id="em-629" type="personnel" subtype="elect" realis="actual">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="2391" length="7">elected</trigger>
+        <em_arg entity_id="ent-33" entity_mention_id="m-219" role="person" realis="true">Walker</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-625">
+      <event_mention id="em-650" type="life" subtype="die" realis="actual">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="3658" length="6">deaths</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-105" role="victim" realis="true">16,789</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-627">
+      <event_mention id="em-671" type="life" subtype="die" realis="actual">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="3733" length="6">deaths</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-99" role="victim" realis="true">394,195</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1394">
+      <event_mention id="em-1373" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="166" length="3">die</trigger>
+        <em_arg entity_id="ent-698" entity_mention_id="m-692" role="victim" realis="true">Alcoholics</em_arg>
+      </event_mention>
+      <event_mention id="em-1594" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="2925" length="3">die</trigger>
+        <em_arg entity_id="ent-698" entity_mention_id="m-929" role="victim" realis="true">Alcoholics</em_arg>
+      </event_mention>
+      <event_mention id="em-1699" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="3095" length="3">die</trigger>
+        <em_arg entity_id="ent-698" entity_mention_id="m-959" role="victim" realis="true">Alcoholics</em_arg>
+      </event_mention>
+      <event_mention id="em-1850" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="4240" length="3">die</trigger>
+        <em_arg entity_id="ent-698" entity_mention_id="m-1058" role="victim" realis="true">Alcoholics</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1417">
+      <event_mention id="em-1396" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="194" length="3">die</trigger>
+        <em_arg entity_id="ent-707" entity_mention_id="m-701" role="victim" realis="true">Drug users</em_arg>
+      </event_mention>
+      <event_mention id="em-1615" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="2953" length="3">die</trigger>
+        <em_arg entity_id="ent-707" entity_mention_id="m-935" role="victim" realis="true">Drug users</em_arg>
+      </event_mention>
+      <event_mention id="em-1720" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="3124" length="3">die</trigger>
+        <em_arg entity_id="ent-707" entity_mention_id="m-965" role="victim" realis="true">Drug users</em_arg>
+      </event_mention>
+      <event_mention id="em-1871" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="4268" length="3">die</trigger>
+        <em_arg entity_id="ent-707" entity_mention_id="m-1064" role="victim" realis="true">Drug users</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1440">
+      <event_mention id="em-1419" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="212" length="3">die</trigger>
+        <em_arg entity_id="ent-716" entity_mention_id="m-710" role="victim" realis="true">Smokers</em_arg>
+      </event_mention>
+      <event_mention id="em-1636" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="2971" length="3">die</trigger>
+        <em_arg entity_id="ent-716" entity_mention_id="m-941" role="victim" realis="true">Smokers</em_arg>
+      </event_mention>
+      <event_mention id="em-1741" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="3150" length="3">die</trigger>
+        <em_arg entity_id="ent-716" entity_mention_id="m-971" role="victim" realis="true">Smokers</em_arg>
+      </event_mention>
+      <event_mention id="em-1901" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="4286" length="3">die</trigger>
+        <em_arg entity_id="ent-716" entity_mention_id="m-1070" role="victim" realis="true">Smokers</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1463">
+      <event_mention id="em-1442" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="237" length="3">die</trigger>
+        <em_arg entity_id="ent-725" entity_mention_id="m-719" role="victim" realis="true">you</em_arg>
+      </event_mention>
+      <event_mention id="em-1657" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="2996" length="3">die</trigger>
+        <em_arg entity_id="ent-725" entity_mention_id="m-947" role="victim" realis="true">you</em_arg>
+      </event_mention>
+      <event_mention id="em-1922" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="4311" length="3">die</trigger>
+        <em_arg entity_id="ent-725" entity_mention_id="m-1076" role="victim" realis="true">you</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1486">
+      <event_mention id="em-1465" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="266" length="3">die</trigger>
+        <em_arg entity_id="ent-734" entity_mention_id="m-728" role="victim" realis="true">Homosexuals</em_arg>
+      </event_mention>
+      <event_mention id="em-1678" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="3025" length="3">die</trigger>
+        <em_arg entity_id="ent-734" entity_mention_id="m-953" role="victim" realis="true">Homosexuals</em_arg>
+      </event_mention>
+      <event_mention id="em-1785" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="3214" length="3">die</trigger>
+        <em_arg entity_id="ent-734" entity_mention_id="m-986" role="victim" realis="true">homosexuals</em_arg>
+      </event_mention>
+      <event_mention id="em-1943" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="4340" length="3">die</trigger>
+        <em_arg entity_id="ent-734" entity_mention_id="m-1082" role="victim" realis="true">Homosexuals</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1516">
+      <event_mention id="em-1488" type="life" subtype="beborn" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="1121" length="4">born</trigger>
+        <em_arg entity_id="ent-824" entity_mention_id="m-818" role="person" realis="true">All persons born or naturalized in the United States</em_arg>
+        <em_arg entity_id="ent-87" entity_mention_id="m-519" role="place" realis="true">United States</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1567">
+      <event_mention id="em-1539" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="2465" length="3">ran</trigger>
+        <em_arg entity_id="ent-72" entity_mention_id="m-483" role="agent" realis="true">democrats</em_arg>
+        <em_arg entity_id="ent-81" entity_mention_id="m-501" role="destination" realis="true">Illinois</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1569">
+      <event_mention id="em-1518" type="contact" subtype="contact" realis="actual" audience="canttell" formality="informal" medium="notinperson" schedule="canttell">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="1641" length="7">quoting</trigger>
+        <em_arg entity_id="ent-39" entity_mention_id="m-887" role="entity" realis="true">you</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1592">
+      <event_mention id="em-1571" type="contact" subtype="contact" realis="actual" audience="canttell" formality="formal" medium="canttell" schedule="canttell">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="2533" length="11">threatening</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-171" role="entity" realis="true">Obama</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1783">
+      <event_mention id="em-1762" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="3181" length="3">die</trigger>
+        <em_arg entity_id="ent-983" entity_mention_id="m-977" role="victim" realis="true">Obese people</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1848">
+      <event_mention id="em-1806" type="life" subtype="die" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="3808" length="3">die</trigger>
+        <em_arg entity_id="ent-1025" entity_mention_id="m-1019" role="victim" realis="true">People</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1899">
+      <event_mention id="em-1827" type="life" subtype="marry" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="3303" length="8">Marriage</trigger>
+        <em_arg entity_id="ent-752" entity_mention_id="m-998" role="person" realis="true">the identified groups</em_arg>
+        <em_arg entity_id="ent-1055" entity_mention_id="m-1317" role="place" realis="true">most places</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1985">
+      <event_mention id="em-1964" type="life" subtype="marry" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="421" length="8">marriage</trigger>
+        <em_arg entity_id="ent-752" entity_mention_id="m-746" role="person" realis="true">all of those groups</em_arg>
+      </event_mention>
+      <event_mention id="em-2084" type="life" subtype="marry" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="4497" length="8">marriage</trigger>
+        <em_arg entity_id="ent-752" entity_mention_id="m-1094" role="person" realis="true">all of those groups</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2008">
+      <event_mention id="em-1987" type="life" subtype="marry" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="3441" length="8">Marriage</trigger>
+        <em_arg entity_id="ent-734" entity_mention_id="m-1004" role="person" realis="true">them</em_arg>
+      </event_mention>
+      <event_mention id="em-2056" type="life" subtype="marry" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="3890" length="5">Marry</trigger>
+        <em_arg entity_id="ent-734" entity_mention_id="m-1043" role="person" realis="false">homosexuals</em_arg>
+        <em_arg entity_id="ent-1055" entity_mention_id="m-1049" role="place" realis="true">most places</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2031">
+      <event_mention id="em-2010" type="life" subtype="marry" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="3518" length="8">Marriage</trigger>
+        <em_arg entity_id="ent-1016" entity_mention_id="m-1010" role="person" realis="true">others who live unhealthy lifestyles</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2054">
+      <event_mention id="em-2033" type="life" subtype="marry" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="3890" length="5">Marry</trigger>
+        <em_arg entity_id="ent-716" entity_mention_id="m-1037" role="person" realis="true">smokers</em_arg>
+        <em_arg entity_id="ent-1055" entity_mention_id="m-1049" role="place" realis="true">most places</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2149">
+      <event_mention id="em-2128" type="life" subtype="marry" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="5862" length="5">marry</trigger>
+        <em_arg entity_id="ent-1199" entity_mention_id="m-1193" role="person" realis="true">NO ONE</em_arg>
+      </event_mention>
+      <event_mention id="em-2172" type="life" subtype="marry" realis="generic">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="6526" length="5">marry</trigger>
+        <em_arg entity_id="ent-1199" entity_mention_id="m-1250" role="person" realis="false">NO ONE</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2320">
+      <event_mention id="em-2292" type="personnel" subtype="endposition" realis="other">
+        <trigger source="52355a4167e6ac3a80d19c94ad6259a7" offset="2503" length="6">recall</trigger>
+        <em_arg entity_id="ent-33" entity_mention_id="m-219" role="person" realis="true">Walker</em_arg>
+        <em_arg entity_id="ent-84" entity_mention_id="m-507" role="place" realis="true">Wisconsin</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

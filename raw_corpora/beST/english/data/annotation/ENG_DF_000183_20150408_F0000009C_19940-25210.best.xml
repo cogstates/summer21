@@ -1,0 +1,2523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-570bb61b0000000000000016">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-568eb23c_20_1177">
+        <trigger offset="21094" length="6">become</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_258" offset="20992" length="12">Snarkoleptic</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_1187">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_258" offset="20992" length="12">Snarkoleptic</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_1219">
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_20_264" offset="21321" length="10">leftofcool</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_1229">
+        <trigger offset="20132" length="3">are</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_228" offset="19963" length="4">cali</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_1239">
+        <trigger offset="22215" length="2">of</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_288" offset="21870" length="14">Dr Hobbitstein</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_1249">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_1259">
+        <trigger offset="23984" length="7">Russian</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_1305">
+        <trigger offset="24407" length="8">staffers</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_1315">
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_1325">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_1335">
+        <trigger offset="21419" length="3">for</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="yes">
+            <source ere_id="m-568eb23c_20_264" offset="21321" length="10">leftofcool</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_2154">
+        <trigger offset="23830" length="5">hired</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_2545">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_258" offset="20992" length="12">Snarkoleptic</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-568eb23c_20_1530">
+        <trigger offset="21393" length="6">called</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_20_264" offset="21321" length="10">leftofcool</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_564" offset="21369" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_264" offset="21321" length="10">leftofcool</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1394">
+        <trigger offset="20440" length="5">troll</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_20_234" offset="20220" length="18">DemocratSinceBirth</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_426" offset="20436" length="3">
+            <text>You</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_234" offset="20220" length="18">DemocratSinceBirth</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_20_414" offset="20446" length="2">
+            <text>me</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_234" offset="20220" length="18">DemocratSinceBirth</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1417">
+        <trigger offset="20458" length="5">troll</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_234" offset="20220" length="18">DemocratSinceBirth</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_420" offset="20451" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_234" offset="20220" length="18">DemocratSinceBirth</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_20_432" offset="20464" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_234" offset="20220" length="18">DemocratSinceBirth</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1475">
+        <trigger offset="21068" length="7">nominee</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_20_258" offset="20992" length="12">Snarkoleptic</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_102" offset="21049" length="7">
+            <text>Hillary</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_20_258" offset="20992" length="12">Snarkoleptic</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_20_498" offset="21064" length="3">
+            <text>our</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_20_258" offset="20992" length="12">Snarkoleptic</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2353">
+        <trigger offset="24714" length="7">nominee</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_1056" offset="24700" length="3">
+            <text>her</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2425">
+        <trigger offset="25074" length="7">nominee</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_1119" offset="25037" length="3">
+            <text>she</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2448">
+        <trigger offset="25101" length="7">nominee</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_1125" offset="25090" length="3">
+            <text>she</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1500">
+        <trigger offset="21240" length="8">becoming</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_258" offset="20992" length="12">Snarkoleptic</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_84" offset="21202" length="3">
+            <text>Jeb</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_258" offset="20992" length="12">Snarkoleptic</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_20_528" offset="21209" length="30">
+            <text>any of the other Republiclowns</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_258" offset="20992" length="12">Snarkoleptic</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1551">
+        <trigger offset="21403" length="4">paid</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_264" offset="21321" length="10">leftofcool</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_570" offset="21400" length="30">
+            <text>a "paid operative" for Hillary</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-568eb23c_20_264" offset="21321" length="10">leftofcool</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1572">
+        <trigger offset="21460" length="5">check</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_264" offset="21321" length="10">leftofcool</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_576" offset="21432" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_264" offset="21321" length="10">leftofcool</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1595">
+        <trigger offset="21573" length="4">paid</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_276" offset="21505" length="6">Trajan</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_582" offset="21573" length="31">
+            <text>paid antagonists who post on DU</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_276" offset="21505" length="6">Trajan</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1618">
+        <trigger offset="21594" length="4">post</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_276" offset="21505" length="6">Trajan</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_582" offset="21573" length="31">
+            <text>paid antagonists who post on DU</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_276" offset="21505" length="6">Trajan</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1743">
+        <trigger offset="22319" length="7">accused</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_288" offset="21870" length="14">Dr Hobbitstein</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_669" offset="22292" length="55">
+            <text>the ones who are generally accused of being paid shills</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_288" offset="21870" length="14">Dr Hobbitstein</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1668">
+        <trigger offset="21995" length="4">paid</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_288" offset="21870" length="14">Dr Hobbitstein</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_621" offset="21995" length="11">
+            <text>paid trolls</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_288" offset="21870" length="14">Dr Hobbitstein</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1697">
+        <trigger offset="22011" length="4">paid</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_288" offset="21870" length="14">Dr Hobbitstein</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_630" offset="22011" length="15">
+            <text>paid supporters</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_288" offset="21870" length="14">Dr Hobbitstein</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1764">
+        <trigger offset="22336" length="4">paid</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_288" offset="21870" length="14">Dr Hobbitstein</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_675" offset="22336" length="11">
+            <text>paid shills</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_288" offset="21870" length="14">Dr Hobbitstein</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1785">
+        <trigger offset="22551" length="3">pay</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_300" offset="22480" length="10">msanthrope</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_222" offset="22539" length="3">
+            <text>NSA</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_300" offset="22480" length="10">msanthrope</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1831">
+        <trigger offset="22901" length="7">accused</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_717" offset="22872" length="23">
+            <text>all of us in that group</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2078">
+        <trigger offset="23706" length="10">compliment</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_825" offset="23612" length="33">one of my fellow JK group posters</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_855" offset="23683" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_825" offset="23612" length="33">one of my fellow JK group posters</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2108">
+        <trigger offset="23741" length="7">accused</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_861" offset="23734" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1854">
+        <trigger offset="22918" length="4">paid</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_735" offset="22918" length="18">
+            <text>paid Kerry Shrills</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_20_156" offset="22923" length="5">
+            <text>Kerry</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1877">
+        <trigger offset="23033" length="9">arguments</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_744" offset="23043" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1808">
+        <trigger offset="22752" length="7">attacks</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_693" offset="22782" length="6">
+            <text>people</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1944">
+        <trigger offset="23253" length="6">posted</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_789" offset="23244" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1967">
+        <trigger offset="23501" length="7">posting</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_810" offset="23475" length="91">
+            <text>many here now who started posting as the 2008 contest started - especially in 2007 and 2008</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-568eb23c_20_1992" offset="23553" length="4">
+            <text>2007</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1997">
+        <trigger offset="23501" length="7">posting</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_810" offset="23475" length="91">
+            <text>many here now who started posting as the 2008 contest started - especially in 2007 and 2008</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-568eb23c_20_2022" offset="23562" length="4">
+            <text>2008</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2027">
+        <trigger offset="23651" length="4">said</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_825" offset="23612" length="33">
+            <text>one of my fellow JK group posters</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_20_849" offset="23659" length="2">
+            <text>me</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2131">
+        <trigger offset="23830" length="5">hired</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_873" offset="23836" length="2">
+            <text>us</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2164">
+        <trigger offset="24019" length="4">said</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_1275" offset="24014" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2210">
+        <trigger offset="24284" length="4">said</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_1287" offset="24279" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2187">
+        <trigger offset="24038" length="7">posting</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_906" offset="24047" length="6">
+            <text>people</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_20_2736" offset="24098" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2231">
+        <trigger offset="24340" length="4">paid</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_957" offset="24338" length="13">
+            <text>a paid shrill</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2254">
+        <trigger offset="24461" length="8">messages</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_990" offset="24425" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2277">
+        <trigger offset="24453" length="7">raising</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_990" offset="24425" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2302">
+        <trigger offset="24587" length="3">pay</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_216" offset="24574" length="3">
+            <text>HRC</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_1011" offset="24553" length="9">some here</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_1011" offset="24553" length="9">some here</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_20_1020" offset="24591" length="6">
+            <text>people</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_1011" offset="24553" length="9">some here</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2330">
+        <trigger offset="24601" length="4">post</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_1020" offset="24591" length="6">
+            <text>people</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2481">
+        <trigger offset="22559" length="7">posting</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_300" offset="22480" length="10">msanthrope</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_222" offset="22539" length="3">
+            <text>NSA</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_300" offset="22480" length="10">msanthrope</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2504">
+        <trigger offset="22612" length="7">posting</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_300" offset="22480" length="10">msanthrope</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_681" offset="22598" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_300" offset="22480" length="10">msanthrope</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1452">
+        <trigger offset="20933" length="6">called</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_252" offset="20809" length="6">Autumn</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_474" offset="20908" length="14">
+            <text>Non Supporters</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_252" offset="20809" length="6">Autumn</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_1366">
+        <trigger offset="20285" length="4">call</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_234" offset="20220" length="18">DemocratSinceBirth</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_348" offset="20276" length="4">
+            <text>They</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_234" offset="20220" length="18">DemocratSinceBirth</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_20_363" offset="20290" length="2">
+            <text>me</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_234" offset="20220" length="18">DemocratSinceBirth</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2584">
+        <trigger offset="22602" length="4">make</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_300" offset="22480" length="10">msanthrope</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_681" offset="22598" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_300" offset="22480" length="10">msanthrope</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2637">
+        <trigger offset="23638" length="7">posters</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_834" offset="23619" length="26">
+            <text>my fellow JK group posters</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_20_2539" offset="23619" length="2">
+            <text>my</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2057">
+        <trigger offset="23671" length="7">denying</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_855" offset="23683" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2683">
+        <trigger offset="23858" length="7">payroll</trigger>
+        <beliefs>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_885" offset="23854" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_20_879" offset="23848" length="2">
+            <text>us</text>
+            <beliefs>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2713">
+        <trigger offset="23993" length="7">posters</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_897" offset="23971" length="29">
+            <text>some (likely Russian) posters</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2397">
+        <trigger offset="24996" length="6">defend</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_1113" offset="24973" length="2">
+            <text>me</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_20_2751">
+        <trigger offset="25180" length="10">shoot down</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_20_1155" offset="25109" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-568eb23c_20_84" offset="21202" length="3">
+        <text>Jeb</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_258" offset="20992" length="12">Snarkoleptic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_90" offset="22222" length="16">
+        <text>Democratic party</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_96" offset="24685" length="9">
+        <text>Democrats</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1032" offset="24624" length="10">
+        <text>Democratic</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_102" offset="21049" length="7">
+        <text>Hillary</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_114" offset="21423" length="7">
+        <text>Hillary</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_120" offset="23425" length="7">
+        <text>Clinton</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_801" offset="23374" length="71">someone just joining DU as someone excited for the Clinton run to start</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_126" offset="24513" length="7">
+        <text>Clinton</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_1002" offset="24507" length="24">other Clinton supporters</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_132" offset="24837" length="7">
+        <text>Hillary</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_216" offset="24574" length="3">
+        <text>HRC</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_1002" offset="24507" length="24">other Clinton supporters</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_318" offset="20055" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_228" offset="19963" length="4">cali</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1026" offset="24609" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_1002" offset="24507" length="24">other Clinton supporters</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1056" offset="24700" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_1038" offset="24671" length="23">over half the Democrats</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1089" offset="24867" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1095" offset="24883" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1101" offset="24965" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1107" offset="25003" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1119" offset="25037" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1125" offset="25090" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1131" offset="25160" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_2527" offset="20122" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_324" offset="20092" length="38">those that vigorously support her here</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_138" offset="22714" length="5">
+        <text>Kitty</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_144" offset="24754" length="11">
+        <text>KittyWampus</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_774" offset="23161" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_789" offset="23244" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_795" offset="23274" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_819" offset="23581" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_996" offset="24499" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1068" offset="24803" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1074" offset="24822" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1113" offset="24973" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_150" offset="22832" length="10">
+        <text>John Kerry</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_156" offset="22923" length="5">
+        <text>Kerry</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_162" offset="23629" length="2">
+        <text>JK</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_849" offset="23659" length="2">me</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_867" offset="23801" length="17">
+        <text>a sitting Senator</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_867" offset="23801" length="17">a sitting Senator</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_885" offset="23854" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_849" offset="23659" length="2">me</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_174" offset="23984" length="7">
+        <text>Russian</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_180" offset="24355" length="12">
+        <text>ALAN GRAYSON</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_951" offset="24327" length="1">I</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_957" offset="24338" length="13">
+        <text>a paid shrill</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_951" offset="24327" length="1">I</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_966" offset="24396" length="19">
+        <text>one of his staffers</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_951" offset="24327" length="1">I</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_990" offset="24425" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_951" offset="24327" length="1">I</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_222" offset="22539" length="3">
+        <text>NSA</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_228" offset="19963" length="4">
+        <text>cali</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_312" offset="20035" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_591" offset="21614" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_234" offset="20220" length="18">
+        <text>DemocratSinceBirth</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_357" offset="20309" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_363" offset="20290" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_384" offset="20347" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_390" offset="20351" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_396" offset="20386" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_408" offset="20396" length="6">
+        <text>myself</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_414" offset="20446" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_420" offset="20451" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_240" offset="20521" length="7">
+        <text>H2O Man</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_246" offset="20609" length="6">
+        <text>MattSh</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_252" offset="20809" length="6">
+        <text>Autumn</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_108" offset="21155" length="7">
+        <text>Hillbot</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_258" offset="20992" length="12">
+        <text>Snarkoleptic</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_504" offset="21077" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_510" offset="21146" length="8">
+        <text>Advocate</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_264" offset="21321" length="10">
+        <text>leftofcool</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_564" offset="21369" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_576" offset="21432" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_276" offset="21505" length="6">
+        <text>Trajan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_603" offset="21807" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_609" offset="21634" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_282" offset="21734" length="9">
+        <text>oberliner</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_288" offset="21870" length="14">
+        <text>Dr Hobbitstein</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_615" offset="21963" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_294" offset="22380" length="8">
+        <text>JaneyVee</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_300" offset="22480" length="10">
+        <text>msanthrope</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_306" offset="22669" length="7">
+        <text>karynnj</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_687" offset="22721" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_702" offset="22807" length="41">
+        <text>a longtime member of the John Kerry group</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_849" offset="23659" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_951" offset="24327" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_2539" offset="23619" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_324" offset="20092" length="38">
+        <text>those that vigorously support her here</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_342" offset="20175" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_333" offset="20137" length="10">
+        <text>operatives</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_630" offset="22011" length="15">
+        <text>paid supporters</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_288" offset="21870" length="14">Dr Hobbitstein</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_675" offset="22336" length="11">
+        <text>paid shills</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_288" offset="21870" length="14">Dr Hobbitstein</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_348" offset="20276" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_234" offset="20220" length="18">DemocratSinceBirth</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_369" offset="20298" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_234" offset="20220" length="18">DemocratSinceBirth</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_375" offset="20330" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_234" offset="20220" length="18">DemocratSinceBirth</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_402" offset="20370" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_234" offset="20220" length="18">DemocratSinceBirth</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_426" offset="20436" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_234" offset="20220" length="18">DemocratSinceBirth</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_432" offset="20464" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_234" offset="20220" length="18">DemocratSinceBirth</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_681" offset="22598" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_2736" offset="24098" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_438" offset="20742" length="6">
+        <text>juries</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_447" offset="20853" length="6">
+        <text>Haters</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_456" offset="20861" length="10">
+        <text>ratfuckers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_465" offset="20873" length="6">
+        <text>trolls</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_474" offset="20908" length="14">
+        <text>Non Supporters</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_483" offset="21064" length="11">
+        <text>our nominee</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_258" offset="20992" length="12">Snarkoleptic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1062" offset="24710" length="11">
+        <text>the nominee</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_1038" offset="24671" length="23">over half the Democrats</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1143" offset="25070" length="11">
+        <text>the nominee</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1149" offset="25097" length="11">
+        <text>the nominee</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_597" offset="21655" length="2">
+        <text>'s</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1155" offset="25109" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1161" offset="25115" length="3">
+        <text>all</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_2533" offset="20681" length="2">
+        <text>Us</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_570" offset="21400" length="30">
+        <text>a "paid operative" for Hillary</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_528" offset="21209" length="30">
+        <text>any of the other Republiclowns</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_258" offset="20992" length="12">Snarkoleptic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_537" offset="21216" length="23">
+        <text>the other Republiclowns</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_258" offset="20992" length="12">Snarkoleptic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_546" offset="21249" length="24">
+        <text>leader of the free world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_555" offset="21259" length="14">
+        <text>the free world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_582" offset="21573" length="31">
+        <text>paid antagonists who post on DU</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_276" offset="21505" length="6">Trajan</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_621" offset="21995" length="11">
+        <text>paid trolls</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_288" offset="21870" length="14">Dr Hobbitstein</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_639" offset="22032" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_288" offset="21870" length="14">Dr Hobbitstein</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_648" offset="22200" length="38">
+        <text>the mainstream of the Democratic party</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_663" offset="22273" length="14">
+        <text>the mainstream</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_693" offset="22782" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_906" offset="24047" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_912" offset="24077" length="10">
+        <text>themselves</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_918" offset="24127" length="12">
+        <text>who they are</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_708" offset="22828" length="20">
+        <text>the John Kerry group</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_717" offset="22872" length="23">
+        <text>all of us in that group</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_723" offset="22879" length="16">
+        <text>us in that group</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_729" offset="22885" length="10">
+        <text>that group</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_744" offset="23043" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_750" offset="23076" length="6">
+        <text>others</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_759" offset="23072" length="2">
+        <text>us</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_834" offset="23619" length="26">
+        <text>my fellow JK group posters</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_843" offset="23629" length="8">
+        <text>JK group</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_855" offset="23683" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_861" offset="23734" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_873" offset="23836" length="2">
+        <text>us</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_879" offset="23848" length="2">
+        <text>us</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_891" offset="23878" length="3">
+        <text>Our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_735" offset="22918" length="18">
+        <text>paid Kerry Shrills</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_765" offset="23092" length="20">
+        <text>true blue DU members</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_780" offset="23177" length="11">
+        <text>many others</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_801" offset="23374" length="71">
+        <text>someone just joining DU as someone excited for the Clinton run to start</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_810" offset="23475" length="91">
+        <text>many here now who started posting as the 2008 contest started - especially in 2007 and 2008</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_825" offset="23612" length="33">
+        <text>one of my fellow JK group posters</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1020" offset="24591" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_897" offset="23971" length="29">
+        <text>some (likely Russian) posters</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_924" offset="24144" length="5">
+        <text>there</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_930" offset="24246" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_936" offset="24265" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1275" offset="24014" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1281" offset="24024" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1287" offset="24279" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1293" offset="24289" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_942" offset="24275" length="23">
+        <text>who they said they were</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1269" offset="24010" length="23">
+        <text>who they said they were</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_972" offset="24403" length="12">
+        <text>his staffers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_981" offset="24403" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1002" offset="24507" length="24">
+        <text>other Clinton supporters</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1011" offset="24553" length="9">
+        <text>some here</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1038" offset="24671" length="23">
+        <text>over half the Democrats</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_498" offset="21064" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1047" offset="24681" length="13">
+        <text>the Democrats</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1080" offset="24835" length="19">
+        <text>a Hillary supporter</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_657" offset="22244" length="43">
+        <text>those here that DO represent the mainstream</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_669" offset="22292" length="55">
+        <text>the ones who are generally accused of being paid shills</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_20_1197" offset="21226" length="13">
+        <text>Republiclowns</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_258" offset="20992" length="12">Snarkoleptic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-568eb23c_20_1177">
+        <trigger offset="21094" length="6">become</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_1187">
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_258" offset="20992" length="12">Snarkoleptic</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_1219">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_1229">
+        <trigger offset="20132" length="3">are</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_1239">
+        <trigger offset="22215" length="2">of</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_1249">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_1259">
+        <trigger offset="23984" length="7">Russian</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_1305">
+        <trigger offset="24407" length="8">staffers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_1315">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_1325">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_1335">
+        <trigger offset="21419" length="3">for</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_2154">
+        <trigger offset="23830" length="5">hired</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_825" offset="23612" length="33">one of my fellow JK group posters</source>
+          </sentiment>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_20_2545">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-568eb23c_20_1530">
+        <trigger offset="21393" length="6">called</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1394">
+        <trigger offset="20440" length="5">troll</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_234" offset="20220" length="18">DemocratSinceBirth</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1417">
+        <trigger offset="20458" length="5">troll</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_234" offset="20220" length="18">DemocratSinceBirth</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1475">
+        <trigger offset="21068" length="7">nominee</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2353">
+        <trigger offset="24714" length="7">nominee</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_1038" offset="24671" length="23">over half the Democrats</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2425">
+        <trigger offset="25074" length="7">nominee</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2448">
+        <trigger offset="25101" length="7">nominee</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1500">
+        <trigger offset="21240" length="8">becoming</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_258" offset="20992" length="12">Snarkoleptic</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1551">
+        <trigger offset="21403" length="4">paid</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1572">
+        <trigger offset="21460" length="5">check</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1595">
+        <trigger offset="21573" length="4">paid</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_276" offset="21505" length="6">Trajan</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1618">
+        <trigger offset="21594" length="4">post</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_276" offset="21505" length="6">Trajan</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1743">
+        <trigger offset="22319" length="7">accused</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_288" offset="21870" length="14">Dr Hobbitstein</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1668">
+        <trigger offset="21995" length="4">paid</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_288" offset="21870" length="14">Dr Hobbitstein</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1697">
+        <trigger offset="22011" length="4">paid</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_288" offset="21870" length="14">Dr Hobbitstein</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1764">
+        <trigger offset="22336" length="4">paid</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_288" offset="21870" length="14">Dr Hobbitstein</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1785">
+        <trigger offset="22551" length="3">pay</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1831">
+        <trigger offset="22901" length="7">accused</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2078">
+        <trigger offset="23706" length="10">compliment</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_825" offset="23612" length="33">one of my fellow JK group posters</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2108">
+        <trigger offset="23741" length="7">accused</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_825" offset="23612" length="33">one of my fellow JK group posters</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1854">
+        <trigger offset="22918" length="4">paid</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1877">
+        <trigger offset="23033" length="9">arguments</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1808">
+        <trigger offset="22752" length="7">attacks</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_306" offset="22669" length="7">karynnj</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1944">
+        <trigger offset="23253" length="6">posted</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1967">
+        <trigger offset="23501" length="7">posting</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1997">
+        <trigger offset="23501" length="7">posting</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2027">
+        <trigger offset="23651" length="4">said</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2131">
+        <trigger offset="23830" length="5">hired</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2164">
+        <trigger offset="24019" length="4">said</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2210">
+        <trigger offset="24284" length="4">said</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2187">
+        <trigger offset="24038" length="7">posting</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2231">
+        <trigger offset="24340" length="4">paid</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2254">
+        <trigger offset="24461" length="8">messages</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2277">
+        <trigger offset="24453" length="7">raising</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2302">
+        <trigger offset="24587" length="3">pay</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2330">
+        <trigger offset="24601" length="4">post</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2481">
+        <trigger offset="22559" length="7">posting</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2504">
+        <trigger offset="22612" length="7">posting</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1452">
+        <trigger offset="20933" length="6">called</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_252" offset="20809" length="6">Autumn</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_1366">
+        <trigger offset="20285" length="4">call</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2584">
+        <trigger offset="22602" length="4">make</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2637">
+        <trigger offset="23638" length="7">posters</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2057">
+        <trigger offset="23671" length="7">denying</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2683">
+        <trigger offset="23858" length="7">payroll</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2713">
+        <trigger offset="23993" length="7">posters</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2397">
+        <trigger offset="24996" length="6">defend</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_20_2751">
+        <trigger offset="25180" length="10">shoot down</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_20_144" offset="24754" length="11">KittyWampus</source>
+          </sentiment>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

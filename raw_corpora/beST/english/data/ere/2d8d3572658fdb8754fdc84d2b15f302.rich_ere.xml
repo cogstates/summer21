@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="5554f84f0000000000000044" doc_id="2d8d3572658fdb8754fdc84d2b15f302" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-81" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="14" length="8">
+        <mention_text>Sunshine</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-18" type="PER" specificity="specific">
+      <entity_mention id="m-87" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="86" length="7">
+        <mention_text>Intense</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-21" type="PER" specificity="specific">
+      <entity_mention id="m-93" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="116" length="9">
+        <mention_text>The Rabbi</mention_text>
+      </entity_mention>
+      <entity_mention id="m-99" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="998" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-105" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1079" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+      <entity_mention id="m-111" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1197" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-117" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1361" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-123" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="165" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-129" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="837" length="3">
+        <mention_text>guy</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="837" length="3">guy</nom_head>
+      </entity_mention>
+      <entity_mention id="m-135" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1424" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-539" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1372" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-24" type="PER" specificity="specific">
+      <entity_mention id="m-141" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="148" length="7">
+        <mention_text>JoeB131</mention_text>
+      </entity_mention>
+      <entity_mention id="m-147" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="427" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-153" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1099" length="3">
+        <mention_text>You</mention_text>
+      </entity_mention>
+      <entity_mention id="m-159" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1125" length="4">
+        <mention_text>Your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-165" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1224" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-27" type="PER" specificity="specific">
+      <entity_mention id="m-171" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="210" length="6">
+        <mention_text>Reagan</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-30" type="PER" specificity="specific">
+      <entity_mention id="m-177" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="456" length="7">
+        <mention_text>Clinton</mention_text>
+      </entity_mention>
+      <entity_mention id="m-183" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1168" length="7">
+        <mention_text>Clinton</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-33" type="PER" specificity="specific">
+      <entity_mention id="m-189" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="599" length="4">
+        <mention_text>Bush</mention_text>
+      </entity_mention>
+      <entity_mention id="m-195" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1148" length="4">
+        <mention_text>Bush</mention_text>
+      </entity_mention>
+      <entity_mention id="m-201" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1280" length="4">
+        <mention_text>Bush</mention_text>
+      </entity_mention>
+      <entity_mention id="m-207" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2228" length="4">
+        <mention_text>Bush</mention_text>
+      </entity_mention>
+      <entity_mention id="m-213" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2870" length="4">
+        <mention_text>Bush</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-36" type="PER" specificity="specific">
+      <entity_mention id="m-219" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1918" length="9">
+        <mention_text>sealybobo</mention_text>
+      </entity_mention>
+      <entity_mention id="m-225" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1984" length="9">
+        <mention_text>sealybobo</mention_text>
+      </entity_mention>
+      <entity_mention id="m-231" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2982" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-237" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3166" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-243" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3308" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-249" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3448" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-255" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3636" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-261" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3797" length="5">
+        <mention_text>Youve</mention_text>
+      </entity_mention>
+      <entity_mention id="m-267" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3835" length="11">
+        <mention_text>grasshopper</mention_text>
+      </entity_mention>
+      <entity_mention id="m-273" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3877" length="5">
+        <mention_text>youre</mention_text>
+      </entity_mention>
+      <entity_mention id="m-279" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3883" length="8">
+        <mention_text>a leftie</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="3885" length="6">leftie</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-39" type="PER" specificity="specific">
+      <entity_mention id="m-285" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1950" length="11">
+        <mention_text>LoneLaugher</mention_text>
+      </entity_mention>
+      <entity_mention id="m-291" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2584" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-842" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3300" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-42" type="PER" specificity="specific">
+      <entity_mention id="m-297" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1845" length="9">
+        <mention_text>Full-Auto</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-45" type="PER" specificity="specific">
+      <entity_mention id="m-303" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2601" length="24">
+        <mention_text>every McDonalds employee</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="2617" length="8">employee</nom_head>
+      </entity_mention>
+      <entity_mention id="m-309" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2652" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-48" type="PER" specificity="specific">
+      <entity_mention id="m-315" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3025" length="5">
+        <mention_text>Obama</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-51" type="PER" specificity="specific">
+      <entity_mention id="m-321" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3072" length="4">
+        <mention_text>Mitt</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-57" type="PER" specificity="specific">
+      <entity_mention id="m-333" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3455" length="51">
+        <mention_text>a lot of very good people who are voting Republican</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="3457" length="3">lot</nom_head>
+      </entity_mention>
+      <entity_mention id="m-339" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3508" length="4">
+        <mention_text>They</mention_text>
+      </entity_mention>
+      <entity_mention id="m-345" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3566" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-351" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3601" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-60" type="PER" specificity="specific">
+      <entity_mention id="m-357" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3549" length="4">
+        <mention_text>Rush</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-63" type="ORG" specificity="specific">
+      <entity_mention id="m-363" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1588" length="14">
+        <mention_text>Teachers Union</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-66" type="ORG" specificity="specific">
+      <entity_mention id="m-369" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2607" length="9">
+        <mention_text>McDonalds</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-69" type="ORG" specificity="specific">
+      <entity_mention id="m-375" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3496" length="10">
+        <mention_text>Republican</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-72" type="ORG" specificity="specific">
+      <entity_mention id="m-381" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3538" length="3">
+        <mention_text>Fox</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-75" type="GPE" specificity="specific">
+      <entity_mention id="m-393" noun_type="NAM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1565" length="3">
+        <mention_text>NYC</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-78" type="GPE" specificity="specific">
+      <entity_mention id="m-399" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1333" length="4">
+        <mention_text>here</mention_text>
+      </entity_mention>
+      <entity_mention id="m-503" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="897" length="2">
+        <mention_text>We</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-452" type="PER" specificity="nonspecific">
+      <entity_mention id="m-446" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="260" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-692" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2347" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-467" type="PER" specificity="nonspecific">
+      <entity_mention id="m-461" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="481" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-470" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="554" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-476" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="610" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-482" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="633" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-488" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="667" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-500" type="PER" specificity="nonspecific">
+      <entity_mention id="m-494" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="694" length="39">
+        <mention_text>40 other guys who were just as qualifed</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="703" length="4">guys</nom_head>
+      </entity_mention>
+      <entity_mention id="m-545" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1399" length="28">
+        <mention_text>guys more qualified than you</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="1399" length="4">guys</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-515" type="GPE" specificity="nonspecific">
+      <entity_mention id="m-509" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="945" length="15">
+        <mention_text>other countries</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="951" length="9">countries</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-530" type="PER" specificity="nonspecific">
+      <entity_mention id="m-524" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1017" length="49">
+        <mention_text>generations of unemployed and unemployable people</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="1017" length="11">generations</nom_head>
+      </entity_mention>
+      <entity_mention id="m-533" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1082" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-557" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-551" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1429" length="12">
+        <mention_text>Night school</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="1435" length="6">school</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-566" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-560" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1460" length="17">
+        <mention_text>Vocational School</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="1471" length="6">School</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-575" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-569" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1479" length="12">
+        <mention_text>Trade School</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="1485" length="6">School</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-584" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-578" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1493" length="15">
+        <mention_text>Charter Schools</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="1501" length="7">Schools</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-593" type="LOC" specificity="nonspecific">
+      <entity_mention id="m-587" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1526" length="42">
+        <mention_text>some of the most impoverished areas of NYC</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="1526" length="4">some</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-602" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-596" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1623" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-611" type="PER" specificity="nonspecific">
+      <entity_mention id="m-605" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1676" length="8">
+        <mention_text>the kids</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="1680" length="4">kids</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-626" type="PER" specificity="nonspecific">
+      <entity_mention id="m-620" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2012" length="8">
+        <mention_text>the poor</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="2016" length="4">poor</nom_head>
+      </entity_mention>
+      <entity_mention id="m-629" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2038" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-635" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2055" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-659" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2110" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-656" type="PER" specificity="nonspecific">
+      <entity_mention id="m-650" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2097" length="8">
+        <mention_text>the rich</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="2101" length="4">rich</nom_head>
+      </entity_mention>
+      <entity_mention id="m-665" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2124" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-677" type="PER" specificity="nonspecific">
+      <entity_mention id="m-671" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2149" length="13">
+        <mention_text>a poor person</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="2156" length="6">person</nom_head>
+      </entity_mention>
+      <entity_mention id="m-680" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2192" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-686" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2208" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-704" type="PER" specificity="nonspecific">
+      <entity_mention id="m-698" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2368" length="25">
+        <mention_text>any of the dug-in nutters</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="2368" length="3">any</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-713" type="PER" specificity="nonspecific">
+      <entity_mention id="m-707" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2429" length="14">
+        <mention_text>lots of people</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="2437" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-728" type="PER" specificity="nonspecific">
+      <entity_mention id="m-722" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2704" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-734" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2760" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-740" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2826" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-746" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2899" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-731" type="PER" specificity="specific">
+      <entity_mention id="m-752" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2924" length="10">
+        <mention_text>the 99%ers</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="2928" length="6">99%ers</nom_head>
+      </entity_mention>
+      <entity_mention id="m-761" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2936" length="4">
+        <mention_text>They</mention_text>
+      </entity_mention>
+      <entity_mention id="m-773" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2998" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+      <entity_mention id="m-779" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3088" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-758" type="PER" specificity="nonspecific">
+      <entity_mention id="m-767" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2990" length="12">
+        <mention_text>most of them</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="2990" length="4">most</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-791" type="FAC" specificity="nonspecific">
+      <entity_mention id="m-785" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2652" length="13">
+        <mention_text>their kitchen</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="2658" length="7">kitchen</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-800" type="PER" specificity="nonspecific">
+      <entity_mention id="m-794" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3107" length="45">
+        <mention_text>a lot of middle class and even poor Americans</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="3109" length="3">lot</nom_head>
+      </entity_mention>
+      <entity_mention id="m-830" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3220" length="9">
+        <mention_text>ignorants</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="3220" length="9">ignorants</nom_head>
+      </entity_mention>
+      <entity_mention id="m-836" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3255" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-860" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3370" length="6">
+        <mention_text>theirs</mention_text>
+      </entity_mention>
+      <entity_mention id="m-866" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3392" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-878" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3669" length="6">
+        <mention_text>People</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="3669" length="6">People</nom_head>
+      </entity_mention>
+      <entity_mention id="m-884" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3703" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-890" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3719" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-902" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3753" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-809" type="PER" specificity="nonspecific">
+      <entity_mention id="m-803" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3116" length="12">
+        <mention_text>middle class</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="3123" length="5">class</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-818" type="PER" specificity="nonspecific">
+      <entity_mention id="m-812" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3138" length="14">
+        <mention_text>poor Americans</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="3143" length="9">Americans</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-827" type="PER" specificity="nonspecific">
+      <entity_mention id="m-821" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3196" length="4">
+        <mention_text>Gays</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="3196" length="4">Gays</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-857" type="PER" specificity="nonspecific">
+      <entity_mention id="m-851" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3350" length="8">
+        <mention_text>somoenes</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1384" type="PER" specificity="nonspecific">
+      <entity_mention id="m-455" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="385" length="8">
+        <mention_text>everyone</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1422" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1378" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="187" length="17">
+        <mention_text>the Welfare Queen</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="199" length="5">Queen</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1425" type="PER" specificity="nonspecific">
+      <entity_mention id="m-614" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2004" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-641" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2068" length="3">
+        <mention_text>our</mention_text>
+      </entity_mention>
+      <entity_mention id="m-716" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2568" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-872" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3414" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1428" type="PER" specificity="nonspecific">
+      <entity_mention id="m-896" noun_type="PRO" source="2d8d3572658fdb8754fdc84d2b15f302" offset="3735" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1447" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1441" noun_type="NOM" source="2d8d3572658fdb8754fdc84d2b15f302" offset="1588" length="8">
+        <mention_text>Teachers</mention_text>
+        <nom_head source="2d8d3572658fdb8754fdc84d2b15f302" offset="1588" length="8">Teachers</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-1040" source="2d8d3572658fdb8754fdc84d2b15f302" offset="2068" length="9" type="commodity">our goods</filler>
+    <filler id="f-1412" source="2d8d3572658fdb8754fdc84d2b15f302" offset="909" length="11" type="money">500 billion</filler>
+  </fillers>
+  <relations>
+    <relation id="r-945" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-405" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-303" role="employeemember">every McDonalds employee</rel_arg1>
+        <rel_arg2 entity_id="ent-66" entity_mention_id="m-369" role="org">McDonalds</rel_arg2>
+        <trigger source="2d8d3572658fdb8754fdc84d2b15f302" offset="2617" length="8">employee</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-946" type="personalsocial" subtype="unspecified">
+      <relation_mention id="relm-415" realis="true">
+        <rel_arg1 entity_id="ent-36" entity_mention_id="m-249" role="per">I</rel_arg1>
+        <rel_arg2 entity_id="ent-57" entity_mention_id="m-333" role="per">a lot of very good people who are voting Republican</rel_arg2>
+        <trigger source="2d8d3572658fdb8754fdc84d2b15f302" offset="3450" length="4">know</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-947" type="physical" subtype="locatednear">
+      <relation_mention id="relm-908" realis="true">
+        <rel_arg1 entity_id="ent-593" entity_mention_id="m-587" role="entity">some of the most impoverished areas of NYC</rel_arg1>
+        <rel_arg2 entity_id="ent-75" entity_mention_id="m-393" role="loc">NYC</rel_arg2>
+        <trigger source="2d8d3572658fdb8754fdc84d2b15f302" offset="1562" length="2">of</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-948" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-1431" realis="true">
+        <rel_arg1 entity_id="ent-584" entity_mention_id="m-578" role="org">Charter Schools</rel_arg1>
+        <rel_arg2 entity_id="ent-593" entity_mention_id="m-587" role="loc">some of the most impoverished areas of NYC</rel_arg2>
+        <trigger source="2d8d3572658fdb8754fdc84d2b15f302" offset="1523" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-949" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1450" realis="true">
+        <rel_arg1 entity_id="ent-1447" entity_mention_id="m-1441" role="employeemember">Teachers</rel_arg1>
+        <rel_arg2 entity_id="ent-63" entity_mention_id="m-363" role="org">Teachers Union</rel_arg2>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-16">
+      <event_mention id="em-425" type="personnel" subtype="startposition" realis="actual">
+        <trigger source="2d8d3572658fdb8754fdc84d2b15f302" offset="2233" length="11">took office</trigger>
+        <em_arg entity_id="ent-33" entity_mention_id="m-207" role="person" realis="true">Bush</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-939">
+      <event_mention id="em-918" type="personnel" subtype="startposition" realis="generic">
+        <trigger source="2d8d3572658fdb8754fdc84d2b15f302" offset="514" length="3">get</trigger>
+        <em_arg entity_id="ent-467" entity_mention_id="m-461" role="person" realis="true">you</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-962">
+      <event_mention id="em-941" type="personnel" subtype="startposition" realis="generic">
+        <trigger source="2d8d3572658fdb8754fdc84d2b15f302" offset="623" length="3">get</trigger>
+        <em_arg entity_id="ent-467" entity_mention_id="m-476" role="person" realis="true">you</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-985">
+      <event_mention id="em-987" type="manufacture" subtype="artifact" realis="actual">
+        <trigger source="2d8d3572658fdb8754fdc84d2b15f302" offset="1310" length="13">manufacturing</trigger>
+        <em_arg entity_id="ent-78" entity_mention_id="m-399" role="place" realis="true">here</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1043">
+      <event_mention id="em-1008" type="transaction" subtype="transferownership" realis="generic" ways="voluntary">
+        <trigger source="2d8d3572658fdb8754fdc84d2b15f302" offset="2064" length="3">buy</trigger>
+        <em_arg entity_id="ent-626" entity_mention_id="m-635" role="recipient" realis="true">they</em_arg>
+        <em_arg entity_id="ent-1425" entity_mention_id="m-641" role="giver" realis="true">our</em_arg>
+        <em_arg filler_id="f-1040" role="thing" realis="true">our goods</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1080">
+      <event_mention id="em-1045" type="transaction" subtype="transfermoney" realis="generic" ways="voluntary">
+        <trigger source="2d8d3572658fdb8754fdc84d2b15f302" offset="2064" length="3">buy</trigger>
+        <em_arg entity_id="ent-626" entity_mention_id="m-635" role="giver" realis="true">they</em_arg>
+        <em_arg entity_id="ent-1425" entity_mention_id="m-641" role="recipient" realis="true">our</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1103">
+      <event_mention id="em-1082" type="transaction" subtype="transaction" realis="generic" ways="voluntary">
+        <trigger source="2d8d3572658fdb8754fdc84d2b15f302" offset="2458" length="3">buy</trigger>
+        <em_arg entity_id="ent-713" entity_mention_id="m-707" role="giver" realis="true">lots of people</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1126">
+      <event_mention id="em-1105" type="transaction" subtype="transaction" realis="generic" ways="voluntary">
+        <trigger source="2d8d3572658fdb8754fdc84d2b15f302" offset="2493" length="5">spend</trigger>
+        <em_arg entity_id="ent-713" entity_mention_id="m-707" role="giver" realis="true">lots of people</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1179">
+      <event_mention id="em-1158" type="transaction" subtype="transferownership" realis="generic" ways="voluntary">
+        <trigger source="2d8d3572658fdb8754fdc84d2b15f302" offset="2536" length="6">invest</trigger>
+        <em_arg entity_id="ent-713" entity_mention_id="m-707" role="giver" realis="true">lots of people</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1253">
+      <event_mention id="em-1327" type="transaction" subtype="transaction" realis="generic" ways="involuntarynoforce">
+        <trigger source="2d8d3572658fdb8754fdc84d2b15f302" offset="3366" length="3">get</trigger>
+        <em_arg entity_id="ent-857" entity_mention_id="m-851" role="recipient" realis="true">somoenes</em_arg>
+        <em_arg entity_id="ent-800" entity_mention_id="m-860" role="giver" realis="true">theirs</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1376">
+      <event_mention id="em-1387" type="transaction" subtype="transfermoney" realis="generic" ways="voluntary">
+        <trigger source="2d8d3572658fdb8754fdc84d2b15f302" offset="900" length="4">send</trigger>
+        <em_arg entity_id="ent-78" entity_mention_id="m-503" role="giver" realis="true">We</em_arg>
+        <em_arg filler_id="f-1412" role="money" realis="true">500 billion</em_arg>
+        <em_arg entity_id="ent-515" entity_mention_id="m-509" role="recipient" realis="true">other countries</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

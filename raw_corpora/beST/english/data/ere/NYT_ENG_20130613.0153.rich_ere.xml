@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="55142ee50000000000000017" doc_id="NYT_ENG_20130613.0153" source_type="newswire">
+  <entities>
+    <entity id="ent-8" type="GPE" specificity="specific">
+      <entity_mention id="m-13" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="172" length="13">
+        <mention_text>SOUTH AFRICAN</mention_text>
+      </entity_mention>
+      <entity_mention id="m-91" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="547" length="12">
+        <mention_text>South Africa</mention_text>
+      </entity_mention>
+      <entity_mention id="m-442" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="1834" length="10">
+        <mention_text>the nation</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="1838" length="6">nation</nom_head>
+      </entity_mention>
+      <entity_mention id="m-526" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="2274" length="12">
+        <mention_text>South Africa</mention_text>
+      </entity_mention>
+      <entity_mention id="m-544" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="2426" length="12">
+        <mention_text>South Africa</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-31" type="PER" specificity="specific">
+      <entity_mention id="m-25" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="213" length="7">
+        <mention_text>MANDELA</mention_text>
+      </entity_mention>
+      <entity_mention id="m-61" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="407" length="7">
+        <mention_text>Mandela</mention_text>
+      </entity_mention>
+      <entity_mention id="m-85" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="529" length="14">
+        <mention_text>Nelson Mandela</mention_text>
+      </entity_mention>
+      <entity_mention id="m-133" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="712" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-145" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="827" length="7">
+        <mention_text>Mandela</mention_text>
+      </entity_mention>
+      <entity_mention id="m-151" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="853" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-172" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="998" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-178" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="1032" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-184" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="1074" length="3">
+        <mention_text>His</mention_text>
+      </entity_mention>
+      <entity_mention id="m-190" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="1137" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-208" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="1260" length="7">
+        <mention_text>Mandela</mention_text>
+      </entity_mention>
+      <entity_mention id="m-214" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="1334" length="7">
+        <mention_text>Mandela</mention_text>
+      </entity_mention>
+      <entity_mention id="m-238" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="1437" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-250" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="1467" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-265" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="1482" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-286" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="1528" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-307" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="1557" length="3">
+        <mention_text>His</mention_text>
+      </entity_mention>
+      <entity_mention id="m-337" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="1626" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-394" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="1723" length="15">
+        <mention_text>his grandfather</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="1727" length="11">grandfather</nom_head>
+      </entity_mention>
+      <entity_mention id="m-418" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="1776" length="7">
+        <mention_text>Mandela</mention_text>
+      </entity_mention>
+      <entity_mention id="m-430" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="1802" length="14">
+        <mention_text>My grandfather</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="1805" length="11">grandfather</nom_head>
+      </entity_mention>
+      <entity_mention id="m-436" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="1820" length="24">
+        <mention_text>the father of the nation</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="1824" length="6">father</nom_head>
+      </entity_mention>
+      <entity_mention id="m-454" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="1857" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-475" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="1960" length="61">
+        <mention_text>an underground leader of the banned African National Congress</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="1975" length="6">leader</nom_head>
+      </entity_mention>
+      <entity_mention id="m-490" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="2023" length="7">
+        <mention_text>Mandela</mention_text>
+      </entity_mention>
+      <entity_mention id="m-496" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="2080" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-508" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="2221" length="7">
+        <mention_text>Mandela</mention_text>
+      </entity_mention>
+      <entity_mention id="m-520" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="2251" length="7">
+        <mention_text>Mandela</mention_text>
+      </entity_mention>
+      <entity_mention id="m-532" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="2274" length="36">
+        <mention_text>South Africa’s first black president</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="2301" length="9">president</nom_head>
+      </entity_mention>
+      <entity_mention id="m-538" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="2340" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-40" type="PER" specificity="nonspecific">
+      <entity_mention id="m-34" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="332" length="20">
+        <mention_text>Government officials</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="343" length="9">officials</nom_head>
+      </entity_mention>
+      <entity_mention id="m-202" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="1183" length="20">
+        <mention_text>Government officials</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="1194" length="9">officials</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-49" type="ORG" specificity="specific">
+      <entity_mention id="m-43" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="332" length="10">
+        <mention_text>Government</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="332" length="10">Government</nom_head>
+      </entity_mention>
+      <entity_mention id="m-196" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="1183" length="10">
+        <mention_text>Government</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="1183" length="10">Government</nom_head>
+      </entity_mention>
+      <entity_mention id="m-502" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="2144" length="14">
+        <mention_text>the government</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="2148" length="10">government</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-58" type="PER" specificity="specific">
+      <entity_mention id="m-52" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="394" length="8">
+        <mention_text>grandson</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="394" length="8">grandson</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-73" type="GPE" specificity="specific">
+      <entity_mention id="m-67" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="438" length="12">
+        <mention_text>JOHANNESBURG</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-82" type="FAC" specificity="specific">
+      <entity_mention id="m-76" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="472" length="12">
+        <mention_text>the hospital</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="476" length="8">hospital</nom_head>
+      </entity_mention>
+      <entity_mention id="m-157" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="872" length="22">
+        <mention_text>a hospital in Pretoria</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="874" length="8">hospital</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-103" type="PER" specificity="specific">
+      <entity_mention id="m-19" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="172" length="20">
+        <mention_text>SOUTH AFRICAN LEADER</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="186" length="6">LEADER</nom_head>
+      </entity_mention>
+      <entity_mention id="m-97" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="607" length="10">
+        <mention_text>Jacob Zuma</mention_text>
+      </entity_mention>
+      <entity_mention id="m-139" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="762" length="4">
+        <mention_text>Zuma</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-112" type="ORG" specificity="specific">
+      <entity_mention id="m-106" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="623" length="10">
+        <mention_text>Parliament</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-121" type="GPE" specificity="specific">
+      <entity_mention id="m-115" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="637" length="9">
+        <mention_text>Cape Town</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-124" type="PER" specificity="nonspecific">
+      <entity_mention id="m-127" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="671" length="2">
+        <mention_text>We</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-169" type="GPE" specificity="specific">
+      <entity_mention id="m-163" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="886" length="8">
+        <mention_text>Pretoria</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-226" type="FAC" specificity="specific">
+      <entity_mention id="m-220" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="1367" length="73">
+        <mention_text>an intensive care unit, where close family members have been visiting him</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="1385" length="4">unit</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-235" type="PER" specificity="nonspecific">
+      <entity_mention id="m-229" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="1397" length="20">
+        <mention_text>close family members</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="1410" length="7">members</nom_head>
+      </entity_mention>
+      <entity_mention id="m-244" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="1458" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-262" type="PER" specificity="specific">
+      <entity_mention id="m-256" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="1467" length="13">
+        <mention_text>his daughters</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="1471" length="9">daughters</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-277" type="PER" specificity="specific">
+      <entity_mention id="m-271" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="1482" length="15">
+        <mention_text>his former wife</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="1493" length="4">wife</nom_head>
+      </entity_mention>
+      <entity_mention id="m-280" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="1498" length="25">
+        <mention_text>Winnie Madikizela-Mandela</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-298" type="PER" specificity="specific">
+      <entity_mention id="m-292" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="1528" length="12">
+        <mention_text>his grandson</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="1532" length="8">grandson</nom_head>
+      </entity_mention>
+      <entity_mention id="m-301" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="1541" length="14">
+        <mention_text>Mandla Mandela</mention_text>
+      </entity_mention>
+      <entity_mention id="m-343" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="1645" length="14">
+        <mention_text>Mandla Mandela</mention_text>
+      </entity_mention>
+      <entity_mention id="m-349" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="1661" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+      <entity_mention id="m-355" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="1668" length="79">
+        <mention_text>a traditional leader in the Eastern Cape village where his grandfather was born</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="1682" length="6">leader</nom_head>
+      </entity_mention>
+      <entity_mention id="m-388" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="1723" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-424" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="1802" length="2">
+        <mention_text>My</mention_text>
+      </entity_mention>
+      <entity_mention id="m-448" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="1847" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-319" type="PER" specificity="specific">
+      <entity_mention id="m-313" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="1557" length="16">
+        <mention_text>His current wife</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="1569" length="4">wife</nom_head>
+      </entity_mention>
+      <entity_mention id="m-322" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="1575" length="12">
+        <mention_text>Graça Machel</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-334" type="GPE" specificity="specific">
+      <entity_mention id="m-328" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="1610" length="6">
+        <mention_text>London</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-367" type="GPE" specificity="specific">
+      <entity_mention id="m-361" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="1692" length="55">
+        <mention_text>the Eastern Cape village where his grandfather was born</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="1709" length="7">village</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-376" type="LOC" specificity="specific">
+      <entity_mention id="m-370" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="1696" length="12">
+        <mention_text>Eastern Cape</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-385" type="LOC" specificity="specific">
+      <entity_mention id="m-379" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="1704" length="4">
+        <mention_text>Cape</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-406" type="PER" specificity="nonspecific">
+      <entity_mention id="m-400" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="1758" length="9">
+        <mention_text>reporters</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="1758" length="9">reporters</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-415" type="FAC" specificity="specific">
+      <entity_mention id="m-409" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="1776" length="14">
+        <mention_text>Mandela’s home</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="1786" length="4">home</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-466" type="PER" specificity="nonspecific">
+      <entity_mention id="m-460" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="1900" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-469" noun_type="PRO" source="NYT_ENG_20130613.0153" offset="1931" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-487" type="ORG" specificity="specific">
+      <entity_mention id="m-481" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="1996" length="25">
+        <mention_text>African National Congress</mention_text>
+      </entity_mention>
+      <entity_mention id="m-514" noun_type="NAM" source="NYT_ENG_20130613.0153" offset="2237" length="3">
+        <mention_text>ANC</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-556" type="LOC" specificity="specific">
+      <entity_mention id="m-550" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="2450" length="5">
+        <mention_text>World</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="2450" length="5">World</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1403" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1397" noun_type="NOM" source="NYT_ENG_20130613.0153" offset="1874" length="20">
+        <mention_text>the global community</mention_text>
+        <nom_head source="NYT_ENG_20130613.0153" offset="1885" length="9">community</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-587" source="NYT_ENG_20130613.0153" offset="519" length="9" type="title">President</filler>
+    <filler id="f-607" source="NYT_ENG_20130613.0153" offset="597" length="9" type="title">President</filler>
+    <filler id="f-667" source="NYT_ENG_20130613.0153" offset="1343" length="2" type="age">94</filler>
+    <filler id="f-837" source="NYT_ENG_20130613.0153" offset="1975" length="6" type="title">leader</filler>
+    <filler id="f-1421" source="NYT_ENG_20130613.0153" offset="2301" length="9" type="title">president</filler>
+    <filler id="f-1345" source="NYT_ENG_20130613.0153" offset="519" length="9" type="title">President</filler>
+    <filler id="f-924" source="NYT_ENG_20130613.0153" offset="650" length="9" type="time" nom_time="2013-06-12">Wednesday</filler>
+    <filler id="f-970" source="NYT_ENG_20130613.0153" offset="901" length="8" type="time" nom_time="2013-06-08">Saturday</filler>
+    <filler id="f-1155" source="NYT_ENG_20130613.0153" offset="2056" length="22" type="time" nom_time="1964-06-12">49 years ago Wednesday</filler>
+    <filler id="f-1410" source="NYT_ENG_20130613.0153" offset="2048" length="7" type="crime">treason</filler>
+    <filler id="f-1185" source="NYT_ENG_20130613.0153" offset="2100" length="14" type="sentence">life in prison</filler>
+    <filler id="f-1215" source="NYT_ENG_20130613.0153" offset="2136" length="4" type="time" nom_time="1990-XX-XX">1990</filler>
+    <filler id="f-1275" source="NYT_ENG_20130613.0153" offset="2314" length="4" type="time" nom_time="1994-XX-XX">1994</filler>
+    <filler id="f-1326" source="NYT_ENG_20130613.0153" offset="1054" length="18" type="crime">opposing apartheid</filler>
+  </fillers>
+  <relations>
+    <relation id="r-219" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-559" realis="true">
+        <rel_arg1 entity_id="ent-103" entity_mention_id="m-19" role="leader">SOUTH AFRICAN LEADER</rel_arg1>
+        <rel_arg2 entity_id="ent-8" entity_mention_id="m-13" role="entity">SOUTH AFRICAN</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="186" length="6">LEADER</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-220" type="physical" subtype="locatednear">
+      <relation_mention id="relm-569" realis="true">
+        <rel_arg1 entity_id="ent-31" entity_mention_id="m-85" role="entity">Nelson Mandela</rel_arg1>
+        <rel_arg2 entity_id="ent-82" entity_mention_id="m-76" role="loc">the hospital</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="469" length="2">in</trigger>
+      </relation_mention>
+      <relation_mention id="relm-629" realis="true">
+        <rel_arg1 entity_id="ent-31" entity_mention_id="m-151" role="entity">he</rel_arg1>
+        <rel_arg2 entity_id="ent-82" entity_mention_id="m-157" role="loc">a hospital in Pretoria</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="860" length="8">admitted</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-221" type="personalsocial" subtype="role">
+      <relation_mention id="relm-579" realis="true">
+        <rel_arg1 entity_id="ent-31" entity_mention_id="m-85" role="per">Nelson Mandela</rel_arg1>
+        <rel_arg2 filler_id="f-587" role="role">President</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-829" realis="true">
+        <rel_arg1 entity_id="ent-31" entity_mention_id="m-475" role="per">an underground leader of the banned African National Congress</rel_arg1>
+        <rel_arg2 filler_id="f-837" role="role">leader</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-1413" realis="true">
+        <rel_arg1 entity_id="ent-31" entity_mention_id="m-520" role="per">Mandela</rel_arg1>
+        <rel_arg2 filler_id="f-1421" role="role">president</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="2259" length="3">was</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-222" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-589" realis="true">
+        <rel_arg1 entity_id="ent-31" entity_mention_id="m-85" role="leader">Nelson Mandela</rel_arg1>
+        <rel_arg2 entity_id="ent-8" entity_mention_id="m-91" role="entity">South Africa</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="519" length="9">President</trigger>
+      </relation_mention>
+      <relation_mention id="relm-839" realis="true">
+        <rel_arg1 entity_id="ent-31" entity_mention_id="m-532" role="leader">South Africa’s first black president</rel_arg1>
+        <rel_arg2 entity_id="ent-8" entity_mention_id="m-526" role="entity">South Africa</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="2301" length="9">president</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-223" type="personalsocial" subtype="role">
+      <relation_mention id="relm-599" realis="true">
+        <rel_arg1 entity_id="ent-103" entity_mention_id="m-97" role="per">Jacob Zuma</rel_arg1>
+        <rel_arg2 filler_id="f-607" role="role">President</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-224" type="physical" subtype="locatednear">
+      <relation_mention id="relm-619" realis="true">
+        <rel_arg1 entity_id="ent-103" entity_mention_id="m-97" role="entity">Jacob Zuma</rel_arg1>
+        <rel_arg2 entity_id="ent-121" entity_mention_id="m-115" role="loc">Cape Town</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="634" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-225" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-649" realis="true">
+        <rel_arg1 entity_id="ent-40" entity_mention_id="m-202" role="employeemember">Government officials</rel_arg1>
+        <rel_arg2 entity_id="ent-49" entity_mention_id="m-196" role="org">Government</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-226" type="generalaffiliation" subtype="personage">
+      <relation_mention id="relm-659" realis="true">
+        <rel_arg1 entity_id="ent-31" entity_mention_id="m-214" role="per">Mandela</rel_arg1>
+        <rel_arg2 filler_id="f-667" role="age">94</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-227" type="physical" subtype="locatednear">
+      <relation_mention id="relm-669" realis="true">
+        <rel_arg1 entity_id="ent-31" entity_mention_id="m-214" role="entity">Mandela</rel_arg1>
+        <rel_arg2 entity_id="ent-226" entity_mention_id="m-220" role="loc">an intensive care unit, where close family members have been visiting him</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="1364" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-228" type="personalsocial" subtype="family">
+      <relation_mention id="relm-679" realis="true">
+        <rel_arg1 entity_id="ent-31" entity_mention_id="m-214" role="per">Mandela</rel_arg1>
+        <rel_arg2 entity_id="ent-235" entity_mention_id="m-229" role="per">close family members</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="1403" length="6">family</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-229" type="physical" subtype="locatednear">
+      <relation_mention id="relm-689" realis="true">
+        <rel_arg1 entity_id="ent-235" entity_mention_id="m-229" role="entity">close family members</rel_arg1>
+        <rel_arg2 entity_id="ent-226" entity_mention_id="m-220" role="loc">an intensive care unit, where close family members have been visiting him</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="1391" length="5">where</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-230" type="personalsocial" subtype="family">
+      <relation_mention id="relm-699" realis="true">
+        <rel_arg1 entity_id="ent-31" entity_mention_id="m-250" role="per">his</rel_arg1>
+        <rel_arg2 entity_id="ent-262" entity_mention_id="m-256" role="per">his daughters</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="1471" length="9">daughters</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-231" type="personalsocial" subtype="family">
+      <relation_mention id="relm-709" realis="true">
+        <rel_arg1 entity_id="ent-31" entity_mention_id="m-265" role="per">his</rel_arg1>
+        <rel_arg2 entity_id="ent-277" entity_mention_id="m-271" role="per">his former wife</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="1493" length="4">wife</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-232" type="personalsocial" subtype="family">
+      <relation_mention id="relm-719" realis="true">
+        <rel_arg1 entity_id="ent-31" entity_mention_id="m-286" role="per">his</rel_arg1>
+        <rel_arg2 entity_id="ent-298" entity_mention_id="m-292" role="per">his grandson</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="1532" length="8">grandson</trigger>
+      </relation_mention>
+      <relation_mention id="relm-769" realis="true">
+        <rel_arg1 entity_id="ent-298" entity_mention_id="m-388" role="per">his</rel_arg1>
+        <rel_arg2 entity_id="ent-31" entity_mention_id="m-394" role="per">his grandfather</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="1727" length="11">grandfather</trigger>
+      </relation_mention>
+      <relation_mention id="relm-809" realis="true">
+        <rel_arg1 entity_id="ent-298" entity_mention_id="m-424" role="per">My</rel_arg1>
+        <rel_arg2 entity_id="ent-31" entity_mention_id="m-430" role="per">My grandfather</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="1805" length="11">grandfather</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-233" type="personalsocial" subtype="family">
+      <relation_mention id="relm-729" realis="true">
+        <rel_arg1 entity_id="ent-31" entity_mention_id="m-307" role="per">His</rel_arg1>
+        <rel_arg2 entity_id="ent-319" entity_mention_id="m-313" role="per">His current wife</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="1569" length="4">wife</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-234" type="physical" subtype="resident">
+      <relation_mention id="relm-749" realis="true">
+        <rel_arg1 entity_id="ent-298" entity_mention_id="m-355" role="per">a traditional leader in the Eastern Cape village where his grandfather was born</rel_arg1>
+        <rel_arg2 entity_id="ent-367" entity_mention_id="m-361" role="loc">the Eastern Cape village where his grandfather was born</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="1689" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-235" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-759" realis="true">
+        <rel_arg1 entity_id="ent-31" entity_mention_id="m-394" role="per">his grandfather</rel_arg1>
+        <rel_arg2 entity_id="ent-367" entity_mention_id="m-361" role="entity">the Eastern Cape village where his grandfather was born</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="1743" length="4">born</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-236" type="physical" subtype="locatednear">
+      <relation_mention id="relm-779" realis="true">
+        <rel_arg1 entity_id="ent-367" entity_mention_id="m-361" role="entity">the Eastern Cape village where his grandfather was born</rel_arg1>
+        <rel_arg2 entity_id="ent-376" entity_mention_id="m-370" role="loc">Eastern Cape</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-237" type="physical" subtype="locatednear">
+      <relation_mention id="relm-789" realis="true">
+        <rel_arg1 entity_id="ent-406" entity_mention_id="m-400" role="entity">reporters</rel_arg1>
+        <rel_arg2 entity_id="ent-415" entity_mention_id="m-409" role="loc">Mandela’s home</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="1768" length="7">outside</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-238" type="physical" subtype="resident">
+      <relation_mention id="relm-799" realis="true">
+        <rel_arg1 entity_id="ent-31" entity_mention_id="m-418" role="per">Mandela</rel_arg1>
+        <rel_arg2 entity_id="ent-415" entity_mention_id="m-409" role="loc">Mandela’s home</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="1786" length="4">home</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-239" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-819" realis="true">
+        <rel_arg1 entity_id="ent-31" entity_mention_id="m-475" role="leader">an underground leader of the banned African National Congress</rel_arg1>
+        <rel_arg2 entity_id="ent-487" entity_mention_id="m-481" role="entity">African National Congress</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="1975" length="6">leader</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-240" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1331" realis="true">
+        <rel_arg1 entity_id="ent-82" entity_mention_id="m-157" role="entity">a hospital in Pretoria</rel_arg1>
+        <rel_arg2 entity_id="ent-169" entity_mention_id="m-163" role="loc">Pretoria</rel_arg2>
+        <trigger source="NYT_ENG_20130613.0153" offset="883" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-862">
+      <event_mention id="em-864" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130613.0153" offset="512" length="6">former</trigger>
+        <em_arg entity_id="ent-31" entity_mention_id="m-85" role="person" realis="true">Nelson Mandela</em_arg>
+        <em_arg filler_id="f-1345" role="position" realis="true">President</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-91" role="entity" realis="true">South Africa</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-934">
+      <event_mention id="em-885" type="contact" subtype="contact" realis="actual" audience="twoway" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20130613.0153" offset="618" length="4">told</trigger>
+        <em_arg entity_id="ent-103" entity_mention_id="m-97" role="entity" realis="true">Jacob Zuma</em_arg>
+        <em_arg entity_id="ent-112" entity_mention_id="m-106" role="entity" realis="true">Parliament</em_arg>
+        <em_arg entity_id="ent-121" entity_mention_id="m-115" role="place" realis="true">Cape Town</em_arg>
+        <em_arg filler_id="f-924" role="time" realis="true">Wednesday</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-936">
+      <event_mention id="em-938" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="NYT_ENG_20130613.0153" offset="860" length="8">admitted</trigger>
+        <em_arg entity_id="ent-31" entity_mention_id="m-151" role="agent" realis="true">he</em_arg>
+        <em_arg entity_id="ent-82" entity_mention_id="m-157" role="destination" realis="true">a hospital in Pretoria</em_arg>
+        <em_arg filler_id="f-970" role="time" realis="true">Saturday</em_arg>
+      </event_mention>
+      <event_mention id="em-1376" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="NYT_ENG_20130613.0153" offset="1117" length="15">hospitalization</trigger>
+        <em_arg entity_id="ent-31" entity_mention_id="m-190" role="person" realis="true">his</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-994">
+      <event_mention id="em-973" type="contact" subtype="meet" realis="actual" audience="twoway" formality="canttell" medium="inperson" schedule="canttell">
+        <trigger source="NYT_ENG_20130613.0153" offset="1428" length="8">visiting</trigger>
+        <em_arg entity_id="ent-235" entity_mention_id="m-229" role="entity" realis="true">close family members</em_arg>
+        <em_arg entity_id="ent-31" entity_mention_id="m-238" role="entity" realis="true">him</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1003">
+      <event_mention id="em-1005" type="life" subtype="divorce" realis="actual">
+        <trigger source="NYT_ENG_20130613.0153" offset="1486" length="6">former</trigger>
+        <em_arg entity_id="ent-31" entity_mention_id="m-265" role="person" realis="true">his</em_arg>
+        <em_arg entity_id="ent-277" entity_mention_id="m-271" role="person" realis="true">his former wife</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1033">
+      <event_mention id="em-1035" type="contact" subtype="broadcast" realis="other" audience="oneway" formality="formal" medium="inperson" schedule="planned">
+        <trigger source="NYT_ENG_20130613.0153" offset="1600" length="6">speech</trigger>
+        <em_arg entity_id="ent-319" entity_mention_id="m-322" role="entity" realis="true">Graça Machel</em_arg>
+        <em_arg entity_id="ent-334" entity_mention_id="m-328" role="place" realis="true">London</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1091">
+      <event_mention id="em-1063" type="life" subtype="beborn" realis="actual">
+        <trigger source="NYT_ENG_20130613.0153" offset="1743" length="4">born</trigger>
+        <em_arg entity_id="ent-31" entity_mention_id="m-394" role="person" realis="true">his grandfather</em_arg>
+        <em_arg entity_id="ent-367" entity_mention_id="m-361" role="place" realis="true">the Eastern Cape village where his grandfather was born</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1093">
+      <event_mention id="em-1095" type="contact" subtype="meet" realis="actual" audience="twoway" formality="informal" medium="inperson" schedule="canttell">
+        <trigger source="NYT_ENG_20130613.0153" offset="1749" length="5">spoke</trigger>
+        <em_arg entity_id="ent-298" entity_mention_id="m-388" role="entity" realis="true">his</em_arg>
+        <em_arg entity_id="ent-406" entity_mention_id="m-400" role="entity" realis="true">reporters</em_arg>
+        <em_arg entity_id="ent-415" entity_mention_id="m-409" role="place" realis="true">Mandela’s home</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1158">
+      <event_mention id="em-1130" type="justice" subtype="convict" realis="actual">
+        <trigger source="NYT_ENG_20130613.0153" offset="2035" length="9">convicted</trigger>
+        <em_arg entity_id="ent-31" entity_mention_id="m-490" role="defendant" realis="true">Mandela</em_arg>
+        <em_arg filler_id="f-1155" role="time" realis="true">49 years ago Wednesday</em_arg>
+        <em_arg filler_id="f-1410" role="crime" realis="true">treason</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1188">
+      <event_mention id="em-1160" type="justice" subtype="sentence" realis="actual">
+        <trigger source="NYT_ENG_20130613.0153" offset="2087" length="9">sentenced</trigger>
+        <em_arg entity_id="ent-31" entity_mention_id="m-496" role="defendant" realis="true">He</em_arg>
+        <em_arg filler_id="f-1185" role="sentence" realis="true">life in prison</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1218">
+      <event_mention id="em-1190" type="justice" subtype="releaseparole" realis="actual">
+        <trigger source="NYT_ENG_20130613.0153" offset="2124" length="8">released</trigger>
+        <em_arg entity_id="ent-31" entity_mention_id="m-496" role="person" realis="true">He</em_arg>
+        <em_arg filler_id="f-1215" role="time" realis="true">1990</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1248">
+      <event_mention id="em-1220" type="contact" subtype="contact" realis="actual" audience="twoway" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20130613.0153" offset="2204" length="11">negotiating</trigger>
+        <em_arg entity_id="ent-31" entity_mention_id="m-508" role="entity" realis="true">Mandela</em_arg>
+        <em_arg entity_id="ent-487" entity_mention_id="m-514" role="entity" realis="true">ANC</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1278">
+      <event_mention id="em-1250" type="personnel" subtype="elect" realis="actual">
+        <trigger source="NYT_ENG_20130613.0153" offset="2263" length="7">elected</trigger>
+        <em_arg entity_id="ent-31" entity_mention_id="m-520" role="person" realis="true">Mandela</em_arg>
+        <em_arg filler_id="f-1275" role="time" realis="true">1994</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1329">
+      <event_mention id="em-1301" type="justice" subtype="arrestjail" realis="actual">
+        <trigger source="NYT_ENG_20130613.0153" offset="1039" length="10">imprisoned</trigger>
+        <em_arg entity_id="ent-31" entity_mention_id="m-178" role="person" realis="true">he</em_arg>
+        <em_arg filler_id="f-1326" role="crime" realis="true">opposing apartheid</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

@@ -1,0 +1,1733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56fc3fd90000000000000041">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-514">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-524">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-534">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-550">
+        <trigger offset="1481" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-560">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-570">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-580">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1182">
+        <trigger offset="1134" length="4">Sen.</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1916">
+        <trigger offset="2014" length="9">officials</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1926">
+        <trigger offset="2125" length="4">Gov.</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1936">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2006">
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no"/>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-611">
+        <trigger offset="184" length="7">PARDONS</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-27" offset="193" length="7">
+            <text>ALABAMA</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-718">
+        <trigger offset="355" length="8">pardoned</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-66" offset="364" length="15">
+            <text>three black men</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-60" offset="334" length="7">
+            <text>Alabama</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-750" offset="450" length="24">
+            <text>rapes of two white women</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-60" offset="334" length="7">
+            <text>Alabama</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-764" offset="380" length="8">
+            <text>Thursday</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-888">
+        <trigger offset="476" length="9">absolving</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-909" offset="486" length="41">
+            <text>the last of the so-called Scottsboro Boys</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-959">
+        <trigger offset="638" length="7">pardons</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-114" offset="574" length="36">
+            <text>Alabama Board of Pardons and Paroles</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-120" offset="649" length="13">
+            <text>the three men</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-991" offset="748" length="4">
+            <text>rape</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-108" offset="574" length="7">
+            <text>Alabama</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1155">
+        <trigger offset="1196" length="7">pardons</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1176" offset="1128" length="5">
+            <text>state</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1804">
+        <trigger offset="1910" length="8">pardoned</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-357" offset="1900" length="27">
+            <text>the three pardoned Thursday</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1829" offset="1919" length="8">
+            <text>Thursday</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-632">
+        <trigger offset="232" length="4">CASE</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-27" offset="193" length="7">
+            <text>ALABAMA</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-42" offset="215" length="15">
+            <text>SCOTTSBORO BOYS</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-664" offset="450" length="24">
+            <text>rapes of two white women</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-60" offset="334" length="7">
+            <text>Alabama</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-678" offset="420" length="22">
+            <text>more than 80 years ago</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1098">
+        <trigger offset="780" length="4">case</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-177" offset="950" length="7">
+            <text>Alabama</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1222">
+        <trigger offset="1391" length="5">tried</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-279" offset="1536" length="16">
+            <text>an Alabama judge</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1254" offset="1415" length="4">
+            <text>rape</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-273" offset="1539" length="7">
+            <text>Alabama</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1268" offset="1400" length="10">
+            <text>April 1931</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-695">
+        <trigger offset="342" length="12">posthumously</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-66" offset="364" length="15">
+            <text>three black men</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-770">
+        <trigger offset="410" length="9">convicted</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-66" offset="364" length="15">
+            <text>three black men</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-795" offset="450" length="24">
+            <text>rapes of two white women</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-60" offset="334" length="7">
+            <text>Alabama</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-809" offset="420" length="22">
+            <text>more than 80 years ago</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1001">
+        <trigger offset="735" length="9">convicted</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1022" offset="718" length="11">
+            <text>all of whom</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1032" offset="748" length="4">
+            <text>rape</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1039" offset="756" length="9">
+            <text>the 1930s</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-814">
+        <trigger offset="450" length="5">rapes</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-66" offset="364" length="15">
+            <text>three black men</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-60" offset="334" length="7">
+            <text>Alabama</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-90" offset="459" length="15">
+            <text>two white women</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1042">
+        <trigger offset="748" length="4">rape</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1022" offset="718" length="11">
+            <text>all of whom</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1067" offset="756" length="9">
+            <text>the 1930s</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1271">
+        <trigger offset="1415" length="4">rape</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-237" offset="1369" length="15">
+            <text>a group of nine</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1695">
+        <trigger offset="1821" length="4">rape</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-342" offset="1850" length="7">
+            <text>the men</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-851">
+        <trigger offset="450" length="5">rapes</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-66" offset="364" length="15">
+            <text>three black men</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-90" offset="459" length="15">
+            <text>two white women</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-60" offset="334" length="7">
+            <text>Alabama</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1070">
+        <trigger offset="748" length="4">rape</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1022" offset="718" length="11">
+            <text>all of whom</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1095" offset="756" length="9">
+            <text>the 1930s</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1299">
+        <trigger offset="1415" length="4">rape</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-237" offset="1369" length="15">
+            <text>a group of nine</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1716">
+        <trigger offset="1821" length="4">rape</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-342" offset="1850" length="7">
+            <text>the men</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-915">
+        <trigger offset="547" length="7">hearing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-102" offset="558" length="10">
+            <text>Montgomery</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-114" offset="574" length="36">
+            <text>Alabama Board of Pardons and Paroles</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-120" offset="649" length="13">
+            <text>the three men</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-954" offset="748" length="4">
+            <text>rape</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1125">
+        <trigger offset="1035" length="4">died</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-183" offset="1015" length="19">
+            <text>The last of the men</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1150" offset="1043" length="4">
+            <text>1989</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1192">
+        <trigger offset="1225" length="9">interview</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-219" offset="1139" length="10">
+            <text>Arthur Orr</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1320">
+        <trigger offset="1428" length="5">fight</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-249" offset="1465" length="14">
+            <text>Jackson County</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1343">
+        <trigger offset="1449" length="15">passing through</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-237" offset="1369" length="15">
+            <text>a group of nine</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1368" offset="1441" length="7">
+            <text>a train</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-249" offset="1465" length="14">
+            <text>Jackson County</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-249" offset="1465" length="14">
+            <text>Jackson County</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1408">
+        <trigger offset="1557" length="9">sentenced</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-279" offset="1536" length="16">
+            <text>an Alabama judge</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-285" offset="1567" length="16">
+            <text>eight of the men</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1440" offset="1587" length="5">
+            <text>death</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-273" offset="1539" length="7">
+            <text>Alabama</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1452">
+        <trigger offset="1605" length="11">convictions</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-297" offset="1599" length="5">
+            <text>their</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-303" offset="1620" length="16">
+            <text>all-white juries</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-273" offset="1539" length="7">
+            <text>Alabama</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1510">
+        <trigger offset="1714" length="11">convictions</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-318" offset="1651" length="4">
+            <text>U.S.</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1531">
+        <trigger offset="1699" length="10">overturned</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-312" offset="1651" length="18">
+            <text>U.S. Supreme Court</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-318" offset="1651" length="4">
+            <text>U.S.</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1563" offset="1681" length="13">
+            <text>the next year</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1568">
+        <trigger offset="1768" length="6">trials</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-318" offset="1651" length="4">
+            <text>U.S.</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1591">
+        <trigger offset="1779" length="7">appeals</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-318" offset="1651" length="4">
+            <text>U.S.</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1614">
+        <trigger offset="1826" length="7">charges</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-327" offset="1797" length="11">
+            <text>Prosecutors</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1646" offset="1821" length="4">
+            <text>rape</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-342" offset="1850" length="7">
+            <text>the men</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1658">
+        <trigger offset="1809" length="7">dropped</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-336" offset="1842" length="15">
+            <text>five of the men</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1683" offset="1821" length="4">
+            <text>rape</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1690" offset="1861" length="9">
+            <text>July 1937</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1737">
+        <trigger offset="1935" length="9">convicted</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-348" offset="1876" length="11">
+            <text>four others</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-357" offset="1900" length="27">
+            <text>the three pardoned Thursday</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1767">
+        <trigger offset="1955" length="9">sentenced</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-348" offset="1876" length="11">
+            <text>four others</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1792" offset="1968" length="29">
+            <text>lengthy prison terms or death</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1799" offset="1821" length="4">
+            <text>rape</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-357" offset="1900" length="27">
+            <text>the three pardoned Thursday</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1832">
+        <trigger offset="2044" length="7">paroles</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-369" offset="2008" length="15">
+            <text>State officials</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-378" offset="2056" length="13">
+            <text>three of them</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-387" offset="2081" length="15">
+            <text>Clarence Norris</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1883">
+        <trigger offset="2113" length="6">pardon</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1904" offset="2098" length="3">
+            <text>who</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-399" offset="2130" length="14">
+            <text>George Wallace</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1910" offset="2008" length="5">
+            <text>State</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1964" offset="2148" length="4">
+            <text>1976</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1969">
+        <trigger offset="2173" length="7">escaped</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-405" offset="2154" length="9">
+            <text>Patterson</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1997" offset="2186" length="6">
+            <text>prison</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2018">
+        <trigger offset="2186" length="6">prison</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-405" offset="2154" length="9">
+            <text>Patterson</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1997" offset="2186" length="6">
+            <text>prison</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2048">
+        <trigger offset="2208" length="4">died</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-405" offset="2154" length="9">
+            <text>Patterson</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-411" offset="2216" length="8">
+            <text>Michigan</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2099">
+        <trigger offset="2415" length="10">overturned</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-459" offset="2429" length="10">
+            <text>the courts</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-27" offset="193" length="7">
+        <text>ALABAMA</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-60" offset="334" length="7">
+        <text>Alabama</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-108" offset="574" length="7">
+        <text>Alabama</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-177" offset="950" length="7">
+        <text>Alabama</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-267" offset="1494" length="7">
+        <text>Alabama</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-273" offset="1539" length="7">
+        <text>Alabama</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-438" offset="2262" length="5">
+        <text>state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-683" offset="321" length="9">
+        <text>The state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1119" offset="981" length="3">
+        <text>its</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1176" offset="1128" length="5">
+        <text>state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1910" offset="2008" length="5">
+        <text>State</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-33" offset="215" length="10">
+        <text>SCOTTSBORO</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-66" offset="364" length="15">
+        <text>three black men</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-120" offset="649" length="13">
+        <text>the three men</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-231" offset="1350" length="7">
+        <text>The men</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-357" offset="1900" length="27">
+        <text>the three pardoned Thursday</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-909" offset="486" length="41">
+        <text>the last of the so-called Scottsboro Boys</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1022" offset="718" length="11">
+        <text>all of whom</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-54" offset="311" length="7">
+        <text>ATLANTA</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-90" offset="459" length="15">
+        <text>two white women</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-102" offset="558" length="10">
+        <text>Montgomery</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-114" offset="574" length="36">
+        <text>Alabama Board of Pardons and Paroles</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2128" offset="2363" length="17">
+        <text>the pardons board</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-126" offset="664" length="17">
+        <text>Haywood Patterson</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-405" offset="2154" length="9">
+        <text>Patterson</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-132" offset="683" length="13">
+        <text>Charles Weems</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-138" offset="701" length="15">
+        <text>James A. Wright</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-144" offset="813" length="13">
+        <text>Supreme Court</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-312" offset="1651" length="18">
+        <text>U.S. Supreme Court</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-165" offset="858" length="6">
+        <text>blacks</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-171" offset="868" length="6">
+        <text>juries</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-183" offset="1015" length="19">
+        <text>The last of the men</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-195" offset="1059" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-219" offset="1139" length="10">Arthur Orr</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-213" offset="1118" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-219" offset="1139" length="10">Arthur Orr</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-201" offset="1075" length="17">
+        <text>a different state</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-219" offset="1139" length="10">Arthur Orr</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-225" offset="1327" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-219" offset="1139" length="10">
+        <text>Arthur Orr</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-444" offset="2335" length="3">
+        <text>Orr</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2122" offset="1151" length="52">
+        <text>a sponsor of the legislation that led to the pardons</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-42" offset="215" length="15">
+        <text>SCOTTSBORO BOYS</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-96" offset="512" length="15">
+        <text>Scottsboro Boys</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-189" offset="1027" length="7">
+        <text>the men</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-237" offset="1369" length="15">
+        <text>a group of nine</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-291" offset="1576" length="7">
+        <text>the men</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-342" offset="1850" length="7">
+        <text>the men</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-249" offset="1465" length="14">
+        <text>Jackson County</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-255" offset="1484" length="17">
+        <text>northeast Alabama</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-285" offset="1567" length="16">
+        <text>eight of the men</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-297" offset="1599" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-303" offset="1620" length="16">
+        <text>all-white juries</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-318" offset="1651" length="4">
+        <text>U.S.</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-336" offset="1842" length="15">
+        <text>five of the men</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-348" offset="1876" length="11">
+        <text>four others</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-369" offset="2008" length="15">
+        <text>State officials</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-378" offset="2056" length="13">
+        <text>three of them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-387" offset="2081" length="15">
+        <text>Clarence Norris</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1904" offset="2098" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-399" offset="2130" length="14">
+        <text>George Wallace</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-411" offset="2216" length="8">
+        <text>Michigan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-420" offset="2245" length="11">
+        <text>researchers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-429" offset="2258" length="21">
+        <text>the state Legislature</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-450" offset="2343" length="6">
+        <text>others</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-465" offset="2456" length="11">
+        <text>prosecutors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-474" offset="2520" length="14">
+        <text>Robert Bentley</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-483" offset="2554" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-489" offset="2586" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-498" offset="2479" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-279" offset="1536" length="16">
+        <text>an Alabama judge</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-327" offset="1797" length="11">
+        <text>Prosecutors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-459" offset="2429" length="10">
+        <text>the courts</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1997" offset="2186" length="6">
+        <text>prison</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-514">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-524">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-534">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-550">
+        <trigger offset="1481" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-560">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-570">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-580">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1182">
+        <trigger offset="1134" length="4">Sen.</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1916">
+        <trigger offset="2014" length="9">officials</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1926">
+        <trigger offset="2125" length="4">Gov.</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1936">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2006">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-611">
+        <trigger offset="184" length="7">PARDONS</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-718">
+        <trigger offset="355" length="8">pardoned</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-888">
+        <trigger offset="476" length="9">absolving</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-959">
+        <trigger offset="638" length="7">pardons</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1155">
+        <trigger offset="1196" length="7">pardons</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1804">
+        <trigger offset="1910" length="8">pardoned</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-632">
+        <trigger offset="232" length="4">CASE</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1098">
+        <trigger offset="780" length="4">case</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1222">
+        <trigger offset="1391" length="5">tried</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-695">
+        <trigger offset="342" length="12">posthumously</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-770">
+        <trigger offset="410" length="9">convicted</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1001">
+        <trigger offset="735" length="9">convicted</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-814">
+        <trigger offset="450" length="5">rapes</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1042">
+        <trigger offset="748" length="4">rape</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1271">
+        <trigger offset="1415" length="4">rape</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1695">
+        <trigger offset="1821" length="4">rape</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-851">
+        <trigger offset="450" length="5">rapes</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1070">
+        <trigger offset="748" length="4">rape</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1299">
+        <trigger offset="1415" length="4">rape</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1716">
+        <trigger offset="1821" length="4">rape</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-915">
+        <trigger offset="547" length="7">hearing</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1125">
+        <trigger offset="1035" length="4">died</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1192">
+        <trigger offset="1225" length="9">interview</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1320">
+        <trigger offset="1428" length="5">fight</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1343">
+        <trigger offset="1449" length="15">passing through</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1408">
+        <trigger offset="1557" length="9">sentenced</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1452">
+        <trigger offset="1605" length="11">convictions</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1510">
+        <trigger offset="1714" length="11">convictions</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1531">
+        <trigger offset="1699" length="10">overturned</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1568">
+        <trigger offset="1768" length="6">trials</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1591">
+        <trigger offset="1779" length="7">appeals</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1614">
+        <trigger offset="1826" length="7">charges</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1658">
+        <trigger offset="1809" length="7">dropped</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1737">
+        <trigger offset="1935" length="9">convicted</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1767">
+        <trigger offset="1955" length="9">sentenced</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1832">
+        <trigger offset="2044" length="7">paroles</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1883">
+        <trigger offset="2113" length="6">pardon</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1969">
+        <trigger offset="2173" length="7">escaped</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2018">
+        <trigger offset="2186" length="6">prison</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2048">
+        <trigger offset="2208" length="4">died</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2099">
+        <trigger offset="2415" length="10">overturned</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

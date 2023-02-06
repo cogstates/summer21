@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56ce1dd00000000000000142">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-192">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="351" length="3">Rex</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-202">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-48" offset="298" length="10">mysteryman</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-212">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-48" offset="298" length="10">mysteryman</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-282">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-48" offset="298" length="10">mysteryman</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-222">
+        <trigger offset="653" length="6">killed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-48" offset="298" length="10">mysteryman</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-126" offset="663" length="18">
+            <text>the ancient Romans</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-48" offset="298" length="10">mysteryman</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-171" offset="629" length="18">
+            <text>so many Christians</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-48" offset="298" length="10">mysteryman</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-250">
+        <trigger offset="753" length="3">die</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-48" offset="298" length="10">mysteryman</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-66" offset="738" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-48" offset="298" length="10">mysteryman</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-30" offset="14" length="9">
+        <text>farmerman</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-36" offset="174" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-42" offset="66" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-48" offset="298" length="10">
+        <text>mysteryman</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-54" offset="356" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-60" offset="557" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-66" offset="738" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-72" offset="781" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-78" offset="760" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-132" offset="361" length="14">
+        <text>a conservative</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-84" offset="254" length="3">
+        <text>Rex</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-30" offset="14" length="9">farmerman</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-90" offset="351" length="3">
+        <text>Rex</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-48" offset="298" length="10">mysteryman</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-96" offset="380" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-48" offset="298" length="10">mysteryman</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-102" offset="388" length="8">
+        <text>an idiot</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-48" offset="298" length="10">mysteryman</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-108" offset="399" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-48" offset="298" length="10">mysteryman</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-114" offset="419" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-120" offset="488" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-126" offset="663" length="18">
+        <text>the ancient Romans</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-156" offset="541" length="22">
+        <text>Most Christions I know</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-144" offset="438" length="10">
+        <text>Christians</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-162" offset="546" length="10">
+        <text>Christions</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-180" offset="637" length="10">
+        <text>Christians</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-138" offset="432" length="16">
+        <text>other Christians</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-171" offset="629" length="18">
+        <text>so many Christians</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="682" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-273" offset="675" length="6">
+        <text>Romans</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-192">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-202">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-212">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-282">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-222">
+        <trigger offset="653" length="6">killed</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-250">
+        <trigger offset="753" length="3">die</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-48" offset="298" length="10">mysteryman</source>
+          </sentiment>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

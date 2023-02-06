@@ -1,0 +1,1468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56cdec790000000000000052">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-748">
+        <trigger offset="1669" length="7">cabinet</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-144" offset="1473" length="5">Sofia</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-758">
+        <trigger offset="1836" length="7">resides</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-144" offset="1473" length="5">Sofia</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-768">
+        <trigger offset="2445" length="3">son</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-174" offset="2166" length="5">Sofia</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-778">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-414" offset="2803" length="14">Craven de Kere</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-788">
+        <trigger offset="3350" length="9">diplomats</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-922">
+        <trigger offset="1867" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-144" offset="1473" length="5">Sofia</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-938">
+        <trigger offset="2923" length="2">on</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="neg" sarcasm="no">
+            <source ere_id="m-414" offset="2803" length="14">Craven de Kere</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-948">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-414" offset="2803" length="14">Craven de Kere</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1429">
+        <trigger offset="547" length="8">comedian</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="14" length="5">Sofia</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-958">
+        <trigger offset="160" length="3">die</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="14" length="5">Sofia</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-807" offset="144" length="11">
+            <text>some people</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-90" offset="14" length="5">Sofia</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1002">
+        <trigger offset="305" length="9">expulsion</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-90" offset="14" length="5">Sofia</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-294" offset="318" length="6">
+            <text>Arafat</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-90" offset="14" length="5">Sofia</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1048">
+        <trigger offset="1692" length="5">expel</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-144" offset="1473" length="5">Sofia</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-522" offset="1657" length="19">
+            <text>the Israeli cabinet</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-144" offset="1473" length="5">Sofia</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-300" offset="1698" length="6">
+            <text>Arafat</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-144" offset="1473" length="5">Sofia</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1076">
+        <trigger offset="1990" length="5">expel</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="neg" sarcasm="no">
+            <source ere_id="m-396" offset="1907" length="14">Craven de Kere</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-624" offset="1980" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-396" offset="1907" length="14">Craven de Kere</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-306" offset="1996" length="6">
+            <text>Arafat</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-396" offset="1907" length="14">Craven de Kere</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1108" offset="2006" length="14">
+            <text>the next month</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-396" offset="1907" length="14">Craven de Kere</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1120">
+        <trigger offset="3462" length="7">exiling</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-318" offset="3470" length="3">
+            <text>him</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1141">
+        <trigger offset="3510" length="7">exiling</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-324" offset="3518" length="6">
+            <text>Arafat</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1183">
+        <trigger offset="3687" length="6">exiled</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-336" offset="3680" length="6">
+            <text>Arafat</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1025">
+        <trigger offset="1130" length="6">end up</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-348" offset="1038" length="17">cicerone imposter</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-837" offset="1113" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-348" offset="1038" length="17">cicerone imposter</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1162">
+        <trigger offset="3561" length="6">killed</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-330" offset="3549" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1206">
+        <trigger offset="3727" length="6">attack</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1683" offset="3717" length="9">
+            <text>terrorist</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1271">
+        <trigger offset="4371" length="6">attack</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-504" offset="4303" length="8">hobitbob</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-576" offset="4385" length="12">
+            <text>Palestinians</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-504" offset="4303" length="8">hobitbob</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1294">
+        <trigger offset="4590" length="4">dies</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-504" offset="4303" length="8">hobitbob</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-885" offset="4567" length="22">
+            <text>most of their own side</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-504" offset="4303" length="8">hobitbob</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1317">
+        <trigger offset="4479" length="7">counter</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-504" offset="4303" length="8">hobitbob</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-480" offset="4448" length="4">
+            <text>them</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-504" offset="4303" length="8">hobitbob</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1497">
+        <trigger offset="491" length="8">fighting</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="14" length="5">Sofia</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1361" offset="508" length="7">
+            <text>the two</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-90" offset="14" length="5">Sofia</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1534">
+        <trigger offset="3561" length="6">killed</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-330" offset="3549" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1573">
+        <trigger offset="3775" length="10">casualties</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1564" offset="3762" length="12">
+            <text>more than 10</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1630">
+        <trigger offset="3419" length="8">building</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1111" offset="3428" length="8">
+            <text>a prison</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1229">
+        <trigger offset="3750" length="6">attack</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1564" offset="3762" length="12">
+            <text>more than 10</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-90" offset="14" length="5">
+        <text>Sofia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-96" offset="63" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-102" offset="165" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-108" offset="174" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-114" offset="293" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-120" offset="345" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-126" offset="856" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-132" offset="920" length="2">
+        <text>My</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-138" offset="1287" length="5">
+        <text>sofia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-144" offset="1473" length="5">
+        <text>Sofia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-150" offset="1575" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-156" offset="1588" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-162" offset="1631" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-168" offset="2023" length="5">
+        <text>Sofia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-174" offset="2166" length="5">
+        <text>Sofia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-180" offset="2367" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="2442" length="2">
+        <text>My</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-192" offset="2482" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-198" offset="2490" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-204" offset="2534" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-210" offset="2587" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-216" offset="2597" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-222" offset="2615" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-228" offset="2659" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-234" offset="2680" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-240" offset="2729" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-246" offset="2751" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-252" offset="3892" length="5">
+        <text>Sofia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-258" offset="80" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-264" offset="94" length="6">
+        <text>Walter</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-270" offset="110" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-276" offset="1222" length="15">
+        <text>Walter Hinteler</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-282" offset="1337" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-288" offset="4209" length="15">
+        <text>Walter Hinteler</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-294" offset="318" length="6">
+        <text>Arafat</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-300" offset="1698" length="6">
+        <text>Arafat</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-306" offset="1996" length="6">
+        <text>Arafat</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-312" offset="3444" length="6">
+        <text>Arafat</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-318" offset="3470" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-324" offset="3518" length="6">
+        <text>Arafat</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-330" offset="3549" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-336" offset="3680" length="6">
+        <text>Arafat</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-342" offset="557" length="12">
+        <text>Jerry Clower</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="14" length="5">Sofia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1402" offset="533" length="22">
+        <text>that literate comedian</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="14" length="5">Sofia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-348" offset="1038" length="17">
+        <text>cicerone imposter</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-354" offset="1312" length="4">
+        <text>c.i.</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-360" offset="4633" length="17">
+        <text>cicerone imposter</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-366" offset="4694" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-372" offset="4112" length="8">
+        <text>dyslexia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-378" offset="4276" length="3">
+        <text>dys</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-384" offset="1750" length="1">
+        <text>8</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-390" offset="1770" length="1">
+        <text>2</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-396" offset="1907" length="14">
+        <text>Craven de Kere</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-402" offset="1965" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-408" offset="2226" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-414" offset="2803" length="14">
+        <text>Craven de Kere</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-420" offset="2861" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-426" offset="3082" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-432" offset="3246" length="14">
+        <text>Craven de Kere</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-438" offset="3304" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-444" offset="3327" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-450" offset="3651" length="3">
+        <text>IMO</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-456" offset="3786" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-462" offset="4051" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-468" offset="4415" length="7">
+        <text>Sharona</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4303" length="8">hobitbob</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-474" offset="4711" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-360" offset="4633" length="17">cicerone imposter</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-480" offset="4448" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4303" length="8">hobitbob</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-903" offset="4721" length="13">
+        <text>smart fellows</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-360" offset="4633" length="17">cicerone imposter</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-492" offset="2442" length="6">
+        <text>My son</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-498" offset="3347" length="12">
+        <text>US diplomats</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-504" offset="4303" length="8">
+        <text>hobitbob</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-510" offset="4355" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-522" offset="1657" length="19">
+        <text>the Israeli cabinet</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-534" offset="1773" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-540" offset="1830" length="5">
+        <text>Hamas</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-546" offset="3016" length="17">
+        <text>the Us government</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-552" offset="3155" length="18">
+        <text>the administration</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-558" offset="870" length="4">
+        <text>Pals</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="14" length="5">Sofia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-570" offset="1850" length="12">
+        <text>Palestinians</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-576" offset="4385" length="12">
+        <text>Palestinians</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4303" length="8">hobitbob</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-582" offset="4488" length="10">
+        <text>Both sides</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4303" length="8">hobitbob</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-588" offset="4531" length="4">
+        <text>both</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4303" length="8">hobitbob</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-594" offset="4575" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4303" length="8">hobitbob</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1361" offset="508" length="7">
+        <text>the two</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-528" offset="1732" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-600" offset="879" length="8">
+        <text>Israelis</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="14" length="5">Sofia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-612" offset="1661" length="7">
+        <text>Israeli</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-618" offset="1787" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-624" offset="1980" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-630" offset="2236" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-636" offset="2874" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-642" offset="2987" length="6">
+        <text>themso</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-648" offset="3216" length="6">
+        <text>Israel</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-654" offset="3383" length="6">
+        <text>Israel</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-660" offset="3601" length="7">
+        <text>Israeli</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-666" offset="3796" length="6">
+        <text>Israel</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-672" offset="3975" length="6">
+        <text>Israel</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-678" offset="3989" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-684" offset="4006" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-690" offset="4061" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-696" offset="3020" length="2">
+        <text>Us</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-702" offset="3110" length="2">
+        <text>US</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-708" offset="3347" length="2">
+        <text>US</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-714" offset="3618" length="2">
+        <text>US</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-720" offset="4032" length="2">
+        <text>US</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-726" offset="1818" length="4">
+        <text>Gaza</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1445" offset="1824" length="5">
+        <text>where</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-732" offset="2926" length="5">
+        <text>earth</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-798" offset="76" length="16">
+        <text>who you refer to</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-807" offset="144" length="11">
+        <text>some people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-816" offset="941" length="11">
+        <text>all of them</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="14" length="5">Sofia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-825" offset="955" length="13">
+        <text>The innocents</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="14" length="5">Sofia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-837" offset="1113" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-843" offset="1174" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1439" offset="970" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="14" length="5">Sofia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-849" offset="1870" length="11">
+        <text>the streets</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-858" offset="2910" length="21">
+        <text>not a nation on earth</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-876" offset="3668" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-867" offset="3106" length="13">
+        <text>the US public</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-891" offset="4575" length="14">
+        <text>their own side</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4303" length="8">hobitbob</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-885" offset="4567" length="22">
+        <text>most of their own side</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4303" length="8">hobitbob</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-932" offset="2436" length="4">
+        <text>here</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1111" offset="3428" length="8">
+        <text>a prison</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-564" offset="1182" length="4">
+        <text>Pals</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1411" offset="866" length="21">
+        <text>the Pals and Israelis</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="14" length="5">Sofia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1451" offset="1846" length="16">
+        <text>The Palestinians</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1624" offset="4381" length="16">
+        <text>the Palestinians</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-606" offset="1190" length="8">
+        <text>Israelis</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1420" offset="866" length="21">
+        <text>the Pals and Israelis</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="14" length="5">Sofia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1525" offset="3481" length="4">
+        <text>many</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no"/>
+          <sentiment polarity="neg" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1564" offset="3762" length="12">
+        <text>more than 10</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1674" offset="4510" length="7">
+        <text>Neither</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4303" length="8">hobitbob</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1683" offset="3717" length="9">
+        <text>terrorist</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1703" offset="3772" length="2">
+        <text>10</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-486" offset="4426" length="2">
+        <text>Co</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-748">
+        <trigger offset="1669" length="7">cabinet</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-758">
+        <trigger offset="1836" length="7">resides</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-768">
+        <trigger offset="2445" length="3">son</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-778">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-788">
+        <trigger offset="3350" length="9">diplomats</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-922">
+        <trigger offset="1867" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-938">
+        <trigger offset="2923" length="2">on</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-948">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1429">
+        <trigger offset="547" length="8">comedian</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-958">
+        <trigger offset="160" length="3">die</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="14" length="5">Sofia</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1002">
+        <trigger offset="305" length="9">expulsion</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="14" length="5">Sofia</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1048">
+        <trigger offset="1692" length="5">expel</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1076">
+        <trigger offset="1990" length="5">expel</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1120">
+        <trigger offset="3462" length="7">exiling</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1141">
+        <trigger offset="3510" length="7">exiling</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1183">
+        <trigger offset="3687" length="6">exiled</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1025">
+        <trigger offset="1130" length="6">end up</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-348" offset="1038" length="17">cicerone imposter</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1162">
+        <trigger offset="3561" length="6">killed</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1206">
+        <trigger offset="3727" length="6">attack</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1271">
+        <trigger offset="4371" length="6">attack</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4303" length="8">hobitbob</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1294">
+        <trigger offset="4590" length="4">dies</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4303" length="8">hobitbob</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1317">
+        <trigger offset="4479" length="7">counter</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4303" length="8">hobitbob</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1497">
+        <trigger offset="491" length="8">fighting</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="14" length="5">Sofia</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1534">
+        <trigger offset="3561" length="6">killed</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-432" offset="3246" length="14">Craven de Kere</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1573">
+        <trigger offset="3775" length="10">casualties</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1630">
+        <trigger offset="3419" length="8">building</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1229">
+        <trigger offset="3750" length="6">attack</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

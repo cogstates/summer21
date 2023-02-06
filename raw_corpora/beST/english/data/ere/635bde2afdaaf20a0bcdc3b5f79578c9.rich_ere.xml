@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="55142ee50000000000000003" doc_id="635bde2afdaaf20a0bcdc3b5f79578c9" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-73" noun_type="NAM" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="14" length="7">
+        <mention_text>artpaul</mention_text>
+      </entity_mention>
+      <entity_mention id="m-79" noun_type="PRO" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="67" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-85" noun_type="NAM" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="71" length="18">
+        <mention_text>Art Paul Schlosser</mention_text>
+      </entity_mention>
+      <entity_mention id="m-91" noun_type="PRO" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="94" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-97" noun_type="PRO" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="159" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-133" noun_type="PRO" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="619" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-258" noun_type="PRO" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="234" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-31" type="PER" specificity="nonspecific">
+      <entity_mention id="m-103" noun_type="PRO" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="270" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-109" noun_type="PRO" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="472" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-139" noun_type="PRO" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="626" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-145" noun_type="PRO" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="757" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-184" noun_type="PRO" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="846" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-205" noun_type="PRO" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="808" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-211" noun_type="PRO" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="900" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-217" noun_type="PRO" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="935" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-235" noun_type="PRO" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="734" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-46" type="ORG" specificity="specific">
+      <entity_mention id="m-115" noun_type="NAM" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="497" length="5">
+        <mention_text>Apple</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-49" type="PER" specificity="nonspecific">
+      <entity_mention id="m-264" noun_type="NOM" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="185" length="18">
+        <mention_text>Artist of the Year</mention_text>
+        <nom_head source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="185" length="6">Artist</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-58" type="PER" specificity="nonspecific">
+      <entity_mention id="m-270" noun_type="NOM" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="527" length="5">
+        <mention_text>Women</mention_text>
+        <nom_head source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="527" length="5">Women</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-160" type="GPE" specificity="specific">
+      <entity_mention id="m-246" noun_type="NAM" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="132" length="7">
+        <mention_text>Madison</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-181" type="LOC" specificity="specific">
+      <entity_mention id="m-252" noun_type="NOM" source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="132" length="12">
+        <mention_text>Madison Area</mention_text>
+        <nom_head source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="140" length="4">Area</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers/>
+  <relations>
+    <relation id="r-26" type="physical" subtype="locatednear">
+      <relation_mention id="relm-413" realis="true">
+        <rel_arg1 entity_id="ent-181" entity_mention_id="m-252" role="entity">Madison Area</rel_arg1>
+        <rel_arg2 entity_id="ent-160" entity_mention_id="m-246" role="loc">Madison</rel_arg2>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-244">
+      <event_mention id="em-297" type="transaction" subtype="transfermoney" realis="other" ways="voluntary">
+        <trigger source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="791" length="3">pay</trigger>
+        <em_arg entity_id="ent-31" entity_mention_id="m-145" role="giver" realis="true">you</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-346">
+      <event_mention id="em-325" type="transaction" subtype="transfermoney" realis="other" ways="voluntary">
+        <trigger source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="876" length="6">donate</trigger>
+        <em_arg entity_id="ent-31" entity_mention_id="m-184" role="giver" realis="true">you</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-369">
+      <event_mention id="em-348" type="transaction" subtype="transfermoney" realis="generic" ways="voluntary">
+        <trigger source="635bde2afdaaf20a0bcdc3b5f79578c9" offset="910" length="4">goes</trigger>
+        <em_arg entity_id="ent-31" entity_mention_id="m-211" role="giver" realis="true">you</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

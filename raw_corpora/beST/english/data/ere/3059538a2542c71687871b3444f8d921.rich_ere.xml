@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="5554f84f0000000000000047" doc_id="3059538a2542c71687871b3444f8d921" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-99" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="87" length="14">
+        <mention_text>MountainFire77</mention_text>
+      </entity_mention>
+      <entity_mention id="m-105" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="112" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-111" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="225" length="1">
+        <mention_text>i</mention_text>
+      </entity_mention>
+      <entity_mention id="m-117" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="238" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-123" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="339" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+      <entity_mention id="m-129" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="347" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-135" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="465" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+      <entity_mention id="m-141" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="503" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+      <entity_mention id="m-147" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="1551" length="1">
+        <mention_text>i</mention_text>
+      </entity_mention>
+      <entity_mention id="m-957" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="2762" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-18" type="PER" specificity="specific">
+      <entity_mention id="m-153" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="14" length="10">
+        <mention_text>PetersKeys</mention_text>
+      </entity_mention>
+      <entity_mention id="m-159" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="2523" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-165" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="2870" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-21" type="PER" specificity="specific">
+      <entity_mention id="m-171" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="275" length="10">
+        <mention_text>Tony Blair</mention_text>
+      </entity_mention>
+      <entity_mention id="m-177" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="380" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-183" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="523" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-189" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="529" length="14">
+        <mention_text>the man of sin</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="533" length="3">man</nom_head>
+      </entity_mention>
+      <entity_mention id="m-195" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="548" length="11">
+        <mention_text>a candidate</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="550" length="9">candidate</nom_head>
+      </entity_mention>
+      <entity_mention id="m-201" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="575" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-207" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="624" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-213" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="739" length="5">
+        <mention_text>Blair</mention_text>
+      </entity_mention>
+      <entity_mention id="m-219" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="823" length="5">
+        <mention_text>Blair</mention_text>
+      </entity_mention>
+      <entity_mention id="m-225" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="976" length="10">
+        <mention_text>Tony Blair</mention_text>
+      </entity_mention>
+      <entity_mention id="m-231" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="1030" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-237" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="1073" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-243" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="1081" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-249" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="1107" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-255" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="1139" length="5">
+        <mention_text>Blair</mention_text>
+      </entity_mention>
+      <entity_mention id="m-261" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="1185" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-267" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="1224" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-273" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="1230" length="68">
+        <mention_text>the most likely candidate to be president of the new EU constitution</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="1246" length="9">candidate</nom_head>
+      </entity_mention>
+      <entity_mention id="m-279" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="1407" length="10">
+        <mention_text>Tony Blair</mention_text>
+      </entity_mention>
+      <entity_mention id="m-285" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="1458" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-291" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="1500" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-297" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="1508" length="42">
+        <mention_text>a man who is smart and understands riddles</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="1510" length="3">man</nom_head>
+      </entity_mention>
+      <entity_mention id="m-303" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="1564" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-309" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="1633" length="5">
+        <mention_text>Blair</mention_text>
+      </entity_mention>
+      <entity_mention id="m-315" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="1703" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-321" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="1812" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-327" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="1864" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-333" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="2110" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-339" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="2131" length="5">
+        <mention_text>Blair</mention_text>
+      </entity_mention>
+      <entity_mention id="m-345" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="2228" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-351" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="2233" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-357" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="2323" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-363" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="2393" length="5">
+        <mention_text>Blair</mention_text>
+      </entity_mention>
+      <entity_mention id="m-369" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="2400" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+      <entity_mention id="m-375" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="2411" length="32">
+        <mention_text>a peace envoy to the Middle East</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="2419" length="5">envoy</nom_head>
+      </entity_mention>
+      <entity_mention id="m-381" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="2474" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-387" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="2502" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-393" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="2672" length="10">
+        <mention_text>Tony Blair</mention_text>
+      </entity_mention>
+      <entity_mention id="m-399" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="2883" length="10">
+        <mention_text>Tony Blair</mention_text>
+      </entity_mention>
+      <entity_mention id="m-405" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="3380" length="5">
+        <mention_text>Blair</mention_text>
+      </entity_mention>
+      <entity_mention id="m-903" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="755" length="17">
+        <mention_text>Middle East envoy</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="767" length="5">envoy</nom_head>
+      </entity_mention>
+      <entity_mention id="m-909" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="641" length="27">
+        <mention_text>middle-east envoy for peace</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="653" length="5">envoy</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-24" type="PER" specificity="specific">
+      <entity_mention id="m-411" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="1081" length="10">
+        <mention_text>his family</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="1085" length="6">family</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-27" type="PER" specificity="specific">
+      <entity_mention id="m-417" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="2626" length="4">
+        <mention_text>Bush</mention_text>
+      </entity_mention>
+      <entity_mention id="m-423" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="3373" length="4">
+        <mention_text>Bush</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-30" type="PER" specificity="specific">
+      <entity_mention id="m-429" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="2641" length="4">
+        <mention_text>Pope</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-33" type="PER" specificity="specific">
+      <entity_mention id="m-435" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="2652" length="10">
+        <mention_text>Benny Hinn</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-36" type="PER" specificity="specific">
+      <entity_mention id="m-441" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="2928" length="9">
+        <mention_text>MauiMamma</mention_text>
+      </entity_mention>
+      <entity_mention id="m-447" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="3206" length="9">
+        <mention_text>MauiMamma</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-39" type="PER" specificity="specific">
+      <entity_mention id="m-453" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="2991" length="13">
+        <mention_text>Javier Solana</mention_text>
+      </entity_mention>
+      <entity_mention id="m-459" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="3229" length="13">
+        <mention_text>Javier Solana</mention_text>
+      </entity_mention>
+      <entity_mention id="m-465" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="3364" length="6">
+        <mention_text>Javier</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-42" type="PER" specificity="specific">
+      <entity_mention id="m-471" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="3138" length="5">
+        <mention_text>Carey</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-45" type="PER" specificity="specific">
+      <entity_mention id="m-477" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="3395" length="7">
+        <mention_text>Charles</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-51" type="ORG" specificity="specific">
+      <entity_mention id="m-483" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="587" length="18">
+        <mention_text>British Parliament</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-54" type="ORG" specificity="specific">
+      <entity_mention id="m-489" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="914" length="15">
+        <mention_text>catholic church</mention_text>
+      </entity_mention>
+      <entity_mention id="m-495" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="993" length="15">
+        <mention_text>Catholic Church</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-57" type="PER" specificity="specific">
+      <entity_mention id="m-501" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="1608" length="5">
+        <mention_text>Nobel</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-60" type="ORG" specificity="specific">
+      <entity_mention id="m-507" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="1653" length="10">
+        <mention_text>World Bank</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-63" type="ORG" specificity="specific">
+      <entity_mention id="m-513" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="1826" length="22">
+        <mention_text>a new faith foundation</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="1838" length="10">foundation</nom_head>
+      </entity_mention>
+      <entity_mention id="m-519" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="1852" length="5">
+        <mention_text>which</mention_text>
+      </entity_mention>
+      <entity_mention id="m-525" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="2146" length="16">
+        <mention_text>faith foundation</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="2152" length="10">foundation</nom_head>
+      </entity_mention>
+      <entity_mention id="m-531" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="2450" length="14">
+        <mention_text>the foundation</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="2454" length="10">foundation</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-66" type="ORG" specificity="specific">
+      <entity_mention id="m-537" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="2121" length="3">
+        <mention_text>bbc</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-69" type="ORG" specificity="specific">
+      <entity_mention id="m-543" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="2375" length="13">
+        <mention_text>Time magazine</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-72" type="GPE" specificity="specific">
+      <entity_mention id="m-549" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="587" length="7">
+        <mention_text>British</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-75" type="GPE" specificity="specific">
+      <entity_mention id="m-555" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="1427" length="2">
+        <mention_text>EU</mention_text>
+      </entity_mention>
+      <entity_mention id="m-561" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="1283" length="2">
+        <mention_text>EU</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-78" type="GPE" specificity="specific">
+      <entity_mention id="m-567" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="1059" length="9">
+        <mention_text>Jerusalem</mention_text>
+      </entity_mention>
+      <entity_mention id="m-573" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="1156" length="9">
+        <mention_text>Jerusalem</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-81" type="GPE" specificity="specific">
+      <entity_mention id="m-579" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="1345" length="7">
+        <mention_text>Ireland</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-84" type="GPE" specificity="specific">
+      <entity_mention id="m-585" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="1382" length="8">
+        <mention_text>Brussels</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-87" type="LOC" specificity="specific">
+      <entity_mention id="m-591" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="641" length="11">
+        <mention_text>middle-east</mention_text>
+      </entity_mention>
+      <entity_mention id="m-597" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="726" length="11">
+        <mention_text>middle-east</mention_text>
+      </entity_mention>
+      <entity_mention id="m-603" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="755" length="11">
+        <mention_text>Middle East</mention_text>
+      </entity_mention>
+      <entity_mention id="m-609" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="2432" length="11">
+        <mention_text>Middle East</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-90" type="FAC" specificity="specific">
+      <entity_mention id="m-615" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="1047" length="21">
+        <mention_text>a palace in Jerusalem</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="1049" length="6">palace</nom_head>
+      </entity_mention>
+      <entity_mention id="m-621" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="1156" length="16">
+        <mention_text>Jerusalem palace</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="1166" length="6">palace</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-93" type="LOC" specificity="specific">
+      <entity_mention id="m-627" noun_type="NAM" source="3059538a2542c71687871b3444f8d921" offset="1121" length="8">
+        <mention_text>European</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-96" type="LOC" specificity="specific">
+      <entity_mention id="m-633" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="1929" length="9">
+        <mention_text>the world</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="1933" length="5">world</nom_head>
+      </entity_mention>
+      <entity_mention id="m-915" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="1959" length="5">
+        <mention_text>world</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="1959" length="5">world</nom_head>
+      </entity_mention>
+      <entity_mention id="m-963" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="3543" length="15">
+        <mention_text>The whole world</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="3553" length="5">world</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1176" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="1884" length="6">
+        <mention_text>global</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="1884" length="6">global</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-927" type="PER" specificity="nonspecific">
+      <entity_mention id="m-921" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="2531" length="15">
+        <mention_text>you protestants</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="2535" length="11">protestants</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-936" type="PER" specificity="nonspecific">
+      <entity_mention id="m-930" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="2553" length="40">
+        <mention_text>everyone in some type of leadership role</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="2553" length="8">everyone</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-945" type="PER" specificity="nonspecific">
+      <entity_mention id="m-939" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="2689" length="6">
+        <mention_text>anyone</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1182" noun_type="PRO" source="3059538a2542c71687871b3444f8d921" offset="2198" length="6">
+        <mention_text>anyone</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-954" type="PER" specificity="specific">
+      <entity_mention id="m-948" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="2748" length="53">
+        <mention_text>everyone that you have accused to be the "antichrist"</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="2748" length="8">everyone</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1101" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1095" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="1482" length="6">
+        <mention_text>people</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="1482" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1256" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1250" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="301" length="14">
+        <mention_text>the antichrist</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="305" length="10">antichrist</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1259" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="687" length="14">
+        <mention_text>the antichrist</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="691" length="10">antichrist</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1265" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="859" length="14">
+        <mention_text>the antichrist</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="863" length="10">antichrist</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1303" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="2274" length="14">
+        <mention_text>the antichrist</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="2278" length="10">antichrist</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1309" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="2597" length="14">
+        <mention_text>the antichrist</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="2601" length="10">antichrist</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1315" noun_type="NOM" source="3059538a2542c71687871b3444f8d921" offset="2785" length="16">
+        <mention_text>the "antichrist"</mention_text>
+        <nom_head source="3059538a2542c71687871b3444f8d921" offset="2790" length="10">antichrist</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-697" source="3059538a2542c71687871b3444f8d921" offset="2390" length="2" type="title">Mr</filler>
+    <filler id="f-707" source="3059538a2542c71687871b3444f8d921" offset="3388" length="6" type="title">Prince</filler>
+    <filler id="f-977" source="3059538a2542c71687871b3444f8d921" offset="767" length="5" type="title">envoy</filler>
+    <filler id="f-1083" source="3059538a2542c71687871b3444f8d921" offset="1430" length="9" type="title">President</filler>
+    <filler id="f-1164" source="3059538a2542c71687871b3444f8d921" offset="2419" length="5" type="title">envoy</filler>
+    <filler id="f-1352" source="3059538a2542c71687871b3444f8d921" offset="1664" length="9" type="title">president</filler>
+    <filler id="f-872" source="3059538a2542c71687871b3444f8d921" offset="609" length="14" type="title">Prime Minister</filler>
+    <filler id="f-1334" source="3059538a2542c71687871b3444f8d921" offset="653" length="5" type="title">envoy</filler>
+    <filler id="f-1341" source="3059538a2542c71687871b3444f8d921" offset="767" length="5" type="title">envoy</filler>
+  </fillers>
+  <relations>
+    <relation id="r-963" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-639" realis="true">
+        <rel_arg1 entity_id="ent-51" entity_mention_id="m-483" role="suborg">British Parliament</rel_arg1>
+        <rel_arg2 entity_id="ent-72" entity_mention_id="m-549" role="parent">British</rel_arg2>
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="587" length="7">British</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-964" type="physical" subtype="locatednear">
+      <relation_mention id="relm-649" realis="true">
+        <rel_arg1 entity_id="ent-90" entity_mention_id="m-615" role="entity">a palace in Jerusalem</rel_arg1>
+        <rel_arg2 entity_id="ent-78" entity_mention_id="m-567" role="loc">Jerusalem</rel_arg2>
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="1056" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-965" type="personalsocial" subtype="family">
+      <relation_mention id="relm-659" realis="true">
+        <rel_arg1 entity_id="ent-24" entity_mention_id="m-411" role="per">his family</rel_arg1>
+        <rel_arg2 entity_id="ent-21" entity_mention_id="m-243" role="per">his</rel_arg2>
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="1085" length="6">family</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-966" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-669" realis="true">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-249" role="per">he</rel_arg1>
+        <rel_arg2 entity_id="ent-93" entity_mention_id="m-627" role="entity">European</rel_arg2>
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="1121" length="8">European</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-967" type="personalsocial" subtype="role">
+      <relation_mention id="relm-689" realis="true">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-363" role="per">Blair</rel_arg1>
+        <rel_arg2 filler_id="f-697" role="role">Mr</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-969" realis="true">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-213" role="per">Blair</rel_arg1>
+        <rel_arg2 filler_id="f-977" role="role">envoy</rel_arg2>
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="745" length="9">appointed</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1156" realis="true">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-363" role="per">Blair</rel_arg1>
+        <rel_arg2 filler_id="f-1164" role="role">envoy</rel_arg2>
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="2404" length="2">is</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-968" type="personalsocial" subtype="role">
+      <relation_mention id="relm-699" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-477" role="per">Charles</rel_arg1>
+        <rel_arg2 filler_id="f-707" role="role">Prince</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-969" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-979" realis="true">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-219" role="employeemember">Blair</rel_arg1>
+        <rel_arg2 entity_id="ent-54" entity_mention_id="m-489" role="org">catholic church</rel_arg2>
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="829" length="8">converts</trigger>
+      </relation_mention>
+      <relation_mention id="relm-989" realis="true">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-225" role="employeemember">Tony Blair</rel_arg1>
+        <rel_arg2 entity_id="ent-54" entity_mention_id="m-495" role="org">Catholic Church</rel_arg2>
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="987" length="5">joins</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-970" type="physical" subtype="resident">
+      <relation_mention id="relm-999" realis="false">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-237" role="per">him</rel_arg1>
+        <rel_arg2 entity_id="ent-78" entity_mention_id="m-567" role="loc">Jerusalem</rel_arg2>
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="1100" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-971" type="physical" subtype="resident">
+      <relation_mention id="relm-1009" realis="false">
+        <rel_arg1 entity_id="ent-24" entity_mention_id="m-411" role="per">his family</rel_arg1>
+        <rel_arg2 entity_id="ent-78" entity_mention_id="m-567" role="loc">Jerusalem</rel_arg2>
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="1100" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-972" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1039" realis="false">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-255" role="entity">Blair</rel_arg1>
+        <rel_arg2 entity_id="ent-90" entity_mention_id="m-621" role="loc">Jerusalem palace</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-973" type="personalsocial" subtype="role">
+      <relation_mention id="relm-1075" realis="false">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-279" role="per">Tony Blair</rel_arg1>
+        <rel_arg2 filler_id="f-1083" role="role">President</rel_arg2>
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="1424" length="2">be</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1344" realis="false">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-309" role="per">Blair</rel_arg1>
+        <rel_arg2 filler_id="f-1352" role="role">president</rel_arg2>
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="1645" length="2">be</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-974" type="orgaffiliation" subtype="founder">
+      <relation_mention id="relm-1136" realis="true">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-321" role="founder">he</rel_arg1>
+        <rel_arg2 entity_id="ent-63" entity_mention_id="m-513" role="org">a new faith foundation</rel_arg2>
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="1819" length="6">set up</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1146" realis="true">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-339" role="founder">Blair</rel_arg1>
+        <rel_arg2 entity_id="ent-63" entity_mention_id="m-525" role="org">faith foundation</rel_arg2>
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="2137" length="8">launches</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-16">
+      <event_mention id="em-735" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="578" length="4">left</trigger>
+        <em_arg entity_id="ent-21" entity_mention_id="m-201" role="person" realis="true">he</em_arg>
+        <em_arg entity_id="ent-51" entity_mention_id="m-483" role="entity" realis="true">British Parliament</em_arg>
+        <em_arg filler_id="f-872" role="position" realis="true">Prime Minister</em_arg>
+        <em_arg entity_id="ent-72" entity_mention_id="m-549" role="place" realis="true">British</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-729">
+      <event_mention id="em-756" type="personnel" subtype="startposition" realis="actual">
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="631" length="9">appointed</trigger>
+        <em_arg entity_id="ent-21" entity_mention_id="m-207" role="person" realis="true">he</em_arg>
+        <em_arg filler_id="f-1334" role="position" realis="true">envoy</em_arg>
+      </event_mention>
+      <event_mention id="em-777" type="personnel" subtype="startposition" realis="actual">
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="745" length="9">appointed</trigger>
+        <em_arg entity_id="ent-21" entity_mention_id="m-213" role="person" realis="true">Blair</em_arg>
+        <em_arg filler_id="f-1341" role="position" realis="true">envoy</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-731">
+      <event_mention id="em-798" type="transaction" subtype="transferownership" realis="actual" ways="voluntary">
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="1037" length="9">purchased</trigger>
+        <em_arg entity_id="ent-21" entity_mention_id="m-231" role="recipient" realis="true">he</em_arg>
+        <em_arg entity_id="ent-78" entity_mention_id="m-567" role="place" realis="true">Jerusalem</em_arg>
+        <em_arg entity_id="ent-90" entity_mention_id="m-615" role="thing" realis="true">a palace in Jerusalem</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-733">
+      <event_mention id="em-819" type="business" subtype="startorg" realis="actual">
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="1819" length="6">set up</trigger>
+        <em_arg entity_id="ent-21" entity_mention_id="m-321" role="agent" realis="true">he</em_arg>
+        <em_arg entity_id="ent-63" entity_mention_id="m-513" role="org" realis="true">a new faith foundation</em_arg>
+      </event_mention>
+      <event_mention id="em-840" type="business" subtype="startorg" realis="actual">
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="2137" length="8">launches</trigger>
+        <em_arg entity_id="ent-21" entity_mention_id="m-339" role="agent" realis="true">Blair</em_arg>
+        <em_arg entity_id="ent-63" entity_mention_id="m-525" role="org" realis="true">faith foundation</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1271">
+      <event_mention id="em-1222" type="contact" subtype="contact" realis="actual" audience="twoway" formality="formal" medium="canttell" schedule="planned">
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="2360" length="9">interview</trigger>
+        <em_arg entity_id="ent-69" entity_mention_id="m-543" role="entity" realis="true">Time magazine</em_arg>
+        <em_arg entity_id="ent-21" entity_mention_id="m-363" role="entity" realis="true">Blair</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1273">
+      <event_mention id="em-1194" type="life" subtype="die" realis="other">
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="2817" length="4">died</trigger>
+        <em_arg entity_id="ent-954" entity_mention_id="m-948" role="victim" realis="true">everyone that you have accused to be the "antichrist"</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1328">
+      <event_mention id="em-1282" type="transaction" subtype="transfermoney" realis="actual" ways="voluntary">
+        <trigger source="3059538a2542c71687871b3444f8d921" offset="1037" length="9">purchased</trigger>
+        <em_arg entity_id="ent-21" entity_mention_id="m-231" role="giver" realis="true">he</em_arg>
+        <em_arg entity_id="ent-78" entity_mention_id="m-567" role="place" realis="true">Jerusalem</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

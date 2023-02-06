@@ -1,0 +1,1982 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56cde0420000000000000023">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-936">
+        <trigger offset="353" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-246" offset="14" length="4">okie</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1433">
+        <trigger offset="1973" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1443">
+        <trigger offset="2146" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-946">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-956">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-966">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-976">
+        <trigger offset="3250" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-986">
+        <trigger offset="3250" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-996">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-456" offset="3378" length="4">okie</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1006">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="yes">
+            <source ere_id="m-456" offset="3378" length="4">okie</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1399">
+        <trigger offset="1449" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-246" offset="14" length="4">okie</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1587">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1597">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2280">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-456" offset="3378" length="4">okie</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-1018">
+        <trigger offset="746" length="9">overthrew</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-246" offset="14" length="4">okie</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-552" offset="756" length="7">
+            <text>Hussein</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-246" offset="14" length="4">okie</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1039">
+        <trigger offset="3133" length="9">abolished</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-630" offset="3143" length="40">
+            <text>the political party which had held power</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1203">
+        <trigger offset="865" length="4">gone</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-246" offset="14" length="4">okie</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1194" offset="854" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-246" offset="14" length="4">okie</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-786" offset="873" length="11">
+            <text>Afghanistan</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-246" offset="14" length="4">okie</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1233">
+        <trigger offset="865" length="4">gone</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-246" offset="14" length="4">okie</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1194" offset="854" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-246" offset="14" length="4">okie</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-744" offset="888" length="4">
+            <text>Iraq</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-246" offset="14" length="4">okie</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1325">
+        <trigger offset="1253" length="15">made statements</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-246" offset="14" length="4">okie</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-564" offset="1249" length="3">
+            <text>she</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-246" offset="14" length="4">okie</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1453">
+        <trigger offset="2160" length="6">killed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-210" offset="2137" length="16">
+            <text>soldiers in Iraq</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1479">
+        <trigger offset="2260" length="6">killed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-222" offset="2245" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1508">
+        <trigger offset="2410" length="6">fought</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1502" offset="2407" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-768" offset="2417" length="19">
+            <text>the Empire of Japan</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2277" offset="2530" length="4">
+            <text>1941</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1536">
+        <trigger offset="2564" length="3">war</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-876" offset="2536" length="2">
+            <text>We</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-750" offset="2576" length="7">
+            <text>Germany</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1663">
+        <trigger offset="2941" length="6">fought</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-648" offset="2922" length="63">
+            <text>the army which had fought in the Iran-Iraq War and the Gulf War</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1722">
+        <trigger offset="3243" length="6">killed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-594" offset="3217" length="9">
+            <text>Americans</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-216" offset="3259" length="8">
+            <text>soldiers</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-612" offset="3272" length="9">
+            <text>civilians</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-720" offset="3253" length="4">
+            <text>Iraq</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1776">
+        <trigger offset="3526" length="4">died</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-456" offset="3378" length="4">okie</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-864" offset="3508" length="17">
+            <text>how many American</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-456" offset="3378" length="4">okie</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1867">
+        <trigger offset="3834" length="3">die</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-456" offset="3378" length="4">okie</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1858" offset="3812" length="15">
+            <text>how many people</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-456" offset="3378" length="4">okie</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2300" offset="3853" length="27">
+            <text>weapons of mass destruction</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-456" offset="3378" length="4">okie</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2035">
+        <trigger offset="5312" length="7">attacks</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-534" offset="4674" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-840" offset="5327" length="13">
+            <text>United States</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-534" offset="4674" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2109">
+        <trigger offset="2818" length="6">killed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1569" offset="2771" length="31">
+            <text>American civilians and soldiers</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-774" offset="2832" length="8">
+            <text>Japanese</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2139">
+        <trigger offset="2818" length="6">killed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1569" offset="2771" length="31">
+            <text>American civilians and soldiers</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-762" offset="2848" length="7">
+            <text>Germans</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2169">
+        <trigger offset="2818" length="6">killed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1578" offset="2771" length="18">
+            <text>American civilians</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-774" offset="2832" length="8">
+            <text>Japanese</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2201">
+        <trigger offset="2818" length="6">killed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1578" offset="2771" length="18">
+            <text>American civilians</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-762" offset="2848" length="7">
+            <text>Germans</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2235">
+        <trigger offset="4918" length="8">fighting</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-534" offset="4674" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-2256" offset="4927" length="24">
+            <text>30 times as many enemies</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-534" offset="4674" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-126" offset="1806" length="4">
+        <text>Bush</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-132" offset="713" length="4">
+        <text>Bush</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-138" offset="640" length="4">
+        <text>Bush</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-144" offset="607" length="4">
+        <text>Bush</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-150" offset="4560" length="7">
+        <text>Clinton</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-456" offset="3378" length="4">okie</source>
+          </sentiment>
+          <sentiment polarity="pos" sarcasm="yes"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-156" offset="4556" length="26">
+        <text>The Clinton administration</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-456" offset="3378" length="4">okie</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-162" offset="4226" length="12">
+        <text>John Edwards</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-456" offset="3378" length="4">okie</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-168" offset="62" length="8">
+        <text>Dyslexia</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-246" offset="14" length="4">okie</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-174" offset="83" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-246" offset="14" length="4">okie</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-180" offset="1577" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-246" offset="14" length="4">okie</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="1047" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-192" offset="2020" length="6">
+        <text>O'Bill</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-198" offset="2443" length="26">
+        <text>more than 7,000,000 troops</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-204" offset="2590" length="26">
+        <text>more than 8,000,000 troops</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-210" offset="2137" length="16">
+        <text>soldiers in Iraq</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-216" offset="3259" length="8">
+        <text>soldiers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-222" offset="2245" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-228" offset="2285" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-234" offset="1960" length="20">
+        <text>the soldiers in Iraq</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-240" offset="344" length="16">
+        <text>soldiers in Iraq</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-246" offset="14" length="4">
+        <text>okie</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-252" offset="1770" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-258" offset="1712" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-264" offset="1602" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-270" offset="1586" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-276" offset="1549" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-282" offset="1182" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-288" offset="1119" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-294" offset="1023" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-300" offset="977" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-306" offset="690" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-312" offset="510" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-318" offset="453" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-324" offset="420" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-330" offset="306" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-336" offset="273" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-342" offset="220" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-348" offset="206" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-354" offset="189" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-360" offset="116" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-366" offset="106" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-372" offset="1911" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-378" offset="2012" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-384" offset="2370" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-390" offset="2306" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-396" offset="3604" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-402" offset="3700" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-408" offset="4366" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-414" offset="4436" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-420" offset="4756" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="4674" length="7">Setanta</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-426" offset="4795" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="4674" length="7">Setanta</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-432" offset="5048" length="4">
+        <text>Your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-438" offset="5352" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="yes"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-444" offset="5534" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="4674" length="7">Setanta</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-450" offset="5471" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-456" offset="3378" length="4">
+        <text>okie</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-462" offset="1845" length="7">
+        <text>Setanta</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-468" offset="1516" length="7">
+        <text>Setanta</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-474" offset="722" length="7">
+        <text>Setanta</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-246" offset="14" length="4">okie</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-480" offset="533" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-486" offset="317" length="3">
+        <text>His</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-246" offset="14" length="4">okie</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-492" offset="243" length="7">
+        <text>Setanta</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-246" offset="14" length="4">okie</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-498" offset="1929" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-504" offset="2111" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-510" offset="3352" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-516" offset="3443" length="7">
+        <text>Setanta</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-456" offset="3378" length="4">okie</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-522" offset="3458" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-456" offset="3378" length="4">okie</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-528" offset="4385" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-534" offset="4674" length="7">
+        <text>Setanta</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-540" offset="4725" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-546" offset="5528" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-552" offset="756" length="7">
+        <text>Hussein</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-558" offset="1319" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-564" offset="1249" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-570" offset="1202" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-576" offset="1135" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-582" offset="1083" length="7">
+        <text>Hillary</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-588" offset="1000" length="7">
+        <text>Hillary</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2267" offset="1092" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-594" offset="3217" length="9">
+        <text>Americans</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-600" offset="4411" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-606" offset="3296" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-612" offset="3272" length="9">
+        <text>civilians</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-618" offset="3071" length="53">
+        <text>as many of their leaders as we could get our hands on</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-624" offset="4837" length="15">
+        <text>far more people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-630" offset="3143" length="40">
+        <text>the political party which had held power</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-636" offset="3028" length="16">
+        <text>their government</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-642" offset="2999" length="18">
+        <text>their armed forces</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-648" offset="2922" length="63">
+        <text>the army which had fought in the Iran-Iraq War and the Gulf War</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="yes"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-654" offset="2891" length="12">
+        <text>a small army</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-660" offset="2493" length="33">
+        <text>the most modern navy in the world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-666" offset="1452" length="4">
+        <text>Iraq</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-672" offset="356" length="4">
+        <text>Iraq</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-678" offset="1976" length="4">
+        <text>Iraq</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-684" offset="2149" length="4">
+        <text>Iraq</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-690" offset="2876" length="4">
+        <text>Iraq</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-696" offset="2960" length="4">
+        <text>Iraq</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-702" offset="2999" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-708" offset="3028" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-714" offset="3082" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-462" offset="1845" length="7">Setanta</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-720" offset="3253" length="4">
+        <text>Iraq</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-726" offset="3563" length="4">
+        <text>Iraq</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-732" offset="5075" length="4">
+        <text>Iraq</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-738" offset="5257" length="4">
+        <text>Iraq</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-744" offset="888" length="4">
+        <text>Iraq</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-750" offset="2576" length="7">
+        <text>Germany</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-756" offset="5017" length="7">
+        <text>Germany</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-768" offset="2417" length="19">
+        <text>the Empire of Japan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-780" offset="5008" length="5">
+        <text>China</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-786" offset="873" length="11">
+        <text>Afghanistan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-792" offset="4004" length="11">
+        <text>Afghanistan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-798" offset="2955" length="4">
+        <text>Iran</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-804" offset="941" length="12">
+        <text>this country</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-810" offset="378" length="10">
+        <text>the nation</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-816" offset="2000" length="10">
+        <text>the nation</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-822" offset="2771" length="8">
+        <text>American</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-828" offset="3588" length="4">
+        <text>U.S.</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-834" offset="4037" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-840" offset="5327" length="13">
+        <text>United States</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-852" offset="2294" length="9">
+        <text>Americans</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-858" offset="3305" length="9">
+        <text>Americans</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-870" offset="743" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-882" offset="3935" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1415" offset="1491" length="4">
+        <text>here</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2290" offset="3517" length="8">
+        <text>American</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-888" offset="2712" length="12">
+        <text>both nations</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-894" offset="2753" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-900" offset="4992" length="9">
+        <text>the globe</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-906" offset="4037" length="11">
+        <text>our borders</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-912" offset="2977" length="4">
+        <text>Gulf</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-918" offset="2517" length="9">
+        <text>the world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-924" offset="4084" length="9">
+        <text>the world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-930" offset="4125" length="9">
+        <text>the world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1915" offset="4242" length="9">
+        <text>the world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1060" offset="178" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1069" offset="441" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1075" offset="571" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1107" offset="607" length="14">
+        <text>Bush opponents</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1421" offset="1806" length="14">
+        <text>Bush opponents</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1185" offset="831" length="8">
+        <text>everyone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1263" offset="894" length="8">
+        <text>everyone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1194" offset="854" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1502" offset="2407" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1272" offset="1015" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1278" offset="1031" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1284" offset="1057" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1290" offset="1101" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1319" offset="1165" length="2">
+        <text>us</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1409" offset="1472" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1710" offset="3112" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1764" offset="3488" length="2">
+        <text>us</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1770" offset="3498" length="9">
+        <text>ourselves</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1822" offset="3650" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1828" offset="3745" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1921" offset="4349" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1984" offset="4537" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1990" offset="4628" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1348" offset="1360" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1357" offset="1379" length="12">
+        <text>the audience</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1366" offset="1419" length="8">
+        <text>soldiers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-846" offset="2201" length="9">
+        <text>Americans</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-864" offset="3508" length="17">
+        <text>how many American</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-876" offset="2536" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1657" offset="2882" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1686" offset="2987" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1692" offset="3019" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1698" offset="3057" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1704" offset="3099" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2229" offset="3130" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1569" offset="2771" length="31">
+        <text>American civilians and soldiers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1578" offset="2771" length="18">
+        <text>American civilians</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-774" offset="2832" length="8">
+        <text>Japanese</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-762" offset="2848" length="7">
+        <text>Germans</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1834" offset="3764" length="23">
+        <text>terrorist organizations</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-456" offset="3378" length="4">okie</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1843" offset="3791" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-456" offset="3378" length="4">okie</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1897" offset="3984" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="yes">
+            <source ere_id="m-456" offset="3378" length="4">okie</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1903" offset="4106" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-456" offset="3378" length="4">okie</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1909" offset="4166" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="yes">
+            <source ere_id="m-456" offset="3378" length="4">okie</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1927" offset="4456" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-456" offset="3378" length="4">okie</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1849" offset="3791" length="19">
+        <text>their staging areas</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1858" offset="3812" length="15">
+        <text>how many people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1996" offset="5090" length="14">
+        <text>a staging area</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="yes"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2023" offset="5283" length="14">
+        <text>a staging area</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="4674" length="7">Setanta</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2097" offset="5442" length="24">
+        <text>a terrorist staging area</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="4674" length="7">Setanta</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2005" offset="5109" length="10">
+        <text>terrorists</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="4674" length="7">Setanta</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2029" offset="5302" length="9">
+        <text>terrorist</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="4674" length="7">Setanta</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2014" offset="5167" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-432" offset="5048" length="4">Your</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2079" offset="5375" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2085" offset="5401" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2091" offset="5426" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-438" offset="5352" length="4">your</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2256" offset="4927" length="24">
+        <text>30 times as many enemies</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-936">
+        <trigger offset="353" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1433">
+        <trigger offset="1973" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1443">
+        <trigger offset="2146" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-946">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-956">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-966">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-976">
+        <trigger offset="3250" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-986">
+        <trigger offset="3250" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-996">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1006">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1399">
+        <trigger offset="1449" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1587">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1597">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2280">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-1018">
+        <trigger offset="746" length="9">overthrew</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1039">
+        <trigger offset="3133" length="9">abolished</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1203">
+        <trigger offset="865" length="4">gone</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1233">
+        <trigger offset="865" length="4">gone</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1325">
+        <trigger offset="1253" length="15">made statements</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1453">
+        <trigger offset="2160" length="6">killed</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1479">
+        <trigger offset="2260" length="6">killed</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1508">
+        <trigger offset="2410" length="6">fought</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1536">
+        <trigger offset="2564" length="3">war</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1663">
+        <trigger offset="2941" length="6">fought</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1722">
+        <trigger offset="3243" length="6">killed</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1776">
+        <trigger offset="3526" length="4">died</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1867">
+        <trigger offset="3834" length="3">die</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-456" offset="3378" length="4">okie</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2035">
+        <trigger offset="5312" length="7">attacks</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2109">
+        <trigger offset="2818" length="6">killed</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2139">
+        <trigger offset="2818" length="6">killed</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2169">
+        <trigger offset="2818" length="6">killed</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2201">
+        <trigger offset="2818" length="6">killed</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2235">
+        <trigger offset="4918" length="8">fighting</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

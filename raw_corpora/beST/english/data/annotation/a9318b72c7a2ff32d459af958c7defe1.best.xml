@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56fc405b0000000000000073">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-228">
+        <trigger offset="61" length="2">My</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-33" offset="14" length="5">malcb</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-268">
+        <trigger offset="423" length="2">My</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-33" offset="14" length="5">malcb</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-238">
+        <trigger offset="88" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-33" offset="14" length="5">malcb</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-258">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-33" offset="14" length="5">malcb</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-278">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-33" offset="14" length="5">malcb</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-288">
+        <trigger offset="831" length="4">your</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-204" offset="761" length="5">Quote</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-302">
+        <trigger offset="208" length="7">contact</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-33" offset="14" length="5">malcb</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-69" offset="188" length="16">
+            <text>the other driver</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-33" offset="14" length="5">malcb</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-78" offset="216" length="2">
+            <text>us</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-33" offset="14" length="5">malcb</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-330">
+        <trigger offset="287" length="4">cost</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="250" length="10">Our garage</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-33" offset="14" length="5">malcb</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-108" offset="270" length="3">
+            <text>our</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-33" offset="14" length="5">malcb</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-355" offset="292" length="3">
+            <text>£50</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="250" length="10">Our garage</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-33" offset="14" length="5">malcb</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-360">
+        <trigger offset="356" length="6">letter</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-33" offset="14" length="5">malcb</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-120" offset="324" length="2">
+            <text>We</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-33" offset="14" length="5">malcb</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-126" offset="368" length="21">
+            <text>the insurance company</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-33" offset="14" length="5">malcb</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-390">
+        <trigger offset="431" length="6">texted</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-33" offset="14" length="5">malcb</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-141" offset="423" length="7">
+            <text>My wife</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-33" offset="14" length="5">malcb</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-156" offset="438" length="3">
+            <text>him</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-33" offset="14" length="5">malcb</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-33" offset="14" length="5">
+        <text>malcb</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-39" offset="61" length="2">
+        <text>My</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-150" offset="423" length="2">
+        <text>My</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-216" offset="831" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-45" offset="61" length="7">
+        <text>My wife</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-63" offset="161" length="3">
+        <text>She</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-141" offset="423" length="7">
+        <text>My wife</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-174" offset="509" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-54" offset="91" length="10">
+        <text>a car park</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-69" offset="188" length="16">
+        <text>the other driver</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-114" offset="300" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-135" offset="397" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-156" offset="438" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-162" offset="446" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-168" offset="463" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-180" offset="587" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-78" offset="216" length="2">
+        <text>us</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-87" offset="222" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-93" offset="250" length="3">
+        <text>Our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-108" offset="270" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-120" offset="324" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-198" offset="725" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-471" offset="604" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-99" offset="250" length="10">
+        <text>Our garage</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-126" offset="368" length="21">
+        <text>the insurance company</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="636" length="21">
+        <text>the insurance company</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-33" offset="14" length="5">malcb</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-192" offset="671" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-33" offset="14" length="5">malcb</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-210" offset="831" length="13">
+        <text>your insurers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-222" offset="859" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-204" offset="761" length="5">
+        <text>Quote</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-228">
+        <trigger offset="61" length="2">My</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-268">
+        <trigger offset="423" length="2">My</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-238">
+        <trigger offset="88" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-258">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-278">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-288">
+        <trigger offset="831" length="4">your</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-302">
+        <trigger offset="208" length="7">contact</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-330">
+        <trigger offset="287" length="4">cost</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-360">
+        <trigger offset="356" length="6">letter</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-390">
+        <trigger offset="431" length="6">texted</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

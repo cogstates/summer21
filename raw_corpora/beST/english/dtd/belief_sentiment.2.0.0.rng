@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rng:grammar  xmlns:rng="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <rng:start>
+    <rng:element name="belief_sentiment_doc">
+      <rng:attribute name="id">
+	<rng:data type="ID"/>
+      </rng:attribute>
+      <rng:element name="belief_annotations">
+	<rng:ref name="belief_annotations"/>
+      </rng:element>
+      <rng:element name="sentiment_annotations">
+	<rng:ref name="sentiment_annotations"/>
+	</rng:element>
+      </rng:element>
+  </rng:start>
+
+  <rng:define name="belief_annotations">
+    <rng:element name="relations">
+      <rng:zeroOrMore>
+	<rng:element name="relation">
+	  <rng:attribute name="ere_id">
+	    <rng:data type="Name"/>
+	  </rng:attribute>
+	  <rng:ref name="trigger"/>
+	  <rng:ref name="beliefs"/>
+	</rng:element>
+      </rng:zeroOrMore>
+    </rng:element>
+    <rng:element name="events">
+      <rng:zeroOrMore>
+	<rng:element name="event">
+	  <rng:attribute name="ere_id">
+	    <rng:data type="Name"/>
+	  </rng:attribute>
+	  <rng:ref name="trigger"/>
+	  <rng:ref name="beliefs"/>
+	  <rng:optional>
+	    <rng:element name="arguments">
+	      <rng:zeroOrMore>
+		<rng:element name="arg">
+		  <rng:ref name="entity_content"/>
+		  <rng:ref name="beliefs"/>
+		</rng:element>
+	      </rng:zeroOrMore>
+	    </rng:element>
+	  </rng:optional>
+	</rng:element>
+      </rng:zeroOrMore>
+    </rng:element>
+  </rng:define>
+
+  <rng:define name="sentiment_annotations">
+    <rng:element name="entities">
+      <rng:zeroOrMore>
+	<rng:element name="entity">
+	  <rng:ref name="entity_content"/>
+	  <rng:ref name="sentiments"/>
+	</rng:element>
+      </rng:zeroOrMore>
+    </rng:element>
+    <rng:element name="relations">
+      <rng:zeroOrMore>
+	<rng:element name="relation">
+	  <rng:attribute name="ere_id">
+	    <rng:data type="Name"/>
+	  </rng:attribute>
+	  <rng:ref name="trigger"/>
+	  <rng:ref name="sentiments"/>
+	</rng:element>
+      </rng:zeroOrMore>
+    </rng:element>
+    <rng:element name="events">
+      <rng:zeroOrMore>
+	<rng:element name="event">
+	  <rng:attribute name="ere_id">
+	    <rng:data type="Name"/>
+	  </rng:attribute>
+	  <rng:ref name="trigger"/>
+	  <rng:ref name="sentiments"/>
+	</rng:element>
+      </rng:zeroOrMore>
+    </rng:element>
+  </rng:define>
+
+  <rng:define name="beliefs">
+    <rng:element name="beliefs">
+      <rng:oneOrMore>
+	<rng:choice>
+	  <rng:ref name="normal-belief"/>
+	  <rng:ref name="na-belief"/>
+	</rng:choice>
+      </rng:oneOrMore>
+    </rng:element>
+  </rng:define>
+
+  <rng:define name="sentiments">
+    <rng:element name="sentiments">
+      <rng:oneOrMore>
+	<rng:element name="sentiment">
+	  <rng:attribute name="polarity">
+	    <rng:choice>
+	      <rng:value>pos</rng:value>
+	      <rng:value>neg</rng:value>
+	      <rng:value>none</rng:value>
+	    </rng:choice>
+	  </rng:attribute>
+	  <rng:attribute name="sarcasm">
+	    <rng:choice>
+	      <rng:value>yes</rng:value>
+	      <rng:value>no</rng:value>
+	    </rng:choice>
+	  </rng:attribute>
+	  <rng:optional>
+	    <rng:element name="source">
+	      <rng:attribute name="ere_id">
+		<rng:data type="Name"/>
+	      </rng:attribute>
+	      <rng:attribute name="offset">
+		<rng:data type="positiveInteger"/>
+	      </rng:attribute>
+	      <rng:attribute name="length">
+		<rng:data type="positiveInteger"/>
+	      </rng:attribute>
+	      <rng:text/>
+	    </rng:element>
+	  </rng:optional>
+	</rng:element>
+      </rng:oneOrMore>
+    </rng:element>
+  </rng:define>
+
+  <rng:define name="trigger">
+    <rng:optional>
+      <rng:element name="trigger">
+	<rng:attribute name="offset">
+	  <rng:data type="positiveInteger"/>
+	</rng:attribute>
+	<rng:attribute name="length">
+	  <rng:data type="positiveInteger"/>
+	</rng:attribute>
+	<rng:text/>
+      </rng:element>
+    </rng:optional>
+  </rng:define>
+
+  <rng:define name="entity_content">
+    <rng:attribute name="ere_id">
+      <rng:data type="Name"/>
+    </rng:attribute>
+    <rng:attribute name="offset">
+      <rng:data type="positiveInteger"/>
+    </rng:attribute>
+    <rng:attribute name="length">
+      <rng:data type="positiveInteger"/>
+    </rng:attribute>
+    <rng:element name="text">
+      <rng:text/>
+    </rng:element>
+  </rng:define>
+
+  <rng:define name="normal-belief">
+    <rng:element name="belief">
+      <rng:attribute name="type">
+	<rng:choice>
+	  <rng:value>cb</rng:value>
+	  <rng:value>ncb</rng:value>
+	  <rng:value>rob</rng:value>
+	</rng:choice>
+      </rng:attribute>
+      <rng:attribute name="polarity">
+	<rng:choice>
+	  <rng:value>pos</rng:value>
+	  <rng:value>neg</rng:value>
+	</rng:choice>
+      </rng:attribute>
+      <rng:attribute name="sarcasm">
+	<rng:choice>
+	  <rng:value>yes</rng:value>
+	  <rng:value>no</rng:value>
+	</rng:choice>
+      </rng:attribute>
+      <rng:optional>
+	<rng:element name="source">
+	  <rng:attribute name="ere_id">
+	    <rng:data type="Name"/>
+	  </rng:attribute>
+	  <rng:attribute name="offset">
+	    <rng:data type="positiveInteger"/>
+	  </rng:attribute>
+	  <rng:attribute name="length">
+	    <rng:data type="positiveInteger"/>
+	  </rng:attribute>
+	  <rng:text/>
+	</rng:element>
+      </rng:optional>
+    </rng:element>
+  </rng:define>
+
+  <rng:define name="na-belief">
+    <rng:element name="belief">
+      <rng:attribute name="type">
+	<rng:choice>
+	  <rng:value>na</rng:value>
+	  <rng:value>rob</rng:value>
+	</rng:choice>
+      </rng:attribute>
+      <rng:optional>
+	<rng:element name="source">
+	  <rng:attribute name="ere_id">
+	    <rng:data type="Name"/>
+	  </rng:attribute>
+	  <rng:attribute name="offset">
+	    <rng:data type="positiveInteger"/>
+	  </rng:attribute>
+	  <rng:attribute name="length">
+	    <rng:data type="positiveInteger"/>
+	  </rng:attribute>
+	  <rng:text/>
+	</rng:element>
+      </rng:optional>
+    </rng:element>
+  </rng:define>
+</rng:grammar>

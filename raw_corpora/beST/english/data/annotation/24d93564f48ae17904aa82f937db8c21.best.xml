@@ -1,0 +1,1871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56997dde0000000000000022">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-1155">
+        <trigger offset="1970" length="2">my</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1165">
+        <trigger offset="2133" length="3">Mum</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1175">
+        <trigger offset="2171" length="3">Dad</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1185">
+        <trigger offset="2484" length="6">sister</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1195">
+        <trigger offset="2710" length="7">parents</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-189" offset="1391" length="14">purpletoenails</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1205">
+        <trigger offset="2761" length="8">partners</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-189" offset="1391" length="14">purpletoenails</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1215">
+        <trigger offset="4584" length="7">husband</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-951" offset="4571" length="7">Sally42</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1225">
+        <trigger offset="4693" length="4">baby</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-951" offset="4571" length="7">Sally42</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1235">
+        <trigger offset="5027" length="8">mistress</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-951" offset="4571" length="7">Sally42</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1245">
+        <trigger offset="5233" length="5">child</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-951" offset="4571" length="7">Sally42</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1530">
+        <trigger offset="287" length="2">at</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-441" offset="99" length="11">paddy's mum</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1790">
+        <trigger offset="1967" length="2">at</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-1271">
+        <trigger offset="2378" length="7">married</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-777" offset="2371" length="6">
+            <text>My Mum</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-801" offset="2386" length="13">
+            <text>the other man</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1292">
+        <trigger offset="2429" length="4">died</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-813" offset="2426" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1313">
+        <trigger offset="2442" length="3">met</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-789" offset="2435" length="6">
+            <text>My Dad</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-819" offset="2446" length="14">
+            <text>a lovely woman</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1334">
+        <trigger offset="2470" length="9">remarried</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-789" offset="2435" length="6">
+            <text>My Dad</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-819" offset="2446" length="14">
+            <text>a lovely woman</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1355">
+        <trigger offset="4685" length="12">had his baby</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-951" offset="4571" length="7">Sally42</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1035" offset="4689" length="8">
+            <text>his baby</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-951" offset="4571" length="7">Sally42</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1376">
+        <trigger offset="5239" length="4">died</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-951" offset="4571" length="7">Sally42</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1041" offset="5228" length="10">
+            <text>heir child</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-951" offset="4571" length="7">Sally42</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1397">
+        <trigger offset="5002" length="15">keep in contact</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-951" offset="4571" length="7">Sally42</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-933" offset="4986" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-951" offset="4571" length="7">Sally42</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1077" offset="5023" length="12">
+            <text>his mistress</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-951" offset="4571" length="7">Sally42</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1418">
+        <trigger offset="186" length="8">marriage</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-441" offset="99" length="11">paddy's mum</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-477" offset="231" length="11">
+            <text>the husband</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-441" offset="99" length="11">paddy's mum</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1439">
+        <trigger offset="667" length="8">marriage</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-441" offset="99" length="11">paddy's mum</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-603" offset="610" length="3">
+            <text>she</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-441" offset="99" length="11">paddy's mum</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1460">
+        <trigger offset="924" length="8">marriage</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-441" offset="99" length="11">paddy's mum</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-501" offset="904" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-441" offset="99" length="11">paddy's mum</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1481">
+        <trigger offset="4440" length="8">marriage</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-897" offset="3718" length="7">justmel</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-591" offset="4436" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-897" offset="3718" length="7">justmel</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1549">
+        <trigger offset="505" length="4">told</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-441" offset="99" length="11">paddy's mum</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-489" offset="491" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-441" offset="99" length="11">paddy's mum</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-597" offset="510" length="3">
+            <text>her</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-441" offset="99" length="11">paddy's mum</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1600">
+        <trigger offset="727" length="3">ask</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-441" offset="99" length="11">paddy's mum</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-615" offset="731" length="3">
+            <text>her</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-441" offset="99" length="11">paddy's mum</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1621">
+        <trigger offset="707" length="15">drop her a line</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-441" offset="99" length="11">paddy's mum</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-609" offset="712" length="3">
+            <text>her</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-441" offset="99" length="11">paddy's mum</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1644">
+        <trigger offset="842" length="4">tell</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-441" offset="99" length="11">paddy's mum</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-447" offset="830" length="2">
+            <text>my</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-441" offset="99" length="11">paddy's mum</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-627" offset="847" length="3">
+            <text>her</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-441" offset="99" length="11">paddy's mum</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1672">
+        <trigger offset="1317" length="4">tell</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-633" offset="996" length="6">Errata</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-519" offset="1310" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-633" offset="996" length="6">Errata</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-177" offset="1322" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-633" offset="996" length="6">Errata</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1709">
+        <trigger offset="1696" length="4">meet</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-207" offset="1688" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1730">
+        <trigger offset="1708" length="4">meet</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-189" offset="1391" length="14">purpletoenails</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-747" offset="1705" length="2">
+            <text>We</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-189" offset="1391" length="14">purpletoenails</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1751">
+        <trigger offset="1928" length="8">visiting</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-543" offset="1923" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1836">
+        <trigger offset="5274" length="5">visit</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-951" offset="4571" length="7">Sally42</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1023" offset="5252" length="3">
+            <text>him</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-951" offset="4571" length="7">Sally42</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-105" offset="14" length="14">
+        <text>purpletoenails</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-111" offset="254" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-117" offset="352" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-123" offset="600" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-129" offset="945" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-135" offset="1073" length="14">
+        <text>purpletoenails</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-141" offset="1135" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-147" offset="1155" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-135" offset="1073" length="14">purpletoenails</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-153" offset="1164" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-159" offset="1217" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-165" offset="1250" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-171" offset="1257" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-177" offset="1322" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-183" offset="1355" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-189" offset="1391" length="14">
+        <text>purpletoenails</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-195" offset="1563" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-201" offset="1637" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-207" offset="1688" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-213" offset="1794" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-219" offset="1824" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-225" offset="1937" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-231" offset="1970" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-237" offset="2040" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-243" offset="2079" length="1">
+        <text>i</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-249" offset="2693" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-255" offset="2899" length="2">
+        <text>OP</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-855" offset="2877" length="9">a1969baby</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-261" offset="2931" length="5">
+        <text>youre</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-855" offset="2877" length="9">a1969baby</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-267" offset="3034" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-855" offset="2877" length="9">a1969baby</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-273" offset="3042" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-273" offset="3042" length="3">you</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-279" offset="3371" length="14">
+        <text>purpletoenails</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-285" offset="3401" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-291" offset="3433" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-297" offset="3453" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-279" offset="3371" length="14">purpletoenails</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-303" offset="3462" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-309" offset="3515" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-315" offset="3548" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-321" offset="3555" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-327" offset="3624" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-333" offset="3689" length="5">
+        <text>YOURS</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-339" offset="3796" length="14">
+        <text>purpletoenails</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-345" offset="3826" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-351" offset="3858" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-357" offset="3878" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-339" offset="3796" length="14">purpletoenails</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-363" offset="3887" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-369" offset="3940" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-375" offset="3973" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-381" offset="3980" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-387" offset="4082" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-393" offset="4160" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-399" offset="4284" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-405" offset="4308" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-411" offset="4327" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-417" offset="4351" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-423" offset="2792" length="14">
+        <text>purpletoenails</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-429" offset="3079" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-435" offset="1103" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1870" offset="2937" length="68">
+        <text>a deluded STI ridden harlot who is trying to steal someone elses man</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-441" offset="99" length="11">
+        <text>paddy's mum</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-447" offset="830" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-453" offset="865" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-459" offset="130" length="32">
+        <text>2 (presumably) youngish children</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-465" offset="267" length="16">
+        <text>The oldest child</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-471" offset="302" length="12">
+        <text>the youngest</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-477" offset="231" length="11">
+        <text>the husband</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-441" offset="99" length="11">paddy's mum</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-483" offset="389" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-489" offset="491" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-495" offset="557" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-501" offset="904" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-507" offset="961" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-513" offset="1187" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-519" offset="1310" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-525" offset="1335" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-531" offset="1655" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-537" offset="1679" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-543" offset="1923" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-549" offset="3485" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-555" offset="3650" length="3">
+        <text>HIS</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-561" offset="3910" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-567" offset="4043" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-573" offset="4141" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-579" offset="4304" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-585" offset="4407" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-591" offset="4436" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-597" offset="510" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-603" offset="610" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-609" offset="712" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-615" offset="731" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-621" offset="740" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-627" offset="847" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-633" offset="996" length="6">
+        <text>Errata</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-639" offset="1090" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-645" offset="3388" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-651" offset="3813" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-657" offset="1476" length="19">
+        <text>caledonian princess</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-663" offset="1550" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-669" offset="1629" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-675" offset="1979" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-681" offset="2130" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-687" offset="2150" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-693" offset="2168" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-699" offset="2176" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-705" offset="2243" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-711" offset="2312" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-717" offset="2371" length="2">
+        <text>My</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-723" offset="2435" length="2">
+        <text>My</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-729" offset="2481" length="2">
+        <text>My</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-735" offset="2495" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-741" offset="2705" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-747" offset="1705" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-753" offset="1746" length="2">
+        <text>us</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-759" offset="1843" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-765" offset="2130" length="6">
+        <text>my Mum</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-771" offset="2214" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-777" offset="2371" length="6">
+        <text>My Mum</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-783" offset="2168" length="6">
+        <text>my Dad</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-789" offset="2435" length="6">
+        <text>My Dad</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-795" offset="2356" length="13">
+        <text>all concerned</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-801" offset="2386" length="13">
+        <text>the other man</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-807" offset="2416" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-813" offset="2426" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-819" offset="2446" length="14">
+        <text>a lovely woman</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-825" offset="2481" length="9">
+        <text>My sister</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-831" offset="2544" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-837" offset="2705" length="12">
+        <text>your parents</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-189" offset="1391" length="14">purpletoenails</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-843" offset="2751" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-189" offset="1391" length="14">purpletoenails</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-849" offset="2751" length="18">
+        <text>their new partners</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-189" offset="1391" length="14">purpletoenails</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-855" offset="2877" length="9">
+        <text>a1969baby</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-861" offset="3007" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-867" offset="3184" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-423" offset="2792" length="14">purpletoenails</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-873" offset="3291" length="9">
+        <text>Gingham R</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-879" offset="3587" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-885" offset="4491" length="9">
+        <text>Gingham R</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-891" offset="5482" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-897" offset="3718" length="7">
+        <text>justmel</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-903" offset="4012" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-909" offset="4581" length="2">
+        <text>My</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-915" offset="4715" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-921" offset="4951" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-927" offset="4955" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-933" offset="4986" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-939" offset="5063" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-945" offset="5328" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-951" offset="4571" length="7">
+        <text>Sally42</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-957" offset="5503" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-885" offset="4491" length="9">Gingham R</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-963" offset="4581" length="10">
+        <text>My husband</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-969" offset="4628" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-975" offset="4689" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-981" offset="4699" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-987" offset="4858" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-993" offset="4876" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-999" offset="4929" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1005" offset="4972" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1011" offset="5023" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1017" offset="5219" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1023" offset="5252" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1029" offset="5354" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1035" offset="4689" length="8">
+        <text>his baby</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1041" offset="5228" length="10">
+        <text>heir child</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1047" offset="4640" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1053" offset="4681" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1059" offset="4750" length="3">
+        <text>She</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1065" offset="4792" length="7">
+        <text>someone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1071" offset="4812" length="7">
+        <text>someone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1077" offset="5023" length="12">
+        <text>his mistress</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1083" offset="5107" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-951" offset="4571" length="7">Sally42</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1089" offset="5113" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1095" offset="5137" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1101" offset="5280" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1107" offset="5307" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1113" offset="5335" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1119" offset="5406" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1125" offset="5429" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1131" offset="5385" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1137" offset="5228" length="4">
+        <text>heir</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1143" offset="5177" length="2">
+        <text>NZ</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1149" offset="1970" length="8">
+        <text>my house</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1540" offset="290" length="10">
+        <text>university</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1700" offset="1608" length="7">
+        <text>any man</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1781" offset="1957" length="6">
+        <text>no one</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1800" offset="2907" length="8">
+        <text>everyone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1809" offset="2988" length="7">
+        <text>someone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1821" offset="2988" length="17">
+        <text>someone elses man</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1830" offset="4644" length="9">
+        <text>the world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1861" offset="1807" length="6">
+        <text>a room</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-1155">
+        <trigger offset="1970" length="2">my</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1165">
+        <trigger offset="2133" length="3">Mum</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1175">
+        <trigger offset="2171" length="3">Dad</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1185">
+        <trigger offset="2484" length="6">sister</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1195">
+        <trigger offset="2710" length="7">parents</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1205">
+        <trigger offset="2761" length="8">partners</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1215">
+        <trigger offset="4584" length="7">husband</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1225">
+        <trigger offset="4693" length="4">baby</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1235">
+        <trigger offset="5027" length="8">mistress</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1245">
+        <trigger offset="5233" length="5">child</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1530">
+        <trigger offset="287" length="2">at</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1790">
+        <trigger offset="1967" length="2">at</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-1271">
+        <trigger offset="2378" length="7">married</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1292">
+        <trigger offset="2429" length="4">died</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1313">
+        <trigger offset="2442" length="3">met</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1334">
+        <trigger offset="2470" length="9">remarried</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-657" offset="1476" length="19">caledonian princess</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1355">
+        <trigger offset="4685" length="12">had his baby</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1376">
+        <trigger offset="5239" length="4">died</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1397">
+        <trigger offset="5002" length="15">keep in contact</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1418">
+        <trigger offset="186" length="8">marriage</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-441" offset="99" length="11">paddy's mum</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1439">
+        <trigger offset="667" length="8">marriage</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-123" offset="600" length="3">you</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1460">
+        <trigger offset="924" length="8">marriage</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1481">
+        <trigger offset="4440" length="8">marriage</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1549">
+        <trigger offset="505" length="4">told</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1600">
+        <trigger offset="727" length="3">ask</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1621">
+        <trigger offset="707" length="15">drop her a line</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1644">
+        <trigger offset="842" length="4">tell</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1672">
+        <trigger offset="1317" length="4">tell</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1709">
+        <trigger offset="1696" length="4">meet</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1730">
+        <trigger offset="1708" length="4">meet</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1751">
+        <trigger offset="1928" length="8">visiting</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1836">
+        <trigger offset="5274" length="5">visit</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

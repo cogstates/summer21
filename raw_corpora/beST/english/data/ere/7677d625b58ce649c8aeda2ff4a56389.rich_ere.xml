@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="55142ee50000000000000025" doc_id="7677d625b58ce649c8aeda2ff4a56389" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-13" noun_type="NAM" source="7677d625b58ce649c8aeda2ff4a56389" offset="14" length="12">
+        <mention_text>skunkfeather</mention_text>
+      </entity_mention>
+      <entity_mention id="m-28" noun_type="PRO" source="7677d625b58ce649c8aeda2ff4a56389" offset="82" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+      <entity_mention id="m-43" noun_type="PRO" source="7677d625b58ce649c8aeda2ff4a56389" offset="114" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-49" noun_type="PRO" source="7677d625b58ce649c8aeda2ff4a56389" offset="134" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-55" noun_type="PRO" source="7677d625b58ce649c8aeda2ff4a56389" offset="186" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-76" noun_type="PRO" source="7677d625b58ce649c8aeda2ff4a56389" offset="324" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-82" noun_type="PRO" source="7677d625b58ce649c8aeda2ff4a56389" offset="357" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-25" type="PER" specificity="specific">
+      <entity_mention id="m-19" noun_type="NOM" source="7677d625b58ce649c8aeda2ff4a56389" offset="68" length="8">
+        <mention_text>A friend</mention_text>
+        <nom_head source="7677d625b58ce649c8aeda2ff4a56389" offset="70" length="6">friend</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-40" type="GPE" specificity="specific">
+      <entity_mention id="m-34" noun_type="NAM" source="7677d625b58ce649c8aeda2ff4a56389" offset="89" length="11">
+        <mention_text>New Zealand</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-67" type="PER" specificity="specific">
+      <entity_mention id="m-61" noun_type="NOM" source="7677d625b58ce649c8aeda2ff4a56389" offset="244" length="9">
+        <mention_text>A friends</mention_text>
+        <nom_head source="7677d625b58ce649c8aeda2ff4a56389" offset="246" length="7">friends</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-94" type="PER" specificity="specific">
+      <entity_mention id="m-88" noun_type="NAM" source="7677d625b58ce649c8aeda2ff4a56389" offset="404" length="10">
+        <mention_text>MrFreshdew</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-254" type="ORG" specificity="specific">
+      <entity_mention id="m-248" noun_type="NAM" source="7677d625b58ce649c8aeda2ff4a56389" offset="175" length="9">
+        <mention_text>freecycle</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-266" type="PER" specificity="specific">
+      <entity_mention id="m-70" noun_type="NOM" source="7677d625b58ce649c8aeda2ff4a56389" offset="244" length="14">
+        <mention_text>A friends sons</mention_text>
+        <nom_head source="7677d625b58ce649c8aeda2ff4a56389" offset="254" length="4">sons</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-273" source="7677d625b58ce649c8aeda2ff4a56389" offset="85" length="22" type="commodity">two New Zealand Whites</filler>
+    <filler id="f-215" source="7677d625b58ce649c8aeda2ff4a56389" offset="336" length="19" type="commodity">four French Angoras</filler>
+    <filler id="f-280" source="7677d625b58ce649c8aeda2ff4a56389" offset="192" length="10" type="commodity">a mini rex</filler>
+  </fillers>
+  <relations>
+    <relation id="r-358" type="personalsocial" subtype="unspecified">
+      <relation_mention id="relm-97" realis="true">
+        <rel_arg1 entity_id="ent-25" entity_mention_id="m-19" role="per">A friend</rel_arg1>
+        <rel_arg2 entity_id="ent-8" entity_mention_id="m-28" role="per">me</rel_arg2>
+        <trigger source="7677d625b58ce649c8aeda2ff4a56389" offset="70" length="6">friend</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-359" type="personalsocial" subtype="unspecified">
+      <relation_mention id="relm-107" realis="true">
+        <rel_arg1 entity_id="ent-67" entity_mention_id="m-61" role="per">A friends</rel_arg1>
+        <rel_arg2 entity_id="ent-8" entity_mention_id="m-76" role="per">I</rel_arg2>
+        <trigger source="7677d625b58ce649c8aeda2ff4a56389" offset="246" length="7">friends</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-360" type="personalsocial" subtype="family">
+      <relation_mention id="relm-117" realis="true">
+        <rel_arg1 entity_id="ent-67" entity_mention_id="m-61" role="per">A friends</rel_arg1>
+        <rel_arg2 entity_id="ent-266" entity_mention_id="m-70" role="per">A friends sons</rel_arg2>
+        <trigger source="7677d625b58ce649c8aeda2ff4a56389" offset="254" length="4">sons</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-130">
+      <event_mention id="em-132" type="transaction" subtype="transferownership" realis="actual" ways="voluntary">
+        <trigger source="7677d625b58ce649c8aeda2ff4a56389" offset="77" length="4">gave</trigger>
+        <em_arg entity_id="ent-25" entity_mention_id="m-19" role="giver" realis="true">A friend</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-28" role="recipient" realis="true">me</em_arg>
+        <em_arg filler_id="f-273" role="thing" realis="true">two New Zealand Whites</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-188">
+      <event_mention id="em-167" type="life" subtype="die" realis="actual">
+        <trigger source="7677d625b58ce649c8aeda2ff4a56389" offset="259" length="11">passed away</trigger>
+        <em_arg entity_id="ent-266" entity_mention_id="m-70" role="victim" realis="true">A friends sons</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-218">
+      <event_mention id="em-190" type="transaction" subtype="transferownership" realis="actual" ways="voluntary">
+        <trigger source="7677d625b58ce649c8aeda2ff4a56389" offset="326" length="9">inherited</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-76" role="recipient" realis="true">I</em_arg>
+        <em_arg filler_id="f-215" role="thing" realis="true">four French Angoras</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-264">
+      <event_mention id="em-220" type="transaction" subtype="transferownership" realis="actual" ways="voluntary">
+        <trigger source="7677d625b58ce649c8aeda2ff4a56389" offset="188" length="3">got</trigger>
+        <em_arg entity_id="ent-254" entity_mention_id="m-248" role="giver" realis="true">freecycle</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-55" role="recipient" realis="true">I</em_arg>
+        <em_arg filler_id="f-280" role="thing" realis="true">a mini rex</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

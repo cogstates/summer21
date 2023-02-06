@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="557f043e0000000000000039" doc_id="4764f1400fa336d1fb972719b10b939a" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-93" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="14" length="13">
+        <mention_text>MonkeyMan2009</mention_text>
+      </entity_mention>
+      <entity_mention id="m-99" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="3008" length="13">
+        <mention_text>MonkeyMan2009</mention_text>
+      </entity_mention>
+      <entity_mention id="m-105" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="4341" length="13">
+        <mention_text>MonkeyMan2009</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-18" type="PER" specificity="specific">
+      <entity_mention id="m-111" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="91" length="11">
+        <mention_text>Martynas_UK</mention_text>
+      </entity_mention>
+      <entity_mention id="m-117" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="105" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-123" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="183" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-129" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="405" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-135" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="1668" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-141" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="1197" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-21" type="PER" specificity="specific">
+      <entity_mention id="m-147" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="1891" length="15">
+        <mention_text>TranceEnergy198</mention_text>
+      </entity_mention>
+      <entity_mention id="m-153" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="2290" length="1">
+        <mention_text>i</mention_text>
+      </entity_mention>
+      <entity_mention id="m-159" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="2680" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-165" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="2605" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-171" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="2668" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-177" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="2975" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-183" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="3085" length="16">
+        <mention_text>TranceEnergy1989</mention_text>
+      </entity_mention>
+      <entity_mention id="m-189" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="3128" length="1">
+        <mention_text>i</mention_text>
+      </entity_mention>
+      <entity_mention id="m-195" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="3973" length="2">
+        <mention_text>im</mention_text>
+      </entity_mention>
+      <entity_mention id="m-201" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="3934" length="1">
+        <mention_text>i</mention_text>
+      </entity_mention>
+      <entity_mention id="m-207" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="3961" length="1">
+        <mention_text>i</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-24" type="PER" specificity="specific">
+      <entity_mention id="m-213" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="1823" length="4">
+        <mention_text>Sine</mention_text>
+      </entity_mention>
+      <entity_mention id="m-219" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="2820" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-225" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="2785" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-27" type="PER" specificity="specific">
+      <entity_mention id="m-231" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="2121" length="6">
+        <mention_text>Mugabe</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-30" type="PER" specificity="specific">
+      <entity_mention id="m-237" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="2172" length="25">
+        <mention_text>the minority white people</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="2191" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-33" type="PER" specificity="specific">
+      <entity_mention id="m-243" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="3768" length="3">
+        <mention_text>You</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1439" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="4046" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-36" type="PER" specificity="specific">
+      <entity_mention id="m-249" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="4418" length="11">
+        <mention_text>Storm_Raven</mention_text>
+      </entity_mention>
+      <entity_mention id="m-255" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="5089" length="5">
+        <mention_text>Raven</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-39" type="PER" specificity="specific">
+      <entity_mention id="m-261" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="4432" length="22">
+        <mention_text>The Anglo Saxon tribes</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="4448" length="6">tribes</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-42" type="PER" specificity="specific">
+      <entity_mention id="m-267" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="4677" length="11">
+        <mention_text>the Pictish</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="4681" length="7">Pictish</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-45" type="GPE" specificity="specific">
+      <entity_mention id="m-273" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="1409" length="18">
+        <mention_text>European countries</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="1418" length="9">countries</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-48" type="GPE" specificity="specific">
+      <entity_mention id="m-279" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="329" length="7">
+        <mention_text>Britain</mention_text>
+      </entity_mention>
+      <entity_mention id="m-285" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="378" length="7">
+        <mention_text>Britain</mention_text>
+      </entity_mention>
+      <entity_mention id="m-291" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="359" length="7">
+        <mention_text>Britain</mention_text>
+      </entity_mention>
+      <entity_mention id="m-297" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="718" length="7">
+        <mention_text>British</mention_text>
+      </entity_mention>
+      <entity_mention id="m-303" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="580" length="69">
+        <mention_text>countries that will be ruled by few or more generation old foreigners</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="580" length="9">countries</nom_head>
+      </entity_mention>
+      <entity_mention id="m-309" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="1222" length="12">
+        <mention_text>this country</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="1227" length="7">country</nom_head>
+      </entity_mention>
+      <entity_mention id="m-315" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="1299" length="7">
+        <mention_text>British</mention_text>
+      </entity_mention>
+      <entity_mention id="m-321" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="1339" length="7">
+        <mention_text>British</mention_text>
+      </entity_mention>
+      <entity_mention id="m-327" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="839" length="12">
+        <mention_text>this country</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="844" length="7">country</nom_head>
+      </entity_mention>
+      <entity_mention id="m-333" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="1999" length="7">
+        <mention_text>British</mention_text>
+      </entity_mention>
+      <entity_mention id="m-339" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="2019" length="7">
+        <mention_text>British</mention_text>
+      </entity_mention>
+      <entity_mention id="m-345" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="2521" length="7">
+        <mention_text>Britain</mention_text>
+      </entity_mention>
+      <entity_mention id="m-351" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="2579" length="12">
+        <mention_text>this country</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="2584" length="7">country</nom_head>
+      </entity_mention>
+      <entity_mention id="m-357" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="3810" length="12">
+        <mention_text>this country</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="3815" length="7">country</nom_head>
+      </entity_mention>
+      <entity_mention id="m-363" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="3864" length="2">
+        <mention_text>it</mention_text>
+      </entity_mention>
+      <entity_mention id="m-369" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="3734" length="9">
+        <mention_text>this land</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="3739" length="4">land</nom_head>
+      </entity_mention>
+      <entity_mention id="m-375" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="3684" length="7">
+        <mention_text>Britain</mention_text>
+      </entity_mention>
+      <entity_mention id="m-381" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="3524" length="7">
+        <mention_text>England</mention_text>
+      </entity_mention>
+      <entity_mention id="m-387" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="3533" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-393" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="3851" length="2">
+        <mention_text>it</mention_text>
+      </entity_mention>
+      <entity_mention id="m-399" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="3897" length="2">
+        <mention_text>it</mention_text>
+      </entity_mention>
+      <entity_mention id="m-405" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="4175" length="11">
+        <mention_text>a democracy</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="4177" length="9">democracy</nom_head>
+      </entity_mention>
+      <entity_mention id="m-411" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="229" length="4">
+        <mention_text>here</mention_text>
+      </entity_mention>
+      <entity_mention id="m-417" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="303" length="4">
+        <mention_text>here</mention_text>
+      </entity_mention>
+      <entity_mention id="m-435" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="2660" length="4">
+        <mention_text>here</mention_text>
+      </entity_mention>
+      <entity_mention id="m-441" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="3654" length="4">
+        <mention_text>here</mention_text>
+      </entity_mention>
+      <entity_mention id="m-447" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="4282" length="4">
+        <mention_text>here</mention_text>
+      </entity_mention>
+      <entity_mention id="m-453" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="549" length="29">
+        <mention_text>countries that were once ours</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="549" length="9">countries</nom_head>
+      </entity_mention>
+      <entity_mention id="m-898" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="1100" length="7">
+        <mention_text>British</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1130" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="3622" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1599" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="3540" length="26">
+        <mention_text>a 3rd world dumping ground</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="3560" length="6">ground</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-51" type="GPE" specificity="specific">
+      <entity_mention id="m-459" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="2069" length="8">
+        <mention_text>Zimbabwe</mention_text>
+      </entity_mention>
+      <entity_mention id="m-465" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="2232" length="8">
+        <mention_text>Zimbabwe</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-54" type="GPE" specificity="specific">
+      <entity_mention id="m-471" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="2425" length="5">
+        <mention_text>India</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-57" type="GPE" specificity="specific">
+      <entity_mention id="m-477" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="2337" length="15">
+        <mention_text>those countries</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="2343" length="9">countries</nom_head>
+      </entity_mention>
+      <entity_mention id="m-483" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="2480" length="22">
+        <mention_text>many of these colonies</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="2480" length="4">many</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-60" type="GPE" specificity="specific">
+      <entity_mention id="m-489" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="3290" length="5">
+        <mention_text>japan</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-63" type="GPE" specificity="specific">
+      <entity_mention id="m-495" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="3324" length="5">
+        <mention_text>ghana</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-66" type="GPE" specificity="specific">
+      <entity_mention id="m-501" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="3307" length="5">
+        <mention_text>china</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-69" type="GPE" specificity="specific">
+      <entity_mention id="m-507" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="3952" length="6">
+        <mention_text>London</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-72" type="GPE" specificity="specific">
+      <entity_mention id="m-513" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="4968" length="8">
+        <mention_text>Scotland</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-75" type="GPE" specificity="specific">
+      <entity_mention id="m-519" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="5021" length="9">
+        <mention_text>Icelandic</mention_text>
+      </entity_mention>
+      <entity_mention id="m-525" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="4840" length="9">
+        <mention_text>Icelandic</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-78" type="LOC" specificity="specific">
+      <entity_mention id="m-531" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="3944" length="14">
+        <mention_text>Central London</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-81" type="LOC" specificity="specific">
+      <entity_mention id="m-537" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="4951" length="25">
+        <mention_text>Nothern Isles of Scotland</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-84" type="LOC" specificity="specific">
+      <entity_mention id="m-543" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="4851" length="12">
+        <mention_text>Scandanavian</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-87" type="LOC" specificity="specific">
+      <entity_mention id="m-549" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="4937" length="9">
+        <mention_text>the North</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="4941" length="5">North</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-90" type="LOC" specificity="specific">
+      <entity_mention id="m-555" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="1409" length="8">
+        <mention_text>European</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-745" type="PER" specificity="nonspecific">
+      <entity_mention id="m-739" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="196" length="19">
+        <mention_text>the color of people</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="209" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-758" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="253" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-770" type="PER" specificity="nonspecific">
+      <entity_mention id="m-764" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="279" length="28">
+        <mention_text>someone who is not from here</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="279" length="7">someone</nom_head>
+      </entity_mention>
+      <entity_mention id="m-783" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="338" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-789" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="368" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-795" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="398" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-807" type="PER" specificity="specific">
+      <entity_mention id="m-953" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="1549" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-844" type="PER" specificity="specific">
+      <entity_mention id="m-822" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="612" length="37">
+        <mention_text>few or more generation old foreigners</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="639" length="10">foreigners</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-847" type="LOC" specificity="specific">
+      <entity_mention id="m-838" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="751" length="5">
+        <mention_text>earth</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1614" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="3546" length="5">
+        <mention_text>world</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="3546" length="5">world</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-862" type="PER" specificity="nonspecific">
+      <entity_mention id="m-856" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="913" length="10">
+        <mention_text>foreigners</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="913" length="10">foreigners</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-865" type="PER" specificity="specific">
+      <entity_mention id="m-850" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="891" length="32">
+        <mention_text>a very mere number of foreigners</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="903" length="6">number</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-874" type="LOC" specificity="nonspecific">
+      <entity_mention id="m-868" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="998" length="20">
+        <mention_text>other parts of world</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="1004" length="5">parts</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-883" type="LOC" specificity="specific">
+      <entity_mention id="m-877" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="1013" length="5">
+        <mention_text>world</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="1013" length="5">world</nom_head>
+      </entity_mention>
+      <entity_mention id="m-965" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="1661" length="5">
+        <mention_text>world</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="1661" length="5">world</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-892" type="PER" specificity="nonspecific">
+      <entity_mention id="m-886" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="1024" length="9">
+        <mention_text>everybody</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1079" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="3212" length="8">
+        <mention_text>everyone</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-895" type="PER" specificity="specific">
+      <entity_mention id="m-423" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="1095" length="12">
+        <mention_text>some British</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="1095" length="4">some</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-920" type="PER" specificity="nonspecific">
+      <entity_mention id="m-914" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="1267" length="8">
+        <mention_text>minority</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="1267" length="8">minority</nom_head>
+      </entity_mention>
+      <entity_mention id="m-923" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="1285" length="10">
+        <mention_text>themselves</mention_text>
+      </entity_mention>
+      <entity_mention id="m-929" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="1333" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1543" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="1361" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1587" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="1375" length="25">
+        <mention_text>2nd generation immigrants</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="1390" length="10">immigrants</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-941" type="LOC" specificity="nonspecific">
+      <entity_mention id="m-959" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="1648" length="18">
+        <mention_text>all parts of world</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="1648" length="3">all</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-950" type="PER" specificity="nonspecific">
+      <entity_mention id="m-801" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="498" length="2">
+        <mention_text>us</mention_text>
+      </entity_mention>
+      <entity_mention id="m-810" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="528" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-816" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="574" length="4">
+        <mention_text>ours</mention_text>
+      </entity_mention>
+      <entity_mention id="m-944" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="1470" length="12">
+        <mention_text>white people</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="1476" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1145" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="3709" length="10">
+        <mention_text>the whites</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="3713" length="6">whites</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1299" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="452" length="10">
+        <mention_text>white race</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="458" length="4">race</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-977" type="GPE" specificity="nonspecific">
+      <entity_mention id="m-971" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="1967" length="9">
+        <mention_text>countries</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="1967" length="9">countries</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-986" type="LOC" specificity="nonspecific">
+      <entity_mention id="m-980" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="2049" length="6">
+        <mention_text>places</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="2049" length="6">places</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-989" type="PER" specificity="specific">
+      <entity_mention id="m-429" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="2106" length="5">
+        <mention_text>Brits</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1058" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="2898" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1401" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="2854" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1010" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1004" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="2507" length="3">
+        <mention_text>men</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="2507" length="3">men</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1022" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="2542" length="4">
+        <mention_text>They</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1028" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="2551" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1019" type="GPE" specificity="nonspecific">
+      <entity_mention id="m-1013" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="2488" length="14">
+        <mention_text>these colonies</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="2494" length="8">colonies</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1040" type="PER" specificity="specific">
+      <entity_mention id="m-1034" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="2624" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1049" type="PER" specificity="specific">
+      <entity_mention id="m-1043" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="2869" length="2">
+        <mention_text>us</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1052" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="2886" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1064" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="2945" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1070" type="PER" specificity="specific">
+      <entity_mention id="m-1073" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="3165" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1091" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1085" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="3373" length="10">
+        <mention_text>every race</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="3373" length="5">every</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1100" type="LOC" specificity="nonspecific">
+      <entity_mention id="m-1094" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="3406" length="10">
+        <mention_text>the planet</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="3410" length="6">planet</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1109" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1103" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="3452" length="6">
+        <mention_text>people</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="3452" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1167" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="4239" length="6">
+        <mention_text>people</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="4239" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1173" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="4288" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1478" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="4303" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1593" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="1584" length="6">
+        <mention_text>people</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="1584" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1118" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1112" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="3467" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1127" type="PER" specificity="specific">
+      <entity_mention id="m-1121" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="3601" length="19">
+        <mention_text>the native populace</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="3612" length="8">populace</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1161" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="4118" length="22">
+        <mention_text>the native populations</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="4129" length="11">populations</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1142" type="PER" specificity="specific">
+      <entity_mention id="m-1136" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="3636" length="17">
+        <mention_text>200 nationalities</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="3636" length="3">200</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1185" type="PER" specificity="specific">
+      <entity_mention id="m-1179" noun_type="NAM" source="4764f1400fa336d1fb972719b10b939a" offset="4436" length="11">
+        <mention_text>Anglo Saxon</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1225" type="PER" specificity="specific">
+      <entity_mention id="m-1219" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="4501" length="21">
+        <mention_text>the local populations</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="4511" length="11">populations</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1234" type="PER" specificity="specific">
+      <entity_mention id="m-1228" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="4693" length="22">
+        <mention_text>other pre-Roman tribes</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="4709" length="6">tribes</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1243" type="PER" specificity="specific">
+      <entity_mention id="m-1237" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="4721" length="6">
+        <mention_text>all we</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="4721" length="3">all</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1252" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1246" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="4783" length="11">
+        <mention_text>other races</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="4789" length="5">races</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1261" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1255" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="4922" length="11">
+        <mention_text>many people</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="4927" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1284" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="4987" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1296" type="GPE" specificity="specific">
+      <entity_mention id="m-1290" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="5036" length="9">
+        <mention_text>countries</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="5036" length="9">countries</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1321" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1315" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="798" length="37">
+        <mention_text>the pot of cultures and nationalities</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="802" length="3">pot</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1340" type="PER" specificity="specific">
+      <entity_mention id="m-1334" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="970" length="48">
+        <mention_text>a lot with bad accents from other parts of world</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="972" length="3">lot</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1349" type="PER" specificity="specific">
+      <entity_mention id="m-1343" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="2312" length="21">
+        <mention_text>white majority groups</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="2327" length="6">groups</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1372" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="2366" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1436" type="PER" specificity="specific">
+      <entity_mention id="m-1430" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="4014" length="8">
+        <mention_text>the left</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="4018" length="4">left</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1451" type="PER" specificity="specific">
+      <entity_mention id="m-1445" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="4144" length="18">
+        <mention_text>the white invaders</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="4154" length="8">invaders</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1460" type="PER" specificity="specific">
+      <entity_mention id="m-1454" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="4164" length="2">
+        <mention_text>We</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1472" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="4225" length="3">
+        <mention_text>our</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1469" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1463" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="4204" length="30">
+        <mention_text>people who represent our views</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="4204" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1522" type="PER" specificity="specific">
+      <entity_mention id="m-1516" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="4613" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1525" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="4644" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1531" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="4769" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1537" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="4810" length="2">
+        <mention_text>We</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1565" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1559" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="3762" length="3">
+        <mention_text>man</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="3762" length="3">man</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1584" type="LOC" specificity="nonspecific">
+      <entity_mention id="m-1578" noun_type="PRO" source="4764f1400fa336d1fb972719b10b939a" offset="247" length="5">
+        <mention_text>where</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1611" type="LOC" specificity="nonspecific">
+      <entity_mention id="m-1605" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="3542" length="9">
+        <mention_text>3rd world</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="3542" length="3">3rd</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1646" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1640" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="809" length="42">
+        <mention_text>cultures and nationalities in this country</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="809" length="8">cultures</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1675" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1649" noun_type="NOM" source="4764f1400fa336d1fb972719b10b939a" offset="809" length="42">
+        <mention_text>cultures and nationalities in this country</mention_text>
+        <nom_head source="4764f1400fa336d1fb972719b10b939a" offset="822" length="13">nationalities</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers/>
+  <relations>
+    <relation id="r-1812" type="physical" subtype="locatednear">
+      <relation_mention id="relm-561" realis="true">
+        <rel_arg1 entity_id="ent-989" entity_mention_id="m-429" role="entity">Brits</rel_arg1>
+        <rel_arg2 entity_id="ent-51" entity_mention_id="m-459" role="loc">Zimbabwe</rel_arg2>
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="2112" length="4">left</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1813" type="physical" subtype="locatednear">
+      <relation_mention id="relm-571" realis="true">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-171" role="entity">you</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-435" role="loc">here</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1814" type="physical" subtype="resident">
+      <relation_mention id="relm-581" realis="true">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-201" role="per">i</rel_arg1>
+        <rel_arg2 entity_id="ent-78" entity_mention_id="m-531" role="loc">Central London</rel_arg2>
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="3936" length="4">live</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1815" type="physical" subtype="locatednear">
+      <relation_mention id="relm-591" realis="true">
+        <rel_arg1 entity_id="ent-78" entity_mention_id="m-531" role="entity">Central London</rel_arg1>
+        <rel_arg2 entity_id="ent-69" entity_mention_id="m-507" role="loc">London</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1816" type="physical" subtype="locatednear">
+      <relation_mention id="relm-601" realis="true">
+        <rel_arg1 entity_id="ent-81" entity_mention_id="m-537" role="entity">Nothern Isles of Scotland</rel_arg1>
+        <rel_arg2 entity_id="ent-72" entity_mention_id="m-513" role="loc">Scotland</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1817" type="physical" subtype="locatednear">
+      <relation_mention id="relm-611" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-273" role="entity">European countries</rel_arg1>
+        <rel_arg2 entity_id="ent-90" entity_mention_id="m-555" role="loc">European</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1818" type="physical" subtype="resident">
+      <relation_mention id="relm-748" realis="true">
+        <rel_arg1 entity_id="ent-745" entity_mention_id="m-739" role="per">the color of people</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-411" role="loc">here</rel_arg2>
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="221" length="4">live</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1819" type="physical" subtype="resident">
+      <relation_mention id="relm-773" realis="false">
+        <rel_arg1 entity_id="ent-770" entity_mention_id="m-764" role="per">someone who is not from here</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-279" role="loc">Britain</rel_arg2>
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="319" length="6">reside</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1820" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-828" realis="false">
+        <rel_arg1 entity_id="ent-844" entity_mention_id="m-822" role="leader">few or more generation old foreigners</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-303" role="entity">countries that will be ruled by few or more generation old foreigners</rel_arg2>
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="603" length="5">ruled</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1821" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-904" realis="true">
+        <rel_arg1 entity_id="ent-895" entity_mention_id="m-423" role="per">some British</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-898" role="entity">British</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1822" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1188" realis="true">
+        <rel_arg1 entity_id="ent-39" entity_mention_id="m-261" role="per">The Anglo Saxon tribes</rel_arg1>
+        <rel_arg2 entity_id="ent-1185" entity_mention_id="m-1179" role="entity">Anglo Saxon</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1823" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1264" realis="true">
+        <rel_arg1 entity_id="ent-1261" entity_mention_id="m-1255" role="entity">many people</rel_arg1>
+        <rel_arg2 entity_id="ent-87" entity_mention_id="m-549" role="loc">the North</rel_arg2>
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="4934" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1824" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1274" realis="true">
+        <rel_arg1 entity_id="ent-1261" entity_mention_id="m-1255" role="entity">many people</rel_arg1>
+        <rel_arg2 entity_id="ent-81" entity_mention_id="m-537" role="loc">Nothern Isles of Scotland</rel_arg2>
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="4934" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1825" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1305" realis="true">
+        <rel_arg1 entity_id="ent-844" entity_mention_id="m-822" role="per">few or more generation old foreigners</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-297" role="entity">British</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1826" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1324" realis="true">
+        <rel_arg1 entity_id="ent-1321" entity_mention_id="m-1315" role="entity">the pot of cultures and nationalities</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-327" role="loc">this country</rel_arg2>
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="836" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1827" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1362" realis="false">
+        <rel_arg1 entity_id="ent-1349" entity_mention_id="m-1343" role="entity">white majority groups</rel_arg1>
+        <rel_arg2 entity_id="ent-57" entity_mention_id="m-477" role="loc">those countries</rel_arg2>
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="2334" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1828" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1549" realis="true">
+        <rel_arg1 entity_id="ent-950" entity_mention_id="m-1145" role="entity">the whites</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-369" role="loc">this land</rel_arg2>
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="3725" length="8">occupied</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1829" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1568" realis="true">
+        <rel_arg1 entity_id="ent-1261" entity_mention_id="m-1284" role="per">their</rel_arg1>
+        <rel_arg2 entity_id="ent-75" entity_mention_id="m-519" role="entity">Icelandic</rel_arg2>
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="4993" length="15">genetic lineage</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1830" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1620" realis="true">
+        <rel_arg1 entity_id="ent-1611" entity_mention_id="m-1605" role="entity">3rd world</rel_arg1>
+        <rel_arg2 entity_id="ent-847" entity_mention_id="m-1614" role="loc">world</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1831" type="physical" subtype="resident">
+      <relation_mention id="relm-1630" realis="true">
+        <rel_arg1 entity_id="ent-1460" entity_mention_id="m-1454" role="per">We</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-405" role="loc">a democracy</rel_arg2>
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="4167" length="4">live</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1832" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1655" realis="true">
+        <rel_arg1 entity_id="ent-1646" entity_mention_id="m-1640" role="entity">cultures and nationalities in this country</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-327" role="loc">this country</rel_arg2>
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="836" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1833" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1665" realis="true">
+        <rel_arg1 entity_id="ent-1675" entity_mention_id="m-1649" role="entity">cultures and nationalities in this country</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-327" role="loc">this country</rel_arg2>
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="836" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-16">
+      <event_mention id="em-627" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="2164" length="7">exiling</trigger>
+        <em_arg entity_id="ent-30" entity_mention_id="m-237" role="person" realis="true">the minority white people</em_arg>
+        <em_arg entity_id="ent-27" entity_mention_id="m-231" role="agent" realis="true">Mugabe</em_arg>
+        <em_arg entity_id="ent-51" entity_mention_id="m-459" role="origin" realis="true">Zimbabwe</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-621">
+      <event_mention id="em-648" type="life" subtype="die" realis="actual">
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="2152" length="7">killing</trigger>
+        <em_arg entity_id="ent-27" entity_mention_id="m-231" role="agent" realis="true">Mugabe</em_arg>
+        <em_arg entity_id="ent-30" entity_mention_id="m-237" role="victim" realis="true">the minority white people</em_arg>
+        <em_arg entity_id="ent-51" entity_mention_id="m-459" role="place" realis="true">Zimbabwe</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-623">
+      <event_mention id="em-669" type="conflict" subtype="attack" realis="actual">
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="2536" length="4">wars</trigger>
+        <em_arg entity_id="ent-57" entity_mention_id="m-483" role="attacker" realis="true">many of these colonies</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-625">
+      <event_mention id="em-690" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="4455" length="9">displaced</trigger>
+        <em_arg entity_id="ent-39" entity_mention_id="m-261" role="agent" realis="true">The Anglo Saxon tribes</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1399">
+      <event_mention id="em-1378" type="movement" subtype="transportperson" realis="other">
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="2410" length="11">immigration</trigger>
+        <em_arg entity_id="ent-54" entity_mention_id="m-471" role="destination" realis="true">India</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1428">
+      <event_mention id="em-1407" type="movement" subtype="transportperson" realis="other">
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="3500" length="2">go</trigger>
+        <em_arg entity_id="ent-1118" entity_mention_id="m-1112" role="person" realis="true">you</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1491">
+      <event_mention id="em-1198" type="life" subtype="marry" realis="actual">
+        <trigger source="4764f1400fa336d1fb972719b10b939a" offset="4483" length="12">intermarried</trigger>
+        <em_arg entity_id="ent-39" entity_mention_id="m-261" role="person" realis="true">The Anglo Saxon tribes</em_arg>
+        <em_arg entity_id="ent-1225" entity_mention_id="m-1219" role="person" realis="true">the local populations</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

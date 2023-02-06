@@ -1,0 +1,2074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56cde0340000000000000021">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-1170">
+        <trigger offset="375" length="3">CEO</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-408" offset="114" length="6">Amelia</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1585">
+        <trigger offset="6634" length="3">CEO</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-420" offset="6373" length="6">Amelia</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1180">
+        <trigger offset="447" length="4">have</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-696" offset="361" length="17">the Carbonite CEO</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-408" offset="114" length="6">Amelia</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1208">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-408" offset="114" length="6">Amelia</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-696" offset="361" length="17">the Carbonite CEO</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1228">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-696" offset="361" length="17">the Carbonite CEO</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-408" offset="114" length="6">Amelia</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1352">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-696" offset="361" length="17">the Carbonite CEO</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-408" offset="114" length="6">Amelia</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1372">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-696" offset="361" length="17">the Carbonite CEO</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-408" offset="114" length="6">Amelia</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1218">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-696" offset="361" length="17">the Carbonite CEO</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-408" offset="114" length="6">Amelia</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1362">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-696" offset="361" length="17">the Carbonite CEO</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-408" offset="114" length="6">Amelia</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1500">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-822" offset="2848" length="11">GuyPinestra</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1522">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-822" offset="2848" length="11">GuyPinestra</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1569">
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-420" offset="6373" length="6">Amelia</source>
+          </belief>
+          <belief type="rob">
+            <source ere_id="m-714" offset="2947" length="17">the Carbonite CEO</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1595">
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-696" offset="361" length="17">the Carbonite CEO</source>
+          </belief>
+          <belief type="rob">
+            <source ere_id="m-408" offset="114" length="6">Amelia</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1909">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-228" offset="3694" length="9">Liability</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-1259">
+        <trigger offset="988" length="3">buy</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-60" offset="82" length="9">Liability</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-66" offset="973" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-60" offset="82" length="9">Liability</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-912" offset="992" length="9">
+            <text>Carbonite</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-60" offset="82" length="9">Liability</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1287">
+        <trigger offset="1682" length="3">buy</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-114" offset="1567" length="9">Liability</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-120" offset="1667" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-114" offset="1567" length="9">Liability</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1152" offset="1686" length="9">
+            <text>Carbonite</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-114" offset="1567" length="9">Liability</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1324">
+        <trigger offset="2997" length="3">buy</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-174" offset="2882" length="9">Liability</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-180" offset="2982" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-174" offset="2882" length="9">Liability</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-966" offset="3001" length="9">
+            <text>Carbonite</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-174" offset="2882" length="9">Liability</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1424">
+        <trigger offset="4428" length="3">buy</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-234" offset="4401" length="9">Liability</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-240" offset="4413" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-234" offset="4401" length="9">Liability</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1020" offset="4432" length="9">
+            <text>Carbonite</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-234" offset="4401" length="9">Liability</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1605">
+        <trigger offset="379" length="4">said</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-408" offset="114" length="6">Amelia</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-696" offset="361" length="17">
+            <text>the Carbonite CEO</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-408" offset="114" length="6">Amelia</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1716">
+        <trigger offset="6638" length="4">said</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-420" offset="6373" length="6">Amelia</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-720" offset="6620" length="17">
+            <text>the Carbonite CEO</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-420" offset="6373" length="6">Amelia</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1786">
+        <trigger offset="2965" length="4">said</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-426" offset="2914" length="6">Amelia</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-714" offset="2947" length="17">
+            <text>the Carbonite CEO</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-426" offset="2914" length="6">Amelia</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1807">
+        <trigger offset="1650" length="4">said</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-414" offset="1599" length="6">Amelia</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-708" offset="1632" length="17">
+            <text>the Carbonite CEO</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-414" offset="1599" length="6">Amelia</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1628">
+        <trigger offset="482" length="6">insult</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-408" offset="114" length="6">Amelia</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-696" offset="361" length="17">the Carbonite CEO</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-450" offset="564" length="8">
+            <text>Limbaugh</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-696" offset="361" length="17">the Carbonite CEO</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-408" offset="114" length="6">Amelia</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1695">
+        <trigger offset="6741" length="6">insult</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-720" offset="6620" length="17">the Carbonite CEO</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-420" offset="6373" length="6">Amelia</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-552" offset="6823" length="8">
+            <text>Limbaugh</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-720" offset="6620" length="17">the Carbonite CEO</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-420" offset="6373" length="6">Amelia</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1672">
+        <trigger offset="711" length="7">apology</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-696" offset="361" length="17">the Carbonite CEO</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-408" offset="114" length="6">Amelia</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-462" offset="684" length="8">
+            <text>Limbaugh</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-696" offset="361" length="17">the Carbonite CEO</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-408" offset="114" length="6">Amelia</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1737">
+        <trigger offset="6970" length="7">apology</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-720" offset="6620" length="17">the Carbonite CEO</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-420" offset="6373" length="6">Amelia</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-564" offset="6943" length="8">
+            <text>Limbaugh</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-720" offset="6620" length="17">the Carbonite CEO</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-420" offset="6373" length="6">Amelia</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1758">
+        <trigger offset="2550" length="9">apologize</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-744" offset="2424" length="8">kidrocks</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-480" offset="2537" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-744" offset="2424" length="8">kidrocks</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-642" offset="2574" length="12">
+            <text>Sandra Fluke</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-744" offset="2424" length="8">kidrocks</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1858">
+        <trigger offset="3852" length="9">apologize</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-750" offset="3767" length="8">kidrocks</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-498" offset="3839" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-750" offset="3767" length="8">kidrocks</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-654" offset="3876" length="12">
+            <text>Sandra Fluke</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-750" offset="3767" length="8">kidrocks</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1828">
+        <trigger offset="3513" length="7">message</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-774" offset="2774" length="10">Pheonixops</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-792" offset="3510" length="2">
+            <text>my</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-774" offset="2774" length="10">Pheonixops</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1008" offset="3524" length="9">
+            <text>Carbonite</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-774" offset="2774" length="10">Pheonixops</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1919">
+        <trigger offset="4944" length="7">message</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-780" offset="4334" length="10">Pheonixops</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-804" offset="4941" length="2">
+            <text>my</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-780" offset="4334" length="10">Pheonixops</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1062" offset="4955" length="9">
+            <text>Carbonite</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-780" offset="4334" length="10">Pheonixops</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1947">
+        <trigger offset="7237" length="9">statement</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-786" offset="6299" length="10">Pheonixops</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1122" offset="7250" length="9">
+            <text>Carbonite</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-786" offset="6299" length="10">Pheonixops</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-60" offset="82" length="9">
+        <text>Liability</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-66" offset="973" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-72" offset="1045" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-78" offset="1053" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-84" offset="1099" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-90" offset="1106" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-96" offset="1137" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-102" offset="1175" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-108" offset="1240" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-114" offset="1567" length="9">
+        <text>Liability</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-120" offset="1667" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-126" offset="1739" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-132" offset="1747" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-138" offset="1793" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-144" offset="1800" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-150" offset="1831" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-156" offset="1869" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-162" offset="1934" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-168" offset="1970" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-174" offset="2882" length="9">
+        <text>Liability</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-180" offset="2982" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="3054" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-192" offset="3062" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-198" offset="3108" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-204" offset="3115" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-210" offset="3146" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-216" offset="3184" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-222" offset="3249" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-228" offset="3694" length="9">
+        <text>Liability</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-234" offset="4401" length="9">
+        <text>Liability</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-240" offset="4413" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-246" offset="4485" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-252" offset="4493" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-258" offset="4539" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-264" offset="4577" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-270" offset="4615" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-276" offset="4680" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-282" offset="4716" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-288" offset="5732" length="9">
+        <text>Liability</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-294" offset="1467" length="9">
+        <text>Liability</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-300" offset="4261" length="9">
+        <text>Liability</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-306" offset="2360" length="12">
+        <text>one customer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-312" offset="1405" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-318" offset="2099" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-324" offset="2189" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-330" offset="2210" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-336" offset="3285" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-342" offset="3371" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-348" offset="4802" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-354" offset="1276" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-360" offset="14" length="4">
+        <text>Zoom</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-366" offset="1358" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-372" offset="1540" length="4">
+        <text>Zoom</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-378" offset="2052" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-384" offset="2160" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-294" offset="1467" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-390" offset="2274" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-294" offset="1467" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-396" offset="2320" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-402" offset="2218" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1488" offset="2168" length="18">
+        <text>an inveterate liar</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-294" offset="1467" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-408" offset="114" length="6">
+        <text>Amelia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-414" offset="1599" length="6">
+        <text>Amelia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-420" offset="6373" length="6">
+        <text>Amelia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-426" offset="2914" length="6">
+        <text>Amelia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-432" offset="143" length="7">
+        <text>Lakhota</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-438" offset="6402" length="7">
+        <text>Lakhota</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-444" offset="265" length="8">
+        <text>Limbaugh</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-450" offset="564" length="8">
+        <text>Limbaugh</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-456" offset="579" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no">
+            <source ere_id="m-696" offset="361" length="17">the Carbonite CEO</source>
+          </sentiment>
+          <sentiment polarity="none" sarcasm="no">
+            <source ere_id="m-408" offset="114" length="6">Amelia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-462" offset="684" length="8">
+        <text>Limbaugh</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-468" offset="781" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-474" offset="2509" length="13">
+        <text>Rush Limbaugh</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-744" offset="2424" length="8">kidrocks</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-480" offset="2537" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-744" offset="2424" length="8">kidrocks</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-486" offset="2668" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-744" offset="2424" length="8">kidrocks</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-492" offset="3811" length="13">
+        <text>Rush Limbaugh</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-750" offset="3767" length="8">kidrocks</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-498" offset="3839" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-750" offset="3767" length="8">kidrocks</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-504" offset="3970" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-750" offset="3767" length="8">kidrocks</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-510" offset="5009" length="8">
+        <text>limbaugh</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-828" offset="4367" length="11">GuyPinestra</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-516" offset="5526" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-522" offset="5508" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-528" offset="5943" length="13">
+        <text>Rush Limbaugh</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-534" offset="6225" length="4">
+        <text>Rush</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-540" offset="6524" length="8">
+        <text>Limbaugh</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-546" offset="6568" length="4">
+        <text>Rush</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-552" offset="6823" length="8">
+        <text>Limbaugh</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-558" offset="6838" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-564" offset="6943" length="8">
+        <text>Limbaugh</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-570" offset="7040" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-576" offset="309" length="4">
+        <text>Rush</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-582" offset="3578" length="8">
+        <text>limbaugh</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-774" offset="2774" length="10">Pheonixops</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-588" offset="5682" length="4">
+        <text>Rush</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-594" offset="5400" length="13">
+        <text>Rush Limbaugh</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-600" offset="5473" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-606" offset="6016" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-612" offset="6051" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-618" offset="6069" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1494" offset="2486" length="22">
+        <text>That fat piece of shit</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-744" offset="2424" length="8">kidrocks</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1510" offset="3568" length="9">
+        <text>that JERK</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-774" offset="2774" length="10">Pheonixops</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1516" offset="3788" length="22">
+        <text>That fat piece of shit</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-750" offset="3767" length="8">kidrocks</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1542" offset="4999" length="9">
+        <text>that JERK</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-780" offset="4334" length="10">Pheonixops</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-624" offset="427" length="12">
+        <text>Sandra Fluke</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-696" offset="361" length="17">the Carbonite CEO</source>
+          </sentiment>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-408" offset="114" length="6">Amelia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-630" offset="511" length="47">
+        <text>this courageous and well-intentioned young lady</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-696" offset="361" length="17">the Carbonite CEO</source>
+          </sentiment>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-408" offset="114" length="6">Amelia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-636" offset="615" length="5">
+        <text>Fluke</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-642" offset="2574" length="12">
+        <text>Sandra Fluke</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-648" offset="2656" length="3">
+        <text>She</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-654" offset="3876" length="12">
+        <text>Sandra Fluke</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-660" offset="3958" length="3">
+        <text>She</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-666" offset="5622" length="12">
+        <text>Sandra Fluke</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-672" offset="6165" length="12">
+        <text>Sandra Fluke</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-678" offset="6686" length="12">
+        <text>Sandra Fluke</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-720" offset="6620" length="17">the Carbonite CEO</source>
+          </sentiment>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-420" offset="6373" length="6">Amelia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-684" offset="6770" length="47">
+        <text>this courageous and well-intentioned young lady</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-720" offset="6620" length="17">the Carbonite CEO</source>
+          </sentiment>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-420" offset="6373" length="6">Amelia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-690" offset="6874" length="5">
+        <text>Fluke</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-696" offset="361" length="17">
+        <text>the Carbonite CEO</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-702" offset="445" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-708" offset="1632" length="17">
+        <text>the Carbonite CEO</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-714" offset="2947" length="17">
+        <text>the Carbonite CEO</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-720" offset="6620" length="17">
+        <text>the Carbonite CEO</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-726" offset="6704" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-732" offset="452" length="3">
+        <text>two</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-738" offset="6711" length="3">
+        <text>two</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-744" offset="2424" length="8">
+        <text>kidrocks</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-750" offset="3767" length="8">
+        <text>kidrocks</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-756" offset="5221" length="8">
+        <text>kidrocks</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-762" offset="4077" length="22">
+        <text>a brain-dead pussy lib</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-228" offset="3694" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-768" offset="5805" length="8">
+        <text>kidrocks</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-774" offset="2774" length="10">
+        <text>Pheonixops</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-780" offset="4334" length="10">
+        <text>Pheonixops</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-786" offset="6299" length="10">
+        <text>Pheonixops</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-792" offset="3510" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-798" offset="3606" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-804" offset="4941" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-810" offset="5037" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-816" offset="5161" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-300" offset="4261" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1548" offset="5176" length="21">
+        <text>a lying piece of shit</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-300" offset="4261" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-822" offset="2848" length="11">
+        <text>GuyPinestra</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-828" offset="4367" length="11">
+        <text>GuyPinestra</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-834" offset="3381" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-840" offset="4812" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-846" offset="5688" length="7">
+        <text>Hillary</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-852" offset="6231" length="7">
+        <text>Hillary</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-858" offset="5293" length="4">
+        <text>Jroc</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-864" offset="5836" length="4">
+        <text>Jroc</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-870" offset="4158" length="25">
+        <text>the dopey-assed President</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-228" offset="3694" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-876" offset="4187" length="50">
+        <text>the one who is constantly engaged in such behavior</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-228" offset="3694" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-882" offset="286" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-888" offset="365" length="9">
+        <text>Carbonite</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-894" offset="720" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-900" offset="760" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-906" offset="791" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-912" offset="992" length="9">
+        <text>Carbonite</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-918" offset="1191" length="16">
+        <text>that corporation</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-924" offset="1219" length="9">
+        <text>Carbonite</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-60" offset="82" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-930" offset="1254" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-60" offset="82" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-936" offset="1384" length="9">
+        <text>carbonite</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-942" offset="1913" length="9">
+        <text>Carbonite</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-114" offset="1567" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-948" offset="2078" length="9">
+        <text>carbonite</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-954" offset="2344" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-294" offset="1467" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-960" offset="2396" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-294" offset="1467" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-966" offset="3001" length="9">
+        <text>Carbonite</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-174" offset="2882" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-972" offset="3200" length="16">
+        <text>that corporation</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-978" offset="3228" length="9">
+        <text>Carbonite</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-174" offset="2882" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-984" offset="3263" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-174" offset="2882" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-990" offset="3357" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-996" offset="3449" length="9">
+        <text>Carbonite</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1002" offset="3478" length="9">
+        <text>Carbonite</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1008" offset="3524" length="9">
+        <text>Carbonite</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1014" offset="3653" length="17">
+        <text>your organization</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1020" offset="4432" length="9">
+        <text>Carbonite</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-234" offset="4401" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1026" offset="4631" length="16">
+        <text>that corporation</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-234" offset="4401" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1032" offset="4659" length="9">
+        <text>Carbonite</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-234" offset="4401" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1038" offset="4694" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-234" offset="4401" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1044" offset="4788" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1050" offset="4880" length="9">
+        <text>Carbonite</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1056" offset="4909" length="9">
+        <text>Carbonite</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1062" offset="4955" length="9">
+        <text>Carbonite</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1068" offset="4972" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1074" offset="5019" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1080" offset="5084" length="17">
+        <text>your organization</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1086" offset="5128" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1092" offset="6545" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1098" offset="6979" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1104" offset="7019" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1110" offset="7050" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1116" offset="7063" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1122" offset="7250" length="9">
+        <text>Carbonite</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1128" offset="1948" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-114" offset="1567" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1134" offset="3541" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1140" offset="3588" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1146" offset="1636" length="9">
+        <text>Carbonite</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1152" offset="1686" length="9">
+        <text>Carbonite</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1158" offset="2951" length="9">
+        <text>Carbonite</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1164" offset="6624" length="9">
+        <text>Carbonite</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1238" offset="804" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1190" offset="394" length="6">
+        <text>No one</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1464" offset="6653" length="6">
+        <text>No one</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1199" offset="406" length="9">
+        <text>daughters</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1470" offset="6665" length="9">
+        <text>daughters</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1244" offset="827" length="58">
+        <text>the other advertisers who have already withdrawn their ads</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1476" offset="7086" length="58">
+        <text>the other advertisers who have already withdrawn their ads</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1315" offset="2376" length="12">
+        <text>a competitor</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1382" offset="1289" length="22">
+        <text>one of the competitors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1400" offset="1983" length="22">
+        <text>one of the competitors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1412" offset="3298" length="22">
+        <text>one of the competitors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1452" offset="4729" length="22">
+        <text>one of the competitors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1394" offset="1296" length="15">
+        <text>the competitors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1406" offset="1990" length="15">
+        <text>the competitors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1418" offset="3305" length="15">
+        <text>the competitors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1458" offset="4736" length="15">
+        <text>the competitors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1554" offset="5642" length="44">
+        <text>the first women to kick the shit out of Rush</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1563" offset="6185" length="44">
+        <text>the first women to kick the shit out of Rush</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-1170">
+        <trigger offset="375" length="3">CEO</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1585">
+        <trigger offset="6634" length="3">CEO</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1180">
+        <trigger offset="447" length="4">have</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1208">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1228">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1352">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1372">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1218">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1362">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1500">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1522">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1569">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1595">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1909">
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-228" offset="3694" length="9">Liability</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-1259">
+        <trigger offset="988" length="3">buy</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1287">
+        <trigger offset="1682" length="3">buy</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1324">
+        <trigger offset="2997" length="3">buy</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1424">
+        <trigger offset="4428" length="3">buy</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1605">
+        <trigger offset="379" length="4">said</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1716">
+        <trigger offset="6638" length="4">said</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1786">
+        <trigger offset="2965" length="4">said</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1807">
+        <trigger offset="1650" length="4">said</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1628">
+        <trigger offset="482" length="6">insult</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-696" offset="361" length="17">the Carbonite CEO</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-408" offset="114" length="6">Amelia</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1695">
+        <trigger offset="6741" length="6">insult</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-720" offset="6620" length="17">the Carbonite CEO</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="6373" length="6">Amelia</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1672">
+        <trigger offset="711" length="7">apology</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1737">
+        <trigger offset="6970" length="7">apology</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1758">
+        <trigger offset="2550" length="9">apologize</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1858">
+        <trigger offset="3852" length="9">apologize</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1828">
+        <trigger offset="3513" length="7">message</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1919">
+        <trigger offset="4944" length="7">message</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1947">
+        <trigger offset="7237" length="9">statement</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-786" offset="6299" length="10">Pheonixops</source>
+          </sentiment>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

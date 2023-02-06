@@ -1,0 +1,1712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56fc3f500000000000000024">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-602">
+        <trigger offset="184" length="4">RAID</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-652">
+        <trigger offset="450" length="6">raided</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-622">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-632">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-642">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-662">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-672">
+        <trigger offset="477" length="2">of</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-837">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-682">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-702">
+        <trigger offset="217" length="9">PRESIDENT</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-750">
+        <trigger offset="560" length="8">dictator</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-760">
+        <trigger offset="706" length="3">now</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-776">
+        <trigger offset="1097" length="7">entered</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-786">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-827">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-847">
+        <trigger offset="1577" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-857">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-886">
+        <trigger offset="1761" length="3">son</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-896">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-942">
+        <trigger offset="2015" length="6">family</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-952">
+        <trigger offset="2750" length="6">family</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2050">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2088">
+        <trigger offset="1311" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-962">
+        <trigger offset="197" length="6">FORMER</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-56" offset="197" length="29">
+            <text>FORMER SOUTH KOREAN PRESIDENT</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-77" offset="204" length="12">
+            <text>SOUTH KOREAN</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-994" offset="217" length="9">
+            <text>PRESIDENT</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-997">
+        <trigger offset="480" length="6">former</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-718" offset="480" length="16">
+            <text>former President</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1022" offset="487" length="9">
+            <text>President</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1253">
+        <trigger offset="1072" length="12">stepped down</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-224" offset="1069" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1278" offset="1088" length="4">
+            <text>1988</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1025">
+        <trigger offset="548" length="11">ex-military</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-734" offset="551" length="8">
+            <text>military</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-131" offset="544" length="110">
+            <text>the ex-military dictator who owes South Korea 167.5 billion won ($150 million) in fines but claims to be broke</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1057" offset="560" length="8">
+            <text>dictator</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1083">
+        <trigger offset="626" length="5">fines</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-131" offset="544" length="110">
+            <text>the ex-military dictator who owes South Korea 167.5 billion won ($150 million) in fines but claims to be broke</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1114" offset="590" length="32">
+            <text>167.5 billion won ($150 million)</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-137" offset="578" length="11">
+            <text>South Korea</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1126">
+        <trigger offset="798" length="7">bribery</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-770" offset="765" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-173" offset="811" length="14">
+            <text>big businesses</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1158" offset="749" length="15">
+            <text>220 billion won</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1165" offset="837" length="44">
+            <text>eight and a half years in power in the 1980s</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2060">
+        <trigger offset="956" length="6">handed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-200" offset="953" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2085" offset="966" length="13">
+            <text>3 million won</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1170">
+        <trigger offset="897" length="4">paid</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-188" offset="883" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1218" offset="907" length="22">
+            <text>a quarter of the amoun</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1223">
+        <trigger offset="991" length="9">collected</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-206" offset="980" length="2">he</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-212" offset="988" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-206" offset="980" length="2">he</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1248" offset="966" length="13">
+            <text>3 million won</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-206" offset="980" length="2">he</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1281">
+        <trigger offset="1160" length="9">convicted</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-1298" offset="1134" length="4">
+            <text>1997</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-239" offset="1148" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1313" offset="1173" length="8">
+            <text>sedition</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1318">
+        <trigger offset="1216" length="4">coup</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-245" offset="1186" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-257" offset="1207" length="8">
+            <text>military</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1350" offset="1202" length="4">
+            <text>1979</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1355">
+        <trigger offset="1241" length="5">power</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-251" offset="1234" length="3">
+            <text>him</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1380" offset="1202" length="4">
+            <text>1979</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1385">
+        <trigger offset="1306" length="4">dead</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-272" offset="1287" length="18">
+            <text>hundreds of people</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-266" offset="1258" length="8">
+            <text>military</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-245" offset="1186" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-812" offset="1318" length="17">
+            <text>southwestern city</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1431" offset="1253" length="4">
+            <text>1980</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1436">
+        <trigger offset="1267" length="9">crackdown</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-266" offset="1258" length="8">
+            <text>military</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-245" offset="1186" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-812" offset="1318" length="17">
+            <text>southwestern city</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-272" offset="1287" length="18">
+            <text>hundreds of people</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1482" offset="1253" length="4">
+            <text>1980</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1487">
+        <trigger offset="1365" length="9">sentenced</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-290" offset="1348" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1512" offset="1378" length="5">
+            <text>death</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1517">
+        <trigger offset="1387" length="7">penalty</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-290" offset="1348" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1542" offset="1417" length="17">
+            <text>life imprisonment</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1554">
+        <trigger offset="1422" length="12">imprisonment</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-290" offset="1348" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1584">
+        <trigger offset="1449" length="8">pardoned</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-296" offset="1436" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1607">
+        <trigger offset="1462" length="5">freed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-296" offset="1436" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1630">
+        <trigger offset="1626" length="7">hauling</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-356" offset="1621" length="4">
+            <text>them</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1655" offset="1639" length="9">
+            <text>paintings</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1662" offset="1650" length="9">
+            <text>porcelain</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1669" offset="1674" length="9">
+            <text>artifacts</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1674">
+        <trigger offset="1986" length="7">comment</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-455" offset="1999" length="22">
+            <text>Chun Doo-hwan’s family</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1697">
+        <trigger offset="2117" length="6">seized</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-494" offset="2151" length="3">
+            <text>him</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-479" offset="2112" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1729" offset="2106" length="4">
+            <text>2000</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1736" offset="2126" length="19">
+            <text>Mercedes-Benz sedan</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1741">
+        <trigger offset="2170" length="11">confiscated</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-506" offset="2265" length="4">
+            <text>Chun</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-500" offset="2165" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1773" offset="2159" length="4">
+            <text>2003</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1780" offset="2184" length="12">
+            <text>refrigerator</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1787" offset="2198" length="14">
+            <text>television set</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1794" offset="2217" length="10">
+            <text>golf clubs</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1799">
+        <trigger offset="2232" length="9">auctioned</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-500" offset="2165" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1824" offset="2159" length="4">
+            <text>2003</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1831" offset="2184" length="12">
+            <text>refrigerator</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1838" offset="2198" length="14">
+            <text>television set</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1845" offset="2217" length="10">
+            <text>golf clubs</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1850">
+        <trigger offset="2505" length="12">confiscating</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-542" offset="2530" length="45">
+            <text>public officials who have failed to pay fines</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1880">
+        <trigger offset="2570" length="5">fines</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-542" offset="2530" length="45">
+            <text>public officials who have failed to pay fines</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1903">
+        <trigger offset="2566" length="3">pay</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-542" offset="2530" length="45">
+            <text>public officials who have failed to pay fines</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1926">
+        <trigger offset="2733" length="7">collect</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-575" offset="2746" length="18">
+            <text>his family members</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-563" offset="2718" length="11">
+            <text>prosecutors</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1956">
+        <trigger offset="729" length="6">return</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-143" offset="670" length="13">
+            <text>Supreme Court</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-152" offset="700" length="4">
+            <text>Chun</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1988" offset="749" length="15">
+            <text>220 billion won</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1995" offset="798" length="7">
+            <text>bribery</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2002" offset="694" length="4">
+            <text>1997</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2007">
+        <trigger offset="729" length="6">return</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-152" offset="700" length="4">
+            <text>Chun</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-930" offset="739" length="9">
+            <text>the state</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2039" offset="749" length="15">
+            <text>220 billion won</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-41" offset="172" length="11">
+        <text>PROSECUTORS</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-107" offset="405" length="17">
+        <text>State prosecutors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-302" offset="1490" length="24">
+        <text>a team of 90 prosecutors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-47" offset="189" length="37">
+        <text>HOME OF FORMER SOUTH KOREAN PRESIDENT</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-113" offset="457" length="19">
+        <text>the Seoul residence</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-335" offset="1565" length="11">
+        <text>Chun’s home</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-56" offset="197" length="29">
+        <text>FORMER SOUTH KOREAN PRESIDENT</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-125" offset="497" length="13">
+        <text>Chun Doo-hwan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-131" offset="544" length="110">
+        <text>the ex-military dictator who owes South Korea 167.5 billion won ($150 million) in fines but claims to be broke</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-152" offset="700" length="4">
+        <text>Chun</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-182" offset="833" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-188" offset="883" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-194" offset="935" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-200" offset="953" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-206" offset="980" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-212" offset="988" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-218" offset="1028" length="4">
+        <text>Chun</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-224" offset="1069" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-239" offset="1148" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-245" offset="1186" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-251" offset="1234" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-290" offset="1348" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-296" offset="1436" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-329" offset="1565" length="4">
+        <text>Chun</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-374" offset="1750" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-449" offset="1999" length="13">
+        <text>Chun Doo-hwan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-464" offset="2056" length="4">
+        <text>Chun</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-470" offset="2080" length="11">prosecutors</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-494" offset="2151" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-506" offset="2265" length="4">
+        <text>Chun</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-512" offset="2304" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-527" offset="2366" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-557" offset="2683" length="4">
+        <text>Chun</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-569" offset="2746" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-596" offset="2838" length="4">
+        <text>Chun</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-718" offset="480" length="16">
+        <text>former President</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-770" offset="765" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-77" offset="204" length="12">
+        <text>SOUTH KOREAN</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-101" offset="391" length="11">
+        <text>South Korea</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-137" offset="578" length="11">
+        <text>South Korea</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-416" offset="1836" length="11">
+        <text>the country</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-924" offset="405" length="5">
+        <text>State</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-930" offset="739" length="9">
+        <text>the state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-83" offset="357" length="14">
+        <text>New York Times</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2044" offset="274" length="5">
+        <text>TIMES</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-89" offset="357" length="8">
+        <text>New York</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-95" offset="384" length="5">
+        <text>SEOUL</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-119" offset="461" length="5">
+        <text>Seoul</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-350" offset="1588" length="5">
+        <text>Seoul</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-143" offset="670" length="13">
+        <text>Supreme Court</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2098" offset="1880" length="6">
+        <text>Korean</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-173" offset="811" length="14">
+        <text>big businesses</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-230" offset="1105" length="20">
+        <text>a Buddhist monastery</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-257" offset="1207" length="8">
+        <text>military</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-266" offset="1258" length="8">
+        <text>military</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-734" offset="551" length="8">
+        <text>military</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-272" offset="1287" length="18">
+        <text>hundreds of people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-281" offset="1339" length="7">
+        <text>Kwangju</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-812" offset="1318" length="17">
+        <text>southwestern city</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-311" offset="1516" length="14">
+        <text>tax collectors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-320" offset="1535" length="19">
+        <text>other investigators</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-341" offset="1580" length="13">
+        <text>eastern Seoul</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-356" offset="1621" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-365" offset="1694" length="17">
+        <text>The investigators</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-380" offset="1750" length="14">
+        <text>his eldest son</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-389" offset="1766" length="13">
+        <text>Chun Jae-kook</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-395" offset="1781" length="7">
+        <text>The son</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-401" offset="1781" length="28">
+        <text>The son’s publishing company</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-410" offset="1811" length="8">
+        <text>Sigongsa</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-422" offset="1912" length="12">
+        <text>John Grisham</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-443" offset="1942" length="10">
+        <text>Roald Dahl</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-455" offset="1999" length="22">
+        <text>Chun Doo-hwan’s family</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-575" offset="2746" length="18">
+        <text>his family members</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-584" offset="2776" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-590" offset="2805" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-470" offset="2080" length="11">
+        <text>prosecutors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-479" offset="2112" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-500" offset="2165" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-551" offset="2596" length="11">
+        <text>prosecutors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-563" offset="2718" length="11">
+        <text>prosecutors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-485" offset="2126" length="13">
+        <text>Mercedes-Benz</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-518" offset="2332" length="20">
+        <text>opposition lawmakers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-533" offset="2433" length="17">
+        <text>National Assembly</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-542" offset="2530" length="45">
+        <text>public officials who have failed to pay fines</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-806" offset="1107" length="8">
+        <text>Buddhist</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-818" offset="1318" length="12">
+        <text>southwestern</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-867" offset="1726" length="14">
+        <text>the properties</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-915" offset="1926" length="11">
+        <text>C.?S. Lewis</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-602">
+        <trigger offset="184" length="4">RAID</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-652">
+        <trigger offset="450" length="6">raided</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-622">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-632">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-642">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-662">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-672">
+        <trigger offset="477" length="2">of</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-837">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-682">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-702">
+        <trigger offset="217" length="9">PRESIDENT</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-750">
+        <trigger offset="560" length="8">dictator</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-760">
+        <trigger offset="706" length="3">now</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-776">
+        <trigger offset="1097" length="7">entered</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-786">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-827">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-847">
+        <trigger offset="1577" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-857">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-886">
+        <trigger offset="1761" length="3">son</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-896">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-942">
+        <trigger offset="2015" length="6">family</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-952">
+        <trigger offset="2750" length="6">family</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2050">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2088">
+        <trigger offset="1311" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-962">
+        <trigger offset="197" length="6">FORMER</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-997">
+        <trigger offset="480" length="6">former</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1253">
+        <trigger offset="1072" length="12">stepped down</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1025">
+        <trigger offset="548" length="11">ex-military</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1083">
+        <trigger offset="626" length="5">fines</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1126">
+        <trigger offset="798" length="7">bribery</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2060">
+        <trigger offset="956" length="6">handed</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1170">
+        <trigger offset="897" length="4">paid</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1223">
+        <trigger offset="991" length="9">collected</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1281">
+        <trigger offset="1160" length="9">convicted</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1318">
+        <trigger offset="1216" length="4">coup</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1355">
+        <trigger offset="1241" length="5">power</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1385">
+        <trigger offset="1306" length="4">dead</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1436">
+        <trigger offset="1267" length="9">crackdown</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1487">
+        <trigger offset="1365" length="9">sentenced</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1517">
+        <trigger offset="1387" length="7">penalty</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1554">
+        <trigger offset="1422" length="12">imprisonment</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1584">
+        <trigger offset="1449" length="8">pardoned</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1607">
+        <trigger offset="1462" length="5">freed</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1630">
+        <trigger offset="1626" length="7">hauling</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1674">
+        <trigger offset="1986" length="7">comment</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1697">
+        <trigger offset="2117" length="6">seized</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1741">
+        <trigger offset="2170" length="11">confiscated</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1799">
+        <trigger offset="2232" length="9">auctioned</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1850">
+        <trigger offset="2505" length="12">confiscating</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1880">
+        <trigger offset="2570" length="5">fines</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1903">
+        <trigger offset="2566" length="3">pay</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1926">
+        <trigger offset="2733" length="7">collect</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1956">
+        <trigger offset="729" length="6">return</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2007">
+        <trigger offset="729" length="6">return</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

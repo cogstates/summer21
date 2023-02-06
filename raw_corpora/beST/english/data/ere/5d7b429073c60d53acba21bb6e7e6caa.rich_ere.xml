@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="557f043e0000000000000075" doc_id="5d7b429073c60d53acba21bb6e7e6caa" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-93" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="14" length="10">
+        <mention_text>acereraser</mention_text>
+      </entity_mention>
+      <entity_mention id="m-99" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="226" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-105" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="565" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-18" type="PER" specificity="specific">
+      <entity_mention id="m-111" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="158" length="5">
+        <mention_text>Obama</mention_text>
+      </entity_mention>
+      <entity_mention id="m-117" noun_type="NOM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="254" length="20">
+        <mention_text>a Commander-in-Chief</mention_text>
+        <nom_head source="5d7b429073c60d53acba21bb6e7e6caa" offset="256" length="9">Commander</nom_head>
+      </entity_mention>
+      <entity_mention id="m-123" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="529" length="5">
+        <mention_text>Obama</mention_text>
+      </entity_mention>
+      <entity_mention id="m-129" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="543" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-135" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1941" length="5">
+        <mention_text>Obama</mention_text>
+      </entity_mention>
+      <entity_mention id="m-141" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2343" length="5">
+        <mention_text>Obama</mention_text>
+      </entity_mention>
+      <entity_mention id="m-147" noun_type="NOM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2812" length="26">
+        <mention_text>a great commander in chief</mention_text>
+        <nom_head source="5d7b429073c60d53acba21bb6e7e6caa" offset="2820" length="9">commander</nom_head>
+      </entity_mention>
+      <entity_mention id="m-153" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2800" length="5">
+        <mention_text>Obama</mention_text>
+      </entity_mention>
+      <entity_mention id="m-159" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2987" length="5">
+        <mention_text>Obama</mention_text>
+      </entity_mention>
+      <entity_mention id="m-768" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="3038" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-21" type="PER" specificity="specific">
+      <entity_mention id="m-165" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="323" length="9">
+        <mention_text>Roosevelt</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-24" type="PER" specificity="specific">
+      <entity_mention id="m-171" noun_type="NOM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="420" length="36">
+        <mention_text>Little Bush's Blackwater mercenaries</mention_text>
+        <nom_head source="5d7b429073c60d53acba21bb6e7e6caa" offset="445" length="11">mercenaries</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-27" type="PER" specificity="specific">
+      <entity_mention id="m-177" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="420" length="11">
+        <mention_text>Little Bush</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-30" type="PER" specificity="specific">
+      <entity_mention id="m-183" noun_type="NOM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="543" length="8">
+        <mention_text>his team</mention_text>
+        <nom_head source="5d7b429073c60d53acba21bb6e7e6caa" offset="547" length="4">team</nom_head>
+      </entity_mention>
+      <entity_mention id="m-189" noun_type="NOM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1941" length="10">
+        <mention_text>Obama team</mention_text>
+        <nom_head source="5d7b429073c60d53acba21bb6e7e6caa" offset="1947" length="4">team</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-33" type="PER" specificity="specific">
+      <entity_mention id="m-195" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="737" length="13">
+        <mention_text>ArturoBandini</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-36" type="PER" specificity="specific">
+      <entity_mention id="m-201" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="824" length="8">
+        <mention_text>snoqueen</mention_text>
+      </entity_mention>
+      <entity_mention id="m-207" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1036" length="8">
+        <mention_text>snoqueen</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-39" type="PER" specificity="specific">
+      <entity_mention id="m-213" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="965" length="9">
+        <mention_text>wack wack</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-42" type="PER" specificity="specific">
+      <entity_mention id="m-219" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1146" length="7">
+        <mention_text>Clinton</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-45" type="PER" specificity="specific">
+      <entity_mention id="m-225" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1285" length="11">
+        <mention_text>Henry Vilas</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-48" type="PER" specificity="specific">
+      <entity_mention id="m-231" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1648" length="12">
+        <mention_text>Hamid Karzai</mention_text>
+      </entity_mention>
+      <entity_mention id="m-237" noun_type="NOM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2384" length="31">
+        <mention_text>a man who hates America so much</mention_text>
+        <nom_head source="5d7b429073c60d53acba21bb6e7e6caa" offset="2386" length="3">man</nom_head>
+      </entity_mention>
+      <entity_mention id="m-243" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2422" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-663" noun_type="NOM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1631" length="16">
+        <mention_text>Afghan President</mention_text>
+        <nom_head source="5d7b429073c60d53acba21bb6e7e6caa" offset="1638" length="9">President</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-51" type="PER" specificity="specific">
+      <entity_mention id="m-249" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1770" length="8">
+        <mention_text>Huckleby</mention_text>
+      </entity_mention>
+      <entity_mention id="m-255" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1899" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-261" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2072" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-267" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2141" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-54" type="PER" specificity="specific">
+      <entity_mention id="m-273" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2271" length="11">
+        <mention_text>Stella_Guru</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-57" type="PER" specificity="specific">
+      <entity_mention id="m-279" noun_type="NOM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2422" length="14">
+        <mention_text>his bodyguards</mention_text>
+        <nom_head source="5d7b429073c60d53acba21bb6e7e6caa" offset="2426" length="10">bodyguards</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-60" type="PER" specificity="specific">
+      <entity_mention id="m-285" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2490" length="7">
+        <mention_text>atron67</mention_text>
+      </entity_mention>
+      <entity_mention id="m-291" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2545" length="1">
+        <mention_text>i</mention_text>
+      </entity_mention>
+      <entity_mention id="m-297" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="3031" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-63" type="PER" specificity="specific">
+      <entity_mention id="m-303" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2862" length="6">
+        <mention_text>rabble</mention_text>
+      </entity_mention>
+      <entity_mention id="m-309" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2910" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-315" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="3017" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-66" type="ORG" specificity="specific">
+      <entity_mention id="m-321" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="434" length="10">
+        <mention_text>Blackwater</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-69" type="ORG" specificity="specific">
+      <entity_mention id="m-327" noun_type="NOM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2050" length="20">
+        <mention_text>the Iraqi government</mention_text>
+        <nom_head source="5d7b429073c60d53acba21bb6e7e6caa" offset="2060" length="10">government</nom_head>
+      </entity_mention>
+      <entity_mention id="m-333" noun_type="NOM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2714" length="15">
+        <mention_text>the Iraqi gov't</mention_text>
+        <nom_head source="5d7b429073c60d53acba21bb6e7e6caa" offset="2724" length="5">gov't</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-72" type="ORG" specificity="specific">
+      <entity_mention id="m-339" noun_type="NOM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2671" length="12">
+        <mention_text>the Us gov't</mention_text>
+        <nom_head source="5d7b429073c60d53acba21bb6e7e6caa" offset="2678" length="5">gov't</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-75" type="ORG" specificity="specific">
+      <entity_mention id="m-345" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="3058" length="10">
+        <mention_text>Republican</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1198" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1913" length="11">
+        <mention_text>republicans</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-78" type="GPE" specificity="specific">
+      <entity_mention id="m-351" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="385" length="4">
+        <mention_text>Iraq</mention_text>
+      </entity_mention>
+      <entity_mention id="m-357" noun_type="NOM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="627" length="13">
+        <mention_text>their country</mention_text>
+        <nom_head source="5d7b429073c60d53acba21bb6e7e6caa" offset="633" length="7">country</nom_head>
+      </entity_mention>
+      <entity_mention id="m-363" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1848" length="4">
+        <mention_text>Iraq</mention_text>
+      </entity_mention>
+      <entity_mention id="m-369" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1892" length="4">
+        <mention_text>Iraq</mention_text>
+      </entity_mention>
+      <entity_mention id="m-375" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2054" length="5">
+        <mention_text>Iraqi</mention_text>
+      </entity_mention>
+      <entity_mention id="m-381" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2718" length="5">
+        <mention_text>Iraqi</mention_text>
+      </entity_mention>
+      <entity_mention id="m-387" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2944" length="4">
+        <mention_text>Iraq</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1189" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="585" length="6">
+        <mention_text>Iraqis</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-81" type="GPE" specificity="specific">
+      <entity_mention id="m-399" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="880" length="11">
+        <mention_text>Afghanistan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-405" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1053" length="11">
+        <mention_text>Afghanistan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-411" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1486" length="11">
+        <mention_text>Afghanistan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-417" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1527" length="11">
+        <mention_text>Afghanistan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-423" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1631" length="6">
+        <mention_text>Afghan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-429" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2185" length="11">
+        <mention_text>Afghanistan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-579" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2230" length="2">
+        <mention_text>Af</mention_text>
+      </entity_mention>
+      <entity_mention id="m-624" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="928" length="5">
+        <mention_text>there</mention_text>
+      </entity_mention>
+      <entity_mention id="m-630" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1101" length="5">
+        <mention_text>there</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-84" type="GPE" specificity="specific">
+      <entity_mention id="m-435" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1182" length="8">
+        <mention_text>Pakistan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-441" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1553" length="8">
+        <mention_text>Pakistan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-447" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1599" length="8">
+        <mention_text>Pakistan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-453" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1695" length="9">
+        <mention_text>Pakistani</mention_text>
+      </entity_mention>
+      <entity_mention id="m-585" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2233" length="3">
+        <mention_text>Pak</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1255" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1238" length="4">
+        <mention_text>here</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-87" type="GPE" specificity="specific">
+      <entity_mention id="m-459" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1616" length="13">
+        <mention_text>United States</mention_text>
+      </entity_mention>
+      <entity_mention id="m-465" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2085" length="4">
+        <mention_text>U.S.</mention_text>
+      </entity_mention>
+      <entity_mention id="m-471" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2400" length="7">
+        <mention_text>America</mention_text>
+      </entity_mention>
+      <entity_mention id="m-477" noun_type="NAM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2675" length="2">
+        <mention_text>Us</mention_text>
+      </entity_mention>
+      <entity_mention id="m-657" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1460" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-702" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2149" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-718" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2562" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-724" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2637" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-730" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2745" length="2">
+        <mention_text>us</mention_text>
+      </entity_mention>
+      <entity_mention id="m-756" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2918" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-762" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2955" length="2">
+        <mention_text>us</mention_text>
+      </entity_mention>
+      <entity_mention id="m-842" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1506" length="3">
+        <mention_text>our</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-90" type="PER" specificity="specific">
+      <entity_mention id="m-618" noun_type="NOM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="893" length="24">
+        <mention_text>Way too many good people</mention_text>
+        <nom_head source="5d7b429073c60d53acba21bb6e7e6caa" offset="911" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-636" noun_type="NOM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1066" length="24">
+        <mention_text>Way too many good people</mention_text>
+        <nom_head source="5d7b429073c60d53acba21bb6e7e6caa" offset="1084" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-597" type="PER" specificity="nonspecific">
+      <entity_mention id="m-591" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="276" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-606" type="PER" specificity="nonspecific">
+      <entity_mention id="m-600" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="300" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-615" type="PER" specificity="nonspecific">
+      <entity_mention id="m-609" noun_type="NOM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="605" length="14">
+        <mention_text>foreign troops</mention_text>
+        <nom_head source="5d7b429073c60d53acba21bb6e7e6caa" offset="613" length="6">troops</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-648" type="PER" specificity="nonspecific">
+      <entity_mention id="m-642" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1205" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-675" type="PER" specificity="nonspecific">
+      <entity_mention id="m-669" noun_type="NOM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1828" length="16">
+        <mention_text>15K troops or so</mention_text>
+        <nom_head source="5d7b429073c60d53acba21bb6e7e6caa" offset="1832" length="6">troops</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-693" type="PER" specificity="nonspecific">
+      <entity_mention id="m-687" noun_type="NOM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1913" length="97">
+        <mention_text>republicans who scream that Obama team is incompetent for not being able to negotiate these terms</mention_text>
+        <nom_head source="5d7b429073c60d53acba21bb6e7e6caa" offset="1913" length="11">republicans</nom_head>
+      </entity_mention>
+      <entity_mention id="m-696" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2012" length="4">
+        <mention_text>They</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-780" type="PER" specificity="nonspecific">
+      <entity_mention id="m-774" noun_type="NOM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="3056" length="22">
+        <mention_text>A Republican president</mention_text>
+        <nom_head source="5d7b429073c60d53acba21bb6e7e6caa" offset="3069" length="9">president</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-803" type="PER" specificity="nonspecific">
+      <entity_mention id="m-393" noun_type="NOM" source="5d7b429073c60d53acba21bb6e7e6caa" offset="581" length="10">
+        <mention_text>the Iraqis</mention_text>
+        <nom_head source="5d7b429073c60d53acba21bb6e7e6caa" offset="585" length="6">Iraqis</nom_head>
+      </entity_mention>
+      <entity_mention id="m-806" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="627" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1195" type="PER" specificity="nonspecific">
+      <entity_mention id="m-651" noun_type="PRO" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1249" length="3">
+        <mention_text>One</mention_text>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-497" source="5d7b429073c60d53acba21bb6e7e6caa" offset="148" length="9" type="title">President</filler>
+    <filler id="f-527" source="5d7b429073c60d53acba21bb6e7e6caa" offset="1638" length="9" type="title">President</filler>
+    <filler id="f-716" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2333" length="9" type="title">President</filler>
+    <filler id="f-744" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2820" length="18" type="title">commander in chief</filler>
+    <filler id="f-754" source="5d7b429073c60d53acba21bb6e7e6caa" offset="256" length="18" type="title">Commander-in-Chief</filler>
+    <filler id="f-1109" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2452" length="4" type="commodity">Coke</filler>
+    <filler id="f-1208" source="5d7b429073c60d53acba21bb6e7e6caa" offset="2461" length="5" type="commodity">Pepsi</filler>
+  </fillers>
+  <relations>
+    <relation id="r-2284" type="personalsocial" subtype="role">
+      <relation_mention id="relm-489" realis="true">
+        <rel_arg1 entity_id="ent-18" entity_mention_id="m-111" role="per">Obama</rel_arg1>
+        <rel_arg2 filler_id="f-497" role="role">President</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-708" realis="true">
+        <rel_arg1 entity_id="ent-18" entity_mention_id="m-141" role="per">Obama</rel_arg1>
+        <rel_arg2 filler_id="f-716" role="role">President</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-736" realis="true">
+        <rel_arg1 entity_id="ent-18" entity_mention_id="m-153" role="per">Obama</rel_arg1>
+        <rel_arg2 filler_id="f-744" role="role">commander in chief</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-746" realis="true">
+        <rel_arg1 entity_id="ent-18" entity_mention_id="m-111" role="per">Obama</rel_arg1>
+        <rel_arg2 filler_id="f-754" role="role">Commander-in-Chief</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-2285" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-499" realis="true">
+        <rel_arg1 entity_id="ent-24" entity_mention_id="m-171" role="employeemember">Little Bush's Blackwater mercenaries</rel_arg1>
+        <rel_arg2 entity_id="ent-66" entity_mention_id="m-321" role="org">Blackwater</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-2286" type="personalsocial" subtype="business">
+      <relation_mention id="relm-509" realis="true">
+        <rel_arg1 entity_id="ent-30" entity_mention_id="m-183" role="per">his team</rel_arg1>
+        <rel_arg2 entity_id="ent-18" entity_mention_id="m-129" role="per">his</rel_arg2>
+        <trigger source="5d7b429073c60d53acba21bb6e7e6caa" offset="543" length="3">his</trigger>
+      </relation_mention>
+      <relation_mention id="relm-539" realis="true">
+        <rel_arg1 entity_id="ent-18" entity_mention_id="m-135" role="per">Obama</rel_arg1>
+        <rel_arg2 entity_id="ent-30" entity_mention_id="m-189" role="per">Obama team</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-2287" type="personalsocial" subtype="role">
+      <relation_mention id="relm-519" realis="true">
+        <rel_arg1 entity_id="ent-48" entity_mention_id="m-231" role="per">Hamid Karzai</rel_arg1>
+        <rel_arg2 filler_id="f-527" role="role">President</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-2288" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-529" realis="true">
+        <rel_arg1 entity_id="ent-48" entity_mention_id="m-231" role="leader">Hamid Karzai</rel_arg1>
+        <rel_arg2 entity_id="ent-81" entity_mention_id="m-423" role="entity">Afghan</rel_arg2>
+        <trigger source="5d7b429073c60d53acba21bb6e7e6caa" offset="1638" length="9">President</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-2289" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-549" realis="true">
+        <rel_arg1 entity_id="ent-69" entity_mention_id="m-327" role="suborg">the Iraqi government</rel_arg1>
+        <rel_arg2 entity_id="ent-78" entity_mention_id="m-375" role="parent">Iraqi</rel_arg2>
+        <trigger source="5d7b429073c60d53acba21bb6e7e6caa" offset="2054" length="5">Iraqi</trigger>
+      </relation_mention>
+      <relation_mention id="relm-858" realis="true">
+        <rel_arg1 entity_id="ent-69" entity_mention_id="m-333" role="suborg">the Iraqi gov't</rel_arg1>
+        <rel_arg2 entity_id="ent-78" entity_mention_id="m-381" role="parent">Iraqi</rel_arg2>
+        <trigger source="5d7b429073c60d53acba21bb6e7e6caa" offset="2718" length="5">Iraqi</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-2290" type="personalsocial" subtype="business">
+      <relation_mention id="relm-559" realis="true">
+        <rel_arg1 entity_id="ent-57" entity_mention_id="m-279" role="per">his bodyguards</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-243" role="per">his</rel_arg2>
+        <trigger source="5d7b429073c60d53acba21bb6e7e6caa" offset="2422" length="3">his</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-2291" type="physical" subtype="locatednear">
+      <relation_mention id="relm-783" realis="true">
+        <rel_arg1 entity_id="ent-615" entity_mention_id="m-609" role="entity">foreign troops</rel_arg1>
+        <rel_arg2 entity_id="ent-78" entity_mention_id="m-357" role="loc">their country</rel_arg2>
+        <trigger source="5d7b429073c60d53acba21bb6e7e6caa" offset="620" length="6">occupy</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-2292" type="physical" subtype="resident">
+      <relation_mention id="relm-812" realis="true">
+        <rel_arg1 entity_id="ent-803" entity_mention_id="m-806" role="per">their</rel_arg1>
+        <rel_arg2 entity_id="ent-78" entity_mention_id="m-357" role="loc">their country</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-2293" type="physical" subtype="locatednear">
+      <relation_mention id="relm-822" realis="true">
+        <rel_arg1 entity_id="ent-90" entity_mention_id="m-618" role="entity">Way too many good people</rel_arg1>
+        <rel_arg2 entity_id="ent-81" entity_mention_id="m-624" role="loc">there</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-832" realis="true">
+        <rel_arg1 entity_id="ent-90" entity_mention_id="m-636" role="entity">Way too many good people</rel_arg1>
+        <rel_arg2 entity_id="ent-81" entity_mention_id="m-630" role="loc">there</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-2294" type="physical" subtype="locatednear">
+      <relation_mention id="relm-848" realis="false">
+        <rel_arg1 entity_id="ent-675" entity_mention_id="m-669" role="entity">15K troops or so</rel_arg1>
+        <rel_arg2 entity_id="ent-78" entity_mention_id="m-363" role="loc">Iraq</rel_arg2>
+        <trigger source="5d7b429073c60d53acba21bb6e7e6caa" offset="1845" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-2295" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-868" realis="true">
+        <rel_arg1 entity_id="ent-72" entity_mention_id="m-339" role="suborg">the Us gov't</rel_arg1>
+        <rel_arg2 entity_id="ent-87" entity_mention_id="m-477" role="parent">Us</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-2296" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1179" realis="true">
+        <rel_arg1 entity_id="ent-780" entity_mention_id="m-774" role="employeemember">A Republican president</rel_arg1>
+        <rel_arg2 entity_id="ent-75" entity_mention_id="m-345" role="org">Republican</rel_arg2>
+        <trigger source="5d7b429073c60d53acba21bb6e7e6caa" offset="3058" length="10">Republican</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-16">
+      <event_mention id="em-878" type="contact" subtype="meet" realis="actual" audience="twoway" formality="formal" medium="inperson" schedule="planned">
+        <trigger source="5d7b429073c60d53acba21bb6e7e6caa" offset="493" length="12">negotiations</trigger>
+        <em_arg entity_id="ent-78" entity_mention_id="m-351" role="entity" realis="true">Iraq</em_arg>
+        <em_arg entity_id="ent-30" entity_mention_id="m-183" role="entity" realis="true">his team</em_arg>
+        <em_arg entity_id="ent-18" entity_mention_id="m-129" role="entity" realis="true">his</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-941">
+      <event_mention id="em-913" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="5d7b429073c60d53acba21bb6e7e6caa" offset="556" length="2">go</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-129" role="agent" realis="true">his</em_arg>
+        <em_arg entity_id="ent-30" entity_mention_id="m-183" role="person" realis="true">his team</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-971">
+      <event_mention id="em-943" type="conflict" subtype="attack" realis="actual">
+        <trigger source="5d7b429073c60d53acba21bb6e7e6caa" offset="923" length="4">shot</trigger>
+        <em_arg entity_id="ent-81" entity_mention_id="m-624" role="place" realis="true">there</em_arg>
+        <em_arg entity_id="ent-90" entity_mention_id="m-618" role="target" realis="true">Way too many good people</em_arg>
+      </event_mention>
+      <event_mention id="em-973" type="conflict" subtype="attack" realis="actual">
+        <trigger source="5d7b429073c60d53acba21bb6e7e6caa" offset="1096" length="4">shot</trigger>
+        <em_arg entity_id="ent-81" entity_mention_id="m-630" role="place" realis="true">there</em_arg>
+        <em_arg entity_id="ent-90" entity_mention_id="m-636" role="target" realis="true">Way too many good people</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1022">
+      <event_mention id="em-1001" type="conflict" subtype="attack" realis="other">
+        <trigger source="5d7b429073c60d53acba21bb6e7e6caa" offset="1582" length="8">conflict</trigger>
+        <em_arg entity_id="ent-84" entity_mention_id="m-447" role="place" realis="true">Pakistan</em_arg>
+        <em_arg entity_id="ent-87" entity_mention_id="m-459" role="attacker" realis="true">United States</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1052">
+      <event_mention id="em-1024" type="contact" subtype="contact" realis="actual" audience="twoway" formality="formal" medium="canttell" schedule="planned">
+        <trigger source="5d7b429073c60d53acba21bb6e7e6caa" offset="1672" length="9">interview</trigger>
+        <em_arg entity_id="ent-48" entity_mention_id="m-231" role="entity" realis="true">Hamid Karzai</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1082">
+      <event_mention id="em-1054" type="contact" subtype="contact" realis="other" audience="twoway" formality="formal" medium="canttell" schedule="planned">
+        <trigger source="5d7b429073c60d53acba21bb6e7e6caa" offset="1989" length="9">negotiate</trigger>
+        <em_arg entity_id="ent-30" entity_mention_id="m-189" role="entity" realis="true">Obama team</em_arg>
+        <em_arg entity_id="ent-69" entity_mention_id="m-327" role="entity" realis="true">the Iraqi government</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1112">
+      <event_mention id="em-1084" type="transaction" subtype="transferownership" realis="actual" ways="voluntary">
+        <trigger source="5d7b429073c60d53acba21bb6e7e6caa" offset="2440" length="8">stock up</trigger>
+        <em_arg entity_id="ent-57" entity_mention_id="m-279" role="recipient" realis="true">his bodyguards</em_arg>
+        <em_arg filler_id="f-1109" role="thing" realis="true">Coke</em_arg>
+        <em_arg filler_id="f-1208" role="thing" realis="true">Pepsi</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1135">
+      <event_mention id="em-1114" type="conflict" subtype="attack" realis="actual">
+        <trigger source="5d7b429073c60d53acba21bb6e7e6caa" offset="2589" length="3">war</trigger>
+        <em_arg entity_id="ent-87" entity_mention_id="m-718" role="attacker" realis="true">we</em_arg>
+      </event_mention>
+      <event_mention id="em-1137" type="conflict" subtype="attack" realis="actual">
+        <trigger source="5d7b429073c60d53acba21bb6e7e6caa" offset="2655" length="3">war</trigger>
+        <em_arg entity_id="ent-87" entity_mention_id="m-724" role="attacker" realis="true">we</em_arg>
+      </event_mention>
+      <event_mention id="em-1234" type="conflict" subtype="attack" realis="actual">
+        <trigger source="5d7b429073c60d53acba21bb6e7e6caa" offset="2691" length="2">it</trigger>
+        <em_arg entity_id="ent-87" entity_mention_id="m-724" role="attacker" realis="true">we</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1232">
+      <event_mention id="em-1211" type="transaction" subtype="transfermoney" realis="actual" ways="voluntary">
+        <trigger source="5d7b429073c60d53acba21bb6e7e6caa" offset="2440" length="8">stock up</trigger>
+        <em_arg entity_id="ent-57" entity_mention_id="m-279" role="giver" realis="true">his bodyguards</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56cde01c0000000000000017">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-519">
+        <trigger offset="914" length="4">shah</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-81" offset="14" length="11">hoorayforpp</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-529">
+        <trigger offset="1210" length="4">head</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-105" offset="1119" length="5">DdotT</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-539">
+        <trigger offset="3067" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-183" offset="2277" length="14">MagicNMedicine</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-549">
+        <trigger offset="3371" length="9">Pakistani</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-183" offset="2277" length="14">MagicNMedicine</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-559">
+        <trigger offset="3794" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-183" offset="2277" length="14">MagicNMedicine</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-569">
+        <trigger offset="3794" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-183" offset="2277" length="14">MagicNMedicine</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-579">
+        <trigger offset="3794" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-183" offset="2277" length="14">MagicNMedicine</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1225">
+        <trigger offset="159" length="3">our</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-81" offset="14" length="11">hoorayforpp</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1235">
+        <trigger offset="1009" length="7">Iranian</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-81" offset="14" length="11">hoorayforpp</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1245">
+        <trigger offset="411" length="3">its</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-81" offset="14" length="11">hoorayforpp</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1255">
+        <trigger offset="3909" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-183" offset="2277" length="14">MagicNMedicine</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-662">
+        <trigger offset="987" length="11">assassinate</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-81" offset="14" length="11">hoorayforpp</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-471" offset="983" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-81" offset="14" length="11">hoorayforpp</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-690" offset="1009" length="18">
+            <text>Iranian scientists</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-81" offset="14" length="11">hoorayforpp</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-720">
+        <trigger offset="1242" length="10">developing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-105" offset="1119" length="5">DdotT</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-135" offset="1236" length="3">
+            <text>who</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-105" offset="1119" length="5">DdotT</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-745" offset="1253" length="15">
+            <text>nuclear weapons</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-105" offset="1119" length="5">DdotT</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-774">
+        <trigger offset="1931" length="3">war</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-171" offset="1695" length="8">erobique</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-261" offset="1915" length="4">
+            <text>Iran</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-171" offset="1695" length="8">erobique</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-797">
+        <trigger offset="2143" length="3">war</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-177" offset="2059" length="8">erobique</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-267" offset="2127" length="4">
+            <text>Iran</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-177" offset="2059" length="8">erobique</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-843">
+        <trigger offset="2442" length="3">war</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-183" offset="2277" length="14">MagicNMedicine</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-429" offset="2449" length="4">
+            <text>Iraq</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-183" offset="2277" length="14">MagicNMedicine</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-923">
+        <trigger offset="3150" length="7">getting</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-183" offset="2277" length="14">MagicNMedicine</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-441" offset="3130" length="8">
+            <text>Pakistan</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-183" offset="2277" length="14">MagicNMedicine</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-477" offset="3143" length="6">
+            <text>Israel</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-183" offset="2277" length="14">MagicNMedicine</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-955" offset="3158" length="5">
+            <text>nukes</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-183" offset="2277" length="14">MagicNMedicine</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-978">
+        <trigger offset="3240" length="8">get hold</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-183" offset="2277" length="14">MagicNMedicine</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-969" offset="3212" length="10">
+            <text>terrorists</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-183" offset="2277" length="14">MagicNMedicine</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1003" offset="3252" length="16">
+            <text>nuclear material</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-183" offset="2277" length="14">MagicNMedicine</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1017">
+        <trigger offset="3320" length="4">went</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-183" offset="2277" length="14">MagicNMedicine</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1008" offset="3317" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-183" offset="2277" length="14">MagicNMedicine</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1091">
+        <trigger offset="3931" length="7">getting</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-183" offset="2277" length="14">MagicNMedicine</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-1108" offset="3939" length="15">
+            <text>nuclear weapons</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-183" offset="2277" length="14">MagicNMedicine</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1123">
+        <trigger offset="1424" length="7">blowing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-141" offset="1346" length="9">cl_steele</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-387" offset="1397" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-141" offset="1346" length="9">cl_steele</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-750" offset="1439" length="21">
+            <text>people they dont like</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-141" offset="1346" length="9">cl_steele</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1159">
+        <trigger offset="1804" length="7">blowing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-147" offset="1765" length="9">cl_steele</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-399" offset="1777" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-147" offset="1765" length="9">cl_steele</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-768" offset="1819" length="21">
+            <text>people they dont like</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-147" offset="1765" length="9">cl_steele</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1265">
+        <trigger offset="1804" length="7">blowing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-147" offset="1765" length="9">cl_steele</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-399" offset="1777" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-147" offset="1765" length="9">cl_steele</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-768" offset="1819" length="21">
+            <text>people they dont like</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-147" offset="1765" length="9">cl_steele</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1297" offset="1812" length="6">
+            <text>things</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-147" offset="1765" length="9">cl_steele</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1302">
+        <trigger offset="1424" length="7">blowing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-141" offset="1346" length="9">cl_steele</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-387" offset="1397" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-141" offset="1346" length="9">cl_steele</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-750" offset="1439" length="21">
+            <text>people they dont like</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-141" offset="1346" length="9">cl_steele</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1334" offset="1432" length="6">
+            <text>things</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-141" offset="1346" length="9">cl_steele</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1337">
+        <trigger offset="987" length="11">assassinate</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-81" offset="14" length="11">hoorayforpp</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-690" offset="1009" length="18">
+            <text>Iranian scientists</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-81" offset="14" length="11">hoorayforpp</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-471" offset="983" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-81" offset="14" length="11">hoorayforpp</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-81" offset="14" length="11">
+        <text>hoorayforpp</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-87" offset="67" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-93" offset="411" length="10">
+        <text>its people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-99" offset="910" length="8">
+        <text>the shah</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-105" offset="1119" length="5">
+        <text>DdotT</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-111" offset="1184" length="18">
+        <text>a pretty crazy guy</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-105" offset="1119" length="5">DdotT</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-117" offset="1640" length="19">
+        <text>Mahmoud Ahmadinejad</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-165" offset="1584" length="6">Tyler.</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-123" offset="2705" length="11">
+        <text>Ahmedinijad</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-129" offset="2725" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-135" offset="1236" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-141" offset="1346" length="9">
+        <text>cl_steele</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-147" offset="1765" length="9">
+        <text>cl_steele</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-153" offset="1988" length="9">
+        <text>cl_steele</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-159" offset="2223" length="1">
+        <text>i</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-165" offset="1584" length="6">
+        <text>Tyler.</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-171" offset="1695" length="8">
+        <text>erobique</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-177" offset="2059" length="8">
+        <text>erobique</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-183" offset="2277" length="14">
+        <text>MagicNMedicine</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-189" offset="2905" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-195" offset="3475" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-201" offset="3998" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-207" offset="3340" length="9">
+        <text>Bin Laden</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-213" offset="3406" length="9">
+        <text>Bin Laden</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-219" offset="1218" length="15">
+        <text>their goverment</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-225" offset="3371" length="20">
+        <text>Pakistani government</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-231" offset="3499" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-237" offset="366" length="55">
+        <text>a weak country with no big weapons to defend its people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-249" offset="862" length="4">
+        <text>Iran</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-255" offset="1009" length="7">
+        <text>Iranian</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-261" offset="1915" length="4">
+        <text>Iran</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-267" offset="2127" length="4">
+        <text>Iran</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-273" offset="2674" length="4">
+        <text>Iran</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-279" offset="3595" length="4">
+        <text>Iran</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-285" offset="119" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-291" offset="184" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-297" offset="225" length="3">
+        <text>its</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-303" offset="272" length="3">
+        <text>its</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-309" offset="303" length="2">
+        <text>it</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-315" offset="435" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-321" offset="1218" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-327" offset="3176" length="4">
+        <text>Iran</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-333" offset="1506" length="5">
+        <text>irans</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-339" offset="508" length="4">
+        <text>Iran</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-345" offset="90" length="4">
+        <text>Iran</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-351" offset="195" length="4">
+        <text>Iran</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-357" offset="739" length="4">
+        <text>Iran</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-369" offset="1174" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-375" offset="1083" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-381" offset="1296" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-387" offset="1397" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-393" offset="1446" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-399" offset="1777" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-405" offset="1826" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1204" offset="656" length="8">
+        <text>IRANIANS</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-411" offset="467" length="99">
+        <text>All the huge countries that are bullying Iran into submission right now with sanctions and what not</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-81" offset="14" length="11">hoorayforpp</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-417" offset="1886" length="2">
+        <text>US</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-423" offset="2098" length="2">
+        <text>US</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-429" offset="2449" length="4">
+        <text>Iraq</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1210" offset="2620" length="5">
+        <text>there</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-435" offset="3371" length="9">
+        <text>Pakistani</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-441" offset="3130" length="8">
+        <text>Pakistan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-447" offset="3284" length="8">
+        <text>Pakistan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-453" offset="3831" length="8">
+        <text>Pakistan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-459" offset="3858" length="6">
+        <text>Israel</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-465" offset="965" length="6">
+        <text>Israel</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-471" offset="983" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-477" offset="3143" length="6">
+        <text>Israel</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-483" offset="3821" length="5">
+        <text>India</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-489" offset="2980" length="12">
+        <text>these states</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-495" offset="763" length="11">
+        <text>North Korea</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-501" offset="3070" length="10">
+        <text>the region</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-507" offset="3797" length="10">
+        <text>the region</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-513" offset="3912" length="10">
+        <text>the region</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-599" offset="596" length="5">
+        <text>earth</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-611" offset="702" length="9">
+        <text>the world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-620" offset="159" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-629" offset="159" length="15">
+        <text>our politicians</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-638" offset="333" length="24">
+        <text>the community of nations</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-647" offset="731" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-656" offset="836" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-714" offset="1093" length="2">
+        <text>us</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-81" offset="14" length="11">hoorayforpp</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-864" offset="2458" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-879" offset="2630" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-894" offset="2816" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-690" offset="1009" length="18">
+        <text>Iranian scientists</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-699" offset="1063" length="8">
+        <text>the west</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-81" offset="14" length="11">hoorayforpp</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-708" offset="1314" length="8">
+        <text>the west</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-750" offset="1439" length="21">
+        <text>people they dont like</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-768" offset="1819" length="21">
+        <text>people they dont like</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-759" offset="1546" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1153" offset="1488" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-870" offset="2465" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-885" offset="2780" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-960" offset="3165" length="6">
+        <text>People</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-969" offset="3212" length="10">
+        <text>terrorists</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1008" offset="3317" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1040" offset="3350" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1046" offset="3608" length="8">
+        <text>everyone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1055" offset="3654" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1064" offset="3654" length="10">
+        <text>our allies</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1073" offset="3684" length="6">
+        <text>others</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1082" offset="3897" length="11">
+        <text>any country</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1114" offset="934" length="22">
+        <text>democratic governments</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-363" offset="647" length="17">
+        <text>ORDINARY IRANIANS</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1216" offset="2744" length="6">
+        <text>womens</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-519">
+        <trigger offset="914" length="4">shah</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-529">
+        <trigger offset="1210" length="4">head</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-539">
+        <trigger offset="3067" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-549">
+        <trigger offset="3371" length="9">Pakistani</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-559">
+        <trigger offset="3794" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-569">
+        <trigger offset="3794" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-579">
+        <trigger offset="3794" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1225">
+        <trigger offset="159" length="3">our</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1235">
+        <trigger offset="1009" length="7">Iranian</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1245">
+        <trigger offset="411" length="3">its</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1255">
+        <trigger offset="3909" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-662">
+        <trigger offset="987" length="11">assassinate</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-720">
+        <trigger offset="1242" length="10">developing</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-774">
+        <trigger offset="1931" length="3">war</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-797">
+        <trigger offset="2143" length="3">war</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-843">
+        <trigger offset="2442" length="3">war</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-923">
+        <trigger offset="3150" length="7">getting</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-183" offset="2277" length="14">MagicNMedicine</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-978">
+        <trigger offset="3240" length="8">get hold</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1017">
+        <trigger offset="3320" length="4">went</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1091">
+        <trigger offset="3931" length="7">getting</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1123">
+        <trigger offset="1424" length="7">blowing</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-141" offset="1346" length="9">cl_steele</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1159">
+        <trigger offset="1804" length="7">blowing</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-147" offset="1765" length="9">cl_steele</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1265">
+        <trigger offset="1804" length="7">blowing</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-147" offset="1765" length="9">cl_steele</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1302">
+        <trigger offset="1424" length="7">blowing</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-141" offset="1346" length="9">cl_steele</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1337">
+        <trigger offset="987" length="11">assassinate</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

@@ -1,0 +1,2317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56fc3f480000000000000023">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-845">
+        <trigger offset="211" length="2">IN</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-875">
+        <trigger offset="387" length="2">in</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-915">
+        <trigger offset="881" length="2">in</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-945">
+        <trigger offset="993" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-209" offset="911" length="14">Vladimir Putin</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1001">
+        <trigger offset="1889" length="2">in</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-416" offset="1841" length="7">Snowden</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-855">
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-865">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-885">
+        <trigger offset="473" length="2">to</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-895">
+        <trigger offset="510" length="7">Russian</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-905">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-925">
+        <trigger offset="901" length="9">President</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-935">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-955">
+        <trigger offset="1071" length="8">American</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-209" offset="911" length="14">Vladimir Putin</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-965">
+        <trigger offset="1495" length="2">at</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1037">
+        <trigger offset="2439" length="2">at</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-533" offset="2380" length="9">Kucherena</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-975">
+        <trigger offset="1519" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-991">
+        <trigger offset="1547" length="4">from</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1011">
+        <trigger offset="1925" length="6">travel</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-416" offset="1841" length="7">Snowden</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1027">
+        <trigger offset="2095" length="9">traveling</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-416" offset="1841" length="7">Snowden</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1047">
+        <trigger offset="2439" length="2">at</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-533" offset="2380" length="9">Kucherena</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1057">
+        <trigger offset="2622" length="7">Putin’s</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-611" offset="2664" length="21">Russian news agencies</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1067">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-611" offset="2664" length="21">Russian news agencies</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1077">
+        <trigger offset="2664" length="7">Russian</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1087">
+        <trigger offset="2776" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-632" offset="2743" length="2">He</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1097">
+        <trigger offset="2776" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-632" offset="2743" length="2">He</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1113">
+        <trigger offset="2896" length="8">Russians</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1123">
+        <trigger offset="3123" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1142">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-1180">
+        <trigger offset="276" length="6">former</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-74" offset="272" length="67">
+            <text>the former intelligence contractor on the run from U.S. authorities</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1205" offset="283" length="23">
+            <text>intelligence contractor</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1238">
+        <trigger offset="430" length="7">torture</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-65" offset="253" length="17">Edward J. Snowden</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-119" offset="508" length="58">a Russian official who assisted in preparing the documents</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-101" offset="416" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-65" offset="253" length="17">Edward J. Snowden</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-119" offset="508" length="58">a Russian official who assisted in preparing the documents</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-107" offset="480" length="13">
+            <text>United States</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-65" offset="253" length="17">Edward J. Snowden</source>
+              </belief>
+              <belief type="rob">
+                <source ere_id="m-119" offset="508" length="58">a Russian official who assisted in preparing the documents</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-107" offset="480" length="13">
+            <text>United States</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-65" offset="253" length="17">Edward J. Snowden</source>
+              </belief>
+              <belief type="rob">
+                <source ere_id="m-119" offset="508" length="58">a Russian official who assisted in preparing the documents</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1275">
+        <trigger offset="451" length="7">penalty</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-65" offset="253" length="17">Edward J. Snowden</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-119" offset="508" length="58">a Russian official who assisted in preparing the documents</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-101" offset="416" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-65" offset="253" length="17">Edward J. Snowden</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-119" offset="508" length="58">a Russian official who assisted in preparing the documents</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1300" offset="445" length="5">
+            <text>death</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-65" offset="253" length="17">Edward J. Snowden</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-119" offset="508" length="58">a Russian official who assisted in preparing the documents</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-107" offset="480" length="13">
+            <text>United States</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-65" offset="253" length="17">Edward J. Snowden</source>
+              </belief>
+              <belief type="rob">
+                <source ere_id="m-119" offset="508" length="58">a Russian official who assisted in preparing the documents</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1416">
+        <trigger offset="786" length="7">penalty</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-134" offset="586" length="5">
+            <text>whose</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1441" offset="742" length="15">
+            <text>a capital crime</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2348" offset="780" length="5">
+            <text>death</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1312">
+        <trigger offset="462" length="10">extradited</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-107" offset="480" length="13">
+            <text>United States</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-101" offset="416" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-107" offset="480" length="13">
+            <text>United States</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2230">
+        <trigger offset="3486" length="10">extradited</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-812" offset="3469" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-806" offset="3443" length="13">
+            <text>United States</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-800" offset="3383" length="6">
+            <text>Russia</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-806" offset="3443" length="13">
+            <text>United States</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1349">
+        <trigger offset="462" length="10">extradited</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-107" offset="480" length="13">
+            <text>United States</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-101" offset="416" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-107" offset="480" length="13">
+            <text>United States</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2272">
+        <trigger offset="3486" length="10">extradited</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-806" offset="3443" length="13">
+            <text>United States</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-812" offset="3469" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-800" offset="3383" length="6">
+            <text>Russia</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-806" offset="3443" length="13">
+            <text>United States</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1386">
+        <trigger offset="731" length="7">accused</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-134" offset="586" length="5">
+            <text>whose</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1411" offset="742" length="15">
+            <text>a capital crime</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1444">
+        <trigger offset="592" length="4">leak</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-134" offset="586" length="5">
+            <text>whose</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1551">
+        <trigger offset="1294" length="5">leaks</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-296" offset="1253" length="7">Snowden</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-308" offset="1290" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-296" offset="1253" length="7">Snowden</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1514">
+        <trigger offset="1132" length="7">meeting</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-269" offset="1091" length="5">
+            <text>Putin</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-275" offset="1145" length="16">
+            <text>science students</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1546" offset="1119" length="6">
+            <text>Monday</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1600">
+        <trigger offset="1539" length="7">arrived</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-341" offset="1536" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-347" offset="1552" length="9">
+            <text>Hong Kong</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-326" offset="1498" length="20">
+            <text>Sheremetyevo Airport</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1639" offset="1565" length="7">
+            <text>June 23</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1644">
+        <trigger offset="1686" length="6">posted</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-365" offset="1621" length="63">
+            <text>the anti-secrecy organization, which has been assisting Snowden</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1695">
+        <trigger offset="1785" length="7">meeting</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-389" offset="1805" length="34">
+            <text>human rights advocates and lawyers</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-416" offset="1841" length="7">
+            <text>Snowden</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1727" offset="1793" length="6">
+            <text>Friday</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1790">
+        <trigger offset="2245" length="4">meet</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-512" offset="2221" length="51">
+            <text>one of the officials to meet with Snowden on Friday</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-518" offset="2228" length="44">
+            <text>the officials to meet with Snowden on Friday</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-527" offset="2255" length="7">
+            <text>Snowden</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1829" offset="2266" length="6">
+            <text>Friday</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1732">
+        <trigger offset="1925" length="6">travel</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-416" offset="1841" length="7">Snowden</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-422" offset="1854" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-416" offset="1841" length="7">Snowden</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-434" offset="1935" length="13">
+            <text>Latin America</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-416" offset="1841" length="7">Snowden</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1762">
+        <trigger offset="2095" length="9">traveling</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-458" offset="2014" length="2">He</source>
+          </belief>
+          <belief type="rob" polarity="neg" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-470" offset="2086" length="3">
+            <text>him</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-458" offset="2014" length="2">He</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-476" offset="2105" length="5">
+            <text>there</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-458" offset="2014" length="2">He</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1853">
+        <trigger offset="2332" length="9">interview</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-533" offset="2380" length="9">
+            <text>Kucherena</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1876">
+        <trigger offset="2462" length="9">delivered</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-539" offset="2395" length="2">he</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-539" offset="2395" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-539" offset="2395" length="2">he</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1901" offset="2425" length="13">
+            <text>the documents</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-539" offset="2395" length="2">he</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-551" offset="2442" length="11">
+            <text>the airport</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-539" offset="2395" length="2">he</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1913">
+        <trigger offset="2659" length="4">told</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-611" offset="2664" length="21">Russian news agencies</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-605" offset="2641" length="16">
+            <text>Dmitri S. Peskov</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-611" offset="2664" length="21">
+            <text>Russian news agencies</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1943">
+        <trigger offset="2766" length="9">traveling</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-632" offset="2743" length="2">He</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-644" offset="2758" length="56">
+            <text>who was traveling in the Far East and Siberia on Tuesday</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-632" offset="2743" length="2">He</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-650" offset="2783" length="8">
+            <text>Far East</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-632" offset="2743" length="2">He</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-659" offset="2796" length="7">
+            <text>Siberia</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-632" offset="2743" length="2">He</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1982" offset="2807" length="7">
+            <text>Tuesday</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-632" offset="2743" length="2">He</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1987">
+        <trigger offset="2964" length="6">spoken</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-686" offset="2914" length="4">
+            <text>them</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2012" offset="2860" length="13">
+            <text>the past week</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2017">
+        <trigger offset="3140" length="7">charged</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-737" offset="3103" length="31">
+            <text>Federal prosecutors in Virginia</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-752" offset="3148" length="7">
+            <text>Snowden</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-743" offset="3126" length="8">
+            <text>Virginia</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2056" offset="3161" length="41">
+            <text>two counts of violating the Espionage Act</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2063" offset="3217" length="28">
+            <text>stealing government property</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2096">
+        <trigger offset="3260" length="10">punishable</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-2113" offset="3274" length="24">
+            <text>up to 10 years in prison</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2119">
+        <trigger offset="3260" length="10">punishable</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-2136" offset="3315" length="8">
+            <text>30 years</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-752" offset="3148" length="7">
+            <text>Snowden</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-737" offset="3103" length="31">Federal prosecutors in Virginia</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2151" offset="3161" length="41">
+            <text>two counts of violating the Espionage Act</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2158" offset="3217" length="28">
+            <text>stealing government property</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-737" offset="3103" length="31">Federal prosecutors in Virginia</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2163">
+        <trigger offset="3292" length="6">prison</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-752" offset="3148" length="7">
+            <text>Snowden</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2188" offset="3161" length="41">
+            <text>two counts of violating the Espionage Act</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-737" offset="3103" length="31">Federal prosecutors in Virginia</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2195" offset="3217" length="28">
+            <text>stealing government property</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-737" offset="3103" length="31">Federal prosecutors in Virginia</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2200">
+        <trigger offset="3428" length="7">penalty</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-791" offset="3350" length="39">his supporters in and outside of Russia</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-2217" offset="3422" length="5">
+            <text>death</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-791" offset="3350" length="39">his supporters in and outside of Russia</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-806" offset="3443" length="13">
+            <text>United States</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2314">
+        <trigger offset="3560" length="7">charges</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-818" offset="3510" length="14">U.S. officials</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-827" offset="3535" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-818" offset="3510" length="14">U.S. officials</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-791" offset="3350" length="39">his supporters in and outside of Russia</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-839" offset="3510" length="4">
+            <text>U.S.</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-791" offset="3350" length="39">his supporters in and outside of Russia</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2351">
+        <trigger offset="445" length="5">death</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-65" offset="253" length="17">Edward J. Snowden</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-101" offset="416" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-65" offset="253" length="17">Edward J. Snowden</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2374">
+        <trigger offset="780" length="5">death</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-173" offset="795" length="3">
+            <text>His</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2395">
+        <trigger offset="445" length="5">death</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-65" offset="253" length="17">Edward J. Snowden</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-101" offset="416" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-65" offset="253" length="17">Edward J. Snowden</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2418">
+        <trigger offset="780" length="5">death</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-173" offset="795" length="3">
+            <text>His</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2439">
+        <trigger offset="3422" length="5">death</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-791" offset="3350" length="39">his supporters in and outside of Russia</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-806" offset="3443" length="13">
+            <text>United States</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-791" offset="3350" length="39">his supporters in and outside of Russia</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2462">
+        <trigger offset="3422" length="5">death</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-791" offset="3350" length="39">his supporters in and outside of Russia</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-806" offset="3443" length="13">
+            <text>United States</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-791" offset="3350" length="39">his supporters in and outside of Russia</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-41" offset="172" length="7">
+        <text>SNOWDEN</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-65" offset="253" length="17">
+        <text>Edward J. Snowden</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-80" offset="323" length="16">U.S. authorities</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-74" offset="272" length="67">
+        <text>the former intelligence contractor on the run from U.S. authorities</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-80" offset="323" length="16">U.S. authorities</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-101" offset="416" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-128" offset="577" length="7">
+        <text>Snowden</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-134" offset="586" length="5">
+        <text>whose</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-173" offset="795" length="3">
+        <text>His</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-185" offset="845" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-230" offset="977" length="7">
+        <text>Snowden</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-242" offset="1018" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-248" offset="1028" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-290" offset="1180" length="7">
+        <text>Snowden</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-296" offset="1253" length="7">
+        <text>Snowden</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-302" offset="1270" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-308" offset="1290" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-320" offset="1477" length="7">
+        <text>Snowden</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-341" offset="1536" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-371" offset="1677" length="7">
+        <text>Snowden</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-377" offset="1743" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-416" offset="1841" length="7">
+        <text>Snowden</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-422" offset="1854" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-452" offset="2009" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-458" offset="2014" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-470" offset="2086" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-527" offset="2255" length="7">
+        <text>Snowden</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-545" offset="2409" length="7">
+        <text>Snowden</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-572" offset="2603" length="7">
+        <text>Snowden</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-707" offset="2974" length="7">
+        <text>Snowden</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-668" offset="2874" length="30">a number of prominent Russians</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-713" offset="3006" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-668" offset="2874" length="30">a number of prominent Russians</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-719" offset="3013" length="16">
+        <text>a whistle-blower</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-668" offset="2874" length="30">a number of prominent Russians</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-725" offset="3034" length="58">
+        <text>a defender of human rights who was deserving of protection</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-668" offset="2874" length="30">a number of prominent Russians</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-752" offset="3148" length="7">
+        <text>Snowden</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-737" offset="3103" length="31">Federal prosecutors in Virginia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-773" offset="3338" length="7">
+        <text>Snowden</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-791" offset="3350" length="39">his supporters in and outside of Russia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-779" offset="3350" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-791" offset="3350" length="39">his supporters in and outside of Russia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-812" offset="3469" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-791" offset="3350" length="39">his supporters in and outside of Russia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-827" offset="3535" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-818" offset="3510" length="14">U.S. officials</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-47" offset="214" length="6">
+        <text>RUSSIA</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-95" offset="390" length="6">
+        <text>Russia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-113" offset="510" length="7">
+        <text>Russian</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-191" offset="884" length="6">
+        <text>Russia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-218" offset="929" length="6">
+        <text>Russia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-236" offset="996" length="6">
+        <text>Russia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-428" offset="1892" length="6">
+        <text>Russia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-620" offset="2664" length="7">
+        <text>Russian</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-800" offset="3383" length="6">
+        <text>Russia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1107" offset="2896" length="8">
+        <text>Russians</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1502" offset="1067" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-56" offset="244" length="6">
+        <text>MOSCOW</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-335" offset="1522" length="6">
+        <text>Moscow</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-80" offset="323" length="16">
+        <text>U.S. authorities</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-86" offset="323" length="4">
+        <text>U.S.</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-107" offset="480" length="13">
+        <text>United States</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-167" offset="677" length="4">
+        <text>U.S.</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-254" offset="1071" length="8">
+        <text>American</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-314" offset="1312" length="4">
+        <text>U.S.</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-464" offset="2029" length="13">
+        <text>United States</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-416" offset="1841" length="7">Snowden</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-806" offset="3443" length="13">
+        <text>United States</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-839" offset="3510" length="4">
+        <text>U.S.</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-140" offset="600" length="24">
+        <text>National Security Agency</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-149" offset="651" length="9">
+        <text>worldwide</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-158" offset="673" length="19">
+        <text>the U.S. government</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-758" offset="3226" length="10">
+        <text>government</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-209" offset="911" length="14">
+        <text>Vladimir Putin</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-224" offset="950" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-269" offset="1091" length="5">
+        <text>Putin</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-284" offset="1167" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-578" offset="2622" length="5">
+        <text>Putin</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-638" offset="2751" length="5">
+        <text>Putin</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-644" offset="2758" length="56">
+        <text>who was traveling in the Far East and Siberia on Tuesday</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-260" offset="1067" length="21">
+        <text>our American partners</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-275" offset="1145" length="16">
+        <text>science students</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-326" offset="1498" length="20">
+        <text>Sheremetyevo Airport</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-551" offset="2442" length="11">
+        <text>the airport</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-985" offset="1530" length="42">
+        <text>where he arrived from Hong Kong on June 23</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-347" offset="1552" length="9">
+        <text>Hong Kong</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-356" offset="1610" length="9">
+        <text>WikiLeaks</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-365" offset="1621" length="63">
+        <text>the anti-secrecy organization, which has been assisting Snowden</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-389" offset="1805" length="34">
+        <text>human rights advocates and lawyers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-398" offset="1805" length="34">
+        <text>human rights advocates and lawyers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-407" offset="1805" length="5">
+        <text>human</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-731" offset="3048" length="5">
+        <text>human</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-668" offset="2874" length="30">a number of prominent Russians</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-434" offset="1935" length="13">
+        <text>Latin America</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-476" offset="2105" length="5">
+        <text>there</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1021" offset="1950" length="62">
+        <text>where three countries have expressed a willingness to take him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-443" offset="1956" length="15">
+        <text>three countries</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-119" offset="508" length="58">
+        <text>a Russian official who assisted in preparing the documents</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-482" offset="2135" length="17">
+        <text>Anatoly Kucherena</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-491" offset="2154" length="57">
+        <text>a rights advocate who has worked closely with the Kremlin</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-506" offset="2213" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-512" offset="2221" length="51">
+        <text>one of the officials to meet with Snowden on Friday</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-533" offset="2380" length="9">
+        <text>Kucherena</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-539" offset="2395" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-497" offset="2204" length="7">
+        <text>Kremlin</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-566" offset="2553" length="7">
+        <text>Kremlin</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-701" offset="2940" length="7">
+        <text>Kremlin</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-518" offset="2228" length="44">
+        <text>the officials to meet with Snowden on Friday</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-557" offset="2484" length="25">
+        <text>Federal Migration Service</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-626" offset="2695" length="17">
+        <text>Migration Service</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-833" offset="2511" length="5">
+        <text>which</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-596" offset="2622" length="17">
+        <text>Putin’s spokesman</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-605" offset="2641" length="16">
+        <text>Dmitri S. Peskov</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-632" offset="2743" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-611" offset="2664" length="21">
+        <text>Russian news agencies</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-650" offset="2783" length="8">
+        <text>Far East</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-659" offset="2796" length="7">
+        <text>Siberia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-668" offset="2874" length="30">
+        <text>a number of prominent Russians</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-686" offset="2914" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-677" offset="2906" length="12">
+        <text>many of them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-692" offset="2919" length="38">
+        <text>conservative-leaning Kremlin loyalists</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-737" offset="3103" length="31">
+        <text>Federal prosecutors in Virginia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-743" offset="3126" length="8">
+        <text>Virginia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-764" offset="3292" length="6">
+        <text>prison</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-791" offset="3350" length="39">
+        <text>his supporters in and outside of Russia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-818" offset="3510" length="14">
+        <text>U.S. officials</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-791" offset="3350" length="39">his supporters in and outside of Russia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1133" offset="3372" length="17">
+        <text>outside of Russia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2485" offset="1706" length="7">
+        <text>Twitter</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-845">
+        <trigger offset="211" length="2">IN</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-875">
+        <trigger offset="387" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-915">
+        <trigger offset="881" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-945">
+        <trigger offset="993" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1001">
+        <trigger offset="1889" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-855">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-865">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-885">
+        <trigger offset="473" length="2">to</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-65" offset="253" length="17">Edward J. Snowden</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-895">
+        <trigger offset="510" length="7">Russian</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-905">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-925">
+        <trigger offset="901" length="9">President</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-935">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-955">
+        <trigger offset="1071" length="8">American</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-965">
+        <trigger offset="1495" length="2">at</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1037">
+        <trigger offset="2439" length="2">at</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-975">
+        <trigger offset="1519" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-991">
+        <trigger offset="1547" length="4">from</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1011">
+        <trigger offset="1925" length="6">travel</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-416" offset="1841" length="7">Snowden</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1027">
+        <trigger offset="2095" length="9">traveling</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-416" offset="1841" length="7">Snowden</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1047">
+        <trigger offset="2439" length="2">at</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1057">
+        <trigger offset="2622" length="7">Putin’s</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1067">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1077">
+        <trigger offset="2664" length="7">Russian</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1087">
+        <trigger offset="2776" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1097">
+        <trigger offset="2776" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1113">
+        <trigger offset="2896" length="8">Russians</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1123">
+        <trigger offset="3123" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1142">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-1180">
+        <trigger offset="276" length="6">former</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1238">
+        <trigger offset="430" length="7">torture</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-65" offset="253" length="17">Edward J. Snowden</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1275">
+        <trigger offset="451" length="7">penalty</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-65" offset="253" length="17">Edward J. Snowden</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1416">
+        <trigger offset="786" length="7">penalty</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1312">
+        <trigger offset="462" length="10">extradited</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-65" offset="253" length="17">Edward J. Snowden</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2230">
+        <trigger offset="3486" length="10">extradited</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-791" offset="3350" length="39">his supporters in and outside of Russia</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1349">
+        <trigger offset="462" length="10">extradited</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-65" offset="253" length="17">Edward J. Snowden</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2272">
+        <trigger offset="3486" length="10">extradited</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-791" offset="3350" length="39">his supporters in and outside of Russia</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1386">
+        <trigger offset="731" length="7">accused</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1444">
+        <trigger offset="592" length="4">leak</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1551">
+        <trigger offset="1294" length="5">leaks</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1514">
+        <trigger offset="1132" length="7">meeting</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1600">
+        <trigger offset="1539" length="7">arrived</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1644">
+        <trigger offset="1686" length="6">posted</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1695">
+        <trigger offset="1785" length="7">meeting</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1790">
+        <trigger offset="2245" length="4">meet</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1732">
+        <trigger offset="1925" length="6">travel</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-416" offset="1841" length="7">Snowden</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1762">
+        <trigger offset="2095" length="9">traveling</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-416" offset="1841" length="7">Snowden</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1853">
+        <trigger offset="2332" length="9">interview</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1876">
+        <trigger offset="2462" length="9">delivered</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1913">
+        <trigger offset="2659" length="4">told</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1943">
+        <trigger offset="2766" length="9">traveling</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1987">
+        <trigger offset="2964" length="6">spoken</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2017">
+        <trigger offset="3140" length="7">charged</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2096">
+        <trigger offset="3260" length="10">punishable</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2119">
+        <trigger offset="3260" length="10">punishable</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2163">
+        <trigger offset="3292" length="6">prison</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2200">
+        <trigger offset="3428" length="7">penalty</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-791" offset="3350" length="39">his supporters in and outside of Russia</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2314">
+        <trigger offset="3560" length="7">charges</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-791" offset="3350" length="39">his supporters in and outside of Russia</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2351">
+        <trigger offset="445" length="5">death</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-791" offset="3350" length="39">his supporters in and outside of Russia</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2374">
+        <trigger offset="780" length="5">death</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2395">
+        <trigger offset="445" length="5">death</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-65" offset="253" length="17">Edward J. Snowden</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2418">
+        <trigger offset="780" length="5">death</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2439">
+        <trigger offset="3422" length="5">death</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-791" offset="3350" length="39">his supporters in and outside of Russia</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2462">
+        <trigger offset="3422" length="5">death</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-773" offset="3338" length="7">Snowden</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-791" offset="3350" length="39">his supporters in and outside of Russia</source>
+          </sentiment>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56fc3f350000000000000020">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-631">
+        <trigger offset="231" length="2">AT</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-641">
+        <trigger offset="569" length="3">was</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-657">
+        <trigger offset="705" length="6">lawyer</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-667">
+        <trigger offset="1617" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-677">
+        <trigger offset="2122" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-687">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-697">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-707">
+        <trigger offset="2874" length="4">wife</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-717">
+        <trigger offset="3072" length="9">graduated</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-727">
+        <trigger offset="3072" length="9">graduated</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-737">
+        <trigger offset="3399" length="4">sons</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-747">
+        <trigger offset="3399" length="4">sons</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-757">
+        <trigger offset="3451" length="8">daughter</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-767">
+        <trigger offset="548" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-777">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-807">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-817">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-891">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-901">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-911">
+        <trigger offset="2679" length="7">workers</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-940">
+        <trigger offset="2988" length="9">relatives</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-956">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-984">
+        <trigger offset="284" length="6">former</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-792" offset="282" length="217">
+            <text>a former dental surgeon who became a tabloid sensation when he was charged with running a $4.6 million enterprise that plundered tissue and bone from corpses at funeral homes and sold them for transplants and research</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1483" offset="291" length="14">
+            <text>dental surgeon</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1005">
+        <trigger offset="349" length="7">charged</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-792" offset="282" length="217">
+            <text>a former dental surgeon who became a tabloid sensation when he was charged with running a $4.6 million enterprise that plundered tissue and bone from corpses at funeral homes and sold them for transplants and research</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1528" offset="362" length="137">
+            <text>running a $4.6 million enterprise that plundered tissue and bone from corpses at funeral homes and sold them for transplants and research</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1248">
+        <trigger offset="2640" length="7">charged</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-340" offset="2623" length="12">
+            <text>Mastromarino</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-346" offset="2668" length="18">
+            <text>two of his workers</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-361" offset="2691" length="11">
+            <text>an embalmer</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1287" offset="2651" length="4">
+            <text>2006</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1290">
+        <trigger offset="2742" length="7">charges</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-370" offset="2704" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1315" offset="2753" length="62">
+            <text>enterprise corruption, reckless endangerment and body stealing</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1047">
+        <trigger offset="461" length="4">sold</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-1064" offset="411" length="28">
+            <text>tissue and bone from corpses</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-792" offset="282" length="217">
+            <text>a former dental surgeon who became a tabloid sensation when he was charged with running a $4.6 million enterprise that plundered tissue and bone from corpses at funeral homes and sold them for transplants and research</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1026">
+        <trigger offset="226" length="4">DIES</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-13" offset="172" length="20">
+            <text>MICHAEL MASTROMARINO</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1075">
+        <trigger offset="501" length="4">died</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-792" offset="282" length="217">
+            <text>a former dental surgeon who became a tabloid sensation when he was charged with running a $4.6 million enterprise that plundered tissue and bone from corpses at funeral homes and sold them for transplants and research</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1100" offset="509" length="6">
+            <text>Sunday</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-49" offset="519" length="28">
+            <text>St. Luke’s Cornwall Hospital</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1110">
+        <trigger offset="1333" length="6">supply</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-142" offset="1340" length="12">
+            <text>tissue banks</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-151" offset="1357" length="48">
+            <text>manufacturers of biological surgical instruments</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-130" offset="1283" length="12">
+            <text>Mastromarino</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1165">
+        <trigger offset="1531" length="4">paid</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-172" offset="1528" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-845" offset="1497" length="62">
+            <text>a network of undertakers, whom he paid up to $1,000 per corpse</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1699" offset="1536" length="12">
+            <text>up to $1,000</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1200">
+        <trigger offset="1593" length="6">formed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-187" offset="1600" length="10">
+            <text>a business</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1221">
+        <trigger offset="2510" length="6">former</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-885" offset="2483" length="129">
+            <text>the British journalist and former host of “Masterpiece Theater,” whose arm and leg bones were taken even though he had had cancer</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1318">
+        <trigger offset="2824" length="9">sentenced</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-370" offset="2704" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1343" offset="2837" length="14">
+            <text>15 to 30 years</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1346">
+        <trigger offset="2899" length="3">pay</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-376" offset="2863" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-388" offset="2870" length="8">
+            <text>his wife</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1378" offset="2903" length="12">
+            <text>$4.6 million</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-412" offset="2919" length="30">
+            <text>the district attorney’s office</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-421" offset="2975" length="22">
+            <text>the victims’ relatives</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1395">
+        <trigger offset="3033" length="4">born</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-439" offset="3008" length="20">
+            <text>Michael Mastromarino</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-445" offset="3041" length="8">
+            <text>Brooklyn</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1427" offset="3053" length="14">
+            <text>Sept. 16, 1963</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1430">
+        <trigger offset="3370" length="8">divorced</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-966" offset="3362" length="3">
+            <text>who</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1451">
+        <trigger offset="3484" length="4">said</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-601" offset="3461" length="21">
+            <text>Susan Cooke Kittredge</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1533">
+        <trigger offset="586" length="7">serving</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-651" offset="566" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1558" offset="362" length="137">
+            <text>running a $4.6 million enterprise that plundered tissue and bone from corpses at funeral homes and sold them for transplants and research</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1619">
+        <trigger offset="461" length="4">sold</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-792" offset="282" length="217">
+            <text>a former dental surgeon who became a tabloid sensation when he was charged with running a $4.6 million enterprise that plundered tissue and bone from corpses at funeral homes and sold them for transplants and research</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1649">
+        <trigger offset="1230" length="6">profit</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-1666" offset="1261" length="11">
+            <text>six figures</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1672">
+        <trigger offset="1230" length="6">profit</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-1689" offset="1242" length="8">
+            <text>one body</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1702">
+        <trigger offset="1674" length="4">made</trigger>
+        <beliefs>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-208" offset="1660" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1727" offset="1679" length="18">
+            <text>$10,000 to $15,000</text>
+            <beliefs>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1732">
+        <trigger offset="1531" length="4">paid</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-845" offset="1497" length="62">
+            <text>a network of undertakers, whom he paid up to $1,000 per corpse</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-172" offset="1528" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1764" offset="1553" length="6">
+            <text>corpse</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1769">
+        <trigger offset="1674" length="4">made</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-208" offset="1660" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1794" offset="1702" length="4">
+            <text>body</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-13" offset="172" length="20">
+        <text>MICHAEL MASTROMARINO</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-19" offset="260" length="20">
+        <text>Michael Mastromarino</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-85" offset="690" length="12">
+        <text>Mastromarino</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-130" offset="1283" length="12">
+        <text>Mastromarino</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-160" offset="1412" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-166" offset="1482" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-172" offset="1528" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-208" offset="1660" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-214" offset="1721" length="12">
+        <text>Mastromarino</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-238" offset="1902" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-340" offset="2623" length="12">
+        <text>Mastromarino</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-355" offset="2675" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-370" offset="2704" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-376" offset="2863" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-382" offset="2870" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-439" offset="3008" length="20">
+        <text>Michael Mastromarino</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-451" offset="3069" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-490" offset="3175" length="12">
+        <text>Mastromarino</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-520" offset="3238" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-544" offset="3348" length="12">
+        <text>Mastromarino</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-586" offset="3447" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-613" offset="3530" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-625" offset="3626" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-651" offset="566" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-792" offset="282" length="217">
+        <text>a former dental surgeon who became a tabloid sensation when he was charged with running a $4.6 million enterprise that plundered tissue and bone from corpses at funeral homes and sold them for transplants and research</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-950" offset="3245" length="102">
+        <text>a co-author, with Michael R. Wiland, of the book “Smile: How Dental Implants Can Transform Your Life.”</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-966" offset="3362" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-31" offset="370" length="129">
+        <text>a $4.6 million enterprise that plundered tissue and bone from corpses at funeral homes and sold them for transplants and research</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-187" offset="1600" length="10">
+        <text>a business</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-202" offset="1632" length="26">
+        <text>Biomedical Tissue Services</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-40" offset="443" length="13">
+        <text>funeral homes</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-49" offset="519" length="28">
+        <text>St. Luke’s Cornwall Hospital</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-58" offset="551" length="8">
+        <text>Newburgh</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-67" offset="561" length="4">
+        <text>N.Y.</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-91" offset="1004" length="8">
+        <text>New York</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-136" offset="1315" length="8">
+        <text>New York</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-466" offset="3124" length="8">
+        <text>New York</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-833" offset="1013" length="5">
+        <text>state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-839" offset="1324" length="5">
+        <text>state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-76" offset="674" length="14">
+        <text>Mario Gallucci</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-827" offset="690" length="21">
+        <text>Mastromarino’s lawyer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-97" offset="1029" length="9">
+        <text>the donor</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-124" offset="1185" length="6">
+        <text>donors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-106" offset="1090" length="13">
+        <text>the survivors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-115" offset="1116" length="10">
+        <text>the person</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-142" offset="1340" length="12">
+        <text>tissue banks</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-151" offset="1357" length="48">
+        <text>manufacturers of biological surgical instruments</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-178" offset="1578" length="10">
+        <text>assistants</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-193" offset="1620" length="10">
+        <text>New Jersey</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-505" offset="3212" length="10">
+        <text>New Jersey</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-226" offset="1810" length="15">
+        <text>the authorities</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-220" offset="1795" length="13">
+        <text>the survivors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-244" offset="2032" length="10">
+        <text>The police</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-295" offset="2204" length="10">
+        <text>the police</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-253" offset="2085" length="36">
+        <text>Daniel George &amp;amp; Son Funeral Home</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-310" offset="2239" length="16">
+        <text>the funeral home</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-262" offset="2085" length="13">
+        <text>Daniel George</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-280" offset="2138" length="8">
+        <text>Brooklyn</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-445" offset="3041" length="8">
+        <text>Brooklyn</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-286" offset="2125" length="11">
+        <text>Bensonhurst</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-301" offset="2222" length="78">
+        <text>a secret room in the funeral home equipped with specialized surgical equipment</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-316" offset="2467" length="14">
+        <text>Alistair Cooke</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-879" offset="2444" length="18">
+        <text>one of the victims</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-885" offset="2483" length="129">
+        <text>the British journalist and former host of “Masterpiece Theater,” whose arm and leg bones were taken even though he had had cancer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-325" offset="2487" length="7">
+        <text>British</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-346" offset="2668" length="18">
+        <text>two of his workers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-361" offset="2691" length="11">
+        <text>an embalmer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-388" offset="2870" length="8">
+        <text>his wife</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-397" offset="2880" length="7">
+        <text>Barbara</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-403" offset="2919" length="21">
+        <text>the district attorney</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-412" offset="2919" length="30">
+        <text>the district attorney’s office</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-421" offset="2975" length="22">
+        <text>the victims’ relatives</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-430" offset="2975" length="11">
+        <text>the victims</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-873" offset="2451" length="11">
+        <text>the victims</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-457" offset="3091" length="24">
+        <text>University of Pittsburgh</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-472" offset="3124" length="19">
+        <text>New York University</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-481" offset="3124" length="40">
+        <text>New York University College of Dentistry</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-496" offset="3192" length="44">
+        <text>surgical offices in New Jersey and Manhattan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-511" offset="3227" length="9">
+        <text>Manhattan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-526" offset="3263" length="17">
+        <text>Michael R. Wiland</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-535" offset="3336" length="4">
+        <text>Your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-550" offset="3395" length="8">
+        <text>two sons</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-559" offset="3405" length="7">
+        <text>Michael</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568" offset="3417" length="5">
+        <text>Jerry</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-577" offset="3440" length="5">
+        <text>Cooke</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-601" offset="3461" length="21">
+        <text>Susan Cooke Kittredge</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-619" offset="3597" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-592" offset="3447" length="12">
+        <text>his daughter</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-798" offset="596" length="6">
+        <text>prison</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-845" offset="1497" length="62">
+        <text>a network of undertakers, whom he paid up to $1,000 per corpse</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-854" offset="1858" length="42">
+        <text>people with cancer, HIV and other diseases</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-921" offset="2675" length="11">
+        <text>his workers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-607" offset="3506" length="8">
+        <text>New York</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-631">
+        <trigger offset="231" length="2">AT</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-641">
+        <trigger offset="569" length="3">was</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-657">
+        <trigger offset="705" length="6">lawyer</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-667">
+        <trigger offset="1617" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-677">
+        <trigger offset="2122" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-687">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-697">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-707">
+        <trigger offset="2874" length="4">wife</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-717">
+        <trigger offset="3072" length="9">graduated</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-727">
+        <trigger offset="3072" length="9">graduated</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-737">
+        <trigger offset="3399" length="4">sons</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-747">
+        <trigger offset="3399" length="4">sons</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-757">
+        <trigger offset="3451" length="8">daughter</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-767">
+        <trigger offset="548" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-777">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-807">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-817">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-891">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-901">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-911">
+        <trigger offset="2679" length="7">workers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-940">
+        <trigger offset="2988" length="9">relatives</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-956">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-984">
+        <trigger offset="284" length="6">former</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1005">
+        <trigger offset="349" length="7">charged</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1248">
+        <trigger offset="2640" length="7">charged</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1290">
+        <trigger offset="2742" length="7">charges</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1047">
+        <trigger offset="461" length="4">sold</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1026">
+        <trigger offset="226" length="4">DIES</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1075">
+        <trigger offset="501" length="4">died</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1110">
+        <trigger offset="1333" length="6">supply</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1165">
+        <trigger offset="1531" length="4">paid</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1200">
+        <trigger offset="1593" length="6">formed</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1221">
+        <trigger offset="2510" length="6">former</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1318">
+        <trigger offset="2824" length="9">sentenced</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1346">
+        <trigger offset="2899" length="3">pay</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1395">
+        <trigger offset="3033" length="4">born</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1430">
+        <trigger offset="3370" length="8">divorced</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1451">
+        <trigger offset="3484" length="4">said</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1533">
+        <trigger offset="586" length="7">serving</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1619">
+        <trigger offset="461" length="4">sold</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1649">
+        <trigger offset="1230" length="6">profit</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1672">
+        <trigger offset="1230" length="6">profit</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1702">
+        <trigger offset="1674" length="4">made</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1732">
+        <trigger offset="1531" length="4">paid</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1769">
+        <trigger offset="1674" length="4">made</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

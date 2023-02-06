@@ -1,0 +1,1269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-570bb62f0000000000000019">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-568eb23c_17_670">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_17_710">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_17_680">
+        <trigger offset="6629" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_267" offset="6580" length="3">her</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </belief>
+          <belief type="na">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_17_690">
+        <trigger offset="6668" length="4">left</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_267" offset="6580" length="3">her</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_17_700">
+        <trigger offset="7195" length="2">be</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-568eb23c_17_741">
+        <trigger offset="6124" length="10">statements</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_17_243" offset="6097" length="3">
+            <text>her</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_17_948">
+        <trigger offset="6624" length="4">fire</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_267" offset="6580" length="3">her</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </belief>
+          <belief type="na">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_17_969" offset="6617" length="6">
+            <text>sniper</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_267" offset="6580" length="3">her</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+              </belief>
+              <belief type="na">
+                <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_17_150" offset="6632" length="6">
+            <text>Bosnia</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_267" offset="6580" length="3">her</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_17_273" offset="6604" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_267" offset="6580" length="3">her</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_17_994">
+        <trigger offset="6668" length="4">left</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_267" offset="6580" length="3">her</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_17_288" offset="6665" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_267" offset="6580" length="3">her</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_17_156" offset="6677" length="11">
+            <text>white house</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_267" offset="6580" length="3">her</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_17_1135">
+        <trigger offset="7119" length="8">announce</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_17_330" offset="7108" length="3">
+            <text>she</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_17_1158">
+        <trigger offset="7146" length="4">tell</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_17_330" offset="7108" length="3">
+            <text>she</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_17_342" offset="7151" length="2">
+            <text>us</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_17_1241">
+        <trigger offset="7217" length="8">proposes</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_17_357" offset="7213" length="3">
+            <text>she</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_17_342" offset="7151" length="2">
+            <text>us</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_17_1188">
+        <trigger offset="7243" length="7">elected</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_17_357" offset="7213" length="3">
+            <text>she</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-568eb23c_17_1213" offset="7198" length="5">
+            <text>POTUS</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_17_1271">
+        <trigger offset="7752" length="5">speak</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_222" offset="7645" length="15">VanillaRhapsody</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_17_423" offset="7748" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_222" offset="7645" length="15">VanillaRhapsody</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_17_1294">
+        <trigger offset="8060" length="8">rhetoric</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_222" offset="7645" length="15">VanillaRhapsody</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_17_1315" offset="8044" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_222" offset="7645" length="15">VanillaRhapsody</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_17_1323">
+        <trigger offset="8234" length="3">say</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_222" offset="7645" length="15">VanillaRhapsody</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_17_462" offset="8229" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_222" offset="7645" length="15">VanillaRhapsody</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_17_450" offset="8183" length="2">
+            <text>We</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_222" offset="7645" length="15">VanillaRhapsody</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_17_1351">
+        <trigger offset="8472" length="8">opposing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_222" offset="7645" length="15">VanillaRhapsody</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_17_489" offset="8455" length="6">
+            <text>people</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_222" offset="7645" length="15">VanillaRhapsody</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_17_1374">
+        <trigger offset="8605" length="11">complaining</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_501" offset="8549" length="8">everyone</source>
+          </belief>
+          <belief type="rob" polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_222" offset="7645" length="15">VanillaRhapsody</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_17_510" offset="8596" length="6">
+            <text>no one</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_501" offset="8549" length="8">everyone</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_222" offset="7645" length="15">VanillaRhapsody</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_17_1395">
+        <trigger offset="8840" length="6">spoken</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_198" offset="8761" length="8">djean111</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_17_528" offset="8807" length="3">
+            <text>She</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_198" offset="8761" length="8">djean111</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_17_1471">
+        <trigger offset="9166" length="4">said</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_228" offset="9033" length="15">VanillaRhapsody</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_17_558" offset="9157" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_228" offset="9033" length="15">VanillaRhapsody</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_17_1517">
+        <trigger offset="9222" length="3">say</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_228" offset="9033" length="15">VanillaRhapsody</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_17_570" offset="9218" length="3">
+            <text>YOU</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_228" offset="9033" length="15">VanillaRhapsody</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_17_1494">
+        <trigger offset="9193" length="7">talking</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_228" offset="9033" length="15">VanillaRhapsody</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_17_564" offset="9188" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_228" offset="9033" length="15">VanillaRhapsody</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_17_1540">
+        <trigger offset="9342" length="4">said</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_228" offset="9033" length="15">VanillaRhapsody</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_17_588" offset="9340" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_228" offset="9033" length="15">VanillaRhapsody</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_17_1586">
+        <trigger offset="9688" length="8">speeches</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_204" offset="9414" length="8">djean111</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_17_102" offset="9678" length="7">
+            <text>Hillary</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_17_204" offset="9414" length="8">djean111</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-568eb23c_17_66" offset="6043" length="7">
+        <text>hillary</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_72" offset="6237" length="7">
+        <text>hillary</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_78" offset="6306" length="7">
+        <text>hillary</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_84" offset="6703" length="7">
+        <text>Hillary</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_90" offset="6977" length="7">
+        <text>Hillary</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_96" offset="7545" length="7">
+        <text>Hillary</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_414" offset="7594" length="14">her supporters</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_102" offset="9678" length="7">
+        <text>Hillary</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_204" offset="9414" length="8">djean111</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_243" offset="6097" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_255" offset="6340" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_261" offset="6506" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_267" offset="6580" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_273" offset="6604" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_294" offset="6736" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_318" offset="7051" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_324" offset="7078" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_330" offset="7108" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_336" offset="7128" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_351" offset="7182" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_357" offset="7213" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_363" offset="7305" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_393" offset="7422" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_399" offset="7594" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_414" offset="7594" length="14">her supporters</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_429" offset="7773" length="3">
+        <text>Her</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no">
+            <source ere_id="m-568eb23c_17_222" offset="7645" length="15">VanillaRhapsody</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_435" offset="7792" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no">
+            <source ere_id="m-568eb23c_17_222" offset="7645" length="15">VanillaRhapsody</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_528" offset="8807" length="3">
+        <text>She</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_198" offset="8761" length="8">djean111</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_552" offset="9132" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_558" offset="9157" length="3">you</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_582" offset="9295" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_594" offset="9460" length="3">
+        <text>Her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_204" offset="9414" length="8">djean111</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_633" offset="9735" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_633" offset="9735" length="3">she</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_108" offset="6534" length="5">
+        <text>Obama</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_114" offset="9093" length="5">
+        <text>Obama</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_120" offset="9326" length="5">
+        <text>Obama</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_126" offset="9829" length="5">
+        <text>Obama</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_204" offset="9414" length="8">djean111</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_138" offset="6934" length="7">
+        <text>Clinton</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_144" offset="6545" length="5">
+        <text>Syria</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_150" offset="6632" length="6">
+        <text>Bosnia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_156" offset="6677" length="11">
+        <text>white house</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_162" offset="6780" length="9">
+        <text>Kissinger</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_168" offset="6814" length="13">
+        <text>Goldman Sachs</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_174" offset="6860" length="15">
+        <text>Monica Lewinsky</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_180" offset="6877" length="12">
+        <text>Vince Foster</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_186" offset="6891" length="10">
+        <text>Whitewater</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_192" offset="8654" length="11">
+        <text>George Bush</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_198" offset="8761" length="8">
+        <text>djean111</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_204" offset="9414" length="8">
+        <text>djean111</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_534" offset="8914" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_546" offset="9115" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_228" offset="9033" length="15">VanillaRhapsody</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_558" offset="9157" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_228" offset="9033" length="15">VanillaRhapsody</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_570" offset="9218" length="3">
+        <text>YOU</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_228" offset="9033" length="15">VanillaRhapsody</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_576" offset="9255" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_228" offset="9033" length="15">VanillaRhapsody</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_600" offset="9499" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_606" offset="9509" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_621" offset="9587" length="2">
+        <text>My</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_645" offset="9807" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_210" offset="5983" length="9">
+        <text>tularetom</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_249" offset="6139" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_216" offset="7478" length="5">
+        <text>Dawgs</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_423" offset="7748" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_222" offset="7645" length="15">
+        <text>VanillaRhapsody</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_228" offset="9033" length="15">
+        <text>VanillaRhapsody</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_540" offset="8997" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_564" offset="9188" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_588" offset="9340" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_639" offset="9794" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_204" offset="9414" length="8">djean111</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_1315" offset="8044" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_234" offset="6063" length="4">
+        <text>some</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_279" offset="6641" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_288" offset="6665" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_300" offset="6765" length="13">
+        <text>war criminals</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_294" offset="6736" length="3">her</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_309" offset="6795" length="17">
+        <text>regular criminals</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_294" offset="6736" length="3">her</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_342" offset="7151" length="2">
+        <text>us</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_450" offset="8183" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_456" offset="8190" length="3">
+        <text>all</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_627" offset="9600" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_1462" offset="9106" length="4">
+        <text>lets</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_369" offset="7347" length="6">
+        <text>others</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_378" offset="7359" length="12">
+        <text>those others</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_384" offset="7401" length="13">
+        <text>we here on DU</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_405" offset="7586" length="22">
+        <text>many of her supporters</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_414" offset="7594" length="14">
+        <text>her supporters</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_441" offset="7826" length="3">
+        <text>all</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_462" offset="8229" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_471" offset="8266" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_480" offset="8293" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_489" offset="8455" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_495" offset="8494" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_501" offset="8549" length="8">
+        <text>everyone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_510" offset="8596" length="6">
+        <text>no one</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_519" offset="8667" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_612" offset="9526" length="59">
+        <text>any politician who supports  Fast Track and the TPP or TTIP</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_204" offset="9414" length="8">djean111</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_661" offset="6459" length="8">
+        <text>clintons</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_17_969" offset="6617" length="6">
+        <text>sniper</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-568eb23c_17_670">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_17_710">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_17_680">
+        <trigger offset="6629" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_17_690">
+        <trigger offset="6668" length="4">left</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_17_700">
+        <trigger offset="7195" length="2">be</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_351" offset="7182" length="3">she</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-568eb23c_17_741">
+        <trigger offset="6124" length="10">statements</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_17_948">
+        <trigger offset="6624" length="4">fire</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_17_994">
+        <trigger offset="6668" length="4">left</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_17_1135">
+        <trigger offset="7119" length="8">announce</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_17_1158">
+        <trigger offset="7146" length="4">tell</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_17_1241">
+        <trigger offset="7217" length="8">proposes</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_210" offset="5983" length="9">tularetom</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_17_1188">
+        <trigger offset="7243" length="7">elected</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_17_1271">
+        <trigger offset="7752" length="5">speak</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_17_1294">
+        <trigger offset="8060" length="8">rhetoric</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_222" offset="7645" length="15">VanillaRhapsody</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_17_1323">
+        <trigger offset="8234" length="3">say</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_222" offset="7645" length="15">VanillaRhapsody</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_17_1351">
+        <trigger offset="8472" length="8">opposing</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_222" offset="7645" length="15">VanillaRhapsody</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_17_1374">
+        <trigger offset="8605" length="11">complaining</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_17_1395">
+        <trigger offset="8840" length="6">spoken</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_198" offset="8761" length="8">djean111</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_17_1471">
+        <trigger offset="9166" length="4">said</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_228" offset="9033" length="15">VanillaRhapsody</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_17_1517">
+        <trigger offset="9222" length="3">say</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_228" offset="9033" length="15">VanillaRhapsody</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_17_1494">
+        <trigger offset="9193" length="7">talking</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_17_1540">
+        <trigger offset="9342" length="4">said</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_17_228" offset="9033" length="15">VanillaRhapsody</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_17_1586">
+        <trigger offset="9688" length="8">speeches</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_17_204" offset="9414" length="8">djean111</source>
+          </sentiment>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

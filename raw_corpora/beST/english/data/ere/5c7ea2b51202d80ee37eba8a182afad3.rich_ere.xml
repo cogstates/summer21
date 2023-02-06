@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="55142ee50000000000000031" doc_id="5c7ea2b51202d80ee37eba8a182afad3" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-13" noun_type="NAM" source="5c7ea2b51202d80ee37eba8a182afad3" offset="14" length="11">
+        <mention_text>debt.b.gone</mention_text>
+      </entity_mention>
+      <entity_mention id="m-19" noun_type="PRO" source="5c7ea2b51202d80ee37eba8a182afad3" offset="112" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-25" noun_type="PRO" source="5c7ea2b51202d80ee37eba8a182afad3" offset="126" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-31" noun_type="PRO" source="5c7ea2b51202d80ee37eba8a182afad3" offset="180" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-37" noun_type="PRO" source="5c7ea2b51202d80ee37eba8a182afad3" offset="224" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-52" noun_type="PRO" source="5c7ea2b51202d80ee37eba8a182afad3" offset="264" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-58" noun_type="PRO" source="5c7ea2b51202d80ee37eba8a182afad3" offset="294" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-79" noun_type="PRO" source="5c7ea2b51202d80ee37eba8a182afad3" offset="359" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-85" noun_type="PRO" source="5c7ea2b51202d80ee37eba8a182afad3" offset="424" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-186" noun_type="NOM" source="5c7ea2b51202d80ee37eba8a182afad3" offset="430" length="20">
+        <mention_text>a temporary employer</mention_text>
+        <nom_head source="5c7ea2b51202d80ee37eba8a182afad3" offset="442" length="8">employer</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-49" type="ORG" specificity="specific">
+      <entity_mention id="m-43" noun_type="NOM" source="5c7ea2b51202d80ee37eba8a182afad3" offset="264" length="11">
+        <mention_text>my employer</mention_text>
+        <nom_head source="5c7ea2b51202d80ee37eba8a182afad3" offset="267" length="8">employer</nom_head>
+      </entity_mention>
+      <entity_mention id="m-64" noun_type="PRO" source="5c7ea2b51202d80ee37eba8a182afad3" offset="311" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-76" type="PER" specificity="specific">
+      <entity_mention id="m-70" noun_type="PRO" source="5c7ea2b51202d80ee37eba8a182afad3" offset="332" length="6">
+        <mention_text>anyone</mention_text>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers/>
+  <relations>
+    <relation id="r-443" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-97" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-52" role="employeemember">my</rel_arg1>
+        <rel_arg2 entity_id="ent-49" entity_mention_id="m-43" role="org">my employer</rel_arg2>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-110">
+      <event_mention id="em-112" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="5c7ea2b51202d80ee37eba8a182afad3" offset="146" length="9">redundant</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-25" role="person" realis="true">I</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-161">
+      <event_mention id="em-133" type="contact" subtype="broadcast" realis="other" audience="oneway" formality="formal" medium="notinperson" schedule="planned">
+        <trigger source="5c7ea2b51202d80ee37eba8a182afad3" offset="254" length="6">letter</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-52" role="entity" realis="true">my</em_arg>
+        <em_arg entity_id="ent-49" entity_mention_id="m-43" role="entity" realis="true">my employer</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-213">
+      <event_mention id="em-192" type="contact" subtype="contact" realis="actual" audience="canttell" formality="formal" medium="canttell" schedule="planned">
+        <trigger source="5c7ea2b51202d80ee37eba8a182afad3" offset="236" length="7">advised</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-37" role="entity" realis="true">I</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-236">
+      <event_mention id="em-215" type="contact" subtype="contact" realis="other" audience="canttell" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="5c7ea2b51202d80ee37eba8a182afad3" offset="102" length="6">advice</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-19" role="entity" realis="true">my</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

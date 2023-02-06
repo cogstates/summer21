@@ -1,0 +1,1132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56cde0190000000000000016">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-750">
+        <trigger offset="252" length="6">walked</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-760">
+        <trigger offset="157" length="11">campaigners</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-770">
+        <trigger offset="289" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-780">
+        <trigger offset="1447" length="7">outside</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-790">
+        <trigger offset="2405" length="2">at</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-800">
+        <trigger offset="2525" length="2">of</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-810">
+        <trigger offset="3156" length="8">lecturer</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-828">
+        <trigger offset="2515" length="5">asked</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-444" offset="2504" length="1">
+            <text>i</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-540" offset="2521" length="11">
+            <text>one of them</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-849">
+        <trigger offset="1908" length="8">approach</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-240" offset="1882" length="9">laura_802</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-330" offset="1904" length="3">
+            <text>her</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-240" offset="1882" length="9">laura_802</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-354" offset="1917" length="90">
+            <text>a group of students who said they didn't really know anything about the two voting systems</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-240" offset="1882" length="9">laura_802</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-870">
+        <trigger offset="567" length="8">approach</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-312" offset="563" length="3">
+            <text>her</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-180" offset="14" length="9">laura_802</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-348" offset="576" length="90">
+            <text>a group of students who said they didn't really know anything about the two voting systems</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-180" offset="14" length="9">laura_802</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-891">
+        <trigger offset="252" length="6">walked</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-246" offset="242" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-180" offset="14" length="9">laura_802</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-738" offset="271" length="29">
+            <text>the student flats in the area</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-180" offset="14" length="9">laura_802</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-912">
+        <trigger offset="3185" length="7">trapped</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-588" offset="3181" length="3">
+            <text>hed</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-606" offset="3193" length="12">
+            <text>a campaigner</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-933">
+        <trigger offset="125" length="10">discussion</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-120" offset="91" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-180" offset="14" length="9">laura_802</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-264" offset="141" length="86">
+            <text>the 'yes party' campaigners that were standing outside the door of the polling station</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-180" offset="14" length="9">laura_802</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-708" offset="208" length="19">
+            <text>the polling station</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-180" offset="14" length="9">laura_802</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1014" offset="85" length="5">
+            <text>today</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-180" offset="14" length="9">laura_802</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-114" offset="70" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-120" offset="91" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-126" offset="364" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-132" offset="553" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-138" offset="783" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-144" offset="972" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-150" offset="1099" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-156" offset="1127" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-162" offset="1205" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-168" offset="1554" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-174" offset="1582" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-180" offset="14" length="9">
+        <text>laura_802</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="1894" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-192" offset="3410" length="9">
+        <text>laura_802</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-198" offset="3422" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-204" offset="3450" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-210" offset="3528" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-216" offset="3875" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-222" offset="3731" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-228" offset="3687" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-234" offset="3660" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-240" offset="1882" length="9">
+        <text>laura_802</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-246" offset="242" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-258" offset="438" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-264" offset="141" length="86">
+        <text>the 'yes party' campaigners that were standing outside the door of the polling station</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-270" offset="984" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-276" offset="1148" length="51">
+        <text>the parties' representatives at the polling station</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-282" offset="1093" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-288" offset="1425" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-294" offset="3471" length="51">
+        <text>the parties' representatives at the polling station</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-192" offset="3410" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-300" offset="3849" length="17">
+        <text>a group of idiots</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-618" offset="3340" length="8">neillya1</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-306" offset="456" length="8">
+        <text>One girl</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-312" offset="563" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-318" offset="671" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-324" offset="1503" length="13">
+        <text>this one girl</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-330" offset="1904" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-240" offset="1882" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-336" offset="2012" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-240" offset="1882" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-342" offset="698" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-348" offset="576" length="90">
+        <text>a group of students who said they didn't really know anything about the two voting systems</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-354" offset="1917" length="90">
+        <text>a group of students who said they didn't really know anything about the two voting systems</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-360" offset="2039" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-366" offset="2090" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-372" offset="2117" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1017" offset="605" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1038" offset="1946" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-378" offset="845" length="8">
+        <text>students</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-384" offset="1627" length="4">
+        <text>Your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-390" offset="1641" length="7">
+        <text>TSRians</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-396" offset="1375" length="10">
+        <text>passers by</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-402" offset="1672" length="12">
+        <text>Cheshire_Cat</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-408" offset="1726" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-414" offset="1816" length="4">
+        <text>Yuck</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-420" offset="2184" length="8">
+        <text>f00ddude</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-426" offset="2234" length="1">
+        <text>i</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-432" offset="2313" length="1">
+        <text>i</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-438" offset="2408" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-444" offset="2504" length="1">
+        <text>i</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-450" offset="2537" length="1">
+        <text>i</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-456" offset="2672" length="1">
+        <text>i</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-462" offset="3104" length="1">
+        <text>i</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-468" offset="3132" length="1">
+        <text>i</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-474" offset="3245" length="1">
+        <text>i</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-480" offset="2620" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-486" offset="3153" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-492" offset="2466" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-498" offset="2252" length="60">
+        <text>this bitch with a megaphone trying to get people to vote yes</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-504" offset="2320" length="38">
+        <text>the yes campaigners who are doing this</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-510" offset="2385" length="29">
+        <text>the yes campaigners at my uni</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-516" offset="2486" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-522" offset="2528" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-528" offset="1013" length="63">
+        <text>the students who had less knowledge about the new voting system</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-534" offset="2294" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-540" offset="2521" length="11">
+        <text>one of them</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-546" offset="2556" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-552" offset="2600" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-558" offset="2691" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-564" offset="2710" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-570" offset="2855" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-576" offset="2801" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-582" offset="2820" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-588" offset="3181" length="3">
+        <text>hed</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-594" offset="3153" length="11">
+        <text>my lecturer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-600" offset="3174" length="2">
+        <text>us</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-606" offset="3193" length="12">
+        <text>a campaigner</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-612" offset="3232" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-618" offset="3340" length="8">
+        <text>neillya1</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-624" offset="313" length="35">
+        <text>any students that came out the door</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-630" offset="146" length="9">
+        <text>yes party</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-636" offset="1283" length="68">
+        <text>a party who claims they are campaigning for a 'fairer voting system'</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-642" offset="1302" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-648" offset="1148" length="11">
+        <text>the parties</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-654" offset="3471" length="11">
+        <text>the parties</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-192" offset="3410" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1032" offset="1402" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1044" offset="2156" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-660" offset="531" length="3">
+        <text>BNP</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-306" offset="456" length="8">One girl</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-666" offset="762" length="14">
+        <text>the 'no party'</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-672" offset="2648" length="8">
+        <text>lib dems</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-678" offset="2719" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-684" offset="2779" length="12">
+        <text>conservative</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-690" offset="2769" length="6">
+        <text>labour</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-696" offset="1766" length="12">
+        <text>both parties</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-402" offset="1672" length="12">Cheshire_Cat</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-702" offset="3760" length="10">
+        <text>government</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-708" offset="208" length="19">
+        <text>the polling station</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-714" offset="1180" length="19">
+        <text>the polling station</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-720" offset="1455" length="19">
+        <text>the polling station</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-726" offset="3503" length="19">
+        <text>the polling station</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-732" offset="292" length="8">
+        <text>the area</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-252" offset="382" length="17">
+        <text>these campaigners</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-738" offset="271" length="29">
+        <text>the student flats in the area</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-744" offset="2408" length="6">
+        <text>my uni</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1023" offset="738" length="38">
+        <text>no representatives from the 'no party'</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1050" offset="2427" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1059" offset="2434" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1065" offset="2938" length="11">
+        <text>parliaments</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1124" offset="2842" length="11">
+        <text>parliaments</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1086" offset="3263" length="3">
+        <text>uni</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1074" offset="3263" length="12">
+        <text>uni campuses</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1092" offset="3305" length="12">
+        <text>these people</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1130" offset="2889" length="9">
+        <text>one party</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-750">
+        <trigger offset="252" length="6">walked</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-760">
+        <trigger offset="157" length="11">campaigners</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-770">
+        <trigger offset="289" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-780">
+        <trigger offset="1447" length="7">outside</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-790">
+        <trigger offset="2405" length="2">at</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="2184" length="8">f00ddude</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-800">
+        <trigger offset="2525" length="2">of</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-810">
+        <trigger offset="3156" length="8">lecturer</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-828">
+        <trigger offset="2515" length="5">asked</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-849">
+        <trigger offset="1908" length="8">approach</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-402" offset="1672" length="12">Cheshire_Cat</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-870">
+        <trigger offset="567" length="8">approach</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-891">
+        <trigger offset="252" length="6">walked</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-912">
+        <trigger offset="3185" length="7">trapped</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-933">
+        <trigger offset="125" length="10">discussion</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="14" length="9">laura_802</source>
+          </sentiment>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

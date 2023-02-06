@@ -1,0 +1,1906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56fc3ed20000000000000006">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-551">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-561">
+        <trigger offset="207" length="7">OFFICER</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-581">
+        <trigger offset="425" length="7">officer</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-571">
+        <trigger offset="284" length="2">of</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-591">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-601">
+        <trigger offset="464" length="8">Georgian</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-627">
+        <trigger offset="452" length="7">outside</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-646">
+        <trigger offset="569" length="8">Minister</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-656">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-675">
+        <trigger offset="849" length="16">Strasbourg-based</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-685">
+        <trigger offset="874" length="2">of</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-695">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-720">
+        <trigger offset="1017" length="13">Houston-based</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-730">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-740">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-239" offset="1219" length="7">Georgia</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-756">
+        <trigger offset="1291" length="8">Georgian</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-239" offset="1219" length="7">Georgia</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-787">
+        <trigger offset="1475" length="4">from</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-875">
+        <trigger offset="2446" length="4">from</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-803">
+        <trigger offset="1808" length="6">leader</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-813">
+        <trigger offset="1970" length="5">visit</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-823">
+        <trigger offset="2014" length="8">European</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-833">
+        <trigger offset="2014" length="8">European</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-843">
+        <trigger offset="2054" length="3">his</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-865">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-891">
+        <trigger offset="219" length="5">DEATH</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="yes"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-47" offset="201" length="13">
+            <text>A CIA OFFICER</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-912">
+        <trigger offset="410" length="5">death</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-119" offset="419" length="13">
+            <text>a CIA officer</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-125" offset="452" length="28">
+            <text>outside the Georgian capital</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-944" offset="491" length="12">
+            <text>20 years ago</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1007">
+        <trigger offset="691" length="7">killing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-1024" offset="720" length="12">
+            <text>Aug. 8, 1993</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1309">
+        <trigger offset="1067" length="6">murder</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-221" offset="1058" length="8">
+            <text>Woodruff</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1351">
+        <trigger offset="1249" length="5">death</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-239" offset="1219" length="7">Georgia</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-245" offset="1238" length="8">
+            <text>Woodruff</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-239" offset="1219" length="7">Georgia</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-251" offset="1281" length="18">
+            <text>a drunken Georgian</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1481">
+        <trigger offset="1368" length="6">murder</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-266" offset="1326" length="16">
+            <text>Anzor Sharmaidze</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1789">
+        <trigger offset="1764" length="7">killing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-311" offset="1597" length="10">Tsulukiani</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-329" offset="1669" length="10">
+            <text>Sharmaidze</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-311" offset="1597" length="10">Tsulukiani</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1889">
+        <trigger offset="2349" length="5">death</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-470" offset="2270" length="7">Pullara</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-476" offset="2338" length="8">
+            <text>Woodruff</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-470" offset="2270" length="7">Pullara</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2010">
+        <trigger offset="2501" length="6">murder</trigger>
+        <beliefs>
+          <belief type="na"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-488" offset="2457" length="10">
+            <text>Sharmaidze</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2052">
+        <trigger offset="2792" length="6">murder</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-500" offset="2549" length="7">Pullara</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-518" offset="2644" length="154">
+            <text>a fall guy who satisfied both Washington’s desire for a culprit and Moscow’s desire that Russia be kept distant from any hint of involvement in the murder</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-500" offset="2549" length="7">Pullara</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-542" offset="2733" length="6">
+            <text>Russia</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-533" offset="2712" length="6">Moscow</source>
+              </belief>
+              <belief type="rob" polarity="neg" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-947">
+        <trigger offset="401" length="8">shooting</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-119" offset="419" length="13">
+            <text>a CIA officer</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-125" offset="452" length="28">
+            <text>outside the Georgian capital</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-979" offset="491" length="12">
+            <text>20 years ago</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1154">
+        <trigger offset="691" length="7">killing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-1171" offset="720" length="12">
+            <text>Aug. 8, 1993</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1330">
+        <trigger offset="1067" length="6">murder</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-221" offset="1058" length="8">
+            <text>Woodruff</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1379">
+        <trigger offset="1267" length="4">shot</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-239" offset="1219" length="7">Georgia</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-251" offset="1281" length="18">
+            <text>a drunken Georgian</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-239" offset="1219" length="7">Georgia</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-245" offset="1238" length="8">
+            <text>Woodruff</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-239" offset="1219" length="7">Georgia</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1502">
+        <trigger offset="1368" length="6">murder</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-239" offset="1219" length="7">Georgia</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-266" offset="1326" length="16">
+            <text>Anzor Sharmaidze</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-239" offset="1219" length="7">Georgia</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1810">
+        <trigger offset="1764" length="7">killing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-311" offset="1597" length="10">Tsulukiani</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-329" offset="1669" length="10">
+            <text>Sharmaidze</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-311" offset="1597" length="10">Tsulukiani</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2031">
+        <trigger offset="2501" length="6">murder</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-488" offset="2457" length="10">
+            <text>Sharmaidze</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2080">
+        <trigger offset="2792" length="6">murder</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-500" offset="2549" length="7">Pullara</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-518" offset="2644" length="154">
+            <text>a fall guy who satisfied both Washington’s desire for a culprit and Moscow’s desire that Russia be kept distant from any hint of involvement in the murder</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-500" offset="2549" length="7">Pullara</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-542" offset="2733" length="6">
+            <text>Russia</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-500" offset="2549" length="7">Pullara</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-984">
+        <trigger offset="627" length="8">previous</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-149" offset="578" length="14">Tea Tsulukiani</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-158" offset="627" length="20">
+            <text>previous governments</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-149" offset="578" length="14">Tea Tsulukiani</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1175">
+        <trigger offset="817" length="9">interview</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-176" offset="801" length="3">
+            <text>she</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1198">
+        <trigger offset="836" length="5">visit</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-176" offset="801" length="3">
+            <text>she</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-197" offset="910" length="19">
+            <text>Bidzina Ivanishvili</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-666" offset="866" length="17">
+            <text>Council of Europe</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-182" offset="849" length="10">
+            <text>Strasbourg</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1831">
+        <trigger offset="1970" length="5">visit</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-380" offset="1956" length="11">
+            <text>Ivanishvili</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-386" offset="1979" length="10">
+            <text>Strasbourg</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1863" offset="1990" length="9">
+            <text>last week</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1242">
+        <trigger offset="935" length="11">took office</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-705" offset="931" length="3">
+            <text>who</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1267" offset="895" length="14">
+            <text>Prime Minister</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1272">
+        <trigger offset="967" length="9">elections</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-705" offset="931" length="3">
+            <text>who</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1297" offset="895" length="14">
+            <text>Prime Minister</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1304" offset="980" length="7">
+            <text>October</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1407">
+        <trigger offset="1303" length="6">former</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-239" offset="1219" length="7">Georgia</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-260" offset="1301" length="23">
+            <text>a former Soviet soldier</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-239" offset="1219" length="7">Georgia</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1432" offset="1317" length="7">
+            <text>soldier</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-239" offset="1219" length="7">Georgia</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-272" offset="1310" length="6">
+            <text>Soviet</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-239" offset="1219" length="7">Georgia</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1444">
+        <trigger offset="1355" length="9">convicted</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-266" offset="1326" length="16">
+            <text>Anzor Sharmaidze</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1469" offset="1368" length="6">
+            <text>murder</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1476" offset="1378" length="4">
+            <text>1994</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1523">
+        <trigger offset="1387" length="9">sentenced</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-266" offset="1326" length="16">
+            <text>Anzor Sharmaidze</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1548" offset="1368" length="6">
+            <text>murder</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1555" offset="1400" length="18">
+            <text>15 years in prison</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1562" offset="1445" length="12">
+            <text>18 1/2 years</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1567">
+        <trigger offset="1466" length="8">released</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-278" offset="1459" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1592" offset="1488" length="4">
+            <text>2008</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-775" offset="1480" length="4">
+            <text>jail</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1910">
+        <trigger offset="2437" length="8">released</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-488" offset="2457" length="10">
+            <text>Sharmaidze</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1935" offset="2501" length="6">
+            <text>murder</text>
+            <beliefs>
+              <belief type="ncb" polarity="neg" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1604">
+        <trigger offset="1524" length="9">testimony</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-284" offset="1499" length="9">
+            <text>witnesses</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1627">
+        <trigger offset="1524" length="9">testimony</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-305" offset="1583" length="3">
+            <text>him</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1650">
+        <trigger offset="1509" length="8">recanted</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-284" offset="1499" length="9">
+            <text>witnesses</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1673">
+        <trigger offset="1557" length="8">tortured</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-284" offset="1499" length="9">witnesses</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-299" offset="1543" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-284" offset="1499" length="9">witnesses</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1696">
+        <trigger offset="1684" length="6">jailed</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-311" offset="1597" length="10">Tsulukiani</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-329" offset="1669" length="10">
+            <text>Sharmaidze</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-311" offset="1597" length="10">Tsulukiani</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-335" offset="1705" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-311" offset="1597" length="10">Tsulukiani</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1728" offset="1762" length="9">
+            <text>a killing</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-311" offset="1597" length="10">Tsulukiani</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1733">
+        <trigger offset="1412" length="6">prison</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-266" offset="1326" length="16">
+            <text>Anzor Sharmaidze</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1758" offset="1368" length="6">
+            <text>murder</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1761">
+        <trigger offset="1480" length="4">jail</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-278" offset="1459" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-775" offset="1480" length="4">
+            <text>jail</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1945">
+        <trigger offset="2451" length="4">jail</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-488" offset="2457" length="10">
+            <text>Sharmaidze</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1970" offset="2501" length="6">
+            <text>murder</text>
+            <beliefs>
+              <belief type="ncb" polarity="neg" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1866">
+        <trigger offset="2298" length="9">interview</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-470" offset="2270" length="7">
+            <text>Pullara</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1980">
+        <trigger offset="2490" length="7">cleared</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-488" offset="2457" length="10">
+            <text>Sharmaidze</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2005" offset="2501" length="6">
+            <text>murder</text>
+            <beliefs>
+              <belief type="ncb" polarity="neg" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-41" offset="172" length="7">
+        <text>GEORGIA</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-92" offset="287" length="7">
+        <text>Georgia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-134" offset="464" length="8">
+        <text>Georgian</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-233" offset="1151" length="7">
+        <text>Georgia</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-206" offset="998" length="15">Michael Pullara</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-239" offset="1219" length="7">
+        <text>Georgia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-353" offset="1798" length="7">
+        <text>Georgia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-374" offset="1861" length="7">
+        <text>Georgia</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-750" offset="1291" length="8">
+        <text>Georgian</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-239" offset="1219" length="7">Georgia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-859" offset="2161" length="11">
+        <text>the country</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-47" offset="201" length="13">
+        <text>A CIA OFFICER</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-113" offset="434" length="16">
+        <text>Freddie Woodruff</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-119" offset="419" length="13">
+        <text>a CIA officer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-221" offset="1058" length="8">
+        <text>Woodruff</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-245" offset="1238" length="8">
+        <text>Woodruff</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-476" offset="2338" length="8">
+        <text>Woodruff</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-56" offset="203" length="3">
+        <text>CIA</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-107" offset="421" length="3">
+        <text>CIA</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-65" offset="248" length="10">
+        <text>STRASBOURG</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-182" offset="849" length="10">
+        <text>Strasbourg</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-386" offset="1979" length="10">
+        <text>Strasbourg</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-74" offset="260" length="6">
+        <text>France</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-83" offset="269" length="25">
+        <text>The government of Georgia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-158" offset="627" length="20">
+        <text>previous governments</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-149" offset="578" length="14">Tea Tsulukiani</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-422" offset="2054" length="18">
+        <text>his new government</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-380" offset="1956" length="11">Ivanishvili</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-482" offset="2376" length="18">
+        <text>the new government</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-98" offset="383" length="12">
+        <text>Soviet Union</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-272" offset="1310" length="6">
+        <text>Soviet</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-125" offset="452" length="28">
+        <text>outside the Georgian capital</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-140" offset="482" length="7">
+        <text>Tbilisi</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-611" offset="460" length="20">
+        <text>the Georgian capital</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-149" offset="578" length="14">
+        <text>Tea Tsulukiani</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-176" offset="801" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-311" offset="1597" length="10">
+        <text>Tsulukiani</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-317" offset="1613" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-323" offset="1656" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-167" offset="744" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-188" offset="877" length="6">
+        <text>Europe</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-401" offset="2014" length="8">
+        <text>European</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-197" offset="910" length="19">
+        <text>Bidzina Ivanishvili</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-380" offset="1956" length="11">
+        <text>Ivanishvili</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-416" offset="2054" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-431" offset="2107" length="3">
+        <text>His</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-437" offset="2107" length="23">His political opponents</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-705" offset="931" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-206" offset="998" length="15">
+        <text>Michael Pullara</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-215" offset="1015" length="109">
+        <text>a Houston-based lawyer who has studied the Woodruff murder case and lobbied for years for a new investigation</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-227" offset="1131" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-470" offset="2270" length="7">
+        <text>Pullara</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-500" offset="2549" length="7">
+        <text>Pullara</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-506" offset="2563" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-251" offset="1281" length="18">
+        <text>a drunken Georgian</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-239" offset="1219" length="7">Georgia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-260" offset="1301" length="23">
+        <text>a former Soviet soldier</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-239" offset="1219" length="7">Georgia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-266" offset="1326" length="16">
+        <text>Anzor Sharmaidze</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-239" offset="1219" length="7">Georgia</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-278" offset="1459" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-305" offset="1583" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-329" offset="1669" length="10">
+        <text>Sharmaidze</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-488" offset="2457" length="10">
+        <text>Sharmaidze</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-494" offset="2519" length="3">
+        <text>His</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-512" offset="2576" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-518" offset="2644" length="154">
+        <text>a fall guy who satisfied both Washington’s desire for a culprit and Moscow’s desire that Russia be kept distant from any hint of involvement in the murder</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-885" offset="2583" length="58">
+        <text>a victim of a “cruel compromise for reasons of expediency”</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-284" offset="1499" length="9">
+        <text>witnesses</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-293" offset="1518" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-299" offset="1543" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-335" offset="1705" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-344" offset="1731" length="7">
+        <text>someone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-368" offset="1828" length="22">
+        <text>Eduard A. Shevardnadze</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-311" offset="1597" length="10">Tsulukiani</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-797" offset="1798" length="28">
+        <text>Georgia’s leader at the time</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-311" offset="1597" length="10">Tsulukiani</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-392" offset="2014" length="34">
+        <text>European officials and legislators</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-407" offset="2014" length="34">
+        <text>European officials and legislators</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-437" offset="2107" length="23">
+        <text>His political opponents</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-446" offset="2140" length="19">
+        <text>Mikhail Saakashvili</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-464" offset="2206" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-431" offset="2107" length="3">His</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-853" offset="2161" length="36">
+        <text>the country’s pro-American president</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-455" offset="2179" length="8">
+        <text>American</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-446" offset="2140" length="19">Mikhail Saakashvili</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-524" offset="2674" length="10">
+        <text>Washington</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-533" offset="2712" length="6">
+        <text>Moscow</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-542" offset="2733" length="6">
+        <text>Russia</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-533" offset="2712" length="6">Moscow</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-637" offset="561" length="7">
+        <text>Justice</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-666" offset="866" length="17">
+        <text>Council of Europe</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-711" offset="1017" length="7">
+        <text>Houston</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-766" offset="1412" length="6">
+        <text>prison</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-775" offset="1480" length="4">
+        <text>jail</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-781" offset="2451" length="4">
+        <text>jail</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-551">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-561">
+        <trigger offset="207" length="7">OFFICER</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-581">
+        <trigger offset="425" length="7">officer</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-571">
+        <trigger offset="284" length="2">of</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-591">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-601">
+        <trigger offset="464" length="8">Georgian</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-627">
+        <trigger offset="452" length="7">outside</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-646">
+        <trigger offset="569" length="8">Minister</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-656">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-675">
+        <trigger offset="849" length="16">Strasbourg-based</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-685">
+        <trigger offset="874" length="2">of</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-695">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-720">
+        <trigger offset="1017" length="13">Houston-based</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-730">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-740">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-756">
+        <trigger offset="1291" length="8">Georgian</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-787">
+        <trigger offset="1475" length="4">from</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-875">
+        <trigger offset="2446" length="4">from</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-803">
+        <trigger offset="1808" length="6">leader</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-813">
+        <trigger offset="1970" length="5">visit</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-823">
+        <trigger offset="2014" length="8">European</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-833">
+        <trigger offset="2014" length="8">European</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-843">
+        <trigger offset="2054" length="3">his</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-380" offset="1956" length="11">Ivanishvili</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-865">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="yes"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-891">
+        <trigger offset="219" length="5">DEATH</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-912">
+        <trigger offset="410" length="5">death</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1007">
+        <trigger offset="691" length="7">killing</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1309">
+        <trigger offset="1067" length="6">murder</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1351">
+        <trigger offset="1249" length="5">death</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1481">
+        <trigger offset="1368" length="6">murder</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1789">
+        <trigger offset="1764" length="7">killing</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-368" offset="1828" length="22">Eduard A. Shevardnadze</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1889">
+        <trigger offset="2349" length="5">death</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2010">
+        <trigger offset="2501" length="6">murder</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2052">
+        <trigger offset="2792" length="6">murder</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-524" offset="2674" length="10">Washington</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-947">
+        <trigger offset="401" length="8">shooting</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1154">
+        <trigger offset="691" length="7">killing</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1330">
+        <trigger offset="1067" length="6">murder</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1379">
+        <trigger offset="1267" length="4">shot</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1502">
+        <trigger offset="1368" length="6">murder</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1810">
+        <trigger offset="1764" length="7">killing</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-368" offset="1828" length="22">Eduard A. Shevardnadze</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2031">
+        <trigger offset="2501" length="6">murder</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2080">
+        <trigger offset="2792" length="6">murder</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-984">
+        <trigger offset="627" length="8">previous</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-149" offset="578" length="14">Tea Tsulukiani</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1175">
+        <trigger offset="817" length="9">interview</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1198">
+        <trigger offset="836" length="5">visit</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1831">
+        <trigger offset="1970" length="5">visit</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1242">
+        <trigger offset="935" length="11">took office</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1272">
+        <trigger offset="967" length="9">elections</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1407">
+        <trigger offset="1303" length="6">former</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1444">
+        <trigger offset="1355" length="9">convicted</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1523">
+        <trigger offset="1387" length="9">sentenced</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1567">
+        <trigger offset="1466" length="8">released</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1910">
+        <trigger offset="2437" length="8">released</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1604">
+        <trigger offset="1524" length="9">testimony</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-284" offset="1499" length="9">witnesses</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1627">
+        <trigger offset="1524" length="9">testimony</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-284" offset="1499" length="9">witnesses</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1650">
+        <trigger offset="1509" length="8">recanted</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1673">
+        <trigger offset="1557" length="8">tortured</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-284" offset="1499" length="9">witnesses</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1696">
+        <trigger offset="1684" length="6">jailed</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-311" offset="1597" length="10">Tsulukiani</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1733">
+        <trigger offset="1412" length="6">prison</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1761">
+        <trigger offset="1480" length="4">jail</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1945">
+        <trigger offset="2451" length="4">jail</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1866">
+        <trigger offset="2298" length="9">interview</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1980">
+        <trigger offset="2490" length="7">cleared</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="551c257e0000000000000001" doc_id="4798bc0e166fe93893bdf2d922f06258" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-13" noun_type="NAM" source="4798bc0e166fe93893bdf2d922f06258" offset="14" length="9">
+        <mention_text>hrmjustin</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-25" type="GPE" specificity="specific">
+      <entity_mention id="m-19" noun_type="NAM" source="4798bc0e166fe93893bdf2d922f06258" offset="81" length="8">
+        <mention_text>NEW YORK</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-34" type="PER" specificity="specific">
+      <entity_mention id="m-28" noun_type="NOM" source="4798bc0e166fe93893bdf2d922f06258" offset="100" length="12">
+        <mention_text>A pedestrian</mention_text>
+        <nom_head source="4798bc0e166fe93893bdf2d922f06258" offset="102" length="10">pedestrian</nom_head>
+      </entity_mention>
+      <entity_mention id="m-91" noun_type="NAM" source="4798bc0e166fe93893bdf2d922f06258" offset="275" length="12">
+        <mention_text>Samantha Lee</mention_text>
+      </entity_mention>
+      <entity_mention id="m-106" noun_type="PRO" source="4798bc0e166fe93893bdf2d922f06258" offset="363" length="3">
+        <mention_text>She</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-43" type="LOC" specificity="specific">
+      <entity_mention id="m-37" noun_type="NAM" source="4798bc0e166fe93893bdf2d922f06258" offset="161" length="15">
+        <mention_text>Upper West Side</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-52" type="GPE" specificity="specific">
+      <entity_mention id="m-46" noun_type="NAM" source="4798bc0e166fe93893bdf2d922f06258" offset="180" length="9">
+        <mention_text>Manhattan</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-61" type="FAC" specificity="specific">
+      <entity_mention id="m-55" noun_type="NAM" source="4798bc0e166fe93893bdf2d922f06258" offset="220" length="29">
+        <mention_text>Broadway and West 96th Street</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-70" type="FAC" specificity="specific">
+      <entity_mention id="m-64" noun_type="NAM" source="4798bc0e166fe93893bdf2d922f06258" offset="220" length="8">
+        <mention_text>Broadway</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-79" type="FAC" specificity="specific">
+      <entity_mention id="m-73" noun_type="NAM" source="4798bc0e166fe93893bdf2d922f06258" offset="233" length="16">
+        <mention_text>West 96th Street</mention_text>
+      </entity_mention>
+      <entity_mention id="m-118" noun_type="NAM" source="4798bc0e166fe93893bdf2d922f06258" offset="409" length="16">
+        <mention_text>West 96th Street</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-88" type="PER" specificity="specific">
+      <entity_mention id="m-82" noun_type="NOM" source="4798bc0e166fe93893bdf2d922f06258" offset="252" length="6">
+        <mention_text>Police</mention_text>
+        <nom_head source="4798bc0e166fe93893bdf2d922f06258" offset="252" length="6">Police</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-103" type="PER" specificity="nonspecific">
+      <entity_mention id="m-97" noun_type="NOM" source="4798bc0e166fe93893bdf2d922f06258" offset="313" length="10">
+        <mention_text>the driver</mention_text>
+        <nom_head source="4798bc0e166fe93893bdf2d922f06258" offset="317" length="6">driver</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-124" type="FAC" specificity="specific">
+      <entity_mention id="m-112" noun_type="NOM" source="4798bc0e166fe93893bdf2d922f06258" offset="387" length="38">
+        <mention_text>the eastbound lane of West 96th Street</mention_text>
+        <nom_head source="4798bc0e166fe93893bdf2d922f06258" offset="401" length="4">lane</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-214" source="4798bc0e166fe93893bdf2d922f06258" offset="263" length="2" type="age">26</filler>
+    <filler id="f-366" source="4798bc0e166fe93893bdf2d922f06258" offset="341" length="19" type="vehicle">a passing ambulance</filler>
+    <filler id="f-340" source="4798bc0e166fe93893bdf2d922f06258" offset="450" length="21" type="vehicle">a Dodge Charger sedan</filler>
+  </fillers>
+  <relations>
+    <relation id="r-1247" type="physical" subtype="locatednear">
+      <relation_mention id="relm-132" realis="true">
+        <rel_arg1 entity_id="ent-43" entity_mention_id="m-37" role="entity">Upper West Side</rel_arg1>
+        <rel_arg2 entity_id="ent-52" entity_mention_id="m-46" role="loc">Manhattan</rel_arg2>
+        <trigger source="4798bc0e166fe93893bdf2d922f06258" offset="177" length="2">of</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1248" type="physical" subtype="locatednear">
+      <relation_mention id="relm-142" realis="true">
+        <rel_arg1 entity_id="ent-70" entity_mention_id="m-64" role="entity">Broadway</rel_arg1>
+        <rel_arg2 entity_id="ent-79" entity_mention_id="m-73" role="loc">West 96th Street</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1249" type="physical" subtype="locatednear">
+      <relation_mention id="relm-152" realis="true">
+        <rel_arg1 entity_id="ent-34" entity_mention_id="m-106" role="entity">She</rel_arg1>
+        <rel_arg2 entity_id="ent-124" entity_mention_id="m-112" role="loc">the eastbound lane of West 96th Street</rel_arg2>
+        <trigger source="4798bc0e166fe93893bdf2d922f06258" offset="382" length="4">onto</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1250" type="physical" subtype="locatednear">
+      <relation_mention id="relm-183" realis="true">
+        <rel_arg1 entity_id="ent-124" entity_mention_id="m-112" role="entity">the eastbound lane of West 96th Street</rel_arg1>
+        <rel_arg2 entity_id="ent-79" entity_mention_id="m-118" role="loc">West 96th Street</rel_arg2>
+        <trigger source="4798bc0e166fe93893bdf2d922f06258" offset="406" length="2">of</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1251" type="physical" subtype="locatednear">
+      <relation_mention id="relm-196" realis="true">
+        <rel_arg1 entity_id="ent-34" entity_mention_id="m-28" role="entity">A pedestrian</rel_arg1>
+        <rel_arg2 entity_id="ent-43" entity_mention_id="m-37" role="loc">Upper West Side</rel_arg2>
+        <trigger source="4798bc0e166fe93893bdf2d922f06258" offset="154" length="2">on</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1252" type="generalaffiliation" subtype="personage">
+      <relation_mention id="relm-206" realis="true">
+        <rel_arg1 entity_id="ent-34" entity_mention_id="m-91" role="per">Samantha Lee</rel_arg1>
+        <rel_arg2 filler_id="f-214" role="age">26</rel_arg2>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-130">
+      <event_mention id="em-216" type="life" subtype="die" realis="actual">
+        <trigger source="4798bc0e166fe93893bdf2d922f06258" offset="117" length="6">killed</trigger>
+        <em_arg entity_id="ent-34" entity_mention_id="m-28" role="victim" realis="true">A pedestrian</em_arg>
+        <em_arg entity_id="ent-43" entity_mention_id="m-37" role="place" realis="true">Upper West Side</em_arg>
+      </event_mention>
+      <event_mention id="em-251" type="life" subtype="die" realis="actual">
+        <trigger source="4798bc0e166fe93893bdf2d922f06258" offset="192" length="2">It</trigger>
+        <em_arg entity_id="ent-61" entity_mention_id="m-55" role="place" realis="true">Broadway and West 96th Street</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-300">
+      <event_mention id="em-272" type="life" subtype="injure" realis="actual">
+        <trigger source="4798bc0e166fe93893bdf2d922f06258" offset="302" length="7">clipped</trigger>
+        <em_arg entity_id="ent-34" entity_mention_id="m-91" role="victim" realis="true">Samantha Lee</em_arg>
+        <em_arg filler_id="f-366" role="instrument" realis="true">a passing ambulance</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-344">
+      <event_mention id="em-302" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="formal" medium="canttell" schedule="canttell">
+        <trigger source="4798bc0e166fe93893bdf2d922f06258" offset="259" length="3">say</trigger>
+        <em_arg entity_id="ent-88" entity_mention_id="m-82" role="entity" realis="true">Police</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-360">
+      <event_mention id="em-323" type="life" subtype="injure" realis="actual">
+        <trigger source="4798bc0e166fe93893bdf2d922f06258" offset="440" length="6">struck</trigger>
+        <em_arg filler_id="f-340" role="instrument" realis="true">a Dodge Charger sedan</em_arg>
+        <em_arg entity_id="ent-34" entity_mention_id="m-106" role="victim" realis="true">She</em_arg>
+        <em_arg entity_id="ent-124" entity_mention_id="m-112" role="place" realis="true">the eastbound lane of West 96th Street</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

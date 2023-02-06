@@ -1,7 +1,7 @@
-from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trainer, TrainingArguments
+from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trainer
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
 
-from db_implementation.db2hf import DB2HF
+from db_implementation.factbank.fb_dbhf import DB2HF
 
 
 def notify(string):

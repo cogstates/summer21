@@ -1,0 +1,2199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56cdec690000000000000049">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-732">
+        <trigger offset="295" length="6">friend</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="116" length="8">gadawg73</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-742">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="116" length="8">gadawg73</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-752">
+        <trigger offset="4769" length="6">cousin</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-576" offset="4507" length="9">Richard-H</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1202">
+        <trigger offset="2438" length="2">in</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-330" offset="2329" length="6">Godboy</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1332">
+        <trigger offset="4688" length="2">in</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-336" offset="4579" length="6">Godboy</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1687">
+        <trigger offset="2352" length="8">daughter</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-330" offset="2329" length="6">Godboy</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2168">
+        <trigger offset="4602" length="8">daughter</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-336" offset="4579" length="6">Godboy</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2142">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="116" length="8">gadawg73</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2152">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="116" length="8">gadawg73</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2260">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-564" offset="5355" length="6">chanel</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2270">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-564" offset="5355" length="6">chanel</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-768">
+        <trigger offset="6606" length="4">Rape</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="6210" length="5">Ozmar</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-186" offset="6606" length="11">
+            <text>Rape Victim</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="6210" length="5">Ozmar</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-789">
+        <trigger offset="4631" length="5">raped</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-336" offset="4579" length="6">Godboy</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-252" offset="4612" length="28">
+            <text>those 2 punks that raped her</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-336" offset="4579" length="6">Godboy</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-180" offset="4637" length="3">
+            <text>her</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-336" offset="4579" length="6">Godboy</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-690" offset="5909" length="5">
+            <text>Texas</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-336" offset="4579" length="6">Godboy</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-810">
+        <trigger offset="2381" length="5">raped</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-330" offset="2329" length="6">Godboy</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-258" offset="2362" length="28">
+            <text>those 2 punks that raped her</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-330" offset="2329" length="6">Godboy</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-168" offset="2387" length="3">
+            <text>her</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-330" offset="2329" length="6">Godboy</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-684" offset="422" length="5">
+            <text>Texas</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-330" offset="2329" length="6">Godboy</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-943">
+        <trigger offset="310" length="4">rape</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="116" length="8">gadawg73</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-150" offset="291" length="10">
+            <text>his friend</text>
+            <beliefs>
+              <belief type="ncb" polarity="neg" sarcasm="no">
+                <source ere_id="m-108" offset="116" length="8">gadawg73</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-156" offset="315" length="9">
+            <text>this girl</text>
+            <beliefs>
+              <belief type="ncb" polarity="neg" sarcasm="no">
+                <source ere_id="m-108" offset="116" length="8">gadawg73</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2098">
+        <trigger offset="6611" length="6">Victim</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="6210" length="5">Ozmar</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-186" offset="6606" length="11">
+            <text>Rape Victim</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-462" offset="6210" length="5">Ozmar</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-831">
+        <trigger offset="4788" length="5">raped</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-576" offset="4507" length="9">Richard-H</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-612" offset="4811" length="19">
+            <text>the guy that did it</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-576" offset="4507" length="9">Richard-H</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-606" offset="4767" length="16">
+            <text>A cousin of mine</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-576" offset="4507" length="9">Richard-H</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-852">
+        <trigger offset="4838" length="7">suicide</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-576" offset="4507" length="9">Richard-H</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-612" offset="4811" length="19">
+            <text>the guy that did it</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-576" offset="4507" length="9">Richard-H</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-612" offset="4811" length="19">
+            <text>the guy that did it</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-576" offset="4507" length="9">Richard-H</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1346" offset="4889" length="9">
+            <text>a shotgun</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-576" offset="4507" length="9">Richard-H</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-873">
+        <trigger offset="4862" length="4">blew</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-576" offset="4507" length="9">Richard-H</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-618" offset="4867" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-576" offset="4507" length="9">Richard-H</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-618" offset="4867" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-576" offset="4507" length="9">Richard-H</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2211">
+        <trigger offset="2056" length="4">jail</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-312" offset="1641" length="4">KMAN</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1136" offset="2022" length="4">
+            <text>They</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-312" offset="1641" length="4">KMAN</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-216" offset="2041" length="11">
+            <text>these punks</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-312" offset="1641" length="4">KMAN</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2250" offset="310" length="4">
+            <text>rape</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-312" offset="1641" length="4">KMAN</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1009">
+        <trigger offset="594" length="7">selling</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-108" offset="116" length="8">gadawg73</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1000" offset="548" length="18">
+            <text>Players these days</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-108" offset="116" length="8">gadawg73</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1034" offset="602" length="9">
+            <text>a t shirt</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-108" offset="116" length="8">gadawg73</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1145">
+        <trigger offset="2035" length="5">throw</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-312" offset="1641" length="4">KMAN</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1136" offset="2022" length="4">
+            <text>They</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-312" offset="1641" length="4">KMAN</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-216" offset="2041" length="11">
+            <text>these punks</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-312" offset="1641" length="4">KMAN</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1127" offset="2056" length="4">
+            <text>jail</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-312" offset="1641" length="4">KMAN</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1367">
+        <trigger offset="5010" length="4">rape</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-588" offset="4922" length="9">Richard-H</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1349" offset="5005" length="4">
+            <text>guys</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-588" offset="4922" length="9">Richard-H</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1358" offset="5015" length="5">
+            <text>women</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-588" offset="4922" length="9">Richard-H</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1463">
+        <trigger offset="5476" length="4">rape</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-564" offset="5355" length="6">chanel</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-2065" offset="5471" length="4">
+            <text>gang</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-564" offset="5355" length="6">chanel</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1573">
+        <trigger offset="2715" length="4">post</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-414" offset="2597" length="5">Ozmar</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1212" offset="2654" length="60">
+            <text>the same people who don't not like Obama because of his race</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-414" offset="2597" length="5">Ozmar</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1596">
+        <trigger offset="3639" length="4">post</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-438" offset="3521" length="5">Ozmar</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1278" offset="3578" length="60">
+            <text>the same people who don't not like Obama because of his race</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-438" offset="3521" length="5">Ozmar</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1639">
+        <trigger offset="1243" length="5">party</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-114" offset="85" length="8">beowolfe</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1048" offset="1132" length="17">
+            <text>16 year old girls</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-114" offset="85" length="8">beowolfe</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1082" offset="1267" length="8">
+            <text>an adult</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-114" offset="85" length="8">beowolfe</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1697">
+        <trigger offset="2456" length="6">bullet</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-330" offset="2329" length="6">Godboy</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-342" offset="2349" length="2">
+            <text>my</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-330" offset="2329" length="6">Godboy</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-222" offset="2466" length="5">
+            <text>their</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-330" offset="2329" length="6">Godboy</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1729" offset="2454" length="8">
+            <text>a bullet</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-330" offset="2329" length="6">Godboy</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1965">
+        <trigger offset="4706" length="6">bullet</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-336" offset="4579" length="6">Godboy</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-348" offset="4599" length="2">
+            <text>my</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-336" offset="4579" length="6">Godboy</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-246" offset="4716" length="5">
+            <text>their</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-336" offset="4579" length="6">Godboy</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1997" offset="4704" length="8">
+            <text>a bullet</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-336" offset="4579" length="6">Godboy</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1734">
+        <trigger offset="2456" length="6">bullet</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-330" offset="2329" length="6">Godboy</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-342" offset="2349" length="2">
+            <text>my</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-330" offset="2329" length="6">Godboy</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-222" offset="2466" length="5">
+            <text>their</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-330" offset="2329" length="6">Godboy</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1766" offset="2454" length="8">
+            <text>a bullet</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-330" offset="2329" length="6">Godboy</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2000">
+        <trigger offset="4706" length="6">bullet</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-336" offset="4579" length="6">Godboy</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-348" offset="4599" length="2">
+            <text>my</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-336" offset="4579" length="6">Godboy</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-246" offset="4716" length="5">
+            <text>their</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-336" offset="4579" length="6">Godboy</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2032" offset="4704" length="8">
+            <text>a bullet</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-336" offset="4579" length="6">Godboy</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1801">
+        <trigger offset="3940" length="6">bullet</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-372" offset="3485" length="13">AmericanFirst</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-1818" offset="3938" length="8">
+            <text>a bullet</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-372" offset="3485" length="13">AmericanFirst</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1314" offset="3911" length="4">
+            <text>They</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-372" offset="3485" length="13">AmericanFirst</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1879">
+        <trigger offset="3016" length="6">bullet</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-360" offset="2521" length="13">AmericanFirst</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1257" offset="2987" length="4">
+            <text>They</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-360" offset="2521" length="13">AmericanFirst</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1904" offset="3014" length="8">
+            <text>a bullet</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-360" offset="2521" length="13">AmericanFirst</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1831">
+        <trigger offset="3940" length="6">bullet</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-372" offset="3485" length="13">AmericanFirst</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1314" offset="3911" length="4">
+            <text>They</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-372" offset="3485" length="13">AmericanFirst</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1856" offset="3938" length="8">
+            <text>a bullet</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-372" offset="3485" length="13">AmericanFirst</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1907">
+        <trigger offset="3016" length="6">bullet</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-360" offset="2521" length="13">AmericanFirst</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1257" offset="2987" length="4">
+            <text>They</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-360" offset="2521" length="13">AmericanFirst</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1932" offset="3014" length="8">
+            <text>a bullet</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-360" offset="2521" length="13">AmericanFirst</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2119">
+        <trigger offset="594" length="7">selling</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-108" offset="116" length="8">gadawg73</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1000" offset="548" length="18">
+            <text>Players these days</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-108" offset="116" length="8">gadawg73</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-102" offset="14" length="8">
+        <text>Gadawg73</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-108" offset="116" length="8">
+        <text>gadawg73</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-114" offset="85" length="8">
+        <text>beowolfe</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-120" offset="633" length="1">
+        <text>i</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-126" offset="677" length="1">
+        <text>i</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-132" offset="1012" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-138" offset="272" length="14">
+        <text>this young man</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-144" offset="291" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-150" offset="291" length="10">
+        <text>his friend</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-156" offset="315" length="9">
+        <text>this girl</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-162" offset="2341" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-168" offset="2387" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-174" offset="4591" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-180" offset="4637" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="6606" length="11">
+        <text>Rape Victim</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-192" offset="779" length="15">
+        <text>the prosecution</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-198" offset="849" length="14">
+        <text>the prosecutor</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-204" offset="879" length="17">
+        <text>everyone involved</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-210" offset="1573" length="16">
+        <text>the accused kids</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-216" offset="2041" length="11">
+        <text>these punks</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-312" offset="1641" length="4">KMAN</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-222" offset="2466" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-330" offset="2329" length="6">Godboy</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-228" offset="3095" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-522" offset="3046" length="6">chanel</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-234" offset="3251" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-528" offset="3242" length="6">chanel</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-240" offset="4236" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-546" offset="4227" length="6">chanel</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-246" offset="4716" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-336" offset="4579" length="6">Godboy</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-252" offset="4612" length="28">
+        <text>those 2 punks that raped her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-336" offset="4579" length="6">Godboy</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-258" offset="2362" length="28">
+        <text>those 2 punks that raped her</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-330" offset="2329" length="6">Godboy</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-264" offset="1738" length="11">
+        <text>Father Time</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-270" offset="5545" length="11">
+        <text>Father Time</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-276" offset="5736" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-282" offset="6268" length="11">
+        <text>Father Time</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-288" offset="1708" length="7">
+        <text>dvinman</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-294" offset="2072" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-300" offset="6238" length="7">
+        <text>dvinman</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-306" offset="6531" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-312" offset="1641" length="4">
+        <text>KMAN</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-318" offset="1981" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-324" offset="4746" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-330" offset="2329" length="6">
+        <text>Godboy</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-336" offset="4579" length="6">
+        <text>Godboy</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-342" offset="2349" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-348" offset="4599" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-354" offset="2253" length="13">
+        <text>AmericanFirst</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-360" offset="2521" length="13">
+        <text>AmericanFirst</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-366" offset="2768" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-372" offset="3485" length="13">
+        <text>AmericanFirst</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-378" offset="3692" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-384" offset="3959" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-570" offset="3414" length="8">Vanquish</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-390" offset="4020" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-396" offset="4072" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-570" offset="3414" length="8">Vanquish</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-402" offset="2864" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-408" offset="3788" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-414" offset="2597" length="5">
+        <text>Ozmar</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-420" offset="2750" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-360" offset="2521" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-426" offset="3174" length="5">
+        <text>Ozmar</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-432" offset="3319" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-438" offset="3521" length="5">
+        <text>Ozmar</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-444" offset="3674" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-372" offset="3485" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-450" offset="4199" length="5">
+        <text>Ozmar</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-456" offset="4304" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-462" offset="6210" length="5">
+        <text>Ozmar</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-468" offset="6685" length="4">
+        <text>Your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-474" offset="2689" length="5">
+        <text>Obama</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-480" offset="2706" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-486" offset="2781" length="5">
+        <text>obama</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-360" offset="2521" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-492" offset="2795" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-360" offset="2521" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-498" offset="3613" length="5">
+        <text>Obama</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-504" offset="3630" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-510" offset="3705" length="5">
+        <text>obama</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-372" offset="3485" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-516" offset="3719" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-372" offset="3485" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1780" offset="2801" length="15">
+        <text>a socialist pig</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-360" offset="2521" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1953" offset="3725" length="15">
+        <text>a socialist pig</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-372" offset="3485" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-522" offset="3046" length="6">
+        <text>chanel</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-528" offset="3242" length="6">
+        <text>chanel</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-534" offset="3327" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-426" offset="3174" length="5">Ozmar</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-540" offset="4130" length="6">
+        <text>chanel</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-546" offset="4227" length="6">
+        <text>chanel</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-552" offset="4312" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-450" offset="4199" length="5">Ozmar</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-558" offset="4408" length="2">
+        <text>My</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-564" offset="5355" length="6">
+        <text>chanel</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-570" offset="3414" length="8">
+        <text>Vanquish</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-576" offset="4507" length="9">
+        <text>Richard-H</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-582" offset="4779" length="4">
+        <text>mine</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-588" offset="4922" length="9">
+        <text>Richard-H</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-594" offset="5619" length="9">
+        <text>Richard-H</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-600" offset="5739" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-606" offset="4767" length="16">
+        <text>A cousin of mine</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-612" offset="4811" length="19">
+        <text>the guy that did it</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-618" offset="4867" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-624" offset="5798" length="7">
+        <text>Intense</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-630" offset="6090" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-636" offset="6140" length="7">
+        <text>Intense</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-642" offset="6716" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-648" offset="5868" length="7">
+        <text>bodecea</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-654" offset="6578" length="16">
+        <text>School Officials</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-462" offset="6210" length="5">Ozmar</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-660" offset="346" length="8">
+        <text>abc news</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-666" offset="346" length="3">
+        <text>abc</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-672" offset="6578" length="6">
+        <text>School</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-678" offset="127" length="5">
+        <text>texas</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-684" offset="422" length="5">
+        <text>Texas</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-690" offset="5909" length="5">
+        <text>Texas</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-696" offset="6068" length="5">
+        <text>there</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-702" offset="183" length="11">
+        <text>the country</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-708" offset="2625" length="7">
+        <text>America</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-714" offset="2644" length="6">
+        <text>itself</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-720" offset="3549" length="7">
+        <text>America</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-726" offset="3568" length="6">
+        <text>itself</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1935" offset="3549" length="7">
+        <text>America</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1941" offset="2625" length="7">
+        <text>America</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-973" offset="422" length="37">
+        <text>Texas criminal courts and prosecutors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-982" offset="422" length="37">
+        <text>Texas criminal courts and prosecutors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-991" offset="477" length="6">
+        <text>anyone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1000" offset="548" length="18">
+        <text>Players these days</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1039" offset="1024" length="5">
+        <text>women</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1048" offset="1132" length="17">
+        <text>16 year old girls</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1057" offset="1167" length="10">
+        <text>themselves</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1457" offset="5435" length="17">
+        <text>16 year old girls</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1507" offset="5513" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1082" offset="1267" length="8">
+        <text>an adult</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1091" offset="1288" length="9">
+        <text>young men</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1100" offset="1318" length="10">
+        <text>themselves</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1106" offset="1369" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1115" offset="1420" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1121" offset="1436" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2199" offset="5878" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1127" offset="2056" length="4">
+        <text>jail</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2193" offset="5428" length="4">
+        <text>jail</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1136" offset="2022" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1193" offset="2441" length="7">
+        <text>a ditch</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1326" offset="4691" length="7">
+        <text>a ditch</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1212" offset="2654" length="60">
+        <text>the same people who don't not like Obama because of his race</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-414" offset="2597" length="5">Ozmar</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1278" offset="3578" length="60">
+        <text>the same people who don't not like Obama because of his race</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-438" offset="3521" length="5">Ozmar</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1221" offset="2821" length="9">
+        <text>the perps</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-360" offset="2521" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1230" offset="2841" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-360" offset="2521" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1284" offset="3745" length="9">
+        <text>the perps</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-372" offset="3485" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1290" offset="3765" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-372" offset="3485" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1236" offset="2878" length="5">
+        <text>thugs</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-360" offset="2521" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1245" offset="2896" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-360" offset="2521" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1251" offset="2929" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-360" offset="2521" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1257" offset="2987" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-360" offset="2521" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1296" offset="3802" length="5">
+        <text>thugs</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-372" offset="3485" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1302" offset="3820" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-372" offset="3485" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1308" offset="3853" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-372" offset="3485" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1314" offset="3911" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-372" offset="3485" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1795" offset="3920" length="5">
+        <text>thugs</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-372" offset="3485" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1867" offset="2966" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-360" offset="2521" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1873" offset="2996" length="5">
+        <text>thugs</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-360" offset="2521" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1959" offset="3890" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-372" offset="3485" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1263" offset="3131" length="6">
+        <text>school</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1272" offset="3287" length="6">
+        <text>school</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1320" offset="4272" length="6">
+        <text>school</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1349" offset="5005" length="4">
+        <text>guys</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1358" offset="5015" length="5">
+        <text>women</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1397" offset="5030" length="5">
+        <text>Women</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1418" offset="5088" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1424" offset="5097" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1436" offset="5185" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1442" offset="5241" length="5">
+        <text>women</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1513" offset="5654" length="5">
+        <text>women</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1403" offset="5059" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1412" offset="5128" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1430" offset="5168" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2178" offset="5143" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1448" offset="5301" length="10">
+        <text>Young guys</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-588" offset="4922" length="9">Richard-H</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1519" offset="5937" length="21">
+        <text>good football players</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1528" offset="6038" length="29">
+        <text>HS and college football stars</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1175" offset="2128" length="14">
+        <text>a white person</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1537" offset="6413" length="14">
+        <text>a White person</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1561" offset="1883" length="14">
+        <text>a White person</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1184" offset="2152" length="14">
+        <text>a black person</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1546" offset="6438" length="8">
+        <text> a Black</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1567" offset="1909" length="7">
+        <text>a Black</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1617" offset="1030" length="5">
+        <text>girls</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1555" offset="1064" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1669" offset="1761" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2092" offset="6291" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1678" offset="2349" length="11">
+        <text>my daughter</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2162" offset="4599" length="11">
+        <text>my daughter</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1771" offset="2758" length="8">
+        <text>an idiot</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-360" offset="2521" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1947" offset="3682" length="8">
+        <text>an idiot</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-372" offset="3485" length="13">AmericanFirst</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1786" offset="3877" length="7">
+        <text>society</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1861" offset="2953" length="7">
+        <text>society</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2065" offset="5471" length="4">
+        <text>gang</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-564" offset="5355" length="6">chanel</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2074" offset="6038" length="2">
+        <text>HS</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2083" offset="6045" length="7">
+        <text>college</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-732">
+        <trigger offset="295" length="6">friend</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-742">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-752">
+        <trigger offset="4769" length="6">cousin</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1202">
+        <trigger offset="2438" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1332">
+        <trigger offset="4688" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1687">
+        <trigger offset="2352" length="8">daughter</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2168">
+        <trigger offset="4602" length="8">daughter</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2142">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2152">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2260">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2270">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-768">
+        <trigger offset="6606" length="4">Rape</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-462" offset="6210" length="5">Ozmar</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-789">
+        <trigger offset="4631" length="5">raped</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-336" offset="4579" length="6">Godboy</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-810">
+        <trigger offset="2381" length="5">raped</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-330" offset="2329" length="6">Godboy</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-943">
+        <trigger offset="310" length="4">rape</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2098">
+        <trigger offset="6611" length="6">Victim</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-462" offset="6210" length="5">Ozmar</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-831">
+        <trigger offset="4788" length="5">raped</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-852">
+        <trigger offset="4838" length="7">suicide</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-873">
+        <trigger offset="4862" length="4">blew</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2211">
+        <trigger offset="2056" length="4">jail</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1009">
+        <trigger offset="594" length="7">selling</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1145">
+        <trigger offset="2035" length="5">throw</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1367">
+        <trigger offset="5010" length="4">rape</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-588" offset="4922" length="9">Richard-H</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1463">
+        <trigger offset="5476" length="4">rape</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-564" offset="5355" length="6">chanel</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1573">
+        <trigger offset="2715" length="4">post</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-414" offset="2597" length="5">Ozmar</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1596">
+        <trigger offset="3639" length="4">post</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-438" offset="3521" length="5">Ozmar</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1639">
+        <trigger offset="1243" length="5">party</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-114" offset="85" length="8">beowolfe</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1697">
+        <trigger offset="2456" length="6">bullet</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1965">
+        <trigger offset="4706" length="6">bullet</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1734">
+        <trigger offset="2456" length="6">bullet</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2000">
+        <trigger offset="4706" length="6">bullet</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1801">
+        <trigger offset="3940" length="6">bullet</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1879">
+        <trigger offset="3016" length="6">bullet</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1831">
+        <trigger offset="3940" length="6">bullet</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1907">
+        <trigger offset="3016" length="6">bullet</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2119">
+        <trigger offset="594" length="7">selling</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

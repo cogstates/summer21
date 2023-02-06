@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="551afa6e0000000000000001" doc_id="NYT_ENG_20131121.0040" source_type="newswire">
+  <entities>
+    <entity id="ent-8" type="GPE" specificity="specific">
+      <entity_mention id="m-27" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="193" length="7">
+        <mention_text>ALABAMA</mention_text>
+      </entity_mention>
+      <entity_mention id="m-60" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="334" length="7">
+        <mention_text>Alabama</mention_text>
+      </entity_mention>
+      <entity_mention id="m-108" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="574" length="7">
+        <mention_text>Alabama</mention_text>
+      </entity_mention>
+      <entity_mention id="m-177" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="950" length="7">
+        <mention_text>Alabama</mention_text>
+      </entity_mention>
+      <entity_mention id="m-267" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="1494" length="7">
+        <mention_text>Alabama</mention_text>
+      </entity_mention>
+      <entity_mention id="m-273" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="1539" length="7">
+        <mention_text>Alabama</mention_text>
+      </entity_mention>
+      <entity_mention id="m-438" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="2262" length="5">
+        <mention_text>state</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="2262" length="5">state</nom_head>
+      </entity_mention>
+      <entity_mention id="m-683" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="321" length="9">
+        <mention_text>The state</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="325" length="5">state</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1119" noun_type="PRO" source="NYT_ENG_20131121.0040" offset="981" length="3">
+        <mention_text>its</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1176" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="1128" length="5">
+        <mention_text>state</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="1128" length="5">state</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1910" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="2008" length="5">
+        <mention_text>State</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="2008" length="5">State</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-39" type="GPE" specificity="specific">
+      <entity_mention id="m-33" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="215" length="10">
+        <mention_text>SCOTTSBORO</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-48" type="PER" specificity="specific">
+      <entity_mention id="m-66" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="364" length="15">
+        <mention_text>three black men</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="376" length="3">men</nom_head>
+      </entity_mention>
+      <entity_mention id="m-120" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="649" length="13">
+        <mention_text>the three men</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="659" length="3">men</nom_head>
+      </entity_mention>
+      <entity_mention id="m-231" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="1350" length="7">
+        <mention_text>The men</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="1354" length="3">men</nom_head>
+      </entity_mention>
+      <entity_mention id="m-357" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="1900" length="27">
+        <mention_text>the three pardoned Thursday</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="1904" length="5">three</nom_head>
+      </entity_mention>
+      <entity_mention id="m-909" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="486" length="41">
+        <mention_text>the last of the so-called Scottsboro Boys</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="490" length="4">last</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1022" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="718" length="11">
+        <mention_text>all of whom</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="718" length="3">all</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-51" type="GPE" specificity="specific">
+      <entity_mention id="m-54" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="311" length="7">
+        <mention_text>ATLANTA</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-72" type="PER" specificity="specific">
+      <entity_mention id="m-90" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="459" length="15">
+        <mention_text>two white women</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="469" length="5">women</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-75" type="GPE" specificity="specific">
+      <entity_mention id="m-102" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="558" length="10">
+        <mention_text>Montgomery</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-78" type="ORG" specificity="specific">
+      <entity_mention id="m-114" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="574" length="36">
+        <mention_text>Alabama Board of Pardons and Paroles</mention_text>
+      </entity_mention>
+      <entity_mention id="m-2128" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="2363" length="17">
+        <mention_text>the pardons board</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="2375" length="5">board</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-81" type="PER" specificity="specific">
+      <entity_mention id="m-126" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="664" length="17">
+        <mention_text>Haywood Patterson</mention_text>
+      </entity_mention>
+      <entity_mention id="m-405" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="2154" length="9">
+        <mention_text>Patterson</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-84" type="PER" specificity="specific">
+      <entity_mention id="m-132" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="683" length="13">
+        <mention_text>Charles Weems</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-87" type="PER" specificity="specific">
+      <entity_mention id="m-138" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="701" length="15">
+        <mention_text>James A. Wright</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-150" type="ORG" specificity="specific">
+      <entity_mention id="m-144" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="813" length="13">
+        <mention_text>Supreme Court</mention_text>
+      </entity_mention>
+      <entity_mention id="m-312" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="1651" length="18">
+        <mention_text>U.S. Supreme Court</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-153" type="PER" specificity="nonspecific">
+      <entity_mention id="m-165" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="858" length="6">
+        <mention_text>blacks</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="858" length="6">blacks</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-156" type="PER" specificity="nonspecific">
+      <entity_mention id="m-171" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="868" length="6">
+        <mention_text>juries</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="868" length="6">juries</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-159" type="PER" specificity="specific">
+      <entity_mention id="m-183" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="1015" length="19">
+        <mention_text>The last of the men</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="1019" length="4">last</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-162" type="PER" specificity="specific">
+      <entity_mention id="m-195" noun_type="PRO" source="NYT_ENG_20131121.0040" offset="1059" length="2">
+        <mention_text>We</mention_text>
+      </entity_mention>
+      <entity_mention id="m-213" noun_type="PRO" source="NYT_ENG_20131121.0040" offset="1118" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-207" type="GPE" specificity="specific">
+      <entity_mention id="m-201" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="1075" length="17">
+        <mention_text>a different state</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="1087" length="5">state</nom_head>
+      </entity_mention>
+      <entity_mention id="m-225" noun_type="PRO" source="NYT_ENG_20131121.0040" offset="1327" length="3">
+        <mention_text>our</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-210" type="PER" specificity="specific">
+      <entity_mention id="m-219" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="1139" length="10">
+        <mention_text>Arthur Orr</mention_text>
+      </entity_mention>
+      <entity_mention id="m-444" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="2335" length="3">
+        <mention_text>Orr</mention_text>
+      </entity_mention>
+      <entity_mention id="m-2122" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="1151" length="52">
+        <mention_text>a sponsor of the legislation that led to the pardons</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="1153" length="7">sponsor</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-243" type="PER" specificity="specific">
+      <entity_mention id="m-42" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="215" length="15">
+        <mention_text>SCOTTSBORO BOYS</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="226" length="4">BOYS</nom_head>
+      </entity_mention>
+      <entity_mention id="m-96" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="512" length="15">
+        <mention_text>Scottsboro Boys</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="523" length="4">Boys</nom_head>
+      </entity_mention>
+      <entity_mention id="m-189" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="1027" length="7">
+        <mention_text>the men</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="1031" length="3">men</nom_head>
+      </entity_mention>
+      <entity_mention id="m-237" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="1369" length="15">
+        <mention_text>a group of nine</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="1380" length="4">nine</nom_head>
+      </entity_mention>
+      <entity_mention id="m-291" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="1576" length="7">
+        <mention_text>the men</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="1580" length="3">men</nom_head>
+      </entity_mention>
+      <entity_mention id="m-342" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="1850" length="7">
+        <mention_text>the men</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="1854" length="3">men</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-246" type="GPE" specificity="specific">
+      <entity_mention id="m-249" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="1465" length="14">
+        <mention_text>Jackson County</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-261" type="LOC" specificity="specific">
+      <entity_mention id="m-255" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="1484" length="17">
+        <mention_text>northeast Alabama</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-264" type="PER" specificity="specific">
+      <entity_mention id="m-285" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="1567" length="16">
+        <mention_text>eight of the men</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="1567" length="5">eight</nom_head>
+      </entity_mention>
+      <entity_mention id="m-297" noun_type="PRO" source="NYT_ENG_20131121.0040" offset="1599" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-309" type="PER" specificity="specific">
+      <entity_mention id="m-303" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="1620" length="16">
+        <mention_text>all-white juries</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="1630" length="6">juries</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-324" type="GPE" specificity="specific">
+      <entity_mention id="m-318" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="1651" length="4">
+        <mention_text>U.S.</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-333" type="PER" specificity="specific">
+      <entity_mention id="m-336" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="1842" length="15">
+        <mention_text>five of the men</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="1842" length="4">five</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-354" type="PER" specificity="specific">
+      <entity_mention id="m-348" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="1876" length="11">
+        <mention_text>four others</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="1881" length="6">others</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-375" type="PER" specificity="specific">
+      <entity_mention id="m-369" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="2008" length="15">
+        <mention_text>State officials</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="2014" length="9">officials</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-384" type="PER" specificity="specific">
+      <entity_mention id="m-378" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="2056" length="13">
+        <mention_text>three of them</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="2056" length="5">three</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-393" type="PER" specificity="specific">
+      <entity_mention id="m-387" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="2081" length="15">
+        <mention_text>Clarence Norris</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1904" noun_type="PRO" source="NYT_ENG_20131121.0040" offset="2098" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-396" type="PER" specificity="specific">
+      <entity_mention id="m-399" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="2130" length="14">
+        <mention_text>George Wallace</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-417" type="GPE" specificity="specific">
+      <entity_mention id="m-411" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="2216" length="8">
+        <mention_text>Michigan</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-426" type="PER" specificity="specific">
+      <entity_mention id="m-420" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="2245" length="11">
+        <mention_text>researchers</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="2245" length="11">researchers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-435" type="ORG" specificity="specific">
+      <entity_mention id="m-429" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="2258" length="21">
+        <mention_text>the state Legislature</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="2268" length="11">Legislature</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-456" type="PER" specificity="specific">
+      <entity_mention id="m-450" noun_type="PRO" source="NYT_ENG_20131121.0040" offset="2343" length="6">
+        <mention_text>others</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-471" type="PER" specificity="specific">
+      <entity_mention id="m-465" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="2456" length="11">
+        <mention_text>prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="2456" length="11">prosecutors</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-480" type="PER" specificity="specific">
+      <entity_mention id="m-474" noun_type="NAM" source="NYT_ENG_20131121.0040" offset="2520" length="14">
+        <mention_text>Robert Bentley</mention_text>
+      </entity_mention>
+      <entity_mention id="m-483" noun_type="PRO" source="NYT_ENG_20131121.0040" offset="2554" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-495" type="PER" specificity="specific">
+      <entity_mention id="m-489" noun_type="PRO" source="NYT_ENG_20131121.0040" offset="2586" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-498" noun_type="PRO" source="NYT_ENG_20131121.0040" offset="2479" length="2">
+        <mention_text>We</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-689" type="PER" specificity="specific">
+      <entity_mention id="m-279" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="1536" length="16">
+        <mention_text>an Alabama judge</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="1547" length="5">judge</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-692" type="PER" specificity="specific">
+      <entity_mention id="m-327" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="1797" length="11">
+        <mention_text>Prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="1797" length="11">Prosecutors</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-767" type="ORG" specificity="specific">
+      <entity_mention id="m-459" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="2429" length="10">
+        <mention_text>the courts</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="2433" length="6">courts</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-2003" type="FAC" specificity="specific">
+      <entity_mention id="m-1997" noun_type="NOM" source="NYT_ENG_20131121.0040" offset="2186" length="6">
+        <mention_text>prison</mention_text>
+        <nom_head source="NYT_ENG_20131121.0040" offset="2186" length="6">prison</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-542" source="NYT_ENG_20131121.0040" offset="1134" length="4" type="title">Sen.</filler>
+    <filler id="f-588" source="NYT_ENG_20131121.0040" offset="2515" length="4" type="title">Gov.</filler>
+    <filler id="f-1944" source="NYT_ENG_20131121.0040" offset="2125" length="4" type="title">Gov.</filler>
+    <filler id="f-664" source="NYT_ENG_20131121.0040" offset="450" length="24" type="crime">rapes of two white women</filler>
+    <filler id="f-678" source="NYT_ENG_20131121.0040" offset="420" length="22" type="time" nom_time="19XX-XX-XX">more than 80 years ago</filler>
+    <filler id="f-750" source="NYT_ENG_20131121.0040" offset="450" length="24" type="crime">rapes of two white women</filler>
+    <filler id="f-764" source="NYT_ENG_20131121.0040" offset="380" length="8" type="time" nom_time="2013-11-21">Thursday</filler>
+    <filler id="f-795" source="NYT_ENG_20131121.0040" offset="450" length="24" type="crime">rapes of two white women</filler>
+    <filler id="f-809" source="NYT_ENG_20131121.0040" offset="420" length="22" type="time" nom_time="19XX-XX-XX">more than 80 years ago</filler>
+    <filler id="f-954" source="NYT_ENG_20131121.0040" offset="748" length="4" type="crime">rape</filler>
+    <filler id="f-991" source="NYT_ENG_20131121.0040" offset="748" length="4" type="crime">rape</filler>
+    <filler id="f-1032" source="NYT_ENG_20131121.0040" offset="748" length="4" type="crime">rape</filler>
+    <filler id="f-1039" source="NYT_ENG_20131121.0040" offset="756" length="9" type="time" nom_time="193X-XX-XX">the 1930s</filler>
+    <filler id="f-1067" source="NYT_ENG_20131121.0040" offset="756" length="9" type="time" nom_time="193X-XX-XX">the 1930s</filler>
+    <filler id="f-1095" source="NYT_ENG_20131121.0040" offset="756" length="9" type="time" nom_time="193X-XX-XX">the 1930s</filler>
+    <filler id="f-1150" source="NYT_ENG_20131121.0040" offset="1043" length="4" type="time" nom_time="1989-XX-XX">1989</filler>
+    <filler id="f-1254" source="NYT_ENG_20131121.0040" offset="1415" length="4" type="crime">rape</filler>
+    <filler id="f-1268" source="NYT_ENG_20131121.0040" offset="1400" length="10" type="time" nom_time="1931-04-XX">April 1931</filler>
+    <filler id="f-1368" source="NYT_ENG_20131121.0040" offset="1441" length="7" type="vehicle">a train</filler>
+    <filler id="f-1440" source="NYT_ENG_20131121.0040" offset="1587" length="5" type="sentence">death</filler>
+    <filler id="f-1563" source="NYT_ENG_20131121.0040" offset="1681" length="13" type="time" nom_time="1932-XX-XX">the next year</filler>
+    <filler id="f-1646" source="NYT_ENG_20131121.0040" offset="1821" length="4" type="crime">rape</filler>
+    <filler id="f-1683" source="NYT_ENG_20131121.0040" offset="1821" length="4" type="crime">rape</filler>
+    <filler id="f-1690" source="NYT_ENG_20131121.0040" offset="1861" length="9" type="time" nom_time="1937-07-XX">July 1937</filler>
+    <filler id="f-1792" source="NYT_ENG_20131121.0040" offset="1968" length="29" type="sentence">lengthy prison terms or death</filler>
+    <filler id="f-1799" source="NYT_ENG_20131121.0040" offset="1821" length="4" type="crime">rape</filler>
+    <filler id="f-1829" source="NYT_ENG_20131121.0040" offset="1919" length="8" type="time" nom_time="2013-11-21">Thursday</filler>
+    <filler id="f-1964" source="NYT_ENG_20131121.0040" offset="2148" length="4" type="time" nom_time="1976-XX-XX">1976</filler>
+  </fillers>
+  <relations>
+    <relation id="r-1150" type="physical" subtype="locatednear">
+      <relation_mention id="relm-514" realis="true">
+        <rel_arg1 entity_id="ent-75" entity_mention_id="m-102" role="entity">Montgomery</rel_arg1>
+        <rel_arg2 entity_id="ent-8" entity_mention_id="m-108" role="loc">Alabama</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1151" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-524" realis="true">
+        <rel_arg1 entity_id="ent-78" entity_mention_id="m-114" role="suborg">Alabama Board of Pardons and Paroles</rel_arg1>
+        <rel_arg2 entity_id="ent-8" entity_mention_id="m-108" role="parent">Alabama</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1152" type="personalsocial" subtype="role">
+      <relation_mention id="relm-534" realis="true">
+        <rel_arg1 entity_id="ent-210" entity_mention_id="m-219" role="per">Arthur Orr</rel_arg1>
+        <rel_arg2 filler_id="f-542" role="role">Sen.</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1153" type="physical" subtype="locatednear">
+      <relation_mention id="relm-550" realis="true">
+        <rel_arg1 entity_id="ent-246" entity_mention_id="m-249" role="entity">Jackson County</rel_arg1>
+        <rel_arg2 entity_id="ent-261" entity_mention_id="m-255" role="loc">northeast Alabama</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0040" offset="1481" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1154" type="physical" subtype="locatednear">
+      <relation_mention id="relm-560" realis="true">
+        <rel_arg1 entity_id="ent-261" entity_mention_id="m-255" role="entity">northeast Alabama</rel_arg1>
+        <rel_arg2 entity_id="ent-8" entity_mention_id="m-267" role="loc">Alabama</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1155" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-570" realis="true">
+        <rel_arg1 entity_id="ent-150" entity_mention_id="m-312" role="suborg">U.S. Supreme Court</rel_arg1>
+        <rel_arg2 entity_id="ent-324" entity_mention_id="m-318" role="parent">U.S.</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1156" type="personalsocial" subtype="role">
+      <relation_mention id="relm-580" realis="true">
+        <rel_arg1 entity_id="ent-480" entity_mention_id="m-474" role="per">Robert Bentley</rel_arg1>
+        <rel_arg2 filler_id="f-588" role="role">Gov.</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1157" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1182" realis="true">
+        <rel_arg1 entity_id="ent-210" entity_mention_id="m-219" role="employeemember">Arthur Orr</rel_arg1>
+        <rel_arg2 entity_id="ent-8" entity_mention_id="m-1176" role="org">state</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0040" offset="1134" length="4">Sen.</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1158" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1916" realis="true">
+        <rel_arg1 entity_id="ent-375" entity_mention_id="m-369" role="employeemember">State officials</rel_arg1>
+        <rel_arg2 entity_id="ent-8" entity_mention_id="m-1910" role="org">State</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0040" offset="2014" length="9">officials</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1159" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-1926" realis="true">
+        <rel_arg1 entity_id="ent-396" entity_mention_id="m-399" role="leader">George Wallace</rel_arg1>
+        <rel_arg2 entity_id="ent-8" entity_mention_id="m-1910" role="entity">State</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0040" offset="2125" length="4">Gov.</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1160" type="personalsocial" subtype="role">
+      <relation_mention id="relm-1936" realis="true">
+        <rel_arg1 entity_id="ent-396" entity_mention_id="m-399" role="per">George Wallace</rel_arg1>
+        <rel_arg2 filler_id="f-1944" role="role">Gov.</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1161" type="physical" subtype="locatednear">
+      <relation_mention id="relm-2006" realis="true">
+        <rel_arg1 entity_id="ent-81" entity_mention_id="m-405" role="entity">Patterson</rel_arg1>
+        <rel_arg2 entity_id="ent-2003" entity_mention_id="m-1997" role="loc">prison</rel_arg2>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-25">
+      <event_mention id="em-611" type="justice" subtype="pardon" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="184" length="7">PARDONS</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-27" role="adjudicator" realis="true">ALABAMA</em_arg>
+      </event_mention>
+      <event_mention id="em-718" type="justice" subtype="pardon" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="355" length="8">pardoned</trigger>
+        <em_arg entity_id="ent-48" entity_mention_id="m-66" role="defendant" realis="true">three black men</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-60" role="adjudicator" realis="true">Alabama</em_arg>
+        <em_arg filler_id="f-750" role="crime" realis="false">rapes of two white women</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-60" role="place" realis="true">Alabama</em_arg>
+        <em_arg filler_id="f-764" role="time" realis="true">Thursday</em_arg>
+      </event_mention>
+      <event_mention id="em-888" type="justice" subtype="pardon" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="476" length="9">absolving</trigger>
+        <em_arg entity_id="ent-48" entity_mention_id="m-909" role="defendant" realis="true">the last of the so-called Scottsboro Boys</em_arg>
+      </event_mention>
+      <event_mention id="em-959" type="justice" subtype="pardon" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="638" length="7">pardons</trigger>
+        <em_arg entity_id="ent-78" entity_mention_id="m-114" role="adjudicator" realis="true">Alabama Board of Pardons and Paroles</em_arg>
+        <em_arg entity_id="ent-48" entity_mention_id="m-120" role="defendant" realis="true">the three men</em_arg>
+        <em_arg filler_id="f-991" role="crime" realis="false">rape</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-108" role="place" realis="true">Alabama</em_arg>
+      </event_mention>
+      <event_mention id="em-1155" type="justice" subtype="pardon" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="1196" length="7">pardons</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-1176" role="place" realis="true">state</em_arg>
+      </event_mention>
+      <event_mention id="em-1804" type="justice" subtype="pardon" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="1910" length="8">pardoned</trigger>
+        <em_arg entity_id="ent-48" entity_mention_id="m-357" role="defendant" realis="true">the three pardoned Thursday</em_arg>
+        <em_arg filler_id="f-1829" role="time" realis="true">Thursday</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-681">
+      <event_mention id="em-632" type="justice" subtype="trialhearing" realis="generic">
+        <trigger source="NYT_ENG_20131121.0040" offset="232" length="4">CASE</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-27" role="adjudicator" realis="true">ALABAMA</em_arg>
+        <em_arg entity_id="ent-243" entity_mention_id="m-42" role="defendant" realis="true">SCOTTSBORO BOYS</em_arg>
+        <em_arg filler_id="f-664" role="crime" realis="false">rapes of two white women</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-60" role="place" realis="true">Alabama</em_arg>
+        <em_arg filler_id="f-678" role="time" realis="true">more than 80 years ago</em_arg>
+      </event_mention>
+      <event_mention id="em-1098" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="780" length="4">case</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-177" role="place" realis="true">Alabama</em_arg>
+      </event_mention>
+      <event_mention id="em-1222" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="1391" length="5">tried</trigger>
+        <em_arg entity_id="ent-689" entity_mention_id="m-279" role="adjudicator" realis="true">an Alabama judge</em_arg>
+        <em_arg filler_id="f-1254" role="crime" realis="true">rape</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-273" role="place" realis="true">Alabama</em_arg>
+        <em_arg filler_id="f-1268" role="time" realis="true">April 1931</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-716">
+      <event_mention id="em-695" type="life" subtype="die" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="342" length="12">posthumously</trigger>
+        <em_arg entity_id="ent-48" entity_mention_id="m-66" role="victim" realis="true">three black men</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-812">
+      <event_mention id="em-770" type="justice" subtype="convict" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="410" length="9">convicted</trigger>
+        <em_arg entity_id="ent-48" entity_mention_id="m-66" role="defendant" realis="true">three black men</em_arg>
+        <em_arg filler_id="f-795" role="crime" realis="false">rapes of two white women</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-60" role="place" realis="true">Alabama</em_arg>
+        <em_arg filler_id="f-809" role="time" realis="true">more than 80 years ago</em_arg>
+      </event_mention>
+      <event_mention id="em-1001" type="justice" subtype="convict" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="735" length="9">convicted</trigger>
+        <em_arg entity_id="ent-48" entity_mention_id="m-1022" role="defendant" realis="true">all of whom</em_arg>
+        <em_arg filler_id="f-1032" role="crime" realis="true">rape</em_arg>
+        <em_arg filler_id="f-1039" role="time" realis="true">the 1930s</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-849">
+      <event_mention id="em-814" type="conflict" subtype="attack" realis="other">
+        <trigger source="NYT_ENG_20131121.0040" offset="450" length="5">rapes</trigger>
+        <em_arg entity_id="ent-48" entity_mention_id="m-66" role="attacker" realis="false">three black men</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-60" role="place" realis="false">Alabama</em_arg>
+        <em_arg entity_id="ent-72" entity_mention_id="m-90" role="target" realis="false">two white women</em_arg>
+      </event_mention>
+      <event_mention id="em-1042" type="conflict" subtype="attack" realis="other">
+        <trigger source="NYT_ENG_20131121.0040" offset="748" length="4">rape</trigger>
+        <em_arg entity_id="ent-48" entity_mention_id="m-1022" role="attacker" realis="false">all of whom</em_arg>
+        <em_arg filler_id="f-1067" role="time" realis="false">the 1930s</em_arg>
+      </event_mention>
+      <event_mention id="em-1271" type="conflict" subtype="attack" realis="other">
+        <trigger source="NYT_ENG_20131121.0040" offset="1415" length="4">rape</trigger>
+        <em_arg entity_id="ent-243" entity_mention_id="m-237" role="attacker" realis="false">a group of nine</em_arg>
+      </event_mention>
+      <event_mention id="em-1695" type="conflict" subtype="attack" realis="other">
+        <trigger source="NYT_ENG_20131121.0040" offset="1821" length="4">rape</trigger>
+        <em_arg entity_id="ent-243" entity_mention_id="m-342" role="attacker" realis="false">the men</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-886">
+      <event_mention id="em-851" type="life" subtype="injure" realis="other">
+        <trigger source="NYT_ENG_20131121.0040" offset="450" length="5">rapes</trigger>
+        <em_arg entity_id="ent-48" entity_mention_id="m-66" role="agent" realis="false">three black men</em_arg>
+        <em_arg entity_id="ent-72" entity_mention_id="m-90" role="victim" realis="false">two white women</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-60" role="place" realis="false">Alabama</em_arg>
+      </event_mention>
+      <event_mention id="em-1070" type="life" subtype="injure" realis="other">
+        <trigger source="NYT_ENG_20131121.0040" offset="748" length="4">rape</trigger>
+        <em_arg entity_id="ent-48" entity_mention_id="m-1022" role="agent" realis="false">all of whom</em_arg>
+        <em_arg filler_id="f-1095" role="time" realis="false">the 1930s</em_arg>
+      </event_mention>
+      <event_mention id="em-1299" type="life" subtype="injure" realis="other">
+        <trigger source="NYT_ENG_20131121.0040" offset="1415" length="4">rape</trigger>
+        <em_arg entity_id="ent-243" entity_mention_id="m-237" role="agent" realis="false">a group of nine</em_arg>
+      </event_mention>
+      <event_mention id="em-1716" type="life" subtype="injure" realis="other">
+        <trigger source="NYT_ENG_20131121.0040" offset="1821" length="4">rape</trigger>
+        <em_arg entity_id="ent-243" entity_mention_id="m-342" role="agent" realis="false">the men</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-957">
+      <event_mention id="em-915" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="547" length="7">hearing</trigger>
+        <em_arg entity_id="ent-75" entity_mention_id="m-102" role="place" realis="true">Montgomery</em_arg>
+        <em_arg entity_id="ent-78" entity_mention_id="m-114" role="adjudicator" realis="true">Alabama Board of Pardons and Paroles</em_arg>
+        <em_arg entity_id="ent-48" entity_mention_id="m-120" role="defendant" realis="true">the three men</em_arg>
+        <em_arg filler_id="f-954" role="crime" realis="false">rape</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1153">
+      <event_mention id="em-1125" type="life" subtype="die" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="1035" length="4">died</trigger>
+        <em_arg entity_id="ent-159" entity_mention_id="m-183" role="victim" realis="true">The last of the men</em_arg>
+        <em_arg filler_id="f-1150" role="time" realis="true">1989</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1220">
+      <event_mention id="em-1192" type="contact" subtype="correspondence" realis="actual" audience="twoway" formality="formal" medium="notinperson" schedule="canttell">
+        <trigger source="NYT_ENG_20131121.0040" offset="1225" length="9">interview</trigger>
+        <em_arg entity_id="ent-210" entity_mention_id="m-219" role="entity" realis="true">Arthur Orr</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1341">
+      <event_mention id="em-1320" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="1428" length="5">fight</trigger>
+        <em_arg entity_id="ent-246" entity_mention_id="m-249" role="place" realis="true">Jackson County</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1385">
+      <event_mention id="em-1343" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="1449" length="15">passing through</trigger>
+        <em_arg entity_id="ent-243" entity_mention_id="m-237" role="person" realis="true">a group of nine</em_arg>
+        <em_arg filler_id="f-1368" role="instrument" realis="true">a train</em_arg>
+        <em_arg entity_id="ent-246" entity_mention_id="m-249" role="origin" realis="true">Jackson County</em_arg>
+        <em_arg entity_id="ent-246" entity_mention_id="m-249" role="destination" realis="true">Jackson County</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1450">
+      <event_mention id="em-1408" type="justice" subtype="sentence" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="1557" length="9">sentenced</trigger>
+        <em_arg entity_id="ent-689" entity_mention_id="m-279" role="adjudicator" realis="true">an Alabama judge</em_arg>
+        <em_arg entity_id="ent-264" entity_mention_id="m-285" role="defendant" realis="true">eight of the men</em_arg>
+        <em_arg filler_id="f-1440" role="sentence" realis="true">death</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-273" role="place" realis="true">Alabama</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1487">
+      <event_mention id="em-1452" type="justice" subtype="convict" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="1605" length="11">convictions</trigger>
+        <em_arg entity_id="ent-264" entity_mention_id="m-297" role="defendant" realis="true">their</em_arg>
+        <em_arg entity_id="ent-309" entity_mention_id="m-303" role="adjudicator" realis="true">all-white juries</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-273" role="place" realis="true">Alabama</em_arg>
+      </event_mention>
+      <event_mention id="em-1510" type="justice" subtype="convict" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="1714" length="11">convictions</trigger>
+        <em_arg entity_id="ent-324" entity_mention_id="m-318" role="place" realis="true">U.S.</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1566">
+      <event_mention id="em-1531" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="1699" length="10">overturned</trigger>
+        <em_arg entity_id="ent-150" entity_mention_id="m-312" role="adjudicator" realis="true">U.S. Supreme Court</em_arg>
+        <em_arg entity_id="ent-324" entity_mention_id="m-318" role="place" realis="true">U.S.</em_arg>
+        <em_arg filler_id="f-1563" role="time" realis="true">the next year</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1589">
+      <event_mention id="em-1568" type="justice" subtype="trialhearing" realis="generic">
+        <trigger source="NYT_ENG_20131121.0040" offset="1768" length="6">trials</trigger>
+        <em_arg entity_id="ent-324" entity_mention_id="m-318" role="place" realis="true">U.S.</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1612">
+      <event_mention id="em-1591" type="justice" subtype="appeal" realis="generic">
+        <trigger source="NYT_ENG_20131121.0040" offset="1779" length="7">appeals</trigger>
+        <em_arg entity_id="ent-324" entity_mention_id="m-318" role="place" realis="true">U.S.</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1656">
+      <event_mention id="em-1614" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="1826" length="7">charges</trigger>
+        <em_arg entity_id="ent-692" entity_mention_id="m-327" role="prosecutor" realis="true">Prosecutors</em_arg>
+        <em_arg filler_id="f-1646" role="crime" realis="true">rape</em_arg>
+        <em_arg entity_id="ent-243" entity_mention_id="m-342" role="defendant" realis="true">the men</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1693">
+      <event_mention id="em-1658" type="justice" subtype="acquit" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="1809" length="7">dropped</trigger>
+        <em_arg entity_id="ent-333" entity_mention_id="m-336" role="defendant" realis="true">five of the men</em_arg>
+        <em_arg filler_id="f-1683" role="crime" realis="true">rape</em_arg>
+        <em_arg filler_id="f-1690" role="time" realis="true">July 1937</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1765">
+      <event_mention id="em-1737" type="justice" subtype="convict" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="1935" length="9">convicted</trigger>
+        <em_arg entity_id="ent-354" entity_mention_id="m-348" role="defendant" realis="true">four others</em_arg>
+        <em_arg entity_id="ent-48" entity_mention_id="m-357" role="defendant" realis="true">the three pardoned Thursday</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1802">
+      <event_mention id="em-1767" type="justice" subtype="sentence" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="1955" length="9">sentenced</trigger>
+        <em_arg entity_id="ent-354" entity_mention_id="m-348" role="defendant" realis="true">four others</em_arg>
+        <em_arg filler_id="f-1792" role="sentence" realis="true">lengthy prison terms or death</em_arg>
+        <em_arg filler_id="f-1799" role="crime" realis="true">rape</em_arg>
+        <em_arg entity_id="ent-48" entity_mention_id="m-357" role="defendant" realis="true">the three pardoned Thursday</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1867">
+      <event_mention id="em-1832" type="justice" subtype="releaseparole" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="2044" length="7">paroles</trigger>
+        <em_arg entity_id="ent-375" entity_mention_id="m-369" role="agent" realis="true">State officials</em_arg>
+        <em_arg entity_id="ent-384" entity_mention_id="m-378" role="person" realis="true">three of them</em_arg>
+        <em_arg entity_id="ent-393" entity_mention_id="m-387" role="person" realis="true">Clarence Norris</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1967">
+      <event_mention id="em-1883" type="justice" subtype="pardon" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="2113" length="6">pardon</trigger>
+        <em_arg entity_id="ent-393" entity_mention_id="m-1904" role="defendant" realis="true">who</em_arg>
+        <em_arg entity_id="ent-396" entity_mention_id="m-399" role="adjudicator" realis="true">George Wallace</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-1910" role="place" realis="true">State</em_arg>
+        <em_arg filler_id="f-1964" role="time" realis="true">1976</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2016">
+      <event_mention id="em-1969" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="2173" length="7">escaped</trigger>
+        <em_arg entity_id="ent-81" entity_mention_id="m-405" role="agent" realis="true">Patterson</em_arg>
+        <em_arg entity_id="ent-2003" entity_mention_id="m-1997" role="origin" realis="true">prison</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2046">
+      <event_mention id="em-2018" type="justice" subtype="arrestjail" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="2186" length="6">prison</trigger>
+        <em_arg entity_id="ent-81" entity_mention_id="m-405" role="person" realis="true">Patterson</em_arg>
+        <em_arg entity_id="ent-2003" entity_mention_id="m-1997" role="place" realis="true">prison</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2076">
+      <event_mention id="em-2048" type="life" subtype="die" realis="actual">
+        <trigger source="NYT_ENG_20131121.0040" offset="2208" length="4">died</trigger>
+        <em_arg entity_id="ent-81" entity_mention_id="m-405" role="victim" realis="true">Patterson</em_arg>
+        <em_arg entity_id="ent-417" entity_mention_id="m-411" role="place" realis="true">Michigan</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2120">
+      <event_mention id="em-2099" type="justice" subtype="trialhearing" realis="generic">
+        <trigger source="NYT_ENG_20131121.0040" offset="2415" length="10">overturned</trigger>
+        <em_arg entity_id="ent-767" entity_mention_id="m-459" role="adjudicator" realis="true">the courts</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

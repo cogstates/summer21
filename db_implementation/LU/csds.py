@@ -48,7 +48,7 @@ class CSDS:
     def get_info_short(self):
         return (
             f"<CSDS Doc: {self.doc_id} Sentence: {self.sentence_id} Head: {self.head_start} "
-            f"Text {self.text} Head: {self.head} Belief: {self.belief}"
+            f"Text {self.text} Head: {self.head} Belief: {self.belief} File: {self.file}"
         )
 
     def get_marked_text(self):

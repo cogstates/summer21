@@ -1,0 +1,1200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="551825f90000000000000001" doc_id="c397ecd66789b905c6b1c5ef21af03ec" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-41" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="14" length="11">
+        <mention_text>Omaha Steve</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-53" type="PER" specificity="specific">
+      <entity_mention id="m-47" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="163" length="12">
+        <mention_text>Roger Kerson</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-62" type="PER" specificity="specific">
+      <entity_mention id="m-56" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="214" length="10">
+        <mention_text>Phil Smith</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-71" type="PER" specificity="specific">
+      <entity_mention id="m-65" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="299" length="12">
+        <mention_text>Mine Workers</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="304" length="7">Workers</nom_head>
+      </entity_mention>
+      <entity_mention id="m-275" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="987" length="12">
+        <mention_text>Mine workers</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="992" length="7">workers</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1188" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="503" length="40">
+        <mention_text>Thousands of mine workers and supporters</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="521" length="7">workers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-80" type="FAC" specificity="specific">
+      <entity_mention id="m-74" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="299" length="4">
+        <mention_text>Mine</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="299" length="4">Mine</nom_head>
+      </entity_mention>
+      <entity_mention id="m-182" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="516" length="4">
+        <mention_text>mine</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="516" length="4">mine</nom_head>
+      </entity_mention>
+      <entity_mention id="m-281" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="987" length="4">
+        <mention_text>Mine</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="987" length="4">Mine</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-89" type="PER" specificity="specific">
+      <entity_mention id="m-83" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="316" length="10">
+        <mention_text>Supporters</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="316" length="10">Supporters</nom_head>
+      </entity_mention>
+      <entity_mention id="m-287" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1004" length="10">
+        <mention_text>supporters</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="1004" length="10">supporters</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1182" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="503" length="40">
+        <mention_text>Thousands of mine workers and supporters</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="533" length="10">supporters</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-98" type="FAC" specificity="specific">
+      <entity_mention id="m-92" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="339" length="32">
+        <mention_text>Peabody HQ in Downtown St. Louis</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="347" length="2">HQ</nom_head>
+      </entity_mention>
+      <entity_mention id="m-203" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="565" length="47">
+        <mention_text>the headquarters of Peabody Energy in St. Louis</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="569" length="12">headquarters</nom_head>
+      </entity_mention>
+      <entity_mention id="m-431" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1316" length="20">
+        <mention_text>Peabody Headquarters</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="1324" length="12">Headquarters</nom_head>
+      </entity_mention>
+      <entity_mention id="m-530" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1646" length="20">
+        <mention_text>Peabody headquarters</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="1654" length="12">headquarters</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-107" type="ORG" specificity="specific">
+      <entity_mention id="m-101" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="339" length="7">
+        <mention_text>Peabody</mention_text>
+      </entity_mention>
+      <entity_mention id="m-155" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="476" length="7">
+        <mention_text>company</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="476" length="7">company</nom_head>
+      </entity_mention>
+      <entity_mention id="m-209" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="585" length="14">
+        <mention_text>Peabody Energy</mention_text>
+      </entity_mention>
+      <entity_mention id="m-230" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="707" length="47">
+        <mention_text>the worlds largest private-sector coal company</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="747" length="7">company</nom_head>
+      </entity_mention>
+      <entity_mention id="m-236" noun_type="PRO" source="c397ecd66789b905c6b1c5ef21af03ec" offset="756" length="5">
+        <mention_text>which</mention_text>
+      </entity_mention>
+      <entity_mention id="m-242" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="828" length="7">
+        <mention_text>Peabody</mention_text>
+      </entity_mention>
+      <entity_mention id="m-257" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="886" length="13">
+        <mention_text>the companys</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="890" length="9">companys</nom_head>
+      </entity_mention>
+      <entity_mention id="m-425" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1316" length="7">
+        <mention_text>Peabody</mention_text>
+      </entity_mention>
+      <entity_mention id="m-437" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1350" length="11">
+        <mention_text>the company</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="1354" length="7">company</nom_head>
+      </entity_mention>
+      <entity_mention id="m-443" noun_type="PRO" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1371" length="3">
+        <mention_text>its</mention_text>
+      </entity_mention>
+      <entity_mention id="m-536" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1646" length="7">
+        <mention_text>Peabody</mention_text>
+      </entity_mention>
+      <entity_mention id="m-614" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1848" length="14">
+        <mention_text>Peabody Energy</mention_text>
+      </entity_mention>
+      <entity_mention id="m-680" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2026" length="7">
+        <mention_text>Peabody</mention_text>
+      </entity_mention>
+      <entity_mention id="m-719" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2278" length="9">
+        <mention_text>Peabodys</mention_text>
+      </entity_mention>
+      <entity_mention id="m-740" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2371" length="7">
+        <mention_text>Peabody</mention_text>
+      </entity_mention>
+      <entity_mention id="m-977" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3158" length="7">
+        <mention_text>Peabody</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-116" type="LOC" specificity="specific">
+      <entity_mention id="m-1170" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="353" length="18">
+        <mention_text>Downtown St. Louis</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="353" length="8">Downtown</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-125" type="GPE" specificity="specific">
+      <entity_mention id="m-119" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="362" length="9">
+        <mention_text>St. Louis</mention_text>
+      </entity_mention>
+      <entity_mention id="m-170" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="491" length="9">
+        <mention_text>St. Louis</mention_text>
+      </entity_mention>
+      <entity_mention id="m-215" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="603" length="9">
+        <mention_text>St. Louis</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-134" type="ORG" specificity="specific">
+      <entity_mention id="m-128" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="373" length="5">
+        <mention_text>Union</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="373" length="5">Union</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-143" type="PER" specificity="nonspecific">
+      <entity_mention id="m-137" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="384" length="8">
+        <mention_text>retirees</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="384" length="8">retirees</nom_head>
+      </entity_mention>
+      <entity_mention id="m-263" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="965" length="14">
+        <mention_text>retired miners</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="965" length="7">retired</nom_head>
+      </entity_mention>
+      <entity_mention id="m-449" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1390" length="14">
+        <mention_text>retired miners</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="1398" length="6">miners</nom_head>
+      </entity_mention>
+      <entity_mention id="m-461" noun_type="PRO" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1409" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-686" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2136" length="14">
+        <mention_text>retired miners</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="2136" length="7">retired</nom_head>
+      </entity_mention>
+      <entity_mention id="m-935" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3033" length="14">
+        <mention_text>these retirees</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="3039" length="8">retirees</nom_head>
+      </entity_mention>
+      <entity_mention id="m-962" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3107" length="23">
+        <mention_text>affected retired miners</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="3124" length="6">miners</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-152" type="PER" specificity="nonspecific">
+      <entity_mention id="m-146" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="397" length="10">
+        <mention_text>dependents</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="397" length="10">dependents</nom_head>
+      </entity_mention>
+      <entity_mention id="m-467" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1409" length="16">
+        <mention_text>their dependents</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="1415" length="10">dependents</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-167" type="ORG" specificity="specific">
+      <entity_mention id="m-302" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1070" length="4">
+        <mention_text>UMWA</mention_text>
+      </entity_mention>
+      <entity_mention id="m-638" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1915" length="4">
+        <mention_text>UMWA</mention_text>
+      </entity_mention>
+      <entity_mention id="m-650" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1951" length="4">
+        <mention_text>UWMA</mention_text>
+      </entity_mention>
+      <entity_mention id="m-704" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2221" length="9">
+        <mention_text>The union</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="2225" length="5">union</nom_head>
+      </entity_mention>
+      <entity_mention id="m-941" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3051" length="11">
+        <mention_text>The unions</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="3055" length="7">unions</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-227" type="LOC" specificity="specific">
+      <entity_mention id="m-221" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="711" length="7">
+        <mention_text>worlds</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="711" length="7">worlds</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-254" type="PER" specificity="specific">
+      <entity_mention id="m-248" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="828" length="18">
+        <mention_text>Peabody executives</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="836" length="10">executives</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-299" type="PER" specificity="specific">
+      <entity_mention id="m-293" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1030" length="13">
+        <mention_text>Cecil Roberts</mention_text>
+      </entity_mention>
+      <entity_mention id="m-644" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1930" length="7">
+        <mention_text>Roberts</mention_text>
+      </entity_mention>
+      <entity_mention id="m-803" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2666" length="7">
+        <mention_text>Roberts</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-314" type="PER" specificity="specific">
+      <entity_mention id="m-308" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1078" length="10">
+        <mention_text>Hugh McVey</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-323" type="ORG" specificity="specific">
+      <entity_mention id="m-317" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1101" length="16">
+        <mention_text>Missouri AFL-CIO</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-332" type="ORG" specificity="specific">
+      <entity_mention id="m-326" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1110" length="7">
+        <mention_text>AFL-CIO</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-341" type="GPE" specificity="specific">
+      <entity_mention id="m-335" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1101" length="8">
+        <mention_text>Missouri</mention_text>
+      </entity_mention>
+      <entity_mention id="m-416" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1283" length="8">
+        <mention_text>Missouri</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-350" type="PER" specificity="specific">
+      <entity_mention id="m-344" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1121" length="15">
+        <mention_text>Terrence Melvin</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-359" type="ORG" specificity="specific">
+      <entity_mention id="m-353" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1149" length="34">
+        <mention_text>Coalition of Black Trade Unionists</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-368" type="PER" specificity="specific">
+      <entity_mention id="m-362" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1187" length="15">
+        <mention_text>Claude Cummings</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-377" type="ORG" specificity="specific">
+      <entity_mention id="m-371" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1220" length="3">
+        <mention_text>CWA</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-386" type="ORG" specificity="specific">
+      <entity_mention id="m-380" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1220" length="14">
+        <mention_text>CWA District 6</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-395" type="PER" specificity="specific">
+      <entity_mention id="m-389" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1243" length="17">
+        <mention_text>Jonathan Stratton</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-404" type="ORG" specificity="specific">
+      <entity_mention id="m-398" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1262" length="29">
+        <mention_text>Episcopal Diocese of Missouri</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-413" type="ORG" specificity="specific">
+      <entity_mention id="m-407" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1262" length="9">
+        <mention_text>Episcopal</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="1262" length="9">Episcopal</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-422" type="FAC" specificity="specific">
+      <entity_mention id="m-473" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1506" length="18">
+        <mention_text>Crowne Plaza Hotel</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-479" type="FAC" specificity="specific">
+      <entity_mention id="m-482" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1526" length="20">
+        <mention_text>200 N. Fourth Street</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-488" type="PER" specificity="specific">
+      <entity_mention id="m-491" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1549" length="8">
+        <mention_text>Marchers</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="1549" length="8">Marchers</nom_head>
+      </entity_mention>
+      <entity_mention id="m-575" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1719" length="8">
+        <mention_text>Marchers</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="1719" length="8">Marchers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-503" type="FAC" specificity="specific">
+      <entity_mention id="m-497" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1574" length="8">
+        <mention_text>Pine St.</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-512" type="FAC" specificity="specific">
+      <entity_mention id="m-506" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1586" length="8">
+        <mention_text>Broadway</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-521" type="FAC" specificity="specific">
+      <entity_mention id="m-515" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1599" length="6">
+        <mention_text>Market</mention_text>
+      </entity_mention>
+      <entity_mention id="m-524" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1615" length="13">
+        <mention_text>Market Street</mention_text>
+      </entity_mention>
+      <entity_mention id="m-542" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1673" length="44">
+        <mention_text>Market, Eighth, Chestnut and Seventh Streets</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="1673" length="6">Market</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-554" type="LOC" specificity="specific">
+      <entity_mention id="m-548" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1673" length="44">
+        <mention_text>Market, Eighth, Chestnut and Seventh Streets</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="1681" length="6">Eighth</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-563" type="LOC" specificity="specific">
+      <entity_mention id="m-2780" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1673" length="44">
+        <mention_text>Market, Eighth, Chestnut and Seventh Streets</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="1689" length="8">Chestnut</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-572" type="LOC" specificity="specific">
+      <entity_mention id="m-566" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1673" length="44">
+        <mention_text>Market, Eighth, Chestnut and Seventh Streets</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="1702" length="7">Seventh</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-587" type="FAC" specificity="specific">
+      <entity_mention id="m-581" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1749" length="12">
+        <mention_text>Kiener Plaza</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-590" type="PER" specificity="nonspecific">
+      <entity_mention id="m-824" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2730" length="6">
+        <mention_text>miners</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="2730" length="6">miners</nom_head>
+      </entity_mention>
+      <entity_mention id="m-830" noun_type="PRO" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2741" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-593" type="FAC" specificity="specific">
+      <entity_mention id="m-161" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="476" length="13">
+        <mention_text>company mines</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="484" length="5">mines</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-602" type="ORG" specificity="specific">
+      <entity_mention id="m-596" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1781" length="12">
+        <mention_text>Patriot Coal</mention_text>
+      </entity_mention>
+      <entity_mention id="m-665" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1991" length="12">
+        <mention_text>Patriot Coal</mention_text>
+      </entity_mention>
+      <entity_mention id="m-674" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2005" length="36">
+        <mention_text>a company created by Peabody in 2007</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="2007" length="7">company</nom_head>
+      </entity_mention>
+      <entity_mention id="m-746" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2398" length="7">
+        <mention_text>Patriot</mention_text>
+      </entity_mention>
+      <entity_mention id="m-791" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2565" length="7">
+        <mention_text>Patriot</mention_text>
+      </entity_mention>
+      <entity_mention id="m-797" noun_type="PRO" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2574" length="5">
+        <mention_text>which</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-611" type="PER" specificity="nonspecific">
+      <entity_mention id="m-605" noun_type="PRO" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1826" length="2">
+        <mention_text>us</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-626" type="ORG" specificity="specific">
+      <entity_mention id="m-620" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1867" length="9">
+        <mention_text>Arch Coal</mention_text>
+      </entity_mention>
+      <entity_mention id="m-752" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2416" length="9">
+        <mention_text>Arch Coal</mention_text>
+      </entity_mention>
+      <entity_mention id="m-758" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2427" length="26">
+        <mention_text>another profitable company</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="2446" length="7">company</nom_head>
+      </entity_mention>
+      <entity_mention id="m-764" noun_type="PRO" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2462" length="3">
+        <mention_text>its</mention_text>
+      </entity_mention>
+      <entity_mention id="m-983" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3170" length="4">
+        <mention_text>Arch</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-635" type="ORG" specificity="specific">
+      <entity_mention id="m-629" noun_type="PRO" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1885" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-662" type="PER" specificity="specific">
+      <entity_mention id="m-656" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1951" length="12">
+        <mention_text>UWMA members</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="1956" length="7">members</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-671" type="ORG" specificity="specific">
+      <entity_mention id="m-710" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2242" length="5">
+        <mention_text>court</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="2242" length="5">court</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-716" type="PER" specificity="specific">
+      <entity_mention id="m-725" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2313" length="27">
+        <mention_text>3,100 miners and dependents</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="2319" length="6">miners</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-731" type="ORG" specificity="specific">
+      <entity_mention id="m-770" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2491" length="9">
+        <mention_text>a company</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="2493" length="7">company</nom_head>
+      </entity_mention>
+      <entity_mention id="m-779" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2508" length="11">
+        <mention_text>Magnum Coal</mention_text>
+      </entity_mention>
+      <entity_mention id="m-785" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2529" length="6">
+        <mention_text>Magnum</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-776" type="PER" specificity="specific">
+      <entity_mention id="m-809" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2676" length="29">
+        <mention_text>Executives of these companies</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="2676" length="10">Executives</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-815" type="ORG" specificity="specific">
+      <entity_mention id="m-818" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2690" length="15">
+        <mention_text>these companies</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="2696" length="9">companies</nom_head>
+      </entity_mention>
+      <entity_mention id="m-917" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2950" length="15">
+        <mention_text>These companies</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="2956" length="9">companies</nom_head>
+      </entity_mention>
+      <entity_mention id="m-923" noun_type="PRO" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2986" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-929" noun_type="PRO" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3012" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-842" type="PER" specificity="specific">
+      <entity_mention id="m-836" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2741" length="14">
+        <mention_text>their families</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="2747" length="8">families</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-851" type="PER" specificity="nonspecific">
+      <entity_mention id="m-845" noun_type="PRO" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2815" length="3">
+        <mention_text>our</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-860" type="GPE" specificity="specific">
+      <entity_mention id="m-854" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2868" length="11">
+        <mention_text>the country</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="2872" length="7">country</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1094" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3723" length="10">
+        <mention_text>nationwide</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="3723" length="10">nationwide</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-869" type="PER" specificity="nonspecific">
+      <entity_mention id="m-863" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2834" length="45">
+        <mention_text>millions of working people across the country</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="2854" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-878" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1100" noun_type="PRO" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3735" length="3">
+        <mention_text>Our</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-893" type="PER" specificity="specific">
+      <entity_mention id="m-887" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2881" length="3">
+        <mention_text>Men</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="2881" length="3">Men</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-914" type="PER" specificity="specific">
+      <entity_mention id="m-908" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2889" length="5">
+        <mention_text>women</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="2889" length="5">women</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-959" type="PER" specificity="specific">
+      <entity_mention id="m-953" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3103" length="27">
+        <mention_text>all affected retired miners</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="3103" length="3">all</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-968" type="GPE" specificity="specific">
+      <entity_mention id="m-989" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3185" length="13">
+        <mention_text>West Virginia</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1079" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3694" length="13">
+        <mention_text>West Virginia</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-995" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-998" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3215" length="8">
+        <mention_text>Congress</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1010" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1004" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3231" length="14">
+        <mention_text>retired miners</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="3239" length="6">miners</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1031" noun_type="PRO" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3250" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1019" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1073" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3628" length="10">
+        <mention_text>the miners</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="3632" length="6">miners</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1028" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1022" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3250" length="16">
+        <mention_text>their dependents</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="3256" length="10">dependents</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1043" type="ORG" specificity="specific">
+      <entity_mention id="m-1037" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3286" length="11">
+        <mention_text>Republicans</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1052" type="ORG" specificity="specific">
+      <entity_mention id="m-1046" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3302" length="9">
+        <mention_text>Democrats</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1061" type="PER" specificity="specific">
+      <entity_mention id="m-1055" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3479" length="5">
+        <mention_text>Scuba</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1070" type="PER" specificity="specific">
+      <entity_mention id="m-1064" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3556" length="9">
+        <mention_text>TheDeputy</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1091" type="GPE" specificity="specific">
+      <entity_mention id="m-1085" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3709" length="8">
+        <mention_text>Kentucky</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1112" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-1106" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3735" length="14">
+        <mention_text>Our government</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="3739" length="10">government</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1121" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1115" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3779" length="10">
+        <mention_text>the people</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="3783" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1124" noun_type="PRO" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3791" length="2">
+        <mention_text>We</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1410" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1404" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1162" length="21">
+        <mention_text>Black Trade Unionists</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="1174" length="9">Unionists</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-2792" type="PER" specificity="specific">
+      <entity_mention id="m-2786" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1749" length="6">
+        <mention_text>Kiener</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-2801" type="PER" specificity="specific">
+      <entity_mention id="m-2795" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2313" length="27">
+        <mention_text>3,100 miners and dependents</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="2330" length="10">dependents</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-2804" type="PER" specificity="specific">
+      <entity_mention id="m-734" noun_type="PRO" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2342" length="5">
+        <mention_text>whose</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-2813" type="PER" specificity="nonspecific">
+      <entity_mention id="m-2807" noun_type="NOM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2466" length="7">
+        <mention_text>retiree</mention_text>
+        <nom_head source="c397ecd66789b905c6b1c5ef21af03ec" offset="2466" length="7">retiree</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-2832" type="LOC" specificity="specific">
+      <entity_mention id="m-2826" noun_type="NAM" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1224" length="10">
+        <mention_text>District 6</mention_text>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-1322" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1045" length="23" type="title">International President</filler>
+    <filler id="f-1352" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1090" length="9" type="title">President</filler>
+    <filler id="f-1392" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1138" length="9" type="title">President</filler>
+    <filler id="f-1441" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1204" length="14" type="title">Vice President</filler>
+    <filler id="f-1471" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1238" length="4" type="title">Rev.</filler>
+    <filler id="f-1621" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1920" length="9" type="title">President</filler>
+    <filler id="f-1851" source="c397ecd66789b905c6b1c5ef21af03ec" offset="625" length="19" type="time" nom_time="2013-09-24">Tuesday, Sept. 24th</filler>
+    <filler id="f-1923" source="c397ecd66789b905c6b1c5ef21af03ec" offset="625" length="19" type="time" nom_time="2013-09-24">Tuesday, Sept. 24th</filler>
+    <filler id="f-1974" source="c397ecd66789b905c6b1c5ef21af03ec" offset="771" length="11" type="money">$90 million</filler>
+    <filler id="f-1981" source="c397ecd66789b905c6b1c5ef21af03ec" offset="800" length="26" type="time" nom_time="2013-XX-XX">the second quarter of 2013</filler>
+    <filler id="f-2053" source="c397ecd66789b905c6b1c5ef21af03ec" offset="973" length="6" type="title">miners</filler>
+    <filler id="f-2081" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1434" length="23" type="time" nom_time="2013-09-24">Tuesday, September 24th</filler>
+    <filler id="f-2151" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1434" length="23" type="time" nom_time="2013-09-24">Tuesday, September 24th</filler>
+    <filler id="f-2186" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1398" length="6" type="title">miners</filler>
+    <filler id="f-2403" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2037" length="4" type="time" nom_time="2007-XX-XX">2007</filler>
+    <filler id="f-2454" source="c397ecd66789b905c6b1c5ef21af03ec" offset="1939" length="10" type="time" nom_time="2013-08-XX">Last month</filler>
+    <filler id="f-2484" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2144" length="6" type="title">miners</filler>
+    <filler id="f-2570" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2614" length="9" type="time" nom_time="2012-XX-XX">last year</filler>
+    <filler id="f-2668" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3124" length="6" type="title">miners</filler>
+    <filler id="f-2740" source="c397ecd66789b905c6b1c5ef21af03ec" offset="3239" length="6" type="title">miners</filler>
+    <filler id="f-3144" source="c397ecd66789b905c6b1c5ef21af03ec" offset="2258" length="6" type="time" nom_time="2013-08-XX">August</filler>
+  </fillers>
+  <relations>
+    <relation id="r-892" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1130" realis="false">
+        <rel_arg1 entity_id="ent-71" entity_mention_id="m-65" role="entity">Mine Workers</rel_arg1>
+        <rel_arg2 entity_id="ent-98" entity_mention_id="m-92" role="loc">Peabody HQ in Downtown St. Louis</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="330" length="8">Encircle</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-893" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1140" realis="false">
+        <rel_arg1 entity_id="ent-89" entity_mention_id="m-83" role="entity">Supporters</rel_arg1>
+        <rel_arg2 entity_id="ent-98" entity_mention_id="m-92" role="loc">Peabody HQ in Downtown St. Louis</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="330" length="8">Encircle</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-894" type="physical" subtype="orgheadquarter">
+      <relation_mention id="relm-1150" realis="true">
+        <rel_arg1 entity_id="ent-107" entity_mention_id="m-101" role="org">Peabody</rel_arg1>
+        <rel_arg2 entity_id="ent-116" entity_mention_id="m-1170" role="loc">Downtown St. Louis</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="350" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-895" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1194" realis="true">
+        <rel_arg1 entity_id="ent-143" entity_mention_id="m-137" role="entity">retirees</rel_arg1>
+        <rel_arg2 entity_id="ent-593" entity_mention_id="m-161" role="loc">company mines</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="473" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-896" type="physical" subtype="orgheadquarter">
+      <relation_mention id="relm-1234" realis="true">
+        <rel_arg1 entity_id="ent-107" entity_mention_id="m-209" role="org">Peabody Energy</rel_arg1>
+        <rel_arg2 entity_id="ent-125" entity_mention_id="m-215" role="loc">St. Louis</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="600" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-897" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-1244" realis="true">
+        <rel_arg1 entity_id="ent-107" entity_mention_id="m-230" role="org">the worlds largest private-sector coal company</rel_arg1>
+        <rel_arg2 entity_id="ent-227" entity_mention_id="m-221" role="loc">worlds</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-898" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-1254" realis="true">
+        <rel_arg1 entity_id="ent-254" entity_mention_id="m-248" role="leader">Peabody executives</rel_arg1>
+        <rel_arg2 entity_id="ent-107" entity_mention_id="m-242" role="entity">Peabody</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="836" length="10">executives</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-899" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1274" realis="true">
+        <rel_arg1 entity_id="ent-143" entity_mention_id="m-263" role="employeemember">retired miners</rel_arg1>
+        <rel_arg2 entity_id="ent-107" entity_mention_id="m-257" role="org">the companys</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="973" length="6">miners</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1503" realis="true">
+        <rel_arg1 entity_id="ent-143" entity_mention_id="m-449" role="employeemember">retired miners</rel_arg1>
+        <rel_arg2 entity_id="ent-107" entity_mention_id="m-443" role="org">its</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1390" length="7">retired</trigger>
+      </relation_mention>
+      <relation_mention id="relm-2816" realis="true">
+        <rel_arg1 entity_id="ent-143" entity_mention_id="m-137" role="employeemember">retirees</rel_arg1>
+        <rel_arg2 entity_id="ent-107" entity_mention_id="m-155" role="org">company</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-900" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1284" realis="true">
+        <rel_arg1 entity_id="ent-71" entity_mention_id="m-275" role="entity">Mine workers</rel_arg1>
+        <rel_arg2 entity_id="ent-80" entity_mention_id="m-281" role="loc">Mine</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-1294" realis="true">
+        <rel_arg1 entity_id="ent-71" entity_mention_id="m-65" role="entity">Mine Workers</rel_arg1>
+        <rel_arg2 entity_id="ent-80" entity_mention_id="m-74" role="loc">Mine</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-901" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1304" realis="true">
+        <rel_arg1 entity_id="ent-89" entity_mention_id="m-1182" role="entity">Thousands of mine workers and supporters</rel_arg1>
+        <rel_arg2 entity_id="ent-80" entity_mention_id="m-182" role="loc">mine</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-902" type="personalsocial" subtype="role">
+      <relation_mention id="relm-1314" realis="true">
+        <rel_arg1 entity_id="ent-299" entity_mention_id="m-293" role="per">Cecil Roberts</rel_arg1>
+        <rel_arg2 filler_id="f-1322" role="role">International President</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-1613" realis="true">
+        <rel_arg1 entity_id="ent-299" entity_mention_id="m-644" role="per">Roberts</rel_arg1>
+        <rel_arg2 filler_id="f-1621" role="role">President</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-903" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-1334" realis="true">
+        <rel_arg1 entity_id="ent-299" entity_mention_id="m-293" role="leader">Cecil Roberts</rel_arg1>
+        <rel_arg2 entity_id="ent-167" entity_mention_id="m-302" role="entity">UMWA</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1059" length="9">President</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1603" realis="true">
+        <rel_arg1 entity_id="ent-299" entity_mention_id="m-644" role="leader">Roberts</rel_arg1>
+        <rel_arg2 entity_id="ent-167" entity_mention_id="m-638" role="entity">UMWA</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1920" length="9">President</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-904" type="personalsocial" subtype="role">
+      <relation_mention id="relm-1344" realis="true">
+        <rel_arg1 entity_id="ent-314" entity_mention_id="m-308" role="per">Hugh McVey</rel_arg1>
+        <rel_arg2 filler_id="f-1352" role="role">President</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-905" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-1354" realis="true">
+        <rel_arg1 entity_id="ent-314" entity_mention_id="m-308" role="leader">Hugh McVey</rel_arg1>
+        <rel_arg2 entity_id="ent-323" entity_mention_id="m-317" role="entity">Missouri AFL-CIO</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1090" length="9">President</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-906" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-1364" realis="true">
+        <rel_arg1 entity_id="ent-323" entity_mention_id="m-317" role="suborg">Missouri AFL-CIO</rel_arg1>
+        <rel_arg2 entity_id="ent-332" entity_mention_id="m-326" role="parent">AFL-CIO</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-907" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-1374" realis="true">
+        <rel_arg1 entity_id="ent-323" entity_mention_id="m-317" role="org">Missouri AFL-CIO</rel_arg1>
+        <rel_arg2 entity_id="ent-341" entity_mention_id="m-335" role="loc">Missouri</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-908" type="personalsocial" subtype="role">
+      <relation_mention id="relm-1384" realis="true">
+        <rel_arg1 entity_id="ent-350" entity_mention_id="m-344" role="per">Terrence Melvin</rel_arg1>
+        <rel_arg2 filler_id="f-1392" role="role">President</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-909" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-1394" realis="true">
+        <rel_arg1 entity_id="ent-350" entity_mention_id="m-344" role="leader">Terrence Melvin</rel_arg1>
+        <rel_arg2 entity_id="ent-359" entity_mention_id="m-353" role="entity">Coalition of Black Trade Unionists</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1138" length="9">President</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-910" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1423" realis="true">
+        <rel_arg1 entity_id="ent-1410" entity_mention_id="m-1404" role="employeemember">Black Trade Unionists</rel_arg1>
+        <rel_arg2 entity_id="ent-359" entity_mention_id="m-353" role="org">Coalition of Black Trade Unionists</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1159" length="2">of</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-911" type="personalsocial" subtype="role">
+      <relation_mention id="relm-1433" realis="true">
+        <rel_arg1 entity_id="ent-368" entity_mention_id="m-362" role="per">Claude Cummings</rel_arg1>
+        <rel_arg2 filler_id="f-1441" role="role">Vice President</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-912" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-1443" realis="true">
+        <rel_arg1 entity_id="ent-368" entity_mention_id="m-362" role="leader">Claude Cummings</rel_arg1>
+        <rel_arg2 entity_id="ent-386" entity_mention_id="m-380" role="entity">CWA District 6</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1204" length="14">Vice President</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-913" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-1453" realis="true">
+        <rel_arg1 entity_id="ent-386" entity_mention_id="m-380" role="suborg">CWA District 6</rel_arg1>
+        <rel_arg2 entity_id="ent-377" entity_mention_id="m-371" role="parent">CWA</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1224" length="8">District</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-914" type="personalsocial" subtype="role">
+      <relation_mention id="relm-1463" realis="true">
+        <rel_arg1 entity_id="ent-395" entity_mention_id="m-389" role="per">Jonathan Stratton</rel_arg1>
+        <rel_arg2 filler_id="f-1471" role="role">Rev.</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-915" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1473" realis="true">
+        <rel_arg1 entity_id="ent-395" entity_mention_id="m-389" role="employeemember">Jonathan Stratton</rel_arg1>
+        <rel_arg2 entity_id="ent-404" entity_mention_id="m-398" role="org">Episcopal Diocese of Missouri</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-916" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-1483" realis="true">
+        <rel_arg1 entity_id="ent-404" entity_mention_id="m-398" role="suborg">Episcopal Diocese of Missouri</rel_arg1>
+        <rel_arg2 entity_id="ent-413" entity_mention_id="m-407" role="parent">Episcopal</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1262" length="9">Episcopal</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-917" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-1493" realis="true">
+        <rel_arg1 entity_id="ent-404" entity_mention_id="m-398" role="org">Episcopal Diocese of Missouri</rel_arg1>
+        <rel_arg2 entity_id="ent-341" entity_mention_id="m-416" role="loc">Missouri</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1280" length="2">of</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-918" type="personalsocial" subtype="unspecified">
+      <relation_mention id="relm-1513" realis="true">
+        <rel_arg1 entity_id="ent-143" entity_mention_id="m-461" role="per">their</rel_arg1>
+        <rel_arg2 entity_id="ent-152" entity_mention_id="m-467" role="per">their dependents</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1415" length="10">dependents</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1523" realis="true">
+        <rel_arg1 entity_id="ent-143" entity_mention_id="m-137" role="per">retirees</rel_arg1>
+        <rel_arg2 entity_id="ent-152" entity_mention_id="m-146" role="per">dependents</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="397" length="10">dependents</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-919" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1533" realis="true">
+        <rel_arg1 entity_id="ent-422" entity_mention_id="m-473" role="entity">Crowne Plaza Hotel</rel_arg1>
+        <rel_arg2 entity_id="ent-479" entity_mention_id="m-482" role="loc">200 N. Fourth Street</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-920" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1543" realis="false">
+        <rel_arg1 entity_id="ent-488" entity_mention_id="m-491" role="entity">Marchers</rel_arg1>
+        <rel_arg2 entity_id="ent-503" entity_mention_id="m-497" role="loc">Pine St.</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1571" length="2">on</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-921" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1553" realis="false">
+        <rel_arg1 entity_id="ent-488" entity_mention_id="m-491" role="entity">Marchers</rel_arg1>
+        <rel_arg2 entity_id="ent-512" entity_mention_id="m-506" role="loc">Broadway</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1583" length="2">to</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-922" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1563" realis="false">
+        <rel_arg1 entity_id="ent-488" entity_mention_id="m-491" role="entity">Marchers</rel_arg1>
+        <rel_arg2 entity_id="ent-521" entity_mention_id="m-515" role="loc">Market</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1596" length="2">to</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-923" type="physical" subtype="orgheadquarter">
+      <relation_mention id="relm-1583" realis="true">
+        <rel_arg1 entity_id="ent-107" entity_mention_id="m-536" role="org">Peabody</rel_arg1>
+        <rel_arg2 entity_id="ent-521" entity_mention_id="m-524" role="loc">Market Street</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1612" length="2">on</trigger>
+      </relation_mention>
+      <relation_mention id="relm-2845" realis="true">
+        <rel_arg1 entity_id="ent-107" entity_mention_id="m-536" role="org">Peabody</rel_arg1>
+        <rel_arg2 entity_id="ent-521" entity_mention_id="m-542" role="loc">Market, Eighth, Chestnut and Seventh Streets</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1667" length="5">along</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-924" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1593" realis="false">
+        <rel_arg1 entity_id="ent-488" entity_mention_id="m-575" role="entity">Marchers</rel_arg1>
+        <rel_arg2 entity_id="ent-587" entity_mention_id="m-581" role="loc">Kiener Plaza</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1746" length="2">to</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-925" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1623" realis="true">
+        <rel_arg1 entity_id="ent-662" entity_mention_id="m-656" role="employeemember">UWMA members</rel_arg1>
+        <rel_arg2 entity_id="ent-167" entity_mention_id="m-650" role="org">UWMA</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1956" length="7">members</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-926" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-1633" realis="true">
+        <rel_arg1 entity_id="ent-602" entity_mention_id="m-674" role="suborg">a company created by Peabody in 2007</rel_arg1>
+        <rel_arg2 entity_id="ent-107" entity_mention_id="m-680" role="parent">Peabody</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="2015" length="10">created by</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-927" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-1653" realis="true">
+        <rel_arg1 entity_id="ent-731" entity_mention_id="m-785" role="suborg">Magnum</rel_arg1>
+        <rel_arg2 entity_id="ent-602" entity_mention_id="m-791" role="parent">Patriot</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="2553" length="11">acquired by</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-928" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-1663" realis="true">
+        <rel_arg1 entity_id="ent-776" entity_mention_id="m-809" role="leader">Executives of these companies</rel_arg1>
+        <rel_arg2 entity_id="ent-815" entity_mention_id="m-818" role="entity">these companies</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="2676" length="10">Executives</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-929" type="personalsocial" subtype="family">
+      <relation_mention id="relm-1673" realis="true">
+        <rel_arg1 entity_id="ent-590" entity_mention_id="m-830" role="per">their</rel_arg1>
+        <rel_arg2 entity_id="ent-842" entity_mention_id="m-836" role="per">their families</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="2747" length="8">families</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-930" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1683" realis="true">
+        <rel_arg1 entity_id="ent-869" entity_mention_id="m-863" role="entity">millions of working people across the country</rel_arg1>
+        <rel_arg2 entity_id="ent-860" entity_mention_id="m-854" role="loc">the country</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="2861" length="6">across</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-931" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1693" realis="true">
+        <rel_arg1 entity_id="ent-143" entity_mention_id="m-935" role="employeemember">these retirees</rel_arg1>
+        <rel_arg2 entity_id="ent-815" entity_mention_id="m-929" role="org">their</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="3039" length="8">retirees</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-932" type="personalsocial" subtype="unspecified">
+      <relation_mention id="relm-1703" realis="true">
+        <rel_arg1 entity_id="ent-1010" entity_mention_id="m-1031" role="per">their</rel_arg1>
+        <rel_arg2 entity_id="ent-1028" entity_mention_id="m-1022" role="per">their dependents</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="3256" length="10">dependents</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-933" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-2835" realis="true">
+        <rel_arg1 entity_id="ent-386" entity_mention_id="m-380" role="org">CWA District 6</rel_arg1>
+        <rel_arg2 entity_id="ent-2832" entity_mention_id="m-2826" role="loc">District 6</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-934" type="physical" subtype="orgheadquarter">
+      <relation_mention id="relm-2855" realis="true">
+        <rel_arg1 entity_id="ent-107" entity_mention_id="m-536" role="org">Peabody</rel_arg1>
+        <rel_arg2 entity_id="ent-554" entity_mention_id="m-548" role="loc">Market, Eighth, Chestnut and Seventh Streets</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1667" length="5">along</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-935" type="physical" subtype="orgheadquarter">
+      <relation_mention id="relm-2865" realis="true">
+        <rel_arg1 entity_id="ent-107" entity_mention_id="m-536" role="org">Peabody</rel_arg1>
+        <rel_arg2 entity_id="ent-572" entity_mention_id="m-566" role="loc">Market, Eighth, Chestnut and Seventh Streets</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1667" length="5">along</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-936" type="physical" subtype="orgheadquarter">
+      <relation_mention id="relm-2875" realis="true">
+        <rel_arg1 entity_id="ent-107" entity_mention_id="m-536" role="org">Peabody</rel_arg1>
+        <rel_arg2 entity_id="ent-563" entity_mention_id="m-2780" role="loc">Market, Eighth, Chestnut and Seventh Streets</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1667" length="5">along</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-937" type="personalsocial" subtype="unspecified">
+      <relation_mention id="relm-2885" realis="true">
+        <rel_arg1 entity_id="ent-716" entity_mention_id="m-725" role="per">3,100 miners and dependents</rel_arg1>
+        <rel_arg2 entity_id="ent-2801" entity_mention_id="m-2795" role="per">3,100 miners and dependents</rel_arg2>
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="2330" length="10">dependents</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-1715">
+      <event_mention id="em-2415" type="transaction" subtype="transfermoney" realis="generic" ways="voluntary">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="2100" length="7">payment</trigger>
+        <em_arg entity_id="ent-602" entity_mention_id="m-665" role="giver" realis="true">Patriot Coal</em_arg>
+        <em_arg filler_id="f-2454" role="time" realis="true">Last month</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1787">
+      <event_mention id="em-1752" type="conflict" subtype="demonstrate" realis="other">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="330" length="8">Encircle</trigger>
+        <em_arg entity_id="ent-71" entity_mention_id="m-65" role="entity" realis="true">Mine Workers</em_arg>
+        <em_arg entity_id="ent-89" entity_mention_id="m-83" role="entity" realis="true">Supporters</em_arg>
+        <em_arg entity_id="ent-98" entity_mention_id="m-92" role="place" realis="true">Peabody HQ in Downtown St. Louis</em_arg>
+      </event_mention>
+      <event_mention id="em-1819" type="conflict" subtype="demonstrate" realis="other">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="552" length="5">march</trigger>
+        <em_arg entity_id="ent-89" entity_mention_id="m-1182" role="entity" realis="true">Thousands of mine workers and supporters</em_arg>
+        <em_arg entity_id="ent-98" entity_mention_id="m-203" role="place" realis="true">the headquarters of Peabody Energy in St. Louis</em_arg>
+        <em_arg filler_id="f-1851" role="time" realis="false">Tuesday, Sept. 24th</em_arg>
+        <em_arg entity_id="ent-71" entity_mention_id="m-1188" role="entity" realis="true">Thousands of mine workers and supporters</em_arg>
+      </event_mention>
+      <event_mention id="em-2056" type="conflict" subtype="demonstrate" realis="other">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1299" length="5">March</trigger>
+        <em_arg entity_id="ent-98" entity_mention_id="m-431" role="place" realis="true">Peabody Headquarters</em_arg>
+        <em_arg filler_id="f-2081" role="time" realis="false">Tuesday, September 24th</em_arg>
+      </event_mention>
+      <event_mention id="em-2189" type="conflict" subtype="demonstrate" realis="other">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1488" length="5">March</trigger>
+        <em_arg entity_id="ent-422" entity_mention_id="m-473" role="place" realis="true">Crowne Plaza Hotel</em_arg>
+      </event_mention>
+      <event_mention id="em-2916" type="conflict" subtype="demonstrate" realis="other">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1549" length="8">Marchers</trigger>
+        <em_arg entity_id="ent-488" entity_mention_id="m-491" role="entity" realis="true">Marchers</em_arg>
+        <em_arg entity_id="ent-503" entity_mention_id="m-497" role="place" realis="true">Pine St.</em_arg>
+        <em_arg entity_id="ent-512" entity_mention_id="m-506" role="place" realis="true">Broadway</em_arg>
+        <em_arg entity_id="ent-521" entity_mention_id="m-515" role="place" realis="true">Market</em_arg>
+        <em_arg entity_id="ent-98" entity_mention_id="m-530" role="place" realis="true">Peabody headquarters</em_arg>
+        <em_arg entity_id="ent-554" entity_mention_id="m-548" role="place" realis="true">Market, Eighth, Chestnut and Seventh Streets</em_arg>
+        <em_arg entity_id="ent-572" entity_mention_id="m-566" role="place" realis="true">Market, Eighth, Chestnut and Seventh Streets</em_arg>
+        <em_arg entity_id="ent-563" entity_mention_id="m-2780" role="place" realis="true">Market, Eighth, Chestnut and Seventh Streets</em_arg>
+      </event_mention>
+      <event_mention id="em-3056" type="conflict" subtype="demonstrate" realis="other">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1719" length="8">Marchers</trigger>
+        <em_arg entity_id="ent-488" entity_mention_id="m-575" role="entity" realis="true">Marchers</em_arg>
+        <em_arg entity_id="ent-587" entity_mention_id="m-581" role="place" realis="true">Kiener Plaza</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1817">
+      <event_mention id="em-1789" type="personnel" subtype="endposition" realis="generic">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="384" length="8">retirees</trigger>
+        <em_arg entity_id="ent-107" entity_mention_id="m-155" role="entity" realis="true">company</em_arg>
+        <em_arg entity_id="ent-143" entity_mention_id="m-137" role="person" realis="true">retirees</em_arg>
+      </event_mention>
+      <event_mention id="em-2021" type="personnel" subtype="endposition" realis="generic">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="965" length="7">retired</trigger>
+        <em_arg entity_id="ent-107" entity_mention_id="m-257" role="entity" realis="true">the companys</em_arg>
+        <em_arg entity_id="ent-143" entity_mention_id="m-263" role="person" realis="true">retired miners</em_arg>
+        <em_arg filler_id="f-2053" role="position" realis="true">miners</em_arg>
+      </event_mention>
+      <event_mention id="em-2154" type="personnel" subtype="endposition" realis="generic">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1390" length="7">retired</trigger>
+        <em_arg entity_id="ent-107" entity_mention_id="m-443" role="entity" realis="true">its</em_arg>
+        <em_arg entity_id="ent-143" entity_mention_id="m-449" role="person" realis="true">retired miners</em_arg>
+        <em_arg filler_id="f-2186" role="position" realis="true">miners</em_arg>
+      </event_mention>
+      <event_mention id="em-2459" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="2136" length="7">retired</trigger>
+        <em_arg entity_id="ent-143" entity_mention_id="m-686" role="person" realis="true">retired miners</em_arg>
+        <em_arg filler_id="f-2484" role="position" realis="true">miners</em_arg>
+      </event_mention>
+      <event_mention id="em-2573" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="3039" length="8">retirees</trigger>
+        <em_arg entity_id="ent-143" entity_mention_id="m-935" role="person" realis="true">these retirees</em_arg>
+        <em_arg entity_id="ent-815" entity_mention_id="m-929" role="entity" realis="true">their</em_arg>
+      </event_mention>
+      <event_mention id="em-2643" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="3116" length="7">retired</trigger>
+        <em_arg entity_id="ent-143" entity_mention_id="m-962" role="person" realis="true">affected retired miners</em_arg>
+        <em_arg filler_id="f-2668" role="position" realis="true">miners</em_arg>
+      </event_mention>
+      <event_mention id="em-2715" type="personnel" subtype="endposition" realis="generic">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="3231" length="7">retired</trigger>
+        <em_arg entity_id="ent-1010" entity_mention_id="m-1004" role="person" realis="true">retired miners</em_arg>
+        <em_arg filler_id="f-2740" role="position" realis="true">miners</em_arg>
+      </event_mention>
+      <event_mention id="em-3154" type="personnel" subtype="endposition" realis="generic">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="2466" length="7">retiree</trigger>
+        <em_arg entity_id="ent-2813" entity_mention_id="m-2807" role="person" realis="true">retiree</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1889">
+      <event_mention id="em-1854" type="movement" subtype="transportperson" realis="other">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="330" length="8">Encircle</trigger>
+        <em_arg entity_id="ent-71" entity_mention_id="m-65" role="agent" realis="true">Mine Workers</em_arg>
+        <em_arg entity_id="ent-89" entity_mention_id="m-83" role="agent" realis="true">Supporters</em_arg>
+        <em_arg entity_id="ent-98" entity_mention_id="m-92" role="destination" realis="true">Peabody HQ in Downtown St. Louis</em_arg>
+      </event_mention>
+      <event_mention id="em-1891" type="movement" subtype="transportperson" realis="other">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="552" length="5">march</trigger>
+        <em_arg entity_id="ent-89" entity_mention_id="m-1182" role="agent" realis="true">Thousands of mine workers and supporters</em_arg>
+        <em_arg entity_id="ent-98" entity_mention_id="m-203" role="destination" realis="true">the headquarters of Peabody Energy in St. Louis</em_arg>
+        <em_arg filler_id="f-1923" role="time" realis="false">Tuesday, Sept. 24th</em_arg>
+        <em_arg entity_id="ent-71" entity_mention_id="m-1188" role="agent" realis="true">Thousands of mine workers and supporters</em_arg>
+        <em_arg entity_id="ent-98" entity_mention_id="m-203" role="origin" realis="true">the headquarters of Peabody Energy in St. Louis</em_arg>
+      </event_mention>
+      <event_mention id="em-2126" type="movement" subtype="transportperson" realis="other">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1299" length="5">March</trigger>
+        <em_arg entity_id="ent-98" entity_mention_id="m-431" role="destination" realis="true">Peabody Headquarters</em_arg>
+        <em_arg filler_id="f-2151" role="time" realis="false">Tuesday, September 24th</em_arg>
+      </event_mention>
+      <event_mention id="em-2294" type="movement" subtype="transportperson" realis="other">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1488" length="5">March</trigger>
+        <em_arg entity_id="ent-422" entity_mention_id="m-473" role="origin" realis="true">Crowne Plaza Hotel</em_arg>
+      </event_mention>
+      <event_mention id="em-2986" type="movement" subtype="transportperson" realis="other">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1549" length="8">Marchers</trigger>
+        <em_arg entity_id="ent-488" entity_mention_id="m-491" role="agent" realis="true">Marchers</em_arg>
+        <em_arg entity_id="ent-503" entity_mention_id="m-497" role="destination" realis="true">Pine St.</em_arg>
+        <em_arg entity_id="ent-512" entity_mention_id="m-506" role="destination" realis="true">Broadway</em_arg>
+        <em_arg entity_id="ent-521" entity_mention_id="m-515" role="destination" realis="true">Market</em_arg>
+        <em_arg entity_id="ent-98" entity_mention_id="m-530" role="destination" realis="true">Peabody headquarters</em_arg>
+        <em_arg entity_id="ent-554" entity_mention_id="m-548" role="destination" realis="true">Market, Eighth, Chestnut and Seventh Streets</em_arg>
+        <em_arg entity_id="ent-572" entity_mention_id="m-566" role="destination" realis="true">Market, Eighth, Chestnut and Seventh Streets</em_arg>
+        <em_arg entity_id="ent-563" entity_mention_id="m-2780" role="destination" realis="true">Market, Eighth, Chestnut and Seventh Streets</em_arg>
+      </event_mention>
+      <event_mention id="em-3084" type="movement" subtype="transportperson" realis="other">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="1719" length="8">Marchers</trigger>
+        <em_arg entity_id="ent-488" entity_mention_id="m-575" role="agent" realis="true">Marchers</em_arg>
+        <em_arg entity_id="ent-587" entity_mention_id="m-581" role="destination" realis="true">Kiener Plaza</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1984">
+      <event_mention id="em-1949" type="transaction" subtype="transfermoney" realis="actual" ways="voluntary">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="790" length="6">income</trigger>
+        <em_arg entity_id="ent-107" entity_mention_id="m-236" role="recipient" realis="true">which</em_arg>
+        <em_arg filler_id="f-1974" role="money" realis="true">$90 million</em_arg>
+        <em_arg filler_id="f-1981" role="time" realis="true">the second quarter of 2013</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2413">
+      <event_mention id="em-2378" type="business" subtype="startorg" realis="actual">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="2015" length="7">created</trigger>
+        <em_arg entity_id="ent-602" entity_mention_id="m-674" role="org" realis="true">a company created by Peabody in 2007</em_arg>
+        <em_arg filler_id="f-2403" role="time" realis="true">2007</em_arg>
+        <em_arg entity_id="ent-107" entity_mention_id="m-680" role="agent" realis="true">Peabody</em_arg>
+      </event_mention>
+      <event_mention id="em-2487" type="business" subtype="startorg" realis="actual">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="2406" length="7">spinoff</trigger>
+        <em_arg entity_id="ent-107" entity_mention_id="m-740" role="agent" realis="true">Peabody</em_arg>
+        <em_arg entity_id="ent-602" entity_mention_id="m-746" role="org" realis="true">Patriot</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2457">
+      <event_mention id="em-2515" type="transaction" subtype="transferownership" realis="actual" ways="voluntary">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="2553" length="8">acquired</trigger>
+        <em_arg entity_id="ent-602" entity_mention_id="m-791" role="recipient" realis="true">Patriot</em_arg>
+        <em_arg entity_id="ent-731" entity_mention_id="m-785" role="thing" realis="true">Magnum</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2543">
+      <event_mention id="em-2545" type="business" subtype="declarebankruptcy" realis="actual">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="2588" length="10">bankruptcy</trigger>
+        <em_arg entity_id="ent-602" entity_mention_id="m-797" role="org" realis="true">which</em_arg>
+        <em_arg filler_id="f-2570" role="time" realis="true">last year</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2713">
+      <event_mention id="em-2671" type="justice" subtype="sue" realis="actual">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="3142" length="7">lawsuit</trigger>
+        <em_arg entity_id="ent-167" entity_mention_id="m-941" role="plaintiff" realis="true">The unions</em_arg>
+        <em_arg entity_id="ent-107" entity_mention_id="m-977" role="defendant" realis="true">Peabody</em_arg>
+        <em_arg entity_id="ent-626" entity_mention_id="m-983" role="defendant" realis="true">Arch</em_arg>
+        <em_arg entity_id="ent-968" entity_mention_id="m-989" role="place" realis="true">West Virginia</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2778">
+      <event_mention id="em-2743" type="personnel" subtype="endposition" realis="generic">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="3681" length="9">kill jobs</trigger>
+        <em_arg entity_id="ent-968" entity_mention_id="m-1079" role="place" realis="true">West Virginia</em_arg>
+        <em_arg entity_id="ent-1091" entity_mention_id="m-1085" role="place" realis="true">Kentucky</em_arg>
+        <em_arg entity_id="ent-860" entity_mention_id="m-1094" role="place" realis="true">nationwide</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-3177">
+      <event_mention id="em-3112" type="justice" subtype="sue" realis="actual">
+        <trigger source="c397ecd66789b905c6b1c5ef21af03ec" offset="2242" length="5">court</trigger>
+        <em_arg entity_id="ent-167" entity_mention_id="m-704" role="plaintiff" realis="true">The union</em_arg>
+        <em_arg entity_id="ent-107" entity_mention_id="m-719" role="defendant" realis="true">Peabodys</em_arg>
+        <em_arg filler_id="f-3144" role="time" realis="true">August</em_arg>
+        <em_arg entity_id="ent-671" entity_mention_id="m-710" role="adjudicator" realis="true">court</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

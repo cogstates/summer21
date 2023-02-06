@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-570bb5ce0000000000000002">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-568eb23c_2_597">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_2_195" offset="187" length="12">John Marston</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_2_617">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_2_195" offset="187" length="12">John Marston</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_2_607">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_2_213" offset="1700" length="8">Freewill</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_2_627">
+        <trigger offset="2412" length="2">'s</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_2_249" offset="2313" length="11">LoneLaugher</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_2_647">
+        <trigger offset="3478" length="2">of</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_2_165" offset="4791" length="12">Adolf Hitler</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_2_231" offset="2615" length="7">Edgetho</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-568eb23c_2_657">
+        <trigger offset="1877" length="4">fire</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_2_213" offset="1700" length="8">Freewill</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_2_393" offset="1870" length="6">
+            <text>sniper</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_2_213" offset="1700" length="8">Freewill</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_2_701">
+        <trigger offset="1921" length="3">war</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_2_213" offset="1700" length="8">Freewill</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_2_378" offset="1916" length="4">
+            <text>Iraq</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_2_213" offset="1700" length="8">Freewill</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_2_724">
+        <trigger offset="1952" length="3">war</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_2_213" offset="1700" length="8">Freewill</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_2_159" offset="1947" length="4">
+            <text>Iraq</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_2_213" offset="1700" length="8">Freewill</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-568eb23c_2_75" offset="1173" length="6">
+        <text>Walker</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_81" offset="129" length="15">
+        <text>Hillary Clinton</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_87" offset="233" length="15">
+        <text>Hillary Clinton</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_93" offset="453" length="7">
+        <text>Clinton</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_99" offset="606" length="15">
+        <text>Hillary Clinton</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_105" offset="1040" length="7">
+        <text>Hillary</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_111" offset="2209" length="7">
+        <text>Clinton</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_2_219" offset="2131" length="13">Mad Scientist</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_117" offset="2249" length="10">
+        <text>Hildebeast</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_2_219" offset="2131" length="13">Mad Scientist</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_264" offset="338" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_123" offset="1363" length="8">
+        <text>BENGHAZI</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_129" offset="1772" length="8">
+        <text>Benghazi</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_135" offset="1806" length="10">
+        <text>Whitewater</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_141" offset="1818" length="6">
+        <text>Monica</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_147" offset="1842" length="6">
+        <text>Foster</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_153" offset="1887" length="14">
+        <text>Edmund Hillary</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_159" offset="1947" length="4">
+        <text>Iraq</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_378" offset="1916" length="4">
+        <text>Iraq</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_165" offset="4791" length="12">
+        <text>Adolf Hitler</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_171" offset="1145" length="4">
+        <text>Bush</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_177" offset="1151" length="4">
+        <text>Cruz</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_183" offset="1157" length="6">
+        <text>Romney</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_189" offset="1165" length="6">
+        <text>Carson</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_195" offset="187" length="12">
+        <text>John Marston</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_348" offset="1181" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_777" offset="1345" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_201" offset="1499" length="11">
+        <text>rightwinger</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_207" offset="1300" length="11">
+        <text>rightwinger</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_213" offset="1700" length="8">
+        <text>Freewill</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_219" offset="2131" length="13">
+        <text>Mad Scientist</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_225" offset="2516" length="9">
+        <text>jknowgood</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_231" offset="2615" length="7">
+        <text>Edgetho</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_237" offset="1402" length="11">
+        <text>LoneLaugher</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_243" offset="2020" length="11">
+        <text>LoneLaugher</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_249" offset="2313" length="11">
+        <text>LoneLaugher</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_429" offset="2446" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_255" offset="107" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_288" offset="584" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_270" offset="449" length="120">
+        <text>the Clinton "Super Volunteers," who have promised to track the media's use of words they believe to be sexist code words</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_402" offset="2209" length="24">
+        <text>Clinton Super Volunteers</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_2_219" offset="2131" length="13">Mad Scientist</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_408" offset="2379" length="16">
+        <text>these volunteers</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_2_249" offset="2313" length="11">LoneLaugher</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_279" offset="508" length="9">
+        <text>the media</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_2_270" offset="449" length="120">the Clinton "Super Volunteers," who have promised to track the media's use of words they believe to be sexist code words</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_366" offset="1623" length="17">
+        <text>that libral media</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_2_201" offset="1499" length="11">rightwinger</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_372" offset="1647" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_2_201" offset="1499" length="11">rightwinger</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_414" offset="2402" length="18">
+        <text>the nation's media</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_294" offset="678" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_336" offset="1079" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_342" offset="1110" length="16">
+        <text>other candidates</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_354" offset="1245" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_360" offset="1447" length="3">
+        <text>Who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_384" offset="1973" length="8">
+        <text>lesbians</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_393" offset="1870" length="6">
+        <text>sniper</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_420" offset="2402" length="10">
+        <text>the nation</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_435" offset="2698" length="30">
+        <text>the broad masses of the people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_459" offset="2884" length="28">
+        <text>those to whom it is directed</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_468" offset="3004" length="10">
+        <text>the public</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_474" offset="3036" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_480" offset="3157" length="19">
+        <text>the national masses</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_2_165" offset="4791" length="12">Adolf Hitler</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_486" offset="3178" length="30">
+        <text>The broad masses of the people</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_2_165" offset="4791" length="12">Adolf Hitler</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_522" offset="3357" length="94">
+        <text>a vacillating crowd of human children who are constantly wavering between one idea and another</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_2_165" offset="4791" length="12">Adolf Hitler</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_570" offset="4110" length="10">
+        <text>the masses</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_2_165" offset="4791" length="12">Adolf Hitler</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_576" offset="4146" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_2_165" offset="4791" length="12">Adolf Hitler</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_582" offset="4196" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_2_165" offset="4791" length="12">Adolf Hitler</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_450" offset="2858" length="54">
+        <text>the least intellectual of those to whom it is directed</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_498" offset="3228" length="9">
+        <text>diplomats</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_504" offset="3241" length="34">
+        <text>professors of public jurisprudence</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_513" offset="3290" length="61">
+        <text>persons who are able to form reasoned judgment in given cases</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_540" offset="3459" length="30">
+        <text>The great majority of a nation</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_2_165" offset="4791" length="12">Adolf Hitler</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_558" offset="3508" length="3">
+        <text>its</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_2_165" offset="4791" length="12">Adolf Hitler</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_564" offset="3539" length="3">
+        <text>its</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_2_165" offset="4791" length="12">Adolf Hitler</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_549" offset="3481" length="8">
+        <text>a nation</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_588" offset="4429" length="24">
+        <text>the very last individual</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_768" offset="984" length="7">
+        <text>Twitter</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_2_783" offset="4726" length="3">
+        <text>one</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-568eb23c_2_597">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_2_617">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_2_607">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_2_627">
+        <trigger offset="2412" length="2">'s</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_2_647">
+        <trigger offset="3478" length="2">of</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_2_165" offset="4791" length="12">Adolf Hitler</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-568eb23c_2_657">
+        <trigger offset="1877" length="4">fire</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_2_701">
+        <trigger offset="1921" length="3">war</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_2_724">
+        <trigger offset="1952" length="3">war</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

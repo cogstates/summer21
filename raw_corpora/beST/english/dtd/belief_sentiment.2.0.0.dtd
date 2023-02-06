@@ -1,0 +1,51 @@
+<!--
+  DTD for Deft Belief/Sentiment XML
+  Brian Gainor, LDC
+  bgainor@ldc.upenn.edu
+  DTD version 1.1.0
+  January 13, 2016
+
+  The type attribute of a <belief/> element MUST be one of:
+    cb ncb rob na
+
+  -->
+
+<!ELEMENT belief_sentiment_doc (belief_annotations, sentiment_annotations)>
+<!ELEMENT belief_annotations (relations, events)>
+<!ELEMENT sentiment_annotations (entities, relations, events)>
+<!ELEMENT relations (relation*)>
+<!ELEMENT events (event*)>
+<!ELEMENT entities (entity*)>
+<!ELEMENT relation (trigger?, beliefs?, sentiments?)>
+<!ELEMENT event (trigger?, beliefs?, arguments?, sentiments?)>
+<!ELEMENT entity (text, sentiments)>
+<!ELEMENT arguments (arg*)>
+<!ELEMENT arg (text, beliefs)>
+<!ELEMENT trigger (#PCDATA)>
+<!ELEMENT text (#PCDATA)>
+<!ELEMENT beliefs (belief+)>
+<!ELEMENT belief (source?)>
+<!ELEMENT sentiments (sentiment+)>
+<!ELEMENT sentiment (source?)>
+<!ELEMENT source (#PCDATA)>
+
+
+<!ATTLIST belief_sentiment_doc  id          ID     #REQUIRED>
+<!ATTLIST relation	ere_id	CDATA	#REQUIRED>
+<!ATTLIST event	ere_id	CDATA	#REQUIRED>
+<!ATTLIST entity	ere_id	CDATA	#REQUIRED>
+<!ATTLIST entity	offset	CDATA	#REQUIRED>
+<!ATTLIST entity	length	CDATA	#REQUIRED>
+<!ATTLIST arg	ere_id	CDATA	#REQUIRED>
+<!ATTLIST arg	offset	CDATA	#REQUIRED>
+<!ATTLIST arg	length	CDATA	#REQUIRED>
+<!ATTLIST trigger	offset	CDATA	#REQUIRED>
+<!ATTLIST trigger	length	CDATA	#REQUIRED>
+<!ATTLIST belief	type	CDATA	#REQUIRED>
+<!ATTLIST belief	polarity	CDATA	#IMPLIED>
+<!ATTLIST belief	sarcasm	CDATA	#IMPLIED>
+<!ATTLIST sentiment	polarity	CDATA	#REQUIRED>
+<!ATTLIST sentiment	sarcasm	CDATA	#REQUIRED>
+<!ATTLIST source	ere_id	CDATA	#REQUIRED>
+<!ATTLIST source	offset	CDATA	#REQUIRED>
+<!ATTLIST source	length	CDATA	#REQUIRED>

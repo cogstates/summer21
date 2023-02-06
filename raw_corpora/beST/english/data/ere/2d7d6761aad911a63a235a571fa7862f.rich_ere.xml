@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="5554f84f0000000000000043" doc_id="2d7d6761aad911a63a235a571fa7862f" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-57" noun_type="NAM" source="2d7d6761aad911a63a235a571fa7862f" offset="14" length="7">
+        <mention_text>juanton</mention_text>
+      </entity_mention>
+      <entity_mention id="m-63" noun_type="PRO" source="2d7d6761aad911a63a235a571fa7862f" offset="294" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-69" noun_type="PRO" source="2d7d6761aad911a63a235a571fa7862f" offset="355" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-18" type="PER" specificity="specific">
+      <entity_mention id="m-75" noun_type="NAM" source="2d7d6761aad911a63a235a571fa7862f" offset="519" length="10">
+        <mention_text>fisticuffs</mention_text>
+      </entity_mention>
+      <entity_mention id="m-81" noun_type="PRO" source="2d7d6761aad911a63a235a571fa7862f" offset="600" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-87" noun_type="PRO" source="2d7d6761aad911a63a235a571fa7862f" offset="671" length="2">
+        <mention_text>My</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-21" type="PER" specificity="specific">
+      <entity_mention id="m-93" noun_type="NOM" source="2d7d6761aad911a63a235a571fa7862f" offset="671" length="14">
+        <mention_text>My grandfather</mention_text>
+        <nom_head source="2d7d6761aad911a63a235a571fa7862f" offset="674" length="11">grandfather</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-24" type="PER" specificity="specific">
+      <entity_mention id="m-99" noun_type="NOM" source="2d7d6761aad911a63a235a571fa7862f" offset="743" length="9">
+        <mention_text>One uncle</mention_text>
+        <nom_head source="2d7d6761aad911a63a235a571fa7862f" offset="747" length="5">uncle</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-27" type="PER" specificity="specific">
+      <entity_mention id="m-105" noun_type="NOM" source="2d7d6761aad911a63a235a571fa7862f" offset="944" length="13">
+        <mention_text>Another uncle</mention_text>
+        <nom_head source="2d7d6761aad911a63a235a571fa7862f" offset="952" length="5">uncle</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-30" type="ORG" specificity="specific">
+      <entity_mention id="m-111" noun_type="NAM" source="2d7d6761aad911a63a235a571fa7862f" offset="252" length="11">
+        <mention_text>Beloit Corp</mention_text>
+      </entity_mention>
+      <entity_mention id="m-117" noun_type="NAM" source="2d7d6761aad911a63a235a571fa7862f" offset="618" length="11">
+        <mention_text>Beloit Corp</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-33" type="ORG" specificity="specific">
+      <entity_mention id="m-123" noun_type="NAM" source="2d7d6761aad911a63a235a571fa7862f" offset="268" length="9">
+        <mention_text>Fairbanks</mention_text>
+      </entity_mention>
+      <entity_mention id="m-129" noun_type="NAM" source="2d7d6761aad911a63a235a571fa7862f" offset="634" length="8">
+        <mention_text>Fairbank</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-36" type="ORG" specificity="specific">
+      <entity_mention id="m-135" noun_type="NOM" source="2d7d6761aad911a63a235a571fa7862f" offset="223" length="19">
+        <mention_text>the major employers</mention_text>
+        <nom_head source="2d7d6761aad911a63a235a571fa7862f" offset="233" length="9">employers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-39" type="ORG" specificity="specific">
+      <entity_mention id="m-141" noun_type="NOM" source="2d7d6761aad911a63a235a571fa7862f" offset="696" length="21">
+        <mention_text>that Janesville plant</mention_text>
+        <nom_head source="2d7d6761aad911a63a235a571fa7862f" offset="712" length="5">plant</nom_head>
+      </entity_mention>
+      <entity_mention id="m-147" noun_type="NOM" source="2d7d6761aad911a63a235a571fa7862f" offset="967" length="20">
+        <mention_text>the Janesville plant</mention_text>
+        <nom_head source="2d7d6761aad911a63a235a571fa7862f" offset="982" length="5">plant</nom_head>
+      </entity_mention>
+      <entity_mention id="m-153" noun_type="NOM" source="2d7d6761aad911a63a235a571fa7862f" offset="1125" length="10">
+        <mention_text>that plant</mention_text>
+        <nom_head source="2d7d6761aad911a63a235a571fa7862f" offset="1130" length="5">plant</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-42" type="ORG" specificity="specific">
+      <entity_mention id="m-159" noun_type="NAM" source="2d7d6761aad911a63a235a571fa7862f" offset="762" length="2">
+        <mention_text>GM</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-45" type="GPE" specificity="specific">
+      <entity_mention id="m-165" noun_type="NAM" source="2d7d6761aad911a63a235a571fa7862f" offset="183" length="6">
+        <mention_text>Beloit</mention_text>
+      </entity_mention>
+      <entity_mention id="m-171" noun_type="NAM" source="2d7d6761aad911a63a235a571fa7862f" offset="581" length="6">
+        <mention_text>Beloit</mention_text>
+      </entity_mention>
+      <entity_mention id="m-177" noun_type="NOM" source="2d7d6761aad911a63a235a571fa7862f" offset="661" length="8">
+        <mention_text>the city</mention_text>
+        <nom_head source="2d7d6761aad911a63a235a571fa7862f" offset="665" length="4">city</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-48" type="GPE" specificity="specific">
+      <entity_mention id="m-183" noun_type="NAM" source="2d7d6761aad911a63a235a571fa7862f" offset="326" length="10">
+        <mention_text>Janesville</mention_text>
+      </entity_mention>
+      <entity_mention id="m-189" noun_type="NAM" source="2d7d6761aad911a63a235a571fa7862f" offset="701" length="10">
+        <mention_text>Janesville</mention_text>
+      </entity_mention>
+      <entity_mention id="m-195" noun_type="NAM" source="2d7d6761aad911a63a235a571fa7862f" offset="971" length="10">
+        <mention_text>Janesville</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-51" type="GPE" specificity="specific">
+      <entity_mention id="m-201" noun_type="NAM" source="2d7d6761aad911a63a235a571fa7862f" offset="768" length="9">
+        <mention_text>Ft. Wayne</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-54" type="GPE" specificity="specific">
+      <entity_mention id="m-207" noun_type="NAM" source="2d7d6761aad911a63a235a571fa7862f" offset="778" length="2">
+        <mention_text>IN</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-423" type="PER" specificity="nonspecific">
+      <entity_mention id="m-417" noun_type="NOM" source="2d7d6761aad911a63a235a571fa7862f" offset="414" length="8">
+        <mention_text>families</mention_text>
+        <nom_head source="2d7d6761aad911a63a235a571fa7862f" offset="414" length="8">families</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-432" type="PER" specificity="nonspecific">
+      <entity_mention id="m-426" noun_type="NOM" source="2d7d6761aad911a63a235a571fa7862f" offset="428" length="7">
+        <mention_text>parents</mention_text>
+        <nom_head source="2d7d6761aad911a63a235a571fa7862f" offset="428" length="7">parents</nom_head>
+      </entity_mention>
+      <entity_mention id="m-435" noun_type="PRO" source="2d7d6761aad911a63a235a571fa7862f" offset="453" length="10">
+        <mention_text>themselves</mention_text>
+      </entity_mention>
+      <entity_mention id="m-441" noun_type="PRO" source="2d7d6761aad911a63a235a571fa7862f" offset="484" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-486" type="PER" specificity="nonspecific">
+      <entity_mention id="m-480" noun_type="NOM" source="2d7d6761aad911a63a235a571fa7862f" offset="1147" length="6">
+        <mention_text>people</mention_text>
+        <nom_head source="2d7d6761aad911a63a235a571fa7862f" offset="1147" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers/>
+  <relations>
+    <relation id="r-937" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-213" realis="true">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-93" role="employeemember">My grandfather</rel_arg1>
+        <rel_arg2 entity_id="ent-39" entity_mention_id="m-141" role="org">that Janesville plant</rel_arg2>
+        <trigger source="2d7d6761aad911a63a235a571fa7862f" offset="686" length="9">worked at</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-938" type="personalsocial" subtype="family">
+      <relation_mention id="relm-223" realis="true">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-93" role="per">My grandfather</rel_arg1>
+        <rel_arg2 entity_id="ent-18" entity_mention_id="m-87" role="per">My</rel_arg2>
+        <trigger source="2d7d6761aad911a63a235a571fa7862f" offset="674" length="11">grandfather</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-939" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-233" realis="true">
+        <rel_arg1 entity_id="ent-39" entity_mention_id="m-141" role="org">that Janesville plant</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-189" role="loc">Janesville</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-489" realis="true">
+        <rel_arg1 entity_id="ent-39" entity_mention_id="m-147" role="org">the Janesville plant</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-195" role="loc">Janesville</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-940" type="physical" subtype="locatednear">
+      <relation_mention id="relm-243" realis="true">
+        <rel_arg1 entity_id="ent-24" entity_mention_id="m-99" role="entity">One uncle</rel_arg1>
+        <rel_arg2 entity_id="ent-51" entity_mention_id="m-201" role="loc">Ft. Wayne</rel_arg2>
+        <trigger source="2d7d6761aad911a63a235a571fa7862f" offset="765" length="2">to</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-941" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-253" realis="true">
+        <rel_arg1 entity_id="ent-27" entity_mention_id="m-105" role="employeemember">Another uncle</rel_arg1>
+        <rel_arg2 entity_id="ent-39" entity_mention_id="m-147" role="org">the Janesville plant</rel_arg2>
+        <trigger source="2d7d6761aad911a63a235a571fa7862f" offset="958" length="8">works at</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-942" type="physical" subtype="locatednear">
+      <relation_mention id="relm-263" realis="true">
+        <rel_arg1 entity_id="ent-51" entity_mention_id="m-201" role="entity">Ft. Wayne</rel_arg1>
+        <rel_arg2 entity_id="ent-54" entity_mention_id="m-207" role="loc">IN</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-943" type="physical" subtype="resident">
+      <relation_mention id="relm-447" realis="true">
+        <rel_arg1 entity_id="ent-18" entity_mention_id="m-81" role="per">I</rel_arg1>
+        <rel_arg2 entity_id="ent-45" entity_mention_id="m-171" role="loc">Beloit</rel_arg2>
+        <trigger source="2d7d6761aad911a63a235a571fa7862f" offset="571" length="9">Raised in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-944" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-520" realis="true">
+        <rel_arg1 entity_id="ent-42" entity_mention_id="m-159" role="org">GM</rel_arg1>
+        <rel_arg2 entity_id="ent-51" entity_mention_id="m-201" role="loc">Ft. Wayne</rel_arg2>
+        <trigger source="2d7d6761aad911a63a235a571fa7862f" offset="765" length="2">to</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-16">
+      <event_mention id="em-281" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="2d7d6761aad911a63a235a571fa7862f" offset="753" length="8">followed</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-99" role="agent" realis="true">One uncle</em_arg>
+        <em_arg entity_id="ent-51" entity_mention_id="m-201" role="destination" realis="true">Ft. Wayne</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-273">
+      <event_mention id="em-302" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="2d7d6761aad911a63a235a571fa7862f" offset="800" length="10">retirement</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-99" role="person" realis="true">One uncle</em_arg>
+        <em_arg entity_id="ent-42" entity_mention_id="m-159" role="entity" realis="true">GM</em_arg>
+        <em_arg entity_id="ent-51" entity_mention_id="m-201" role="place" realis="true">Ft. Wayne</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-275">
+      <event_mention id="em-323" type="business" subtype="endorg" realis="actual">
+        <trigger source="2d7d6761aad911a63a235a571fa7862f" offset="645" length="8">closures</trigger>
+        <em_arg entity_id="ent-33" entity_mention_id="m-129" role="org" realis="true">Fairbank</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-277">
+      <event_mention id="em-344" type="business" subtype="endorg" realis="actual">
+        <trigger source="2d7d6761aad911a63a235a571fa7862f" offset="645" length="8">closures</trigger>
+        <em_arg entity_id="ent-30" entity_mention_id="m-117" role="org" realis="true">Beloit Corp</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-279">
+      <event_mention id="em-365" type="transaction" subtype="transfermoney" realis="actual" ways="voluntary">
+        <trigger source="2d7d6761aad911a63a235a571fa7862f" offset="243" length="8">bail out</trigger>
+        <em_arg entity_id="ent-36" entity_mention_id="m-135" role="giver" realis="true">the major employers</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

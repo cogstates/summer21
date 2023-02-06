@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="568eb23c0000000000000014" doc_id="ENG_DF_000183_20150408_F0000009B_6147-11975" source_type="multi_post">
+  <entities>
+    <entity id="ent-m.01_6j_" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_111" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="7613" length="10">
+        <mention_text>Alex Jones</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.021pgp" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_117" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="8446" length="10">
+        <mention_text>Mike Crapo</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.0qxlh" type="GPE" specificity="specific">
+      <entity_mention id="m-568eb23c_14_123" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="8711" length="9">
+        <mention_text>Bald Knob</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.07sz1" type="ORG" specificity="specific">
+      <entity_mention id="m-568eb23c_14_129" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="9740" length="13">
+        <mention_text>Supreme Court</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_135" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="9994" length="13">
+        <mention_text>Supreme Court</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_141" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="11174" length="13">
+        <mention_text>Supreme Court</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_147" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="11506" length="13">
+        <mention_text>Supreme Court</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.07t31" type="ORG" specificity="specific">
+      <entity_mention id="m-568eb23c_14_153" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="11597" length="8">
+        <mention_text>Congress</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_159" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="11422" length="8">
+        <mention_text>Congress</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.09b6zr" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_171" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="9573" length="4">
+        <mention_text>Bush</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.0d060g" type="GPE" specificity="specific">
+      <entity_mention id="m-568eb23c_14_177" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="6239" length="6">
+        <mention_text>Canada</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.01chwz" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_183" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="7721" length="7">
+        <mention_text>Chelsea</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL03618" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_189" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="7766" length="9">
+        <mention_text>Charlotte</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.03crtr" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_195" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="6783" length="11">
+        <mention_text>Jamie Dimon</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.019x9z" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_165" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="9568" length="4">
+        <mention_text>Bush</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_201" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="6931" length="3">
+        <mention_text>Jeb</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.02mjmr" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_207" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="7593" length="5">
+        <mention_text>Obama</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.0c3zfwm" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_213" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="8461" length="13">
+        <mention_text>Raul Labrador</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.03s5t" type="GPE" specificity="specific">
+      <entity_mention id="m-568eb23c_14_219" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="8529" length="5">
+        <mention_text>Idaho</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.0157m" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_225" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="6527" length="4">
+        <mention_text>Bill</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_231" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="7554" length="4">
+        <mention_text>Bill</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_237" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="8649" length="4">
+        <mention_text>Bill</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_243" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="9556" length="7">
+        <mention_text>Clinton</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_486" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="6575" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_516" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="7576" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_726" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="8726" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_780" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="9180" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_789" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="9225" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_795" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="9242" length="7">
+        <mention_text>himself</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.0vbk" type="GPE" specificity="specific">
+      <entity_mention id="m-568eb23c_14_249" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="8749" length="8">
+        <mention_text>Arkansas</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_720" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="8722" length="2">
+        <mention_text>AR</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.0d06m5" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_255" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="6775" length="7">
+        <mention_text>Hillary</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_261" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="6923" length="7">
+        <mention_text>Hillary</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_267" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="9028" length="7">
+        <mention_text>Hillary</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_273" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="9548" length="7">
+        <mention_text>Clinton</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.07wbk" type="ORG" specificity="specific">
+      <entity_mention id="m-568eb23c_14_279" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="8484" length="10">
+        <mention_text>Republican</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL01073" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_285" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="6170" length="7">
+        <mention_text>Adrahil</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL01077" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_291" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="6873" length="12">
+        <mention_text>InAbLuEsTaTe</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_297" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="7659" length="12">
+        <mention_text>InAbLuEsTaTe</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_303" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="9308" length="12">
+        <mention_text>InAbLuEsTaTe</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_504" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="6964" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_807" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="9464" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL01078" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_309" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="7858" length="7">
+        <mention_text>hifiguy</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL01079" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_315" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="6611" length="8">
+        <mention_text>djean111</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_321" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="8848" length="8">
+        <mention_text>djean111</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_492" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="6657" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_498" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="6686" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_756" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="8894" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL01080" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_327" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="7158" length="9">
+        <mention_text>Raine1967</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_333" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="7401" length="9">
+        <mention_text>Raine1967</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL01081" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_339" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="7499" length="5">
+        <mention_text>n2doc</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL01082" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_345" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="7989" length="8">
+        <mention_text>Stallion</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL01083" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_351" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="8119" length="10">
+        <mention_text>jmowreader</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_741" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="8795" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL01084" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_357" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="9112" length="5">
+        <mention_text>jwirr</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_363" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="9393" length="5">
+        <mention_text>jwirr</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_801" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="9442" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL01090" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_369" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="6384" length="7">
+        <mention_text>Aristus</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_480" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="6545" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL01093" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_375" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="11845" length="8">
+        <mention_text>zappaman</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL01094" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_381" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="7012" length="10">
+        <mention_text>William769</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_387" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="7316" length="10">
+        <mention_text>William769</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_393" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="7459" length="7">
+        <mention_text>William</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_510" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="7090" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL01095" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_399" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="9500" length="10">
+        <mention_text>guillaumeb</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL01096" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_405" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="9628" length="7">
+        <mention_text>Xithras</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_417" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_411" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="6222" length="23">
+        <mention_text>A person born in Canada</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="6224" length="6">person</nom_head>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_420" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="6275" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_432" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_426" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="6293" length="9">
+        <mention_text>a citizen</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="6295" length="7">citizen</nom_head>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_444" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="6328" length="9">
+        <mention_text>a citizen</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="6330" length="7">citizen</nom_head>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_456" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="6348" length="3">
+        <mention_text>NBC</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="6348" length="3">NBC</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_441" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_435" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="6315" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_450" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="6339" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_522" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="7737" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_537" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="7811" length="7">
+        <mention_text>dontcha</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_933" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="11446" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_975" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="11558" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_471" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_465" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="6435" length="6">
+        <mention_text>No one</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="6438" length="3">one</nom_head>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_474" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="6468" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_534" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_528" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="7790" length="10">
+        <mention_text>the royals</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="7794" length="6">royals</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_549" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_543" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="7911" length="6">
+        <mention_text>Bushes</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_558" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_14_552" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009B" offset="7928" length="8">
+        <mention_text>Clintons</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_567" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_561" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="8072" length="2">
+        <mention_text>'s</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_576" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_570" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="8167" length="4">
+        <mention_text>They</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_585" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_579" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="8219" length="12">
+        <mention_text>the electors</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="8223" length="8">electors</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_594" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_588" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="8249" length="11">
+        <mention_text>a president</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="8251" length="9">president</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_603" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_597" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="8265" length="2">
+        <mention_text>VP</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="8265" length="2">VP</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_612" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_606" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="8278" length="11">
+        <mention_text>one of whom</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="8278" length="3">one</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_621" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_615" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="8285" length="4">
+        <mention_text>whom</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_630" type="GPE" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_624" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="8298" length="17">
+        <mention_text>a different state</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="8310" length="5">state</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_639" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_633" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="8321" length="11">
+        <mention_text>the elector</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="8325" length="7">elector</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_648" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_642" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="8337" length="10">
+        <mention_text>Most folks</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="8342" length="5">folks</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_657" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_651" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="8371" length="19">
+        <mention_text>the two politicians</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="8379" length="11">politicians</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_666" type="GPE" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_660" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="8405" length="14">
+        <mention_text>the same state</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="8414" length="5">state</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_675" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_669" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="8480" length="25">
+        <mention_text>the Republican candidates</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="8495" length="10">candidates</nom_head>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_678" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="8506" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_690" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_684" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="8604" length="6">
+        <mention_text>no one</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="8607" length="3">one</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_699" type="GPE" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_693" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="8630" length="13">
+        <mention_text>a whole state</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="8638" length="5">state</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_708" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_702" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="8683" length="8">
+        <mention_text>the bank</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="8687" length="4">bank</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_717" type="FAC" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_711" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="8700" length="7">
+        <mention_text>a house</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="8702" length="5">house</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_738" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_732" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="8746" length="20">
+        <mention_text>an Arkansas resident</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="8758" length="8">resident</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_753" type="GPE" specificity="specific">
+      <entity_mention id="m-568eb23c_14_747" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="8804" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_900" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="11080" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_768" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_762" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="8953" length="6">
+        <mention_text>people</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="8953" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_777" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_771" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="9053" length="26">
+        <mention_text>the presidential candidate</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="9070" length="9">candidate</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_786" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_813" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="9755" length="6">
+        <mention_text>People</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="9755" length="6">People</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_825" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_819" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="9858" length="26">
+        <mention_text>both sides of the argument</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="9863" length="5">sides</nom_head>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_828" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="9909" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_876" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="10882" length="25">
+        <mention_text>the camps in the argument</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="10886" length="5">camps</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_840" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_834" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="10052" length="8">
+        <mention_text>somebody</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_849" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_843" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="10285" length="8">
+        <mention_text>a person</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="10287" length="6">person</nom_head>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_852" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="10423" length="8">
+        <mention_text>a person</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="10425" length="6">person</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_864" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_858" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="10576" length="6">
+        <mention_text>nobody</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_873" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_867" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="10810" length="20">
+        <mention_text>a two term President</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="10821" length="9">President</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_888" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_882" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="10918" length="53">
+        <mention_text>a camp that supports its "implied meaning" and intent</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="10920" length="4">camp</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_897" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_891" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="10977" length="66">
+        <mention_text>another camp that is strictly reading the letter of the law itself</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="10985" length="4">camp</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_912" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_906" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="11217" length="6">
+        <mention_text>the VP</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="11221" length="2">VP</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_921" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_915" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="11298" length="27">
+        <mention_text>the newly elected President</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="11316" length="9">President</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_930" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_924" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="11372" length="32">
+        <mention_text>a new nominee for Vice President</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="11378" length="7">nominee</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_945" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_939" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="11469" length="14">
+        <mention_text>federal judges</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="11477" length="6">judges</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_954" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_948" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="11485" length="15">
+        <mention_text>cabinet members</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="11493" length="7">members</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_963" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_957" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="11485" length="7">
+        <mention_text>cabinet</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="11485" length="7">cabinet</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_972" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_966" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="11506" length="22">
+        <mention_text>Supreme Court justices</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="11520" length="8">justices</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_987" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_981" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="11638" length="18">
+        <mention_text>the Vice President</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="11647" length="9">President</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_996" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_990" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="11658" length="8">
+        <mention_text>No party</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="11661" length="5">party</nom_head>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_14_999" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009B" offset="11715" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_14_1011" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_14_1005" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009B" offset="11715" length="31">
+        <mention_text>their former two-term President</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009B" offset="11737" length="9">President</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-568eb23c_14_1032" source="ENG_DF_000183_20150408_F0000009B" offset="6253" length="9" type="title">President</filler>
+    <filler id="f-568eb23c_14_1052" source="ENG_DF_000183_20150408_F0000009B" offset="6465" length="2" type="title">VP</filler>
+    <filler id="f-568eb23c_14_1062" source="ENG_DF_000183_20150408_F0000009B" offset="6504" length="9" type="title">President</filler>
+    <filler id="f-568eb23c_14_1072" source="ENG_DF_000183_20150408_F0000009B" offset="7566" length="9" type="title">President</filler>
+    <filler id="f-568eb23c_14_1082" source="ENG_DF_000183_20150408_F0000009B" offset="7602" length="2" type="title">VP</filler>
+    <filler id="f-568eb23c_14_1092" source="ENG_DF_000183_20150408_F0000009B" offset="7732" length="2" type="title">VP</filler>
+    <filler id="f-568eb23c_14_1346" source="ENG_DF_000183_20150408_F0000009B" offset="6253" length="9" type="title">President</filler>
+    <filler id="f-568eb23c_14_1337" source="ENG_DF_000183_20150408_F0000009B" offset="6465" length="2" type="title">VP</filler>
+    <filler id="f-568eb23c_14_1374" source="ENG_DF_000183_20150408_F0000009B" offset="6504" length="9" type="title">President</filler>
+    <filler id="f-568eb23c_14_1560" source="ENG_DF_000183_20150408_F0000009B" offset="7566" length="9" type="title">President</filler>
+    <filler id="f-568eb23c_14_1597" source="ENG_DF_000183_20150408_F0000009B" offset="7602" length="2" type="title">VP</filler>
+    <filler id="f-568eb23c_14_1752" source="ENG_DF_000183_20150408_F0000009B" offset="8667" length="8" type="money">$125,000</filler>
+    <filler id="f-568eb23c_14_1962" source="ENG_DF_000183_20150408_F0000009B" offset="10330" length="9" type="title">President</filler>
+    <filler id="f-568eb23c_14_2129" source="ENG_DF_000183_20150408_F0000009B" offset="11221" length="2" type="title">VP</filler>
+    <filler id="f-568eb23c_14_2159" source="ENG_DF_000183_20150408_F0000009B" offset="11221" length="2" type="title">VP</filler>
+    <filler id="f-568eb23c_14_2203" source="ENG_DF_000183_20150408_F0000009B" offset="11316" length="9" type="title">President</filler>
+    <filler id="f-568eb23c_14_2240" source="ENG_DF_000183_20150408_F0000009B" offset="11390" length="14" type="title">Vice President</filler>
+    <filler id="f-568eb23c_14_2300" source="ENG_DF_000183_20150408_F0000009B" offset="11737" length="9" type="title">President</filler>
+    <filler id="f-568eb23c_14_2322" source="ENG_DF_000183_20150408_F0000009B" offset="10606" length="9" type="title">President</filler>
+    <filler id="f-568eb23c_14_2343" source="ENG_DF_000183_20150408_F0000009B" offset="10629" length="14" type="title">Vice President</filler>
+  </fillers>
+  <relations>
+    <relation id="r-124" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-568eb23c_14_1014" realis="true">
+        <rel_arg1 entity_id="ent-568eb23c_14_417" entity_mention_id="m-568eb23c_14_411" role="per">A person born in Canada</rel_arg1>
+        <rel_arg2 entity_id="ent-m.0d060g" entity_mention_id="m-568eb23c_14_177" role="entity">Canada</rel_arg2>
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="6231" length="4">born</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-125" type="personalsocial" subtype="role">
+      <relation_mention id="relm-568eb23c_14_1024" realis="false">
+        <rel_arg1 entity_id="ent-568eb23c_14_417" entity_mention_id="m-568eb23c_14_411" role="per">A person born in Canada</rel_arg1>
+        <rel_arg2 filler_id="f-568eb23c_14_1032" role="role">President</rel_arg2>
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="6250" length="2">be</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-126" type="personalsocial" subtype="family">
+      <relation_mention id="relm-568eb23c_14_1034" realis="false">
+        <rel_arg1 entity_id="ent-568eb23c_14_417" entity_mention_id="m-568eb23c_14_420" role="per">they</rel_arg1>
+        <rel_arg2 entity_id="ent-568eb23c_14_432" entity_mention_id="m-568eb23c_14_426" role="per">a citizen</rel_arg2>
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="6285" length="7">born to</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-127" type="personalsocial" subtype="role">
+      <relation_mention id="relm-568eb23c_14_1044" realis="false">
+        <rel_arg1 entity_id="ent-568eb23c_14_471" entity_mention_id="m-568eb23c_14_465" role="per">No one</rel_arg1>
+        <rel_arg2 filler_id="f-568eb23c_14_1052" role="role">VP</rel_arg2>
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="6446" length="15">take the office</trigger>
+      </relation_mention>
+      <relation_mention id="relm-568eb23c_14_1054" realis="false">
+        <rel_arg1 entity_id="ent-568eb23c_14_471" entity_mention_id="m-568eb23c_14_474" role="per">who</rel_arg1>
+        <rel_arg2 filler_id="f-568eb23c_14_1062" role="role">President</rel_arg2>
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="6501" length="2">as</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-128" type="personalsocial" subtype="role">
+      <relation_mention id="relm-568eb23c_14_1064" realis="false">
+        <rel_arg1 entity_id="ent-m.0157m" entity_mention_id="m-568eb23c_14_231" role="per">Bill</rel_arg1>
+        <rel_arg2 filler_id="f-568eb23c_14_1072" role="role">President</rel_arg2>
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="7559" length="6">became</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-129" type="personalsocial" subtype="role">
+      <relation_mention id="relm-568eb23c_14_1074" realis="false">
+        <rel_arg1 entity_id="ent-m.02mjmr" entity_mention_id="m-568eb23c_14_207" role="per">Obama</rel_arg1>
+        <rel_arg2 filler_id="f-568eb23c_14_1082" role="role">VP</rel_arg2>
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="7599" length="2">as</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-130" type="personalsocial" subtype="role">
+      <relation_mention id="relm-568eb23c_14_1084" realis="false">
+        <rel_arg1 entity_id="ent-m.01chwz" entity_mention_id="m-568eb23c_14_183" role="per">Chelsea</rel_arg1>
+        <rel_arg2 filler_id="f-568eb23c_14_1092" role="role">VP</rel_arg2>
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="7729" length="2">as</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-131" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-568eb23c_14_1094" realis="true">
+        <rel_arg1 entity_id="ent-568eb23c_14_612" entity_mention_id="m-568eb23c_14_606" role="per">one of whom</rel_arg1>
+        <rel_arg2 entity_id="ent-568eb23c_14_630" entity_mention_id="m-568eb23c_14_624" role="entity">a different state</rel_arg2>
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="8293" length="4">from</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-132" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-568eb23c_14_1114" realis="false">
+        <rel_arg1 entity_id="ent-568eb23c_14_675" entity_mention_id="m-568eb23c_14_669" role="employeemember">the Republican candidates</rel_arg1>
+        <rel_arg2 entity_id="ent-m.07wbk" entity_mention_id="m-568eb23c_14_279" role="org">Republican</rel_arg2>
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="8484" length="10">Republican</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-133" type="physical" subtype="locatednear">
+      <relation_mention id="relm-568eb23c_14_1124" realis="true">
+        <rel_arg1 entity_id="ent-568eb23c_14_717" entity_mention_id="m-568eb23c_14_711" role="entity">a house</rel_arg1>
+        <rel_arg2 entity_id="ent-m.0qxlh" entity_mention_id="m-568eb23c_14_123" role="loc">Bald Knob</rel_arg2>
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="8708" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-134" type="physical" subtype="locatednear">
+      <relation_mention id="relm-568eb23c_14_1134" realis="true">
+        <rel_arg1 entity_id="ent-m.0qxlh" entity_mention_id="m-568eb23c_14_123" role="entity">Bald Knob</rel_arg1>
+        <rel_arg2 entity_id="ent-m.0vbk" entity_mention_id="m-568eb23c_14_720" role="loc">AR</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-135" type="physical" subtype="resident">
+      <relation_mention id="relm-568eb23c_14_1144" realis="true">
+        <rel_arg1 entity_id="ent-568eb23c_14_738" entity_mention_id="m-568eb23c_14_732" role="per">an Arkansas resident</rel_arg1>
+        <rel_arg2 entity_id="ent-m.0vbk" entity_mention_id="m-568eb23c_14_249" role="loc">Arkansas</rel_arg2>
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="8758" length="8">resident</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-136" type="physical" subtype="resident">
+      <relation_mention id="relm-568eb23c_14_1154" realis="false">
+        <rel_arg1 entity_id="ent-m.0157m" entity_mention_id="m-568eb23c_14_726" role="per">he</rel_arg1>
+        <rel_arg2 entity_id="ent-m.0vbk" entity_mention_id="m-568eb23c_14_249" role="loc">Arkansas</rel_arg2>
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="8758" length="8">resident</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-137" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-568eb23c_14_1174" realis="true">
+        <rel_arg1 entity_id="ent-568eb23c_14_972" entity_mention_id="m-568eb23c_14_966" role="employeemember">Supreme Court justices</rel_arg1>
+        <rel_arg2 entity_id="ent-m.07sz1" entity_mention_id="m-568eb23c_14_147" role="org">Supreme Court</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-138" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-568eb23c_14_1184" realis="true">
+        <rel_arg1 entity_id="ent-568eb23c_14_1011" entity_mention_id="m-568eb23c_14_1005" role="employeemember">their former two-term President</rel_arg1>
+        <rel_arg2 entity_id="ent-568eb23c_14_996" entity_mention_id="m-568eb23c_14_999" role="org">their</rel_arg2>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-568eb23c_14_16">
+      <event_mention id="em-568eb23c_14_1194" type="life" subtype="beborn" realis="generic">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="6231" length="4">born</trigger>
+        <em_arg entity_id="ent-568eb23c_14_417" entity_mention_id="m-568eb23c_14_411" role="person" realis="true">A person born in Canada</em_arg>
+        <em_arg entity_id="ent-m.0d060g" entity_mention_id="m-568eb23c_14_177" role="place" realis="true">Canada</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_1243">
+      <event_mention id="em-568eb23c_14_1222" type="life" subtype="beborn" realis="generic">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="6285" length="4">born</trigger>
+        <em_arg entity_id="ent-568eb23c_14_417" entity_mention_id="m-568eb23c_14_420" role="person" realis="true">they</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_1266">
+      <event_mention id="em-568eb23c_14_1245" type="life" subtype="beborn" realis="generic">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="6323" length="4">BORN</trigger>
+        <em_arg entity_id="ent-568eb23c_14_441" entity_mention_id="m-568eb23c_14_435" role="person" realis="true">you</em_arg>
+      </event_mention>
+      <event_mention id="em-568eb23c_14_1268" type="life" subtype="beborn" realis="generic">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="6348" length="3">NBC</trigger>
+        <em_arg entity_id="ent-568eb23c_14_441" entity_mention_id="m-568eb23c_14_450" role="person" realis="true">you</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_1310">
+      <event_mention id="em-568eb23c_14_1289" type="personnel" subtype="startposition" realis="generic">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="6250" length="2">be</trigger>
+        <em_arg entity_id="ent-568eb23c_14_417" entity_mention_id="m-568eb23c_14_411" role="person" realis="true">A person born in Canada</em_arg>
+        <em_arg filler_id="f-568eb23c_14_1346" role="position" realis="true">President</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_1340">
+      <event_mention id="em-568eb23c_14_1312" type="personnel" subtype="startposition" realis="generic">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="6446" length="15">take the office</trigger>
+        <em_arg entity_id="ent-568eb23c_14_471" entity_mention_id="m-568eb23c_14_474" role="person" realis="false">who</em_arg>
+        <em_arg filler_id="f-568eb23c_14_1337" role="position" realis="true">VP</em_arg>
+      </event_mention>
+      <event_mention id="em-568eb23c_14_2326" type="personnel" subtype="startposition" realis="generic">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="10620" length="5">serve</trigger>
+        <em_arg filler_id="f-568eb23c_14_2343" role="position" realis="true">Vice President</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_1377">
+      <event_mention id="em-568eb23c_14_1349" type="personnel" subtype="startposition" realis="generic">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="6495" length="5">serve</trigger>
+        <em_arg entity_id="ent-568eb23c_14_471" entity_mention_id="m-568eb23c_14_474" role="person" realis="false">who</em_arg>
+        <em_arg filler_id="f-568eb23c_14_1374" role="position" realis="true">President</em_arg>
+      </event_mention>
+      <event_mention id="em-568eb23c_14_2305" type="personnel" subtype="startposition" realis="generic">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="10597" length="5">serve</trigger>
+        <em_arg filler_id="f-568eb23c_14_2322" role="position" realis="true">President</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_1400">
+      <event_mention id="em-568eb23c_14_1379" type="movement" subtype="transportperson" realis="other">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="6674" length="4">walk</trigger>
+        <em_arg entity_id="ent-NIL01079" entity_mention_id="m-568eb23c_14_492" role="agent" realis="true">I</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_1423">
+      <event_mention id="em-568eb23c_14_1402" type="contact" subtype="correspondence" realis="other" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="7223" length="4">post</trigger>
+        <em_arg entity_id="ent-NIL01080" entity_mention_id="m-568eb23c_14_327" role="entity" realis="true">Raine1967</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_1563">
+      <event_mention id="em-568eb23c_14_1535" type="personnel" subtype="startposition" realis="other">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="7559" length="6">became</trigger>
+        <em_arg entity_id="ent-m.0157m" entity_mention_id="m-568eb23c_14_231" role="person" realis="true">Bill</em_arg>
+        <em_arg filler_id="f-568eb23c_14_1560" role="position" realis="true">President</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_1600">
+      <event_mention id="em-568eb23c_14_1565" type="personnel" subtype="nominate" realis="other">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="7585" length="7">appoint</trigger>
+        <em_arg entity_id="ent-m.0157m" entity_mention_id="m-568eb23c_14_516" role="agent" realis="true">he</em_arg>
+        <em_arg entity_id="ent-m.02mjmr" entity_mention_id="m-568eb23c_14_207" role="person" realis="true">Obama</em_arg>
+        <em_arg filler_id="f-568eb23c_14_1597" role="position" realis="true">VP</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_1623">
+      <event_mention id="em-568eb23c_14_1602" type="contact" subtype="correspondence" realis="other" audience="twoway" formality="canttell" medium="notinperson" schedule="spontaneous">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="7606" length="6">Paging</trigger>
+        <em_arg entity_id="ent-m.01_6j_" entity_mention_id="m-568eb23c_14_111" role="entity" realis="true">Alex Jones</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_1646">
+      <event_mention id="em-568eb23c_14_1625" type="movement" subtype="transportperson" realis="other">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="8182" length="4">move</trigger>
+        <em_arg entity_id="ent-568eb23c_14_576" entity_mention_id="m-568eb23c_14_570" role="agent" realis="true">They</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_1704">
+      <event_mention id="em-568eb23c_14_1669" type="personnel" subtype="elect" realis="generic">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="8223" length="8">electors</trigger>
+        <em_arg entity_id="ent-568eb23c_14_585" entity_mention_id="m-568eb23c_14_579" role="agent" realis="true">the electors</em_arg>
+        <em_arg entity_id="ent-568eb23c_14_594" entity_mention_id="m-568eb23c_14_588" role="person" realis="true">a president</em_arg>
+        <em_arg entity_id="ent-568eb23c_14_603" entity_mention_id="m-568eb23c_14_597" role="person" realis="true">VP</em_arg>
+      </event_mention>
+      <event_mention id="em-568eb23c_14_1706" type="personnel" subtype="elect" realis="generic">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="8325" length="7">elector</trigger>
+        <em_arg entity_id="ent-568eb23c_14_639" entity_mention_id="m-568eb23c_14_633" role="agent" realis="true">the elector</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_1762">
+      <event_mention id="em-568eb23c_14_1727" type="transaction" subtype="transfermoney" realis="other" ways="voluntary">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="8662" length="4">pull</trigger>
+        <em_arg entity_id="ent-m.0157m" entity_mention_id="m-568eb23c_14_237" role="recipient" realis="true">Bill</em_arg>
+        <em_arg filler_id="f-568eb23c_14_1752" role="money" realis="true">$125,000</em_arg>
+        <em_arg entity_id="ent-568eb23c_14_708" entity_mention_id="m-568eb23c_14_702" role="giver" realis="true">the bank</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_1813">
+      <event_mention id="em-568eb23c_14_1764" type="transaction" subtype="transferownership" realis="other" ways="voluntary">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="8696" length="3">buy</trigger>
+        <em_arg entity_id="ent-m.0157m" entity_mention_id="m-568eb23c_14_237" role="recipient" realis="true">Bill</em_arg>
+        <em_arg entity_id="ent-568eb23c_14_717" entity_mention_id="m-568eb23c_14_711" role="thing" realis="true">a house</em_arg>
+        <em_arg entity_id="ent-m.0qxlh" entity_mention_id="m-568eb23c_14_123" role="place" realis="true">Bald Knob</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_1843">
+      <event_mention id="em-568eb23c_14_1815" type="transaction" subtype="transfermoney" realis="other" ways="voluntary">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="8696" length="3">buy</trigger>
+        <em_arg entity_id="ent-m.0157m" entity_mention_id="m-568eb23c_14_237" role="giver" realis="true">Bill</em_arg>
+        <em_arg entity_id="ent-m.0qxlh" entity_mention_id="m-568eb23c_14_123" role="place" realis="true">Bald Knob</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_1889">
+      <event_mention id="em-568eb23c_14_1868" type="personnel" subtype="elect" realis="other">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="9193" length="7">elected</trigger>
+        <em_arg entity_id="ent-m.0157m" entity_mention_id="m-568eb23c_14_780" role="person" realis="true">he</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_1912">
+      <event_mention id="em-568eb23c_14_1891" type="contact" subtype="contact" realis="generic" audience="canttell" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="9895" length="8">proclaim</trigger>
+        <em_arg entity_id="ent-568eb23c_14_825" entity_mention_id="m-568eb23c_14_819" role="entity" realis="true">both sides of the argument</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_1935">
+      <event_mention id="em-568eb23c_14_1914" type="contact" subtype="contact" realis="generic" audience="canttell" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="9767" length="6">played</trigger>
+        <em_arg entity_id="ent-568eb23c_14_786" entity_mention_id="m-568eb23c_14_813" role="entity" realis="true">People</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_1965">
+      <event_mention id="em-568eb23c_14_1937" type="personnel" subtype="elect" realis="generic">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="10305" length="7">ELECTED</trigger>
+        <em_arg entity_id="ent-568eb23c_14_849" entity_mention_id="m-568eb23c_14_843" role="person" realis="true">a person</em_arg>
+        <em_arg filler_id="f-568eb23c_14_1962" role="position" realis="true">President</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_2051">
+      <event_mention id="em-568eb23c_14_2030" type="personnel" subtype="elect" realis="generic">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="10857" length="11">unelectable</trigger>
+        <em_arg entity_id="ent-568eb23c_14_873" entity_mention_id="m-568eb23c_14_867" role="person" realis="true">a two term President</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_2081">
+      <event_mention id="em-568eb23c_14_2053" type="contact" subtype="contact" realis="generic" audience="twoway" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="10899" length="8">argument</trigger>
+        <em_arg entity_id="ent-568eb23c_14_888" entity_mention_id="m-568eb23c_14_882" role="entity" realis="true">a camp that supports its "implied meaning" and intent</em_arg>
+        <em_arg entity_id="ent-568eb23c_14_897" entity_mention_id="m-568eb23c_14_891" role="entity" realis="true">another camp that is strictly reading the letter of the law itself</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_2132">
+      <event_mention id="em-568eb23c_14_2104" type="personnel" subtype="endposition" realis="generic">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="11233" length="10">thrown out</trigger>
+        <em_arg entity_id="ent-568eb23c_14_912" entity_mention_id="m-568eb23c_14_906" role="person" realis="true">the VP</em_arg>
+        <em_arg filler_id="f-568eb23c_14_2129" role="position" realis="true">VP</em_arg>
+        <em_arg entity_id="ent-568eb23c_14_753" entity_mention_id="m-568eb23c_14_900" role="place" realis="true">we</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_2169">
+      <event_mention id="em-568eb23c_14_2134" type="personnel" subtype="elect" realis="generic">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="11273" length="8">election</trigger>
+        <em_arg entity_id="ent-568eb23c_14_912" entity_mention_id="m-568eb23c_14_906" role="person" realis="true">the VP</em_arg>
+        <em_arg filler_id="f-568eb23c_14_2159" role="position" realis="true">VP</em_arg>
+        <em_arg entity_id="ent-568eb23c_14_753" entity_mention_id="m-568eb23c_14_900" role="place" realis="true">we</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_2206">
+      <event_mention id="em-568eb23c_14_2178" type="personnel" subtype="elect" realis="generic">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="11308" length="7">elected</trigger>
+        <em_arg entity_id="ent-568eb23c_14_921" entity_mention_id="m-568eb23c_14_915" role="person" realis="true">the newly elected President</em_arg>
+        <em_arg filler_id="f-568eb23c_14_2203" role="position" realis="true">President</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_2243">
+      <event_mention id="em-568eb23c_14_2208" type="personnel" subtype="nominate" realis="generic">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="11378" length="7">nominee</trigger>
+        <em_arg entity_id="ent-568eb23c_14_930" entity_mention_id="m-568eb23c_14_924" role="person" realis="true">a new nominee for Vice President</em_arg>
+        <em_arg entity_id="ent-568eb23c_14_921" entity_mention_id="m-568eb23c_14_915" role="agent" realis="true">the newly elected President</em_arg>
+        <em_arg filler_id="f-568eb23c_14_2240" role="position" realis="true">Vice President</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_2273">
+      <event_mention id="em-568eb23c_14_2245" type="contact" subtype="contact" realis="generic" audience="twoway" formality="formal" medium="canttell" schedule="planned">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="11622" length="3">vet</trigger>
+        <em_arg entity_id="ent-m.07t31" entity_mention_id="m-568eb23c_14_153" role="entity" realis="true">Congress</em_arg>
+        <em_arg entity_id="ent-568eb23c_14_987" entity_mention_id="m-568eb23c_14_981" role="entity" realis="true">the Vice President</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_14_2303">
+      <event_mention id="em-568eb23c_14_2275" type="personnel" subtype="endposition" realis="generic">
+        <trigger source="ENG_DF_000183_20150408_F0000009B" offset="11721" length="6">former</trigger>
+        <em_arg entity_id="ent-568eb23c_14_1011" entity_mention_id="m-568eb23c_14_1005" role="person" realis="true">their former two-term President</em_arg>
+        <em_arg filler_id="f-568eb23c_14_2300" role="position" realis="true">President</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

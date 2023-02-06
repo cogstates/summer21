@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="557f043e0000000000000006" doc_id="3b34a76a3589417f5db02883b47280a6" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-48" noun_type="NAM" source="3b34a76a3589417f5db02883b47280a6" offset="14" length="10">
+        <mention_text>jackie0502</mention_text>
+      </entity_mention>
+      <entity_mention id="m-54" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="66" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-60" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="417" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-66" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="533" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-72" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="630" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-78" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="854" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-84" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="939" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-90" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="1291" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-96" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="1438" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-18" type="PER" specificity="specific">
+      <entity_mention id="m-102" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="66" length="10">
+        <mention_text>my brother</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="69" length="7">brother</nom_head>
+      </entity_mention>
+      <entity_mention id="m-108" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="149" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-114" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="205" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-120" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="198" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-126" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="216" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-132" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="268" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+      <entity_mention id="m-138" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="280" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-144" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="339" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-150" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="417" length="10">
+        <mention_text>my brother</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="420" length="7">brother</nom_head>
+      </entity_mention>
+      <entity_mention id="m-156" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="465" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-162" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="533" length="10">
+        <mention_text>my brother</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="536" length="7">brother</nom_head>
+      </entity_mention>
+      <entity_mention id="m-168" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="551" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-174" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="586" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-180" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="599" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-186" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="630" length="11">
+        <mention_text>my brothers</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="633" length="8">brothers</nom_head>
+      </entity_mention>
+      <entity_mention id="m-192" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="682" length="5">
+        <mention_text>daddy</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="682" length="5">daddy</nom_head>
+      </entity_mention>
+      <entity_mention id="m-198" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="732" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-204" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="854" length="10">
+        <mention_text>my brother</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="857" length="7">brother</nom_head>
+      </entity_mention>
+      <entity_mention id="m-210" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="872" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-216" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="939" length="10">
+        <mention_text>my brother</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="942" length="7">brother</nom_head>
+      </entity_mention>
+      <entity_mention id="m-222" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="965" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-228" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="1050" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-234" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="1291" length="10">
+        <mention_text>my brother</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="1294" length="7">brother</nom_head>
+      </entity_mention>
+      <entity_mention id="m-240" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="1438" length="11">
+        <mention_text>you brother</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="1442" length="7">brother</nom_head>
+      </entity_mention>
+      <entity_mention id="m-246" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="1692" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-252" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="1930" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-258" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="2022" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-264" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="1976" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-270" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="2114" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-276" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="2164" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-282" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="2588" length="3">
+        <mention_text>You</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-21" type="PER" specificity="specific">
+      <entity_mention id="m-288" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="149" length="7">
+        <mention_text>his son</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="153" length="3">son</nom_head>
+      </entity_mention>
+      <entity_mention id="m-294" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="161" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-300" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="205" length="7">
+        <mention_text>his son</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="209" length="3">son</nom_head>
+      </entity_mention>
+      <entity_mention id="m-306" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="257" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-312" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="293" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-318" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="367" length="9">
+        <mention_text>there son</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="373" length="3">son</nom_head>
+      </entity_mention>
+      <entity_mention id="m-324" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="455" length="9">
+        <mention_text>there son</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="461" length="3">son</nom_head>
+      </entity_mention>
+      <entity_mention id="m-330" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="630" length="26">
+        <mention_text>my brothers 3 year old son</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="653" length="3">son</nom_head>
+      </entity_mention>
+      <entity_mention id="m-336" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="711" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-342" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="813" length="9">
+        <mention_text>there son</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="819" length="3">son</nom_head>
+      </entity_mention>
+      <entity_mention id="m-348" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="920" length="9">
+        <mention_text>there son</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="926" length="3">son</nom_head>
+      </entity_mention>
+      <entity_mention id="m-354" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="1026" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-360" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="1099" length="9">
+        <mention_text>there son</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="1105" length="3">son</nom_head>
+      </entity_mention>
+      <entity_mention id="m-366" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="1349" length="9">
+        <mention_text>there son</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="1355" length="3">son</nom_head>
+      </entity_mention>
+      <entity_mention id="m-372" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="1543" length="9">
+        <mention_text>the child</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="1547" length="5">child</nom_head>
+      </entity_mention>
+      <entity_mention id="m-378" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="1976" length="8">
+        <mention_text>your son</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="1981" length="3">son</nom_head>
+      </entity_mention>
+      <entity_mention id="m-384" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="2754" length="9">
+        <mention_text>the child</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="2758" length="5">child</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-24" type="PER" specificity="specific">
+      <entity_mention id="m-390" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="161" length="10">
+        <mention_text>his mother</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="165" length="6">mother</nom_head>
+      </entity_mention>
+      <entity_mention id="m-396" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="236" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+      <entity_mention id="m-402" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="298" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-408" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="350" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-414" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="380" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-420" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="487" length="11">
+        <mention_text>the mothers</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="491" length="7">mothers</nom_head>
+      </entity_mention>
+      <entity_mention id="m-426" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="767" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-432" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="776" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-438" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="827" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+      <entity_mention id="m-444" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="894" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-450" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="1002" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-456" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="1112" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-462" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="1272" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-468" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="1329" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-474" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="2075" length="3">
+        <mention_text>She</mention_text>
+      </entity_mention>
+      <entity_mention id="m-480" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="2196" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+      <entity_mention id="m-486" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="2218" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-492" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="2280" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+      <entity_mention id="m-498" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="2287" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+      <entity_mention id="m-504" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="2394" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-510" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="2492" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-935" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="1903" length="16">
+        <mention_text>the other person</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="1913" length="6">person</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-27" type="PER" specificity="specific">
+      <entity_mention id="m-516" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="367" length="5">
+        <mention_text>there</mention_text>
+      </entity_mention>
+      <entity_mention id="m-522" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="455" length="5">
+        <mention_text>there</mention_text>
+      </entity_mention>
+      <entity_mention id="m-528" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="813" length="5">
+        <mention_text>there</mention_text>
+      </entity_mention>
+      <entity_mention id="m-534" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="920" length="5">
+        <mention_text>there</mention_text>
+      </entity_mention>
+      <entity_mention id="m-540" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="1099" length="5">
+        <mention_text>there</mention_text>
+      </entity_mention>
+      <entity_mention id="m-546" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="1349" length="5">
+        <mention_text>there</mention_text>
+      </entity_mention>
+      <entity_mention id="m-552" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="2030" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-558" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="2504" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-30" type="PER" specificity="specific">
+      <entity_mention id="m-564" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="487" length="25">
+        <mention_text>the mothers new boyfriend</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="503" length="9">boyfriend</nom_head>
+      </entity_mention>
+      <entity_mention id="m-570" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="569" length="2">
+        <mention_text>im</mention_text>
+      </entity_mention>
+      <entity_mention id="m-576" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="827" length="17">
+        <mention_text>her new boyfriend</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="835" length="9">boyfriend</nom_head>
+      </entity_mention>
+      <entity_mention id="m-582" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="2287" length="13">
+        <mention_text>her boyfriend</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="2290" length="10"> boyfriend</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-33" type="PER" specificity="specific">
+      <entity_mention id="m-588" noun_type="NAM" source="3b34a76a3589417f5db02883b47280a6" offset="1381" length="3">
+        <mention_text>FIK</mention_text>
+      </entity_mention>
+      <entity_mention id="m-594" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="1426" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-600" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="2245" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-606" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="2268" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-612" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="2302" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-618" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="2405" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-624" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="2432" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-630" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="2485" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-636" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="1806" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-36" type="PER" specificity="specific">
+      <entity_mention id="m-642" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="440" length="10">
+        <mention_text>neighbours</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="440" length="10">neighbours</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-39" type="ORG" specificity="specific">
+      <entity_mention id="m-648" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="738" length="6">
+        <mention_text>police</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="738" length="6">police</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-42" type="ORG" specificity="specific">
+      <entity_mention id="m-654" noun_type="NAM" source="3b34a76a3589417f5db02883b47280a6" offset="1661" length="15">
+        <mention_text>citizens advice</mention_text>
+      </entity_mention>
+      <entity_mention id="m-660" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="1677" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-45" type="FAC" specificity="specific">
+      <entity_mention id="m-666" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="599" length="10">
+        <mention_text>your house</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="604" length="5">house</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-932" type="PER" specificity="specific">
+      <entity_mention id="m-926" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="1595" length="11">
+        <mention_text>people here</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="1595" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1678" type="PER" specificity="specific">
+      <entity_mention id="m-1672" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="1248" length="4">
+        <mention_text>lads</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="1248" length="4">lads</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1687" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-1681" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="1843" length="13">
+        <mention_text>advice places</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="1850" length="6">places</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1690" noun_type="PRO" source="3b34a76a3589417f5db02883b47280a6" offset="1866" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1712" type="FAC" specificity="specific">
+      <entity_mention id="m-1706" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="1026" length="10">
+        <mention_text>his school</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="1030" length="6">school</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1830" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1824" noun_type="NOM" source="3b34a76a3589417f5db02883b47280a6" offset="1261" length="3">
+        <mention_text>boy</mention_text>
+        <nom_head source="3b34a76a3589417f5db02883b47280a6" offset="1261" length="3">boy</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-1482" source="3b34a76a3589417f5db02883b47280a6" offset="1198" length="4" type="commodity">drug</filler>
+    <filler id="f-1837" source="3b34a76a3589417f5db02883b47280a6" offset="1309" length="4" type="commodity">food</filler>
+    <filler id="f-1798" source="3b34a76a3589417f5db02883b47280a6" offset="1256" length="4" type="vehicle">cars</filler>
+  </fillers>
+  <relations>
+    <relation id="r-1300" type="personalsocial" subtype="family">
+      <relation_mention id="relm-672" realis="true">
+        <rel_arg1 entity_id="ent-18" entity_mention_id="m-102" role="per">my brother</rel_arg1>
+        <rel_arg2 entity_id="ent-8" entity_mention_id="m-54" role="per">my</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="69" length="7">brother</trigger>
+      </relation_mention>
+      <relation_mention id="relm-951" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-60" role="per">my</rel_arg1>
+        <rel_arg2 entity_id="ent-18" entity_mention_id="m-150" role="per">my brother</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="420" length="7">brother</trigger>
+      </relation_mention>
+      <relation_mention id="relm-971" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-66" role="per">my</rel_arg1>
+        <rel_arg2 entity_id="ent-18" entity_mention_id="m-162" role="per">my brother</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="536" length="7">brother</trigger>
+      </relation_mention>
+      <relation_mention id="relm-981" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-72" role="per">my</rel_arg1>
+        <rel_arg2 entity_id="ent-18" entity_mention_id="m-186" role="per">my brothers</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="633" length="8">brothers</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1011" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-78" role="per">my</rel_arg1>
+        <rel_arg2 entity_id="ent-18" entity_mention_id="m-204" role="per">my brother</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="857" length="7">brother</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1031" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-84" role="per">my</rel_arg1>
+        <rel_arg2 entity_id="ent-18" entity_mention_id="m-216" role="per">my brother</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="942" length="7">brother</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1051" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-90" role="per">my</rel_arg1>
+        <rel_arg2 entity_id="ent-18" entity_mention_id="m-234" role="per">my brother</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="1294" length="7">brother</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1071" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-96" role="per">you</rel_arg1>
+        <rel_arg2 entity_id="ent-18" entity_mention_id="m-240" role="per">you brother</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="1442" length="7">brother</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1301" type="personalsocial" subtype="family">
+      <relation_mention id="relm-682" realis="true">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-288" role="per">his son</rel_arg1>
+        <rel_arg2 entity_id="ent-18" entity_mention_id="m-108" role="per">his</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="153" length="3">son</trigger>
+      </relation_mention>
+      <relation_mention id="relm-941" realis="true">
+        <rel_arg1 entity_id="ent-18" entity_mention_id="m-114" role="per">his</rel_arg1>
+        <rel_arg2 entity_id="ent-21" entity_mention_id="m-300" role="per">his son</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="209" length="3">son</trigger>
+      </relation_mention>
+      <relation_mention id="relm-991" realis="true">
+        <rel_arg1 entity_id="ent-18" entity_mention_id="m-186" role="per">my brothers</rel_arg1>
+        <rel_arg2 entity_id="ent-21" entity_mention_id="m-330" role="per">my brothers 3 year old son</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="653" length="3">son</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1081" realis="true">
+        <rel_arg1 entity_id="ent-18" entity_mention_id="m-264" role="per">your</rel_arg1>
+        <rel_arg2 entity_id="ent-21" entity_mention_id="m-378" role="per">your son</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="1981" length="3">son</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1302" type="personalsocial" subtype="family">
+      <relation_mention id="relm-692" realis="true">
+        <rel_arg1 entity_id="ent-24" entity_mention_id="m-390" role="per">his mother</rel_arg1>
+        <rel_arg2 entity_id="ent-21" entity_mention_id="m-294" role="per">his</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="165" length="6">mother</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1303" type="personalsocial" subtype="family">
+      <relation_mention id="relm-702" realis="true">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-318" role="per">there son</rel_arg1>
+        <rel_arg2 entity_id="ent-27" entity_mention_id="m-516" role="per">there</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="373" length="3">son</trigger>
+      </relation_mention>
+      <relation_mention id="relm-961" realis="true">
+        <rel_arg1 entity_id="ent-27" entity_mention_id="m-522" role="per">there</rel_arg1>
+        <rel_arg2 entity_id="ent-21" entity_mention_id="m-324" role="per">there son</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="461" length="3">son</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1021" realis="true">
+        <rel_arg1 entity_id="ent-27" entity_mention_id="m-534" role="per">there</rel_arg1>
+        <rel_arg2 entity_id="ent-21" entity_mention_id="m-348" role="per">there son</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="926" length="3">son</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1041" realis="true">
+        <rel_arg1 entity_id="ent-27" entity_mention_id="m-540" role="per">there</rel_arg1>
+        <rel_arg2 entity_id="ent-21" entity_mention_id="m-360" role="per">there son</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="1105" length="3">son</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1061" realis="true">
+        <rel_arg1 entity_id="ent-27" entity_mention_id="m-546" role="per">there</rel_arg1>
+        <rel_arg2 entity_id="ent-21" entity_mention_id="m-366" role="per">there son</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="1355" length="3">son</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1696" realis="true">
+        <rel_arg1 entity_id="ent-27" entity_mention_id="m-528" role="per">there</rel_arg1>
+        <rel_arg2 entity_id="ent-21" entity_mention_id="m-342" role="per">there son</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="819" length="3">son</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1304" type="personalsocial" subtype="unspecified">
+      <relation_mention id="relm-712" realis="true">
+        <rel_arg1 entity_id="ent-30" entity_mention_id="m-564" role="per">the mothers new boyfriend</rel_arg1>
+        <rel_arg2 entity_id="ent-24" entity_mention_id="m-420" role="per">the mothers</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="503" length="9">boyfriend</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1001" realis="true">
+        <rel_arg1 entity_id="ent-24" entity_mention_id="m-438" role="per">her</rel_arg1>
+        <rel_arg2 entity_id="ent-30" entity_mention_id="m-576" role="per">her new boyfriend</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="835" length="9">boyfriend</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1091" realis="true">
+        <rel_arg1 entity_id="ent-30" entity_mention_id="m-582" role="per">her boyfriend</rel_arg1>
+        <rel_arg2 entity_id="ent-24" entity_mention_id="m-498" role="per">her</rel_arg2>
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="2291" length="9">boyfriend</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-16">
+      <event_mention id="em-1722" type="contact" subtype="broadcast" realis="other" audience="oneway" formality="informal" medium="inperson" schedule="canttell">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="666" length="3">say</trigger>
+        <em_arg entity_id="ent-21" entity_mention_id="m-330" role="entity" realis="true">my brothers 3 year old son</em_arg>
+        <em_arg entity_id="ent-18" entity_mention_id="m-192" role="audience" realis="true">daddy</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-732">
+      <event_mention id="em-765" type="contact" subtype="correspondence" realis="actual" audience="twoway" formality="informal" medium="notinperson" schedule="canttell">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="331" length="4">text</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-402" role="entity" realis="true">she</em_arg>
+        <em_arg entity_id="ent-18" entity_mention_id="m-144" role="entity" realis="true">him</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-734">
+      <event_mention id="em-786" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="354" length="4">came</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-408" role="agent" realis="true">she</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-736">
+      <event_mention id="em-807" type="contact" subtype="contact" realis="actual" audience="twoway" formality="informal" medium="canttell" schedule="canttell">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="544" length="6">saying</trigger>
+        <em_arg entity_id="ent-30" entity_mention_id="m-564" role="entity" realis="true">the mothers new boyfriend</em_arg>
+        <em_arg entity_id="ent-18" entity_mention_id="m-162" role="entity" realis="true">my brother</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-738">
+      <event_mention id="em-828" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="informal" medium="inperson" schedule="spontaneous">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="661" length="4">said</trigger>
+        <em_arg entity_id="ent-30" entity_mention_id="m-564" role="entity" realis="true">the mothers new boyfriend</em_arg>
+        <em_arg entity_id="ent-21" entity_mention_id="m-330" role="entity" realis="true">my brothers 3 year old son</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-740">
+      <event_mention id="em-849" type="contact" subtype="correspondence" realis="actual" audience="twoway" formality="informal" medium="notinperson" schedule="planned">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="755" length="6">called</trigger>
+        <em_arg entity_id="ent-39" entity_mention_id="m-648" role="entity" realis="true">police</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-742">
+      <event_mention id="em-870" type="contact" subtype="contact" realis="actual" audience="canttell" formality="informal" medium="canttell" schedule="canttell">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="1285" length="5">asked</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-462" role="entity" realis="true">she</em_arg>
+        <em_arg entity_id="ent-18" entity_mention_id="m-234" role="entity" realis="true">my brother</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1129">
+      <event_mention id="em-1101" type="contact" subtype="correspondence" realis="generic" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="172" length="6">phones</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-390" role="entity" realis="true">his mother</em_arg>
+        <em_arg entity_id="ent-18" entity_mention_id="m-120" role="entity" realis="true">he</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1180">
+      <event_mention id="em-1131" type="contact" subtype="correspondence" realis="other" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="245" length="5">phone</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-396" role="entity" realis="true">her</em_arg>
+        <em_arg entity_id="ent-21" entity_mention_id="m-306" role="entity" realis="true">he</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1203">
+      <event_mention id="em-1159" type="contact" subtype="meet" realis="actual" audience="twoway" formality="informal" medium="inperson" schedule="spontaneous">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="428" length="11">in front of</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-414" role="entity" realis="true">she</em_arg>
+        <em_arg entity_id="ent-18" entity_mention_id="m-150" role="entity" realis="true">my brother</em_arg>
+        <em_arg entity_id="ent-36" entity_mention_id="m-642" role="entity" realis="true">neighbours</em_arg>
+        <em_arg entity_id="ent-21" entity_mention_id="m-324" role="entity" realis="true">there son</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1226">
+      <event_mention id="em-1205" type="life" subtype="die" realis="other">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="565" length="3">die</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-168" role="victim" realis="true">your</em_arg>
+      </event_mention>
+      <event_mention id="em-1228" type="life" subtype="die" realis="other">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="581" length="4">kill</trigger>
+        <em_arg entity_id="ent-30" entity_mention_id="m-570" role="agent" realis="true">im</em_arg>
+        <em_arg entity_id="ent-18" entity_mention_id="m-174" role="victim" realis="true">you</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1284">
+      <event_mention id="em-1256" type="conflict" subtype="attack" realis="other">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="581" length="4">kill</trigger>
+        <em_arg entity_id="ent-30" entity_mention_id="m-570" role="attacker" realis="true">im</em_arg>
+        <em_arg entity_id="ent-18" entity_mention_id="m-174" role="target" realis="true">you</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1314">
+      <event_mention id="em-1286" type="conflict" subtype="attack" realis="other">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="594" length="4">burn</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-666" role="target" realis="true">your house</em_arg>
+        <em_arg entity_id="ent-30" entity_mention_id="m-570" role="attacker" realis="true">im</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1351">
+      <event_mention id="em-1316" type="movement" subtype="transportperson" realis="other">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="792" length="4">move</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-432" role="agent" realis="true">she</em_arg>
+        <em_arg entity_id="ent-21" entity_mention_id="m-342" role="person" realis="true">there son</em_arg>
+        <em_arg entity_id="ent-30" entity_mention_id="m-576" role="person" realis="true">her new boyfriend</em_arg>
+      </event_mention>
+      <event_mention id="em-1353" type="movement" subtype="transportperson" realis="other">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="910" length="4">goes</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-444" role="agent" realis="true">she</em_arg>
+        <em_arg entity_id="ent-21" entity_mention_id="m-348" role="person" realis="true">there son</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1409">
+      <event_mention id="em-1388" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="1010" length="5">moved</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-450" role="agent" realis="true">she</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1453">
+      <event_mention id="em-1411" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="1152" length="7">driving</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-456" role="agent" realis="true">she</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1476">
+      <event_mention id="em-1455" type="transaction" subtype="transferownership" realis="generic" ways="voluntary">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="1203" length="7">dealing</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-456" role="giver" realis="true">she</em_arg>
+        <em_arg filler_id="f-1482" role="thing" realis="true">drug</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1485">
+      <event_mention id="em-1432" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="1161" length="7">driving</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-462" role="agent" realis="true">she</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1522">
+      <event_mention id="em-1487" type="transaction" subtype="transferownership" realis="other" ways="voluntary">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="1305" length="3">buy</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-234" role="giver" realis="false">my brother</em_arg>
+        <em_arg entity_id="ent-24" entity_mention_id="m-468" role="recipient" realis="true">she</em_arg>
+        <em_arg entity_id="ent-21" entity_mention_id="m-366" role="beneficiary" realis="true">there son</em_arg>
+        <em_arg filler_id="f-1837" role="thing" realis="true">food</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1566">
+      <event_mention id="em-1545" type="movement" subtype="transportperson" realis="generic">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="1230" length="6">racing</trigger>
+        <em_arg entity_id="ent-1678" entity_mention_id="m-1672" role="person" realis="true">lads</em_arg>
+        <em_arg entity_id="ent-24" entity_mention_id="m-456" role="agent" realis="true">she</em_arg>
+        <em_arg filler_id="f-1798" role="instrument" realis="true">cars</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1568">
+      <event_mention id="em-1524" type="contact" subtype="contact" realis="generic" audience="twoway" formality="informal" medium="canttell" schedule="canttell">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="1486" length="7">insults</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-240" role="entity" realis="true">you brother</em_arg>
+      </event_mention>
+      <event_mention id="em-1570" type="contact" subtype="contact" realis="generic" audience="canttell" formality="informal" medium="canttell" schedule="canttell">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="1497" length="8"> threats</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-240" role="entity" realis="true">you brother</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1640">
+      <event_mention id="em-1612" type="contact" subtype="correspondence" realis="other" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="2398" length="6">phoned</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-504" role="entity" realis="true">she</em_arg>
+        <em_arg entity_id="ent-33" entity_mention_id="m-618" role="entity" realis="true">I</em_arg>
+      </event_mention>
+      <event_mention id="em-1644" type="contact" subtype="correspondence" realis="other" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="2487" length="4">call</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-510" role="entity" realis="true">you</em_arg>
+        <em_arg entity_id="ent-33" entity_mention_id="m-630" role="entity" realis="true">I</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1642">
+      <event_mention id="em-1591" type="contact" subtype="meet" realis="other" audience="twoway" formality="canttell" medium="inperson" schedule="planned">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="2044" length="4">talk</trigger>
+        <em_arg entity_id="ent-27" entity_mention_id="m-552" role="entity" realis="true">they</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1778">
+      <event_mention id="em-1750" type="life" subtype="injure" realis="other">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="1220" length="9">over dose</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-456" role="agent" realis="true">she</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1822">
+      <event_mention id="em-1801" type="movement" subtype="transportperson" realis="generic">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="1265" length="6">racing</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-456" role="agent" realis="true">she</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1875">
+      <event_mention id="em-1840" type="transaction" subtype="transfermoney" realis="other" ways="voluntary">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="1305" length="3">buy</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-234" role="giver" realis="false">my brother</em_arg>
+        <em_arg entity_id="ent-24" entity_mention_id="m-468" role="beneficiary" realis="true">she</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1912">
+      <event_mention id="em-1884" type="contact" subtype="correspondence" realis="other" audience="twoway" formality="canttell" medium="notinperson" schedule="planned">
+        <trigger source="3b34a76a3589417f5db02883b47280a6" offset="1873" length="5">phone</trigger>
+        <em_arg entity_id="ent-33" entity_mention_id="m-636" role="entity" realis="true">I</em_arg>
+        <em_arg entity_id="ent-1687" entity_mention_id="m-1690" role="entity" realis="true">them</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="55142ee50000000000000042" doc_id="a68c8d0ef75bbbd2923bf7aa78b72d3e" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-33" noun_type="NAM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="14" length="14">
+        <mention_text>sinkingfeeling</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-45" type="GPE" specificity="specific">
+      <entity_mention id="m-39" noun_type="NAM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="387" length="12">
+        <mention_text>FAYETTEVILLE</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-54" type="GPE" specificity="specific">
+      <entity_mention id="m-48" noun_type="NAM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="401" length="3">
+        <mention_text>Ark</mention_text>
+      </entity_mention>
+      <entity_mention id="m-75" noun_type="NAM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="425" length="8">
+        <mention_text>Arkansas</mention_text>
+      </entity_mention>
+      <entity_mention id="m-324" noun_type="NAM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1704" length="1">
+        <mention_text>A</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-63" type="FAC" specificity="specific">
+      <entity_mention id="m-57" noun_type="NOM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="411" length="29">
+        <mention_text>University of Arkansas campus</mention_text>
+        <nom_head source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="434" length="6">campus</nom_head>
+      </entity_mention>
+      <entity_mention id="m-219" noun_type="NOM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1065" length="6">
+        <mention_text>campus</mention_text>
+        <nom_head source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1065" length="6">campus</nom_head>
+      </entity_mention>
+      <entity_mention id="m-312" noun_type="NOM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1695" length="17">
+        <mention_text>the U of A campus</mention_text>
+        <nom_head source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1706" length="6">campus</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-72" type="ORG" specificity="specific">
+      <entity_mention id="m-66" noun_type="NAM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="411" length="22">
+        <mention_text>University of Arkansas</mention_text>
+      </entity_mention>
+      <entity_mention id="m-318" noun_type="NAM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1699" length="6">
+        <mention_text>U of A</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-81" type="PER" specificity="specific">
+      <entity_mention id="m-84" noun_type="NOM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="466" length="9">
+        <mention_text>a student</mention_text>
+        <nom_head source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="468" length="7">student</nom_head>
+      </entity_mention>
+      <entity_mention id="m-90" noun_type="PRO" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="481" length="7">
+        <mention_text>himself</mention_text>
+      </entity_mention>
+      <entity_mention id="m-99" noun_type="PRO" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="512" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-120" noun_type="NAM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="548" length="18">
+        <mention_text>Matthew Williamson</mention_text>
+      </entity_mention>
+      <entity_mention id="m-135" noun_type="PRO" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="590" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-141" noun_type="NAM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="637" length="10">
+        <mention_text>Williamson</mention_text>
+      </entity_mention>
+      <entity_mention id="m-147" noun_type="NAM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="670" length="10">
+        <mention_text>Williamson</mention_text>
+      </entity_mention>
+      <entity_mention id="m-159" noun_type="PRO" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="697" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-165" noun_type="PRO" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="761" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-171" noun_type="NAM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="775" length="10">
+        <mention_text>Williamson</mention_text>
+      </entity_mention>
+      <entity_mention id="m-177" noun_type="PRO" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="796" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-183" noun_type="PRO" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="806" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-207" noun_type="PRO" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="926" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-213" noun_type="NOM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="996" length="5">
+        <mention_text>idiot</mention_text>
+        <nom_head source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="996" length="5">idiot</nom_head>
+      </entity_mention>
+      <entity_mention id="m-225" noun_type="PRO" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1119" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-240" noun_type="PRO" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1203" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-261" noun_type="PRO" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1339" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-282" noun_type="PRO" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1465" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-96" type="FAC" specificity="specific">
+      <entity_mention id="m-105" noun_type="NOM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="528" length="17">
+        <mention_text>the KUAF building</mention_text>
+        <nom_head source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="537" length="8">building</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-117" type="ORG" specificity="specific">
+      <entity_mention id="m-111" noun_type="NAM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="532" length="4">
+        <mention_text>KUAF</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-132" type="ORG" specificity="specific">
+      <entity_mention id="m-126" noun_type="NAM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="579" length="10">
+        <mention_text>40/29 news</mention_text>
+      </entity_mention>
+      <entity_mention id="m-153" noun_type="NAM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="686" length="10">
+        <mention_text>40/29 news</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-195" type="FAC" specificity="specific">
+      <entity_mention id="m-189" noun_type="NOM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="817" length="16">
+        <mention_text>a shooting range</mention_text>
+        <nom_head source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="828" length="5">range</nom_head>
+      </entity_mention>
+      <entity_mention id="m-234" noun_type="NOM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1136" length="9">
+        <mention_text>the range</mention_text>
+        <nom_head source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1140" length="5">range</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-204" type="PER" specificity="specific">
+      <entity_mention id="m-198" noun_type="NAM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="857" length="15">
+        <mention_text>DollarBillHines</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-231" type="PER" specificity="nonspecific">
+      <entity_mention id="m-255" noun_type="PRO" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1317" length="7">
+        <mention_text>someone</mention_text>
+      </entity_mention>
+      <entity_mention id="m-276" noun_type="PRO" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1457" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+      <entity_mention id="m-297" noun_type="PRO" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1543" length="7">
+        <mention_text>someone</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-252" type="PER" specificity="specific">
+      <entity_mention id="m-246" noun_type="NAM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1253" length="8">
+        <mention_text>rurallib</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-273" type="PER" specificity="specific">
+      <entity_mention id="m-267" noun_type="NAM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1405" length="7">
+        <mention_text>bossy22</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-294" type="PER" specificity="nonspecific">
+      <entity_mention id="m-288" noun_type="PRO" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1513" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-309" type="PER" specificity="specific">
+      <entity_mention id="m-303" noun_type="NAM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1602" length="12">
+        <mention_text>Art_from_Ark</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-336" type="PER" specificity="nonspecific">
+      <entity_mention id="m-330" noun_type="PRO" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1729" length="11">
+        <mention_text>no one else</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-345" type="PER" specificity="specific">
+      <entity_mention id="m-339" noun_type="NAM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1787" length="5">
+        <mention_text>Locke</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-354" type="PER" specificity="specific">
+      <entity_mention id="m-348" noun_type="NAM" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1816" length="13">
+        <mention_text>maloriesutton</mention_text>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-455" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1777" length="9" type="title">Professor</filler>
+    <filler id="f-493" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="494" length="5" type="weapon">a gun</filler>
+    <filler id="f-688" source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1365" length="16" type="crime">attempted murder</filler>
+  </fillers>
+  <relations>
+    <relation id="r-615" type="physical" subtype="locatednear">
+      <relation_mention id="relm-357" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-39" role="entity">FAYETTEVILLE</rel_arg1>
+        <rel_arg2 entity_id="ent-54" entity_mention_id="m-48" role="loc">Ark</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-616" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-367" realis="true">
+        <rel_arg1 entity_id="ent-72" entity_mention_id="m-66" role="org">University of Arkansas</rel_arg1>
+        <rel_arg2 entity_id="ent-54" entity_mention_id="m-75" role="loc">Arkansas</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-437" realis="true">
+        <rel_arg1 entity_id="ent-72" entity_mention_id="m-318" role="org">U of A</rel_arg1>
+        <rel_arg2 entity_id="ent-54" entity_mention_id="m-324" role="loc">A</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-617" type="physical" subtype="locatednear">
+      <relation_mention id="relm-387" realis="true">
+        <rel_arg1 entity_id="ent-81" entity_mention_id="m-99" role="entity">his</rel_arg1>
+        <rel_arg2 entity_id="ent-96" entity_mention_id="m-105" role="loc">the KUAF building</rel_arg2>
+        <trigger source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="525" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-618" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-397" realis="true">
+        <rel_arg1 entity_id="ent-117" entity_mention_id="m-111" role="org">KUAF</rel_arg1>
+        <rel_arg2 entity_id="ent-96" entity_mention_id="m-105" role="loc">the KUAF building</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-619" type="physical" subtype="locatednear">
+      <relation_mention id="relm-407" realis="false">
+        <rel_arg1 entity_id="ent-81" entity_mention_id="m-183" role="entity">his</rel_arg1>
+        <rel_arg2 entity_id="ent-195" entity_mention_id="m-189" role="loc">a shooting range</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-620" type="physical" subtype="locatednear">
+      <relation_mention id="relm-417" realis="true">
+        <rel_arg1 entity_id="ent-81" entity_mention_id="m-225" role="entity">He</rel_arg1>
+        <rel_arg2 entity_id="ent-195" entity_mention_id="m-234" role="loc">the range</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-621" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-427" realis="true">
+        <rel_arg1 entity_id="ent-72" entity_mention_id="m-318" role="org">U of A</rel_arg1>
+        <rel_arg2 entity_id="ent-63" entity_mention_id="m-312" role="loc">the U of A campus</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-622" type="personalsocial" subtype="role">
+      <relation_mention id="relm-447" realis="true">
+        <rel_arg1 entity_id="ent-345" entity_mention_id="m-339" role="per">Locke</rel_arg1>
+        <rel_arg2 filler_id="f-455" role="role">Professor</rel_arg2>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-459">
+      <event_mention id="em-461" type="life" subtype="injure" realis="actual">
+        <trigger source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="476" length="4">hurt</trigger>
+        <em_arg entity_id="ent-81" entity_mention_id="m-84" role="agent" realis="true">a student</em_arg>
+        <em_arg entity_id="ent-81" entity_mention_id="m-90" role="victim" realis="true">himself</em_arg>
+        <em_arg filler_id="f-493" role="instrument" realis="true">a gun</em_arg>
+        <em_arg entity_id="ent-96" entity_mention_id="m-105" role="place" realis="true">the KUAF building</em_arg>
+      </event_mention>
+      <event_mention id="em-510" type="life" subtype="injure" realis="actual">
+        <trigger source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="652" length="3">hit</trigger>
+        <em_arg entity_id="ent-81" entity_mention_id="m-141" role="victim" realis="true">Williamson</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-559">
+      <event_mention id="em-531" type="contact" subtype="contact" realis="actual" audience="twoway" formality="formal" medium="canttell" schedule="spontaneous">
+        <trigger source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="681" length="4">told</trigger>
+        <em_arg entity_id="ent-132" entity_mention_id="m-153" role="entity" realis="true">40/29 news</em_arg>
+        <em_arg entity_id="ent-81" entity_mention_id="m-147" role="entity" realis="true">Williamson</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-610">
+      <event_mention id="em-582" type="movement" subtype="transportperson" realis="other">
+        <trigger source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="799" length="3">was</trigger>
+        <em_arg entity_id="ent-81" entity_mention_id="m-177" role="person" realis="true">he</em_arg>
+        <em_arg entity_id="ent-195" entity_mention_id="m-189" role="destination" realis="true">a shooting range</em_arg>
+      </event_mention>
+      <event_mention id="em-612" type="movement" subtype="transportperson" realis="other">
+        <trigger source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1126" length="6">headed</trigger>
+        <em_arg entity_id="ent-81" entity_mention_id="m-225" role="person" realis="true">He</em_arg>
+        <em_arg entity_id="ent-195" entity_mention_id="m-234" role="destination" realis="true">the range</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-691">
+      <event_mention id="em-663" type="justice" subtype="chargeindict" realis="other">
+        <trigger source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1352" length="7">charged</trigger>
+        <em_arg entity_id="ent-81" entity_mention_id="m-261" role="defendant" realis="false">he</em_arg>
+        <em_arg filler_id="f-688" role="crime" realis="true">attempted murder</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-714">
+      <event_mention id="em-640" type="life" subtype="die" realis="other">
+        <trigger source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1332" length="6">killed</trigger>
+        <em_arg entity_id="ent-231" entity_mention_id="m-255" role="victim" realis="false">someone</em_arg>
+      </event_mention>
+      <event_mention id="em-739" type="life" subtype="die" realis="other">
+        <trigger source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1479" length="4">kill</trigger>
+        <em_arg entity_id="ent-231" entity_mention_id="m-276" role="victim" realis="true">who</em_arg>
+      </event_mention>
+      <event_mention id="em-844" type="life" subtype="die" realis="generic">
+        <trigger source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1538" length="4">kill</trigger>
+        <em_arg entity_id="ent-231" entity_mention_id="m-297" role="victim" realis="true">someone</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-737">
+      <event_mention id="em-760" type="conflict" subtype="attack" realis="other">
+        <trigger source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1479" length="4">kill</trigger>
+        <em_arg entity_id="ent-231" entity_mention_id="m-276" role="target" realis="true">who</em_arg>
+      </event_mention>
+      <event_mention id="em-823" type="conflict" subtype="attack" realis="generic">
+        <trigger source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1538" length="4">kill</trigger>
+        <em_arg entity_id="ent-231" entity_mention_id="m-297" role="target" realis="true">someone</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-886">
+      <event_mention id="em-865" type="life" subtype="injure" realis="other">
+        <trigger source="a68c8d0ef75bbbd2923bf7aa78b72d3e" offset="1745" length="4">hurt</trigger>
+        <em_arg entity_id="ent-336" entity_mention_id="m-330" role="victim" realis="false">no one else</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

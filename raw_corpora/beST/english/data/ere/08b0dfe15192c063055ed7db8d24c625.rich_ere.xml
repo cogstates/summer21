@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="55490d330000000000000015" doc_id="08b0dfe15192c063055ed7db8d24c625" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-123" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="90" length="4">
+        <mention_text>nmds</mention_text>
+      </entity_mention>
+      <entity_mention id="m-129" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="2334" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-135" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="2542" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-141" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2925" length="4">
+        <mention_text>nmds</mention_text>
+      </entity_mention>
+      <entity_mention id="m-147" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="3005" length="4">
+        <mention_text>nmds</mention_text>
+      </entity_mention>
+      <entity_mention id="m-153" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="3026" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-159" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="3112" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-165" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="3196" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-171" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="3218" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-177" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="3466" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-183" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="3567" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-189" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="3721" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-18" type="PER" specificity="specific">
+      <entity_mention id="m-195" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2992" length="10">
+        <mention_text>whyumadtho</mention_text>
+      </entity_mention>
+      <entity_mention id="m-201" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="3589" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-207" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="3769" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-21" type="PER" specificity="specific">
+      <entity_mention id="m-213" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="292" length="10">
+        <mention_text>its leader</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="296" length="6">leader</nom_head>
+      </entity_mention>
+      <entity_mention id="m-219" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="304" length="6">
+        <mention_text>Gandhi</mention_text>
+      </entity_mention>
+      <entity_mention id="m-225" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="459" length="6">
+        <mention_text>Gandhi</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-24" type="PER" specificity="specific">
+      <entity_mention id="m-231" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="14" length="13">
+        <mention_text>Ravin McRaven</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-27" type="ORG" specificity="specific">
+      <entity_mention id="m-237" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="148" length="17">
+        <mention_text>National Congress</mention_text>
+      </entity_mention>
+      <entity_mention id="m-243" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="167" length="72">
+        <mention_text>the largest and most powerful force in the movement for Indian self-rule</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="197" length="5">force</nom_head>
+      </entity_mention>
+      <entity_mention id="m-249" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="292" length="3">
+        <mention_text>its</mention_text>
+      </entity_mention>
+      <entity_mention id="m-255" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2392" length="24">
+        <mention_text>Indian National Congress</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-30" type="ORG" specificity="specific">
+      <entity_mention id="m-261" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="265" length="22">
+        <mention_text>the British government</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="277" length="10">government</nom_head>
+      </entity_mention>
+      <entity_mention id="m-267" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="621" length="22">
+        <mention_text>the British government</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="633" length="10">government</nom_head>
+      </entity_mention>
+      <entity_mention id="m-273" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="2357" length="10">
+        <mention_text>the Regime</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="2361" length="6">Regime</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-33" type="ORG" specificity="specific">
+      <entity_mention id="m-279" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="1976" length="3">
+        <mention_text>BNP</mention_text>
+      </entity_mention>
+      <entity_mention id="m-285" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="2030" length="3">
+        <mention_text>its</mention_text>
+      </entity_mention>
+      <entity_mention id="m-291" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="2090" length="2">
+        <mention_text>it</mention_text>
+      </entity_mention>
+      <entity_mention id="m-297" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="2181" length="2">
+        <mention_text>it</mention_text>
+      </entity_mention>
+      <entity_mention id="m-303" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="2201" length="3">
+        <mention_text>its</mention_text>
+      </entity_mention>
+      <entity_mention id="m-309" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="2285" length="3">
+        <mention_text>its</mention_text>
+      </entity_mention>
+      <entity_mention id="m-315" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="2059" length="2">
+        <mention_text>it</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-36" type="GPE" specificity="specific">
+      <entity_mention id="m-321" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="140" length="5">
+        <mention_text>India</mention_text>
+      </entity_mention>
+      <entity_mention id="m-327" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="223" length="6">
+        <mention_text>Indian</mention_text>
+      </entity_mention>
+      <entity_mention id="m-333" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="527" length="5">
+        <mention_text>India</mention_text>
+      </entity_mention>
+      <entity_mention id="m-339" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="570" length="5">
+        <mention_text>India</mention_text>
+      </entity_mention>
+      <entity_mention id="m-345" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="1493" length="5">
+        <mention_text>India</mention_text>
+      </entity_mention>
+      <entity_mention id="m-351" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2392" length="6">
+        <mention_text>Indian</mention_text>
+      </entity_mention>
+      <entity_mention id="m-357" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2737" length="5">
+        <mention_text>india</mention_text>
+      </entity_mention>
+      <entity_mention id="m-363" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="3395" length="5">
+        <mention_text>India</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-39" type="GPE" specificity="specific">
+      <entity_mention id="m-393" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="269" length="7">
+        <mention_text>British</mention_text>
+      </entity_mention>
+      <entity_mention id="m-399" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="625" length="7">
+        <mention_text>British</mention_text>
+      </entity_mention>
+      <entity_mention id="m-405" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="1966" length="7">
+        <mention_text>Britain</mention_text>
+      </entity_mention>
+      <entity_mention id="m-411" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2172" length="7">
+        <mention_text>Britain</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-42" type="GPE" specificity="specific">
+      <entity_mention id="m-417" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="328" length="6">
+        <mention_text>Bombay</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-45" type="GPE" specificity="specific">
+      <entity_mention id="m-423" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="1194" length="8">
+        <mention_text>Brussels</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-48" type="GPE" specificity="specific">
+      <entity_mention id="m-429" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="1207" length="10">
+        <mention_text>Strasbourg</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-51" type="GPE" specificity="specific">
+      <entity_mention id="m-435" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="1560" length="7">
+        <mention_text>England</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-54" type="GPE" specificity="specific">
+      <entity_mention id="m-453" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="1605" length="7">
+        <mention_text>Germany</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-57" type="GPE" specificity="specific">
+      <entity_mention id="m-465" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2572" length="12">
+        <mention_text>South Africa</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-60" type="GPE" specificity="specific">
+      <entity_mention id="m-471" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2586" length="7">
+        <mention_text>namibia</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-63" type="GPE" specificity="specific">
+      <entity_mention id="m-477" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2595" length="3">
+        <mention_text>USA</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-66" type="GPE" specificity="specific">
+      <entity_mention id="m-483" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2600" length="9">
+        <mention_text>australia</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-69" type="GPE" specificity="specific">
+      <entity_mention id="m-489" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2611" length="6">
+        <mention_text>canada</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-72" type="GPE" specificity="specific">
+      <entity_mention id="m-495" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2619" length="9">
+        <mention_text>argentina</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-75" type="GPE" specificity="specific">
+      <entity_mention id="m-501" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2630" length="6">
+        <mention_text>brazil</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-78" type="GPE" specificity="specific">
+      <entity_mention id="m-507" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2638" length="11">
+        <mention_text>new zealand</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-81" type="GPE" specificity="specific">
+      <entity_mention id="m-513" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2744" length="5">
+        <mention_text>kenya</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-84" type="GPE" specificity="specific">
+      <entity_mention id="m-519" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2751" length="9">
+        <mention_text>hong kong</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-87" type="GPE" specificity="specific">
+      <entity_mention id="m-525" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2762" length="9">
+        <mention_text>Abu dhabi</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-90" type="GPE" specificity="specific">
+      <entity_mention id="m-531" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2773" length="9">
+        <mention_text>sri lanka</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-93" type="GPE" specificity="specific">
+      <entity_mention id="m-537" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2784" length="4">
+        <mention_text>fiji</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-96" type="GPE" specificity="specific">
+      <entity_mention id="m-543" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2790" length="8">
+        <mention_text>malaysia</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-99" type="GPE" specificity="specific">
+      <entity_mention id="m-549" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2800" length="8">
+        <mention_text>thailand</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-102" type="GPE" specificity="specific">
+      <entity_mention id="m-555" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2880" length="5">
+        <mention_text>Dover</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-105" type="GPE" specificity="specific">
+      <entity_mention id="m-561" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="3402" length="6">
+        <mention_text>Israel</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-108" type="GPE" specificity="specific">
+      <entity_mention id="m-567" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="3413" length="8">
+        <mention_text>Botswana</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-111" type="LOC" specificity="specific">
+      <entity_mention id="m-573" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="713" length="4">
+        <mention_text>Asia</mention_text>
+      </entity_mention>
+      <entity_mention id="m-579" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="1116" length="4">
+        <mention_text>Asia</mention_text>
+      </entity_mention>
+      <entity_mention id="m-585" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="856" length="5">
+        <mention_text>Asian</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-114" type="LOC" specificity="specific">
+      <entity_mention id="m-591" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="722" length="6">
+        <mention_text>Africa</mention_text>
+      </entity_mention>
+      <entity_mention id="m-597" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="1105" length="6">
+        <mention_text>Africa</mention_text>
+      </entity_mention>
+      <entity_mention id="m-603" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="844" length="7">
+        <mention_text>African</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-117" type="LOC" specificity="specific">
+      <entity_mention id="m-609" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="1037" length="6">
+        <mention_text>Europe</mention_text>
+      </entity_mention>
+      <entity_mention id="m-615" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="1378" length="6">
+        <mention_text>Europe</mention_text>
+      </entity_mention>
+      <entity_mention id="m-621" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="1666" length="6">
+        <mention_text>Europe</mention_text>
+      </entity_mention>
+      <entity_mention id="m-627" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="1762" length="6">
+        <mention_text>Europe</mention_text>
+      </entity_mention>
+      <entity_mention id="m-645" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2439" length="13">
+        <mention_text>anti-European</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="2439" length="13">anti-European</nom_head>
+      </entity_mention>
+      <entity_mention id="m-663" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="1003" length="8">
+        <mention_text>European</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-120" type="LOC" specificity="specific">
+      <entity_mention id="m-669" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2274" length="5">
+        <mention_text>earth</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-760" type="PER" specificity="nonspecific">
+      <entity_mention id="m-369" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="507" length="7">
+        <mention_text>Indians</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="507" length="7">Indians</nom_head>
+      </entity_mention>
+      <entity_mention id="m-375" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="549" length="7">
+        <mention_text>Indians</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="549" length="7">Indians</nom_head>
+      </entity_mention>
+      <entity_mention id="m-381" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="1519" length="7">
+        <mention_text>Indians</mention_text>
+      </entity_mention>
+      <entity_mention id="m-387" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="3233" length="7">
+        <mention_text>Indians</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="3233" length="7">Indians</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-763" type="PER" specificity="nonspecific">
+      <entity_mention id="m-441" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="1592" length="7">
+        <mention_text>English</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="1592" length="7">English</nom_head>
+      </entity_mention>
+      <entity_mention id="m-447" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="492" length="10">
+        <mention_text>Englishmen</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="492" length="10">Englishmen</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-766" type="PER" specificity="nonspecific">
+      <entity_mention id="m-459" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="1620" length="7">
+        <mention_text>Germans</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="1620" length="7">Germans</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-769" type="PER" specificity="nonspecific">
+      <entity_mention id="m-633" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="923" length="9">
+        <mention_text>Europeans</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="923" length="9">Europeans</nom_head>
+      </entity_mention>
+      <entity_mention id="m-639" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="1092" length="9">
+        <mention_text>Europeans</mention_text>
+      </entity_mention>
+      <entity_mention id="m-651" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="2662" length="9">
+        <mention_text>europeans</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="2662" length="9">europeans</nom_head>
+      </entity_mention>
+      <entity_mention id="m-657" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="2724" length="9">
+        <mention_text>europeans</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="2724" length="9">europeans</nom_head>
+      </entity_mention>
+      <entity_mention id="m-790" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="1003" length="16">
+        <mention_text>European peoples</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="1012" length="7">peoples</nom_head>
+      </entity_mention>
+      <entity_mention id="m-805" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="1363" length="21">
+        <mention_text>the peoples of Europe</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="1367" length="7">peoples</nom_head>
+      </entity_mention>
+      <entity_mention id="m-940" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="2836" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-778" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-772" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="419" length="19">
+        <mention_text>the Imperial powers</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="432" length="6">powers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-787" type="PER" specificity="nonspecific">
+      <entity_mention id="m-781" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="844" length="25">
+        <mention_text>African and Asian peoples</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="862" length="7">peoples</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-802" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-796" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="1238" length="14">
+        <mention_text>the government</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="1242" length="10">government</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-817" type="PER" specificity="nonspecific">
+      <entity_mention id="m-811" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="1645" length="27">
+        <mention_text>the normal people of Europe</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="1656" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-820" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="1703" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-832" type="PER" specificity="nonspecific">
+      <entity_mention id="m-826" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="1738" length="30">
+        <mention_text>the restless natives of Europe</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="1751" length="7">natives</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-841" type="PER" specificity="nonspecific">
+      <entity_mention id="m-835" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="1824" length="24">
+        <mention_text>the new old imperialists</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="1836" length="12">imperialists</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-850" type="PER" specificity="nonspecific">
+      <entity_mention id="m-844" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="1922" length="12">
+        <mention_text>anti-fascist</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="1922" length="12">anti-fascist</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-859" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-853" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="2000" length="10">
+        <mention_text>the courts</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="2004" length="6">courts</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-868" type="PER" specificity="specific">
+      <entity_mention id="m-862" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="2150" length="29">
+        <mention_text>the native peoples of Britain</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="2161" length="7">peoples</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-877" type="PER" specificity="nonspecific">
+      <entity_mention id="m-871" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="2229" length="50">
+        <mention_text>the native peoples of every other country on earth</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="2240" length="7">peoples</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-886" type="GPE" specificity="nonspecific">
+      <entity_mention id="m-880" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="2251" length="28">
+        <mention_text>every other country on earth</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="2263" length="7">country</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-895" type="PER" specificity="nonspecific">
+      <entity_mention id="m-889" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="2285" length="30">
+        <mention_text>its own members and supporters</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="2293" length="6">member</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-904" type="PER" specificity="nonspecific">
+      <entity_mention id="m-898" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="2285" length="30">
+        <mention_text>its own members and supporters</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="2305" length="10">supporters</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-913" type="PER" specificity="nonspecific">
+      <entity_mention id="m-907" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="2317" length="3">
+        <mention_text>You</mention_text>
+      </entity_mention>
+      <entity_mention id="m-934" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="2704" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-922" type="PER" specificity="specific">
+      <entity_mention id="m-916" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="2492" length="6">
+        <mention_text>TSRers</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-931" type="GPE" specificity="specific">
+      <entity_mention id="m-925" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="2672" length="5">
+        <mention_text>there</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-952" type="PER" specificity="nonspecific">
+      <entity_mention id="m-946" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="3011" length="9">
+        <mention_text>a 'nation</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="3014" length="6">nation</nom_head>
+      </entity_mention>
+      <entity_mention id="m-964" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="3136" length="6">
+        <mention_text>nation</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="3136" length="6">nation</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-961" type="LOC" specificity="nonspecific">
+      <entity_mention id="m-955" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="3051" length="45">
+        <mention_text>separate or politically independent territory</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="3087" length="9">territory</nom_head>
+      </entity_mention>
+      <entity_mention id="m-970" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="3164" length="7">
+        <mention_text>a space</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="3166" length="5">space</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-982" type="PER" specificity="nonspecific">
+      <entity_mention id="m-976" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="3246" length="4">
+        <mention_text>Jews</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-991" type="PER" specificity="nonspecific">
+      <entity_mention id="m-985" noun_type="NAM" source="08b0dfe15192c063055ed7db8d24c625" offset="3260" length="6">
+        <mention_text>Tswana</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1000" type="GPE" specificity="specific">
+      <entity_mention id="m-994" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="3273" length="7">
+        <mention_text>nations</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="3273" length="7">nations</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1003" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="3288" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1018" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="3371" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1030" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="3438" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1015" type="GPE" specificity="specific">
+      <entity_mention id="m-1009" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="3311" length="75">
+        <mention_text>separate or politically independent territories' devoted to their interests</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="3347" length="11">territories</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1024" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="3432" length="5">
+        <mention_text>which</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1048" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1042" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="3478" length="10">
+        <mention_text>any people</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="3482" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1057" type="LOC" specificity="nonspecific">
+      <entity_mention id="m-1051" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="3489" length="8">
+        <mention_text>anywhere</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1066" type="GPE" specificity="nonspecific">
+      <entity_mention id="m-1060" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="3533" length="6">
+        <mention_text>itself</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1075" type="ORG" specificity="specific">
+      <entity_mention id="m-1069" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="645" length="27">
+        <mention_text>Other nationalist movements</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="663" length="9">movements</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1104" type="ORG" specificity="specific">
+      <entity_mention id="m-1098" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="1169" length="48">
+        <mention_text>a foreign bureaucracy in Brussels and Strasbourg</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="1179" length="11">bureaucracy</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1149" type="PER" specificity="specific">
+      <entity_mention id="m-1143" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="1904" length="46">
+        <mention_text>its ‘democratic’ ‘anti-fascist’ rival in power</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="1936" length="5">rival</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1281" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1275" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="373" length="11">
+        <mention_text>all moderns</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="377" length="7">moderns</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1284" noun_type="NOM" source="08b0dfe15192c063055ed7db8d24c625" offset="791" length="11">
+        <mention_text>all moderns</mention_text>
+        <nom_head source="08b0dfe15192c063055ed7db8d24c625" offset="795" length="7">moderns</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1407" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1036" noun_type="PRO" source="08b0dfe15192c063055ed7db8d24c625" offset="3450" length="2">
+        <mention_text>us</mention_text>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-757" source="08b0dfe15192c063055ed7db8d24c625" offset="100" length="16" type="time" nom_time="1932-01-04">4th January 1932</filler>
+  </fillers>
+  <relations>
+    <relation id="r-174" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-675" realis="true">
+        <rel_arg1 entity_id="ent-27" entity_mention_id="m-237" role="suborg">National Congress</rel_arg1>
+        <rel_arg2 entity_id="ent-36" entity_mention_id="m-321" role="parent">India</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="140" length="7">India’s</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1172" realis="true">
+        <rel_arg1 entity_id="ent-27" entity_mention_id="m-255" role="suborg">Indian National Congress</rel_arg1>
+        <rel_arg2 entity_id="ent-36" entity_mention_id="m-351" role="parent">Indian</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="2392" length="6">Indian</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-175" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-685" realis="true">
+        <rel_arg1 entity_id="ent-30" entity_mention_id="m-261" role="suborg">the British government</rel_arg1>
+        <rel_arg2 entity_id="ent-39" entity_mention_id="m-393" role="parent">British</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="269" length="7">British</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-176" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-695" realis="true">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-213" role="leader">its leader</rel_arg1>
+        <rel_arg2 entity_id="ent-27" entity_mention_id="m-249" role="entity">its</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="296" length="6">leader</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-177" type="physical" subtype="locatednear">
+      <relation_mention id="relm-705" realis="true">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-219" role="entity">Gandhi</rel_arg1>
+        <rel_arg2 entity_id="ent-42" entity_mention_id="m-417" role="loc">Bombay</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="325" length="2">in</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1078" realis="true">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-225" role="entity">Gandhi</rel_arg1>
+        <rel_arg2 entity_id="ent-42" entity_mention_id="m-417" role="loc">Bombay</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="325" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-178" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-715" realis="true">
+        <rel_arg1 entity_id="ent-33" entity_mention_id="m-279" role="org">BNP</rel_arg1>
+        <rel_arg2 entity_id="ent-39" entity_mention_id="m-405" role="loc">Britain</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="1966" length="9">Britain’s</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-179" type="physical" subtype="resident">
+      <relation_mention id="relm-1088" realis="true">
+        <rel_arg1 entity_id="ent-769" entity_mention_id="m-790" role="per">European peoples</rel_arg1>
+        <rel_arg2 entity_id="ent-117" entity_mention_id="m-663" role="loc">European</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="1012" length="7">peoples</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1113" realis="true">
+        <rel_arg1 entity_id="ent-769" entity_mention_id="m-805" role="per">the peoples of Europe</rel_arg1>
+        <rel_arg2 entity_id="ent-117" entity_mention_id="m-615" role="loc">Europe</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="1375" length="2">of</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-180" type="physical" subtype="resident">
+      <relation_mention id="relm-1123" realis="true">
+        <rel_arg1 entity_id="ent-817" entity_mention_id="m-811" role="per">the normal people of Europe</rel_arg1>
+        <rel_arg2 entity_id="ent-117" entity_mention_id="m-621" role="loc">Europe</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="1663" length="2">of</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-181" type="physical" subtype="resident">
+      <relation_mention id="relm-1133" realis="true">
+        <rel_arg1 entity_id="ent-832" entity_mention_id="m-826" role="per">the restless natives of Europe</rel_arg1>
+        <rel_arg2 entity_id="ent-117" entity_mention_id="m-627" role="loc">Europe</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="1759" length="2">of</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-182" type="physical" subtype="resident">
+      <relation_mention id="relm-1152" realis="true">
+        <rel_arg1 entity_id="ent-868" entity_mention_id="m-862" role="per">the native peoples of Britain</rel_arg1>
+        <rel_arg2 entity_id="ent-39" entity_mention_id="m-411" role="loc">Britain</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="2169" length="2">of</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-183" type="physical" subtype="resident">
+      <relation_mention id="relm-1162" realis="true">
+        <rel_arg1 entity_id="ent-877" entity_mention_id="m-871" role="per">the native peoples of every other country on earth</rel_arg1>
+        <rel_arg2 entity_id="ent-886" entity_mention_id="m-880" role="loc">every other country on earth</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="2248" length="2">of</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-184" type="physical" subtype="resident">
+      <relation_mention id="relm-1192" realis="true">
+        <rel_arg1 entity_id="ent-1048" entity_mention_id="m-1042" role="per">any people</rel_arg1>
+        <rel_arg2 entity_id="ent-1057" entity_mention_id="m-1051" role="loc">anywhere</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-185" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1327" realis="false">
+        <rel_arg1 entity_id="ent-769" entity_mention_id="m-657" role="entity">europeans</rel_arg1>
+        <rel_arg2 entity_id="ent-36" entity_mention_id="m-357" role="loc">india</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="2734" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-186" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1337" realis="false">
+        <rel_arg1 entity_id="ent-769" entity_mention_id="m-657" role="entity">europeans</rel_arg1>
+        <rel_arg2 entity_id="ent-81" entity_mention_id="m-513" role="loc">kenya</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="2734" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-187" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1347" realis="false">
+        <rel_arg1 entity_id="ent-769" entity_mention_id="m-657" role="entity">europeans</rel_arg1>
+        <rel_arg2 entity_id="ent-84" entity_mention_id="m-519" role="loc">hong kong</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="2734" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-188" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1357" realis="false">
+        <rel_arg1 entity_id="ent-769" entity_mention_id="m-657" role="entity">europeans</rel_arg1>
+        <rel_arg2 entity_id="ent-87" entity_mention_id="m-525" role="loc">Abu dhabi</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="2734" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-189" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1367" realis="false">
+        <rel_arg1 entity_id="ent-769" entity_mention_id="m-657" role="entity">europeans</rel_arg1>
+        <rel_arg2 entity_id="ent-90" entity_mention_id="m-531" role="loc">sri lanka</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="2734" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-190" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1377" realis="false">
+        <rel_arg1 entity_id="ent-769" entity_mention_id="m-657" role="entity">europeans</rel_arg1>
+        <rel_arg2 entity_id="ent-93" entity_mention_id="m-537" role="loc">fiji</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="2734" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-191" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1387" realis="false">
+        <rel_arg1 entity_id="ent-769" entity_mention_id="m-657" role="entity">europeans</rel_arg1>
+        <rel_arg2 entity_id="ent-96" entity_mention_id="m-543" role="loc">malaysia</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="2734" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-192" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1397" realis="false">
+        <rel_arg1 entity_id="ent-769" entity_mention_id="m-657" role="entity">europeans</rel_arg1>
+        <rel_arg2 entity_id="ent-99" entity_mention_id="m-549" role="loc">thailand</rel_arg2>
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="2734" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-16">
+      <event_mention id="em-725" type="justice" subtype="arrestjail" realis="actual">
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="316" length="8">arrested</trigger>
+        <em_arg entity_id="ent-21" entity_mention_id="m-219" role="person" realis="true">Gandhi</em_arg>
+        <em_arg entity_id="ent-42" entity_mention_id="m-417" role="place" realis="true">Bombay</em_arg>
+        <em_arg filler_id="f-757" role="time" realis="true">4th January 1932</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1243">
+      <event_mention id="em-1222" type="justice" subtype="arrestjail" realis="actual">
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="2849" length="9">arressted</trigger>
+        <em_arg entity_id="ent-769" entity_mention_id="m-940" role="person" realis="true">they</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1273">
+      <event_mention id="em-1245" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="2863" length="8">deported</trigger>
+        <em_arg entity_id="ent-769" entity_mention_id="m-940" role="person" realis="true">they</em_arg>
+        <em_arg entity_id="ent-102" entity_mention_id="m-555" role="destination" realis="true">Dover</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1325">
+      <event_mention id="em-1290" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="08b0dfe15192c063055ed7db8d24c625" offset="3443" length="6">booted</trigger>
+        <em_arg entity_id="ent-1407" entity_mention_id="m-1036" role="person" realis="true">us</em_arg>
+        <em_arg entity_id="ent-1015" entity_mention_id="m-1009" role="origin" realis="true">separate or politically independent territories' devoted to their interests</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

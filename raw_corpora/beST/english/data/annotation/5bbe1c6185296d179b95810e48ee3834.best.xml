@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56ce1d3f0000000000000117">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-378">
+        <trigger offset="331" length="7">located</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-388">
+        <trigger offset="361" length="7">between</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-398">
+        <trigger offset="361" length="7">between</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-408">
+        <trigger offset="422" length="9">personnel</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-418">
+        <trigger offset="520" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-428">
+        <trigger offset="979" length="4">into</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-438">
+        <trigger offset="1719" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-448">
+        <trigger offset="520" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-784">
+        <trigger offset="300" length="2">at</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-803">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-813">
+        <trigger offset="979" length="4">into</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1024">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1034">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1044">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1054">
+        <trigger offset="1568" length="4">left</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-472">
+        <trigger offset="828" length="4">died</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-96" offset="809" length="23">
+            <text>the two folks that died</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-493">
+        <trigger offset="244" length="4">died</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-90" offset="233" length="10">
+            <text>Two people</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-686" offset="259" length="6">
+            <text>Oct. 8</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-312" offset="303" length="27">
+            <text>Angel Valley Retreat Center</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-980">
+        <trigger offset="2139" length="8">homicide</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-246" offset="1936" length="4">Epok</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-997" offset="259" length="6">
+            <text>Oct. 8</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-246" offset="1936" length="4">Epok</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-514">
+        <trigger offset="833" length="4">paid</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-96" offset="809" length="23">
+            <text>the two folks that died</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-894" offset="838" length="21">
+            <text>nearly 10,000 dollars</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-535">
+        <trigger offset="1050" length="18">critical condition</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-216" offset="1029" length="8">
+            <text>one more</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-700" offset="1069" length="7">
+            <text>tonight</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-556">
+        <trigger offset="979" length="4">into</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-204" offset="964" length="14">
+            <text>over 60 people</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-144" offset="936" length="21">
+            <text>a non-Native American</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-348" offset="984" length="17">
+            <text>the sweat 'lodge'</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-577">
+        <trigger offset="1719" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-258" offset="1703" length="15">
+            <text>too many people</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-174" offset="1687" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-360" offset="1731" length="17">
+            <text>too small a space</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-598">
+        <trigger offset="1020" length="3">ill</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-210" offset="1003" length="9">
+            <text>20 people</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-619">
+        <trigger offset="863" length="6">attend</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-96" offset="809" length="23">
+            <text>the two folks that died</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-132" offset="895" length="20">
+            <text>two time Oprah guest</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-640">
+        <trigger offset="1568" length="4">left</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-156" offset="1553" length="3">
+            <text>Ray</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-318" offset="1573" length="9">
+            <text>the state</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-661">
+        <trigger offset="476" length="5">found</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-192" offset="482" length="37">
+            <text>several victims who had been involved</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-108" offset="470" length="5">
+            <text>Crews</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-366" offset="523" length="11">
+            <text>sweat lodge</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-763" offset="259" length="6">
+            <text>Oct. 8</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-832">
+        <trigger offset="437" length="9">called to</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-102" offset="395" length="36">
+            <text>Verde Valley Fire District personnel</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-864" offset="259" length="6">
+            <text>Oct. 8</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-366" offset="523" length="11">
+            <text>sweat lodge</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-867">
+        <trigger offset="774" length="6">posted</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-766" offset="751" length="6">
+            <text>No one</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-897">
+        <trigger offset="1094" length="4">post</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-288" offset="1146" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-924" offset="1134" length="7">
+            <text>tonight</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-126" offset="14" length="9">roseglass</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-950">
+        <trigger offset="2019" length="8">question</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-246" offset="1936" length="4">Epok</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-270" offset="1993" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-246" offset="1936" length="4">Epok</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-180" offset="2028" length="7">
+            <text>the guy</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-246" offset="1936" length="4">Epok</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1001">
+        <trigger offset="2139" length="8">homicide</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-246" offset="1936" length="4">Epok</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-1018" offset="259" length="6">
+            <text>Oct. 8</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-246" offset="1936" length="4">Epok</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-90" offset="233" length="10">
+        <text>Two people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-96" offset="809" length="23">
+        <text>the two folks that died</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-102" offset="395" length="36">
+        <text>Verde Valley Fire District personnel</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-108" offset="470" length="5">
+        <text>Crews</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-114" offset="663" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-120" offset="705" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-126" offset="14" length="9">
+        <text>roseglass</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-132" offset="895" length="20">
+        <text>two time Oprah guest</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-138" offset="917" length="16">
+        <text>James Arthur Ray</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-144" offset="936" length="21">
+        <text>a non-Native American</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-150" offset="1519" length="28">
+        <text>the New Age guru in question</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-156" offset="1553" length="3">
+        <text>Ray</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-162" offset="1635" length="3">
+        <text>Ray</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-168" offset="1665" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-174" offset="1687" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-180" offset="2028" length="7">
+        <text>the guy</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="2047" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-192" offset="482" length="37">
+        <text>several victims who had been involved</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-198" offset="904" length="5">
+        <text>Oprah</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-204" offset="964" length="14">
+        <text>over 60 people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-210" offset="1003" length="9">
+        <text>20 people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-216" offset="1029" length="8">
+        <text>one more</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-222" offset="1384" length="13">
+        <text>MattusMaximus</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-228" offset="1439" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-234" offset="1489" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-240" offset="1606" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-246" offset="1936" length="4">
+        <text>Epok</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-252" offset="2069" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-258" offset="1703" length="15">
+        <text>too many people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-264" offset="1763" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-270" offset="1993" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-276" offset="2037" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-282" offset="545" length="23">
+        <text>Approximately 48 people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-288" offset="1146" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-294" offset="395" length="26">
+        <text>Verde Valley Fire District</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-300" offset="639" length="4">
+        <text>VVFD</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-306" offset="726" length="4">
+        <text>JREF</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-312" offset="303" length="27">
+        <text>Angel Valley Retreat Center</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-318" offset="1573" length="9">
+        <text>the state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-324" offset="1586" length="7">
+        <text>Arizona</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-330" offset="369" length="6">
+        <text>Sedona</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-336" offset="344" length="16">
+        <text>Forest Road 525B</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-342" offset="380" length="12">
+        <text>Page Springs</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-348" offset="984" length="17">
+        <text>the sweat 'lodge'</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-354" offset="1776" length="9">
+        <text>the lodge</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-360" offset="1731" length="17">
+        <text>too small a space</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-366" offset="523" length="11">
+        <text>sweat lodge</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-372" offset="277" length="13">
+        <text>a sweat lodge</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-766" offset="751" length="6">
+        <text>No one</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-775" offset="1870" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-794" offset="395" length="12">
+        <text>Verde Valley</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-378">
+        <trigger offset="331" length="7">located</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-388">
+        <trigger offset="361" length="7">between</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-398">
+        <trigger offset="361" length="7">between</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-408">
+        <trigger offset="422" length="9">personnel</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-418">
+        <trigger offset="520" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no"/>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-428">
+        <trigger offset="979" length="4">into</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-438">
+        <trigger offset="1719" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-448">
+        <trigger offset="520" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no"/>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-784">
+        <trigger offset="300" length="2">at</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-803">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-813">
+        <trigger offset="979" length="4">into</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1024">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1034">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1044">
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no"/>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1054">
+        <trigger offset="1568" length="4">left</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-472">
+        <trigger offset="828" length="4">died</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-493">
+        <trigger offset="244" length="4">died</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-980">
+        <trigger offset="2139" length="8">homicide</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-246" offset="1936" length="4">Epok</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-514">
+        <trigger offset="833" length="4">paid</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-535">
+        <trigger offset="1050" length="18">critical condition</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-556">
+        <trigger offset="979" length="4">into</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-577">
+        <trigger offset="1719" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-598">
+        <trigger offset="1020" length="3">ill</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-619">
+        <trigger offset="863" length="6">attend</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-126" offset="14" length="9">roseglass</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-640">
+        <trigger offset="1568" length="4">left</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1384" length="13">MattusMaximus</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-661">
+        <trigger offset="476" length="5">found</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-832">
+        <trigger offset="437" length="9">called to</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-867">
+        <trigger offset="774" length="6">posted</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-897">
+        <trigger offset="1094" length="4">post</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-950">
+        <trigger offset="2019" length="8">question</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1001">
+        <trigger offset="2139" length="8">homicide</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-246" offset="1936" length="4">Epok</source>
+          </sentiment>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

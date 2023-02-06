@@ -1,0 +1,1435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-5693faa50000000000000038">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-573">
+        <trigger offset="2866" length="2">my</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-630">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-81" offset="14" length="7">rosachs</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-895">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-81" offset="14" length="7">rosachs</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-691">
+        <trigger offset="737" length="7">clients</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-81" offset="14" length="7">rosachs</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1452">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-81" offset="14" length="7">rosachs</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1468">
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-81" offset="14" length="7">rosachs</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1539">
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-81" offset="14" length="7">rosachs</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1632">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-81" offset="14" length="7">rosachs</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-593">
+        <trigger offset="1295" length="6">Talked</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-159" offset="1239" length="13">windchimeman1</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-411" offset="1305" length="5">
+            <text>Fedex</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-159" offset="1239" length="13">windchimeman1</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-618" offset="1317" length="12">
+            <text>this morning</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-159" offset="1239" length="13">windchimeman1</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-710">
+        <trigger offset="125" length="8">Delivery</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-81" offset="14" length="7">rosachs</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1443" offset="98" length="12">
+            <text>FedEx Ground</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-81" offset="14" length="7">rosachs</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-733">
+        <trigger offset="502" length="8">Delivery</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-81" offset="14" length="7">rosachs</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1478" offset="490" length="6">
+            <text>Ground</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-81" offset="14" length="7">rosachs</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-798">
+        <trigger offset="621" length="7">deliver</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-81" offset="14" length="7">rosachs</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1517" offset="609" length="6">
+            <text>Ground</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-81" offset="14" length="7">rosachs</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-754">
+        <trigger offset="530" length="8">delivers</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-81" offset="14" length="7">rosachs</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1484" offset="522" length="7">
+            <text>Express</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-81" offset="14" length="7">rosachs</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-905">
+        <trigger offset="1386" length="7">deliver</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-159" offset="1239" length="13">windchimeman1</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-417" offset="1372" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-159" offset="1239" length="13">windchimeman1</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-932" offset="1398" length="7">
+            <text>package</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-159" offset="1239" length="13">windchimeman1</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-561" offset="1409" length="17">
+            <text>the wrong address</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-159" offset="1239" length="13">windchimeman1</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-944">
+        <trigger offset="1527" length="9">delivered</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-159" offset="1239" length="13">windchimeman1</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-969" offset="1472" length="7">
+            <text>package</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-159" offset="1239" length="13">windchimeman1</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-972">
+        <trigger offset="1575" length="7">shipped</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-159" offset="1239" length="13">windchimeman1</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-423" offset="1587" length="5">
+            <text>Fedex</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-159" offset="1239" length="13">windchimeman1</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-997" offset="1559" length="15">
+            <text>another package</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-159" offset="1239" length="13">windchimeman1</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1002">
+        <trigger offset="1716" length="8">Delivers</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-159" offset="1239" length="13">windchimeman1</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-207" offset="1624" length="9">
+            <text>Tom Hanks</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-159" offset="1239" length="13">windchimeman1</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1036" offset="1728" length="7">
+            <text>Tuesday</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-159" offset="1239" length="13">windchimeman1</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1039">
+        <trigger offset="1754" length="7">deliver</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-159" offset="1239" length="13">windchimeman1</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-435" offset="1737" length="4">
+            <text>They</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-159" offset="1239" length="13">windchimeman1</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1071">
+        <trigger offset="1999" length="4">Sent</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-507" offset="2031" length="10">
+            <text>Washington</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1096" offset="2004" length="23">
+            <text>a couple of glass items</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1101">
+        <trigger offset="1999" length="4">Sent</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-513" offset="2046" length="10">
+            <text>California</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1126" offset="2004" length="23">
+            <text>a couple of glass items</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1131">
+        <trigger offset="2080" length="7">arrived</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-1148" offset="2075" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1154">
+        <trigger offset="2195" length="8">received</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-1171" offset="2210" length="5">
+            <text>items</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1177">
+        <trigger offset="2269" length="8">delivery</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-1194" offset="2264" length="4">
+            <text>item</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1200">
+        <trigger offset="2331" length="8">shipping</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-519" offset="2355" length="10">
+            <text>California</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1227" offset="2370" length="16">
+            <text>8 cups/8 saucers</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1230">
+        <trigger offset="2401" length="4">ship</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-255" offset="2395" length="2">
+            <text>me</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1253">
+        <trigger offset="2423" length="4">paid</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-321" offset="2419" length="3">
+            <text>she</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1361">
+        <trigger offset="3210" length="5">loses</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-327" offset="2907" length="13">splakdaddy420</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1346" offset="3199" length="10">
+            <text>a neighbor</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-327" offset="2907" length="13">splakdaddy420</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1399">
+        <trigger offset="3248" length="4">lose</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-327" offset="2907" length="13">splakdaddy420</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1384" offset="3244" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-327" offset="2907" length="13">splakdaddy420</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1561">
+        <trigger offset="502" length="8">Delivery</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-81" offset="14" length="7">rosachs</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1549" offset="497" length="4">
+            <text>Home</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-81" offset="14" length="7">rosachs</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1584">
+        <trigger offset="621" length="7">deliver</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-81" offset="14" length="7">rosachs</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1555" offset="616" length="4">
+            <text>Home</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-81" offset="14" length="7">rosachs</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1605">
+        <trigger offset="125" length="8">Delivery</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-81" offset="14" length="7">rosachs</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1626" offset="114" length="10">
+            <text>FedEx Home</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-81" offset="14" length="7">rosachs</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-81" offset="14" length="7">
+        <text>rosachs</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-87" offset="477" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-93" offset="734" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-99" offset="786" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-105" offset="1131" length="17">
+        <text>Trading Assistant</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-111" offset="1120" length="3">
+        <text>Bob</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-117" offset="64" length="4">
+        <text>Clay</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-123" offset="74" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-129" offset="149" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-135" offset="170" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-141" offset="432" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-147" offset="898" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-153" offset="1055" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-159" offset="1239" length="13">
+        <text>windchimeman1</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-165" offset="1452" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-171" offset="1539" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-177" offset="1546" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-183" offset="1616" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-189" offset="1667" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-195" offset="1705" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-201" offset="1776" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-207" offset="1624" length="9">
+        <text>Tom Hanks</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-213" offset="1712" length="3">
+        <text>Tom</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-219" offset="1634" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-225" offset="1874" length="9">
+        <text>debbiet22</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-231" offset="1926" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-237" offset="2101" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-243" offset="2150" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-249" offset="2298" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-255" offset="2395" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-261" offset="2479" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-267" offset="2599" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-273" offset="2624" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-279" offset="2718" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-285" offset="2814" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-291" offset="2866" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-297" offset="2177" length="8">
+        <text>2 people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-303" offset="2204" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-309" offset="2236" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-315" offset="2309" length="6">
+        <text>a lady</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-321" offset="2419" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-327" offset="2907" length="13">
+        <text>splakdaddy420</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-333" offset="3262" length="13">
+        <text>Ronald Reagan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-339" offset="727" length="36">
+        <text>All of my clients that were not home</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-345" offset="98" length="5">
+        <text>FedEx</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-351" offset="114" length="5">
+        <text>FedEx</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-357" offset="190" length="5">
+        <text>FedEx</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-363" offset="309" length="5">
+        <text>FedEx</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-369" offset="339" length="11">
+        <text>The company</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-375" offset="446" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-381" offset="995" length="5">
+        <text>FedEx</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-411" offset="1305" length="5">
+        <text>Fedex</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-417" offset="1372" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-423" offset="1587" length="5">
+        <text>Fedex</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-159" offset="1239" length="13">windchimeman1</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-429" offset="1594" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-159" offset="1239" length="13">windchimeman1</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-435" offset="1737" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-441" offset="1784" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-447" offset="2664" length="6">
+        <text>Fed Ex</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-453" offset="3087" length="5">
+        <text>fedex</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-459" offset="650" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-465" offset="721" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1301" offset="2691" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-471" offset="1935" length="4">
+        <text>USPS</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-477" offset="2806" length="4">
+        <text>USPS</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-483" offset="2992" length="4">
+        <text>usps</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-489" offset="2627" length="3">
+        <text>UPS</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-495" offset="3038" length="3">
+        <text>ups</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-501" offset="2963" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-327" offset="2907" length="13">splakdaddy420</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1307" offset="2977" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no">
+            <source ere_id="m-327" offset="2907" length="13">splakdaddy420</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-507" offset="2031" length="10">
+        <text>Washington</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-513" offset="2046" length="10">
+        <text>California</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-519" offset="2355" length="10">
+        <text>California</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-525" offset="2509" length="10">
+        <text>California</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-531" offset="2764" length="5">
+        <text>Japan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-537" offset="2792" length="6">
+        <text>states</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-543" offset="1444" length="5">
+        <text>14855</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-549" offset="2866" length="7">
+        <text>my home</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-555" offset="1644" length="17">
+        <text>a deserted island</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-561" offset="1409" length="17">
+        <text>the wrong address</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-567" offset="1427" length="5">
+        <text>14835</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-387" offset="1024" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-393" offset="1034" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-399" offset="1074" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-405" offset="1095" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-621" offset="190" length="22">
+        <text>FedEx Customer Service</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-889" offset="995" length="8">
+        <text>FedEx CS</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-640" offset="214" length="19">
+        <text>Ground/Home drivers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-649" offset="266" length="9">
+        <text>customers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-667" offset="394" length="8">
+        <text>customer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-658" offset="299" length="8">
+        <text>a driver</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-673" offset="709" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-682" offset="734" length="10">
+        <text>my clients</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-701" offset="759" length="4">
+        <text>home</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-874" offset="914" length="20">
+        <text>an overworked driver</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-880" offset="938" length="38">
+        <text>one who's not fully "with the program"</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1062" offset="1749" length="4">
+        <text>home</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1283" offset="2534" length="6">
+        <text>nobody</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1292" offset="2555" length="21">
+        <text>more crappy customers</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-225" offset="1874" length="9">debbiet22</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1313" offset="3007" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1340" offset="3132" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1322" offset="3070" length="10">
+        <text>the buyers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1331" offset="3110" length="18">
+        <text>the house nextdoor</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1346" offset="3199" length="10">
+        <text>a neighbor</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1355" offset="3216" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1384" offset="3244" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1393" offset="3253" length="5">
+        <text>yours</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1443" offset="98" length="12">
+        <text>FedEx Ground</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1462" offset="214" length="6">
+        <text>Ground</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1478" offset="490" length="6">
+        <text>Ground</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1517" offset="609" length="6">
+        <text>Ground</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1484" offset="522" length="7">
+        <text>Express</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1530" offset="221" length="4">
+        <text>Home</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1549" offset="497" length="4">
+        <text>Home</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1555" offset="616" length="4">
+        <text>Home</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1626" offset="114" length="10">
+        <text>FedEx Home</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-573">
+        <trigger offset="2866" length="2">my</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-630">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-895">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-691">
+        <trigger offset="737" length="7">clients</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1452">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1468">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1539">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1632">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-593">
+        <trigger offset="1295" length="6">Talked</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-710">
+        <trigger offset="125" length="8">Delivery</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-733">
+        <trigger offset="502" length="8">Delivery</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-798">
+        <trigger offset="621" length="7">deliver</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-754">
+        <trigger offset="530" length="8">delivers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-905">
+        <trigger offset="1386" length="7">deliver</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-944">
+        <trigger offset="1527" length="9">delivered</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-972">
+        <trigger offset="1575" length="7">shipped</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-159" offset="1239" length="13">windchimeman1</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1002">
+        <trigger offset="1716" length="8">Delivers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1039">
+        <trigger offset="1754" length="7">deliver</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1071">
+        <trigger offset="1999" length="4">Sent</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1101">
+        <trigger offset="1999" length="4">Sent</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1131">
+        <trigger offset="2080" length="7">arrived</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1154">
+        <trigger offset="2195" length="8">received</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1177">
+        <trigger offset="2269" length="8">delivery</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1200">
+        <trigger offset="2331" length="8">shipping</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1230">
+        <trigger offset="2401" length="4">ship</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1253">
+        <trigger offset="2423" length="4">paid</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1361">
+        <trigger offset="3210" length="5">loses</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1399">
+        <trigger offset="3248" length="4">lose</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1561">
+        <trigger offset="502" length="8">Delivery</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1584">
+        <trigger offset="621" length="7">deliver</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1605">
+        <trigger offset="125" length="8">Delivery</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

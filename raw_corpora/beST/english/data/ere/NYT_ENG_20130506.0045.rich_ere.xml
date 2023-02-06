@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="551c4a4a0000000000000001" doc_id="NYT_ENG_20130506.0045" source_type="newswire">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-41" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="172" length="17">
+        <mention_text>TAMERLAN TSARNAEV</mention_text>
+      </entity_mention>
+      <entity_mention id="m-56" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="275" length="17">
+        <mention_text>Tamerlan Tsarnaev</mention_text>
+      </entity_mention>
+      <entity_mention id="m-62" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="294" length="55">
+        <mention_text>one of the two suspects in the Boston Marathon bombings</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="309" length="8">suspects</nom_head>
+      </entity_mention>
+      <entity_mention id="m-194" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="819" length="8">
+        <mention_text>Tsarnaev</mention_text>
+      </entity_mention>
+      <entity_mention id="m-281" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="1164" length="14">
+        <mention_text>that terrorist</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="1169" length="9">terrorist</nom_head>
+      </entity_mention>
+      <entity_mention id="m-296" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="1272" length="8">
+        <mention_text>Tsarnaev</mention_text>
+      </entity_mention>
+      <entity_mention id="m-311" noun_type="PRO" source="NYT_ENG_20130506.0045" offset="1291" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-341" noun_type="PRO" source="NYT_ENG_20130506.0045" offset="1443" length="3">
+        <mention_text>His</mention_text>
+      </entity_mention>
+      <entity_mention id="m-691" noun_type="PRO" source="NYT_ENG_20130506.0045" offset="1282" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-53" type="GPE" specificity="specific">
+      <entity_mention id="m-47" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="251" length="6">
+        <mention_text>BOSTON</mention_text>
+      </entity_mention>
+      <entity_mention id="m-68" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="325" length="6">
+        <mention_text>Boston</mention_text>
+      </entity_mention>
+      <entity_mention id="m-362" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="1580" length="6">
+        <mention_text>Boston</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-80" type="GPE" specificity="specific">
+      <entity_mention id="m-74" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="360" length="9">
+        <mention_text>Worcester</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-89" type="GPE" specificity="specific">
+      <entity_mention id="m-83" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="371" length="4">
+        <mention_text>Mass</mention_text>
+      </entity_mention>
+      <entity_mention id="m-110" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="474" length="9">
+        <mention_text>the state</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="478" length="5">state</nom_head>
+      </entity_mention>
+      <entity_mention id="m-116" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="566" length="7">
+        <mention_text>a state</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="568" length="5">state</nom_head>
+      </entity_mention>
+      <entity_mention id="m-152" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="655" length="4">
+        <mention_text>Mass</mention_text>
+      </entity_mention>
+      <entity_mention id="m-200" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="840" length="13">
+        <mention_text>Massachusetts</mention_text>
+      </entity_mention>
+      <entity_mention id="m-275" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="1138" length="13">
+        <mention_text>Massachusetts</mention_text>
+      </entity_mention>
+      <entity_mention id="m-497" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="2310" length="13">
+        <mention_text>Massachusetts</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-98" type="PER" specificity="specific">
+      <entity_mention id="m-92" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="414" length="13">
+        <mention_text>Deval Patrick</mention_text>
+      </entity_mention>
+      <entity_mention id="m-128" noun_type="PRO" source="NYT_ENG_20130506.0045" offset="621" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-164" noun_type="PRO" source="NYT_ENG_20130506.0045" offset="695" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-176" noun_type="PRO" source="NYT_ENG_20130506.0045" offset="736" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-182" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="762" length="7">
+        <mention_text>Patrick</mention_text>
+      </entity_mention>
+      <entity_mention id="m-188" noun_type="PRO" source="NYT_ENG_20130506.0045" offset="803" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-107" type="PER" specificity="specific">
+      <entity_mention id="m-101" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="458" length="10">
+        <mention_text>the family</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="462" length="6">family</nom_head>
+      </entity_mention>
+      <entity_mention id="m-122" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="600" length="10">
+        <mention_text>the family</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="604" length="6">family</nom_head>
+      </entity_mention>
+      <entity_mention id="m-158" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="666" length="10">
+        <mention_text>the family</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="670" length="6">family</nom_head>
+      </entity_mention>
+      <entity_mention id="m-170" noun_type="PRO" source="NYT_ENG_20130506.0045" offset="704" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-401" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="1811" length="10">
+        <mention_text>the family</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="1815" length="6">family</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-134" type="PER" specificity="specific">
+      <entity_mention id="m-137" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="629" length="9">
+        <mention_text>reporters</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="629" length="9">reporters</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-149" type="GPE" specificity="specific">
+      <entity_mention id="m-143" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="642" length="11">
+        <mention_text>New Bedford</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-212" type="PER" specificity="specific">
+      <entity_mention id="m-206" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="864" length="16">
+        <mention_text>Edward J. Markey</mention_text>
+      </entity_mention>
+      <entity_mention id="m-239" noun_type="PRO" source="NYT_ENG_20130506.0045" offset="991" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-245" noun_type="PRO" source="NYT_ENG_20130506.0045" offset="1032" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-260" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="1103" length="6">
+        <mention_text>Markey</mention_text>
+      </entity_mention>
+      <entity_mention id="m-608" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="882" length="102">
+        <mention_text>the Democratic candidate for the Senate seat that John Kerry vacated when he became secretary of state</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="897" length="9">candidate</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-221" type="ORG" specificity="specific">
+      <entity_mention id="m-215" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="915" length="6">
+        <mention_text>Senate</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-230" type="PER" specificity="specific">
+      <entity_mention id="m-224" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="932" length="10">
+        <mention_text>John Kerry</mention_text>
+      </entity_mention>
+      <entity_mention id="m-233" noun_type="PRO" source="NYT_ENG_20130506.0045" offset="956" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-257" type="ORG" specificity="specific">
+      <entity_mention id="m-251" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="1078" length="22">
+        <mention_text>the federal government</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="1090" length="10">government</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-272" type="PER" specificity="specific">
+      <entity_mention id="m-266" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="1124" length="27">
+        <mention_text>the people of Massachusetts</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="1128" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-293" type="GPE" specificity="specific">
+      <entity_mention id="m-287" noun_type="PRO" source="NYT_ENG_20130506.0045" offset="1195" length="3">
+        <mention_text>our</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-308" type="PER" specificity="specific">
+      <entity_mention id="m-302" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="1291" length="19">
+        <mention_text>his younger brother</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="1303" length="7">brother</nom_head>
+      </entity_mention>
+      <entity_mention id="m-335" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="1443" length="11">
+        <mention_text>His brother</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="1447" length="7">brother</nom_head>
+      </entity_mention>
+      <entity_mention id="m-347" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="1456" length="17">
+        <mention_text>Dzhokhar Tsarnaev</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-323" type="PER" specificity="specific">
+      <entity_mention id="m-317" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="1384" length="12">
+        <mention_text>three people</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="1390" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-332" type="PER" specificity="specific">
+      <entity_mention id="m-326" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="1409" length="20">
+        <mention_text>more than 260 others</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="1423" length="6">others</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-359" type="FAC" specificity="specific">
+      <entity_mention id="m-353" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="1535" length="51">
+        <mention_text>a federal medical detention facility outside Boston</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="1563" length="8">facility</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-374" type="PER" specificity="specific">
+      <entity_mention id="m-368" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="1597" length="17">
+        <mention_text>Federal officials</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="1605" length="9">officials</nom_head>
+      </entity_mention>
+      <entity_mention id="m-377" noun_type="PRO" source="NYT_ENG_20130506.0045" offset="1620" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-389" type="PER" specificity="specific">
+      <entity_mention id="m-383" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="1704" length="15">
+        <mention_text>An FBI official</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="1711" length="8">official</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-398" type="ORG" specificity="specific">
+      <entity_mention id="m-392" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="1707" length="3">
+        <mention_text>FBI</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-413" type="PER" specificity="specific">
+      <entity_mention id="m-407" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="1826" length="21">
+        <mention_text>the local authorities</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="1836" length="11">authorities</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-422" type="PER" specificity="specific">
+      <entity_mention id="m-464" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="2202" length="39">
+        <mention_text>lawyers for the defense and prosecution</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="2202" length="7">lawyers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-431" type="PER" specificity="specific">
+      <entity_mention id="m-416" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="1886" length="55">
+        <mention_text>one of three men facing charges related to the bombings</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="1886" length="3">one</nom_head>
+      </entity_mention>
+      <entity_mention id="m-425" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="2027" length="18">
+        <mention_text>Robel K. Phillipos</mention_text>
+      </entity_mention>
+      <entity_mention id="m-452" noun_type="PRO" source="NYT_ENG_20130506.0045" offset="2130" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-458" noun_type="PRO" source="NYT_ENG_20130506.0045" offset="2157" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-503" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="2335" length="9">
+        <mention_text>Phillipos</mention_text>
+      </entity_mention>
+      <entity_mention id="m-509" noun_type="PRO" source="NYT_ENG_20130506.0045" offset="2389" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-524" noun_type="PRO" source="NYT_ENG_20130506.0045" offset="2541" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-766" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="2047" length="65">
+        <mention_text>a former college student who is accused of lying to investigators</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="2064" length="7">student</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-440" type="PER" specificity="specific">
+      <entity_mention id="m-434" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="2099" length="13">
+        <mention_text>investigators</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="2099" length="13">investigators</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-449" type="PER" specificity="specific">
+      <entity_mention id="m-443" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="2130" length="10">
+        <mention_text>his mother</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="2134" length="6">mother</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-476" type="PER" specificity="specific">
+      <entity_mention id="m-470" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="2265" length="18">
+        <mention_text>Marianne B. Bowler</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-485" type="ORG" specificity="specific">
+      <entity_mention id="m-479" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="2287" length="19">
+        <mention_text>U.S. District Court</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-494" type="GPE" specificity="specific">
+      <entity_mention id="m-488" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="2287" length="4">
+        <mention_text>U.S.</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-521" type="PER" specificity="specific">
+      <entity_mention id="m-515" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="2508" length="13">
+        <mention_text>a third party</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="2516" length="5">party</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-536" type="FAC" specificity="specific">
+      <entity_mention id="m-530" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="358" length="32">
+        <mention_text>a Worcester, Mass., funeral home</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="386" length="4">home</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-545" type="PER" specificity="specific">
+      <entity_mention id="m-539" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="301" length="48">
+        <mention_text>the two suspects in the Boston Marathon bombings</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="309" length="8">suspects</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-620" type="ORG" specificity="specific">
+      <entity_mention id="m-614" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="886" length="10">
+        <mention_text>Democratic</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-649" type="ORG" specificity="specific">
+      <entity_mention id="m-643" noun_type="NAM" source="NYT_ENG_20130506.0045" offset="979" length="5">
+        <mention_text>state</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-688" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-682" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="1238" length="11">
+        <mention_text>No cemetery</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="1241" length="8">cemetery</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-763" type="PER" specificity="specific">
+      <entity_mention id="m-757" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="1893" length="48">
+        <mention_text>three men facing charges related to the bombings</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="1899" length="3">men</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-844" type="FAC" specificity="nonspecific">
+      <entity_mention id="m-838" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="2564" length="5">
+        <mention_text>house</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="2564" length="5">house</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1550" noun_type="NOM" source="NYT_ENG_20130506.0045" offset="2403" length="5">
+        <mention_text>house</mention_text>
+        <nom_head source="NYT_ENG_20130506.0045" offset="2403" length="5">house</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-576" source="NYT_ENG_20130506.0045" offset="409" length="4" type="title">Gov.</filler>
+    <filler id="f-606" source="NYT_ENG_20130506.0045" offset="859" length="4" type="title">Rep.</filler>
+    <filler id="f-631" source="NYT_ENG_20130506.0045" offset="966" length="9" type="title">secretary</filler>
+    <filler id="f-725" source="NYT_ENG_20130506.0045" offset="1475" length="2" type="age">19</filler>
+    <filler id="f-806" source="NYT_ENG_20130506.0045" offset="2248" length="16" type="title">Magistrate Judge</filler>
+    <filler id="f-836" source="NYT_ENG_20130506.0045" offset="2346" length="2" type="age">19</filler>
+    <filler id="f-1014" source="NYT_ENG_20130506.0045" offset="433" length="6" type="time" nom_time="2013-05-06">Monday</filler>
+    <filler id="f-1079" source="NYT_ENG_20130506.0045" offset="1433" length="8" type="time" nom_time="2013-04-15">April 15</filler>
+    <filler id="f-1121" source="NYT_ENG_20130506.0045" offset="1433" length="8" type="time" nom_time="2013-04-15">April 15</filler>
+    <filler id="f-1151" source="NYT_ENG_20130506.0045" offset="1433" length="8" type="time" nom_time="2013-04-15">April 15</filler>
+    <filler id="f-1195" source="NYT_ENG_20130506.0045" offset="1501" length="12" type="crime">the bombings</filler>
+    <filler id="f-1225" source="NYT_ENG_20130506.0045" offset="1501" length="12" type="crime">the bombings</filler>
+    <filler id="f-1349" source="NYT_ENG_20130506.0045" offset="2009" length="6" type="time" nom_time="2013-05-06">Monday</filler>
+    <filler id="f-1366" source="NYT_ENG_20130506.0045" offset="2090" length="22" type="crime">lying to investigators</filler>
+    <filler id="f-1394" source="NYT_ENG_20130506.0045" offset="2009" length="6" type="time" nom_time="2013-05-06">Monday</filler>
+    <filler id="f-1422" source="NYT_ENG_20130506.0045" offset="2090" length="22" type="crime">lying to investigators</filler>
+    <filler id="f-1516" source="NYT_ENG_20130506.0045" offset="2353" length="8" type="money">$100,000</filler>
+  </fillers>
+  <relations>
+    <relation id="r-1293" type="physical" subtype="locatednear">
+      <relation_mention id="relm-548" realis="true">
+        <rel_arg1 entity_id="ent-80" entity_mention_id="m-74" role="entity">Worcester</rel_arg1>
+        <rel_arg2 entity_id="ent-89" entity_mention_id="m-83" role="loc">Mass</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1294" type="physical" subtype="locatednear">
+      <relation_mention id="relm-558" realis="true">
+        <rel_arg1 entity_id="ent-536" entity_mention_id="m-530" role="entity">a Worcester, Mass., funeral home</rel_arg1>
+        <rel_arg2 entity_id="ent-80" entity_mention_id="m-74" role="loc">Worcester</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1295" type="personalsocial" subtype="role">
+      <relation_mention id="relm-568" realis="true">
+        <rel_arg1 entity_id="ent-98" entity_mention_id="m-92" role="per">Deval Patrick</rel_arg1>
+        <rel_arg2 filler_id="f-576" role="role">Gov.</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1296" type="personalsocial" subtype="family">
+      <relation_mention id="relm-578" realis="true">
+        <rel_arg1 entity_id="ent-107" entity_mention_id="m-101" role="per">the family</rel_arg1>
+        <rel_arg2 entity_id="ent-8" entity_mention_id="m-62" role="per">one of the two suspects in the Boston Marathon bombings</rel_arg2>
+        <trigger source="NYT_ENG_20130506.0045" offset="462" length="6">family</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1297" type="physical" subtype="locatednear">
+      <relation_mention id="relm-588" realis="true">
+        <rel_arg1 entity_id="ent-149" entity_mention_id="m-143" role="entity">New Bedford</rel_arg1>
+        <rel_arg2 entity_id="ent-89" entity_mention_id="m-152" role="loc">Mass</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1298" type="personalsocial" subtype="role">
+      <relation_mention id="relm-598" realis="true">
+        <rel_arg1 entity_id="ent-212" entity_mention_id="m-206" role="per">Edward J. Markey</rel_arg1>
+        <rel_arg2 filler_id="f-606" role="role">Rep.</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1299" type="personalsocial" subtype="role">
+      <relation_mention id="relm-623" realis="true">
+        <rel_arg1 entity_id="ent-230" entity_mention_id="m-224" role="per">John Kerry</rel_arg1>
+        <rel_arg2 filler_id="f-631" role="role">secretary</rel_arg2>
+        <trigger source="NYT_ENG_20130506.0045" offset="959" length="6">became</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1300" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-652" realis="true">
+        <rel_arg1 entity_id="ent-212" entity_mention_id="m-608" role="employeemember">the Democratic candidate for the Senate seat that John Kerry vacated when he became secretary of state</rel_arg1>
+        <rel_arg2 entity_id="ent-620" entity_mention_id="m-614" role="org">Democratic</rel_arg2>
+        <trigger source="NYT_ENG_20130506.0045" offset="886" length="10">Democratic</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1301" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-662" realis="true">
+        <rel_arg1 entity_id="ent-230" entity_mention_id="m-233" role="employeemember">he</rel_arg1>
+        <rel_arg2 entity_id="ent-649" entity_mention_id="m-643" role="org">state</rel_arg2>
+        <trigger source="NYT_ENG_20130506.0045" offset="966" length="9">secretary</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1302" type="physical" subtype="resident">
+      <relation_mention id="relm-672" realis="true">
+        <rel_arg1 entity_id="ent-272" entity_mention_id="m-266" role="per">the people of Massachusetts</rel_arg1>
+        <rel_arg2 entity_id="ent-89" entity_mention_id="m-275" role="loc">Massachusetts</rel_arg2>
+        <trigger source="NYT_ENG_20130506.0045" offset="1135" length="2">of</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1303" type="personalsocial" subtype="family">
+      <relation_mention id="relm-697" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-311" role="per">his</rel_arg1>
+        <rel_arg2 entity_id="ent-308" entity_mention_id="m-302" role="per">his younger brother</rel_arg2>
+        <trigger source="NYT_ENG_20130506.0045" offset="1303" length="7">brother</trigger>
+      </relation_mention>
+      <relation_mention id="relm-707" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-341" role="per">His</rel_arg1>
+        <rel_arg2 entity_id="ent-308" entity_mention_id="m-335" role="per">His brother</rel_arg2>
+        <trigger source="NYT_ENG_20130506.0045" offset="1447" length="7">brother</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1304" type="generalaffiliation" subtype="personage">
+      <relation_mention id="relm-717" realis="true">
+        <rel_arg1 entity_id="ent-308" entity_mention_id="m-347" role="per">Dzhokhar Tsarnaev</rel_arg1>
+        <rel_arg2 filler_id="f-725" role="age">19</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1305" type="physical" subtype="locatednear">
+      <relation_mention id="relm-727" realis="true">
+        <rel_arg1 entity_id="ent-359" entity_mention_id="m-353" role="entity">a federal medical detention facility outside Boston</rel_arg1>
+        <rel_arg2 entity_id="ent-53" entity_mention_id="m-362" role="loc">Boston</rel_arg2>
+        <trigger source="NYT_ENG_20130506.0045" offset="1572" length="7">outside</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1306" type="physical" subtype="locatednear">
+      <relation_mention id="relm-747" realis="true">
+        <rel_arg1 entity_id="ent-308" entity_mention_id="m-347" role="entity">Dzhokhar Tsarnaev</rel_arg1>
+        <rel_arg2 entity_id="ent-359" entity_mention_id="m-353" role="loc">a federal medical detention facility outside Boston</rel_arg2>
+        <trigger source="NYT_ENG_20130506.0045" offset="1532" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1307" type="personalsocial" subtype="family">
+      <relation_mention id="relm-778" realis="true">
+        <rel_arg1 entity_id="ent-431" entity_mention_id="m-452" role="per">his</rel_arg1>
+        <rel_arg2 entity_id="ent-449" entity_mention_id="m-443" role="per">his mother</rel_arg2>
+        <trigger source="NYT_ENG_20130506.0045" offset="2134" length="6">mother</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1308" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-788" realis="true">
+        <rel_arg1 entity_id="ent-485" entity_mention_id="m-479" role="suborg">U.S. District Court</rel_arg1>
+        <rel_arg2 entity_id="ent-494" entity_mention_id="m-488" role="parent">U.S.</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1309" type="personalsocial" subtype="role">
+      <relation_mention id="relm-798" realis="true">
+        <rel_arg1 entity_id="ent-476" entity_mention_id="m-470" role="per">Marianne B. Bowler</rel_arg1>
+        <rel_arg2 filler_id="f-806" role="role">Magistrate Judge</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1310" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-808" realis="true">
+        <rel_arg1 entity_id="ent-476" entity_mention_id="m-470" role="employeemember">Marianne B. Bowler</rel_arg1>
+        <rel_arg2 entity_id="ent-485" entity_mention_id="m-479" role="org">U.S. District Court</rel_arg2>
+        <trigger source="NYT_ENG_20130506.0045" offset="2284" length="2">of</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1311" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-818" realis="true">
+        <rel_arg1 entity_id="ent-485" entity_mention_id="m-479" role="org">U.S. District Court</rel_arg1>
+        <rel_arg2 entity_id="ent-89" entity_mention_id="m-497" role="loc">Massachusetts</rel_arg2>
+        <trigger source="NYT_ENG_20130506.0045" offset="2307" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1312" type="generalaffiliation" subtype="personage">
+      <relation_mention id="relm-828" realis="true">
+        <rel_arg1 entity_id="ent-431" entity_mention_id="m-503" role="per">Phillipos</rel_arg1>
+        <rel_arg2 filler_id="f-836" role="age">19</rel_arg2>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-39">
+      <event_mention id="em-940" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20130506.0045" offset="341" length="8">bombings</trigger>
+        <em_arg entity_id="ent-53" entity_mention_id="m-68" role="place" realis="true">Boston</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-62" role="attacker" realis="true">one of the two suspects in the Boston Marathon bombings</em_arg>
+        <em_arg entity_id="ent-545" entity_mention_id="m-539" role="attacker" realis="true">the two suspects in the Boston Marathon bombings</em_arg>
+      </event_mention>
+      <event_mention id="em-1047" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20130506.0045" offset="1361" length="8">bombings</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-311" role="attacker" realis="true">his</em_arg>
+        <em_arg entity_id="ent-308" entity_mention_id="m-302" role="attacker" realis="true">his younger brother</em_arg>
+        <em_arg filler_id="f-1079" role="time" realis="true">April 15</em_arg>
+      </event_mention>
+      <event_mention id="em-1237" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20130506.0045" offset="1505" length="8">bombings</trigger>
+        <em_arg entity_id="ent-308" entity_mention_id="m-347" role="attacker" realis="true">Dzhokhar Tsarnaev</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-341" role="attacker" realis="true">His</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-917">
+      <event_mention id="em-975" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="canttell" medium="inperson" schedule="canttell">
+        <trigger source="NYT_ENG_20130506.0045" offset="624" length="4">told</trigger>
+        <em_arg entity_id="ent-98" entity_mention_id="m-128" role="entity" realis="true">he</em_arg>
+        <em_arg entity_id="ent-134" entity_mention_id="m-137" role="audience" realis="true">reporters</em_arg>
+        <em_arg entity_id="ent-149" entity_mention_id="m-143" role="place" realis="true">New Bedford</em_arg>
+        <em_arg filler_id="f-1014" role="time" realis="true">Monday</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1045">
+      <event_mention id="em-1017" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130506.0045" offset="943" length="7">vacated</trigger>
+        <em_arg entity_id="ent-230" entity_mention_id="m-224" role="person" realis="true">John Kerry</em_arg>
+        <em_arg entity_id="ent-221" entity_mention_id="m-215" role="entity" realis="true">Senate</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1124">
+      <event_mention id="em-1082" type="life" subtype="die" realis="actual">
+        <trigger source="NYT_ENG_20130506.0045" offset="1377" length="6">killed</trigger>
+        <em_arg entity_id="ent-323" entity_mention_id="m-317" role="victim" realis="true">three people</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-311" role="agent" realis="true">his</em_arg>
+        <em_arg entity_id="ent-308" entity_mention_id="m-302" role="agent" realis="true">his younger brother</em_arg>
+        <em_arg filler_id="f-1121" role="time" realis="true">April 15</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1168">
+      <event_mention id="em-1126" type="life" subtype="injure" realis="actual">
+        <trigger source="NYT_ENG_20130506.0045" offset="1401" length="7">injured</trigger>
+        <em_arg entity_id="ent-332" entity_mention_id="m-326" role="victim" realis="true">more than 260 others</em_arg>
+        <em_arg filler_id="f-1151" role="time" realis="true">April 15</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-311" role="agent" realis="true">his</em_arg>
+        <em_arg entity_id="ent-308" entity_mention_id="m-302" role="agent" realis="true">his younger brother</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1198">
+      <event_mention id="em-1170" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20130506.0045" offset="1488" length="7">charged</trigger>
+        <em_arg entity_id="ent-308" entity_mention_id="m-347" role="defendant" realis="true">Dzhokhar Tsarnaev</em_arg>
+        <em_arg filler_id="f-1195" role="crime" realis="true">the bombings</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1235">
+      <event_mention id="em-1200" type="justice" subtype="arrestjail" realis="actual">
+        <trigger source="NYT_ENG_20130506.0045" offset="1527" length="4">held</trigger>
+        <em_arg entity_id="ent-308" entity_mention_id="m-347" role="person" realis="true">Dzhokhar Tsarnaev</em_arg>
+        <em_arg filler_id="f-1225" role="crime" realis="true">the bombings</em_arg>
+        <em_arg entity_id="ent-359" entity_mention_id="m-353" role="place" realis="true">a federal medical detention facility outside Boston</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1286">
+      <event_mention id="em-1265" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20130506.0045" offset="1910" length="7">charges</trigger>
+        <em_arg entity_id="ent-763" entity_mention_id="m-757" role="defendant" realis="true">three men facing charges related to the bombings</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1330">
+      <event_mention id="em-1309" type="justice" subtype="releaseparole" realis="actual">
+        <trigger source="NYT_ENG_20130506.0045" offset="1946" length="8">released</trigger>
+        <em_arg entity_id="ent-431" entity_mention_id="m-416" role="person" realis="true">one of three men facing charges related to the bombings</em_arg>
+      </event_mention>
+      <event_mention id="em-1369" type="justice" subtype="releaseparole" realis="actual">
+        <trigger source="NYT_ENG_20130506.0045" offset="2118" length="8">released</trigger>
+        <em_arg entity_id="ent-431" entity_mention_id="m-425" role="person" realis="true">Robel K. Phillipos</em_arg>
+        <em_arg filler_id="f-1394" role="time" realis="true">Monday</em_arg>
+      </event_mention>
+      <event_mention id="em-1464" type="justice" subtype="releaseparole" realis="other">
+        <trigger source="NYT_ENG_20130506.0045" offset="2327" length="7">release</trigger>
+        <em_arg entity_id="ent-476" entity_mention_id="m-470" role="agent" realis="true">Marianne B. Bowler</em_arg>
+        <em_arg entity_id="ent-431" entity_mention_id="m-503" role="person" realis="true">Phillipos</em_arg>
+        <em_arg entity_id="ent-89" entity_mention_id="m-497" role="place" realis="true">Massachusetts</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1353">
+      <event_mention id="em-1332" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="NYT_ENG_20130506.0045" offset="2001" length="7">hearing</trigger>
+        <em_arg filler_id="f-1349" role="time" realis="true">Monday</em_arg>
+        <em_arg entity_id="ent-431" entity_mention_id="m-425" role="defendant" realis="true">Robel K. Phillipos</em_arg>
+        <em_arg filler_id="f-1366" role="crime" realis="true">lying to investigators</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1425">
+      <event_mention id="em-1397" type="justice" subtype="trialhearing" realis="other">
+        <trigger source="NYT_ENG_20130506.0045" offset="2167" length="5">trial</trigger>
+        <em_arg entity_id="ent-431" entity_mention_id="m-458" role="defendant" realis="true">he</em_arg>
+        <em_arg filler_id="f-1422" role="crime" realis="true">lying to investigators</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1462">
+      <event_mention id="em-1427" type="contact" subtype="contact" realis="actual" audience="twoway" formality="formal" medium="canttell" schedule="planned">
+        <trigger source="NYT_ENG_20130506.0045" offset="2242" length="5">asked</trigger>
+        <em_arg entity_id="ent-422" entity_mention_id="m-464" role="entity" realis="true">lawyers for the defense and prosecution</em_arg>
+        <em_arg entity_id="ent-476" entity_mention_id="m-470" role="entity" realis="true">Marianne B. Bowler</em_arg>
+        <em_arg entity_id="ent-89" entity_mention_id="m-497" role="place" realis="true">Massachusetts</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1527">
+      <event_mention id="em-1499" type="transaction" subtype="transfermoney" realis="other" ways="voluntary">
+        <trigger source="NYT_ENG_20130506.0045" offset="2362" length="4">bail</trigger>
+        <em_arg filler_id="f-1516" role="money" realis="true">$100,000</em_arg>
+        <em_arg entity_id="ent-431" entity_mention_id="m-503" role="beneficiary" realis="true">Phillipos</em_arg>
+      </event_mention>
+      <event_mention id="em-1565" type="transaction" subtype="transaction" realis="other" ways="voluntary">
+        <trigger source="NYT_ENG_20130506.0045" offset="2458" length="4">Bail</trigger>
+        <em_arg entity_id="ent-521" entity_mention_id="m-515" role="giver" realis="true">a third party</em_arg>
+        <em_arg entity_id="ent-431" entity_mention_id="m-524" role="beneficiary" realis="true">he</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1563">
+      <event_mention id="em-1529" type="justice" subtype="arrestjail" realis="other">
+        <trigger source="NYT_ENG_20130506.0045" offset="2409" length="6">arrest</trigger>
+        <em_arg entity_id="ent-431" entity_mention_id="m-509" role="person" realis="true">he</em_arg>
+        <em_arg entity_id="ent-844" entity_mention_id="m-1550" role="place" realis="true">house</em_arg>
+      </event_mention>
+      <event_mention id="em-1600" type="justice" subtype="arrestjail" realis="other">
+        <trigger source="NYT_ENG_20130506.0045" offset="2570" length="6">arrest</trigger>
+        <em_arg entity_id="ent-431" entity_mention_id="m-524" role="person" realis="true">he</em_arg>
+        <em_arg entity_id="ent-844" entity_mention_id="m-838" role="place" realis="true">house</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1663">
+      <event_mention id="em-1628" type="personnel" subtype="startposition" realis="actual">
+        <trigger source="NYT_ENG_20130506.0045" offset="959" length="6">became</trigger>
+        <em_arg entity_id="ent-230" entity_mention_id="m-233" role="person" realis="true">he</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

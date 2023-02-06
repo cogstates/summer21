@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56fc405c0000000000000074">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-220">
+        <trigger offset="298" length="10">Sri Lankan</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="14">Martin Timothy</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-230">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="14">Martin Timothy</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-240">
+        <trigger offset="1346" length="2">at</trigger>
+        <beliefs>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="14">Martin Timothy</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-250">
+        <trigger offset="1602" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-118" offset="1504" length="14">strollingbones</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-260">
+        <trigger offset="1649" length="2">at</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-118" offset="1504" length="14">strollingbones</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-309">
+        <trigger offset="1402" length="2">in</trigger>
+        <beliefs>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="14">Martin Timothy</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-325">
+        <trigger offset="276" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="14">Martin Timothy</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-335">
+        <trigger offset="374" length="6">during</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="14">Martin Timothy</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-480">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-118" offset="1504" length="14">strollingbones</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-345">
+        <trigger offset="269" length="6">attack</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="14">Martin Timothy</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-37" offset="298" length="23">
+            <text>Sri Lankan Cricket Team</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="14">Martin Timothy</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-19" offset="279" length="6">
+            <text>Lahore</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="14">Martin Timothy</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-377" offset="325" length="13">
+            <text>February 2009</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="14">Martin Timothy</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-380">
+        <trigger offset="392" length="7">attacks</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="14">Martin Timothy</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-46" offset="385" length="6">
+            <text>Mumbai</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="14">Martin Timothy</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-405" offset="400" length="13">
+            <text>November 2008</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="14">Martin Timothy</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-416">
+        <trigger offset="1211" length="9">attackers</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="14">Martin Timothy</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-73" offset="1204" length="6">
+            <text>Mumbai</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="14">Martin Timothy</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-79" offset="1200" length="20">
+            <text>the Mumbai attackers</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="14">Martin Timothy</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-450">
+        <trigger offset="1325" length="9">attackers</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="14">Martin Timothy</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-444" offset="1321" length="13">
+            <text>the attackers</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="14">Martin Timothy</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-13" offset="14" length="14">
+        <text>Martin Timothy</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-19" offset="279" length="6">
+        <text>Lahore</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-28" offset="298" length="10">
+        <text>Sri Lankan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-37" offset="298" length="23">
+        <text>Sri Lankan Cricket Team</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-46" offset="385" length="6">
+        <text>Mumbai</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-73" offset="1204" length="6">
+        <text>Mumbai</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-112" offset="1405" length="6">
+        <text>Mumbai</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-136" offset="1605" length="6">
+        <text>mumbai</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-157" offset="1652" length="6">
+        <text>mumbai</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-55" offset="415" length="23">
+        <text>the same two terrorists</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="14">Martin Timothy</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-79" offset="1200" length="20">
+        <text>the Mumbai attackers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-444" offset="1321" length="13">
+        <text>the attackers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-85" offset="1249" length="8">
+        <text>Pakistan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-94" offset="1313" length="21">
+        <text>some of the attackers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-103" offset="1349" length="13">
+        <text>Nariman House</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-291" offset="1373" length="38">
+        <text>an exclusively Jewish hostel in Mumbai</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-297" offset="1364" length="5">
+        <text>which</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-118" offset="1504" length="14">
+        <text>strollingbones</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-142" offset="1615" length="1">
+        <text>i</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-127" offset="1578" length="33">
+        <text>the surviving terrorist in mumbai</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-118" offset="1504" length="14">strollingbones</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-148" offset="1635" length="23">
+        <text>the terrorist at mumbai</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-118" offset="1504" length="14">strollingbones</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-163" offset="1688" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-118" offset="1504" length="14">strollingbones</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-169" offset="1732" length="16">
+        <text>the police force</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-118" offset="1504" length="14">strollingbones</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-178" offset="474" length="6">
+        <text>Guests</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-187" offset="631" length="6">
+        <text>Guests</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-193" offset="88" length="6">
+        <text>Guests</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-199" offset="955" length="6">
+        <text>Guests</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-270" offset="903" length="6">
+        <text>Hindus</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-319" offset="1163" length="5">
+        <text>Hindu</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-279" offset="937" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-410" offset="1145" length="3">
+        <text>one</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-303" offset="1388" length="6">
+        <text>Jewish</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-471" offset="1736" length="6">
+        <text>police</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-118" offset="1504" length="14">strollingbones</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-220">
+        <trigger offset="298" length="10">Sri Lankan</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-230">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-240">
+        <trigger offset="1346" length="2">at</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-250">
+        <trigger offset="1602" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-260">
+        <trigger offset="1649" length="2">at</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-309">
+        <trigger offset="1402" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-325">
+        <trigger offset="276" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-335">
+        <trigger offset="374" length="6">during</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-480">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-345">
+        <trigger offset="269" length="6">attack</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-380">
+        <trigger offset="392" length="7">attacks</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-416">
+        <trigger offset="1211" length="9">attackers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-450">
+        <trigger offset="1325" length="9">attackers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

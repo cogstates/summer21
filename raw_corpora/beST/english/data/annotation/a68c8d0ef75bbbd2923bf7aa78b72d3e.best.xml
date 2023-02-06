@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56fc40570000000000000071">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-357">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-33" offset="14" length="14">sinkingfeeling</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-367">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-33" offset="14" length="14">sinkingfeeling</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-437">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-303" offset="1602" length="12">Art_from_Ark</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-387">
+        <trigger offset="525" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-33" offset="14" length="14">sinkingfeeling</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-397">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-33" offset="14" length="14">sinkingfeeling</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-407">
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-171" offset="775" length="10">Williamson</source>
+          </belief>
+          <belief type="rob">
+            <source ere_id="m-33" offset="14" length="14">sinkingfeeling</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-417">
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-171" offset="775" length="10">Williamson</source>
+          </belief>
+          <belief type="rob">
+            <source ere_id="m-33" offset="14" length="14">sinkingfeeling</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-427">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-303" offset="1602" length="12">Art_from_Ark</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-447">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-303" offset="1602" length="12">Art_from_Ark</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-461">
+        <trigger offset="476" length="4">hurt</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-33" offset="14" length="14">sinkingfeeling</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-84" offset="466" length="9">
+            <text>a student</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-33" offset="14" length="14">sinkingfeeling</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-90" offset="481" length="7">
+            <text>himself</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-33" offset="14" length="14">sinkingfeeling</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-493" offset="494" length="5">
+            <text>a gun</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-33" offset="14" length="14">sinkingfeeling</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-105" offset="528" length="17">
+            <text>the KUAF building</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-33" offset="14" length="14">sinkingfeeling</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-510">
+        <trigger offset="652" length="3">hit</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-33" offset="14" length="14">sinkingfeeling</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-141" offset="637" length="10">
+            <text>Williamson</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-33" offset="14" length="14">sinkingfeeling</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-531">
+        <trigger offset="681" length="4">told</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-33" offset="14" length="14">sinkingfeeling</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-153" offset="686" length="10">
+            <text>40/29 news</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-33" offset="14" length="14">sinkingfeeling</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-147" offset="670" length="10">
+            <text>Williamson</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-33" offset="14" length="14">sinkingfeeling</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-582">
+        <trigger offset="799" length="3">was</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-171" offset="775" length="10">Williamson</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-33" offset="14" length="14">sinkingfeeling</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-177" offset="796" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-171" offset="775" length="10">Williamson</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-33" offset="14" length="14">sinkingfeeling</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-189" offset="817" length="16">
+            <text>a shooting range</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-171" offset="775" length="10">Williamson</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-33" offset="14" length="14">sinkingfeeling</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-612">
+        <trigger offset="1126" length="6">headed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-198" offset="857" length="15">DollarBillHines</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-225" offset="1119" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-198" offset="857" length="15">DollarBillHines</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-234" offset="1136" length="9">
+            <text>the range</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-198" offset="857" length="15">DollarBillHines</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-663">
+        <trigger offset="1352" length="7">charged</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-246" offset="1253" length="8">rurallib</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-261" offset="1339" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-246" offset="1253" length="8">rurallib</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-688" offset="1365" length="16">
+            <text>attempted murder</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-246" offset="1253" length="8">rurallib</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-640">
+        <trigger offset="1332" length="6">killed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-246" offset="1253" length="8">rurallib</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-255" offset="1317" length="7">
+            <text>someone</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-246" offset="1253" length="8">rurallib</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-739">
+        <trigger offset="1479" length="4">kill</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-267" offset="1405" length="7">bossy22</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-276" offset="1457" length="3">
+            <text>who</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-267" offset="1405" length="7">bossy22</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-844">
+        <trigger offset="1538" length="4">kill</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-267" offset="1405" length="7">bossy22</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-297" offset="1543" length="7">
+            <text>someone</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-267" offset="1405" length="7">bossy22</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-760">
+        <trigger offset="1479" length="4">kill</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-267" offset="1405" length="7">bossy22</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-276" offset="1457" length="3">
+            <text>who</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-267" offset="1405" length="7">bossy22</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-823">
+        <trigger offset="1538" length="4">kill</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-267" offset="1405" length="7">bossy22</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-297" offset="1543" length="7">
+            <text>someone</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-267" offset="1405" length="7">bossy22</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-865">
+        <trigger offset="1745" length="4">hurt</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-303" offset="1602" length="12">Art_from_Ark</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-330" offset="1729" length="11">
+            <text>no one else</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-303" offset="1602" length="12">Art_from_Ark</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-33" offset="14" length="14">
+        <text>sinkingfeeling</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-39" offset="387" length="12">
+        <text>FAYETTEVILLE</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-48" offset="401" length="3">
+        <text>Ark</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-75" offset="425" length="8">
+        <text>Arkansas</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-324" offset="1704" length="1">
+        <text>A</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-57" offset="411" length="29">
+        <text>University of Arkansas campus</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-219" offset="1065" length="6">
+        <text>campus</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-312" offset="1695" length="17">
+        <text>the U of A campus</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-66" offset="411" length="22">
+        <text>University of Arkansas</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-318" offset="1699" length="6">
+        <text>U of A</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-84" offset="466" length="9">
+        <text>a student</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-90" offset="481" length="7">
+        <text>himself</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-99" offset="512" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-120" offset="548" length="18">
+        <text>Matthew Williamson</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-135" offset="590" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-141" offset="637" length="10">
+        <text>Williamson</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-147" offset="670" length="10">
+        <text>Williamson</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-159" offset="697" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-165" offset="761" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-171" offset="775" length="10">
+        <text>Williamson</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-177" offset="796" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-183" offset="806" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-207" offset="926" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-213" offset="996" length="5">
+        <text>idiot</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-198" offset="857" length="15">DollarBillHines</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-225" offset="1119" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-240" offset="1203" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-261" offset="1339" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-282" offset="1465" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-105" offset="528" length="17">
+        <text>the KUAF building</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-111" offset="532" length="4">
+        <text>KUAF</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-126" offset="579" length="10">
+        <text>40/29 news</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-153" offset="686" length="10">
+        <text>40/29 news</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-189" offset="817" length="16">
+        <text>a shooting range</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-234" offset="1136" length="9">
+        <text>the range</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-198" offset="857" length="15">
+        <text>DollarBillHines</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-255" offset="1317" length="7">
+        <text>someone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-276" offset="1457" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-297" offset="1543" length="7">
+        <text>someone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-246" offset="1253" length="8">
+        <text>rurallib</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-267" offset="1405" length="7">
+        <text>bossy22</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-288" offset="1513" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-303" offset="1602" length="12">
+        <text>Art_from_Ark</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-330" offset="1729" length="11">
+        <text>no one else</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-339" offset="1787" length="5">
+        <text>Locke</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-348" offset="1816" length="13">
+        <text>maloriesutton</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-357">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-367">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-437">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-387">
+        <trigger offset="525" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-397">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-407">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-417">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-427">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-447">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-461">
+        <trigger offset="476" length="4">hurt</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-510">
+        <trigger offset="652" length="3">hit</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-531">
+        <trigger offset="681" length="4">told</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-582">
+        <trigger offset="799" length="3">was</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-612">
+        <trigger offset="1126" length="6">headed</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-663">
+        <trigger offset="1352" length="7">charged</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-640">
+        <trigger offset="1332" length="6">killed</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-739">
+        <trigger offset="1479" length="4">kill</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-844">
+        <trigger offset="1538" length="4">kill</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-760">
+        <trigger offset="1479" length="4">kill</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-823">
+        <trigger offset="1538" length="4">kill</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-865">
+        <trigger offset="1745" length="4">hurt</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

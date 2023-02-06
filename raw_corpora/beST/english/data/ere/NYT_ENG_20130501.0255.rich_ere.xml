@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="551aacd90000000000000001" doc_id="NYT_ENG_20130501.0255" source_type="newswire">
+  <entities>
+    <entity id="ent-8" type="ORG" specificity="specific">
+      <entity_mention id="m-41" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="287" length="19">
+        <mention_text>U.S. District Court</mention_text>
+      </entity_mention>
+      <entity_mention id="m-143" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="712" length="9">
+        <mention_text>The court</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="716" length="5">court</nom_head>
+      </entity_mention>
+      <entity_mention id="m-678" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="841" length="17">
+        <mention_text>the federal court</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="853" length="5">court</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1111" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="172" length="5">
+        <mention_text>COURT</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="172" length="5">COURT</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-53" type="GPE" specificity="specific">
+      <entity_mention id="m-47" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="287" length="4">
+        <mention_text>U.S.</mention_text>
+      </entity_mention>
+      <entity_mention id="m-128" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="559" length="13">
+        <mention_text>United States</mention_text>
+      </entity_mention>
+      <entity_mention id="m-203" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="1271" length="13">
+        <mention_text>United States</mention_text>
+      </entity_mention>
+      <entity_mention id="m-296" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="1795" length="13">
+        <mention_text>United States</mention_text>
+      </entity_mention>
+      <entity_mention id="m-359" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2034" length="4">
+        <mention_text>U.S.</mention_text>
+      </entity_mention>
+      <entity_mention id="m-684" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="1136" length="4">
+        <mention_text>U.S.</mention_text>
+      </entity_mention>
+      <entity_mention id="m-748" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2155" length="4">
+        <mention_text>U.S.</mention_text>
+      </entity_mention>
+      <entity_mention id="m-796" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="3107" length="8">
+        <mention_text>American</mention_text>
+      </entity_mention>
+      <entity_mention id="m-802" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="3170" length="8">
+        <mention_text>American</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-62" type="GPE" specificity="specific">
+      <entity_mention id="m-56" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="310" length="8">
+        <mention_text>Brooklyn</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-71" type="PER" specificity="specific">
+      <entity_mention id="m-65" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="344" length="11">
+        <mention_text>Prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="344" length="11">Prosecutors</nom_head>
+      </entity_mention>
+      <entity_mention id="m-167" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="1041" length="11">
+        <mention_text>prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="1041" length="11">prosecutors</nom_head>
+      </entity_mention>
+      <entity_mention id="m-332" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="1969" length="11">
+        <mention_text>Prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="1969" length="11">Prosecutors</nom_head>
+      </entity_mention>
+      <entity_mention id="m-536" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2842" length="11">
+        <mention_text>Prosecutors</mention_text>
+      </entity_mention>
+      <entity_mention id="m-563" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="2961" length="11">
+        <mention_text>prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="2961" length="11">prosecutors</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-80" type="PER" specificity="specific">
+      <entity_mention id="m-74" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="364" length="17">
+        <mention_text>three foreign men</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="378" length="3">men</nom_head>
+      </entity_mention>
+      <entity_mention id="m-110" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="497" length="7">
+        <mention_text>the men</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="501" length="3">men</nom_head>
+      </entity_mention>
+      <entity_mention id="m-116" noun_type="PRO" source="NYT_ENG_20130501.0255" offset="506" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-122" noun_type="PRO" source="NYT_ENG_20130501.0255" offset="534" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-155" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="791" length="8">
+        <mention_text>suspects</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="791" length="8">suspects</nom_head>
+      </entity_mention>
+      <entity_mention id="m-161" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="1032" length="7">
+        <mention_text>The men</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="1036" length="3">men</nom_head>
+      </entity_mention>
+      <entity_mention id="m-290" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="1722" length="7">
+        <mention_text>the men</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="1726" length="3">men</nom_head>
+      </entity_mention>
+      <entity_mention id="m-302" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="1818" length="7">
+        <mention_text>the men</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="1822" length="3">men</nom_head>
+      </entity_mention>
+      <entity_mention id="m-308" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="1870" length="9">
+        <mention_text>All three</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="1874" length="5">three</nom_head>
+      </entity_mention>
+      <entity_mention id="m-344" noun_type="PRO" source="NYT_ENG_20130501.0255" offset="1985" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-730" noun_type="PRO" source="NYT_ENG_20130501.0255" offset="1881" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+      <entity_mention id="m-742" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="2125" length="7">
+        <mention_text>the men</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="2129" length="3">men</nom_head>
+      </entity_mention>
+      <entity_mention id="m-838" noun_type="PRO" source="NYT_ENG_20130501.0255" offset="1610" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-864" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="1735" length="16">
+        <mention_text>freedom fighters</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="1743" length="8">fighters</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1348" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="817" length="18">
+        <mention_text>foreign terrorists</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="825" length="10">terrorists</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-89" type="PER" specificity="specific">
+      <entity_mention id="m-83" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="416" length="24">
+        <mention_text>a Somali terrorist group</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="435" length="5">group</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-98" type="GPE" specificity="specific">
+      <entity_mention id="m-92" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="418" length="6">
+        <mention_text>Somali</mention_text>
+      </entity_mention>
+      <entity_mention id="m-338" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2002" length="7">
+        <mention_text>Somalia</mention_text>
+      </entity_mention>
+      <entity_mention id="m-383" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2186" length="6">
+        <mention_text>Somali</mention_text>
+      </entity_mention>
+      <entity_mention id="m-407" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2287" length="7">
+        <mention_text>Somalia</mention_text>
+      </entity_mention>
+      <entity_mention id="m-464" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2453" length="7">
+        <mention_text>Somalia</mention_text>
+      </entity_mention>
+      <entity_mention id="m-485" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2579" length="6">
+        <mention_text>Somali</mention_text>
+      </entity_mention>
+      <entity_mention id="m-551" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2920" length="7">
+        <mention_text>Somalia</mention_text>
+      </entity_mention>
+      <entity_mention id="m-593" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="3068" length="7">
+        <mention_text>Somalia</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-107" type="PER" specificity="specific">
+      <entity_mention id="m-101" noun_type="PRO" source="NYT_ENG_20130501.0255" offset="442" length="4">
+        <mention_text>They</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-140" type="ORG" specificity="specific">
+      <entity_mention id="m-134" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="634" length="10">
+        <mention_text>government</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="634" length="10">government</nom_head>
+      </entity_mention>
+      <entity_mention id="m-149" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="751" length="14">
+        <mention_text>the government</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="755" length="10">government</nom_head>
+      </entity_mention>
+      <entity_mention id="m-197" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="1132" length="19">
+        <mention_text>the U.S. government</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="1141" length="10">government</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-179" type="PER" specificity="specific">
+      <entity_mention id="m-173" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="1091" length="9">
+        <mention_text>Americans</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="1091" length="9">Americans</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-188" type="PER" specificity="specific">
+      <entity_mention id="m-182" noun_type="PRO" source="NYT_ENG_20130501.0255" offset="1120" length="6">
+        <mention_text>others</mention_text>
+      </entity_mention>
+      <entity_mention id="m-700" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="1167" length="10">
+        <mention_text>terrorists</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="1167" length="10">terrorists</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-221" type="PER" specificity="specific">
+      <entity_mention id="m-718" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="1629" length="15">
+        <mention_text>Swedish counsel</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="1637" length="7">counsel</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-230" type="PER" specificity="specific">
+      <entity_mention id="m-224" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="1463" length="11">
+        <mention_text>Madhi Hashi</mention_text>
+      </entity_mention>
+      <entity_mention id="m-706" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="1478" length="17">
+        <mention_text>a British citizen</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="1488" length="7">citizen</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-239" type="GPE" specificity="specific">
+      <entity_mention id="m-233" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="1480" length="7">
+        <mention_text>British</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-248" type="PER" specificity="specific">
+      <entity_mention id="m-242" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="1501" length="13">
+        <mention_text>Mohamed Yusuf</mention_text>
+      </entity_mention>
+      <entity_mention id="m-275" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="1689" length="5">
+        <mention_text>Yusuf</mention_text>
+      </entity_mention>
+      <entity_mention id="m-443" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2394" length="5">
+        <mention_text>Yusuf</mention_text>
+      </entity_mention>
+      <entity_mention id="m-712" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="1518" length="17">
+        <mention_text>a Swedish citizen</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="1528" length="7">citizen</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-257" type="GPE" specificity="specific">
+      <entity_mention id="m-251" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="1520" length="7">
+        <mention_text>Swedish</mention_text>
+      </entity_mention>
+      <entity_mention id="m-269" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="1629" length="7">
+        <mention_text>Swedish</mention_text>
+      </entity_mention>
+      <entity_mention id="m-422" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2322" length="7">
+        <mention_text>Swedish</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-266" type="PER" specificity="specific">
+      <entity_mention id="m-260" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="1556" length="13">
+        <mention_text>the third man</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="1566" length="3">man</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-287" type="PER" specificity="specific">
+      <entity_mention id="m-281" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="1696" length="14">
+        <mention_text>Ephraim Savitt</mention_text>
+      </entity_mention>
+      <entity_mention id="m-724" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="1668" length="26">
+        <mention_text>A defense lawyer for Yusuf</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="1678" length="6">lawyer</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-320" type="LOC" specificity="specific">
+      <entity_mention id="m-314" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="1902" length="6">
+        <mention_text>Africa</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1277" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="391" length="8">
+        <mention_text>overseas</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="391" length="8">overseas</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-329" type="GPE" specificity="specific">
+      <entity_mention id="m-323" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="1928" length="5">
+        <mention_text>Yemen</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-356" type="ORG" specificity="specific">
+      <entity_mention id="m-350" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2021" length="9">
+        <mention_text>al-Shabab</mention_text>
+      </entity_mention>
+      <entity_mention id="m-470" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2469" length="9">
+        <mention_text>al-Shabab</mention_text>
+      </entity_mention>
+      <entity_mention id="m-736" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="2032" length="52">
+        <mention_text>a U.S.-designated terrorist group linked to al-Qaida</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="2060" length="5">group</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-365" type="ORG" specificity="specific">
+      <entity_mention id="m-368" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2076" length="8">
+        <mention_text>al-Qaida</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-380" type="GPE" specificity="specific">
+      <entity_mention id="m-374" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2174" length="9">
+        <mention_text>Minnesota</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-395" type="PER" specificity="specific">
+      <entity_mention id="m-389" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2204" length="12">
+        <mention_text>Shirwa Ahmed</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-404" type="PER" specificity="specific">
+      <entity_mention id="m-398" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2221" length="20">
+        <mention_text>Farah Mohamed Beledi</mention_text>
+      </entity_mention>
+      <entity_mention id="m-557" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2949" length="6">
+        <mention_text>Beledi</mention_text>
+      </entity_mention>
+      <entity_mention id="m-781" noun_type="PRO" source="NYT_ENG_20130501.0255" offset="2957" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-419" type="PER" specificity="specific">
+      <entity_mention id="m-413" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="2322" length="19">
+        <mention_text>Swedish authorities</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="2330" length="11">authorities</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-434" type="PER" specificity="specific">
+      <entity_mention id="m-428" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2374" length="15">
+        <mention_text>Ali Yasin Ahmed</mention_text>
+      </entity_mention>
+      <entity_mention id="m-437" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="1571" length="15">
+        <mention_text>Ali Yasin Ahmed</mention_text>
+      </entity_mention>
+      <entity_mention id="m-515" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2702" length="15">
+        <mention_text>Ali Yasin Ahmed</mention_text>
+      </entity_mention>
+      <entity_mention id="m-521" noun_type="PRO" source="NYT_ENG_20130501.0255" offset="2761" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1016" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="2768" length="63">
+        <mention_text>an associate of the suicide bomber responsible for that bombing</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="2771" length="9">associate</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-455" type="PER" specificity="specific">
+      <entity_mention id="m-449" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="2410" length="7">
+        <mention_text>the men</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="2414" length="3">men</nom_head>
+      </entity_mention>
+      <entity_mention id="m-458" noun_type="PRO" source="NYT_ENG_20130501.0255" offset="2428" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-500" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="2629" length="11">
+        <mention_text>the two men</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="2637" length="3">men</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-482" type="GPE" specificity="specific">
+      <entity_mention id="m-476" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="2575" length="17">
+        <mention_text>two Somali cities</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="2586" length="6">cities</nom_head>
+      </entity_mention>
+      <entity_mention id="m-2325" noun_type="PRO" source="NYT_ENG_20130501.0255" offset="2618" length="5">
+        <mention_text>there</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-497" type="ORG" specificity="specific">
+      <entity_mention id="m-491" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="2603" length="14">
+        <mention_text>the government</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="2607" length="10">government</nom_head>
+      </entity_mention>
+      <entity_mention id="m-578" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="2987" length="10">
+        <mention_text>government</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="2987" length="10">government</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-512" type="GPE" specificity="specific">
+      <entity_mention id="m-506" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="2683" length="9">
+        <mention_text>Mogadishu</mention_text>
+      </entity_mention>
+      <entity_mention id="m-587" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="3012" length="9">
+        <mention_text>Mogadishu</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-533" type="PER" specificity="specific">
+      <entity_mention id="m-527" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="2784" length="47">
+        <mention_text>the suicide bomber responsible for that bombing</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="2796" length="6">bomber</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-548" type="PER" specificity="specific">
+      <entity_mention id="m-542" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="2875" length="7">
+        <mention_text>the men</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="2879" length="3">men</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-575" type="LOC" specificity="specific">
+      <entity_mention id="m-569" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="2985" length="36">
+        <mention_text>a government checkpoint in Mogadishu</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="2998" length="10">checkpoint</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-584" type="PER" specificity="nonspecific">
+      <entity_mention id="m-209" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="1335" length="14">
+        <mention_text>those suspects</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="1341" length="8">suspects</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-605" type="GPE" specificity="specific">
+      <entity_mention id="m-599" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="3077" length="7">
+        <mention_text>Burundi</mention_text>
+      </entity_mention>
+      <entity_mention id="m-623" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="3193" length="7">
+        <mention_text>Burundi</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-614" type="GPE" specificity="specific">
+      <entity_mention id="m-608" noun_type="NAM" source="NYT_ENG_20130501.0255" offset="3089" length="6">
+        <mention_text>Uganda</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-629" type="PER" specificity="specific">
+      <entity_mention id="m-632" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="3166" length="12">
+        <mention_text>one American</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="3170" length="8">American</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-760" type="PER" specificity="specific">
+      <entity_mention id="m-754" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="2151" length="51">
+        <mention_text>two U.S. citizens from Minnesota’s Somali community</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="2160" length="8">citizens</nom_head>
+      </entity_mention>
+      <entity_mention id="m-960" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="2243" length="51">
+        <mention_text>suicide bombers who died in recent years in Somalia</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="2251" length="7">bombers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-769" type="PER" specificity="specific">
+      <entity_mention id="m-763" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="2174" length="28">
+        <mention_text>Minnesota’s Somali community</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="2193" length="9">community</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-778" type="PER" specificity="nonspecific">
+      <entity_mention id="m-772" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="2490" length="7">
+        <mention_text>martyrs</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="2490" length="7">martyrs</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-793" type="LOC" specificity="specific">
+      <entity_mention id="m-787" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="3107" length="18">
+        <mention_text>American locations</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="3116" length="9">locations</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1098" type="PER" specificity="specific">
+      <entity_mention id="m-1092" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="3205" length="12">
+        <mention_text>several more</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="3213" length="4">more</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1586" type="PER" specificity="nonspecific">
+      <entity_mention id="m-215" noun_type="NOM" source="NYT_ENG_20130501.0255" offset="1383" length="18">
+        <mention_text>accused terrorists</mention_text>
+        <nom_head source="NYT_ENG_20130501.0255" offset="1391" length="10">terrorists</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-852" source="NYT_ENG_20130501.0255" offset="1678" length="6" type="title">lawyer</filler>
+    <filler id="f-1251" source="NYT_ENG_20130501.0255" offset="405" length="35" type="crime">supporting a Somali terrorist group</filler>
+    <filler id="f-1287" source="NYT_ENG_20130501.0255" offset="405" length="35" type="crime">supporting a Somali terrorist group</filler>
+    <filler id="f-1509" source="NYT_ENG_20130501.0255" offset="1210" length="29" type="crime">material support of terrorism</filler>
+    <filler id="f-2379" source="NYT_ENG_20130501.0255" offset="2271" length="12" type="time" nom_time="2xxx-xx-xx">recent years</filler>
+    <filler id="f-2064" source="NYT_ENG_20130501.0255" offset="2308" length="12" type="time" nom_time="2008-10-XX">October 2008</filler>
+    <filler id="f-2370" source="NYT_ENG_20130501.0255" offset="2271" length="12" type="time" nom_time="2xxx-xx-xx">recent years</filler>
+    <filler id="f-2428" source="NYT_ENG_20130501.0255" offset="2696" length="4" type="time" nom_time="2009-xx-xx">2009</filler>
+    <filler id="f-2479" source="NYT_ENG_20130501.0255" offset="2696" length="4" type="time" nom_time="2009-xx-xx">2009</filler>
+    <filler id="f-2516" source="NYT_ENG_20130501.0255" offset="2696" length="4" type="time" nom_time="2009-xx-xx">2009</filler>
+    <filler id="f-2551" source="NYT_ENG_20130501.0255" offset="2696" length="4" type="time" nom_time="2009-xx-xx">2009</filler>
+    <filler id="f-2609" source="NYT_ENG_20130501.0255" offset="3022" length="9" type="time" nom_time="2011-xx-xx">that year</filler>
+  </fillers>
+  <relations>
+    <relation id="r-1107" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-638" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-41" role="suborg">U.S. District Court</rel_arg1>
+        <rel_arg2 entity_id="ent-53" entity_mention_id="m-47" role="parent">U.S.</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1108" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-648" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-41" role="org">U.S. District Court</rel_arg1>
+        <rel_arg2 entity_id="ent-62" entity_mention_id="m-56" role="loc">Brooklyn</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="307" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1109" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-658" realis="true">
+        <rel_arg1 entity_id="ent-89" entity_mention_id="m-83" role="per">a Somali terrorist group</rel_arg1>
+        <rel_arg2 entity_id="ent-98" entity_mention_id="m-92" role="entity">Somali</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="418" length="6">Somali</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1110" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-690" realis="true">
+        <rel_arg1 entity_id="ent-140" entity_mention_id="m-197" role="suborg">the U.S. government</rel_arg1>
+        <rel_arg2 entity_id="ent-53" entity_mention_id="m-684" role="parent">U.S.</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1111" type="physical" subtype="resident">
+      <relation_mention id="relm-808" realis="true">
+        <rel_arg1 entity_id="ent-230" entity_mention_id="m-706" role="per">a British citizen</rel_arg1>
+        <rel_arg2 entity_id="ent-239" entity_mention_id="m-233" role="loc">British</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="1480" length="7">British</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1112" type="physical" subtype="resident">
+      <relation_mention id="relm-818" realis="true">
+        <rel_arg1 entity_id="ent-248" entity_mention_id="m-712" role="per">a Swedish citizen</rel_arg1>
+        <rel_arg2 entity_id="ent-257" entity_mention_id="m-251" role="loc">Swedish</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="1520" length="7">Swedish</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1113" type="personalsocial" subtype="business">
+      <relation_mention id="relm-828" realis="true">
+        <rel_arg1 entity_id="ent-221" entity_mention_id="m-718" role="per">Swedish counsel</rel_arg1>
+        <rel_arg2 entity_id="ent-80" entity_mention_id="m-838" role="per">he</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="1617" length="11">assisted by</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1114" type="personalsocial" subtype="role">
+      <relation_mention id="relm-844" realis="true">
+        <rel_arg1 entity_id="ent-287" entity_mention_id="m-281" role="per">Ephraim Savitt</rel_arg1>
+        <rel_arg2 filler_id="f-852" role="role">lawyer</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1115" type="personalsocial" subtype="business">
+      <relation_mention id="relm-854" realis="true">
+        <rel_arg1 entity_id="ent-287" entity_mention_id="m-724" role="per">A defense lawyer for Yusuf</rel_arg1>
+        <rel_arg2 entity_id="ent-248" entity_mention_id="m-275" role="per">Yusuf</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="1685" length="3">for</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1116" type="physical" subtype="locatednear">
+      <relation_mention id="relm-870" realis="true">
+        <rel_arg1 entity_id="ent-80" entity_mention_id="m-730" role="entity">who</rel_arg1>
+        <rel_arg2 entity_id="ent-320" entity_mention_id="m-314" role="loc">Africa</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="1899" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1117" type="physical" subtype="locatednear">
+      <relation_mention id="relm-880" realis="true">
+        <rel_arg1 entity_id="ent-80" entity_mention_id="m-344" role="entity">they</rel_arg1>
+        <rel_arg2 entity_id="ent-98" entity_mention_id="m-338" role="loc">Somalia</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="1990" length="8">traveled</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1118" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-890" realis="false">
+        <rel_arg1 entity_id="ent-80" entity_mention_id="m-344" role="employeemember">they</rel_arg1>
+        <rel_arg2 entity_id="ent-356" entity_mention_id="m-350" role="org">al-Shabab</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="2013" length="4">join</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1119" type="generalaffiliation" subtype="opra">
+      <relation_mention id="relm-900" realis="true">
+        <rel_arg1 entity_id="ent-356" entity_mention_id="m-736" role="org">a U.S.-designated terrorist group linked to al-Qaida</rel_arg1>
+        <rel_arg2 entity_id="ent-365" entity_mention_id="m-368" role="entity">al-Qaida</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="2066" length="6">linked</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1120" type="personalsocial" subtype="unspecified">
+      <relation_mention id="relm-910" realis="true">
+        <rel_arg1 entity_id="ent-80" entity_mention_id="m-742" role="per">the men</rel_arg1>
+        <rel_arg2 entity_id="ent-760" entity_mention_id="m-754" role="per">two U.S. citizens from Minnesota’s Somali community</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="2138" length="12">connected to</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1121" type="physical" subtype="resident">
+      <relation_mention id="relm-920" realis="true">
+        <rel_arg1 entity_id="ent-769" entity_mention_id="m-763" role="per">Minnesota’s Somali community</rel_arg1>
+        <rel_arg2 entity_id="ent-380" entity_mention_id="m-374" role="loc">Minnesota</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="2174" length="11">Minnesota’s</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1122" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-930" realis="true">
+        <rel_arg1 entity_id="ent-769" entity_mention_id="m-763" role="per">Minnesota’s Somali community</rel_arg1>
+        <rel_arg2 entity_id="ent-98" entity_mention_id="m-383" role="entity">Somali</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1123" type="physical" subtype="resident">
+      <relation_mention id="relm-940" realis="true">
+        <rel_arg1 entity_id="ent-760" entity_mention_id="m-754" role="per">two U.S. citizens from Minnesota’s Somali community</rel_arg1>
+        <rel_arg2 entity_id="ent-53" entity_mention_id="m-748" role="loc">U.S.</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="2160" length="8">citizens</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1124" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-950" realis="true">
+        <rel_arg1 entity_id="ent-760" entity_mention_id="m-754" role="per">two U.S. citizens from Minnesota’s Somali community</rel_arg1>
+        <rel_arg2 entity_id="ent-380" entity_mention_id="m-374" role="entity">Minnesota</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="2169" length="4">from</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1125" type="physical" subtype="locatednear">
+      <relation_mention id="relm-966" realis="true">
+        <rel_arg1 entity_id="ent-760" entity_mention_id="m-960" role="entity">suicide bombers who died in recent years in Somalia</rel_arg1>
+        <rel_arg2 entity_id="ent-98" entity_mention_id="m-407" role="loc">Somalia</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="2284" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1126" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-976" realis="true">
+        <rel_arg1 entity_id="ent-419" entity_mention_id="m-413" role="per">Swedish authorities</rel_arg1>
+        <rel_arg2 entity_id="ent-257" entity_mention_id="m-422" role="entity">Swedish</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="2322" length="7">Swedish</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1127" type="physical" subtype="locatednear">
+      <relation_mention id="relm-986" realis="false">
+        <rel_arg1 entity_id="ent-455" entity_mention_id="m-458" role="entity">their</rel_arg1>
+        <rel_arg2 entity_id="ent-98" entity_mention_id="m-464" role="loc">Somalia</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="2443" length="6">travel</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1128" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-996" realis="false">
+        <rel_arg1 entity_id="ent-455" entity_mention_id="m-458" role="employeemember">their</rel_arg1>
+        <rel_arg2 entity_id="ent-356" entity_mention_id="m-470" role="org">al-Shabab</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="2464" length="4">join</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1129" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1006" realis="true">
+        <rel_arg1 entity_id="ent-482" entity_mention_id="m-476" role="entity">two Somali cities</rel_arg1>
+        <rel_arg2 entity_id="ent-98" entity_mention_id="m-485" role="loc">Somali</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="2579" length="6">Somali</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1130" type="personalsocial" subtype="unspecified">
+      <relation_mention id="relm-1022" realis="true">
+        <rel_arg1 entity_id="ent-434" entity_mention_id="m-1016" role="per">an associate of the suicide bomber responsible for that bombing</rel_arg1>
+        <rel_arg2 entity_id="ent-533" entity_mention_id="m-527" role="per">the suicide bomber responsible for that bombing</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="2771" length="9">associate</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1131" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1032" realis="true">
+        <rel_arg1 entity_id="ent-548" entity_mention_id="m-542" role="entity">the men</rel_arg1>
+        <rel_arg2 entity_id="ent-98" entity_mention_id="m-551" role="loc">Somalia</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="2917" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1132" type="personalsocial" subtype="unspecified">
+      <relation_mention id="relm-1042" realis="true">
+        <rel_arg1 entity_id="ent-548" entity_mention_id="m-542" role="per">the men</rel_arg1>
+        <rel_arg2 entity_id="ent-404" entity_mention_id="m-557" role="per">Beledi</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="2932" length="11">association</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1133" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1052" realis="true">
+        <rel_arg1 entity_id="ent-575" entity_mention_id="m-569" role="entity">a government checkpoint in Mogadishu</rel_arg1>
+        <rel_arg2 entity_id="ent-512" entity_mention_id="m-587" role="loc">Mogadishu</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="3009" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1134" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1062" realis="true">
+        <rel_arg1 entity_id="ent-793" entity_mention_id="m-787" role="entity">American locations</rel_arg1>
+        <rel_arg2 entity_id="ent-53" entity_mention_id="m-796" role="loc">American</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="3107" length="8">American</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1135" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1072" realis="true">
+        <rel_arg1 entity_id="ent-629" entity_mention_id="m-632" role="per">one American</rel_arg1>
+        <rel_arg2 entity_id="ent-53" entity_mention_id="m-802" role="entity">American</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="3170" length="8">American</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1136" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1082" realis="true">
+        <rel_arg1 entity_id="ent-629" entity_mention_id="m-632" role="entity">one American</rel_arg1>
+        <rel_arg2 entity_id="ent-605" entity_mention_id="m-623" role="loc">Burundi</rel_arg2>
+        <trigger source="NYT_ENG_20130501.0255" offset="3190" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1137" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1101" realis="true">
+        <rel_arg1 entity_id="ent-1098" entity_mention_id="m-1092" role="per">several more</rel_arg1>
+        <rel_arg2 entity_id="ent-53" entity_mention_id="m-802" role="entity">American</rel_arg2>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-39">
+      <event_mention id="em-1391" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="1075" length="7">attacks</trigger>
+        <em_arg entity_id="ent-80" entity_mention_id="m-161" role="attacker" realis="true">The men</em_arg>
+        <em_arg entity_id="ent-179" entity_mention_id="m-173" role="target" realis="true">Americans</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1217">
+      <event_mention id="em-1619" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="1854" length="5">trial</trigger>
+        <em_arg entity_id="ent-80" entity_mention_id="m-302" role="defendant" realis="true">the men</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1254">
+      <event_mention id="em-1219" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="356" length="7">charged</trigger>
+        <em_arg entity_id="ent-71" entity_mention_id="m-65" role="prosecutor" realis="true">Prosecutors</em_arg>
+        <em_arg entity_id="ent-80" entity_mention_id="m-74" role="defendant" realis="true">three foreign men</em_arg>
+        <em_arg filler_id="f-1251" role="crime" realis="true">supporting a Somali terrorist group</em_arg>
+      </event_mention>
+      <event_mention id="em-1299" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="477" length="11">allegations</trigger>
+        <em_arg entity_id="ent-107" entity_mention_id="m-101" role="prosecutor" realis="true">They</em_arg>
+        <em_arg entity_id="ent-80" entity_mention_id="m-110" role="defendant" realis="true">the men</em_arg>
+      </event_mention>
+      <event_mention id="em-1477" type="justice" subtype="chargeindict" realis="generic">
+        <trigger source="NYT_ENG_20130501.0255" offset="1194" length="7">charges</trigger>
+        <em_arg entity_id="ent-584" entity_mention_id="m-209" role="defendant" realis="true">those suspects</em_arg>
+        <em_arg entity_id="ent-53" entity_mention_id="m-203" role="place" realis="true">United States</em_arg>
+        <em_arg filler_id="f-1509" role="crime" realis="true">material support of terrorism</em_arg>
+      </event_mention>
+      <event_mention id="em-1698" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="1940" length="7">pleaded</trigger>
+        <em_arg entity_id="ent-80" entity_mention_id="m-730" role="defendant" realis="true">who</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1297">
+      <event_mention id="em-1256" type="justice" subtype="arrestjail" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="382" length="8">arrested</trigger>
+        <em_arg entity_id="ent-80" entity_mention_id="m-74" role="person" realis="true">three foreign men</em_arg>
+        <em_arg filler_id="f-1287" role="crime" realis="true">supporting a Somali terrorist group</em_arg>
+        <em_arg entity_id="ent-320" entity_mention_id="m-1277" role="place" realis="true">overseas</em_arg>
+      </event_mention>
+      <event_mention id="em-1719" type="justice" subtype="arrestjail" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="1890" length="8">arrested</trigger>
+        <em_arg entity_id="ent-80" entity_mention_id="m-730" role="person" realis="true">who</em_arg>
+        <em_arg entity_id="ent-320" entity_mention_id="m-314" role="place" realis="true">Africa</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1389">
+      <event_mention id="em-1354" type="justice" subtype="chargeindict" realis="generic">
+        <trigger source="NYT_ENG_20130501.0255" offset="853" length="5">court</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-678" role="adjudicator" realis="true">the federal court</em_arg>
+        <em_arg entity_id="ent-140" entity_mention_id="m-149" role="prosecutor" realis="true">the government</em_arg>
+        <em_arg entity_id="ent-80" entity_mention_id="m-1348" role="defendant" realis="true">foreign terrorists</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1475">
+      <event_mention id="em-1447" type="contact" subtype="contact" realis="actual" audience="twoway" formality="informal" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20130501.0255" offset="1104" length="10">consorting</trigger>
+        <em_arg entity_id="ent-80" entity_mention_id="m-161" role="entity" realis="true">The men</em_arg>
+        <em_arg entity_id="ent-188" entity_mention_id="m-182" role="entity" realis="true">others</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1582">
+      <event_mention id="em-1561" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="1659" length="7">hearing</trigger>
+        <em_arg entity_id="ent-80" entity_mention_id="m-838" role="defendant" realis="true">he</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1584">
+      <event_mention id="em-1533" type="contact" subtype="contact" realis="generic" audience="twoway" formality="informal" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20130501.0255" offset="1367" length="10">associated</trigger>
+        <em_arg entity_id="ent-584" entity_mention_id="m-209" role="entity" realis="true">those suspects</em_arg>
+        <em_arg entity_id="ent-1586" entity_mention_id="m-215" role="entity" realis="true">accused terrorists</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1617">
+      <event_mention id="em-1589" type="contact" subtype="meet" realis="actual" audience="twoway" formality="formal" medium="inperson" schedule="planned">
+        <trigger source="NYT_ENG_20130501.0255" offset="1617" length="8">assisted</trigger>
+        <em_arg entity_id="ent-80" entity_mention_id="m-838" role="entity" realis="true">he</em_arg>
+        <em_arg entity_id="ent-221" entity_mention_id="m-718" role="entity" realis="true">Swedish counsel</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1696">
+      <event_mention id="em-1668" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="1915" length="9">traveling</trigger>
+        <em_arg entity_id="ent-80" entity_mention_id="m-730" role="person" realis="true">who</em_arg>
+        <em_arg entity_id="ent-329" entity_mention_id="m-323" role="destination" realis="true">Yemen</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1796">
+      <event_mention id="em-1768" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="1990" length="8">traveled</trigger>
+        <em_arg entity_id="ent-80" entity_mention_id="m-344" role="person" realis="true">they</em_arg>
+        <em_arg entity_id="ent-98" entity_mention_id="m-338" role="destination" realis="true">Somalia</em_arg>
+      </event_mention>
+      <event_mention id="em-2069" type="movement" subtype="transportperson" realis="other">
+        <trigger source="NYT_ENG_20130501.0255" offset="2443" length="6">travel</trigger>
+        <em_arg entity_id="ent-455" entity_mention_id="m-449" role="person" realis="true">the men</em_arg>
+        <em_arg entity_id="ent-98" entity_mention_id="m-464" role="destination" realis="true">Somalia</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1833">
+      <event_mention id="em-1798" type="contact" subtype="meet" realis="actual" audience="twoway" formality="canttell" medium="inperson" schedule="canttell">
+        <trigger source="NYT_ENG_20130501.0255" offset="2013" length="4">join</trigger>
+        <em_arg entity_id="ent-80" entity_mention_id="m-344" role="entity" realis="true">they</em_arg>
+        <em_arg entity_id="ent-356" entity_mention_id="m-350" role="entity" realis="true">al-Shabab</em_arg>
+        <em_arg entity_id="ent-98" entity_mention_id="m-338" role="place" realis="true">Somalia</em_arg>
+      </event_mention>
+      <event_mention id="em-2097" type="contact" subtype="meet" realis="other" audience="twoway" formality="canttell" medium="inperson" schedule="planned">
+        <trigger source="NYT_ENG_20130501.0255" offset="2464" length="4">join</trigger>
+        <em_arg entity_id="ent-455" entity_mention_id="m-449" role="entity" realis="true">the men</em_arg>
+        <em_arg entity_id="ent-356" entity_mention_id="m-470" role="entity" realis="true">al-Shabab</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1863">
+      <event_mention id="em-1835" type="contact" subtype="contact" realis="actual" audience="twoway" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20130501.0255" offset="2066" length="6">linked</trigger>
+        <em_arg entity_id="ent-356" entity_mention_id="m-350" role="entity" realis="true">al-Shabab</em_arg>
+        <em_arg entity_id="ent-365" entity_mention_id="m-368" role="entity" realis="true">al-Qaida</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1893">
+      <event_mention id="em-1865" type="contact" subtype="contact" realis="other" audience="twoway" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20130501.0255" offset="2138" length="9">connected</trigger>
+        <em_arg entity_id="ent-80" entity_mention_id="m-742" role="entity" realis="true">the men</em_arg>
+        <em_arg entity_id="ent-760" entity_mention_id="m-754" role="entity" realis="true">two U.S. citizens from Minnesota’s Somali community</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1923">
+      <event_mention id="em-1895" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="2251" length="7">bombers</trigger>
+        <em_arg entity_id="ent-760" entity_mention_id="m-960" role="attacker" realis="true">suicide bombers who died in recent years in Somalia</em_arg>
+        <em_arg entity_id="ent-98" entity_mention_id="m-407" role="place" realis="true">Somalia</em_arg>
+        <em_arg filler_id="f-2379" role="time" realis="true">recent years</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1953">
+      <event_mention id="em-1997" type="life" subtype="die" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="2263" length="4">died</trigger>
+        <em_arg entity_id="ent-760" entity_mention_id="m-960" role="agent" realis="true">suicide bombers who died in recent years in Somalia</em_arg>
+        <em_arg entity_id="ent-760" entity_mention_id="m-960" role="victim" realis="true">suicide bombers who died in recent years in Somalia</em_arg>
+        <em_arg entity_id="ent-98" entity_mention_id="m-407" role="place" realis="true">Somalia</em_arg>
+      </event_mention>
+      <event_mention id="em-2125" type="life" subtype="die" realis="other">
+        <trigger source="NYT_ENG_20130501.0255" offset="2483" length="3">die</trigger>
+        <em_arg entity_id="ent-455" entity_mention_id="m-449" role="victim" realis="true">the men</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2067">
+      <event_mention id="em-2032" type="contact" subtype="correspondence" realis="actual" audience="twoway" formality="informal" medium="notinperson" schedule="canttell">
+        <trigger source="NYT_ENG_20130501.0255" offset="2360" length="5">calls</trigger>
+        <em_arg entity_id="ent-434" entity_mention_id="m-428" role="entity" realis="true">Ali Yasin Ahmed</em_arg>
+        <em_arg entity_id="ent-248" entity_mention_id="m-443" role="entity" realis="true">Yusuf</em_arg>
+        <em_arg filler_id="f-2064" role="time" realis="true">October 2008</em_arg>
+      </event_mention>
+      <event_mention id="em-2146" type="contact" subtype="correspondence" realis="actual" audience="twoway" formality="canttell" medium="notinperson" schedule="canttell">
+        <trigger source="NYT_ENG_20130501.0255" offset="2531" length="12">conversation</trigger>
+        <em_arg entity_id="ent-455" entity_mention_id="m-500" role="entity" realis="true">the two men</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2195">
+      <event_mention id="em-2304" type="life" subtype="die" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="2555" length="7">suicide</trigger>
+        <em_arg entity_id="ent-482" entity_mention_id="m-476" role="place" realis="true">two Somali cities</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2246">
+      <event_mention id="em-2276" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="2563" length="8">bombings</trigger>
+        <em_arg entity_id="ent-482" entity_mention_id="m-476" role="place" realis="true">two Somali cities</em_arg>
+        <em_arg entity_id="ent-497" entity_mention_id="m-491" role="target" realis="true">the government</em_arg>
+      </event_mention>
+      <event_mention id="em-2382" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="2655" length="7">attacks</trigger>
+        <em_arg entity_id="ent-482" entity_mention_id="m-2325" role="place" realis="true">there</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2373">
+      <event_mention id="em-2331" type="life" subtype="die" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="2243" length="7">suicide</trigger>
+        <em_arg entity_id="ent-760" entity_mention_id="m-960" role="agent" realis="true">suicide bombers who died in recent years in Somalia</em_arg>
+        <em_arg entity_id="ent-760" entity_mention_id="m-960" role="victim" realis="true">suicide bombers who died in recent years in Somalia</em_arg>
+        <em_arg entity_id="ent-98" entity_mention_id="m-407" role="place" realis="true">Somalia</em_arg>
+        <em_arg filler_id="f-2370" role="time" realis="true">recent years</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2445">
+      <event_mention id="em-2403" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="2673" length="6">attack</trigger>
+        <em_arg entity_id="ent-512" entity_mention_id="m-506" role="place" realis="true">Mogadishu</em_arg>
+        <em_arg filler_id="f-2428" role="time" realis="true">2009</em_arg>
+        <em_arg entity_id="ent-533" entity_mention_id="m-527" role="attacker" realis="true">the suicide bomber responsible for that bombing</em_arg>
+      </event_mention>
+      <event_mention id="em-2484" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="2824" length="7">bombing</trigger>
+        <em_arg entity_id="ent-434" entity_mention_id="m-1016" role="attacker" realis="true">an associate of the suicide bomber responsible for that bombing</em_arg>
+        <em_arg entity_id="ent-512" entity_mention_id="m-506" role="place" realis="true">Mogadishu</em_arg>
+        <em_arg filler_id="f-2516" role="time" realis="true">2009</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2482">
+      <event_mention id="em-2447" type="contact" subtype="correspondence" realis="actual" audience="twoway" formality="canttell" medium="notinperson" schedule="canttell">
+        <trigger source="NYT_ENG_20130501.0255" offset="2745" length="10">phone call</trigger>
+        <em_arg entity_id="ent-434" entity_mention_id="m-1016" role="entity" realis="true">an associate of the suicide bomber responsible for that bombing</em_arg>
+        <em_arg entity_id="ent-533" entity_mention_id="m-527" role="entity" realis="true">the suicide bomber responsible for that bombing</em_arg>
+        <em_arg filler_id="f-2479" role="time" realis="true">2009</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2561">
+      <event_mention id="em-2519" type="life" subtype="die" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="2788" length="7">suicide</trigger>
+        <em_arg entity_id="ent-533" entity_mention_id="m-527" role="agent" realis="true">the suicide bomber responsible for that bombing</em_arg>
+        <em_arg entity_id="ent-533" entity_mention_id="m-527" role="victim" realis="true">the suicide bomber responsible for that bombing</em_arg>
+        <em_arg filler_id="f-2551" role="time" realis="true">2009</em_arg>
+        <em_arg entity_id="ent-512" entity_mention_id="m-506" role="place" realis="true">Mogadishu</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2612">
+      <event_mention id="em-2563" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="2978" length="6">bombed</trigger>
+        <em_arg entity_id="ent-404" entity_mention_id="m-781" role="attacker" realis="true">who</em_arg>
+        <em_arg entity_id="ent-575" entity_mention_id="m-569" role="place" realis="true">a government checkpoint in Mogadishu</em_arg>
+        <em_arg entity_id="ent-512" entity_mention_id="m-587" role="place" realis="true">Mogadishu</em_arg>
+        <em_arg filler_id="f-2609" role="time" realis="true">that year</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2642">
+      <event_mention id="em-2614" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="3054" length="8">bombings</trigger>
+        <em_arg entity_id="ent-98" entity_mention_id="m-593" role="place" realis="true">Somalia</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2686">
+      <event_mention id="em-2644" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="3054" length="8">bombings</trigger>
+        <em_arg entity_id="ent-605" entity_mention_id="m-599" role="place" realis="true">Burundi</em_arg>
+        <em_arg entity_id="ent-629" entity_mention_id="m-632" role="target" realis="true">one American</em_arg>
+        <em_arg entity_id="ent-1098" entity_mention_id="m-1092" role="target" realis="true">several more</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2716">
+      <event_mention id="em-2688" type="life" subtype="die" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="3183" length="6">killed</trigger>
+        <em_arg entity_id="ent-629" entity_mention_id="m-632" role="victim" realis="true">one American</em_arg>
+        <em_arg entity_id="ent-605" entity_mention_id="m-623" role="place" realis="true">Burundi</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2746">
+      <event_mention id="em-2718" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="3054" length="8">bombings</trigger>
+        <em_arg entity_id="ent-614" entity_mention_id="m-608" role="place" realis="true">Uganda</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2822">
+      <event_mention id="em-2794" type="life" subtype="injure" realis="actual">
+        <trigger source="NYT_ENG_20130501.0255" offset="3223" length="7">injured</trigger>
+        <em_arg entity_id="ent-1098" entity_mention_id="m-1092" role="victim" realis="true">several more</em_arg>
+        <em_arg entity_id="ent-605" entity_mention_id="m-623" role="place" realis="true">Burundi</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

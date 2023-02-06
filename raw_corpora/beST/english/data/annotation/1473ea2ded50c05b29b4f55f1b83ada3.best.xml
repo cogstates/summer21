@@ -1,0 +1,1673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56cde00f0000000000000014">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-888">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1732">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-898">
+        <trigger offset="988" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-908">
+        <trigger offset="1630" length="9">America’s</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-918">
+        <trigger offset="1801" length="4">from</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-928">
+        <trigger offset="1851" length="2">of</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-938">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-414" offset="2666" length="15">C_Clayton_Jones</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1748">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1758">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-948">
+        <trigger offset="156" length="7">quiting</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-228" offset="150" length="3">
+            <text>she</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-994" offset="88" length="7">
+            <text>Senator</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-969">
+        <trigger offset="2823" length="7">quiting</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-240" offset="2817" length="3">
+            <text>she</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1001" offset="2755" length="7">
+            <text>Senator</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1031">
+        <trigger offset="820" length="7">elected</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-282" offset="815" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1125">
+        <trigger offset="3612" length="7">elected</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-312" offset="3607" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1066">
+        <trigger offset="2095" length="7">elected</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-360" offset="2091" length="21">
+            <text>our elected officials</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1256">
+        <trigger offset="1774" length="8">election</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-1273" offset="1769" length="4">
+            <text>1994</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1316">
+        <trigger offset="448" length="4">wins</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1211" offset="444" length="3">
+            <text>who</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1404">
+        <trigger offset="943" length="4">wins</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1235" offset="935" length="7">
+            <text>a repub</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1432">
+        <trigger offset="1227" length="3">win</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-636" offset="1218" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1497">
+        <trigger offset="3115" length="4">wins</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1223" offset="3111" length="3">
+            <text>who</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1560">
+        <trigger offset="3734" length="4">wins</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1244" offset="3726" length="7">
+            <text>a repub</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1587">
+        <trigger offset="4340" length="3">win</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-666" offset="4331" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1346">
+        <trigger offset="467" length="4">wins</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1217" offset="463" length="3">
+            <text>who</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1371" offset="492" length="13">
+            <text>this November</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1376">
+        <trigger offset="532" length="7">winning</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-1401" offset="492" length="13">
+            <text>this November</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1518">
+        <trigger offset="3134" length="4">wins</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1229" offset="3130" length="3">
+            <text>who</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1539">
+        <trigger offset="3199" length="7">winning</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-1642" offset="3159" length="13">
+            <text>this November</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1453">
+        <trigger offset="1227" length="3">win</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-636" offset="1218" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1608">
+        <trigger offset="4340" length="3">win</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-666" offset="4331" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-108" offset="14" length="8">
+        <text>Wiseacre</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-114" offset="401" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-120" offset="507" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-126" offset="687" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-132" offset="829" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-138" offset="1009" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-144" offset="1151" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-150" offset="2397" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-156" offset="3174" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-162" offset="3479" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-168" offset="3621" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-174" offset="3800" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-180" offset="4240" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-414" offset="2666" length="15">C_Clayton_Jones</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="4264" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-192" offset="4483" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-198" offset="1370" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-204" offset="5260" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-210" offset="5371" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-216" offset="3068" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-222" offset="96" length="13">
+        <text>Olympia Snowe</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-228" offset="150" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-234" offset="2763" length="13">
+        <text>Olympia Snowe</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-240" offset="2817" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-246" offset="188" length="9">
+        <text>Evan Bayh</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-252" offset="2855" length="9">
+        <text>Evan Bayh</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-258" offset="268" length="13">
+        <text>either person</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-264" offset="2935" length="13">
+        <text>either person</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-270" offset="695" length="5">
+        <text>Obama</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-276" offset="739" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-282" offset="815" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-288" offset="841" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-294" offset="874" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-300" offset="3487" length="5">
+        <text>Obama</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-306" offset="3531" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-312" offset="3607" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-318" offset="3633" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-324" offset="3666" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-330" offset="4155" length="5">
+        <text>Obama</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-336" offset="4177" length="5">
+        <text>Obama</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-342" offset="920" length="10">
+        <text>Harry Reid</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-348" offset="3712" length="10">
+        <text>Harry Reid</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-354" offset="4187" length="4">
+        <text>Reid</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-360" offset="2091" length="21">
+        <text>our elected officials</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-366" offset="2134" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-372" offset="2178" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-378" offset="1630" length="20">
+        <text>America’s electorate</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-384" offset="1784" length="11">
+        <text>34 senators</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-390" offset="1828" length="44">
+        <text>a presidential nominee of the opposing party</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-396" offset="1906" length="11">
+        <text>25 senators</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-402" offset="1982" length="26">
+        <text>75 percent of the senators</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-408" offset="1996" length="12">
+        <text>the senators</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-414" offset="2666" length="15">
+        <text>C_Clayton_Jones</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-420" offset="4918" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="yes"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-426" offset="3939" length="7">
+        <text>Boehner</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-414" offset="2666" length="15">C_Clayton_Jones</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-432" offset="3951" length="9">
+        <text>McConnell</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-414" offset="2666" length="15">C_Clayton_Jones</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-438" offset="4084" length="9">
+        <text>McConnell</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-414" offset="2666" length="15">C_Clayton_Jones</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-444" offset="4023" length="4">
+        <text>both</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-414" offset="2666" length="15">C_Clayton_Jones</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-450" offset="5082" length="8">
+        <text>occupied</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-456" offset="4105" length="21">
+        <text>the Senate Minoritys</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-414" offset="2666" length="15">C_Clayton_Jones</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-462" offset="1045" length="10">
+        <text>these guys</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-468" offset="3836" length="10">
+        <text>these guys</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-474" offset="300" length="6">
+        <text>Senate</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-480" offset="476" length="6">
+        <text>Senate</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-486" offset="995" length="6">
+        <text>Senate</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-492" offset="1312" length="6">
+        <text>Senate</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-498" offset="1586" length="6">
+        <text>Senate</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-504" offset="2967" length="6">
+        <text>Senate</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-510" offset="3143" length="6">
+        <text>Senate</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-516" offset="3786" length="6">
+        <text>Senate</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-522" offset="4109" length="6">
+        <text>Senate</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-414" offset="2666" length="15">C_Clayton_Jones</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-528" offset="4425" length="6">
+        <text>Senate</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="yes"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-534" offset="519" length="12">
+        <text>either party</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="yes"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-540" offset="3186" length="12">
+        <text>either party</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-552" offset="973" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-570" offset="1392" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-588" offset="4505" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-594" offset="5291" length="9">
+        <text>democrats</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-600" offset="5419" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-612" offset="3764" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-618" offset="5381" length="9">
+        <text>Democrats</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1661" offset="959" length="8">
+        <text>the Dems</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1670" offset="1357" length="8">
+        <text>the Dems</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1676" offset="1379" length="8">
+        <text>the Dems</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1682" offset="4470" length="8">
+        <text>the Dems</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1688" offset="4492" length="8">
+        <text>the Dems</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1694" offset="3750" length="8">
+        <text>the Dems</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-624" offset="1167" length="3">
+        <text>GOP</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-642" offset="1438" length="6">
+        <text>repubs</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-648" offset="1445" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-654" offset="4280" length="3">
+        <text>GOP</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-672" offset="4380" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-678" offset="4551" length="6">
+        <text>repubs</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-684" offset="4558" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-690" offset="4679" length="3">
+        <text>GOP</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-414" offset="2666" length="15">C_Clayton_Jones</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-696" offset="4714" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-414" offset="2666" length="15">C_Clayton_Jones</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-702" offset="4723" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-414" offset="2666" length="15">C_Clayton_Jones</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-708" offset="4864" length="3">
+        <text>GOP</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-414" offset="2666" length="15">C_Clayton_Jones</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-738" offset="1267" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-744" offset="5020" length="12">
+        <text>both houses</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-750" offset="1242" length="11">
+        <text>both Houses</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-756" offset="4355" length="11">
+        <text>both Houses</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-762" offset="1257" length="8">
+        <text>Congress</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-768" offset="4370" length="8">
+        <text>Congress</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-786" offset="1854" length="18">
+        <text>the opposing party</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-792" offset="3010" length="10">
+        <text>each other</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-798" offset="343" length="10">
+        <text>each other</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-804" offset="4348" length="2">
+        <text>WH</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-810" offset="3124" length="2">
+        <text>WH</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-816" offset="1235" length="2">
+        <text>WH</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-822" offset="952" length="2">
+        <text>WH</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-828" offset="457" length="2">
+        <text>WH</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-834" offset="3743" length="2">
+        <text>WH</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-840" offset="372" length="11">
+        <text>the country</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-846" offset="1133" length="11">
+        <text>the country</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-852" offset="1630" length="7">
+        <text>America</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-858" offset="3039" length="11">
+        <text>the country</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-864" offset="3915" length="11">
+        <text>the country</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-870" offset="2246" length="28">
+        <text>a politically diverse nation</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1491" offset="2315" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-876" offset="1806" length="66">
+        <text>states that voted for a presidential nominee of the opposing party</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-882" offset="1680" length="19">
+        <text>red and blue states</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1004" offset="131" length="4">
+        <text>WaPo</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1107" offset="2798" length="4">
+        <text>WaPo</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1013" offset="249" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1113" offset="2916" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1022" offset="638" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1119" offset="3305" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1146" offset="4600" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1250" offset="1487" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-630" offset="1197" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-636" offset="1218" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-660" offset="4310" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-666" offset="4331" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1057" offset="1706" length="9">
+        <text>lawmakers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1087" offset="2091" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1098" offset="2338" length="15">
+        <text>the common good</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1175" offset="5170" length="9">
+        <text>the right</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-450" offset="5082" length="8">occupied</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1184" offset="5201" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-450" offset="5082" length="8">occupied</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1190" offset="5490" length="8">
+        <text>the poor</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1199" offset="5503" length="7">
+        <text>the old</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1211" offset="444" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1217" offset="463" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1223" offset="3111" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1229" offset="3130" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1235" offset="935" length="7">
+        <text>a repub</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1244" offset="3726" length="7">
+        <text>a repub</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1289" offset="3413" length="4">
+        <text>many</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-414" offset="2666" length="15">C_Clayton_Jones</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1298" offset="4820" length="10">
+        <text>government</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-414" offset="2666" length="15">C_Clayton_Jones</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1307" offset="5201" length="9">
+        <text>their own</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1476" offset="1089" length="5">
+        <text>party</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1485" offset="2192" length="5">
+        <text>party</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1581" offset="3871" length="5">
+        <text>party</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-546" offset="963" length="4">
+        <text>Dems</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-558" offset="1361" length="4">
+        <text>Dems</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-564" offset="1383" length="4">
+        <text>Dems</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-576" offset="4474" length="4">
+        <text>Dems</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-582" offset="4496" length="4">
+        <text>Dems</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-606" offset="3754" length="4">
+        <text>Dems</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-714" offset="5453" length="11">
+        <text>republicans</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-450" offset="5082" length="8">occupied</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-720" offset="5468" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-726" offset="5524" length="11">
+        <text>republicans</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-450" offset="5082" length="8">occupied</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-732" offset="5576" length="10">
+        <text>themselves</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-450" offset="5082" length="8">occupied</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1706" offset="4547" length="10">
+        <text>the repubs</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1742" offset="1434" length="10">
+        <text>the repubs</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-888">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1732">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-898">
+        <trigger offset="988" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-908">
+        <trigger offset="1630" length="9">America’s</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-918">
+        <trigger offset="1801" length="4">from</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-928">
+        <trigger offset="1851" length="2">of</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-938">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1748">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1758">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-948">
+        <trigger offset="156" length="7">quiting</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-969">
+        <trigger offset="2823" length="7">quiting</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1031">
+        <trigger offset="820" length="7">elected</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1125">
+        <trigger offset="3612" length="7">elected</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1066">
+        <trigger offset="2095" length="7">elected</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1256">
+        <trigger offset="1774" length="8">election</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="14" length="8">Wiseacre</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1316">
+        <trigger offset="448" length="4">wins</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="yes"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1404">
+        <trigger offset="943" length="4">wins</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1432">
+        <trigger offset="1227" length="3">win</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1497">
+        <trigger offset="3115" length="4">wins</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1560">
+        <trigger offset="3734" length="4">wins</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1587">
+        <trigger offset="4340" length="3">win</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1346">
+        <trigger offset="467" length="4">wins</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1376">
+        <trigger offset="532" length="7">winning</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1518">
+        <trigger offset="3134" length="4">wins</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1539">
+        <trigger offset="3199" length="7">winning</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1453">
+        <trigger offset="1227" length="3">win</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1608">
+        <trigger offset="4340" length="3">win</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

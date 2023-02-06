@@ -1,0 +1,2293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56ce1d700000000000000125">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-732">
+        <trigger offset="188" length="7">clients</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-742">
+        <trigger offset="188" length="7">clients</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1270">
+        <trigger offset="662" length="6">client</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-752">
+        <trigger offset="278" length="6">worker</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-762">
+        <trigger offset="1714" length="9">employees</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-772">
+        <trigger offset="3422" length="7">clients</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-588" offset="14" length="4">Ravi</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1320">
+        <trigger offset="3581" length="7">clients</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-588" offset="14" length="4">Ravi</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-782">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-186" offset="3817" length="8">Billy000</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-792">
+        <trigger offset="4795" length="9">"friends"</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-144" offset="3779" length="15">Grampa Murked U</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1350">
+        <trigger offset="6235" length="7">friends</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-114" offset="5943" length="15">Grampa Murked U</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1280">
+        <trigger offset="1064" length="4">hire</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1290">
+        <trigger offset="1914" length="5">owner</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1300">
+        <trigger offset="2604" length="5">owner</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-204" offset="2235" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1310">
+        <trigger offset="2696" length="6">owners</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-204" offset="2235" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1330">
+        <trigger offset="4780" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-144" offset="3779" length="15">Grampa Murked U</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1340">
+        <trigger offset="6219" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-114" offset="5943" length="15">Grampa Murked U</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1360">
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-192" offset="5910" length="10">WillowTree</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2397">
+        <trigger offset="1714" length="9">employees</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-804">
+        <trigger offset="1683" length="4">gave</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-540" offset="1702" length="21">
+            <text>all of your employees</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-546" offset="1709" length="4">
+            <text>your</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1689" offset="1688" length="10">
+            <text>10% raises</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-825">
+        <trigger offset="454" length="10">nerly took</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-312" offset="465" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2302" offset="492" length="16">
+            <text>the truck mirror</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1370">
+        <trigger offset="817" length="4">cost</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-420" offset="802" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1395" offset="825" length="8">
+            <text>over 75K</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1490">
+        <trigger offset="981" length="5">spend</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-396" offset="956" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1515" offset="996" length="3">
+            <text>75K</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1430">
+        <trigger offset="776" length="5">widen</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-426" offset="659" length="9">
+            <text>My client</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-874" offset="782" length="13">
+            <text>a loading bay</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1613">
+        <trigger offset="1528" length="6">expand</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-342" offset="1506" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-916" offset="1535" length="15">
+            <text>the loading bay</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1460">
+        <trigger offset="906" length="6">salary</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-402" offset="889" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1485" offset="916" length="2">
+            <text>1K</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1518">
+        <trigger offset="1019" length="4">took</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-390" offset="1016" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1543" offset="1034" length="3">
+            <text>52K</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1546">
+        <trigger offset="1064" length="4">hire</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-889" offset="1069" length="10">
+            <text>new people</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1569">
+        <trigger offset="1173" length="9">relocated</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-594" offset="111" length="4">Ravi</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-372" offset="1159" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-594" offset="111" length="4">Ravi</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1592">
+        <trigger offset="1472" length="5">moved</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-348" offset="1447" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1778">
+        <trigger offset="2127" length="9">relocated</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-588" offset="14" length="4">Ravi</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1003" offset="2106" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-588" offset="14" length="4">Ravi</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1641">
+        <trigger offset="1380" length="6">rented</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-360" offset="1373" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1664">
+        <trigger offset="1151" length="7">renting</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-378" offset="1144" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-594" offset="111" length="4">Ravi</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1757">
+        <trigger offset="2098" length="7">leasing</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-588" offset="14" length="4">Ravi</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-330" offset="2091" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-588" offset="14" length="4">Ravi</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1734">
+        <trigger offset="1894" length="5">lease</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-943" offset="1883" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1822">
+        <trigger offset="3037" length="5">under</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-204" offset="2235" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1105" offset="3002" length="8">
+            <text>hundreds</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-204" offset="2235" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1111" offset="3019" length="9">
+            <text>thousands</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-204" offset="2235" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1873">
+        <trigger offset="3181" length="3">buy</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-204" offset="2235" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1123" offset="3185" length="3">
+            <text>its</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-204" offset="2235" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1898" offset="3189" length="13">
+            <text>carbon shares</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-204" offset="2235" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1947">
+        <trigger offset="4107" length="8">election</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-138" offset="3848" length="15">Grampa Murked U</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-504" offset="4091" length="5">
+            <text>Obama</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-138" offset="3848" length="15">Grampa Murked U</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1970">
+        <trigger offset="4227" length="8">election</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-534" offset="4214" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-138" offset="3848" length="15">Grampa Murked U</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1991">
+        <trigger offset="4263" length="4">hire</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-138" offset="3848" length="15">Grampa Murked U</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1135" offset="4257" length="5">
+            <text>firms</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-138" offset="3848" length="15">Grampa Murked U</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2014">
+        <trigger offset="4272" length="6">invest</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-138" offset="3848" length="15">Grampa Murked U</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1135" offset="4257" length="5">
+            <text>firms</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-138" offset="3848" length="15">Grampa Murked U</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2060">
+        <trigger offset="4724" length="6">sueing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-144" offset="3779" length="15">Grampa Murked U</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1153" offset="4731" length="21">
+            <text>companies like Boeing</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-144" offset="3779" length="15">Grampa Murked U</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2085" offset="4761" length="57">
+            <text>they want to build in a state his "friends" don't control</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-144" offset="3779" length="15">Grampa Murked U</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2166">
+        <trigger offset="6163" length="6">sueing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-114" offset="5943" length="15">Grampa Murked U</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1213" offset="6170" length="21">
+            <text>companies like Boeing</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-114" offset="5943" length="15">Grampa Murked U</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-708" offset="6222" length="35">
+            <text>a state his "friends" don't control</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-114" offset="5943" length="15">Grampa Murked U</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2198" offset="6200" length="57">
+            <text>they want to build in a state his "friends" don't control</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-114" offset="5943" length="15">Grampa Murked U</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2090">
+        <trigger offset="4774" length="5">build</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-144" offset="3779" length="15">Grampa Murked U</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1225" offset="4761" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-144" offset="3779" length="15">Grampa Murked U</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-702" offset="4783" length="35">
+            <text>a state his "friends" don't control</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-144" offset="3779" length="15">Grampa Murked U</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2363">
+        <trigger offset="6213" length="5">build</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-114" offset="5943" length="15">Grampa Murked U</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1213" offset="6170" length="21">
+            <text>companies like Boeing</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-114" offset="5943" length="15">Grampa Murked U</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-708" offset="6222" length="35">
+            <text>a state his "friends" don't control</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-114" offset="5943" length="15">Grampa Murked U</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2120">
+        <trigger offset="4902" length="3">out</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-144" offset="3779" length="15">Grampa Murked U</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1171" offset="4881" length="20">
+            <text>light bulb companies</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-144" offset="3779" length="15">Grampa Murked U</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2201">
+        <trigger offset="6341" length="3">out</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-114" offset="5943" length="15">Grampa Murked U</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1237" offset="6320" length="20">
+            <text>light bulb companies</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-114" offset="5943" length="15">Grampa Murked U</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2143">
+        <trigger offset="5099" length="7">closing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-198" offset="3706" length="10">WillowTree</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1189" offset="5110" length="32">
+            <text>all those automobile dealerships</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-198" offset="3706" length="10">WillowTree</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2222">
+        <trigger offset="6538" length="7">closing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-192" offset="5910" length="10">WillowTree</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1249" offset="6549" length="32">
+            <text>all those automobile dealerships</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-192" offset="5910" length="10">WillowTree</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2261">
+        <trigger offset="353" length="4">walk</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-324" offset="273" length="33">
+            <text>some worker at some other company</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-862" offset="322" length="11">
+            <text>loading bay</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-862" offset="322" length="11">
+            <text>loading bay</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2305">
+        <trigger offset="1231" length="3">say</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-246" offset="1223" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2342">
+        <trigger offset="1275" length="7">talking</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-240" offset="1269" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-2391" offset="1709" length="14">
+        <text>your employees</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-114" offset="5943" length="15">
+        <text>Grampa Murked U</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-120" offset="5832" length="15">
+        <text>Grampa Murked U</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-126" offset="5314" length="15">
+        <text>Grampa Murked U</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-132" offset="5206" length="15">
+        <text>Grampa Murked U</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-138" offset="3848" length="15">
+        <text>Grampa Murked U</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-144" offset="3779" length="15">
+        <text>Grampa Murked U</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-150" offset="5721" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-156" offset="3961" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-162" offset="4183" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-168" offset="4066" length="2">
+        <text>My</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-174" offset="4000" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-180" offset="5981" length="8">
+        <text>Billy000</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="3817" length="8">
+        <text>Billy000</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-192" offset="5910" length="10">
+        <text>WillowTree</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-198" offset="3706" length="10">
+        <text>WillowTree</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-204" offset="2235" length="7">
+        <text>Jarhead</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-210" offset="138" length="7">
+        <text>Jarhead</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-216" offset="81" length="7">
+        <text>Jarhead</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-222" offset="659" length="2">
+        <text>My</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-228" offset="185" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-234" offset="1638" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-240" offset="1269" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-246" offset="1223" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-252" offset="3576" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-258" offset="3417" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-264" offset="3408" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-270" offset="6634" length="7">
+        <text>Dealers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-276" offset="5352" length="5">
+        <text>rdean</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-282" offset="5284" length="7">
+        <text>merrill</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-288" offset="2682" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-294" offset="2820" length="2">
+        <text>us</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-300" offset="2686" length="16">
+        <text>bunsiness owners</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-306" offset="2160" length="12">
+        <text>sfcalifornia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-312" offset="465" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-318" offset="451" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-324" offset="273" length="33">
+        <text>some worker at some other company</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-330" offset="2091" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-336" offset="2057" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-342" offset="1506" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-348" offset="1447" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-354" offset="1387" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-360" offset="1373" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-366" offset="1359" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-372" offset="1159" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-378" offset="1144" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-384" offset="1051" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-390" offset="1016" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-396" offset="956" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-402" offset="889" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-408" offset="885" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-414" offset="858" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-420" offset="802" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-426" offset="659" length="9">
+        <text>My client</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-432" offset="178" length="17">
+        <text>One of my clients</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1003" offset="2106" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-438" offset="536" length="20">
+        <text>the local legislator</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-444" offset="6230" length="13">
+        <text>his "friends"</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-450" offset="4791" length="13">
+        <text>his "friends"</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-144" offset="3779" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-456" offset="6689" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-120" offset="5832" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-462" offset="6583" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-192" offset="5910" length="10">WillowTree</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-468" offset="6493" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-114" offset="5943" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-474" offset="6230" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-114" offset="5943" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-480" offset="5144" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-198" offset="3706" length="10">WillowTree</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-486" offset="5054" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-144" offset="3779" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-492" offset="4791" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-144" offset="3779" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-498" offset="4602" length="5">
+        <text>Obama</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-504" offset="4091" length="5">
+        <text>Obama</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-138" offset="3848" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-510" offset="4026" length="5">
+        <text>Obama</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-138" offset="3848" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-516" offset="3909" length="5">
+        <text>Obama</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-138" offset="3848" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-522" offset="1262" length="5">
+        <text>Obama</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-528" offset="1133" length="5">
+        <text>Obama</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-534" offset="4214" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-138" offset="3848" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-540" offset="1702" length="21">
+        <text>all of your employees</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-546" offset="1709" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-552" offset="1730" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-558" offset="1662" length="11">
+        <text>an employer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-564" offset="1654" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-570" offset="158" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-576" offset="1674" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-582" offset="729" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-588" offset="14" length="4">
+        <text>Ravi</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-594" offset="111" length="4">
+        <text>Ravi</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-600" offset="3576" length="12">
+        <text>your clients</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-606" offset="3417" length="12">
+        <text>your clients</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-612" offset="5798" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-132" offset="5206" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-618" offset="5761" length="8">
+        <text>you guys</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-132" offset="5206" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-624" offset="185" length="10">
+        <text>my clients</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-630" offset="6667" length="15">
+        <text>union employees</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-636" offset="6185" length="6">
+        <text>Boeing</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-642" offset="4746" length="6">
+        <text>Boeing</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-648" offset="5731" length="8">
+        <text>congress</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-618" offset="5761" length="8">you guys</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-132" offset="5206" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-654" offset="2631" length="8">
+        <text>congress</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-204" offset="2235" length="7">Jarhead</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-660" offset="2765" length="8">
+        <text>congress</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-204" offset="2235" length="7">Jarhead</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-666" offset="5776" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="yes">
+            <source ere_id="m-618" offset="5761" length="8">you guys</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="yes">
+            <source ere_id="m-132" offset="5206" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1141" offset="4517" length="10">
+        <text>government</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-672" offset="288" length="18">
+        <text>some other company</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-678" offset="5629" length="5">
+        <text>REPUB</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-282" offset="5284" length="7">merrill</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-684" offset="5400" length="9">
+        <text>Democrats</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-126" offset="5314" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-690" offset="5440" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-126" offset="5314" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-696" offset="4598" length="24">
+        <text>the Obama administration</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-702" offset="4783" length="35">
+        <text>a state his "friends" don't control</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-708" offset="6222" length="35">
+        <text>a state his "friends" don't control</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-714" offset="4236" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-720" offset="4012" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-726" offset="5475" length="2">
+        <text>us</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-853" offset="240" length="11">
+        <text>loading bay</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-862" offset="322" length="11">
+        <text>loading bay</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-916" offset="1535" length="15">
+        <text>the loading bay</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-880" offset="1042" length="2">
+        <text>Ya</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-937" offset="1788" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-943" offset="1883" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1015" offset="2283" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1033" offset="2442" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1039" offset="2348" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1045" offset="2474" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1057" offset="2504" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1093" offset="2883" length="3">
+        <text>Who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1198" offset="5162" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1255" offset="6601" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-889" offset="1069" length="10">
+        <text>new people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-898" offset="1331" length="10">
+        <text>cpompanies</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-958" offset="1905" length="8">
+        <text>business</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1009" offset="2253" length="11">
+        <text> a business</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1027" offset="2327" length="8">
+        <text>business</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1051" offset="2521" length="8">
+        <text>business</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1072" offset="2593" length="10">
+        <text>a business</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1087" offset="2686" length="9">
+        <text>bunsiness</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1099" offset="2985" length="8">
+        <text>cmpanies</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1105" offset="3002" length="8">
+        <text>hundreds</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1111" offset="3019" length="9">
+        <text>thousands</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1117" offset="3080" length="4">
+        <text>many</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1123" offset="3185" length="3">
+        <text>its</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1129" offset="3929" length="8">
+        <text>business</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-138" offset="3848" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1135" offset="4257" length="5">
+        <text>firms</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-138" offset="3848" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1147" offset="4643" length="8">
+        <text>business</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-922" offset="1589" length="18">
+        <text>the property owner</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-928" offset="1593" length="8">
+        <text>property</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-949" offset="1901" length="35">
+        <text>ANY business owner with a warehouse</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-964" offset="1925" length="11">
+        <text>a warehouse</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-985" offset="1948" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-994" offset="1995" length="17">
+        <text>physical property</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1063" offset="2593" length="16">
+        <text>a business owner</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1078" offset="2644" length="13">
+        <text>the President</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1153" offset="4731" length="21">
+        <text>companies like Boeing</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1213" offset="6170" length="21">
+        <text>companies like Boeing</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1219" offset="6200" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1225" offset="4761" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1162" offset="4860" length="4">
+        <text>farm</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1231" offset="6299" length="4">
+        <text>farm</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1171" offset="4881" length="20">
+        <text>light bulb companies</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1237" offset="6320" length="20">
+        <text>light bulb companies</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1180" offset="4981" length="15">
+        <text>other countries</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1243" offset="6420" length="15">
+        <text>other countries</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1189" offset="5110" length="32">
+        <text>all those automobile dealerships</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1249" offset="6549" length="32">
+        <text>all those automobile dealerships</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1204" offset="5635" length="4">
+        <text>bank</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1261" offset="6667" length="5">
+        <text>union</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1400" offset="5508" length="4">
+        <text>Bush</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-282" offset="5284" length="7">merrill</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1418" offset="5652" length="4">
+        <text>Bush</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-282" offset="5284" length="7">merrill</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1412" offset="5513" length="6">
+        <text>Cheney</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-282" offset="5284" length="7">merrill</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1424" offset="5657" length="6">
+        <text>Cheney</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-282" offset="5284" length="7">merrill</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2243" offset="5367" length="20">
+        <text>those that ruined it</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-276" offset="5352" length="5">rdean</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-874" offset="782" length="13">
+        <text>a loading bay</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2252" offset="617" length="13">
+        <text>a loading bay</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-732">
+        <trigger offset="188" length="7">clients</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-742">
+        <trigger offset="188" length="7">clients</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1270">
+        <trigger offset="662" length="6">client</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-752">
+        <trigger offset="278" length="6">worker</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-762">
+        <trigger offset="1714" length="9">employees</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-772">
+        <trigger offset="3422" length="7">clients</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1320">
+        <trigger offset="3581" length="7">clients</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-782">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-792">
+        <trigger offset="4795" length="9">"friends"</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-144" offset="3779" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1350">
+        <trigger offset="6235" length="7">friends</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-114" offset="5943" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1280">
+        <trigger offset="1064" length="4">hire</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-384" offset="1051" length="2">he</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1290">
+        <trigger offset="1914" length="5">owner</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1300">
+        <trigger offset="2604" length="5">owner</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1310">
+        <trigger offset="2696" length="6">owners</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1330">
+        <trigger offset="4780" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1340">
+        <trigger offset="6219" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1360">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2397">
+        <trigger offset="1714" length="9">employees</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-804">
+        <trigger offset="1683" length="4">gave</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-825">
+        <trigger offset="454" length="10">nerly took</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1370">
+        <trigger offset="817" length="4">cost</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1490">
+        <trigger offset="981" length="5">spend</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1430">
+        <trigger offset="776" length="5">widen</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-210" offset="138" length="7">Jarhead</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1613">
+        <trigger offset="1528" length="6">expand</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1460">
+        <trigger offset="906" length="6">salary</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1518">
+        <trigger offset="1019" length="4">took</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1546">
+        <trigger offset="1064" length="4">hire</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-216" offset="81" length="7">Jarhead</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1569">
+        <trigger offset="1173" length="9">relocated</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1592">
+        <trigger offset="1472" length="5">moved</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1778">
+        <trigger offset="2127" length="9">relocated</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1641">
+        <trigger offset="1380" length="6">rented</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1664">
+        <trigger offset="1151" length="7">renting</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1757">
+        <trigger offset="2098" length="7">leasing</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1734">
+        <trigger offset="1894" length="5">lease</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1822">
+        <trigger offset="3037" length="5">under</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-204" offset="2235" length="7">Jarhead</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1873">
+        <trigger offset="3181" length="3">buy</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1947">
+        <trigger offset="4107" length="8">election</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1970">
+        <trigger offset="4227" length="8">election</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1991">
+        <trigger offset="4263" length="4">hire</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-138" offset="3848" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2014">
+        <trigger offset="4272" length="6">invest</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-138" offset="3848" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2060">
+        <trigger offset="4724" length="6">sueing</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-144" offset="3779" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2166">
+        <trigger offset="6163" length="6">sueing</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-114" offset="5943" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2090">
+        <trigger offset="4774" length="5">build</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-144" offset="3779" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2363">
+        <trigger offset="6213" length="5">build</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-114" offset="5943" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2120">
+        <trigger offset="4902" length="3">out</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-144" offset="3779" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2201">
+        <trigger offset="6341" length="3">out</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-114" offset="5943" length="15">Grampa Murked U</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2143">
+        <trigger offset="5099" length="7">closing</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-198" offset="3706" length="10">WillowTree</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2222">
+        <trigger offset="6538" length="7">closing</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-192" offset="5910" length="10">WillowTree</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2261">
+        <trigger offset="353" length="4">walk</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2305">
+        <trigger offset="1231" length="3">say</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2342">
+        <trigger offset="1275" length="7">talking</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

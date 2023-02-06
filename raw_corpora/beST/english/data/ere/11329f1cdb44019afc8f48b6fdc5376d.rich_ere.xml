@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="55490d330000000000000031" doc_id="11329f1cdb44019afc8f48b6fdc5376d" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-78" noun_type="NAM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="14" length="7">
+        <mention_text>Yarddog</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-18" type="PER" specificity="specific">
+      <entity_mention id="m-84" noun_type="NAM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="546" length="13">
+        <mention_text>Jonathan Cohn</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-24" type="PER" specificity="specific">
+      <entity_mention id="m-96" noun_type="NAM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1310" length="11">
+        <mention_text>Joe Conason</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-27" type="PER" specificity="specific">
+      <entity_mention id="m-102" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1728" length="27">
+        <mention_text>tens of thousands of people</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="1749" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-108" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1779" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-114" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1813" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-120" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1870" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-30" type="PER" specificity="specific">
+      <entity_mention id="m-126" noun_type="NAM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2660" length="11">
+        <mention_text>Linda Peeno</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-33" type="PER" specificity="specific">
+      <entity_mention id="m-132" noun_type="NAM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2779" length="10">
+        <mention_text>Texas Lynn</mention_text>
+      </entity_mention>
+      <entity_mention id="m-138" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2831" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-144" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2839" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-150" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2953" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-156" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3106" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-162" noun_type="NAM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3319" length="10">
+        <mention_text>Texas Lynn</mention_text>
+      </entity_mention>
+      <entity_mention id="m-168" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3332" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-174" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3340" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-180" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3454" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-186" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3607" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-192" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3741" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-198" noun_type="NAM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3761" length="4">
+        <mention_text>Lynn</mention_text>
+      </entity_mention>
+      <entity_mention id="m-204" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3790" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-210" noun_type="NAM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3844" length="10">
+        <mention_text>Texas Lynn</mention_text>
+      </entity_mention>
+      <entity_mention id="m-216" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3932" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-222" noun_type="NAM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3952" length="4">
+        <mention_text>Lynn</mention_text>
+      </entity_mention>
+      <entity_mention id="m-228" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3981" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-36" type="PER" specificity="specific">
+      <entity_mention id="m-234" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3020" length="35">
+        <mention_text>a newborn being placed for adoption</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="3022" length="7">newborn</nom_head>
+      </entity_mention>
+      <entity_mention id="m-240" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3057" length="10">
+        <mention_text>that child</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="3062" length="5">child</nom_head>
+      </entity_mention>
+      <entity_mention id="m-246" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3521" length="35">
+        <mention_text>a newborn being placed for adoption</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="3523" length="7">newborn</nom_head>
+      </entity_mention>
+      <entity_mention id="m-252" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3558" length="10">
+        <mention_text>that child</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="3563" length="5">child</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-39" type="PER" specificity="specific">
+      <entity_mention id="m-258" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3057" length="25">
+        <mention_text>that child's grandparents</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="3070" length="12">grandparents</nom_head>
+      </entity_mention>
+      <entity_mention id="m-264" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3558" length="25">
+        <mention_text>that child's grandparents</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="3571" length="12">grandparents</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-42" type="PER" specificity="specific">
+      <entity_mention id="m-270" noun_type="NAM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3248" length="9">
+        <mention_text>b.hopeful</mention_text>
+      </entity_mention>
+      <entity_mention id="m-276" noun_type="NAM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3916" length="9">
+        <mention_text>b.hopeful</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-45" type="PER" specificity="specific">
+      <entity_mention id="m-282" noun_type="NAM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4064" length="9">
+        <mention_text>Drekkan85</mention_text>
+      </entity_mention>
+      <entity_mention id="m-288" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4115" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-294" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4125" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-300" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4216" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-306" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4232" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-312" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4308" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-318" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4330" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-324" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4339" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-330" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4396" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+      <entity_mention id="m-336" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4417" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-342" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4442" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-348" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4480" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-354" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4521" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-360" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4558" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-366" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4564" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-372" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4606" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-378" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4703" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-384" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4758" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-390" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4818" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-396" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4841" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-402" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4866" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-408" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4903" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-414" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4971" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-48" type="PER" specificity="specific">
+      <entity_mention id="m-420" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4348" length="4">
+        <mention_text>They</mention_text>
+      </entity_mention>
+      <entity_mention id="m-426" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4511" length="4">
+        <mention_text>They</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-51" type="PER" specificity="specific">
+      <entity_mention id="m-432" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4470" length="8">
+        <mention_text>a doctor</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="4472" length="6">doctor</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-54" type="ORG" specificity="specific">
+      <entity_mention id="m-438" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4280" length="10">
+        <mention_text>university</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="4280" length="10">university</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1678" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4193" length="10">
+        <mention_text>University</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="4193" length="10">University</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-57" type="ORG" specificity="specific">
+      <entity_mention id="m-444" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1813" length="25">
+        <mention_text>their insurance companies</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="1829" length="9">companies</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-60" type="ORG" specificity="specific">
+      <entity_mention id="m-450" noun_type="NAM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1431" length="10">
+        <mention_text>Republican</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-63" type="GPE" specificity="specific">
+      <entity_mention id="m-456" noun_type="NAM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3148" length="6">
+        <mention_text>Dallas</mention_text>
+      </entity_mention>
+      <entity_mention id="m-462" noun_type="NAM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3649" length="6">
+        <mention_text>Dallas</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-66" type="GPE" specificity="specific">
+      <entity_mention id="m-468" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1667" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-486" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4183" length="5">
+        <mention_text>there</mention_text>
+      </entity_mention>
+      <entity_mention id="m-492" noun_type="NAM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4931" length="2">
+        <mention_text>US</mention_text>
+      </entity_mention>
+      <entity_mention id="m-498" noun_type="NAM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="751" length="8">
+        <mention_text>American</mention_text>
+      </entity_mention>
+      <entity_mention id="m-504" noun_type="NAM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4148" length="2">
+        <mention_text>US</mention_text>
+      </entity_mention>
+      <entity_mention id="m-510" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2691" length="2">
+        <mention_text>We</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1094" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="5282" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-69" type="FAC" specificity="specific">
+      <entity_mention id="m-516" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2963" length="18">
+        <mention_text>a private hospital</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="2973" length="8">hospital</nom_head>
+      </entity_mention>
+      <entity_mention id="m-522" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3464" length="18">
+        <mention_text>a private hospital</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="3474" length="8">hospital</nom_head>
+      </entity_mention>
+      <entity_mention id="m-528" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3116" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-534" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3617" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-72" type="FAC" specificity="specific">
+      <entity_mention id="m-540" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4276" length="28">
+        <mention_text>the university health clinic</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="4298" length="6">clinic</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-75" type="FAC" specificity="specific">
+      <entity_mention id="m-546" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4402" length="12">
+        <mention_text>the local ER</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="4412" length="2">ER</nom_head>
+      </entity_mention>
+      <entity_mention id="m-552" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4438" length="2">
+        <mention_text>ER</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="4438" length="2">ER</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-794" type="PER" specificity="nonspecific">
+      <entity_mention id="m-788" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="121" length="17">
+        <mention_text>the Right Wingers</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="131" length="7">Wingers</nom_head>
+      </entity_mention>
+      <entity_mention id="m-797" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="161" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-830" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1034" length="69">
+        <mention_text>the defenders of the right to access to generous health care services</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="1038" length="9">defenders</nom_head>
+      </entity_mention>
+      <entity_mention id="m-839" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1119" length="14">
+        <mention_text>the right-wing</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="1123" length="10">right-wing</nom_head>
+      </entity_mention>
+      <entity_mention id="m-890" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1525" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-896" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1573" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-902" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1617" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-809" type="PER" specificity="nonspecific">
+      <entity_mention id="m-803" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="695" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-866" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1240" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1007" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2726" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1028" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2924" length="3">
+        <mention_text>one</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1034" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3162" length="3">
+        <mention_text>one</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1040" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3425" length="3">
+        <mention_text>one</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1046" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3663" length="3">
+        <mention_text>one</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-818" type="PER" specificity="nonspecific">
+      <entity_mention id="m-845" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1145" length="6">
+        <mention_text>people</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="1145" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-827" type="PER" specificity="nonspecific">
+      <entity_mention id="m-821" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="863" length="6">
+        <mention_text>anyone</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-836" type="PER" specificity="nonspecific">
+      <entity_mention id="m-851" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1192" length="20">
+        <mention_text>servicesrich people</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="1206" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-863" type="PER" specificity="nonspecific">
+      <entity_mention id="m-857" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1214" length="6">
+        <mention_text>Others</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-878" type="PER" specificity="nonspecific">
+      <entity_mention id="m-872" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1431" length="22">
+        <mention_text>Republican politicians</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="1442" length="11">politicians</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-887" type="PER" specificity="nonspecific">
+      <entity_mention id="m-881" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1458" length="24">
+        <mention_text>right-wing talking heads</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="1477" length="5">heads</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-914" type="PER" specificity="nonspecific">
+      <entity_mention id="m-908" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1617" length="15">
+        <mention_text>their followers</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="1623" length="9">followers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-923" type="PER" specificity="specific">
+      <entity_mention id="m-917" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="1936" length="24">
+        <mention_text>Americans of working age</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="1936" length="9">Americans</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-932" type="PER" specificity="specific">
+      <entity_mention id="m-926" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2080" length="19">
+        <mention_text>medical researchers</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="2088" length="11">researchers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-941" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1052" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="5015" length="6">
+        <mention_text>People</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="5015" length="6">People</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1058" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="5063" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1064" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="5097" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1070" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="5124" length="6">
+        <mention_text>people</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="5124" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1076" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="5187" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1082" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="5202" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1088" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="5215" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-968" type="PER" specificity="nonspecific">
+      <entity_mention id="m-962" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2281" length="7">
+        <mention_text>doctors</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="2281" length="7">doctors</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-989" type="PER" specificity="specific">
+      <entity_mention id="m-977" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2422" length="16">
+        <mention_text>uninsured adults</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="2432" length="6">adults</nom_head>
+      </entity_mention>
+      <entity_mention id="m-983" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2569" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-998" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1001" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2717" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1013" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2726" length="29">
+        <mention_text>your Insurance Co. executives</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="2745" length="10">executives</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1025" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-1019" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2731" length="13">
+        <mention_text>Insurance Co.</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="2741" length="3">Co.</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1300" type="PER" specificity="specific">
+      <entity_mention id="m-1294" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2008" length="15">
+        <mention_text>at least 20,000</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="2017" length="6">20,000</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1669" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1663" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3745" length="15">
+        <mention_text>a social worker</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="3754" length="6">worker</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1672" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3936" length="15">
+        <mention_text>a social worker</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="3945" length="6">worker</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1684" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-1708" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="5006" length="6">
+        <mention_text>school</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="5006" length="6">school</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1737" type="PER" specificity="specific">
+      <entity_mention id="m-90" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="958" length="64">
+        <mention_text>the tens of millions of currently un- or under-insured Americans</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="962" length="16">tens of millions</nom_head>
+      </entity_mention>
+      <entity_mention id="m-950" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2204" length="4">
+        <mention_text>They</mention_text>
+      </entity_mention>
+      <entity_mention id="m-956" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2231" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-971" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2347" length="4">
+        <mention_text>They</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1740" type="PER" specificity="nonspecific">
+      <entity_mention id="m-935" noun_type="NOM" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2135" length="20">
+        <mention_text>more and more people</mention_text>
+        <nom_head source="11329f1cdb44019afc8f48b6fdc5376d" offset="2149" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-944" noun_type="PRO" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2161" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-566" source="11329f1cdb44019afc8f48b6fdc5376d" offset="2672" length="2" type="title">MD</filler>
+    <filler id="f-626" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3938" length="13" type="title">social worker</filler>
+    <filler id="f-1520" source="11329f1cdb44019afc8f48b6fdc5376d" offset="3747" length="13" type="title">social worker</filler>
+    <filler id="f-1215" source="11329f1cdb44019afc8f48b6fdc5376d" offset="938" length="16" type="commodity">health insurance</filler>
+    <filler id="f-1547" source="11329f1cdb44019afc8f48b6fdc5376d" offset="4792" length="7" type="money">$12,000</filler>
+  </fillers>
+  <relations>
+    <relation id="r-386" type="personalsocial" subtype="role">
+      <relation_mention id="relm-558" realis="true">
+        <rel_arg1 entity_id="ent-30" entity_mention_id="m-126" role="per">Linda Peeno</rel_arg1>
+        <rel_arg2 filler_id="f-566" role="role">MD</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-387" type="physical" subtype="locatednear">
+      <relation_mention id="relm-568" realis="true">
+        <rel_arg1 entity_id="ent-33" entity_mention_id="m-150" role="entity">I</rel_arg1>
+        <rel_arg2 entity_id="ent-69" entity_mention_id="m-516" role="loc">a private hospital</rel_arg2>
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="2960" length="2">to</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-388" type="personalsocial" subtype="family">
+      <relation_mention id="relm-578" realis="true">
+        <rel_arg1 entity_id="ent-39" entity_mention_id="m-258" role="per">that child's grandparents</rel_arg1>
+        <rel_arg2 entity_id="ent-36" entity_mention_id="m-240" role="per">that child</rel_arg2>
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="3070" length="12">grandparents</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1160" realis="true">
+        <rel_arg1 entity_id="ent-36" entity_mention_id="m-252" role="per">that child</rel_arg1>
+        <rel_arg2 entity_id="ent-39" entity_mention_id="m-264" role="per">that child's grandparents</rel_arg2>
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="3563" length="7">child's</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-389" type="physical" subtype="locatednear">
+      <relation_mention id="relm-588" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-312" role="entity">my</rel_arg1>
+        <rel_arg2 entity_id="ent-72" entity_mention_id="m-540" role="loc">the university health clinic</rel_arg2>
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="4273" length="2">to</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-390" type="physical" subtype="locatednear">
+      <relation_mention id="relm-608" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-330" role="entity">me</rel_arg1>
+        <rel_arg2 entity_id="ent-75" entity_mention_id="m-546" role="loc">the local ER</rel_arg2>
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="4399" length="2">to</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-391" type="personalsocial" subtype="role">
+      <relation_mention id="relm-618" realis="false">
+        <rel_arg1 entity_id="ent-33" entity_mention_id="m-222" role="per">Lynn</rel_arg1>
+        <rel_arg2 filler_id="f-626" role="role">social worker</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-1512" realis="false">
+        <rel_arg1 entity_id="ent-33" entity_mention_id="m-198" role="per">Lynn</rel_arg1>
+        <rel_arg2 filler_id="f-1520" role="role">social worker</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-392" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1110" realis="true">
+        <rel_arg1 entity_id="ent-878" entity_mention_id="m-872" role="employeemember">Republican politicians</rel_arg1>
+        <rel_arg2 entity_id="ent-60" entity_mention_id="m-450" role="org">Republican</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-393" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-1130" realis="true">
+        <rel_arg1 entity_id="ent-998" entity_mention_id="m-1013" role="leader">your Insurance Co. executives</rel_arg1>
+        <rel_arg2 entity_id="ent-1025" entity_mention_id="m-1019" role="entity">Insurance Co.</rel_arg2>
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="2745" length="10">executives</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-394" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1140" realis="true">
+        <rel_arg1 entity_id="ent-36" entity_mention_id="m-234" role="entity">a newborn being placed for adoption</rel_arg1>
+        <rel_arg2 entity_id="ent-69" entity_mention_id="m-516" role="loc">a private hospital</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-1150" realis="true">
+        <rel_arg1 entity_id="ent-36" entity_mention_id="m-234" role="entity">a newborn being placed for adoption</rel_arg1>
+        <rel_arg2 entity_id="ent-69" entity_mention_id="m-516" role="loc">a private hospital</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-395" type="physical" subtype="resident">
+      <relation_mention id="relm-1170" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-288" role="per">I</rel_arg1>
+        <rel_arg2 entity_id="ent-66" entity_mention_id="m-486" role="loc">there</rel_arg2>
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="4176" length="6">living</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-396" type="orgaffiliation" subtype="studentalum">
+      <relation_mention id="relm-1180" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-288" role="studentalumni">I</rel_arg1>
+        <rel_arg2 entity_id="ent-54" entity_mention_id="m-1678" role="org">University</rel_arg2>
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="4193" length="10">University</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-397" type="orgaffiliation" subtype="studentalum">
+      <relation_mention id="relm-1743" realis="false">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-414" role="studentalumni">my</rel_arg1>
+        <rel_arg2 entity_id="ent-1684" entity_mention_id="m-1708" role="org">school</rel_arg2>
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="5006" length="6">school</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-16">
+      <event_mention id="em-634" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="2955" length="4">went</trigger>
+        <em_arg entity_id="ent-33" entity_mention_id="m-150" role="agent" realis="true">I</em_arg>
+        <em_arg entity_id="ent-69" entity_mention_id="m-516" role="destination" realis="true">a private hospital</em_arg>
+      </event_mention>
+      <event_mention id="em-655" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="3456" length="4">went</trigger>
+        <em_arg entity_id="ent-33" entity_mention_id="m-180" role="agent" realis="true">I</em_arg>
+        <em_arg entity_id="ent-69" entity_mention_id="m-522" role="destination" realis="true">a private hospital</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-628">
+      <event_mention id="em-676" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="4268" length="4">Went</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-312" role="agent" realis="true">my</em_arg>
+        <em_arg entity_id="ent-72" entity_mention_id="m-540" role="destination" realis="true">the university health clinic</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-630">
+      <event_mention id="em-697" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="4391" length="4">Sent</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-330" role="agent" realis="true">me</em_arg>
+        <em_arg entity_id="ent-72" entity_mention_id="m-540" role="origin" realis="true">the university health clinic</em_arg>
+        <em_arg entity_id="ent-75" entity_mention_id="m-546" role="destination" realis="true">the local ER</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-632">
+      <event_mention id="em-718" type="contact" subtype="meet" realis="actual" audience="twoway" formality="formal" medium="inperson" schedule="canttell">
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="4444" length="3">had</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-342" role="entity" realis="true">I</em_arg>
+        <em_arg entity_id="ent-51" entity_mention_id="m-432" role="entity" realis="true">a doctor</em_arg>
+        <em_arg entity_id="ent-75" entity_mention_id="m-552" role="place" realis="true">ER</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1225">
+      <event_mention id="em-1190" type="transaction" subtype="transferownership" realis="other" ways="voluntary">
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="928" length="9">extending</trigger>
+        <em_arg entity_id="ent-1737" entity_mention_id="m-90" role="recipient" realis="true">the tens of millions of currently un- or under-insured Americans</em_arg>
+        <em_arg filler_id="f-1215" role="thing" realis="true">health insurance</em_arg>
+        <em_arg entity_id="ent-66" entity_mention_id="m-498" role="place" realis="true">American</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1269">
+      <event_mention id="em-1227" type="life" subtype="die" realis="generic">
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="1263" length="3">die</trigger>
+        <em_arg entity_id="ent-863" entity_mention_id="m-857" role="victim" realis="true">Others</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1292">
+      <event_mention id="em-1271" type="life" subtype="die" realis="generic">
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="1759" length="3">die</trigger>
+        <em_arg entity_id="ent-27" entity_mention_id="m-102" role="victim" realis="true">tens of thousands of people</em_arg>
+      </event_mention>
+      <event_mention id="em-1303" type="life" subtype="die" realis="actual">
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="1919" length="5">death</trigger>
+        <em_arg entity_id="ent-1300" entity_mention_id="m-1294" role="victim" realis="true">at least 20,000</em_arg>
+      </event_mention>
+      <event_mention id="em-1331" type="life" subtype="die" realis="generic">
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="2209" length="3">die</trigger>
+        <em_arg entity_id="ent-1737" entity_mention_id="m-950" role="victim" realis="true">They</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1380">
+      <event_mention id="em-1352" type="transaction" subtype="transfermoney" realis="other" ways="voluntary">
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="2277" length="3">pay</trigger>
+        <em_arg entity_id="ent-1737" entity_mention_id="m-956" role="giver" realis="true">they</em_arg>
+        <em_arg entity_id="ent-968" entity_mention_id="m-962" role="recipient" realis="true">doctors</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1417">
+      <event_mention id="em-1382" type="movement" subtype="transportperson" realis="other">
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="3012" length="7">pick up</trigger>
+        <em_arg entity_id="ent-36" entity_mention_id="m-234" role="person" realis="true">a newborn being placed for adoption</em_arg>
+        <em_arg entity_id="ent-33" entity_mention_id="m-150" role="agent" realis="true">I</em_arg>
+        <em_arg entity_id="ent-69" entity_mention_id="m-516" role="origin" realis="true">a private hospital</em_arg>
+      </event_mention>
+      <event_mention id="em-1449" type="movement" subtype="transportperson" realis="other">
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="3513" length="7">pick up</trigger>
+        <em_arg entity_id="ent-33" entity_mention_id="m-180" role="agent" realis="true">I</em_arg>
+        <em_arg entity_id="ent-36" entity_mention_id="m-246" role="person" realis="true">a newborn being placed for adoption</em_arg>
+        <em_arg entity_id="ent-69" entity_mention_id="m-522" role="origin" realis="true">a private hospital</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1447">
+      <event_mention id="em-1419" type="life" subtype="beborn" realis="actual">
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="3022" length="7">newborn</trigger>
+        <em_arg entity_id="ent-36" entity_mention_id="m-234" role="person" realis="true">a newborn being placed for adoption</em_arg>
+        <em_arg entity_id="ent-69" entity_mention_id="m-516" role="place" realis="true">a private hospital</em_arg>
+      </event_mention>
+      <event_mention id="em-1484" type="life" subtype="beborn" realis="actual">
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="3523" length="7">newborn</trigger>
+        <em_arg entity_id="ent-36" entity_mention_id="m-246" role="person" realis="true">a newborn being placed for adoption</em_arg>
+        <em_arg entity_id="ent-69" entity_mention_id="m-522" role="place" realis="true">a private hospital</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1550">
+      <event_mention id="em-1522" type="transaction" subtype="transfermoney" realis="other" ways="voluntary">
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="4776" length="11">on the hook</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-384" role="giver" realis="true">I</em_arg>
+        <em_arg filler_id="f-1547" role="money" realis="true">$12,000</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1573">
+      <event_mention id="em-1552" type="personnel" subtype="startposition" realis="actual">
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="4823" length="6">worked</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-390" role="person" realis="true">I</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1596">
+      <event_mention id="em-1575" type="life" subtype="die" realis="other">
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="5092" length="4">lose</trigger>
+        <em_arg entity_id="ent-941" entity_mention_id="m-1052" role="victim" realis="true">People</em_arg>
+      </event_mention>
+      <event_mention id="em-1714" type="life" subtype="die" realis="other">
+        <trigger source="11329f1cdb44019afc8f48b6fdc5376d" offset="5275" length="5">death</trigger>
+        <em_arg entity_id="ent-941" entity_mention_id="m-1082" role="victim" realis="true">they</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

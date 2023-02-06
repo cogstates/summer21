@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="5554f84f0000000000000056" doc_id="34d49f3357eaf14c849e9cdfeb893273" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-81" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="14" length="12">
+        <mention_text>Dangerousman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-87" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="922" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-93" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="1215" length="12">
+        <mention_text>Dangerousman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-99" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="1403" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-105" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="5898" length="5">
+        <mention_text>D-man</mention_text>
+      </entity_mention>
+      <entity_mention id="m-111" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="1732" length="4">
+        <mention_text>Your</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-18" type="PER" specificity="specific">
+      <entity_mention id="m-117" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="68" length="62">
+        <mention_text>The Aldi customer who shot an armed robber in the store Monday</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="77" length="8">customer</nom_head>
+      </entity_mention>
+      <entity_mention id="m-123" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="381" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-129" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="426" length="7">
+        <mention_text>himself</mention_text>
+      </entity_mention>
+      <entity_mention id="m-135" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="520" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-141" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="605" length="12">
+        <mention_text>The customer</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="609" length="8">customer</nom_head>
+      </entity_mention>
+      <entity_mention id="m-147" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="619" length="17">
+        <mention_text>Nazir Al-Mujaahid</mention_text>
+      </entity_mention>
+      <entity_mention id="m-153" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="699" length="11">
+        <mention_text>Al-Mujaahid</mention_text>
+      </entity_mention>
+      <entity_mention id="m-159" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="1907" length="8">
+        <mention_text>this guy</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="1912" length="3">guy</nom_head>
+      </entity_mention>
+      <entity_mention id="m-165" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="2012" length="11">
+        <mention_text>Al-Mujaahid</mention_text>
+      </entity_mention>
+      <entity_mention id="m-171" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="2032" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-177" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="2122" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+      <entity_mention id="m-183" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="2288" length="63">
+        <mention_text>the Man that stopped an Armed Robbery at a Milwaukee Aldi store</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="2292" length="3">Man</nom_head>
+      </entity_mention>
+      <entity_mention id="m-189" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="2370" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-195" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="2398" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-201" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="2438" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-207" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="2527" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-213" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="2558" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-219" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="2661" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-225" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="4805" length="12">
+        <mention_text>this shooter</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="4810" length="7">shooter</nom_head>
+      </entity_mention>
+      <entity_mention id="m-231" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4853" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-237" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4874" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-243" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4948" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-249" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="5032" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-255" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="5086" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-948" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="1919" length="37">
+        <mention_text>the rightie equivalent of scooter boy</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="1931" length="10">equivalent</nom_head>
+      </entity_mention>
+      <entity_mention id="m-999" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="2374" length="6">
+        <mention_text>a hero</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="2376" length="4">hero</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1020" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="2402" length="11">
+        <mention_text>our brother</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="2406" length="7">brother</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-21" type="PER" specificity="specific">
+      <entity_mention id="m-261" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="95" length="15">
+        <mention_text>an armed robber</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="104" length="6">robber</nom_head>
+      </entity_mention>
+      <entity_mention id="m-267" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="2722" length="7">
+        <mention_text>the guy</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="2726" length="3">guy</nom_head>
+      </entity_mention>
+      <entity_mention id="m-273" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="2755" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-279" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="2808" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-285" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="5086" length="10">
+        <mention_text>his target</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="5090" length="6">target</nom_head>
+      </entity_mention>
+      <entity_mention id="m-291" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="5098" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+      <entity_mention id="m-297" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="5140" length="10">
+        <mention_text>The guy(s)</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="5144" length="6">guy(s)</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-24" type="PER" specificity="specific">
+      <entity_mention id="m-303" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="164" length="11">
+        <mention_text>prosecutors</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="164" length="11">prosecutors</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-27" type="PER" specificity="specific">
+      <entity_mention id="m-309" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="229" length="13">
+        <mention_text>John Chisholm</mention_text>
+      </entity_mention>
+      <entity_mention id="m-315" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="468" length="8">
+        <mention_text>Chisholm</mention_text>
+      </entity_mention>
+      <entity_mention id="m-321" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="590" length="8">
+        <mention_text>Chisholm</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-30" type="PER" specificity="specific">
+      <entity_mention id="m-327" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="1679" length="11">
+        <mention_text>Henry Vilas</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-33" type="PER" specificity="specific">
+      <entity_mention id="m-333" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="1732" length="10">
+        <mention_text>Your buddy</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="1737" length="5">buddy</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-36" type="PER" specificity="specific">
+      <entity_mention id="m-339" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="1843" length="7">
+        <mention_text>massimo</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-39" type="PER" specificity="specific">
+      <entity_mention id="m-345" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="1981" length="4">
+        <mention_text>TMFA</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-42" type="PER" specificity="specific">
+      <entity_mention id="m-351" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="2901" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-357" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="2613" length="6">
+        <mention_text>chance</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-45" type="PER" specificity="specific">
+      <entity_mention id="m-363" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="2991" length="8">
+        <mention_text>snoqueen</mention_text>
+      </entity_mention>
+      <entity_mention id="m-369" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="3041" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-375" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="3092" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-381" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="3223" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-387" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="3278" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-393" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="3322" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-399" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="3339" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-405" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4033" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-411" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="3876" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-417" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="3809" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-423" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="3727" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-429" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="3572" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-435" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4103" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-441" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4193" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-447" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4323" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-453" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4395" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-459" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4416" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-465" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4472" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-471" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4503" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-477" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4517" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-483" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4686" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-489" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4780" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-495" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4934" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-51" type="PER" specificity="specific">
+      <entity_mention id="m-507" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="5416" length="7">
+        <mention_text>jman111</mention_text>
+      </entity_mention>
+      <entity_mention id="m-513" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="5522" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-54" type="PER" specificity="specific">
+      <entity_mention id="m-519" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="5681" length="14">
+        <mention_text>jonnygothispen</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-57" type="PER" specificity="specific">
+      <entity_mention id="m-525" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="438" length="6">
+        <mention_text>others</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-60" type="PER" specificity="specific">
+      <entity_mention id="m-531" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="1801" length="14">
+        <mention_text>Jesus Gonzalez</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-63" type="ORG" specificity="specific">
+      <entity_mention id="m-537" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="72" length="4">
+        <mention_text>Aldi</mention_text>
+      </entity_mention>
+      <entity_mention id="m-543" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="2341" length="4">
+        <mention_text>Aldi</mention_text>
+      </entity_mention>
+      <entity_mention id="m-549" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="5204" length="9">
+        <mention_text>the store</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="5208" length="5">store</nom_head>
+      </entity_mention>
+      <entity_mention id="m-555" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="5235" length="9">
+        <mention_text>The store</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="5239" length="5">store</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-66" type="ORG" specificity="specific">
+      <entity_mention id="m-561" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="1468" length="14">
+        <mention_text>Cato Institute</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-69" type="GPE" specificity="specific">
+      <entity_mention id="m-567" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="194" length="16">
+        <mention_text>Milwaukee County</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-72" type="GPE" specificity="specific">
+      <entity_mention id="m-573" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="640" length="9">
+        <mention_text>Milwaukee</mention_text>
+      </entity_mention>
+      <entity_mention id="m-579" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="2331" length="9">
+        <mention_text>Milwaukee</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-75" type="GPE" specificity="specific">
+      <entity_mention id="m-585" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="2223" length="12">
+        <mention_text>this country</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="2228" length="7">country</nom_head>
+      </entity_mention>
+      <entity_mention id="m-591" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="4960" length="11">
+        <mention_text>our country</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="4964" length="7">country</nom_head>
+      </entity_mention>
+      <entity_mention id="m-597" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4904" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-78" type="FAC" specificity="specific">
+      <entity_mention id="m-603" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="114" length="9">
+        <mention_text>the store</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="118" length="5">store</nom_head>
+      </entity_mention>
+      <entity_mention id="m-609" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="502" length="9">
+        <mention_text>the store</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="506" length="5">store</nom_head>
+      </entity_mention>
+      <entity_mention id="m-984" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="2329" length="22">
+        <mention_text>a Milwaukee Aldi store</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="2346" length="5">store</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-846" type="PER" specificity="nonspecific">
+      <entity_mention id="m-840" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="336" length="11">
+        <mention_text>the shooter</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="340" length="7">shooter</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-855" type="PER" specificity="nonspecific">
+      <entity_mention id="m-849" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="769" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-858" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="789" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-972" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="2114" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-870" type="PER" specificity="nonspecific">
+      <entity_mention id="m-864" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="987" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-879" type="FAC" specificity="nonspecific">
+      <entity_mention id="m-873" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="1015" length="15">
+        <mention_text>a grocery store</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="1025" length="5">store</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-888" type="PER" specificity="specific">
+      <entity_mention id="m-882" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="1052" length="13">
+        <mention_text>the CCW crowd</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="1060" length="5">crowd</nom_head>
+      </entity_mention>
+      <entity_mention id="m-891" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="1083" length="33">
+        <mention_text>a bunch of middle aged white guys</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="1085" length="5">bunch</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1065" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="2881" length="18">
+        <mention_text>concealed carriers</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="2891" length="8">carriers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-903" type="PER" specificity="specific">
+      <entity_mention id="m-897" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="1137" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-912" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="1333" length="30">
+        <mention_text>the critics of concealed carry</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="1337" length="7">critics</nom_head>
+      </entity_mention>
+      <entity_mention id="m-918" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="1167" length="7">
+        <mention_text>you all</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="1171" length="3">all</nom_head>
+      </entity_mention>
+      <entity_mention id="m-924" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="1377" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-936" type="PER" specificity="nonspecific">
+      <entity_mention id="m-930" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="1511" length="9">
+        <mention_text>criminals</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="1511" length="9">criminals</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-945" type="PER" specificity="nonspecific">
+      <entity_mention id="m-939" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="1548" length="8">
+        <mention_text>citizens</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="1548" length="8">citizens</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1206" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="4158" length="9">
+        <mention_text>civilians</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="4158" length="9">civilians</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-960" type="PER" specificity="specific">
+      <entity_mention id="m-954" noun_type="NAM" source="34d49f3357eaf14c849e9cdfeb893273" offset="1945" length="11">
+        <mention_text>scooter boy</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-969" type="PER" specificity="nonspecific">
+      <entity_mention id="m-963" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="2097" length="27">
+        <mention_text>Real People like you and me</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="2102" length="6">People</nom_head>
+      </entity_mention>
+      <entity_mention id="m-978" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="2126" length="126">
+        <mention_text>normal Ordinary Citizens that have awaken the spirit of personal responsibility and freedom that this country was founded upon</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="2142" length="8">Citizens</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1026" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="2477" length="11">
+        <mention_text>Real People</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="2482" length="6">People</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1032" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="2495" length="17">
+        <mention_text>Ordinary Citizens</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="2504" length="8">Citizens</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-996" type="PER" specificity="nonspecific">
+      <entity_mention id="m-990" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="2353" length="4">
+        <mention_text>Many</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1011" type="PER" specificity="specific">
+      <entity_mention id="m-1005" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="2382" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1014" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="2402" length="3">
+        <mention_text>our</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1044" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1038" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="2527" length="25">
+        <mention_text>his conservative brethren</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="2544" length="8">brethren</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1053" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1047" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="2578" length="11">
+        <mention_text>a terrorist</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="2580" length="9">terrorist</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1062" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1056" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="2862" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1071" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="2909" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1083" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1077" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="3076" length="10">
+        <mention_text>bystanders</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="3076" length="10">bystanders</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1092" type="FAC" specificity="nonspecific">
+      <entity_mention id="m-1086" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="3119" length="38">
+        <mention_text>places with no-weapons signs out front</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="3119" length="6">places</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1101" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1095" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="3159" length="21">
+        <mention_text>One person with a gun</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="3163" length="6">person</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1110" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1104" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="3196" length="3">
+        <mention_text>two</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="3196" length="3">two</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1119" type="PER" specificity="specific">
+      <entity_mention id="m-501" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4960" length="3">
+        <mention_text>our</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1113" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="3288" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1128" type="FAC" specificity="nonspecific">
+      <entity_mention id="m-1122" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="3476" length="8">
+        <mention_text>the home</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="3480" length="4">home</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1155" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="3789" length="10">
+        <mention_text>their home</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="3795" length="4">home</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1137" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1131" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="3678" length="47">
+        <mention_text>hobbyists who collect guns in a responsible way</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="3678" length="9">hobbyists</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1146" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1140" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="3760" length="6">
+        <mention_text>people</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="3760" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1149" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="3789" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1167" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1161" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="3854" length="8">
+        <mention_text>children</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="3854" length="8">children</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1176" type="LOC" specificity="nonspecific">
+      <entity_mention id="m-1170" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="3848" length="26">
+        <mention_text>where children are present</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="3848" length="5">where</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1185" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1179" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="3895" length="10">
+        <mention_text>gun owners</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="3899" length="6">owners</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1194" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1188" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="3944" length="15">
+        <mention_text>license holders</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="3952" length="7">holders</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1203" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1197" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="3989" length="42">
+        <mention_text>people who have domestic violence concerns</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="3989" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1218" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1212" noun_type="NOM" source="34d49f3357eaf14c849e9cdfeb893273" offset="4435" length="15">
+        <mention_text>armed strangers</mention_text>
+        <nom_head source="34d49f3357eaf14c849e9cdfeb893273" offset="4441" length="9">strangers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1227" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1221" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4565" length="6">
+        <mention_text>Others</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1230" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4590" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1242" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1236" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4616" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1245" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="4666" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1803" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1797" noun_type="PRO" source="34d49f3357eaf14c849e9cdfeb893273" offset="5737" length="3">
+        <mention_text>You</mention_text>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-643" source="34d49f3357eaf14c849e9cdfeb893273" offset="211" length="17" type="title">District Attorney</filler>
+    <filler id="f-809" source="34d49f3357eaf14c849e9cdfeb893273" offset="124" length="6" type="time" nom_time="2012-01-30">Monday</filler>
+    <filler id="f-837" source="34d49f3357eaf14c849e9cdfeb893273" offset="124" length="6" type="time" nom_time="2012-01-30">Monday</filler>
+    <filler id="f-1341" source="34d49f3357eaf14c849e9cdfeb893273" offset="124" length="6" type="time" nom_time="2012-01-30">Monday</filler>
+    <filler id="f-1524" source="34d49f3357eaf14c849e9cdfeb893273" offset="124" length="6" type="time" nom_time="2012-01-30">Monday</filler>
+    <filler id="f-1648" source="34d49f3357eaf14c849e9cdfeb893273" offset="4150" length="7" type="weapon">weapons</filler>
+    <filler id="f-1748" source="34d49f3357eaf14c849e9cdfeb893273" offset="124" length="6" type="time" nom_time="2012-01-30">Monday</filler>
+    <filler id="f-1785" source="34d49f3357eaf14c849e9cdfeb893273" offset="5058" length="15" type="weapon">a great big gun</filler>
+  </fillers>
+  <relations>
+    <relation id="r-1077" type="physical" subtype="locatednear">
+      <relation_mention id="relm-615" realis="true">
+        <rel_arg1 entity_id="ent-21" entity_mention_id="m-261" role="entity">an armed robber</rel_arg1>
+        <rel_arg2 entity_id="ent-78" entity_mention_id="m-603" role="loc">the store</rel_arg2>
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="111" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1078" type="physical" subtype="locatednear">
+      <relation_mention id="relm-625" realis="true">
+        <rel_arg1 entity_id="ent-18" entity_mention_id="m-117" role="entity">The Aldi customer who shot an armed robber in the store Monday</rel_arg1>
+        <rel_arg2 entity_id="ent-78" entity_mention_id="m-603" role="loc">the store</rel_arg2>
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="111" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1079" type="personalsocial" subtype="role">
+      <relation_mention id="relm-635" realis="true">
+        <rel_arg1 entity_id="ent-27" entity_mention_id="m-309" role="per">John Chisholm</rel_arg1>
+        <rel_arg2 filler_id="f-643" role="role">District Attorney</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1080" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-645" realis="true">
+        <rel_arg1 entity_id="ent-27" entity_mention_id="m-309" role="employeemember">John Chisholm</rel_arg1>
+        <rel_arg2 entity_id="ent-69" entity_mention_id="m-567" role="org">Milwaukee County</rel_arg2>
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="211" length="17">District Attorney</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1081" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-655" realis="true">
+        <rel_arg1 entity_id="ent-18" entity_mention_id="m-147" role="per">Nazir Al-Mujaahid</rel_arg1>
+        <rel_arg2 entity_id="ent-72" entity_mention_id="m-573" role="entity">Milwaukee</rel_arg2>
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="637" length="2">of</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1082" type="personalsocial" subtype="unspecified">
+      <relation_mention id="relm-665" realis="true">
+        <rel_arg1 entity_id="ent-33" entity_mention_id="m-333" role="per">Your buddy</rel_arg1>
+        <rel_arg2 entity_id="ent-8" entity_mention_id="m-111" role="per">Your</rel_arg2>
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="1737" length="5">buddy</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1083" type="physical" subtype="locatednear">
+      <relation_mention id="relm-675" realis="true">
+        <rel_arg1 entity_id="ent-18" entity_mention_id="m-183" role="entity">the Man that stopped an Armed Robbery at a Milwaukee Aldi store</rel_arg1>
+        <rel_arg2 entity_id="ent-72" entity_mention_id="m-579" role="loc">Milwaukee</rel_arg2>
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="2326" length="2">at</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1084" type="physical" subtype="locatednear">
+      <relation_mention id="relm-685" realis="true">
+        <rel_arg1 entity_id="ent-78" entity_mention_id="m-984" role="entity">a Milwaukee Aldi store</rel_arg1>
+        <rel_arg2 entity_id="ent-72" entity_mention_id="m-579" role="loc">Milwaukee</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1085" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-695" realis="true">
+        <rel_arg1 entity_id="ent-1119" entity_mention_id="m-501" role="per">our</rel_arg1>
+        <rel_arg2 entity_id="ent-75" entity_mention_id="m-591" role="entity">our country</rel_arg2>
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="4960" length="3">our</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1086" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1251" realis="false">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-375" role="entity">I</rel_arg1>
+        <rel_arg2 entity_id="ent-1092" entity_mention_id="m-1086" role="loc">places with no-weapons signs out front</rel_arg2>
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="3116" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1087" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1261" realis="true">
+        <rel_arg1 entity_id="ent-1167" entity_mention_id="m-1161" role="entity">children</rel_arg1>
+        <rel_arg2 entity_id="ent-1176" entity_mention_id="m-1170" role="loc">where children are present</rel_arg2>
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="3867" length="7">present</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1088" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1271" realis="false">
+        <rel_arg1 entity_id="ent-870" entity_mention_id="m-864" role="entity">who</rel_arg1>
+        <rel_arg2 entity_id="ent-879" entity_mention_id="m-873" role="loc">a grocery store</rel_arg2>
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="1012" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-16">
+      <event_mention id="em-707" type="conflict" subtype="attack" realis="actual">
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="90" length="4">shot</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-117" role="attacker" realis="true">The Aldi customer who shot an armed robber in the store Monday</em_arg>
+        <em_arg entity_id="ent-21" entity_mention_id="m-261" role="target" realis="true">an armed robber</em_arg>
+        <em_arg entity_id="ent-78" entity_mention_id="m-603" role="place" realis="true">the store</em_arg>
+        <em_arg filler_id="f-809" role="time" realis="true">Monday</em_arg>
+      </event_mention>
+      <event_mention id="em-728" type="conflict" subtype="attack" realis="actual">
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="2664" length="5">fired</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-219" role="attacker" realis="true">He</em_arg>
+        <em_arg entity_id="ent-21" entity_mention_id="m-267" role="target" realis="true">the guy</em_arg>
+      </event_mention>
+      <event_mention id="em-749" type="conflict" subtype="attack" realis="actual">
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="2791" length="5">shots</trigger>
+        <em_arg entity_id="ent-21" entity_mention_id="m-279" role="target" realis="true">him</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-705">
+      <event_mention id="em-770" type="life" subtype="injure" realis="actual">
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="2718" length="3">hit</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-219" role="agent" realis="true">He</em_arg>
+        <em_arg entity_id="ent-21" entity_mention_id="m-267" role="victim" realis="true">the guy</em_arg>
+        <em_arg entity_id="ent-78" entity_mention_id="m-603" role="place" realis="true">the store</em_arg>
+        <em_arg filler_id="f-837" role="time" realis="true">Monday</em_arg>
+      </event_mention>
+      <event_mention id="em-1281" type="life" subtype="injure" realis="actual">
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="2746" length="8">injuring</trigger>
+        <em_arg entity_id="ent-21" entity_mention_id="m-273" role="victim" realis="true">him</em_arg>
+      </event_mention>
+      <event_mention id="em-1302" type="life" subtype="injure" realis="actual">
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="90" length="4">shot</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-117" role="agent" realis="true">The Aldi customer who shot an armed robber in the store Monday</em_arg>
+        <em_arg entity_id="ent-21" entity_mention_id="m-261" role="victim" realis="true">an armed robber</em_arg>
+        <em_arg entity_id="ent-78" entity_mention_id="m-603" role="place" realis="true">the store</em_arg>
+        <em_arg filler_id="f-1341" role="time" realis="true">Monday</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1379">
+      <event_mention id="em-1344" type="justice" subtype="chargeindict" realis="other">
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="155" length="7">charges</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-117" role="defendant" realis="true">The Aldi customer who shot an armed robber in the store Monday</em_arg>
+        <em_arg entity_id="ent-24" entity_mention_id="m-303" role="prosecutor" realis="true">prosecutors</em_arg>
+        <em_arg entity_id="ent-69" entity_mention_id="m-567" role="place" realis="true">Milwaukee County</em_arg>
+      </event_mention>
+      <event_mention id="em-1651" type="justice" subtype="chargeindict" realis="other">
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="4826" length="7">charged</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-225" role="defendant" realis="true">this shooter</em_arg>
+        <em_arg entity_id="ent-75" entity_mention_id="m-591" role="place" realis="true">our country</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1409">
+      <event_mention id="em-1381" type="conflict" subtype="attack" realis="generic">
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="340" length="7">shooter</trigger>
+        <em_arg entity_id="ent-846" entity_mention_id="m-840" role="attacker" realis="true">the shooter</em_arg>
+        <em_arg entity_id="ent-69" entity_mention_id="m-567" role="place" realis="true">Milwaukee County</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1446">
+      <event_mention id="em-1411" type="life" subtype="injure" realis="other">
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="461" length="4">harm</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-129" role="victim" realis="true">himself</em_arg>
+        <em_arg entity_id="ent-57" entity_mention_id="m-525" role="victim" realis="true">others</em_arg>
+        <em_arg entity_id="ent-78" entity_mention_id="m-609" role="place" realis="true">the store</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1469">
+      <event_mention id="em-1448" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="663" length="10">conference</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-147" role="entity" realis="true">Nazir Al-Mujaahid</em_arg>
+      </event_mention>
+      <event_mention id="em-1471" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="2000" length="10">conference</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-165" role="entity" realis="true">Al-Mujaahid</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1527">
+      <event_mention id="em-1492" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="2817" length="7">fleeing</trigger>
+        <em_arg entity_id="ent-21" entity_mention_id="m-279" role="agent" realis="true">him</em_arg>
+        <em_arg entity_id="ent-78" entity_mention_id="m-984" role="origin" realis="true">a Milwaukee Aldi store</em_arg>
+        <em_arg filler_id="f-1524" role="time" realis="true">Monday</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1550">
+      <event_mention id="em-1529" type="life" subtype="injure" realis="other">
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="3066" length="6">injury</trigger>
+        <em_arg entity_id="ent-1083" entity_mention_id="m-1077" role="victim" realis="true">bystanders</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1573">
+      <event_mention id="em-1552" type="life" subtype="injure" realis="other">
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="3455" length="8">injuries</trigger>
+        <em_arg entity_id="ent-1128" entity_mention_id="m-1122" role="place" realis="true">the home</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1596">
+      <event_mention id="em-1575" type="life" subtype="die" realis="other">
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="3465" length="6">deaths</trigger>
+        <em_arg entity_id="ent-1128" entity_mention_id="m-1122" role="place" realis="true">the home</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1619">
+      <event_mention id="em-1598" type="transaction" subtype="transferownership" realis="generic" ways="voluntary">
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="4074" length="5">sales</trigger>
+        <em_arg filler_id="f-1648" role="thing" realis="true">weapons</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1707">
+      <event_mention id="em-1679" type="justice" subtype="arrestjail" realis="other">
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="4837" length="8">detained</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-225" role="person" realis="true">this shooter</em_arg>
+        <em_arg entity_id="ent-75" entity_mention_id="m-591" role="place" realis="true">our country</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1751">
+      <event_mention id="em-1709" type="life" subtype="die" realis="other">
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="5079" length="6">killed</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-255" role="agent" realis="true">his</em_arg>
+        <em_arg entity_id="ent-21" entity_mention_id="m-285" role="victim" realis="true">his target</em_arg>
+        <em_arg entity_id="ent-78" entity_mention_id="m-609" role="place" realis="true">the store</em_arg>
+        <em_arg filler_id="f-1748" role="time" realis="true">Monday</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1795">
+      <event_mention id="em-1753" type="conflict" subtype="attack" realis="other">
+        <trigger source="34d49f3357eaf14c849e9cdfeb893273" offset="5079" length="6">killed</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-255" role="attacker" realis="true">his</em_arg>
+        <em_arg entity_id="ent-21" entity_mention_id="m-285" role="target" realis="true">his target</em_arg>
+        <em_arg filler_id="f-1785" role="instrument" realis="true">a great big gun</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

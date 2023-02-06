@@ -1,0 +1,1853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56997dee0000000000000025">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-534">
+        <trigger offset="150" length="6">Leader</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="85" length="6">Martyn</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-544">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="85" length="6">Martyn</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-554">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="85" length="6">Martyn</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-564">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-282" offset="4690" length="5">Joluk</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1811">
+        <trigger offset="134" length="7">Iranian</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="85" length="6">Martyn</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1821">
+        <trigger offset="231" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1900">
+        <trigger offset="304" length="3">our</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1910">
+        <trigger offset="758" length="3">our</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1920">
+        <trigger offset="804" length="3">Our</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1930">
+        <trigger offset="1629" length="3">Our</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1940">
+        <trigger offset="1698" length="3">Our</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1950">
+        <trigger offset="3269" length="3">our</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-222" offset="2838" length="7">Elipsis</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1960">
+        <trigger offset="3736" length="3">our</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-228" offset="3502" length="7">Elipsis</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1970">
+        <trigger offset="3909" length="3">our</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-180" offset="3433" length="6">Aeolus</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1980">
+        <trigger offset="4085" length="3">our</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-204" offset="4028" length="6">Aeolus</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1990">
+        <trigger offset="4762" length="3">our</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-282" offset="4690" length="5">Joluk</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2000">
+        <trigger offset="1845" length="3">Our</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2010">
+        <trigger offset="1889" length="3">Our</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-576">
+        <trigger offset="2235" length="3">war</trigger>
+        <beliefs>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-462" offset="2228" length="5">
+            <text>their</text>
+            <beliefs>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-90" offset="116" length="6">Martyn</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-528" offset="2256" length="11">
+            <text>Middle East</text>
+            <beliefs>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-90" offset="116" length="6">Martyn</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-597">
+        <trigger offset="2089" length="7">attacks</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-318" offset="2069" length="27">
+            <text>who caused the 9/11 attacks</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-90" offset="116" length="6">Martyn</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1192">
+        <trigger offset="975" length="6">bailed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-691" offset="972" length="2">
+            <text>We</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-90" offset="116" length="6">Martyn</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-697" offset="986" length="17">
+            <text>the elite bankers</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-90" offset="116" length="6">Martyn</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1222">
+        <trigger offset="1197" length="5">payed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-793" offset="1190" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-90" offset="116" length="6">Martyn</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1274">
+        <trigger offset="1686" length="7">elected</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-868" offset="1665" length="31">
+            <text>the people they were elected by</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-90" offset="116" length="6">Martyn</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1371">
+        <trigger offset="2956" length="8">slapping</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-174" offset="2938" length="6">Aeolus</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-976" offset="2965" length="7">
+            <text>a child</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-174" offset="2938" length="6">Aeolus</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1422">
+        <trigger offset="3119" length="5">slaps</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-222" offset="2838" length="7">Elipsis</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1003" offset="3105" length="8">
+            <text>a parent</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-222" offset="2838" length="7">Elipsis</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1012" offset="3125" length="11">
+            <text>their child</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-222" offset="2838" length="7">Elipsis</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1512">
+        <trigger offset="3586" length="5">slaps</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-228" offset="3502" length="7">Elipsis</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1072" offset="3572" length="8">
+            <text>a parent</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-228" offset="3502" length="7">Elipsis</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1078" offset="3592" length="11">
+            <text>their child</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-228" offset="3502" length="7">Elipsis</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1452">
+        <trigger offset="3199" length="8">tortured</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-222" offset="2838" length="7">Elipsis</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1033" offset="3182" length="59">
+            <text>parents who have tortured, starved and raped their children</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-222" offset="2838" length="7">Elipsis</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1042" offset="3227" length="14">
+            <text>their children</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-222" offset="2838" length="7">Elipsis</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1540">
+        <trigger offset="3666" length="8">tortured</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-234" offset="3533" length="7">Elipsis</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1096" offset="3649" length="59">
+            <text>parents who have tortured, starved and raped their children</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-234" offset="3533" length="7">Elipsis</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1482">
+        <trigger offset="3221" length="5">raped</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-222" offset="2838" length="7">Elipsis</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1033" offset="3182" length="59">
+            <text>parents who have tortured, starved and raped their children</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-222" offset="2838" length="7">Elipsis</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1042" offset="3227" length="14">
+            <text>their children</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-222" offset="2838" length="7">Elipsis</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1561">
+        <trigger offset="3688" length="5">raped</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-234" offset="3533" length="7">Elipsis</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1096" offset="3649" length="59">
+            <text>parents who have tortured, starved and raped their children</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-234" offset="3533" length="7">Elipsis</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1108" offset="3694" length="14">
+            <text>their children</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-234" offset="3533" length="7">Elipsis</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1612">
+        <trigger offset="1487" length="8">tortured</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-826" offset="1484" length="2">
+            <text>We</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-90" offset="116" length="6">Martyn</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-832" offset="1496" length="20">
+            <text>our prisoners of war</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-90" offset="116" length="6">Martyn</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1642">
+        <trigger offset="4996" length="9">unelected</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-282" offset="4690" length="5">Joluk</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-150" offset="4989" length="3">
+            <text>him</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-282" offset="4690" length="5">Joluk</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1665">
+        <trigger offset="5040" length="6">deaths</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-282" offset="4690" length="5">Joluk</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1686" offset="5050" length="10">
+            <text>protestors</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-282" offset="4690" length="5">Joluk</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1394">
+        <trigger offset="3050" length="7">punched</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-174" offset="2938" length="6">Aeolus</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-985" offset="3018" length="43">
+            <text>about 100 people who would have punched him</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-174" offset="2938" length="6">Aeolus</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-994" offset="3058" length="3">
+            <text>him</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-174" offset="2938" length="6">Aeolus</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-78" offset="14" length="8">
+        <text>john1987</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-84" offset="85" length="6">
+        <text>Martyn</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-90" offset="116" length="6">
+        <text>Martyn</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-96" offset="289" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-102" offset="422" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-108" offset="1080" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-114" offset="1941" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-120" offset="2299" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-126" offset="167" length="12">
+        <text>Ali Khamenei</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-132" offset="267" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-138" offset="733" length="13">
+        <text>the Ayatollah</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-144" offset="2684" length="13">
+        <text>the Ayatollah</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-150" offset="4989" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-282" offset="4690" length="5">Joluk</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-156" offset="4954" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-282" offset="4690" length="5">Joluk</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1186" offset="130" length="26">
+        <text>the Iranian Supreme Leader</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1795" offset="4993" length="29">
+        <text>an unelected fascist dictator</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-282" offset="4690" length="5">Joluk</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-168" offset="2908" length="6">
+        <text>Aeolus</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-174" offset="2938" length="6">
+        <text>Aeolus</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-180" offset="3433" length="6">
+        <text>Aeolus</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="4189" length="10">
+        <text>slow coach</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-210" offset="4058" length="6">Aeolus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-192" offset="4223" length="6">
+        <text>Aeolus</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-198" offset="4397" length="10">
+        <text>slow coach</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-258" offset="4323" length="7">Elipsis</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-204" offset="4028" length="6">
+        <text>Aeolus</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-210" offset="4058" length="6">
+        <text>Aeolus</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-216" offset="4439" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-222" offset="2838" length="7">
+        <text>Elipsis</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-228" offset="3502" length="7">
+        <text>Elipsis</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-234" offset="3533" length="7">
+        <text>Elipsis</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-240" offset="3958" length="7">
+        <text>Elipsis</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-246" offset="4123" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-252" offset="4292" length="7">
+        <text>Elipsis</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-258" offset="4323" length="7">
+        <text>Elipsis</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-264" offset="4331" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-270" offset="4426" length="10">
+        <text>fast coach</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-276" offset="4449" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-282" offset="4690" length="5">
+        <text>Joluk</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-288" offset="4919" length="1">
+        <text>i</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-294" offset="4940" length="1">
+        <text>i</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-300" offset="5122" length="1">
+        <text>i</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-306" offset="4925" length="14">
+        <text>David Miliband</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-312" offset="5090" length="21">
+        <text>all British diplomats</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-318" offset="2069" length="27">
+        <text>who caused the 9/11 attacks</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-324" offset="304" length="14">
+        <text>our government</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-330" offset="1969" length="14">
+        <text>The government</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-336" offset="804" length="14">
+        <text>Our government</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-342" offset="758" length="14">
+        <text>our government</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-348" offset="1376" length="14">
+        <text>the government</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-354" offset="1629" length="14">
+        <text>Our government</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-360" offset="1698" length="14">
+        <text>Our government</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-366" offset="3909" length="14">
+        <text>our government</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="3433" length="6">Aeolus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-372" offset="3736" length="14">
+        <text>our government</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-378" offset="4085" length="14">
+        <text>our government</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-210" offset="4058" length="6">Aeolus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-384" offset="3269" length="14">
+        <text>our government</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-390" offset="4136" length="2">
+        <text>it</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-396" offset="4514" length="4">
+        <text>ours</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-402" offset="4762" length="14">
+        <text>our government</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-652" offset="628" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-685" offset="913" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1165" offset="1676" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-408" offset="350" length="19">
+        <text>The U.S. government</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-414" offset="2155" length="19">
+        <text>the U.S. government</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1697" offset="383" length="17">
+        <text>a close runner-up</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-420" offset="640" length="10">
+        <text>Tory party</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-426" offset="463" length="15">
+        <text>Federal Reserve</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-432" offset="134" length="7">
+        <text>Iranian</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-438" offset="354" length="4">
+        <text>U.S.</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-444" offset="450" length="7">
+        <text>America</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-450" offset="1328" length="7">
+        <text>America</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-456" offset="2205" length="8">
+        <text>American</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-462" offset="2228" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-468" offset="1428" length="4">
+        <text>U.S.</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-474" offset="2159" length="4">
+        <text>U.S.</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-480" offset="619" length="7">
+        <text>Vatican</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-486" offset="592" length="8">
+        <text>an elite</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-492" offset="234" length="12">
+        <text>this country</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-498" offset="5094" length="7">
+        <text>British</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-691" offset="972" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-814" offset="1266" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-826" offset="1484" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-841" offset="1518" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-856" offset="1572" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-862" offset="1588" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-883" offset="1824" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-898" offset="1845" length="3">
+        <text>Our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-904" offset="1889" length="3">
+        <text>Our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-919" offset="2274" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-955" offset="2590" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1159" offset="4818" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1268" offset="1496" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1840" offset="304" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1846" offset="758" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1852" offset="804" length="3">
+        <text>Our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1858" offset="1629" length="3">
+        <text>Our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1864" offset="1698" length="3">
+        <text>Our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1870" offset="3269" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1876" offset="3736" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1882" offset="3909" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1888" offset="4085" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1894" offset="4762" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-504" offset="583" length="4">
+        <text>Rome</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-510" offset="2337" length="2">
+        <text>EU</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-516" offset="2354" length="44">
+        <text>a candidate for "evil" if there ever was one</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-522" offset="1471" length="11">
+        <text>Middle East</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-528" offset="2256" length="11">
+        <text>Middle East</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-625" offset="219" length="27">
+        <text>many people in this country</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-631" offset="483" length="28">
+        <text>the banking cartel Oligarchs</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-643" offset="562" length="9">
+        <text>the world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-670" offset="792" length="9">
+        <text>the world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1027" offset="3157" length="9">
+        <text>the world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1057" offset="3312" length="9">
+        <text>the world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1090" offset="3624" length="9">
+        <text>the world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1114" offset="3779" length="9">
+        <text>the world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1153" offset="4796" length="9">
+        <text>the world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-733" offset="1072" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-748" offset="1108" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-772" offset="1142" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-793" offset="1190" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-808" offset="1243" length="2">
+        <text>us</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-940" offset="2462" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-970" offset="2627" length="2">
+        <text>us</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1180" offset="1132" length="22">
+        <text>slaves on our own land</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-661" offset="832" length="5">
+        <text>banks</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-676" offset="887" length="10">
+        <text>the people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-820" offset="1397" length="10">
+        <text>the people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-868" offset="1665" length="31">
+        <text>the people they were elected by</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-889" offset="1845" length="10">
+        <text>Our people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-697" offset="986" length="17">
+        <text>the elite bankers</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-706" offset="1009" length="10">
+        <text>tax payers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-715" offset="1034" length="18">
+        <text>the big businesses</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-724" offset="1065" length="4">
+        <text>folk</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-739" offset="1092" length="14">
+        <text>a ruling elite</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-754" offset="1116" length="4">
+        <text>some</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-778" offset="1142" length="12">
+        <text>our own land</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-799" offset="1233" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-832" offset="1496" length="20">
+        <text>our prisoners of war</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-847" offset="1542" length="28">
+        <text>those who dared to speak out</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-874" offset="1793" length="15">
+        <text>other countries</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-910" offset="1889" length="12">
+        <text>Our children</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-925" offset="2400" length="6">
+        <text>Nation</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-934" offset="2426" length="6">
+        <text>nation</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-946" offset="2575" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-961" offset="2619" length="10">
+        <text>many of us</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-976" offset="2965" length="7">
+        <text>a child</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-994" offset="3058" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-985" offset="3018" length="43">
+        <text>about 100 people who would have punched him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1003" offset="3105" length="8">
+        <text>a parent</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1021" offset="3125" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1072" offset="3572" length="8">
+        <text>a parent</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1084" offset="3592" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1012" offset="3125" length="11">
+        <text>their child</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1078" offset="3592" length="11">
+        <text>their child</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1033" offset="3182" length="59">
+        <text>parents who have tortured, starved and raped their children</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1051" offset="3227" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1096" offset="3649" length="59">
+        <text>parents who have tortured, starved and raped their children</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1102" offset="3694" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1042" offset="3227" length="14">
+        <text>their children</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1108" offset="3694" length="14">
+        <text>their children</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1063" offset="3337" length="33">
+        <text>over 100 countries that are worse</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="2838" length="7">Elipsis</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1120" offset="3804" length="33">
+        <text>over 100 countries that are worse</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-234" offset="3533" length="7">Elipsis</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1126" offset="4479" length="17">
+        <text>other governments</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-192" offset="4223" length="6">Aeolus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1135" offset="4572" length="26">
+        <text>the other evil governments</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-192" offset="4223" length="6">Aeolus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1144" offset="4745" length="5">
+        <text>earth</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1171" offset="2116" length="20">
+        <text>conspiracy theorists</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1686" offset="5050" length="10">
+        <text>protestors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1706" offset="409" length="11">
+        <text>first place</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1721" offset="953" length="16">
+        <text>huge superstores</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-787" offset="1165" length="6">
+        <text>slaves</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1777" offset="2277" length="15">
+        <text>the "evil" ones</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1831" offset="322" length="26">
+        <text>the only "evil" government</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1786" offset="4654" length="5">
+        <text>human</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-534">
+        <trigger offset="150" length="6">Leader</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-544">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-554">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-564">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1811">
+        <trigger offset="134" length="7">Iranian</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1821">
+        <trigger offset="231" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1900">
+        <trigger offset="304" length="3">our</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1910">
+        <trigger offset="758" length="3">our</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1920">
+        <trigger offset="804" length="3">Our</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1930">
+        <trigger offset="1629" length="3">Our</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1940">
+        <trigger offset="1698" length="3">Our</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1950">
+        <trigger offset="3269" length="3">our</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1960">
+        <trigger offset="3736" length="3">our</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1970">
+        <trigger offset="3909" length="3">our</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="3433" length="6">Aeolus</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1980">
+        <trigger offset="4085" length="3">our</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-210" offset="4058" length="6">Aeolus</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1990">
+        <trigger offset="4762" length="3">our</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2000">
+        <trigger offset="1845" length="3">Our</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2010">
+        <trigger offset="1889" length="3">Our</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-576">
+        <trigger offset="2235" length="3">war</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-597">
+        <trigger offset="2089" length="7">attacks</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1192">
+        <trigger offset="975" length="6">bailed</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1222">
+        <trigger offset="1197" length="5">payed</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-90" offset="116" length="6">Martyn</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1274">
+        <trigger offset="1686" length="7">elected</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1371">
+        <trigger offset="2956" length="8">slapping</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1422">
+        <trigger offset="3119" length="5">slaps</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1512">
+        <trigger offset="3586" length="5">slaps</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1452">
+        <trigger offset="3199" length="8">tortured</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1540">
+        <trigger offset="3666" length="8">tortured</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1482">
+        <trigger offset="3221" length="5">raped</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1561">
+        <trigger offset="3688" length="5">raped</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1612">
+        <trigger offset="1487" length="8">tortured</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1642">
+        <trigger offset="4996" length="9">unelected</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-282" offset="4690" length="5">Joluk</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1665">
+        <trigger offset="5040" length="6">deaths</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-282" offset="4690" length="5">Joluk</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1394">
+        <trigger offset="3050" length="7">punched</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

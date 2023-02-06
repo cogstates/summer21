@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="551d3a490000000000000001" doc_id="NYT_ENG_20131121.0250" source_type="newswire">
+  <entities>
+    <entity id="ent-8" type="ORG" specificity="specific">
+      <entity_mention id="m-27" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="258" length="14">
+        <mention_text>NEW YORK TIMES</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-39" type="PER" specificity="specific">
+      <entity_mention id="m-90" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="436" length="13">
+        <mention_text>Deval Patrick</mention_text>
+      </entity_mention>
+      <entity_mention id="m-270" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="1733" length="12">
+        <mention_text>the governor</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="1737" length="8">governor</nom_head>
+      </entity_mention>
+      <entity_mention id="m-387" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="2239" length="7">
+        <mention_text>Patrick</mention_text>
+      </entity_mention>
+      <entity_mention id="m-405" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="2385" length="12">
+        <mention_text>The governor</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="2389" length="8">governor</nom_head>
+      </entity_mention>
+      <entity_mention id="m-423" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="2475" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-429" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="2518" length="7">
+        <mention_text>Patrick</mention_text>
+      </entity_mention>
+      <entity_mention id="m-441" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="2549" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-447" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="2590" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-459" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="2682" length="7">
+        <mention_text>Patrick</mention_text>
+      </entity_mention>
+      <entity_mention id="m-531" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="3066" length="7">
+        <mention_text>Patrick</mention_text>
+      </entity_mention>
+      <entity_mention id="m-564" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="3297" length="7">
+        <mention_text>Patrick</mention_text>
+      </entity_mention>
+      <entity_mention id="m-975" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="2248" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-42" type="ORG" specificity="specific">
+      <entity_mention id="m-96" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="478" length="14">
+        <mention_text>Superior Court</mention_text>
+      </entity_mention>
+      <entity_mention id="m-417" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="2448" length="14">
+        <mention_text>Superior Court</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-45" type="PER" specificity="specific">
+      <entity_mention id="m-102" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="577" length="16">
+        <mention_text>Joseph S. Berman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-114" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="742" length="6">
+        <mention_text>Berman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-150" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="1113" length="6">
+        <mention_text>Berman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-162" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="1187" length="6">
+        <mention_text>Berman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-210" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="1504" length="6">
+        <mention_text>Berman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-222" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="1559" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-258" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="1676" length="6">
+        <mention_text>Berman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-369" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="2126" length="6">
+        <mention_text>Berman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-399" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="2304" length="6">
+        <mention_text>Berman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-411" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="2405" length="6">
+        <mention_text>Berman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-465" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="2727" length="6">
+        <mention_text>Berman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-513" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="2934" length="6">
+        <mention_text>Berman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-570" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="3356" length="6">
+        <mention_text>Berman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-771" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="4723" length="6">
+        <mention_text>Berman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-786" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="4803" length="6">
+        <mention_text>Berman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-807" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="4944" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-813" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="4976" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-819" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="5036" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-864" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="5248" length="6">
+        <mention_text>Berman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-870" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="5258" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-876" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="5318" length="10">
+        <mention_text>Joe Berman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-882" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="5365" length="6">
+        <mention_text>Berman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-906" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="436" length="23">
+        <mention_text>Deval Patrick’s nominee</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="452" length="7">nominee</nom_head>
+      </entity_mention>
+      <entity_mention id="m-912" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="564" length="11">
+        <mention_text>the nominee</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="568" length="7">nominee</nom_head>
+      </entity_mention>
+      <entity_mention id="m-942" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="1143" length="42">
+        <mention_text>A commercial litigation lawyer from Weston</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="1167" length="6">lawyer</nom_head>
+      </entity_mention>
+      <entity_mention id="m-948" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="1203" length="43">
+        <mention_text>a national commissioner of the organization</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="1214" length="12">commissioner</nom_head>
+      </entity_mention>
+      <entity_mention id="m-954" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="1263" length="54">
+        <mention_text>a member of its regional board and executive committee</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="1265" length="6">member</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1026" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="4818" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1056" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="5059" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1080" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="5376" length="118">
+        <mention_text>one of the most vocal and effective voices within the organization urging it to acknowledge the massacre as a genocide</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="5376" length="3">one</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-48" type="ORG" specificity="specific">
+      <entity_mention id="m-108" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="613" length="22">
+        <mention_text>Anti-Defamation League</mention_text>
+      </entity_mention>
+      <entity_mention id="m-120" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="801" length="16">
+        <mention_text>the organization</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="805" length="12">organization</nom_head>
+      </entity_mention>
+      <entity_mention id="m-144" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="973" length="16">
+        <mention_text>the organization</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="977" length="12">organization</nom_head>
+      </entity_mention>
+      <entity_mention id="m-168" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="1230" length="16">
+        <mention_text>the organization</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="1234" length="12">organization</nom_head>
+      </entity_mention>
+      <entity_mention id="m-192" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="1275" length="3">
+        <mention_text>its</mention_text>
+      </entity_mention>
+      <entity_mention id="m-264" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="1706" length="22">
+        <mention_text>Anti-Defamation League</mention_text>
+      </entity_mention>
+      <entity_mention id="m-345" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="2035" length="32">
+        <mention_text>a group who denied the Holocaust</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="2037" length="5">group</nom_head>
+      </entity_mention>
+      <entity_mention id="m-375" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="2147" length="22">
+        <mention_text>Anti-Defamation League</mention_text>
+      </entity_mention>
+      <entity_mention id="m-582" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="3460" length="22">
+        <mention_text>Anti-Defamation League</mention_text>
+      </entity_mention>
+      <entity_mention id="m-588" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="3516" length="16">
+        <mention_text>the organization</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="3520" length="12">organization</nom_head>
+      </entity_mention>
+      <entity_mention id="m-618" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="3690" length="16">
+        <mention_text>The organization</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="3694" length="12">organization</nom_head>
+      </entity_mention>
+      <entity_mention id="m-678" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="3899" length="16">
+        <mention_text>the organization</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="3903" length="12">organization</nom_head>
+      </entity_mention>
+      <entity_mention id="m-702" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="4166" length="22">
+        <mention_text>Anti-Defamation League</mention_text>
+      </entity_mention>
+      <entity_mention id="m-720" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="4303" length="3">
+        <mention_text>ADL</mention_text>
+      </entity_mention>
+      <entity_mention id="m-747" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="4437" length="22">
+        <mention_text>Anti-Defamation League</mention_text>
+      </entity_mention>
+      <entity_mention id="m-753" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="4347" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-759" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="4463" length="2">
+        <mention_text>We</mention_text>
+      </entity_mention>
+      <entity_mention id="m-765" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="4537" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-849" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="5180" length="22">
+        <mention_text>Anti-Defamation League</mention_text>
+      </entity_mention>
+      <entity_mention id="m-888" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="5426" length="16">
+        <mention_text>the organization</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="5430" length="12">organization</nom_head>
+      </entity_mention>
+      <entity_mention id="m-918" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="637" length="94">
+        <mention_text>a national organization dedicated to combating anti-Semitism and other forms of discrimination</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="648" length="12">organization</nom_head>
+      </entity_mention>
+      <entity_mention id="m-993" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="3539" length="3">
+        <mention_text>its</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1392" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="3645" length="2">
+        <mention_text>it</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1556" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="5450" length="2">
+        <mention_text>it</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-51" type="PER" specificity="specific">
+      <entity_mention id="m-126" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="864" length="9">
+        <mention_text>Armenians</mention_text>
+      </entity_mention>
+      <entity_mention id="m-303" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="1880" length="9">
+        <mention_text>Armenians</mention_text>
+      </entity_mention>
+      <entity_mention id="m-696" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="4066" length="9">
+        <mention_text>Armenians</mention_text>
+      </entity_mention>
+      <entity_mention id="m-714" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="4281" length="9">
+        <mention_text>Armenians</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-54" type="PER" specificity="specific">
+      <entity_mention id="m-132" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="877" length="13">
+        <mention_text>Ottoman Turks</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-57" type="PER" specificity="specific">
+      <entity_mention id="m-138" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="936" length="22">
+        <mention_text>the Armenian community</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="949" length="9">community</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-60" type="GPE" specificity="specific">
+      <entity_mention id="m-156" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="1179" length="6">
+        <mention_text>Weston</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-63" type="ORG" specificity="specific">
+      <entity_mention id="m-198" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="1354" length="22">
+        <mention_text>the Governor’s Council</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="1369" length="7">Council</nom_head>
+      </entity_mention>
+      <entity_mention id="m-393" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="2262" length="18">
+        <mention_text>Governor’s Council</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="2273" length="7">Council</nom_head>
+      </entity_mention>
+      <entity_mention id="m-546" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="3143" length="11">
+        <mention_text>the council</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="3147" length="7">council</nom_head>
+      </entity_mention>
+      <entity_mention id="m-960" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="1378" length="65">
+        <mention_text>the elected eight-member panel that approves judicial nominations</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="1403" length="5">panel</nom_head>
+      </entity_mention>
+      <entity_mention id="m-981" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="3156" length="69">
+        <mention_text>a fractious and often rebellious panel that dates to the Colonial era</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="3189" length="5">panel</nom_head>
+      </entity_mention>
+      <entity_mention id="m-2785" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="2991" length="4">
+        <mention_text>It’s</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-66" type="PER" specificity="specific">
+      <entity_mention id="m-204" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="1455" length="26">
+        <mention_text>Marilyn M. Pettito Devaney</mention_text>
+      </entity_mention>
+      <entity_mention id="m-216" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="1519" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-228" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="1584" length="7">
+        <mention_text>Devaney</mention_text>
+      </entity_mention>
+      <entity_mention id="m-309" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="1894" length="7">
+        <mention_text>Devaney</mention_text>
+      </entity_mention>
+      <entity_mention id="m-315" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="1908" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+      <entity_mention id="m-321" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="1959" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-333" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="2001" length="7">
+        <mention_text>Devaney</mention_text>
+      </entity_mention>
+      <entity_mention id="m-339" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="2017" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-354" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="2071" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-492" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="2798" length="7">
+        <mention_text>Devaney</mention_text>
+      </entity_mention>
+      <entity_mention id="m-924" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="1593" length="25">
+        <mention_text>a Democrat from Watertown</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="1595" length="8">Democrat</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-72" type="GPE" specificity="specific">
+      <entity_mention id="m-234" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="1609" length="9">
+        <mention_text>Watertown</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1578" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="1620" length="34">
+        <mention_text>home to a large Armenian community</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="1620" length="4">home</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-75" type="PER" specificity="specific">
+      <entity_mention id="m-240" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="1628" length="26">
+        <mention_text>a large Armenian community</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="1645" length="9">community</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-78" type="GPE" specificity="specific">
+      <entity_mention id="m-246" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="1636" length="8">
+        <mention_text>Armenian</mention_text>
+      </entity_mention>
+      <entity_mention id="m-252" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="940" length="8">
+        <mention_text>Armenian</mention_text>
+      </entity_mention>
+      <entity_mention id="m-576" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="3424" length="8">
+        <mention_text>Armenian</mention_text>
+      </entity_mention>
+      <entity_mention id="m-651" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="3831" length="8">
+        <mention_text>Armenian</mention_text>
+      </entity_mention>
+      <entity_mention id="m-726" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="4364" length="8">
+        <mention_text>Armenian</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-276" type="PER" specificity="specific">
+      <entity_mention id="m-33" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="324" length="6">
+        <mention_text>Hitler</mention_text>
+      </entity_mention>
+      <entity_mention id="m-279" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="1788" length="6">
+        <mention_text>Hitler</mention_text>
+      </entity_mention>
+      <entity_mention id="m-285" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="1809" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-297" type="PER" specificity="specific">
+      <entity_mention id="m-291" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="1849" length="4">
+        <mention_text>Jews</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1408" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="3820" length="6">
+        <mention_text>Jewish</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-300" type="PER" specificity="specific">
+      <entity_mention id="m-327" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="1969" length="11">
+        <mention_text>many others</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="1974" length="6">others</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-366" type="PER" specificity="specific">
+      <entity_mention id="m-453" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="2622" length="18">
+        <mention_text>Several councilors</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="2630" length="10">councilors</nom_head>
+      </entity_mention>
+      <entity_mention id="m-471" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="2699" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-483" type="PER" specificity="specific">
+      <entity_mention id="m-477" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="2759" length="2">
+        <mention_text>We</mention_text>
+      </entity_mention>
+      <entity_mention id="m-486" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="2785" length="3">
+        <mention_text>our</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-504" type="PER" specificity="specific">
+      <entity_mention id="m-498" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="2870" length="19">
+        <mention_text>Terrence W. Kennedy</mention_text>
+      </entity_mention>
+      <entity_mention id="m-507" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="2922" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-519" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="3013" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-525" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="3058" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-543" type="PER" specificity="nonspecific">
+      <entity_mention id="m-537" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="3095" length="23">
+        <mention_text>the lieutenant governor</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="3110" length="8">governor</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-561" type="PER" specificity="specific">
+      <entity_mention id="m-555" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="3239" length="17">
+        <mention_text>Timothy P. Murray</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-600" type="LOC" specificity="specific">
+      <entity_mention id="m-594" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="3543" length="11">
+        <mention_text>New England</mention_text>
+      </entity_mention>
+      <entity_mention id="m-657" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="3851" length="11">
+        <mention_text>New England</mention_text>
+      </entity_mention>
+      <entity_mention id="m-741" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="4425" length="11">
+        <mention_text>New England</mention_text>
+      </entity_mention>
+      <entity_mention id="m-843" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="5168" length="11">
+        <mention_text>New England</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-603" type="PER" specificity="specific">
+      <entity_mention id="m-606" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="3574" length="15">
+        <mention_text>Andrew H. Tarsy</mention_text>
+      </entity_mention>
+      <entity_mention id="m-612" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="3597" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-672" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="3874" length="5">
+        <mention_text>Tarsy</mention_text>
+      </entity_mention>
+      <entity_mention id="m-987" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="3539" length="33">
+        <mention_text>its New England regional director</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="3564" length="8">director</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-630" type="GPE" specificity="specific">
+      <entity_mention id="m-624" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="3754" length="6">
+        <mention_text>Israel</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-633" type="GPE" specificity="specific">
+      <entity_mention id="m-636" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="3778" length="6">
+        <mention_text>Turkey</mention_text>
+      </entity_mention>
+      <entity_mention id="m-999" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="3786" length="18">
+        <mention_text>a rare Muslim ally</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="3800" length="4">ally</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-648" type="PER" specificity="specific">
+      <entity_mention id="m-642" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="3815" length="47">
+        <mention_text>Many Jewish and Armenian leaders in New England</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="3840" length="7">leaders</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-684" type="PER" specificity="specific">
+      <entity_mention id="m-690" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="3996" length="17">
+        <mention_text>Abraham H. Foxman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1014" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="3973" length="21">
+        <mention_text>the national director</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="3986" length="8">director</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-687" type="PER" specificity="specific">
+      <entity_mention id="m-708" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="4166" length="30">
+        <mention_text>Anti-Defamation League leaders</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="4189" length="7">leaders</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-738" type="PER" specificity="specific">
+      <entity_mention id="m-732" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="4390" length="17">
+        <mention_text>Robert O. Trestan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1020" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="4409" length="50">
+        <mention_text>director of the New England Anti-Defamation League</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="4409" length="8">director</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-798" type="PER" specificity="specific">
+      <entity_mention id="m-792" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="4847" length="21">
+        <mention_text>Democratic candidates</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="4858" length="10">candidates</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-831" type="FAC" specificity="specific">
+      <entity_mention id="m-825" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="5093" length="14">
+        <mention_text>Guantanamo Bay</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-834" type="PER" specificity="specific">
+      <entity_mention id="m-837" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="5118" length="18">
+        <mention_text>Jeffrey S. Robbins</mention_text>
+      </entity_mention>
+      <entity_mention id="m-855" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="5138" length="64">
+        <mention_text>the chair of the board of the New England Anti-Defamation League</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="5155" length="5">board</nom_head>
+      </entity_mention>
+      <entity_mention id="m-894" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="5496" length="7">
+        <mention_text>Robbins</mention_text>
+      </entity_mention>
+      <entity_mention id="m-900" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="5608" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-936" type="ORG" specificity="specific">
+      <entity_mention id="m-930" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="1595" length="8">
+        <mention_text>Democrat</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1494" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="4847" length="10">
+        <mention_text>Democratic</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-939" type="FAC" specificity="specific">
+      <entity_mention id="m-84" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="390" length="11">
+        <mention_text>State House</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-972" type="PER" specificity="nonspecific">
+      <entity_mention id="m-966" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="1862" length="3">
+        <mention_text>Who</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1011" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1005" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="3793" length="6">
+        <mention_text>Muslim</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1032" type="PER" specificity="specific">
+      <entity_mention id="m-435" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="2531" length="14">
+        <mention_text>the councilors</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="2535" length="10">councilors</nom_head>
+      </entity_mention>
+      <entity_mention id="m-777" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="4770" length="10">
+        <mention_text>Councilors</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="4770" length="10">Councilors</nom_head>
+      </entity_mention>
+      <entity_mention id="m-801" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="4910" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1035" type="PER" specificity="specific">
+      <entity_mention id="m-360" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="2089" length="24">
+        <mention_text>Several other councilors</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="2103" length="10">councilors</nom_head>
+      </entity_mention>
+      <entity_mention id="m-381" noun_type="PRO" source="NYT_ENG_20131121.0250" offset="2199" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1044" type="PER" specificity="specific">
+      <entity_mention id="m-1038" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="5214" length="76">
+        <mention_text>those who testified in support of Berman at his nomination hearing last week</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="5214" length="5">those</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1053" type="PER" specificity="specific">
+      <entity_mention id="m-1047" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="5012" length="12">
+        <mention_text>at least one</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="5021" length="3">one</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1068" type="PER" specificity="specific">
+      <entity_mention id="m-1062" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="5079" length="28">
+        <mention_text>a prisoner at Guantanamo Bay</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="5081" length="8">prisoner</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1077" type="PER" specificity="specific">
+      <entity_mention id="m-1071" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="5383" length="111">
+        <mention_text>the most vocal and effective voices within the organization urging it to acknowledge the massacre as a genocide</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="5412" length="6">voices</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1092" type="GPE" specificity="specific">
+      <entity_mention id="m-1086" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="258" length="8">
+        <mention_text>NEW YORK</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1121" type="GPE" specificity="specific">
+      <entity_mention id="m-1115" noun_type="NAM" source="NYT_ENG_20131121.0250" offset="877" length="7">
+        <mention_text>Ottoman</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1200" type="ORG" specificity="specific">
+      <entity_mention id="m-1194" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="1275" length="42">
+        <mention_text>its regional board and executive committee</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="1288" length="5">board</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1520" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="5151" length="51">
+        <mention_text>the board of the New England Anti-Defamation League</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="5155" length="5">board</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1209" type="ORG" specificity="specific">
+      <entity_mention id="m-1203" noun_type="NOM" source="NYT_ENG_20131121.0250" offset="1275" length="42">
+        <mention_text>its regional board and executive committee</mention_text>
+        <nom_head source="NYT_ENG_20131121.0250" offset="1308" length="9">committee</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-1113" source="NYT_ENG_20131121.0250" offset="427" length="8" type="title">Governor</filler>
+    <filler id="f-1152" source="NYT_ENG_20131121.0250" offset="1167" length="6" type="title">lawyer</filler>
+    <filler id="f-1172" source="NYT_ENG_20131121.0250" offset="1214" length="12" type="title">commissioner</filler>
+    <filler id="f-1250" source="NYT_ENG_20131121.0250" offset="1445" length="9" type="title">Councilor</filler>
+    <filler id="f-1360" source="NYT_ENG_20131121.0250" offset="2860" length="9" type="title">Councilor</filler>
+    <filler id="f-1380" source="NYT_ENG_20131121.0250" offset="3269" length="19" type="title">lieutenant governor</filler>
+    <filler id="f-1452" source="NYT_ENG_20131121.0250" offset="4409" length="8" type="title">director</filler>
+    <filler id="f-1472" source="NYT_ENG_20131121.0250" offset="3986" length="8" type="title">director</filler>
+    <filler id="f-1482" source="NYT_ENG_20131121.0250" offset="3564" length="8" type="title">director</filler>
+    <filler id="f-2468" source="NYT_ENG_20131121.0250" offset="1331" length="9" type="time" nom_time="2013-11-20">Wednesday</filler>
+    <filler id="f-2071" source="NYT_ENG_20131121.0250" offset="3269" length="19" type="title">lieutenant governor</filler>
+    <filler id="f-2080" source="NYT_ENG_20131121.0250" offset="3292" length="3" type="time" nom_time="2013-05-XX">May</filler>
+    <filler id="f-2108" source="NYT_ENG_20131121.0250" offset="3269" length="19" type="title">lieutenant governor</filler>
+    <filler id="f-2180" source="NYT_ENG_20131121.0250" offset="3510" length="4" type="time" nom_time="2007-XX-XX">2007</filler>
+    <filler id="f-2231" source="NYT_ENG_20131121.0250" offset="4037" length="4" type="time" nom_time="2007-XX-XX">2007</filler>
+    <filler id="f-2738" source="NYT_ENG_20131121.0250" offset="4712" length="9" type="time" nom_time="2013-11-20">Wednesday</filler>
+    <filler id="f-2333" source="NYT_ENG_20131121.0250" offset="4835" length="8" type="money">$110,000</filler>
+    <filler id="f-2773" source="NYT_ENG_20131121.0250" offset="1214" length="12" type="title">commissioner</filler>
+    <filler id="f-2780" source="NYT_ENG_20131121.0250" offset="1253" length="4" type="time" nom_time="2006-XX-XX">2006</filler>
+  </fillers>
+  <relations>
+    <relation id="r-1340" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-1095" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-27" role="org">NEW YORK TIMES</rel_arg1>
+        <rel_arg2 entity_id="ent-1092" entity_mention_id="m-1086" role="loc">NEW YORK</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1341" type="personalsocial" subtype="role">
+      <relation_mention id="relm-1105" realis="true">
+        <rel_arg1 entity_id="ent-39" entity_mention_id="m-90" role="per">Deval Patrick</rel_arg1>
+        <rel_arg2 filler_id="f-1113" role="role">Governor</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1342" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1124" realis="true">
+        <rel_arg1 entity_id="ent-54" entity_mention_id="m-132" role="per">Ottoman Turks</rel_arg1>
+        <rel_arg2 entity_id="ent-1121" entity_mention_id="m-1115" role="entity">Ottoman</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1343" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1134" realis="true">
+        <rel_arg1 entity_id="ent-57" entity_mention_id="m-138" role="per">the Armenian community</rel_arg1>
+        <rel_arg2 entity_id="ent-78" entity_mention_id="m-252" role="entity">Armenian</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="940" length="8">Armenian</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1344" type="personalsocial" subtype="role">
+      <relation_mention id="relm-1144" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-942" role="per">A commercial litigation lawyer from Weston</rel_arg1>
+        <rel_arg2 filler_id="f-1152" role="role">lawyer</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-1164" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-948" role="per">a national commissioner of the organization</rel_arg1>
+        <rel_arg2 filler_id="f-1172" role="role">commissioner</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="1198" length="4">been</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1345" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1154" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-942" role="per">A commercial litigation lawyer from Weston</rel_arg1>
+        <rel_arg2 entity_id="ent-60" entity_mention_id="m-156" role="entity">Weston</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="1174" length="4">from</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1346" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-1174" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-948" role="leader">a national commissioner of the organization</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-168" role="entity">the organization</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="1214" length="12">commissioner</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1347" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1184" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-954" role="employeemember">a member of its regional board and executive committee</rel_arg1>
+        <rel_arg2 entity_id="ent-1200" entity_mention_id="m-1194" role="org">its regional board and executive committee</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="1265" length="6">member</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1348" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1212" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-954" role="employeemember">a member of its regional board and executive committee</rel_arg1>
+        <rel_arg2 entity_id="ent-1209" entity_mention_id="m-1203" role="org">its regional board and executive committee</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="1265" length="6">member</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1349" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-1222" realis="true">
+        <rel_arg1 entity_id="ent-1200" entity_mention_id="m-1194" role="suborg">its regional board and executive committee</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-192" role="parent">its</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-1536" realis="true">
+        <rel_arg1 entity_id="ent-1200" entity_mention_id="m-1520" role="suborg">the board of the New England Anti-Defamation League</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-849" role="parent">Anti-Defamation League</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="5161" length="2">of</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1350" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-1232" realis="true">
+        <rel_arg1 entity_id="ent-1209" entity_mention_id="m-1203" role="suborg">its regional board and executive committee</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-192" role="parent">its</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1351" type="personalsocial" subtype="role">
+      <relation_mention id="relm-1242" realis="true">
+        <rel_arg1 entity_id="ent-66" entity_mention_id="m-204" role="per">Marilyn M. Pettito Devaney</rel_arg1>
+        <rel_arg2 filler_id="f-1250" role="role">Councilor</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1352" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1252" realis="true">
+        <rel_arg1 entity_id="ent-66" entity_mention_id="m-924" role="employeemember">a Democrat from Watertown</rel_arg1>
+        <rel_arg2 entity_id="ent-936" entity_mention_id="m-930" role="org">Democrat</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1353" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1262" realis="true">
+        <rel_arg1 entity_id="ent-66" entity_mention_id="m-924" role="per">a Democrat from Watertown</rel_arg1>
+        <rel_arg2 entity_id="ent-72" entity_mention_id="m-234" role="entity">Watertown</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="1604" length="4">from</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1354" type="physical" subtype="resident">
+      <relation_mention id="relm-1272" realis="true">
+        <rel_arg1 entity_id="ent-75" entity_mention_id="m-240" role="per">a large Armenian community</rel_arg1>
+        <rel_arg2 entity_id="ent-72" entity_mention_id="m-234" role="loc">Watertown</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="1620" length="4">home</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1355" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1282" realis="true">
+        <rel_arg1 entity_id="ent-75" entity_mention_id="m-240" role="per">a large Armenian community</rel_arg1>
+        <rel_arg2 entity_id="ent-78" entity_mention_id="m-246" role="entity">Armenian</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="1636" length="8">Armenian</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1356" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1292" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-258" role="employeemember">Berman</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-264" role="org">Anti-Defamation League</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="1685" length="11">affiliation</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1322" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-912" role="employeemember">the nominee</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-108" role="org">Anti-Defamation League</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="543" length="10">leadership</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1357" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1302" realis="false">
+        <rel_arg1 entity_id="ent-66" entity_mention_id="m-339" role="employeemember">she</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-345" role="org">a group who denied the Holocaust</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="2021" length="8">belonged</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1358" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-1312" realis="true">
+        <rel_arg1 entity_id="ent-39" entity_mention_id="m-975" role="leader">who</rel_arg1>
+        <rel_arg2 entity_id="ent-63" entity_mention_id="m-393" role="entity">Governor’s Council</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="2252" length="9">chairsthe</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1359" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1332" realis="false">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-906" role="employeemember">Deval Patrick’s nominee</rel_arg1>
+        <rel_arg2 entity_id="ent-42" entity_mention_id="m-96" role="org">Superior Court</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="471" length="2">on</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1342" realis="false">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-411" role="employeemember">Berman</rel_arg1>
+        <rel_arg2 entity_id="ent-42" entity_mention_id="m-417" role="org">Superior Court</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="2441" length="2">on</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1360" type="personalsocial" subtype="role">
+      <relation_mention id="relm-1352" realis="true">
+        <rel_arg1 entity_id="ent-504" entity_mention_id="m-498" role="per">Terrence W. Kennedy</rel_arg1>
+        <rel_arg2 filler_id="f-1360" role="role">Councilor</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1361" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-1362" realis="false">
+        <rel_arg1 entity_id="ent-543" entity_mention_id="m-537" role="leader">the lieutenant governor</rel_arg1>
+        <rel_arg2 entity_id="ent-63" entity_mention_id="m-546" role="entity">the council</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="3125" length="5">chair</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1362" type="personalsocial" subtype="role">
+      <relation_mention id="relm-1372" realis="true">
+        <rel_arg1 entity_id="ent-561" entity_mention_id="m-555" role="per">Timothy P. Murray</rel_arg1>
+        <rel_arg2 filler_id="f-1380" role="role">lieutenant governor</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="3266" length="2">as</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1363" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-1382" realis="true">
+        <rel_arg1 entity_id="ent-603" entity_mention_id="m-987" role="leader">its New England regional director</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-993" role="entity">its</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="3564" length="8">director</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1364" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1414" realis="true">
+        <rel_arg1 entity_id="ent-648" entity_mention_id="m-642" role="entity">Many Jewish and Armenian leaders in New England</rel_arg1>
+        <rel_arg2 entity_id="ent-600" entity_mention_id="m-657" role="loc">New England</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="3848" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1365" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-1424" realis="true">
+        <rel_arg1 entity_id="ent-684" entity_mention_id="m-1014" role="leader">the national director</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-678" role="entity">the organization</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="3986" length="8">director</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1366" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-1434" realis="true">
+        <rel_arg1 entity_id="ent-48" entity_mention_id="m-747" role="org">Anti-Defamation League</rel_arg1>
+        <rel_arg2 entity_id="ent-600" entity_mention_id="m-741" role="loc">New England</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-1546" realis="true">
+        <rel_arg1 entity_id="ent-48" entity_mention_id="m-849" role="org">Anti-Defamation League</rel_arg1>
+        <rel_arg2 entity_id="ent-600" entity_mention_id="m-843" role="loc">New England</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1367" type="personalsocial" subtype="role">
+      <relation_mention id="relm-1444" realis="true">
+        <rel_arg1 entity_id="ent-738" entity_mention_id="m-1020" role="per">director of the New England Anti-Defamation League</rel_arg1>
+        <rel_arg2 filler_id="f-1452" role="role">director</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1368" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-1454" realis="true">
+        <rel_arg1 entity_id="ent-687" entity_mention_id="m-708" role="leader">Anti-Defamation League leaders</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-702" role="entity">Anti-Defamation League</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="4189" length="7">leaders</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1369" type="personalsocial" subtype="role">
+      <relation_mention id="relm-1464" realis="true">
+        <rel_arg1 entity_id="ent-684" entity_mention_id="m-1014" role="per">the national director</rel_arg1>
+        <rel_arg2 filler_id="f-1472" role="role">director</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1370" type="personalsocial" subtype="role">
+      <relation_mention id="relm-1474" realis="true">
+        <rel_arg1 entity_id="ent-603" entity_mention_id="m-987" role="per">its New England regional director</rel_arg1>
+        <rel_arg2 filler_id="f-1482" role="role">director</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1371" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-1484" realis="true">
+        <rel_arg1 entity_id="ent-738" entity_mention_id="m-1020" role="leader">director of the New England Anti-Defamation League</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-747" role="entity">Anti-Defamation League</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="4409" length="8">director</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1372" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1500" realis="true">
+        <rel_arg1 entity_id="ent-798" entity_mention_id="m-792" role="employeemember">Democratic candidates</rel_arg1>
+        <rel_arg2 entity_id="ent-936" entity_mention_id="m-1494" role="org">Democratic</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1373" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1510" realis="true">
+        <rel_arg1 entity_id="ent-1068" entity_mention_id="m-1062" role="entity">a prisoner at Guantanamo Bay</rel_arg1>
+        <rel_arg2 entity_id="ent-831" entity_mention_id="m-825" role="loc">Guantanamo Bay</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="5090" length="2">at</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1374" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-1526" realis="true">
+        <rel_arg1 entity_id="ent-834" entity_mention_id="m-855" role="leader">the chair of the board of the New England Anti-Defamation League</rel_arg1>
+        <rel_arg2 entity_id="ent-1200" entity_mention_id="m-1520" role="entity">the board of the New England Anti-Defamation League</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="5142" length="5">chair</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1375" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1568" realis="true">
+        <rel_arg1 entity_id="ent-1077" entity_mention_id="m-1071" role="employeemember">the most vocal and effective voices within the organization urging it to acknowledge the massacre as a genocide</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-888" role="org">the organization</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="5419" length="6">within</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1376" type="personalsocial" subtype="business">
+      <relation_mention id="relm-2791" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-1056" role="per">he</rel_arg1>
+        <rel_arg2 entity_id="ent-1068" entity_mention_id="m-1062" role="per">a prisoner at Guantanamo Bay</rel_arg2>
+        <trigger source="NYT_ENG_20131121.0250" offset="5067" length="11">represented</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-25">
+      <event_mention id="em-1828" type="contact" subtype="meet" realis="actual" audience="twoway" formality="formal" medium="inperson" schedule="canttell">
+        <trigger source="NYT_ENG_20131121.0250" offset="1343" length="7">meeting</trigger>
+        <em_arg entity_id="ent-63" entity_mention_id="m-198" role="entity" realis="true">the Governor’s Council</em_arg>
+        <em_arg filler_id="f-2468" role="time" realis="true">Wednesday</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1647">
+      <event_mention id="em-1626" type="personnel" subtype="nominate" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="568" length="7">nominee</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-102" role="person" realis="true">Joseph S. Berman</em_arg>
+      </event_mention>
+      <event_mention id="em-1649" type="personnel" subtype="nominate" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="751" length="10">nomination</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-114" role="person" realis="true">Berman</em_arg>
+      </event_mention>
+      <event_mention id="em-1670" type="personnel" subtype="nominate" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="452" length="7">nominee</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-906" role="person" realis="true">Deval Patrick’s nominee</em_arg>
+        <em_arg entity_id="ent-39" entity_mention_id="m-90" role="agent" realis="true">Deval Patrick</em_arg>
+      </event_mention>
+      <event_mention id="em-1805" type="personnel" subtype="nominate" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="1122" length="10">nomination</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-150" role="person" realis="true">Berman</em_arg>
+      </event_mention>
+      <event_mention id="em-1870" type="personnel" subtype="nominate" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="1563" length="10">nomination</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-222" role="person" realis="true">his</em_arg>
+      </event_mention>
+      <event_mention id="em-1958" type="personnel" subtype="nominate" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="2313" length="10">nomination</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-399" role="person" realis="true">Berman</em_arg>
+      </event_mention>
+      <event_mention id="em-1979" type="personnel" subtype="nominate" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="2736" length="10">nomination</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-465" role="person" realis="true">Berman</em_arg>
+      </event_mention>
+      <event_mention id="em-2000" type="personnel" subtype="nominate" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="2968" length="10">nomination</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-513" role="person" realis="true">Berman</em_arg>
+      </event_mention>
+      <event_mention id="em-2111" type="personnel" subtype="nominate" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="3365" length="10">nomination</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-570" role="person" realis="true">Berman</em_arg>
+      </event_mention>
+      <event_mention id="em-2336" type="personnel" subtype="nominate" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="4948" length="10">nomination</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-807" role="person" realis="true">his</em_arg>
+      </event_mention>
+      <event_mention id="em-2357" type="personnel" subtype="nominate" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="5040" length="10">nomination</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-819" role="person" realis="true">his</em_arg>
+      </event_mention>
+      <event_mention id="em-2401" type="personnel" subtype="nominate" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="5262" length="10">nomination</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-870" role="person" realis="true">his</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1733">
+      <event_mention id="em-1705" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="851" length="9">slaughter</trigger>
+        <em_arg entity_id="ent-51" entity_mention_id="m-126" role="target" realis="true">Armenians</em_arg>
+        <em_arg entity_id="ent-54" entity_mention_id="m-132" role="attacker" realis="true">Ottoman Turks</em_arg>
+      </event_mention>
+      <event_mention id="em-2234" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="4054" length="8">massacre</trigger>
+        <em_arg entity_id="ent-51" entity_mention_id="m-696" role="target" realis="true">Armenians</em_arg>
+      </event_mention>
+      <event_mention id="em-2501" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="3433" length="8">genocide</trigger>
+        <em_arg entity_id="ent-78" entity_mention_id="m-576" role="target" realis="true">Armenian</em_arg>
+      </event_mention>
+      <event_mention id="em-2692" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="4373" length="8">genocide</trigger>
+        <em_arg entity_id="ent-78" entity_mention_id="m-726" role="place" realis="true">Armenian</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1912">
+      <event_mention id="em-1891" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="1833" length="11">exterminate</trigger>
+        <em_arg entity_id="ent-297" entity_mention_id="m-291" role="target" realis="true">Jews</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1956">
+      <event_mention id="em-1935" type="personnel" subtype="endposition" realis="other">
+        <trigger source="NYT_ENG_20131121.0250" offset="2081" length="6">resign</trigger>
+        <em_arg entity_id="ent-66" entity_mention_id="m-354" role="person" realis="true">she</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2042">
+      <event_mention id="em-2021" type="contact" subtype="meet" realis="actual" audience="twoway" formality="formal" medium="inperson" schedule="canttell">
+        <trigger source="NYT_ENG_20131121.0250" offset="3131" length="8">meetings</trigger>
+        <em_arg entity_id="ent-543" entity_mention_id="m-537" role="entity" realis="true">the lieutenant governor</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2065">
+      <event_mention id="em-2044" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="3257" length="8">resigned</trigger>
+        <em_arg entity_id="ent-561" entity_mention_id="m-555" role="person" realis="true">Timothy P. Murray</em_arg>
+        <em_arg filler_id="f-2071" role="position" realis="true">lieutenant governor</em_arg>
+        <em_arg filler_id="f-2080" role="time" realis="true">May</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2074">
+      <event_mention id="em-2083" type="personnel" subtype="startposition" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="3316" length="4">fill</trigger>
+        <em_arg entity_id="ent-39" entity_mention_id="m-564" role="person" realis="true">Patrick</em_arg>
+        <em_arg filler_id="f-2108" role="position" realis="true">lieutenant governor</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2132">
+      <event_mention id="em-2134" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="3533" length="5">fired</trigger>
+        <em_arg entity_id="ent-48" entity_mention_id="m-588" role="entity" realis="true">the organization</em_arg>
+        <em_arg entity_id="ent-603" entity_mention_id="m-987" role="person" realis="true">its New England regional director</em_arg>
+        <em_arg entity_id="ent-600" entity_mention_id="m-594" role="place" realis="true">New England</em_arg>
+        <em_arg filler_id="f-2180" role="time" realis="true">2007</em_arg>
+      </event_mention>
+      <event_mention id="em-2183" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="3882" length="6">firing</trigger>
+        <em_arg entity_id="ent-603" entity_mention_id="m-672" role="person" realis="true">Tarsy</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2204">
+      <event_mention id="em-2206" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="formal" medium="notinperson" schedule="canttell">
+        <trigger source="NYT_ENG_20131121.0250" offset="4015" length="18">issued a statement</trigger>
+        <em_arg entity_id="ent-684" entity_mention_id="m-690" role="entity" realis="true">Abraham H. Foxman</em_arg>
+        <em_arg filler_id="f-2231" role="time" realis="true">2007</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2297">
+      <event_mention id="em-2276" type="contact" subtype="correspondence" realis="actual" audience="twoway" formality="canttell" medium="notinperson" schedule="canttell">
+        <trigger source="NYT_ENG_20131121.0250" offset="4703" length="5">phone</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-771" role="entity" realis="true">Berman</em_arg>
+        <em_arg filler_id="f-2738" role="time" realis="true">Wednesday</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2299">
+      <event_mention id="em-2301" type="transaction" subtype="transfermoney" realis="actual" ways="voluntary">
+        <trigger source="NYT_ENG_20131121.0250" offset="4821" length="7">donated</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-1026" role="giver" realis="true">he</em_arg>
+        <em_arg entity_id="ent-798" entity_mention_id="m-792" role="recipient" realis="true">Democratic candidates</em_arg>
+        <em_arg filler_id="f-2333" role="money" realis="true">$110,000</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2399">
+      <event_mention id="em-2378" type="contact" subtype="meet" realis="actual" audience="twoway" formality="formal" medium="inperson" schedule="planned">
+        <trigger source="NYT_ENG_20131121.0250" offset="5224" length="9">testified</trigger>
+        <em_arg entity_id="ent-1044" entity_mention_id="m-1038" role="entity" realis="true">those who testified in support of Berman at his nomination hearing last week</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2499">
+      <event_mention id="em-2471" type="contact" subtype="contact" realis="actual" audience="canttell" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20131121.0250" offset="2526" length="4">told</trigger>
+        <em_arg entity_id="ent-39" entity_mention_id="m-429" role="entity" realis="true">Patrick</em_arg>
+        <em_arg entity_id="ent-1032" entity_mention_id="m-435" role="entity" realis="true">the councilors</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2783">
+      <event_mention id="em-2741" type="personnel" subtype="startposition" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="1247" length="5">since</trigger>
+        <em_arg entity_id="ent-48" entity_mention_id="m-168" role="entity" realis="true">the organization</em_arg>
+        <em_arg entity_id="ent-45" entity_mention_id="m-948" role="person" realis="true">a national commissioner of the organization</em_arg>
+        <em_arg filler_id="f-2773" role="position" realis="true">commissioner</em_arg>
+        <em_arg filler_id="f-2780" role="time" realis="true">2006</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2801">
+      <event_mention id="em-1735" type="life" subtype="die" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="851" length="9">slaughter</trigger>
+        <em_arg entity_id="ent-51" entity_mention_id="m-126" role="victim" realis="true">Armenians</em_arg>
+        <em_arg entity_id="ent-54" entity_mention_id="m-132" role="agent" realis="true">Ottoman Turks</em_arg>
+      </event_mention>
+      <event_mention id="em-2255" type="life" subtype="die" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="4054" length="8">massacre</trigger>
+        <em_arg entity_id="ent-51" entity_mention_id="m-696" role="victim" realis="true">Armenians</em_arg>
+      </event_mention>
+      <event_mention id="em-2522" type="life" subtype="die" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="3433" length="8">genocide</trigger>
+        <em_arg entity_id="ent-78" entity_mention_id="m-576" role="place" realis="true">Armenian</em_arg>
+      </event_mention>
+      <event_mention id="em-2713" type="life" subtype="die" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="4373" length="8">genocide</trigger>
+        <em_arg entity_id="ent-78" entity_mention_id="m-726" role="place" realis="true">Armenian</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2803">
+      <event_mention id="em-1914" type="life" subtype="die" realis="actual">
+        <trigger source="NYT_ENG_20131121.0250" offset="1833" length="11">exterminate</trigger>
+        <em_arg entity_id="ent-297" entity_mention_id="m-291" role="victim" realis="true">Jews</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

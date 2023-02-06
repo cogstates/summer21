@@ -1,0 +1,1529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56ce1d520000000000000119">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-810">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-78" offset="118" length="7">MarcATL</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-820">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-78" offset="118" length="7">MarcATL</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-830">
+        <trigger offset="2663" length="3">for</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-390" offset="1304" length="14">American Horse</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1421">
+        <trigger offset="3712" length="3">for</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-306" offset="85" length="10">Two Thumbs</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-840">
+        <trigger offset="2671" length="6">family</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-390" offset="1304" length="14">American Horse</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1453">
+        <trigger offset="3720" length="6">family</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-408" offset="2785" length="14">American Horse</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-850">
+        <trigger offset="6058" length="10">colleagues</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1318">
+        <trigger offset="5781" length="3">kin</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-462" offset="5719" length="18">Zora Neale Hurston</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-860">
+        <trigger offset="381" length="8">arrested</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-78" offset="118" length="7">MarcATL</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-264" offset="263" length="16">
+            <text>George Zimmerman</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-78" offset="118" length="7">MarcATL</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-881">
+        <trigger offset="1708" length="8">arrested</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-132" offset="1445" length="7">MarcATL</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-282" offset="1590" length="16">
+            <text>George Zimmerman</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-132" offset="1445" length="7">MarcATL</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-953">
+        <trigger offset="714" length="6">killed</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-306" offset="85" length="10">Two Thumbs</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-270" offset="697" length="9">
+            <text>Zimmerman</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-306" offset="85" length="10">Two Thumbs</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-999">
+        <trigger offset="2041" length="6">killed</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-324" offset="1412" length="10">Two Thumbs</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-276" offset="2024" length="9">
+            <text>Zimmerman</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-324" offset="1412" length="10">Two Thumbs</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1085">
+        <trigger offset="3090" length="6">killed</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-342" offset="2852" length="10">Two Thumbs</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-294" offset="3073" length="9">
+            <text>Zimmerman</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-342" offset="2852" length="10">Two Thumbs</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-976">
+        <trigger offset="714" length="6">killed</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-306" offset="85" length="10">Two Thumbs</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-270" offset="697" length="9">
+            <text>Zimmerman</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-306" offset="85" length="10">Two Thumbs</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1020">
+        <trigger offset="2041" length="6">killed</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-324" offset="1412" length="10">Two Thumbs</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-276" offset="2024" length="9">
+            <text>Zimmerman</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-324" offset="1412" length="10">Two Thumbs</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1106">
+        <trigger offset="3090" length="6">killed</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-342" offset="2852" length="10">Two Thumbs</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-294" offset="3073" length="9">
+            <text>Zimmerman</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-342" offset="2852" length="10">Two Thumbs</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1062">
+        <trigger offset="2627" length="11">invterviews</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-390" offset="1304" length="14">American Horse</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-516" offset="2649" length="42">
+            <text>the lawyer(s) for the family of the victim</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-390" offset="1304" length="14">American Horse</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1400">
+        <trigger offset="3676" length="11">invterviews</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-408" offset="2785" length="14">American Horse</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-516" offset="2649" length="42">
+            <text>the lawyer(s) for the family of the victim</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-408" offset="2785" length="14">American Horse</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-72" offset="14" length="7">
+        <text>MarcATL</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-78" offset="118" length="7">
+        <text>MarcATL</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-84" offset="528" length="14">
+        <text>ya racist fuck</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-306" offset="85" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-90" offset="618" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-306" offset="85" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-96" offset="676" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-306" offset="85" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-102" offset="1121" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-108" offset="1382" length="7">
+        <text>MarcATL</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-114" offset="1855" length="14">
+        <text>ya racist fuck</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-324" offset="1412" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-120" offset="2003" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-324" offset="1412" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-126" offset="1945" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-324" offset="1412" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-132" offset="1445" length="7">
+        <text>MarcATL</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-138" offset="2480" length="4">
+        <text>Your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-144" offset="2448" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-150" offset="2822" length="7">
+        <text>MarcATL</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-156" offset="2714" length="7">
+        <text>MarcATL</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-162" offset="2994" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-342" offset="2852" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-168" offset="2904" length="14">
+        <text>ya racist fuck</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-342" offset="2852" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-174" offset="3052" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-342" offset="2852" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-180" offset="3497" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="3529" length="4">
+        <text>Your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-192" offset="4124" length="7">
+        <text>MarcATL</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-198" offset="4761" length="7">
+        <text>MarcATL</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-204" offset="4827" length="7">
+        <text>MarcATL</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-210" offset="5157" length="6">
+        <text>Marccy</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4791" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-216" offset="5181" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4791" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-222" offset="5152" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4791" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-228" offset="6272" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4791" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-234" offset="6116" length="6">
+        <text>Marccy</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4791" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-240" offset="6097" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4791" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-246" offset="6172" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4791" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-252" offset="5349" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-258" offset="251" length="10">
+        <text>the killer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-264" offset="263" length="16">
+        <text>George Zimmerman</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-270" offset="697" length="9">
+        <text>Zimmerman</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-96" offset="676" length="3">you</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-306" offset="85" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-276" offset="2024" length="9">
+        <text>Zimmerman</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-120" offset="2003" length="3">you</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-324" offset="1412" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-282" offset="1590" length="16">
+        <text>George Zimmerman</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-288" offset="1578" length="10">
+        <text>the killer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-294" offset="3073" length="9">
+        <text>Zimmerman</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-174" offset="3052" length="3">you</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-342" offset="2852" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-300" offset="6280" length="16">
+        <text>George Zimmerman</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1379" offset="6300" length="17">
+        <text>'white ' Hispanic</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-306" offset="85" length="10">
+        <text>Two Thumbs</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-312" offset="599" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-318" offset="722" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-324" offset="1412" length="10">
+        <text>Two Thumbs</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-330" offset="1926" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-336" offset="2049" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-342" offset="2852" length="10">
+        <text>Two Thumbs</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-348" offset="3098" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-354" offset="2975" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-360" offset="403" length="25">
+        <text>their actual news anchors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-366" offset="1730" length="25">
+        <text>their actual news anchors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-372" offset="451" length="13">
+        <text>their pundits</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-378" offset="1778" length="13">
+        <text>their pundits</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-384" offset="1164" length="11">
+        <text>paulitician</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-390" offset="1304" length="14">
+        <text>American Horse</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-396" offset="2555" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-402" offset="2518" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-408" offset="2785" length="14">
+        <text>American Horse</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-414" offset="3604" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-420" offset="3567" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-426" offset="3808" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-432" offset="2681" length="10">
+        <text>the victim</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-438" offset="3730" length="10">
+        <text>the victim</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-444" offset="3853" length="8">
+        <text>peach174</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-450" offset="4195" length="8">
+        <text>peach174</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-456" offset="4640" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-462" offset="5719" length="18">
+        <text>Zora Neale Hurston</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-468" offset="5830" length="7">
+        <text>Hurston</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-474" offset="5842" length="59">
+        <text>a Republican who was generally sympathetic to the Old Right</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-480" offset="5958" length="3">
+        <text>She</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-486" offset="6054" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1481" offset="5906" length="50">
+        <text>a fan of Booker T. Washington's self-help politics</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-492" offset="5915" length="20">
+        <text>Booker T. Washington</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-498" offset="4684" length="13">
+        <text>PoliticalChic</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-504" offset="4791" length="13">
+        <text>PoliticalChic</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-510" offset="5352" length="4">
+        <text>miss</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-516" offset="2649" length="42">
+        <text>the lawyer(s) for the family of the victim</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-522" offset="3698" length="42">
+        <text>the lawyer(s) for the family of the victim</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-528" offset="2667" length="24">
+        <text>the family of the victim</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-534" offset="3716" length="24">
+        <text>the family of the victim</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-546" offset="1226" length="13">
+        <text>Black Panther</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-384" offset="1164" length="11">paulitician</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-552" offset="178" length="7">
+        <text>FOXNEWS</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-558" offset="136" length="7">
+        <text>FOXNEWS</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-564" offset="403" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-570" offset="451" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-576" offset="489" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-306" offset="85" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-582" offset="548" length="3">
+        <text>FOX</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-306" offset="85" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-588" offset="773" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-72" offset="14" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-594" offset="808" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-72" offset="14" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-600" offset="918" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-72" offset="14" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-606" offset="1000" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-72" offset="14" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-612" offset="1025" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-72" offset="14" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-618" offset="1104" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-72" offset="14" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-624" offset="1463" length="7">
+        <text>FOXNEWS</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-630" offset="1505" length="7">
+        <text>FOXNEWS</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-636" offset="1730" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-642" offset="1778" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-648" offset="1816" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-324" offset="1412" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-654" offset="1875" length="3">
+        <text>FOX</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-324" offset="1412" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-660" offset="2135" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="1382" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-666" offset="2100" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="1382" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-672" offset="2245" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="1382" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-678" offset="2327" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="1382" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-684" offset="2352" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="1382" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-690" offset="2431" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="1382" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-702" offset="2924" length="3">
+        <text>FOX</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-342" offset="2852" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-708" offset="3149" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-150" offset="2822" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-714" offset="2865" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-342" offset="2852" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-720" offset="3294" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-150" offset="2822" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-726" offset="3401" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-150" offset="2822" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-732" offset="3480" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-150" offset="2822" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-738" offset="3376" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-150" offset="2822" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-744" offset="3779" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-756" offset="3905" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-762" offset="4429" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-192" offset="4124" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-768" offset="4586" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-192" offset="4124" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-774" offset="4206" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-780" offset="4889" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-204" offset="4827" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-786" offset="3184" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-150" offset="2822" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-792" offset="5059" length="58">
+        <text>the biggest, most powerful media organization on the world</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-204" offset="4827" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-920" offset="941" length="27">
+        <text>the number one news network</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-72" offset="14" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1150" offset="3317" length="27">
+        <text>the number one news network</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-150" offset="2822" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1394" offset="2268" length="27">
+        <text>the number one news network</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-108" offset="1382" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1447" offset="4441" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-192" offset="4124" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1463" offset="3639" length="3">
+        <text>FNC</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1469" offset="2590" length="3">
+        <text>FNC</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1475" offset="4898" length="103">
+        <text>a media company interesting in keeping the populate updated on the latest and greatest and hottest news</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-204" offset="4827" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-798" offset="5108" length="9">
+        <text>the world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-804" offset="6076" length="6">
+        <text>Harlem</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-902" offset="132" length="34">
+        <text>the FOXNEWS watchers and defenders</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-926" offset="1459" length="34">
+        <text>the FOXNEWS watchers and defenders</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-908" offset="132" length="34">
+        <text>the FOXNEWS watchers and defenders</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-932" offset="1459" length="34">
+        <text>the FOXNEWS watchers and defenders</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-938" offset="467" length="6">
+        <text>Anyone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-947" offset="1794" length="6">
+        <text>Anyone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1156" offset="4339" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1441" offset="4038" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1165" offset="4485" length="13">
+        <text>all the RWers</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-192" offset="4124" length="7">MarcATL</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1174" offset="4558" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1183" offset="4937" length="12">
+        <text>the populate</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1204" offset="5004" length="10">
+        <text>Any of you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1213" offset="5011" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1228" offset="5231" length="88">
+        <text>those who what a virtual race-war, who prosper when the races are at each other' throats</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4791" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1237" offset="5283" length="9">
+        <text>the races</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4791" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1246" offset="5300" length="10">
+        <text>each other</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-504" offset="4791" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1255" offset="5399" length="9">
+        <text>Racialist</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1264" offset="5186" length="9">
+        <text>racialist</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1270" offset="5412" length="80">
+        <text>one to whom race is the determining factor in analyzing events and relationships</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1276" offset="5750" length="19">
+        <text>All your skin folks</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1285" offset="5754" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1303" offset="5776" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1328" offset="5800" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1334" offset="5817" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1294" offset="5776" length="14">
+        <text>your kin folks</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1309" offset="5781" length="3">
+        <text>kin</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1340" offset="5888" length="13">
+        <text>the Old Right</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-540" offset="6046" length="48">
+        <text>many of her colleagues in the Harlem Renaissance</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1352" offset="6054" length="40">
+        <text>her colleagues in the Harlem Renaissance</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1361" offset="6190" length="19">
+        <text>the black candidate</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1370" offset="6221" length="54">
+        <text>all those vicious white racists who are out to get you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="yes">
+            <source ere_id="m-498" offset="4684" length="13">PoliticalChic</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1388" offset="1226" length="21">
+        <text>Black Panther wannabe</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-384" offset="1164" length="11">paulitician</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-810">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-820">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-830">
+        <trigger offset="2663" length="3">for</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1421">
+        <trigger offset="3712" length="3">for</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-840">
+        <trigger offset="2671" length="6">family</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1453">
+        <trigger offset="3720" length="6">family</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-850">
+        <trigger offset="6058" length="10">colleagues</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1318">
+        <trigger offset="5781" length="3">kin</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-860">
+        <trigger offset="381" length="8">arrested</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-881">
+        <trigger offset="1708" length="8">arrested</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-953">
+        <trigger offset="714" length="6">killed</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-96" offset="676" length="3">you</source>
+          </sentiment>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-306" offset="85" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-999">
+        <trigger offset="2041" length="6">killed</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-120" offset="2003" length="3">you</source>
+          </sentiment>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-324" offset="1412" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1085">
+        <trigger offset="3090" length="6">killed</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-174" offset="3052" length="3">you</source>
+          </sentiment>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-342" offset="2852" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-976">
+        <trigger offset="714" length="6">killed</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-96" offset="676" length="3">you</source>
+          </sentiment>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-306" offset="85" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1020">
+        <trigger offset="2041" length="6">killed</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-120" offset="2003" length="3">you</source>
+          </sentiment>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-324" offset="1412" length="10">Two Thumbs</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1106">
+        <trigger offset="3090" length="6">killed</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-342" offset="2852" length="10">Two Thumbs</source>
+          </sentiment>
+          <sentiment polarity="pos" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1062">
+        <trigger offset="2627" length="11">invterviews</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1400">
+        <trigger offset="3676" length="11">invterviews</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56ce1ca60000000000000087">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-393">
+        <trigger offset="182" length="8">European</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-403">
+        <trigger offset="645" length="8">included</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-413">
+        <trigger offset="1073" length="2">In</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-423">
+        <trigger offset="1852" length="3">was</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-135" offset="1776" length="9">whitehall</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1161">
+        <trigger offset="2120" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-129" offset="2058" length="7">ginscpy</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1210">
+        <trigger offset="792" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1220">
+        <trigger offset="792" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1240">
+        <trigger offset="994" length="2">In</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-437">
+        <trigger offset="853" length="10">got rid of</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-111" offset="864" length="14">
+            <text>Saddam Hussein</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-315" offset="795" length="4">
+            <text>Iraq</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-458">
+        <trigger offset="1979" length="7">bombing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-369" offset="1990" length="10">
+            <text>Yugoslavia</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-479">
+        <trigger offset="2302" length="4">Born</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-129" offset="2058" length="7">
+            <text>ginscpy</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-129" offset="2058" length="7">ginscpy</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-518" offset="2307" length="4">
+            <text>1953</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-603">
+        <trigger offset="686" length="5">bombs</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-387" offset="703" length="4">
+            <text>them</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-637" offset="677" length="14">
+            <text>Hydrogen bombs</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-309" offset="636" length="8">
+            <text>Pakistan</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-565">
+        <trigger offset="528" length="7">killing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-586" offset="536" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-649">
+        <trigger offset="768" length="4">shed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-285" offset="760" length="2">
+            <text>We</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-640" offset="773" length="18">
+            <text>thousands of lives</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-315" offset="795" length="4">
+            <text>Iraq</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-686">
+        <trigger offset="768" length="4">shed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-285" offset="760" length="2">
+            <text>We</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-640" offset="773" length="18">
+            <text>thousands of lives</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-339" offset="804" length="11">
+            <text>Afghanistan</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-741">
+        <trigger offset="1021" length="7">fleeing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-732" offset="1006" length="10">
+            <text>Christians</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-327" offset="1029" length="4">
+            <text>Iraq</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-838">
+        <trigger offset="1303" length="5">death</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-832" offset="1281" length="5">
+            <text>their</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-891">
+        <trigger offset="1335" length="7">whipped</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-882" offset="1310" length="8">
+            <text>Citizens</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-914">
+        <trigger offset="1347" length="6">stoned</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-882" offset="1310" length="8">
+            <text>Citizens</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1002">
+        <trigger offset="1475" length="6">killed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1371" offset="1400" length="74">
+            <text>thousands of sons, daughters, fathers, siblings, uncles, aunts and cousins</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1171">
+        <trigger offset="287" length="8">fighting</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-273" offset="280" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-267" offset="268" length="34">
+            <text>the nations we are fighting in now</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-99" offset="14" length="7">
+        <text>Vargulf</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1371" offset="1400" length="74">
+        <text>thousands of sons, daughters, fathers, siblings, uncles, aunts and cousins</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-111" offset="864" length="14">
+        <text>Saddam Hussein</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-117" offset="951" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-123" offset="1538" length="7">
+        <text>ginscpy</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-129" offset="2058" length="7">
+        <text>ginscpy</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-135" offset="1776" length="9">
+        <text>whitehall</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-141" offset="1839" length="12">
+        <text>Bill Clinton</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-147" offset="1938" length="7">
+        <text>Clinton</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-153" offset="2027" length="7">
+        <text>one man</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-159" offset="2108" length="18">
+        <text>The dimwits in Nam</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-129" offset="2058" length="7">ginscpy</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-165" offset="2184" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-129" offset="2058" length="7">ginscpy</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-171" offset="2129" length="3">
+        <text>LBJ</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-129" offset="2058" length="7">ginscpy</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-177" offset="2134" length="8">
+        <text>McNamara</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-129" offset="2058" length="7">ginscpy</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-183" offset="2144" length="4">
+        <text>Rusk</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-129" offset="2058" length="7">ginscpy</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-189" offset="2149" length="12">
+        <text>Westmoreland</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-129" offset="2058" length="7">ginscpy</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-195" offset="891" length="27">
+        <text>a Shia dominated government</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-201" offset="923" length="19">
+        <text>future ally of Iran</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-207" offset="1089" length="14">
+        <text>the government</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-213" offset="1158" length="3">
+        <text>its</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-219" offset="1140" length="7">
+        <text>Taliban</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-225" offset="1238" length="7">
+        <text>Taliban</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-231" offset="149" length="5">
+        <text>Japan</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-237" offset="225" length="5">
+        <text>Japan</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-243" offset="159" length="7">
+        <text>Germany</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-249" offset="168" length="7">
+        <text>Germany</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-255" offset="180" length="17">
+        <text>a European nation</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-261" offset="182" length="8">
+        <text>European</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-267" offset="268" length="34">
+        <text>the nations we are fighting in now</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-273" offset="280" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-279" offset="714" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-285" offset="760" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-291" offset="830" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-297" offset="850" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-303" offset="1366" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-309" offset="636" length="8">
+        <text>Pakistan</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-315" offset="795" length="4">
+        <text>Iraq</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-321" offset="997" length="4">
+        <text>Iraq</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-327" offset="1029" length="4">
+        <text>Iraq</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-333" offset="1655" length="4">
+        <text>Iraq</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-123" offset="1538" length="7">ginscpy</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-339" offset="804" length="11">
+        <text>Afghanistan</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-345" offset="1076" length="11">
+        <text>Afghanistan</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-351" offset="938" length="4">
+        <text>Iran</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-357" offset="1709" length="6">
+        <text>Korean</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-123" offset="1538" length="7">ginscpy</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-363" offset="1904" length="9">
+        <text>a country</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-369" offset="1990" length="10">
+        <text>Yugoslavia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-375" offset="2123" length="3">
+        <text>Nam</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-381" offset="617" length="17">
+        <text>The entire region</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-387" offset="703" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-521" offset="95" length="6">
+        <text>nation</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-553" offset="456" length="8">
+        <text>a nation</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-559" offset="477" length="3">
+        <text>its</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1201" offset="571" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-586" offset="536" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-597" offset="556" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-640" offset="773" length="18">
+        <text>thousands of lives</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-723" offset="965" length="5">
+        <text>Women</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-817" offset="1171" length="5">
+        <text>women</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1250" offset="1218" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-732" offset="1006" length="10">
+        <text>Christians</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-823" offset="1247" length="17">
+        <text>Closet Christians</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-832" offset="1281" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-882" offset="1310" length="8">
+        <text>Citizens</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-943" offset="1413" length="61">
+        <text>sons, daughters, fathers, siblings, uncles, aunts and cousins</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-937" offset="1413" length="61">
+        <text>sons, daughters, fathers, siblings, uncles, aunts and cousins</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-955" offset="1413" length="61">
+        <text>sons, daughters, fathers, siblings, uncles, aunts and cousins</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-964" offset="1413" length="61">
+        <text>sons, daughters, fathers, siblings, uncles, aunts and cousins</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-973" offset="1413" length="61">
+        <text>sons, daughters, fathers, siblings, uncles, aunts and cousins</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-982" offset="1413" length="61">
+        <text>sons, daughters, fathers, siblings, uncles, aunts and cousins</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-991" offset="1413" length="61">
+        <text>sons, daughters, fathers, siblings, uncles, aunts and cousins</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1256" offset="1588" length="6">
+        <text>Police</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-123" offset="1538" length="7">ginscpy</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1291" offset="1635" length="14">
+        <text>suck-countries</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-123" offset="1538" length="7">ginscpy</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1346" offset="2343" length="12">
+        <text>rice paddies</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1362" offset="64" length="14">
+        <text>Political Chic</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-393">
+        <trigger offset="182" length="8">European</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-403">
+        <trigger offset="645" length="8">included</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-413">
+        <trigger offset="1073" length="2">In</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-423">
+        <trigger offset="1852" length="3">was</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-135" offset="1776" length="9">whitehall</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1161">
+        <trigger offset="2120" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-129" offset="2058" length="7">ginscpy</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1210">
+        <trigger offset="792" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1220">
+        <trigger offset="792" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1240">
+        <trigger offset="994" length="2">In</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-437">
+        <trigger offset="853" length="10">got rid of</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-458">
+        <trigger offset="1979" length="7">bombing</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-135" offset="1776" length="9">whitehall</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-479">
+        <trigger offset="2302" length="4">Born</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-129" offset="2058" length="7">ginscpy</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-603">
+        <trigger offset="686" length="5">bombs</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-565">
+        <trigger offset="528" length="7">killing</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-649">
+        <trigger offset="768" length="4">shed</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-686">
+        <trigger offset="768" length="4">shed</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-741">
+        <trigger offset="1021" length="7">fleeing</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-838">
+        <trigger offset="1303" length="5">death</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-891">
+        <trigger offset="1335" length="7">whipped</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-914">
+        <trigger offset="1347" length="6">stoned</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1002">
+        <trigger offset="1475" length="6">killed</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-99" offset="14" length="7">Vargulf</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1171">
+        <trigger offset="287" length="8">fighting</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

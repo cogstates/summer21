@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="55142ee50000000000000034" doc_id="af18d29036ab0a9f8cf2742a5a1b4804" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-33" noun_type="NAM" source="af18d29036ab0a9f8cf2742a5a1b4804" offset="14" length="13">
+        <mention_text>Lord Emsworth</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-45" type="PER" specificity="specific">
+      <entity_mention id="m-39" noun_type="NOM" source="af18d29036ab0a9f8cf2742a5a1b4804" offset="223" length="2">
+        <mention_text>52</mention_text>
+        <nom_head source="af18d29036ab0a9f8cf2742a5a1b4804" offset="223" length="2">52</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-54" type="FAC" specificity="specific">
+      <entity_mention id="m-48" noun_type="NOM" source="af18d29036ab0a9f8cf2742a5a1b4804" offset="229" length="15">
+        <mention_text>Pakistan church</mention_text>
+        <nom_head source="af18d29036ab0a9f8cf2742a5a1b4804" offset="238" length="6">church</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-63" type="GPE" specificity="specific">
+      <entity_mention id="m-57" noun_type="NAM" source="af18d29036ab0a9f8cf2742a5a1b4804" offset="229" length="8">
+        <mention_text>Pakistan</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-72" type="GPE" specificity="specific">
+      <entity_mention id="m-75" noun_type="NAM" source="af18d29036ab0a9f8cf2742a5a1b4804" offset="440" length="7">
+        <mention_text>Nairobi</mention_text>
+      </entity_mention>
+      <entity_mention id="m-108" noun_type="NAM" source="af18d29036ab0a9f8cf2742a5a1b4804" offset="625" length="7">
+        <mention_text>Nairobi</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-81" type="PER" specificity="specific">
+      <entity_mention id="m-66" noun_type="NAM" source="af18d29036ab0a9f8cf2742a5a1b4804" offset="355" length="6">
+        <mention_text>Douger</mention_text>
+      </entity_mention>
+      <entity_mention id="m-102" noun_type="NAM" source="af18d29036ab0a9f8cf2742a5a1b4804" offset="579" length="6">
+        <mention_text>Douger</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-90" type="FAC" specificity="specific">
+      <entity_mention id="m-84" noun_type="NOM" source="af18d29036ab0a9f8cf2742a5a1b4804" offset="440" length="12">
+        <mention_text>Nairobi mall</mention_text>
+        <nom_head source="af18d29036ab0a9f8cf2742a5a1b4804" offset="448" length="4">mall</nom_head>
+      </entity_mention>
+      <entity_mention id="m-114" noun_type="NOM" source="af18d29036ab0a9f8cf2742a5a1b4804" offset="625" length="12">
+        <mention_text>Nairobi mall</mention_text>
+        <nom_head source="af18d29036ab0a9f8cf2742a5a1b4804" offset="633" length="4">mall</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-99" type="PER" specificity="specific">
+      <entity_mention id="m-93" noun_type="NAM" source="af18d29036ab0a9f8cf2742a5a1b4804" offset="505" length="12">
+        <mention_text>ZephyrWiccan</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-126" type="GPE" specificity="specific">
+      <entity_mention id="m-120" noun_type="NAM" source="af18d29036ab0a9f8cf2742a5a1b4804" offset="686" length="5">
+        <mention_text>Iraqi</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-135" type="PER" specificity="nonspecific">
+      <entity_mention id="m-129" noun_type="NOM" source="af18d29036ab0a9f8cf2742a5a1b4804" offset="755" length="3">
+        <mention_text>50+</mention_text>
+        <nom_head source="af18d29036ab0a9f8cf2742a5a1b4804" offset="755" length="3">50+</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-294" source="af18d29036ab0a9f8cf2742a5a1b4804" offset="692" length="11" type="vehicle">car bombing</filler>
+    <filler id="f-332" source="af18d29036ab0a9f8cf2742a5a1b4804" offset="692" length="11" type="weapon">car bombing</filler>
+  </fillers>
+  <relations>
+    <relation id="r-505" type="physical" subtype="locatednear">
+      <relation_mention id="relm-138" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-39" role="entity">52</rel_arg1>
+        <rel_arg2 entity_id="ent-54" entity_mention_id="m-48" role="loc">Pakistan church</rel_arg2>
+        <trigger source="af18d29036ab0a9f8cf2742a5a1b4804" offset="226" length="2">at</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-506" type="physical" subtype="locatednear">
+      <relation_mention id="relm-148" realis="true">
+        <rel_arg1 entity_id="ent-54" entity_mention_id="m-48" role="entity">Pakistan church</rel_arg1>
+        <rel_arg2 entity_id="ent-63" entity_mention_id="m-57" role="loc">Pakistan</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-507" type="physical" subtype="locatednear">
+      <relation_mention id="relm-158" realis="true">
+        <rel_arg1 entity_id="ent-90" entity_mention_id="m-84" role="entity">Nairobi mall</rel_arg1>
+        <rel_arg2 entity_id="ent-72" entity_mention_id="m-75" role="loc">Nairobi</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-168" realis="true">
+        <rel_arg1 entity_id="ent-90" entity_mention_id="m-114" role="entity">Nairobi mall</rel_arg1>
+        <rel_arg2 entity_id="ent-72" entity_mention_id="m-108" role="loc">Nairobi</rel_arg2>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-180">
+      <event_mention id="em-182" type="conflict" subtype="attack" realis="actual">
+        <trigger source="af18d29036ab0a9f8cf2742a5a1b4804" offset="210" length="6">attack</trigger>
+        <em_arg entity_id="ent-54" entity_mention_id="m-48" role="place" realis="true">Pakistan church</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-231">
+      <event_mention id="em-203" type="life" subtype="die" realis="actual">
+        <trigger source="af18d29036ab0a9f8cf2742a5a1b4804" offset="217" length="5">kills</trigger>
+        <em_arg entity_id="ent-45" entity_mention_id="m-39" role="victim" realis="true">52</em_arg>
+        <em_arg entity_id="ent-54" entity_mention_id="m-48" role="place" realis="true">Pakistan church</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-254">
+      <event_mention id="em-233" type="conflict" subtype="attack" realis="actual">
+        <trigger source="af18d29036ab0a9f8cf2742a5a1b4804" offset="453" length="6">attack</trigger>
+        <em_arg entity_id="ent-90" entity_mention_id="m-84" role="place" realis="true">Nairobi mall</em_arg>
+      </event_mention>
+      <event_mention id="em-256" type="conflict" subtype="attack" realis="actual">
+        <trigger source="af18d29036ab0a9f8cf2742a5a1b4804" offset="638" length="6">attack</trigger>
+        <em_arg entity_id="ent-90" entity_mention_id="m-114" role="place" realis="true">Nairobi mall</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-305">
+      <event_mention id="em-277" type="conflict" subtype="attack" realis="actual">
+        <trigger source="af18d29036ab0a9f8cf2742a5a1b4804" offset="696" length="7">bombing</trigger>
+        <em_arg filler_id="f-294" role="instrument" realis="true">car bombing</em_arg>
+        <em_arg entity_id="ent-126" entity_mention_id="m-120" role="place" realis="true">Iraqi</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-335">
+      <event_mention id="em-307" type="life" subtype="die" realis="actual">
+        <trigger source="af18d29036ab0a9f8cf2742a5a1b4804" offset="748" length="6">killed</trigger>
+        <em_arg entity_id="ent-135" entity_mention_id="m-129" role="victim" realis="true">50+</em_arg>
+        <em_arg filler_id="f-332" role="instrument" realis="true">car bombing</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

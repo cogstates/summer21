@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="5554f84f0000000000000020" doc_id="21dbe23f56aaef87fd0980234895b321" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-126" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="1806" length="4">
+        <mention_text>Bush</mention_text>
+      </entity_mention>
+      <entity_mention id="m-132" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="713" length="4">
+        <mention_text>Bush</mention_text>
+      </entity_mention>
+      <entity_mention id="m-138" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="640" length="4">
+        <mention_text>Bush</mention_text>
+      </entity_mention>
+      <entity_mention id="m-144" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="607" length="4">
+        <mention_text>Bush</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-18" type="PER" specificity="specific">
+      <entity_mention id="m-150" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="4560" length="7">
+        <mention_text>Clinton</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-21" type="PER" specificity="specific">
+      <entity_mention id="m-156" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="4556" length="26">
+        <mention_text>The Clinton administration</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="4568" length="14">administration</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-24" type="PER" specificity="specific">
+      <entity_mention id="m-162" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="4226" length="12">
+        <mention_text>John Edwards</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-27" type="PER" specificity="specific">
+      <entity_mention id="m-168" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="62" length="8">
+        <mention_text>Dyslexia</mention_text>
+      </entity_mention>
+      <entity_mention id="m-174" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="83" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-180" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1577" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-186" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1047" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-30" type="PER" specificity="specific">
+      <entity_mention id="m-192" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="2020" length="6">
+        <mention_text>O'Bill</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-33" type="PER" specificity="specific">
+      <entity_mention id="m-198" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="2443" length="26">
+        <mention_text>more than 7,000,000 troops</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="2463" length="6">troops</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-36" type="PER" specificity="specific">
+      <entity_mention id="m-204" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="2590" length="26">
+        <mention_text>more than 8,000,000 troops</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="2610" length="6">troops</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-39" type="PER" specificity="specific">
+      <entity_mention id="m-210" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="2137" length="16">
+        <mention_text>soldiers in Iraq</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="2137" length="8">soldiers</nom_head>
+      </entity_mention>
+      <entity_mention id="m-216" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="3259" length="8">
+        <mention_text>soldiers</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="3259" length="8">soldiers</nom_head>
+      </entity_mention>
+      <entity_mention id="m-222" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="2245" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-228" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="2285" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-234" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="1960" length="20">
+        <mention_text>the soldiers in Iraq</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="1964" length="8">soldiers</nom_head>
+      </entity_mention>
+      <entity_mention id="m-240" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="344" length="16">
+        <mention_text>soldiers in Iraq</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="344" length="8">soldiers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-42" type="PER" specificity="specific">
+      <entity_mention id="m-246" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="14" length="4">
+        <mention_text>okie</mention_text>
+      </entity_mention>
+      <entity_mention id="m-252" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1770" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-258" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1712" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-264" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1602" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-270" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1586" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-276" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1549" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-282" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1182" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-288" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1119" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-294" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1023" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-300" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="977" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-306" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="690" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-312" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="510" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-318" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="453" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-324" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="420" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-330" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="306" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-336" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="273" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-342" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="220" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-348" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="206" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-354" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="189" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-360" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="116" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-366" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="106" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-372" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1911" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-378" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="2012" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-384" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="2370" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-390" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="2306" length="3">
+        <mention_text>You</mention_text>
+      </entity_mention>
+      <entity_mention id="m-396" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="3604" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-402" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="3700" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-408" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="4366" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-414" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="4436" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-420" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="4756" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-426" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="4795" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-432" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="5048" length="4">
+        <mention_text>Your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-438" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="5352" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-444" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="5534" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-450" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="5471" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-456" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="3378" length="4">
+        <mention_text>okie</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-45" type="PER" specificity="specific">
+      <entity_mention id="m-462" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="1845" length="7">
+        <mention_text>Setanta</mention_text>
+      </entity_mention>
+      <entity_mention id="m-468" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="1516" length="7">
+        <mention_text>Setanta</mention_text>
+      </entity_mention>
+      <entity_mention id="m-474" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="722" length="7">
+        <mention_text>Setanta</mention_text>
+      </entity_mention>
+      <entity_mention id="m-480" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="533" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-486" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="317" length="3">
+        <mention_text>His</mention_text>
+      </entity_mention>
+      <entity_mention id="m-492" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="243" length="7">
+        <mention_text>Setanta</mention_text>
+      </entity_mention>
+      <entity_mention id="m-498" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1929" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-504" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="2111" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-510" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="3352" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+      <entity_mention id="m-516" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="3443" length="7">
+        <mention_text>Setanta</mention_text>
+      </entity_mention>
+      <entity_mention id="m-522" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="3458" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-528" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="4385" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-534" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="4674" length="7">
+        <mention_text>Setanta</mention_text>
+      </entity_mention>
+      <entity_mention id="m-540" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="4725" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-546" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="5528" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-48" type="PER" specificity="specific">
+      <entity_mention id="m-552" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="756" length="7">
+        <mention_text>Hussein</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-51" type="PER" specificity="specific">
+      <entity_mention id="m-558" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1319" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-564" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1249" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-570" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1202" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-576" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1135" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-582" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="1083" length="7">
+        <mention_text>Hillary</mention_text>
+      </entity_mention>
+      <entity_mention id="m-588" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="1000" length="7">
+        <mention_text>Hillary</mention_text>
+      </entity_mention>
+      <entity_mention id="m-2267" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1092" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-54" type="PER" specificity="specific">
+      <entity_mention id="m-594" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="3217" length="9">
+        <mention_text>Americans</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-57" type="PER" specificity="specific">
+      <entity_mention id="m-600" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="4411" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-60" type="PER" specificity="specific">
+      <entity_mention id="m-606" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="3296" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-63" type="PER" specificity="specific">
+      <entity_mention id="m-612" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="3272" length="9">
+        <mention_text>civilians</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="3272" length="9">civilians</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-66" type="PER" specificity="specific">
+      <entity_mention id="m-618" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="3071" length="53">
+        <mention_text>as many of their leaders as we could get our hands on</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="3074" length="4">many</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-69" type="PER" specificity="specific">
+      <entity_mention id="m-624" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="4837" length="15">
+        <mention_text>far more people</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="4846" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-72" type="ORG" specificity="specific">
+      <entity_mention id="m-630" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="3143" length="40">
+        <mention_text>the political party which had held power</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="3157" length="5">party</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-75" type="ORG" specificity="specific">
+      <entity_mention id="m-636" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="3028" length="16">
+        <mention_text>their government</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="3034" length="10">government</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-78" type="ORG" specificity="specific">
+      <entity_mention id="m-642" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="2999" length="18">
+        <mention_text>their armed forces</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="3011" length="6">forces</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-81" type="ORG" specificity="specific">
+      <entity_mention id="m-648" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="2922" length="63">
+        <mention_text>the army which had fought in the Iran-Iraq War and the Gulf War</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="2926" length="4">army</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-84" type="ORG" specificity="specific">
+      <entity_mention id="m-654" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="2891" length="12">
+        <mention_text>a small army</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="2899" length="4">army</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-87" type="ORG" specificity="specific">
+      <entity_mention id="m-660" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="2493" length="33">
+        <mention_text>the most modern navy in the world</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="2509" length="4">navy</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-90" type="GPE" specificity="specific">
+      <entity_mention id="m-666" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="1452" length="4">
+        <mention_text>Iraq</mention_text>
+      </entity_mention>
+      <entity_mention id="m-672" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="356" length="4">
+        <mention_text>Iraq</mention_text>
+      </entity_mention>
+      <entity_mention id="m-678" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="1976" length="4">
+        <mention_text>Iraq</mention_text>
+      </entity_mention>
+      <entity_mention id="m-684" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="2149" length="4">
+        <mention_text>Iraq</mention_text>
+      </entity_mention>
+      <entity_mention id="m-690" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="2876" length="4">
+        <mention_text>Iraq</mention_text>
+      </entity_mention>
+      <entity_mention id="m-696" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="2960" length="4">
+        <mention_text>Iraq</mention_text>
+      </entity_mention>
+      <entity_mention id="m-702" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="2999" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-708" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="3028" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-714" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="3082" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-720" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="3253" length="4">
+        <mention_text>Iraq</mention_text>
+      </entity_mention>
+      <entity_mention id="m-726" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="3563" length="4">
+        <mention_text>Iraq</mention_text>
+      </entity_mention>
+      <entity_mention id="m-732" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="5075" length="4">
+        <mention_text>Iraq</mention_text>
+      </entity_mention>
+      <entity_mention id="m-738" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="5257" length="4">
+        <mention_text>Iraq</mention_text>
+      </entity_mention>
+      <entity_mention id="m-744" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="888" length="4">
+        <mention_text>Iraq</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-93" type="GPE" specificity="specific">
+      <entity_mention id="m-750" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="2576" length="7">
+        <mention_text>Germany</mention_text>
+      </entity_mention>
+      <entity_mention id="m-756" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="5017" length="7">
+        <mention_text>Germany</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-96" type="GPE" specificity="specific">
+      <entity_mention id="m-768" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="2417" length="19">
+        <mention_text>the Empire of Japan</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-99" type="GPE" specificity="specific">
+      <entity_mention id="m-780" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="5008" length="5">
+        <mention_text>China</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-102" type="GPE" specificity="specific">
+      <entity_mention id="m-786" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="873" length="11">
+        <mention_text>Afghanistan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-792" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="4004" length="11">
+        <mention_text>Afghanistan</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-105" type="GPE" specificity="specific">
+      <entity_mention id="m-798" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="2955" length="4">
+        <mention_text>Iran</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-108" type="GPE" specificity="specific">
+      <entity_mention id="m-804" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="941" length="12">
+        <mention_text>this country</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="946" length="7">country</nom_head>
+      </entity_mention>
+      <entity_mention id="m-810" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="378" length="10">
+        <mention_text>the nation</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="382" length="6">nation</nom_head>
+      </entity_mention>
+      <entity_mention id="m-816" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="2000" length="10">
+        <mention_text>the nation</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="2004" length="6">nation</nom_head>
+      </entity_mention>
+      <entity_mention id="m-822" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="2771" length="8">
+        <mention_text>American</mention_text>
+      </entity_mention>
+      <entity_mention id="m-828" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="3588" length="4">
+        <mention_text>U.S.</mention_text>
+      </entity_mention>
+      <entity_mention id="m-834" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="4037" length="3">
+        <mention_text>our</mention_text>
+      </entity_mention>
+      <entity_mention id="m-840" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="5327" length="13">
+        <mention_text>United States</mention_text>
+      </entity_mention>
+      <entity_mention id="m-852" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="2294" length="9">
+        <mention_text>Americans</mention_text>
+      </entity_mention>
+      <entity_mention id="m-858" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="3305" length="9">
+        <mention_text>Americans</mention_text>
+      </entity_mention>
+      <entity_mention id="m-870" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="743" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-882" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="3935" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1415" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1491" length="4">
+        <mention_text>here</mention_text>
+      </entity_mention>
+      <entity_mention id="m-2290" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="3517" length="8">
+        <mention_text>American</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-111" type="GPE" specificity="specific">
+      <entity_mention id="m-888" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="2712" length="12">
+        <mention_text>both nations</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="2717" length="7">nations</nom_head>
+      </entity_mention>
+      <entity_mention id="m-894" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="2753" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-114" type="LOC" specificity="specific">
+      <entity_mention id="m-900" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="4992" length="9">
+        <mention_text>the globe</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="4996" length="5">globe</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-117" type="LOC" specificity="specific">
+      <entity_mention id="m-906" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="4037" length="11">
+        <mention_text>our borders</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="4041" length="7">borders</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-120" type="LOC" specificity="specific">
+      <entity_mention id="m-912" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="2977" length="4">
+        <mention_text>Gulf</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="2977" length="4">Gulf</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-123" type="LOC" specificity="specific">
+      <entity_mention id="m-918" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="2517" length="9">
+        <mention_text>the world</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="2521" length="5">world</nom_head>
+      </entity_mention>
+      <entity_mention id="m-924" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="4084" length="9">
+        <mention_text>the world</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="4088" length="5">world</nom_head>
+      </entity_mention>
+      <entity_mention id="m-930" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="4125" length="9">
+        <mention_text>the world</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="4129" length="5">world</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1915" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="4242" length="9">
+        <mention_text>the world</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="4246" length="5">world</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1066" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1060" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="178" length="6">
+        <mention_text>people</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="178" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1069" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="441" length="6">
+        <mention_text>people</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="441" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1081" type="PER" specificity="specific">
+      <entity_mention id="m-1075" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="571" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1113" type="PER" specificity="specific">
+      <entity_mention id="m-1107" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="607" length="14">
+        <mention_text>Bush opponents</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="612" length="9">opponents</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1421" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="1806" length="14">
+        <mention_text>Bush opponents</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="1811" length="9">opponents</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1191" type="PER" specificity="specific">
+      <entity_mention id="m-1185" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="831" length="8">
+        <mention_text>everyone</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1263" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="894" length="8">
+        <mention_text>everyone</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1200" type="PER" specificity="specific">
+      <entity_mention id="m-1194" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="854" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1502" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="2407" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1269" type="PER" specificity="specific">
+      <entity_mention id="m-1272" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1015" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1278" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1031" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1284" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1057" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1290" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1101" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1319" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1165" length="2">
+        <mention_text>us</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1409" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1472" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1710" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="3112" length="3">
+        <mention_text>our</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1764" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="3488" length="2">
+        <mention_text>us</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1770" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="3498" length="9">
+        <mention_text>ourselves</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1822" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="3650" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1828" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="3745" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1921" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="4349" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1984" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="4537" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1990" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="4628" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1354" type="PER" specificity="specific">
+      <entity_mention id="m-1348" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="1360" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1372" type="PER" specificity="specific">
+      <entity_mention id="m-1357" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="1379" length="12">
+        <mention_text>the audience</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="1383" length="8">audience</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1375" type="PER" specificity="specific">
+      <entity_mention id="m-1366" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="1419" length="8">
+        <mention_text>soldiers</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="1419" length="8">soldiers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1476" type="PER" specificity="specific">
+      <entity_mention id="m-846" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="2201" length="9">
+        <mention_text>Americans</mention_text>
+      </entity_mention>
+      <entity_mention id="m-864" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="3508" length="17">
+        <mention_text>how many American</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="3512" length="4">many</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1566" type="PER" specificity="specific">
+      <entity_mention id="m-876" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="2536" length="2">
+        <mention_text>We</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1657" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="2882" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1686" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="2987" length="2">
+        <mention_text>We</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1692" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="3019" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1698" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="3057" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1704" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="3099" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-2229" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="3130" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1575" type="PER" specificity="specific">
+      <entity_mention id="m-1569" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="2771" length="31">
+        <mention_text>American civilians and soldiers</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="2794" length="8">soldiers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1584" type="PER" specificity="specific">
+      <entity_mention id="m-1578" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="2771" length="18">
+        <mention_text>American civilians</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="2780" length="9">civilians</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1607" type="PER" specificity="specific">
+      <entity_mention id="m-774" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="2832" length="8">
+        <mention_text>Japanese</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1610" type="PER" specificity="specific">
+      <entity_mention id="m-762" noun_type="NAM" source="21dbe23f56aaef87fd0980234895b321" offset="2848" length="7">
+        <mention_text>Germans</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1840" type="ORG" specificity="specific">
+      <entity_mention id="m-1834" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="3764" length="23">
+        <mention_text>terrorist organizations</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="3774" length="13">organizations</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1843" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="3791" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1897" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="3984" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1903" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="4106" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1909" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="4166" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1927" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="4456" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1855" type="FAC" specificity="specific">
+      <entity_mention id="m-1849" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="3791" length="19">
+        <mention_text>their staging areas</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="3805" length="5">areas</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1864" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1858" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="3812" length="15">
+        <mention_text>how many people</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="3821" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-2002" type="FAC" specificity="specific">
+      <entity_mention id="m-1996" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="5090" length="14">
+        <mention_text>a staging area</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="5100" length="4">area</nom_head>
+      </entity_mention>
+      <entity_mention id="m-2023" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="5283" length="14">
+        <mention_text>a staging area</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="5293" length="4">area</nom_head>
+      </entity_mention>
+      <entity_mention id="m-2097" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="5442" length="24">
+        <mention_text>a terrorist staging area</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="5462" length="4">area</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-2011" type="PER" specificity="specific">
+      <entity_mention id="m-2005" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="5109" length="10">
+        <mention_text>terrorists</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="5109" length="10">terrorists</nom_head>
+      </entity_mention>
+      <entity_mention id="m-2029" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="5302" length="9">
+        <mention_text>terrorist</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="5302" length="9">terrorist</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-2020" type="PER" specificity="specific">
+      <entity_mention id="m-2014" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="5167" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-2079" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="5375" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-2085" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="5401" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-2091" noun_type="PRO" source="21dbe23f56aaef87fd0980234895b321" offset="5426" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-2262" type="PER" specificity="specific">
+      <entity_mention id="m-2256" noun_type="NOM" source="21dbe23f56aaef87fd0980234895b321" offset="4927" length="24">
+        <mention_text>30 times as many enemies</mention_text>
+        <nom_head source="21dbe23f56aaef87fd0980234895b321" offset="4944" length="7">enemies</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-2277" source="21dbe23f56aaef87fd0980234895b321" offset="2530" length="4" type="time" nom_time="1941-XX-XX">1941</filler>
+    <filler id="f-2300" source="21dbe23f56aaef87fd0980234895b321" offset="3853" length="27" type="weapon">weapons of mass destruction</filler>
+  </fillers>
+  <relations>
+    <relation id="r-717" type="physical" subtype="locatednear">
+      <relation_mention id="relm-936" realis="true">
+        <rel_arg1 entity_id="ent-39" entity_mention_id="m-240" role="entity">soldiers in Iraq</rel_arg1>
+        <rel_arg2 entity_id="ent-90" entity_mention_id="m-672" role="loc">Iraq</rel_arg2>
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="353" length="2">in</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1433" realis="true">
+        <rel_arg1 entity_id="ent-39" entity_mention_id="m-234" role="entity">the soldiers in Iraq</rel_arg1>
+        <rel_arg2 entity_id="ent-90" entity_mention_id="m-678" role="loc">Iraq</rel_arg2>
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="1973" length="2">in</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1443" realis="true">
+        <rel_arg1 entity_id="ent-39" entity_mention_id="m-210" role="entity">soldiers in Iraq</rel_arg1>
+        <rel_arg2 entity_id="ent-90" entity_mention_id="m-684" role="loc">Iraq</rel_arg2>
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="2146" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-718" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-946" realis="true">
+        <rel_arg1 entity_id="ent-78" entity_mention_id="m-642" role="suborg">their armed forces</rel_arg1>
+        <rel_arg2 entity_id="ent-90" entity_mention_id="m-702" role="parent">their</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-719" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-956" realis="true">
+        <rel_arg1 entity_id="ent-75" entity_mention_id="m-636" role="suborg">their government</rel_arg1>
+        <rel_arg2 entity_id="ent-90" entity_mention_id="m-708" role="parent">their</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-720" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-966" realis="true">
+        <rel_arg1 entity_id="ent-66" entity_mention_id="m-618" role="employeemember">as many of their leaders as we could get our hands on</rel_arg1>
+        <rel_arg2 entity_id="ent-90" entity_mention_id="m-714" role="org">their</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-721" type="physical" subtype="locatednear">
+      <relation_mention id="relm-976" realis="true">
+        <rel_arg1 entity_id="ent-54" entity_mention_id="m-594" role="entity">Americans</rel_arg1>
+        <rel_arg2 entity_id="ent-90" entity_mention_id="m-720" role="loc">Iraq</rel_arg2>
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="3250" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-722" type="physical" subtype="locatednear">
+      <relation_mention id="relm-986" realis="true">
+        <rel_arg1 entity_id="ent-63" entity_mention_id="m-612" role="entity">civilians</rel_arg1>
+        <rel_arg2 entity_id="ent-90" entity_mention_id="m-720" role="loc">Iraq</rel_arg2>
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="3250" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-723" type="physical" subtype="locatednear">
+      <relation_mention id="relm-996" realis="true">
+        <rel_arg1 entity_id="ent-117" entity_mention_id="m-906" role="entity">our borders</rel_arg1>
+        <rel_arg2 entity_id="ent-108" entity_mention_id="m-834" role="loc">our</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-724" type="personalsocial" subtype="business">
+      <relation_mention id="relm-1006" realis="true">
+        <rel_arg1 entity_id="ent-18" entity_mention_id="m-150" role="per">Clinton</rel_arg1>
+        <rel_arg2 entity_id="ent-21" entity_mention_id="m-156" role="per">The Clinton administration</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-725" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1399" realis="true">
+        <rel_arg1 entity_id="ent-1375" entity_mention_id="m-1366" role="entity">soldiers</rel_arg1>
+        <rel_arg2 entity_id="ent-90" entity_mention_id="m-666" role="loc">Iraq</rel_arg2>
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="1449" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-726" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1587" realis="true">
+        <rel_arg1 entity_id="ent-1575" entity_mention_id="m-1569" role="per">American civilians and soldiers</rel_arg1>
+        <rel_arg2 entity_id="ent-108" entity_mention_id="m-822" role="entity">American</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-727" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1597" realis="true">
+        <rel_arg1 entity_id="ent-1584" entity_mention_id="m-1578" role="per">American civilians</rel_arg1>
+        <rel_arg2 entity_id="ent-108" entity_mention_id="m-822" role="entity">American</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-728" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-2280" realis="true">
+        <rel_arg1 entity_id="ent-1476" entity_mention_id="m-864" role="per">how many American</rel_arg1>
+        <rel_arg2 entity_id="ent-108" entity_mention_id="m-2290" role="entity">American</rel_arg2>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-16">
+      <event_mention id="em-1018" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="746" length="9">overthrew</trigger>
+        <em_arg entity_id="ent-48" entity_mention_id="m-552" role="person" realis="true">Hussein</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1016">
+      <event_mention id="em-1039" type="business" subtype="endorg" realis="actual">
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="3133" length="9">abolished</trigger>
+        <em_arg entity_id="ent-72" entity_mention_id="m-630" role="org" realis="true">the political party which had held power</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1231">
+      <event_mention id="em-1203" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="865" length="4">gone</trigger>
+        <em_arg entity_id="ent-1200" entity_mention_id="m-1194" role="person" realis="true">we</em_arg>
+        <em_arg entity_id="ent-102" entity_mention_id="m-786" role="destination" realis="true">Afghanistan</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1261">
+      <event_mention id="em-1233" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="865" length="4">gone</trigger>
+        <em_arg entity_id="ent-1200" entity_mention_id="m-1194" role="person" realis="true">we</em_arg>
+        <em_arg entity_id="ent-90" entity_mention_id="m-744" role="destination" realis="true">Iraq</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1346">
+      <event_mention id="em-1325" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="1253" length="15">made statements</trigger>
+        <em_arg entity_id="ent-51" entity_mention_id="m-564" role="entity" realis="true">she</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1474">
+      <event_mention id="em-1453" type="life" subtype="die" realis="actual">
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="2160" length="6">killed</trigger>
+        <em_arg entity_id="ent-39" entity_mention_id="m-210" role="victim" realis="true">soldiers in Iraq</em_arg>
+      </event_mention>
+      <event_mention id="em-1479" type="life" subtype="die" realis="actual">
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="2260" length="6">killed</trigger>
+        <em_arg entity_id="ent-39" entity_mention_id="m-222" role="victim" realis="true">they</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1500">
+      <event_mention id="em-1508" type="conflict" subtype="attack" realis="actual">
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="2410" length="6">fought</trigger>
+        <em_arg entity_id="ent-1200" entity_mention_id="m-1502" role="attacker" realis="true">we</em_arg>
+        <em_arg entity_id="ent-96" entity_mention_id="m-768" role="attacker" realis="true">the Empire of Japan</em_arg>
+        <em_arg filler_id="f-2277" role="time" realis="true">1941</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1564">
+      <event_mention id="em-1536" type="conflict" subtype="attack" realis="actual">
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="2564" length="3">war</trigger>
+        <em_arg entity_id="ent-1566" entity_mention_id="m-876" role="attacker" realis="true">We</em_arg>
+        <em_arg entity_id="ent-93" entity_mention_id="m-750" role="target" realis="true">Germany</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1684">
+      <event_mention id="em-1663" type="conflict" subtype="attack" realis="actual">
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="2941" length="6">fought</trigger>
+        <em_arg entity_id="ent-81" entity_mention_id="m-648" role="attacker" realis="true">the army which had fought in the Iran-Iraq War and the Gulf War</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1797">
+      <event_mention id="em-1722" type="life" subtype="die" realis="actual">
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="3243" length="6">killed</trigger>
+        <em_arg entity_id="ent-54" entity_mention_id="m-594" role="victim" realis="true">Americans</em_arg>
+        <em_arg entity_id="ent-39" entity_mention_id="m-216" role="victim" realis="true">soldiers</em_arg>
+        <em_arg entity_id="ent-63" entity_mention_id="m-612" role="victim" realis="true">civilians</em_arg>
+        <em_arg entity_id="ent-90" entity_mention_id="m-720" role="place" realis="true">Iraq</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1799">
+      <event_mention id="em-1776" type="life" subtype="die" realis="actual">
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="3526" length="4">died</trigger>
+        <em_arg entity_id="ent-1476" entity_mention_id="m-864" role="victim" realis="true">how many American</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1895">
+      <event_mention id="em-1867" type="life" subtype="die" realis="generic">
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="3834" length="3">die</trigger>
+        <em_arg entity_id="ent-1864" entity_mention_id="m-1858" role="victim" realis="true">how many people</em_arg>
+        <em_arg filler_id="f-2300" role="instrument" realis="false">weapons of mass destruction</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2056">
+      <event_mention id="em-2035" type="conflict" subtype="attack" realis="actual">
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="5312" length="7">attacks</trigger>
+        <em_arg entity_id="ent-108" entity_mention_id="m-840" role="target" realis="true">United States</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2130">
+      <event_mention id="em-2109" type="life" subtype="die" realis="other">
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="2818" length="6">killed</trigger>
+        <em_arg entity_id="ent-1575" entity_mention_id="m-1569" role="victim" realis="true">American civilians and soldiers</em_arg>
+        <em_arg entity_id="ent-1607" entity_mention_id="m-774" role="agent" realis="true">Japanese</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2167">
+      <event_mention id="em-2139" type="life" subtype="die" realis="other">
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="2818" length="6">killed</trigger>
+        <em_arg entity_id="ent-1575" entity_mention_id="m-1569" role="victim" realis="true">American civilians and soldiers</em_arg>
+        <em_arg entity_id="ent-1610" entity_mention_id="m-762" role="agent" realis="true">Germans</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2197">
+      <event_mention id="em-2169" type="life" subtype="die" realis="other">
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="2818" length="6">killed</trigger>
+        <em_arg entity_id="ent-1584" entity_mention_id="m-1578" role="victim" realis="true">American civilians</em_arg>
+        <em_arg entity_id="ent-1607" entity_mention_id="m-774" role="agent" realis="true">Japanese</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2199">
+      <event_mention id="em-2201" type="life" subtype="die" realis="other">
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="2818" length="6">killed</trigger>
+        <em_arg entity_id="ent-1584" entity_mention_id="m-1578" role="victim" realis="true">American civilians</em_arg>
+        <em_arg entity_id="ent-1610" entity_mention_id="m-762" role="agent" realis="true">Germans</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2265">
+      <event_mention id="em-2235" type="conflict" subtype="attack" realis="actual">
+        <trigger source="21dbe23f56aaef87fd0980234895b321" offset="4918" length="8">fighting</trigger>
+        <em_arg entity_id="ent-2262" entity_mention_id="m-2256" role="target" realis="true">30 times as many enemies</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

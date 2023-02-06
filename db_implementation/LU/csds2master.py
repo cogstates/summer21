@@ -3,7 +3,7 @@
 
 from ddl import DDL
 import sqlite3
-from xml2csds import XMLCorpusToCSDSCollection
+from xml2csds import XMLCorpusToCSDSCollection, XMLCorpusToCSDSCollectionWithOLabels
 import pprint
 from progress.bar import Bar
 from time import time
@@ -35,10 +35,11 @@ class CSDS2Master:
         self.ma_con = sqlite3.connect("LU_master.db")
         self.ma_cur = self.ma_con.cursor()
 
-        self.LU = XMLCorpusToCSDSCollection(
+        self.LU = XMLCorpusToCSDSCollectionWithOLabels(
             '2010 Language Understanding',
             'CMU')
-        self.collection = self.LU.create_and_get_collection().get_all_instances()[0]
+        collections = self.LU.create_and_get_collection().get_all_instances()
+        self.collection = collections[0] + collections[1]
 
         self.nlp = spacy.load("en_core_web_lg")
         self.current_doc = None
@@ -91,12 +92,35 @@ class CSDS2Master:
             mention_id = self.next_mention_id
             self.next_mention_id += 1
 
-            span_start, span_end = self.get_head_span(example.head_start, example.head_end)
+            # self.pp.pprint(example.get_marked_text())
+            span_start, span_end, head_token = self.get_head_span(example.head_start, example.head_end)
+
+            # cleanup
+            skip = False
+            if ' ' in example.head:
+                example.head = head_token.text
+                example.head_start = head_token.idx
+                example.head_end = example.head_start + len(example.head)
+            if example.head in ['', '"']:
+                skip = True
+            elif example.head[-1] in [',', ':']:
+                example.head = example.head[-1]
+                example.head_end -= 1
+            elif len(example.head) > 1 and example.head[-2:] in [',"']:
+                example.head = example.head[:-2]
+                example.head_end -= 2
+
+            if example.head in [',', ':'] or example.head == sentence:
+                skip = True
+            
+            assert skip or sentence[example.head_start:example.head_end] == example.head
+
             span_text = sentence[span_start:span_end]
 
-            self.mentions.append([mention_id, sentence_id, example.head,
-                                  example.head_start, example.head_end,
-                                  span_text, span_start, span_end])
+            if not skip:
+                self.mentions.append([mention_id, sentence_id, example.head,
+                                      example.head_start, example.head_end,
+                                      span_text, span_start, span_end])
 
             # dealing with sources -- all author
             source_id = self.next_source_id
@@ -114,7 +138,10 @@ class CSDS2Master:
     def get_final_span(syntactic_head_token, fb_head_token):
 
         # mention subtree vs children distinction in meeting!
-        syntactic_head_subtree = list(syntactic_head_token.subtree)
+        try:
+            syntactic_head_subtree = list(syntactic_head_token.subtree)
+        except:
+            return None, None
 
         relevant_tokens = []
 
@@ -164,7 +191,7 @@ class CSDS2Master:
         # postprocessing for CC and CONJ -- exclude child arcs with CC or CONJ
         span_start, span_end = self.get_final_span(syntactic_head_token, head_token)
 
-        return span_start, span_end
+        return span_start, span_end, head_token
 
 
     @staticmethod

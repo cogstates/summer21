@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="55490d330000000000000028" doc_id="0fab386f8b6527439481f526c92341c7" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-51" noun_type="NAM" source="0fab386f8b6527439481f526c92341c7" offset="84" length="6">
+        <mention_text>Gatsby</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-18" type="PER" specificity="specific">
+      <entity_mention id="m-57" noun_type="NAM" source="0fab386f8b6527439481f526c92341c7" offset="2290" length="10">
+        <mention_text>Bellissima</mention_text>
+      </entity_mention>
+      <entity_mention id="m-63" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="3223" length="1">
+        <mention_text>i</mention_text>
+      </entity_mention>
+      <entity_mention id="m-69" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="3352" length="1">
+        <mention_text>i</mention_text>
+      </entity_mention>
+      <entity_mention id="m-75" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="3359" length="1">
+        <mention_text>i</mention_text>
+      </entity_mention>
+      <entity_mention id="m-81" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="3572" length="1">
+        <mention_text>i</mention_text>
+      </entity_mention>
+      <entity_mention id="m-87" noun_type="NAM" source="0fab386f8b6527439481f526c92341c7" offset="4865" length="10">
+        <mention_text>Bellissima</mention_text>
+      </entity_mention>
+      <entity_mention id="m-93" noun_type="NAM" source="0fab386f8b6527439481f526c92341c7" offset="527" length="10">
+        <mention_text>Bellissima</mention_text>
+      </entity_mention>
+      <entity_mention id="m-99" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1460" length="1">
+        <mention_text>i</mention_text>
+      </entity_mention>
+      <entity_mention id="m-105" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1589" length="1">
+        <mention_text>i</mention_text>
+      </entity_mention>
+      <entity_mention id="m-111" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1596" length="1">
+        <mention_text>i</mention_text>
+      </entity_mention>
+      <entity_mention id="m-117" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1809" length="1">
+        <mention_text>i</mention_text>
+      </entity_mention>
+      <entity_mention id="m-123" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1338" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+      <entity_mention id="m-129" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="3101" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-21" type="PER" specificity="specific">
+      <entity_mention id="m-135" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1865" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-141" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1932" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-147" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="2081" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-153" noun_type="NAM" source="0fab386f8b6527439481f526c92341c7" offset="458" length="5">
+        <mention_text>abc:)</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-24" type="PER" specificity="specific">
+      <entity_mention id="m-159" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="106" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-165" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="122" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-171" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="139" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-177" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="839" length="16">
+        <mention_text>a guy in the USA</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="841" length="3">guy</nom_head>
+      </entity_mention>
+      <entity_mention id="m-183" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1008" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-189" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1067" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-195" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1120" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-201" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1288" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-207" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1309" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-213" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1412" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-219" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1518" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-225" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="1620" length="8">
+        <mention_text>this guy</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="1625" length="3">guy</nom_head>
+      </entity_mention>
+      <entity_mention id="m-231" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1992" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-237" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="2045" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-243" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="2118" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-249" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="2602" length="16">
+        <mention_text>a guy in the USA</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="2604" length="3">guy</nom_head>
+      </entity_mention>
+      <entity_mention id="m-255" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="2771" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-261" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="2830" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-267" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="2883" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-273" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="3051" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-279" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="3072" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-285" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="3175" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-291" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="3281" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-297" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="3383" length="8">
+        <mention_text>this guy</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="3388" length="3">guy</nom_head>
+      </entity_mention>
+      <entity_mention id="m-303" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="3957" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-309" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="3977" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-315" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="4052" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-321" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="4154" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-327" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="4435" length="26">
+        <mention_text>this particular individual</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="4451" length="10">individual</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-27" type="PER" specificity="specific">
+      <entity_mention id="m-333" noun_type="NAM" source="0fab386f8b6527439481f526c92341c7" offset="2214" length="12">
+        <mention_text>burpleronnie</mention_text>
+      </entity_mention>
+      <entity_mention id="m-339" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="3628" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-345" noun_type="NAM" source="0fab386f8b6527439481f526c92341c7" offset="4939" length="12">
+        <mention_text>burpleronnie</mention_text>
+      </entity_mention>
+      <entity_mention id="m-351" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="4954" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-30" type="PER" specificity="specific">
+      <entity_mention id="m-357" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="921" length="55">
+        <mention_text>a "14 year old girl" who was actually an undercover cop</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="973" length="3">cop</nom_head>
+      </entity_mention>
+      <entity_mention id="m-363" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="1346" length="18">
+        <mention_text>the police officer</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="1357" length="7">officer</nom_head>
+      </entity_mention>
+      <entity_mention id="m-369" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="1369" length="32">
+        <mention_text>the one who suggested everything</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="1373" length="3">one</nom_head>
+      </entity_mention>
+      <entity_mention id="m-375" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="1486" length="22">
+        <mention_text>this "14 year old girl</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="1504" length="4">girl</nom_head>
+      </entity_mention>
+      <entity_mention id="m-381" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="2684" length="55">
+        <mention_text>a "14 year old girl" who was actually an undercover cop</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="2736" length="3">cop</nom_head>
+      </entity_mention>
+      <entity_mention id="m-387" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="3109" length="18">
+        <mention_text>the police officer</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="3120" length="7">officer</nom_head>
+      </entity_mention>
+      <entity_mention id="m-393" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="3132" length="32">
+        <mention_text>the one who suggested everything</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="3136" length="3">one</nom_head>
+      </entity_mention>
+      <entity_mention id="m-399" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="3249" length="22">
+        <mention_text>this "14 year old girl</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="3267" length="4">girl</nom_head>
+      </entity_mention>
+      <entity_mention id="m-405" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="4127" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1306" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="3410" length="14">
+        <mention_text> a 14 year old</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="3421" length="3">old</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1312" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="1648" length="13">
+        <mention_text>a 14 year old</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="1658" length="3">old</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-33" type="PER" specificity="specific">
+      <entity_mention id="m-411" noun_type="NAM" source="0fab386f8b6527439481f526c92341c7" offset="3858" length="4">
+        <mention_text>RMIM</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-36" type="PER" specificity="specific">
+      <entity_mention id="m-417" noun_type="NAM" source="0fab386f8b6527439481f526c92341c7" offset="3926" length="3">
+        <mention_text>079</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-39" type="PER" specificity="specific">
+      <entity_mention id="m-423" noun_type="NAM" source="0fab386f8b6527439481f526c92341c7" offset="14" length="6">
+        <mention_text>Barden</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-42" type="ORG" specificity="specific">
+      <entity_mention id="m-429" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1047" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-435" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="1216" length="19">
+        <mention_text>the american police</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="1229" length="6">police</nom_head>
+      </entity_mention>
+      <entity_mention id="m-441" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="2138" length="4">
+        <mention_text>They</mention_text>
+      </entity_mention>
+      <entity_mention id="m-447" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="2810" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-453" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="2979" length="19">
+        <mention_text>the american police</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="2992" length="6">police</nom_head>
+      </entity_mention>
+      <entity_mention id="m-459" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="4307" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-747" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1945" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-753" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1997" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-45" type="GPE" specificity="specific">
+      <entity_mention id="m-465" noun_type="NAM" source="0fab386f8b6527439481f526c92341c7" offset="852" length="3">
+        <mention_text>USA</mention_text>
+      </entity_mention>
+      <entity_mention id="m-471" noun_type="NAM" source="0fab386f8b6527439481f526c92341c7" offset="1220" length="8">
+        <mention_text>american</mention_text>
+      </entity_mention>
+      <entity_mention id="m-477" noun_type="NAM" source="0fab386f8b6527439481f526c92341c7" offset="1917" length="3">
+        <mention_text>USA</mention_text>
+      </entity_mention>
+      <entity_mention id="m-483" noun_type="NAM" source="0fab386f8b6527439481f526c92341c7" offset="2615" length="3">
+        <mention_text>USA</mention_text>
+      </entity_mention>
+      <entity_mention id="m-489" noun_type="NAM" source="0fab386f8b6527439481f526c92341c7" offset="2983" length="8">
+        <mention_text>american</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-48" type="GPE" specificity="specific">
+      <entity_mention id="m-501" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="3338" length="12">
+        <mention_text>this country</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="3343" length="7">country</nom_head>
+      </entity_mention>
+      <entity_mention id="m-507" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1926" length="4">
+        <mention_text>here</mention_text>
+      </entity_mention>
+      <entity_mention id="m-741" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="1575" length="12">
+        <mention_text>this country</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="1580" length="7">country</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-621" type="PER" specificity="nonspecific">
+      <entity_mention id="m-615" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="168" length="19">
+        <mention_text>a '14 year old girl</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="183" length="4">girl</nom_head>
+      </entity_mention>
+      <entity_mention id="m-684" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="1151" length="13">
+        <mention_text>a 14 year old</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="1161" length="3">old</nom_head>
+      </entity_mention>
+      <entity_mention id="m-774" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="2914" length="13">
+        <mention_text>a 14 year old</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="2924" length="3">old</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-630" type="PER" specificity="nonspecific">
+      <entity_mention id="m-624" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="203" length="9">
+        <mention_text>every man</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="209" length="3">man</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-639" type="PER" specificity="nonspecific">
+      <entity_mention id="m-633" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="239" length="34">
+        <mention_text>One less paedophile on the streets</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="248" length="10">paedophile</nom_head>
+      </entity_mention>
+      <entity_mention id="m-660" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="370" length="12">
+        <mention_text>a paedophile</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="372" length="10">paedophile</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-648" type="FAC" specificity="nonspecific">
+      <entity_mention id="m-642" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="262" length="11">
+        <mention_text>the streets</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="266" length="7">streets</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-657" type="PER" specificity="nonspecific">
+      <entity_mention id="m-651" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="293" length="55">
+        <mention_text>a guy who's willing to have sex with a 14 year old girl</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="295" length="3">guy</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-672" type="GPE" specificity="nonspecific">
+      <entity_mention id="m-666" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="394" length="14">
+        <mention_text>many countries</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="399" length="9">countries</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-681" type="PER" specificity="nonspecific">
+      <entity_mention id="m-675" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="803" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-720" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1726" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-768" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="2566" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-792" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="3489" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-696" type="PER" specificity="nonspecific">
+      <entity_mention id="m-690" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1197" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-780" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="2960" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-705" type="PER" specificity="nonspecific">
+      <entity_mention id="m-699" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1427" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-786" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="3190" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-906" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="4780" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-732" type="PER" specificity="nonspecific">
+      <entity_mention id="m-726" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1743" length="7">
+        <mention_text>someone</mention_text>
+      </entity_mention>
+      <entity_mention id="m-735" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="1765" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-798" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="3506" length="7">
+        <mention_text>someone</mention_text>
+      </entity_mention>
+      <entity_mention id="m-804" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="3528" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-765" type="PER" specificity="nonspecific">
+      <entity_mention id="m-759" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="2167" length="7">
+        <mention_text>a child</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="2169" length="5">child</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-816" type="PER" specificity="nonspecific">
+      <entity_mention id="m-810" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="3685" length="10">
+        <mention_text>the person</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="3689" length="6">person</nom_head>
+      </entity_mention>
+      <entity_mention id="m-912" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="5010" length="11">
+        <mention_text> the person</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="5015" length="6">person</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-825" type="PER" specificity="nonspecific">
+      <entity_mention id="m-918" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="5069" length="17">
+        <mention_text>an undercover cop</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="5083" length="3">cop</nom_head>
+      </entity_mention>
+      <entity_mention id="m-924" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="3743" length="17">
+        <mention_text>an undercover cop</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="3757" length="3">cop</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-834" type="PER" specificity="nonspecific">
+      <entity_mention id="m-930" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="5107" length="10">
+        <mention_text>a civilian</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="5109" length="8">civilian</nom_head>
+      </entity_mention>
+      <entity_mention id="m-936" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="3781" length="10">
+        <mention_text>a civilian</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="3783" length="8">civilian</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-843" type="PER" specificity="nonspecific">
+      <entity_mention id="m-837" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="4331" length="29">
+        <mention_text>a much younger police officer</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="4353" length="7">officer</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-852" type="PER" specificity="specific">
+      <entity_mention id="m-846" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="4402" length="2">
+        <mention_text>We</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-861" type="PER" specificity="nonspecific">
+      <entity_mention id="m-855" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="4539" length="5">
+        <mention_text>a man</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="4541" length="3">man</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-870" type="PER" specificity="nonspecific">
+      <entity_mention id="m-864" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="4549" length="16">
+        <mention_text>some young girls</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="4560" length="5">girls</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-873" type="PER" specificity="nonspecific">
+      <entity_mention id="m-876" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="4571" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-888" type="PER" specificity="nonspecific">
+      <entity_mention id="m-882" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="4614" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-897" type="PER" specificity="nonspecific">
+      <entity_mention id="m-891" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="4654" length="11">
+        <mention_text>some humans</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="4659" length="6">humans</nom_head>
+      </entity_mention>
+      <entity_mention id="m-900" noun_type="PRO" source="0fab386f8b6527439481f526c92341c7" offset="4686" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-948" type="PER" specificity="nonspecific">
+      <entity_mention id="m-942" noun_type="NOM" source="0fab386f8b6527439481f526c92341c7" offset="5241" length="13">
+        <mention_text>the defendant</mention_text>
+        <nom_head source="0fab386f8b6527439481f526c92341c7" offset="5245" length="9">defendant</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-1371" source="0fab386f8b6527439481f526c92341c7" offset="3772" length="5" type="commodity">drugs</filler>
+    <filler id="f-1401" source="0fab386f8b6527439481f526c92341c7" offset="3803" length="5" type="commodity">drugs</filler>
+    <filler id="f-1461" source="0fab386f8b6527439481f526c92341c7" offset="5098" length="5" type="commodity">drugs</filler>
+    <filler id="f-1489" source="0fab386f8b6527439481f526c92341c7" offset="5129" length="5" type="commodity">drugs</filler>
+  </fillers>
+  <relations>
+    <relation id="r-342" type="physical" subtype="locatednear">
+      <relation_mention id="relm-513" realis="true">
+        <rel_arg1 entity_id="ent-24" entity_mention_id="m-177" role="entity">a guy in the USA</rel_arg1>
+        <rel_arg2 entity_id="ent-45" entity_mention_id="m-465" role="loc">USA</rel_arg2>
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="845" length="2">in</trigger>
+      </relation_mention>
+      <relation_mention id="relm-967" realis="true">
+        <rel_arg1 entity_id="ent-24" entity_mention_id="m-249" role="entity">a guy in the USA</rel_arg1>
+        <rel_arg2 entity_id="ent-45" entity_mention_id="m-483" role="loc">USA</rel_arg2>
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="2608" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-343" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-523" realis="true">
+        <rel_arg1 entity_id="ent-42" entity_mention_id="m-435" role="org">the american police</rel_arg1>
+        <rel_arg2 entity_id="ent-45" entity_mention_id="m-471" role="loc">american</rel_arg2>
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="1220" length="8">american</trigger>
+      </relation_mention>
+      <relation_mention id="relm-977" realis="true">
+        <rel_arg1 entity_id="ent-42" entity_mention_id="m-453" role="org">the american police</rel_arg1>
+        <rel_arg2 entity_id="ent-45" entity_mention_id="m-489" role="loc">american</rel_arg2>
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="2983" length="8">american</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-344" type="physical" subtype="locatednear">
+      <relation_mention id="relm-951" realis="false">
+        <rel_arg1 entity_id="ent-639" entity_mention_id="m-633" role="entity">One less paedophile on the streets</rel_arg1>
+        <rel_arg2 entity_id="ent-648" entity_mention_id="m-642" role="loc">the streets</rel_arg2>
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="259" length="2">on</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-16">
+      <event_mention id="em-533" type="justice" subtype="arrestjail" realis="actual">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="865" length="8">arrested</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-177" role="person" realis="true">a guy in the USA</em_arg>
+        <em_arg entity_id="ent-45" entity_mention_id="m-465" role="place" realis="true">USA</em_arg>
+      </event_mention>
+      <event_mention id="em-554" type="justice" subtype="arrestjail" realis="actual">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="2628" length="8">arrested</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-249" role="person" realis="true">a guy in the USA</em_arg>
+        <em_arg entity_id="ent-45" entity_mention_id="m-483" role="place" realis="true">USA</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1022">
+      <event_mention id="em-987" type="contact" subtype="meet" realis="actual" audience="twoway" formality="informal" medium="inperson" schedule="planned">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="890" length="4">meet</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-177" role="entity" realis="true">a guy in the USA</em_arg>
+        <em_arg entity_id="ent-45" entity_mention_id="m-465" role="place" realis="true">USA</em_arg>
+        <em_arg entity_id="ent-30" entity_mention_id="m-357" role="entity" realis="true">a "14 year old girl" who was actually an undercover cop</em_arg>
+      </event_mention>
+      <event_mention id="em-1052" type="contact" subtype="meet" realis="actual" audience="twoway" formality="informal" medium="inperson" schedule="planned">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="1635" length="4">meet</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-225" role="entity" realis="true">this guy</em_arg>
+        <em_arg entity_id="ent-30" entity_mention_id="m-1312" role="entity" realis="true">a 14 year old</em_arg>
+      </event_mention>
+      <event_mention id="em-1179" type="contact" subtype="meet" realis="actual" audience="twoway" formality="informal" medium="inperson" schedule="planned">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="2653" length="4">meet</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-249" role="entity" realis="true">a guy in the USA</em_arg>
+        <em_arg entity_id="ent-30" entity_mention_id="m-381" role="entity" realis="true">a "14 year old girl" who was actually an undercover cop</em_arg>
+      </event_mention>
+      <event_mention id="em-1207" type="contact" subtype="meet" realis="actual" audience="twoway" formality="informal" medium="inperson" schedule="planned">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="1202" length="3">met</trigger>
+        <em_arg entity_id="ent-696" entity_mention_id="m-690" role="entity" realis="true">they</em_arg>
+      </event_mention>
+      <event_mention id="em-1228" type="contact" subtype="meet" realis="actual" audience="twoway" formality="informal" medium="inperson" schedule="planned">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="2965" length="3">met</trigger>
+        <em_arg entity_id="ent-696" entity_mention_id="m-780" role="entity" realis="true">they</em_arg>
+      </event_mention>
+      <event_mention id="em-1279" type="contact" subtype="meet" realis="actual" audience="twoway" formality="informal" medium="inperson" schedule="planned">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="3398" length="4">meet</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-297" role="entity" realis="true">this guy</em_arg>
+        <em_arg entity_id="ent-30" entity_mention_id="m-1306" role="entity" realis="true"> a 14 year old</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1101">
+      <event_mention id="em-1080" type="justice" subtype="arrestjail" realis="other">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="1736" length="6">arrest</trigger>
+        <em_arg entity_id="ent-732" entity_mention_id="m-726" role="person" realis="true">someone</em_arg>
+      </event_mention>
+      <event_mention id="em-1325" type="justice" subtype="arrestjail" realis="other">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="3499" length="6">arrest</trigger>
+        <em_arg entity_id="ent-732" entity_mention_id="m-798" role="person" realis="true">someone</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1131">
+      <event_mention id="em-1103" type="justice" subtype="trialhearing" realis="other">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="1979" length="4">case</trigger>
+        <em_arg entity_id="ent-42" entity_mention_id="m-747" role="prosecutor" realis="true">they</em_arg>
+        <em_arg entity_id="ent-24" entity_mention_id="m-231" role="defendant" realis="true">him</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1154">
+      <event_mention id="em-1133" type="conflict" subtype="attack" realis="other">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="2186" length="5">raped</trigger>
+        <em_arg entity_id="ent-765" entity_mention_id="m-759" role="target" realis="true">a child</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1177">
+      <event_mention id="em-1156" type="life" subtype="injure" realis="other">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="2186" length="5">raped</trigger>
+        <em_arg entity_id="ent-765" entity_mention_id="m-759" role="victim" realis="true">a child</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1277">
+      <event_mention id="em-1024" type="contact" subtype="correspondence" realis="other" audience="twoway" formality="informal" medium="notinperson" schedule="planned">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="1381" length="9">suggested</trigger>
+        <em_arg entity_id="ent-30" entity_mention_id="m-369" role="entity" realis="true">the one who suggested everything</em_arg>
+        <em_arg entity_id="ent-24" entity_mention_id="m-213" role="entity" realis="true">him</em_arg>
+      </event_mention>
+      <event_mention id="em-1249" type="contact" subtype="correspondence" realis="other" audience="twoway" formality="informal" medium="notinperson" schedule="planned">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="3144" length="9">suggested</trigger>
+        <em_arg entity_id="ent-30" entity_mention_id="m-393" role="entity" realis="true">the one who suggested everything</em_arg>
+        <em_arg entity_id="ent-24" entity_mention_id="m-285" role="entity" realis="true">him</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1374">
+      <event_mention id="em-1346" type="transaction" subtype="transferownership" realis="generic" ways="canttell">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="3765" length="6">buying</trigger>
+        <em_arg entity_id="ent-825" entity_mention_id="m-924" role="recipient" realis="true">an undercover cop</em_arg>
+        <em_arg filler_id="f-1371" role="thing" realis="true">drugs</em_arg>
+      </event_mention>
+      <event_mention id="em-1436" type="transaction" subtype="transferownership" realis="generic" ways="canttell">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="5091" length="6">buying</trigger>
+        <em_arg entity_id="ent-825" entity_mention_id="m-918" role="recipient" realis="true">an undercover cop</em_arg>
+        <em_arg filler_id="f-1461" role="thing" realis="true">drugs</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1404">
+      <event_mention id="em-1376" type="transaction" subtype="transferownership" realis="generic" ways="involuntaryforce">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="3796" length="6">buying</trigger>
+        <em_arg entity_id="ent-834" entity_mention_id="m-936" role="recipient" realis="true">a civilian</em_arg>
+        <em_arg filler_id="f-1401" role="thing" realis="true">drugs</em_arg>
+      </event_mention>
+      <event_mention id="em-1464" type="transaction" subtype="transferownership" realis="generic" ways="involuntaryforce">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="5122" length="6">buying</trigger>
+        <em_arg entity_id="ent-834" entity_mention_id="m-930" role="recipient" realis="true">a civilian</em_arg>
+        <em_arg filler_id="f-1489" role="thing" realis="true">drugs</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1434">
+      <event_mention id="em-1406" type="contact" subtype="contact" realis="other" audience="twoway" formality="informal" medium="canttell" schedule="planned">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="4115" length="8">chatting</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-315" role="entity" realis="true">he</em_arg>
+        <em_arg entity_id="ent-30" entity_mention_id="m-405" role="entity" realis="true">her</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1513">
+      <event_mention id="em-1492" type="justice" subtype="trialhearing" realis="generic">
+        <trigger source="0fab386f8b6527439481f526c92341c7" offset="5245" length="9">defendant</trigger>
+        <em_arg entity_id="ent-948" entity_mention_id="m-942" role="defendant" realis="true">the defendant</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

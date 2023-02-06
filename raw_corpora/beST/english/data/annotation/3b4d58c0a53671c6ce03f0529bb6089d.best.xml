@@ -1,0 +1,2441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56ce1c7e0000000000000081">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-951">
+        <trigger offset="1523" length="4">born</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-183" offset="14" length="4">Rant</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2080">
+        <trigger offset="4543" length="11">citizenship</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2411">
+        <trigger offset="3975" length="4">born</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-237" offset="3719" length="4">Rant</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2421">
+        <trigger offset="4046" length="4">born</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-237" offset="3719" length="4">Rant</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-961">
+        <trigger offset="1878" length="11">Argentinian</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-117" offset="1853" length="8">Komnenos</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1445">
+        <trigger offset="2191" length="11">Argentinian</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2227">
+        <trigger offset="5333" length="11">Argentinian</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-971">
+        <trigger offset="2127" length="5">their</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-981">
+        <trigger offset="3221" length="3">our</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1620">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-991">
+        <trigger offset="4322" length="7">parents</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2060">
+        <trigger offset="4463" length="7">parents</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2070">
+        <trigger offset="4483" length="9">guardians</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2090">
+        <trigger offset="4609" length="7">parents</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1001">
+        <trigger offset="4331" length="12">grandparents</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1011">
+        <trigger offset="4348" length="9">ancestors</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1657">
+        <trigger offset="400" length="7">partner</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1667">
+        <trigger offset="344" length="8">contract</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1677">
+        <trigger offset="577" length="6">reside</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1687">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1860">
+        <trigger offset="2949" length="6">member</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1917">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2109">
+        <trigger offset="4815" length="6">raised</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2351">
+        <trigger offset="669" length="6">living</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2371">
+        <trigger offset="1452" length="4">born</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2391">
+        <trigger offset="2801" length="4">send</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2401">
+        <trigger offset="2929" length="4">send</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2441">
+        <trigger offset="4388" length="5">moved</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-1025">
+        <trigger offset="1523" length="4">born</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-183" offset="14" length="4">Rant</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-219" offset="1500" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-183" offset="14" length="4">Rant</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-615" offset="1531" length="12">
+            <text>this country</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-183" offset="14" length="4">Rant</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1046">
+        <trigger offset="4046" length="4">born</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-237" offset="3719" length="4">Rant</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-267" offset="4023" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-237" offset="3719" length="4">Rant</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-705" offset="4054" length="12">
+            <text>this country</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-237" offset="3719" length="4">Rant</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1067">
+        <trigger offset="4558" length="6">having</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-321" offset="4565" length="7">
+            <text>a child</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-765" offset="4573" length="4">
+            <text>here</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1088">
+        <trigger offset="2122" length="4">sent</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-903" offset="2127" length="5">
+            <text>their</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-459" offset="2127" length="17">
+            <text>their best forces</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1109">
+        <trigger offset="5264" length="4">sent</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-861" offset="5269" length="5">
+            <text>their</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-465" offset="5269" length="17">
+            <text>their best forces</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1130">
+        <trigger offset="5295" length="11">annihilated</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-465" offset="5269" length="17">
+            <text>their best forces</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1822">
+        <trigger offset="2153" length="11">annihilated</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-459" offset="2127" length="17">
+            <text>their best forces</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1349">
+        <trigger offset="1452" length="4">born</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-183" offset="14" length="4">Rant</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-381" offset="1441" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-183" offset="14" length="4">Rant</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-753" offset="1457" length="4">
+            <text>here</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-183" offset="14" length="4">Rant</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2465">
+        <trigger offset="3975" length="4">born</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-237" offset="3719" length="4">Rant</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-393" offset="3964" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-237" offset="3719" length="4">Rant</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-759" offset="3980" length="4">
+            <text>here</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-237" offset="3719" length="4">Rant</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1417">
+        <trigger offset="2212" length="11">expenditure</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-1434" offset="2233" length="17">
+            <text>5 billion dollars</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-561" offset="2191" length="20">
+            <text>Argentinian military</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2128">
+        <trigger offset="5354" length="11">expenditure</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-573" offset="5333" length="20">
+            <text>Argentinian military</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2163" offset="5375" length="17">
+            <text>5 billion dollars</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1455">
+        <trigger offset="2280" length="11">expenditure</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-627" offset="2272" length="7">
+            <text>British</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1484" offset="2301" length="18">
+            <text>60 billion dollars</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2166">
+        <trigger offset="5422" length="11">expenditure</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-735" offset="5414" length="7">
+            <text>British</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2191" offset="5443" length="18">
+            <text>60 billion dollars</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1523">
+        <trigger offset="2801" length="4">send</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-633" offset="2794" length="2">
+            <text>We</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1508" offset="2812" length="6">
+            <text>forces</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1514" offset="2822" length="12">
+            <text>the garrison</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1560">
+        <trigger offset="2836" length="4">send</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-633" offset="2794" length="2">
+            <text>We</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1585" offset="2850" length="7">
+            <text>frigate</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-921" offset="2863" length="5">
+            <text>there</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1597">
+        <trigger offset="3279" length="6">attack</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-579" offset="3221" length="16">
+            <text>our Armed Forces</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1873">
+        <trigger offset="2929" length="4">send</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1854" offset="2934" length="41">
+            <text>a high profile member of the Royal Family</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-633" offset="2794" length="2">
+            <text>We</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-927" offset="2981" length="5">
+            <text>there</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1948">
+        <trigger offset="3666" length="4">send</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-693" offset="3649" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1973" offset="3671" length="5">
+            <text>ships</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2030">
+        <trigger offset="4388" length="5">moved</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-489" offset="4367" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-717" offset="4397" length="12">
+            <text>this country</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2196">
+        <trigger offset="5739" length="5">spent</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-171" offset="5077" length="8">Komnenos</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-2213" offset="5704" length="18">
+            <text>60 billion dollars</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-171" offset="5077" length="8">Komnenos</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-75" offset="81" length="8">
+        <text>Komnenos</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-81" offset="92" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-87" offset="146" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-93" offset="1203" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-183" offset="14" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-99" offset="1254" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-183" offset="14" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-105" offset="1314" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-183" offset="14" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-111" offset="1589" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-183" offset="14" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-117" offset="1853" length="8">
+        <text>Komnenos</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-123" offset="1966" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-129" offset="2549" length="8">
+        <text>Komnenos</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-135" offset="3726" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-237" offset="3719" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-141" offset="3768" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-147" offset="3777" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-237" offset="3719" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-153" offset="3837" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-237" offset="3719" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-159" offset="4112" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-237" offset="3719" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-165" offset="4679" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-171" offset="5077" length="8">
+        <text>Komnenos</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-177" offset="1245" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-183" offset="14" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-183" offset="14" length="4">
+        <text>Rant</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-189" offset="118" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-195" offset="1236" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-201" offset="1264" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-207" offset="1401" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-213" offset="1412" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-219" offset="1500" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-225" offset="1545" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-231" offset="1582" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-237" offset="3719" length="4">
+        <text>Rant</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-243" offset="3759" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-249" offset="3787" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-255" offset="3924" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-261" offset="3935" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-267" offset="4023" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-273" offset="4068" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-279" offset="4105" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-285" offset="4295" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-291" offset="4317" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-297" offset="4418" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-303" offset="4458" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-309" offset="4478" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-315" offset="4523" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-321" offset="4565" length="7">
+        <text>a child</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-327" offset="4583" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-333" offset="4604" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-339" offset="4637" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-345" offset="4655" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-351" offset="4695" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-357" offset="4734" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-363" offset="4762" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-369" offset="4806" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-375" offset="4921" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-381" offset="1441" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-387" offset="1475" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-393" offset="3964" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-399" offset="3998" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-405" offset="1783" length="7">
+        <text>Rgman27</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-411" offset="1864" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-417" offset="1938" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-423" offset="2105" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-429" offset="2354" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-435" offset="5148" length="7">
+        <text>Rgman27</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-441" offset="5247" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-447" offset="5496" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-453" offset="5726" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-459" offset="2127" length="17">
+        <text>their best forces</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-465" offset="5269" length="17">
+        <text>their best forces</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-471" offset="2620" length="7">
+        <text>Drewski</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-477" offset="3641" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-483" offset="2959" length="16">
+        <text>the Royal Family</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-489" offset="4367" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-495" offset="4458" length="12">
+        <text>your parents</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-501" offset="4478" length="14">
+        <text>your guardians</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-507" offset="4498" length="56">
+        <text>the ones who decided for you to have British citizenship</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-513" offset="4604" length="12">
+        <text>your parents</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-519" offset="4317" length="12">
+        <text>your parents</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-525" offset="4775" length="7">
+        <text>we both</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-531" offset="4331" length="12">
+        <text>grandparents</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-537" offset="4348" length="9">
+        <text>ancestors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-543" offset="2634" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1789" offset="1730" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1795" offset="1746" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2018" offset="4253" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2024" offset="4269" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-549" offset="1874" length="20">
+        <text>the Argentinian army</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-555" offset="2082" length="12">
+        <text>the military</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-561" offset="2191" length="20">
+        <text>Argentinian military</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-567" offset="5224" length="12">
+        <text>the military</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-573" offset="5333" length="20">
+        <text>Argentinian military</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-579" offset="3221" length="16">
+        <text>our Armed Forces</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-585" offset="3431" length="16">
+        <text>its armed forces</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-591" offset="1083" length="7">
+        <text>British</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-597" offset="1154" length="7">
+        <text>Britain</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-603" offset="1168" length="7">
+        <text>Britain</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-609" offset="1372" length="7">
+        <text>Britain</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-183" offset="14" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-615" offset="1531" length="12">
+        <text>this country</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-183" offset="14" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-621" offset="1551" length="12">
+        <text>this country</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-183" offset="14" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-627" offset="2272" length="7">
+        <text>British</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-633" offset="2794" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-639" offset="3141" length="7">
+        <text>British</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-645" offset="3176" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-651" offset="3221" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-657" offset="3340" length="7">
+        <text>Britain</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-663" offset="3431" length="3">
+        <text>its</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-669" offset="3462" length="7">
+        <text>Britain</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-675" offset="3506" length="2">
+        <text>it</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-699" offset="3895" length="7">
+        <text>Britain</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-237" offset="3719" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-705" offset="4054" length="12">
+        <text>this country</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-237" offset="3719" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-711" offset="4074" length="12">
+        <text>this country</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-237" offset="3719" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-717" offset="4397" length="12">
+        <text>this country</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-723" offset="4535" length="7">
+        <text>British</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-729" offset="5041" length="7">
+        <text>Britain</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-735" offset="5414" length="7">
+        <text>British</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-741" offset="4744" length="12">
+        <text>this country</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-747" offset="1091" length="5">
+        <text>state</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-753" offset="1457" length="4">
+        <text>here</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-759" offset="3980" length="4">
+        <text>here</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-765" offset="4573" length="4">
+        <text>here</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-771" offset="4011" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-777" offset="1488" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-783" offset="1878" length="11">
+        <text>Argentinian</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-789" offset="2059" length="9">
+        <text>Argentina</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-795" offset="2191" length="11">
+        <text>Argentinian</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-801" offset="2326" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-807" offset="2431" length="11">
+        <text>Argentinian</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-813" offset="2458" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-819" offset="2508" length="17">
+        <text>their own country</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-831" offset="3056" length="9">
+        <text>Argentina</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-837" offset="3071" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-843" offset="3095" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-849" offset="5201" length="9">
+        <text>Argentina</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-855" offset="5259" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-861" offset="5269" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-867" offset="5333" length="11">
+        <text>Argentinian</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-873" offset="5468" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-879" offset="5573" length="11">
+        <text>Argentinian</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-885" offset="5600" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-891" offset="5650" length="17">
+        <text>their own country</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-897" offset="2117" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-903" offset="2127" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-909" offset="5752" length="9">
+        <text>Falklands</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-915" offset="251" length="8">
+        <text>the West</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-921" offset="2863" length="5">
+        <text>there</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-927" offset="2981" length="5">
+        <text>there</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-933" offset="3299" length="9">
+        <text>the world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-939" offset="3491" length="9">
+        <text>the world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-945" offset="4878" length="9">
+        <text>the world</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1214" offset="151" length="16">
+        <text>The nation state</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1232" offset="358" length="16">
+        <text>the nation state</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1244" offset="396" length="3">
+        <text>its</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1286" offset="554" length="9">
+        <text>the state</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1223" offset="316" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1238" offset="376" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1268" offset="449" length="4">
+        <text>Your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1274" offset="462" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1280" offset="482" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1292" offset="573" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1307" offset="589" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1313" offset="658" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1319" offset="768" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1325" offset="805" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1331" offset="922" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1337" offset="973" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1343" offset="1044" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1697" offset="743" length="8">
+        <text>yourself</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1250" offset="396" length="11">
+        <text>its partner</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1259" offset="428" length="19">
+        <text>every other citizen</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1298" offset="589" length="10">
+        <text>your state</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2321" offset="638" length="2">
+        <text>it</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2327" offset="800" length="2">
+        <text>it</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2333" offset="828" length="2">
+        <text>it</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2339" offset="945" length="2">
+        <text>it</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2345" offset="998" length="2">
+        <text>it</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1372" offset="1689" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-183" offset="14" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1381" offset="1712" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-183" offset="14" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1387" offset="1661" length="11">
+        <text>the species</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1630" offset="4184" length="11">
+        <text>the species</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1487" offset="2480" length="10">
+        <text>a military</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-825" offset="2713" length="12">
+        <text>Argentinians</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1508" offset="2812" length="6">
+        <text>forces</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1514" offset="2822" length="12">
+        <text>the garrison</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2309" offset="306" length="9">
+        <text>a citizen</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2315" offset="413" length="9">
+        <text>a partner</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1729" offset="911" length="9">
+        <text>elsewhere</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1845" offset="2897" length="17">
+        <text>another battalion</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1854" offset="2934" length="41">
+        <text>a high profile member of the Royal Family</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-681" offset="3602" length="11">
+        <text>The British</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-687" offset="3618" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-693" offset="3649" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-477" offset="3641" length="3">you</source>
+          </sentiment>
+          <sentiment polarity="pos" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1908" offset="3137" length="18">
+        <text>The British people</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2006" offset="4212" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-237" offset="3719" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2012" offset="4235" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-237" offset="3719" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2100" offset="4825" length="39">
+        <text>a safe, prosperous, liberal environment</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2119" offset="4987" length="66">
+        <text>the majority of humanity who cannot call a place like Britain home</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2247" offset="662" length="25">
+        <text>a safe living environment</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2256" offset="1118" length="6">
+        <text>nobody</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-951">
+        <trigger offset="1523" length="4">born</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-183" offset="14" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2080">
+        <trigger offset="4543" length="11">citizenship</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2411">
+        <trigger offset="3975" length="4">born</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2421">
+        <trigger offset="4046" length="4">born</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-237" offset="3719" length="4">Rant</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-961">
+        <trigger offset="1878" length="11">Argentinian</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1445">
+        <trigger offset="2191" length="11">Argentinian</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2227">
+        <trigger offset="5333" length="11">Argentinian</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-971">
+        <trigger offset="2127" length="5">their</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-981">
+        <trigger offset="3221" length="3">our</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1620">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-991">
+        <trigger offset="4322" length="7">parents</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2060">
+        <trigger offset="4463" length="7">parents</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2070">
+        <trigger offset="4483" length="9">guardians</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2090">
+        <trigger offset="4609" length="7">parents</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1001">
+        <trigger offset="4331" length="12">grandparents</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1011">
+        <trigger offset="4348" length="9">ancestors</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1657">
+        <trigger offset="400" length="7">partner</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1667">
+        <trigger offset="344" length="8">contract</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1677">
+        <trigger offset="577" length="6">reside</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1687">
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1860">
+        <trigger offset="2949" length="6">member</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1917">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2109">
+        <trigger offset="4815" length="6">raised</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2351">
+        <trigger offset="669" length="6">living</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-75" offset="81" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2371">
+        <trigger offset="1452" length="4">born</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2391">
+        <trigger offset="2801" length="4">send</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2401">
+        <trigger offset="2929" length="4">send</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2441">
+        <trigger offset="4388" length="5">moved</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-1025">
+        <trigger offset="1523" length="4">born</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1046">
+        <trigger offset="4046" length="4">born</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1067">
+        <trigger offset="4558" length="6">having</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1088">
+        <trigger offset="2122" length="4">sent</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1109">
+        <trigger offset="5264" length="4">sent</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1130">
+        <trigger offset="5295" length="11">annihilated</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1822">
+        <trigger offset="2153" length="11">annihilated</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1349">
+        <trigger offset="1452" length="4">born</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2465">
+        <trigger offset="3975" length="4">born</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1417">
+        <trigger offset="2212" length="11">expenditure</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2128">
+        <trigger offset="5354" length="11">expenditure</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1455">
+        <trigger offset="2280" length="11">expenditure</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-405" offset="1783" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2166">
+        <trigger offset="5422" length="11">expenditure</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-435" offset="5148" length="7">Rgman27</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1523">
+        <trigger offset="2801" length="4">send</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1560">
+        <trigger offset="2836" length="4">send</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1597">
+        <trigger offset="3279" length="6">attack</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1873">
+        <trigger offset="2929" length="4">send</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-471" offset="2620" length="7">Drewski</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1948">
+        <trigger offset="3666" length="4">send</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-129" offset="2549" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2030">
+        <trigger offset="4388" length="5">moved</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2196">
+        <trigger offset="5739" length="5">spent</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-171" offset="5077" length="8">Komnenos</source>
+          </sentiment>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

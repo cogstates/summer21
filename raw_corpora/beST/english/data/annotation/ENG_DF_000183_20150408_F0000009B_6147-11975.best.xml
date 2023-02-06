@@ -1,0 +1,2005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-570bb6080000000000000013">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-568eb23c_14_1014">
+        <trigger offset="6231" length="4">born</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_285" offset="6170" length="7">Adrahil</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1024">
+        <trigger offset="6250" length="2">be</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_285" offset="6170" length="7">Adrahil</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1034">
+        <trigger offset="6285" length="7">born to</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_285" offset="6170" length="7">Adrahil</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1044">
+        <trigger offset="6446" length="15">take the office</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_369" offset="6384" length="7">Aristus</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1054">
+        <trigger offset="6501" length="2">as</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_369" offset="6384" length="7">Aristus</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1064">
+        <trigger offset="7559" length="6">became</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_339" offset="7499" length="5">n2doc</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1074">
+        <trigger offset="7599" length="2">as</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_339" offset="7499" length="5">n2doc</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1084">
+        <trigger offset="7729" length="2">as</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_297" offset="7659" length="12">InAbLuEsTaTe</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1094">
+        <trigger offset="8293" length="4">from</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1114">
+        <trigger offset="8484" length="10">Republican</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1124">
+        <trigger offset="8708" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1134">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1144">
+        <trigger offset="8758" length="8">resident</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1154">
+        <trigger offset="8758" length="8">resident</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1174">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1184">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-568eb23c_14_1194">
+        <trigger offset="6231" length="4">born</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_285" offset="6170" length="7">Adrahil</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_411" offset="6222" length="23">
+            <text>A person born in Canada</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_285" offset="6170" length="7">Adrahil</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_14_177" offset="6239" length="6">
+            <text>Canada</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_285" offset="6170" length="7">Adrahil</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1222">
+        <trigger offset="6285" length="4">born</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_285" offset="6170" length="7">Adrahil</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_420" offset="6275" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_285" offset="6170" length="7">Adrahil</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1245">
+        <trigger offset="6323" length="4">BORN</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_285" offset="6170" length="7">Adrahil</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_435" offset="6315" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_285" offset="6170" length="7">Adrahil</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1268">
+        <trigger offset="6348" length="3">NBC</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_285" offset="6170" length="7">Adrahil</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_450" offset="6339" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_285" offset="6170" length="7">Adrahil</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1289">
+        <trigger offset="6250" length="2">be</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_285" offset="6170" length="7">Adrahil</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_411" offset="6222" length="23">
+            <text>A person born in Canada</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_285" offset="6170" length="7">Adrahil</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-568eb23c_14_1346" offset="6253" length="9">
+            <text>President</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_285" offset="6170" length="7">Adrahil</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1312">
+        <trigger offset="6446" length="15">take the office</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_14_369" offset="6384" length="7">Aristus</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_474" offset="6468" length="3">
+            <text>who</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_369" offset="6384" length="7">Aristus</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-568eb23c_14_1337" offset="6465" length="2">
+            <text>VP</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-568eb23c_14_369" offset="6384" length="7">Aristus</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_2326">
+        <trigger offset="10620" length="5">serve</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+          </belief>
+          <belief type="rob">
+            <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-568eb23c_14_2343" offset="10629" length="14">
+            <text>Vice President</text>
+            <beliefs>
+              <belief type="na"/>
+              <belief type="rob">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1349">
+        <trigger offset="6495" length="5">serve</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_369" offset="6384" length="7">Aristus</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_474" offset="6468" length="3">
+            <text>who</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_369" offset="6384" length="7">Aristus</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-568eb23c_14_1374" offset="6504" length="9">
+            <text>President</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_369" offset="6384" length="7">Aristus</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_2305">
+        <trigger offset="10597" length="5">serve</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-568eb23c_14_2322" offset="10606" length="9">
+            <text>President</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1379">
+        <trigger offset="6674" length="4">walk</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_14_315" offset="6611" length="8">djean111</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_492" offset="6657" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_315" offset="6611" length="8">djean111</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1402">
+        <trigger offset="7223" length="4">post</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_327" offset="7158" length="9">Raine1967</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_327" offset="7158" length="9">
+            <text>Raine1967</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_327" offset="7158" length="9">Raine1967</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1535">
+        <trigger offset="7559" length="6">became</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_339" offset="7499" length="5">n2doc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_231" offset="7554" length="4">
+            <text>Bill</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_339" offset="7499" length="5">n2doc</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-568eb23c_14_1560" offset="7566" length="9">
+            <text>President</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_339" offset="7499" length="5">n2doc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1565">
+        <trigger offset="7585" length="7">appoint</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_339" offset="7499" length="5">n2doc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_516" offset="7576" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_339" offset="7499" length="5">n2doc</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_14_207" offset="7593" length="5">
+            <text>Obama</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_339" offset="7499" length="5">n2doc</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-568eb23c_14_1597" offset="7602" length="2">
+            <text>VP</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_339" offset="7499" length="5">n2doc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1602">
+        <trigger offset="7606" length="6">Paging</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="yes">
+            <source ere_id="m-568eb23c_14_339" offset="7499" length="5">n2doc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_111" offset="7613" length="10">
+            <text>Alex Jones</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="yes">
+                <source ere_id="m-568eb23c_14_339" offset="7499" length="5">n2doc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1625">
+        <trigger offset="8182" length="4">move</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_570" offset="8167" length="4">
+            <text>They</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1669">
+        <trigger offset="8223" length="8">electors</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_579" offset="8219" length="12">
+            <text>the electors</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_14_588" offset="8249" length="11">
+            <text>a president</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_14_597" offset="8265" length="2">
+            <text>VP</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1706">
+        <trigger offset="8325" length="7">elector</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_633" offset="8321" length="11">
+            <text>the elector</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1727">
+        <trigger offset="8662" length="4">pull</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_237" offset="8649" length="4">
+            <text>Bill</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-568eb23c_14_1752" offset="8667" length="8">
+            <text>$125,000</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_14_702" offset="8683" length="8">
+            <text>the bank</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1764">
+        <trigger offset="8696" length="3">buy</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_237" offset="8649" length="4">
+            <text>Bill</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_14_711" offset="8700" length="7">
+            <text>a house</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_14_123" offset="8711" length="9">
+            <text>Bald Knob</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1815">
+        <trigger offset="8696" length="3">buy</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_237" offset="8649" length="4">
+            <text>Bill</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_14_123" offset="8711" length="9">
+            <text>Bald Knob</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_351" offset="8119" length="10">jmowreader</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1868">
+        <trigger offset="9193" length="7">elected</trigger>
+        <beliefs>
+          <belief type="na"/>
+          <belief type="rob">
+            <source ere_id="m-568eb23c_14_357" offset="9112" length="5">jwirr</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_780" offset="9180" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_357" offset="9112" length="5">jwirr</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1891">
+        <trigger offset="9895" length="8">proclaim</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_819" offset="9858" length="26">
+            <text>both sides of the argument</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1914">
+        <trigger offset="9767" length="6">played</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_813" offset="9755" length="6">
+            <text>People</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_1937">
+        <trigger offset="10305" length="7">ELECTED</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no"/>
+          <belief type="rob" polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_843" offset="10285" length="8">
+            <text>a person</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-568eb23c_14_1962" offset="10330" length="9">
+            <text>President</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_2030">
+        <trigger offset="10857" length="11">unelectable</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_867" offset="10810" length="20">
+            <text>a two term President</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_2053">
+        <trigger offset="10899" length="8">argument</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_882" offset="10918" length="53">
+            <text>a camp that supports its "implied meaning" and intent</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_14_891" offset="10977" length="66">
+            <text>another camp that is strictly reading the letter of the law itself</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_2104">
+        <trigger offset="11233" length="10">thrown out</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_906" offset="11217" length="6">
+            <text>the VP</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-568eb23c_14_2129" offset="11221" length="2">
+            <text>VP</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_14_900" offset="11080" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_2134">
+        <trigger offset="11273" length="8">election</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_906" offset="11217" length="6">
+            <text>the VP</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-568eb23c_14_2159" offset="11221" length="2">
+            <text>VP</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_14_900" offset="11080" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_2178">
+        <trigger offset="11308" length="7">elected</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_915" offset="11298" length="27">
+            <text>the newly elected President</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-568eb23c_14_2203" offset="11316" length="9">
+            <text>President</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_2208">
+        <trigger offset="11378" length="7">nominee</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_924" offset="11372" length="32">
+            <text>a new nominee for Vice President</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_14_915" offset="11298" length="27">
+            <text>the newly elected President</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-568eb23c_14_2240" offset="11390" length="14">
+            <text>Vice President</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_2245">
+        <trigger offset="11622" length="3">vet</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_153" offset="11597" length="8">
+            <text>Congress</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-568eb23c_14_981" offset="11638" length="18">
+            <text>the Vice President</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-568eb23c_14_2275">
+        <trigger offset="11721" length="6">former</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-568eb23c_14_1005" offset="11715" length="31">
+            <text>their former two-term President</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-568eb23c_14_2300" offset="11737" length="9">
+            <text>President</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-568eb23c_14_111" offset="7613" length="10">
+        <text>Alex Jones</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_117" offset="8446" length="10">
+        <text>Mike Crapo</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_123" offset="8711" length="9">
+        <text>Bald Knob</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_129" offset="9740" length="13">
+        <text>Supreme Court</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_135" offset="9994" length="13">
+        <text>Supreme Court</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_141" offset="11174" length="13">
+        <text>Supreme Court</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_147" offset="11506" length="13">
+        <text>Supreme Court</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_153" offset="11597" length="8">
+        <text>Congress</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_159" offset="11422" length="8">
+        <text>Congress</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_14_405" offset="9628" length="7">Xithras</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_171" offset="9573" length="4">
+        <text>Bush</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_177" offset="6239" length="6">
+        <text>Canada</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_183" offset="7721" length="7">
+        <text>Chelsea</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_189" offset="7766" length="9">
+        <text>Charlotte</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_195" offset="6783" length="11">
+        <text>Jamie Dimon</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_315" offset="6611" length="8">djean111</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_165" offset="9568" length="4">
+        <text>Bush</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_201" offset="6931" length="3">
+        <text>Jeb</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_14_291" offset="6873" length="12">InAbLuEsTaTe</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_207" offset="7593" length="5">
+        <text>Obama</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_213" offset="8461" length="13">
+        <text>Raul Labrador</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_219" offset="8529" length="5">
+        <text>Idaho</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_225" offset="6527" length="4">
+        <text>Bill</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_369" offset="6384" length="7">Aristus</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_231" offset="7554" length="4">
+        <text>Bill</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_237" offset="8649" length="4">
+        <text>Bill</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_243" offset="9556" length="7">
+        <text>Clinton</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_486" offset="6575" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_516" offset="7576" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_726" offset="8726" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_780" offset="9180" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_789" offset="9225" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_795" offset="9242" length="7">
+        <text>himself</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_249" offset="8749" length="8">
+        <text>Arkansas</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_720" offset="8722" length="2">
+        <text>AR</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_255" offset="6775" length="7">
+        <text>Hillary</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_261" offset="6923" length="7">
+        <text>Hillary</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_14_291" offset="6873" length="12">InAbLuEsTaTe</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_267" offset="9028" length="7">
+        <text>Hillary</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_273" offset="9548" length="7">
+        <text>Clinton</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_279" offset="8484" length="10">
+        <text>Republican</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_285" offset="6170" length="7">
+        <text>Adrahil</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_291" offset="6873" length="12">
+        <text>InAbLuEsTaTe</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_297" offset="7659" length="12">
+        <text>InAbLuEsTaTe</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_303" offset="9308" length="12">
+        <text>InAbLuEsTaTe</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_504" offset="6964" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_807" offset="9464" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_363" offset="9393" length="5">jwirr</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_309" offset="7858" length="7">
+        <text>hifiguy</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_315" offset="6611" length="8">
+        <text>djean111</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_321" offset="8848" length="8">
+        <text>djean111</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_492" offset="6657" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_498" offset="6686" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_756" offset="8894" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_327" offset="7158" length="9">
+        <text>Raine1967</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_333" offset="7401" length="9">
+        <text>Raine1967</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_339" offset="7499" length="5">
+        <text>n2doc</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_345" offset="7989" length="8">
+        <text>Stallion</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_351" offset="8119" length="10">
+        <text>jmowreader</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_741" offset="8795" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_357" offset="9112" length="5">
+        <text>jwirr</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_363" offset="9393" length="5">
+        <text>jwirr</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_801" offset="9442" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_369" offset="6384" length="7">
+        <text>Aristus</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_480" offset="6545" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_375" offset="11845" length="8">
+        <text>zappaman</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_381" offset="7012" length="10">
+        <text>William769</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_387" offset="7316" length="10">
+        <text>William769</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_393" offset="7459" length="7">
+        <text>William</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_510" offset="7090" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_399" offset="9500" length="10">
+        <text>guillaumeb</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_405" offset="9628" length="7">
+        <text>Xithras</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_411" offset="6222" length="23">
+        <text>A person born in Canada</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_420" offset="6275" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_426" offset="6293" length="9">
+        <text>a citizen</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_444" offset="6328" length="9">
+        <text>a citizen</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_456" offset="6348" length="3">
+        <text>NBC</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_435" offset="6315" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_450" offset="6339" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_522" offset="7737" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_537" offset="7811" length="7">
+        <text>dontcha</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_933" offset="11446" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_975" offset="11558" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_465" offset="6435" length="6">
+        <text>No one</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_474" offset="6468" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_528" offset="7790" length="10">
+        <text>the royals</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-568eb23c_14_297" offset="7659" length="12">InAbLuEsTaTe</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_543" offset="7911" length="6">
+        <text>Bushes</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_14_309" offset="7858" length="7">hifiguy</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_552" offset="7928" length="8">
+        <text>Clintons</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_14_309" offset="7858" length="7">hifiguy</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_561" offset="8072" length="2">
+        <text>'s</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_570" offset="8167" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_579" offset="8219" length="12">
+        <text>the electors</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_588" offset="8249" length="11">
+        <text>a president</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_597" offset="8265" length="2">
+        <text>VP</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_606" offset="8278" length="11">
+        <text>one of whom</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_615" offset="8285" length="4">
+        <text>whom</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_624" offset="8298" length="17">
+        <text>a different state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_633" offset="8321" length="11">
+        <text>the elector</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_642" offset="8337" length="10">
+        <text>Most folks</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_651" offset="8371" length="19">
+        <text>the two politicians</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_660" offset="8405" length="14">
+        <text>the same state</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_669" offset="8480" length="25">
+        <text>the Republican candidates</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_678" offset="8506" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_684" offset="8604" length="6">
+        <text>no one</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_693" offset="8630" length="13">
+        <text>a whole state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_702" offset="8683" length="8">
+        <text>the bank</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_711" offset="8700" length="7">
+        <text>a house</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_732" offset="8746" length="20">
+        <text>an Arkansas resident</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_747" offset="8804" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_900" offset="11080" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_762" offset="8953" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_771" offset="9053" length="26">
+        <text>the presidential candidate</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_813" offset="9755" length="6">
+        <text>People</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_819" offset="9858" length="26">
+        <text>both sides of the argument</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_828" offset="9909" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_876" offset="10882" length="25">
+        <text>the camps in the argument</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_834" offset="10052" length="8">
+        <text>somebody</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_843" offset="10285" length="8">
+        <text>a person</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_852" offset="10423" length="8">
+        <text>a person</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_858" offset="10576" length="6">
+        <text>nobody</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_867" offset="10810" length="20">
+        <text>a two term President</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_882" offset="10918" length="53">
+        <text>a camp that supports its "implied meaning" and intent</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_891" offset="10977" length="66">
+        <text>another camp that is strictly reading the letter of the law itself</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_906" offset="11217" length="6">
+        <text>the VP</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_915" offset="11298" length="27">
+        <text>the newly elected President</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_924" offset="11372" length="32">
+        <text>a new nominee for Vice President</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_939" offset="11469" length="14">
+        <text>federal judges</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_948" offset="11485" length="15">
+        <text>cabinet members</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_957" offset="11485" length="7">
+        <text>cabinet</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_966" offset="11506" length="22">
+        <text>Supreme Court justices</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="yes"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_981" offset="11638" length="18">
+        <text>the Vice President</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_990" offset="11658" length="8">
+        <text>No party</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_999" offset="11715" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-568eb23c_14_1005" offset="11715" length="31">
+        <text>their former two-term President</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-568eb23c_14_1014">
+        <trigger offset="6231" length="4">born</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1024">
+        <trigger offset="6250" length="2">be</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1034">
+        <trigger offset="6285" length="7">born to</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1044">
+        <trigger offset="6446" length="15">take the office</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1054">
+        <trigger offset="6501" length="2">as</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1064">
+        <trigger offset="7559" length="6">became</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1074">
+        <trigger offset="7599" length="2">as</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1084">
+        <trigger offset="7729" length="2">as</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1094">
+        <trigger offset="8293" length="4">from</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1114">
+        <trigger offset="8484" length="10">Republican</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1124">
+        <trigger offset="8708" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1134">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1144">
+        <trigger offset="8758" length="8">resident</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1154">
+        <trigger offset="8758" length="8">resident</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1174">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-568eb23c_14_1184">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-568eb23c_14_1194">
+        <trigger offset="6231" length="4">born</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1222">
+        <trigger offset="6285" length="4">born</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1245">
+        <trigger offset="6323" length="4">BORN</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1268">
+        <trigger offset="6348" length="3">NBC</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1289">
+        <trigger offset="6250" length="2">be</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1312">
+        <trigger offset="6446" length="15">take the office</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_2326">
+        <trigger offset="10620" length="5">serve</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1349">
+        <trigger offset="6495" length="5">serve</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_2305">
+        <trigger offset="10597" length="5">serve</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1379">
+        <trigger offset="6674" length="4">walk</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_14_315" offset="6611" length="8">djean111</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1402">
+        <trigger offset="7223" length="4">post</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-568eb23c_14_327" offset="7158" length="9">Raine1967</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1535">
+        <trigger offset="7559" length="6">became</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1565">
+        <trigger offset="7585" length="7">appoint</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1602">
+        <trigger offset="7606" length="6">Paging</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1625">
+        <trigger offset="8182" length="4">move</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1669">
+        <trigger offset="8223" length="8">electors</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1706">
+        <trigger offset="8325" length="7">elector</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1727">
+        <trigger offset="8662" length="4">pull</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1764">
+        <trigger offset="8696" length="3">buy</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1815">
+        <trigger offset="8696" length="3">buy</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1868">
+        <trigger offset="9193" length="7">elected</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1891">
+        <trigger offset="9895" length="8">proclaim</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1914">
+        <trigger offset="9767" length="6">played</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_1937">
+        <trigger offset="10305" length="7">ELECTED</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_2030">
+        <trigger offset="10857" length="11">unelectable</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_2053">
+        <trigger offset="10899" length="8">argument</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_2104">
+        <trigger offset="11233" length="10">thrown out</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_14_915" offset="11298" length="27">the newly elected President</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_2134">
+        <trigger offset="11273" length="8">election</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_2178">
+        <trigger offset="11308" length="7">elected</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_2208">
+        <trigger offset="11378" length="7">nominee</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_2245">
+        <trigger offset="11622" length="3">vet</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-568eb23c_14_915" offset="11298" length="27">the newly elected President</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-568eb23c_14_2275">
+        <trigger offset="11721" length="6">former</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

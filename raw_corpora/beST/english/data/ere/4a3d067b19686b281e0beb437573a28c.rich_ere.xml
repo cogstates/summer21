@@ -1,0 +1,973 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="557f043e0000000000000043" doc_id="4a3d067b19686b281e0beb437573a28c" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-141" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="5707" length="19">
+        <mention_text>jumpingjesusholycow</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-18" type="PER" specificity="specific">
+      <entity_mention id="m-147" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="5626" length="17">
+        <mention_text>Justcuriousyaknow</mention_text>
+      </entity_mention>
+      <entity_mention id="m-153" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="6182" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-159" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="6205" length="38">
+        <mention_text>an individual who is of Jewish descent</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="6208" length="10">individual</nom_head>
+      </entity_mention>
+      <entity_mention id="m-165" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="6332" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-171" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="6246" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-177" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="6273" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-21" type="PER" specificity="specific">
+      <entity_mention id="m-183" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="14" length="13">
+        <mention_text>AldrousHuxley</mention_text>
+      </entity_mention>
+      <entity_mention id="m-189" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="5197" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-195" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="3340" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-201" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="2176" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-207" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="2184" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-213" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="2209" length="8">
+        <mention_text>yourself</mention_text>
+      </entity_mention>
+      <entity_mention id="m-219" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="3653" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-225" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="2283" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-231" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="2678" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-912" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="181" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-24" type="PER" specificity="specific">
+      <entity_mention id="m-237" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="91" length="9">
+        <mention_text>thisisnew</mention_text>
+      </entity_mention>
+      <entity_mention id="m-243" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="134" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-249" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="2656" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-255" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="2299" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-261" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="3149" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-267" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="3166" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-27" type="PER" specificity="specific">
+      <entity_mention id="m-273" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="789" length="14">
+        <mention_text>Theodore Herzl</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-30" type="PER" specificity="specific">
+      <entity_mention id="m-279" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="3305" length="21">
+        <mention_text>850 000 jewish people</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="3305" length="7">850 000</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-33" type="PER" specificity="specific">
+      <entity_mention id="m-285" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="2585" length="12">
+        <mention_text>Wilhelm Marr</mention_text>
+      </entity_mention>
+      <entity_mention id="m-291" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="2563" length="21">
+        <mention_text>the Jew-hating German</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="2578" length="6">German</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-36" type="PER" specificity="specific">
+      <entity_mention id="m-297" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="979" length="7">
+        <mention_text>Balfour</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-39" type="PER" specificity="specific">
+      <entity_mention id="m-303" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="2788" length="13">
+        <mention_text>innocent Jews</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="2797" length="4">Jews</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-42" type="PER" specificity="specific">
+      <entity_mention id="m-309" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4184" length="27">
+        <mention_text>all the christian democrats</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4184" length="3">all</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-45" type="PER" specificity="specific">
+      <entity_mention id="m-315" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4260" length="1">
+        <mention_text>2</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4260" length="1">2</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-48" type="ORG" specificity="specific">
+      <entity_mention id="m-321" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="879" length="26">
+        <mention_text>World Zionist Organization</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-51" type="ORG" specificity="specific">
+      <entity_mention id="m-327" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="1756" length="6">
+        <mention_text>UNSCOP</mention_text>
+      </entity_mention>
+      <entity_mention id="m-333" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="1788" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-54" type="ORG" specificity="specific">
+      <entity_mention id="m-339" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="5154" length="2">
+        <mention_text>UN</mention_text>
+      </entity_mention>
+      <entity_mention id="m-345" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="4573" length="2">
+        <mention_text>UN</mention_text>
+      </entity_mention>
+      <entity_mention id="m-351" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="1736" length="2">
+        <mention_text>UN</mention_text>
+      </entity_mention>
+      <entity_mention id="m-357" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="1720" length="2">
+        <mention_text>UN</mention_text>
+      </entity_mention>
+      <entity_mention id="m-363" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="2018" length="2">
+        <mention_text>UN</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-57" type="ORG" specificity="specific">
+      <entity_mention id="m-369" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="813" length="22">
+        <mention_text>First Zionist Congress</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-60" type="ORG" specificity="specific">
+      <entity_mention id="m-375" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="1286" length="15">
+        <mention_text>Peel Commission</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-63" type="ORG" specificity="specific">
+      <entity_mention id="m-381" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="1336" length="19">
+        <mention_text>Woodhead Commission</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-66" type="ORG" specificity="specific">
+      <entity_mention id="m-387" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="5353" length="22">
+        <mention_text>the Israeli government</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="5365" length="10">government</nom_head>
+      </entity_mention>
+      <entity_mention id="m-393" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="5580" length="3">
+        <mention_text>its</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-69" type="ORG" specificity="specific">
+      <entity_mention id="m-399" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="5230" length="27">
+        <mention_text>the new Egyptian government</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="5247" length="10">government</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-72" type="ORG" specificity="specific">
+      <entity_mention id="m-405" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="1852" length="2">
+        <mention_text>GA</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-75" type="ORG" specificity="specific">
+      <entity_mention id="m-411" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="4275" length="2">
+        <mention_text>SS</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-78" type="ORG" specificity="specific">
+      <entity_mention id="m-417" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="4281" length="2">
+        <mention_text>SA</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-81" type="GPE" specificity="specific">
+      <entity_mention id="m-423" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="6011" length="12">
+        <mention_text>Palestinians</mention_text>
+      </entity_mention>
+      <entity_mention id="m-429" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="514" length="9">
+        <mention_text>Palestine</mention_text>
+      </entity_mention>
+      <entity_mention id="m-435" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="949" length="9">
+        <mention_text>Palestine</mention_text>
+      </entity_mention>
+      <entity_mention id="m-441" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="1244" length="9">
+        <mention_text>Palestine</mention_text>
+      </entity_mention>
+      <entity_mention id="m-447" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="1647" length="9">
+        <mention_text>Palestine</mention_text>
+      </entity_mention>
+      <entity_mention id="m-453" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="2147" length="9">
+        <mention_text>Palestine</mention_text>
+      </entity_mention>
+      <entity_mention id="m-465" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="5524" length="10">
+        <mention_text>Palestinia</mention_text>
+      </entity_mention>
+      <entity_mention id="m-477" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="6098" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+      <entity_mention id="m-483" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="6144" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-84" type="GPE" specificity="specific">
+      <entity_mention id="m-489" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="5238" length="8">
+        <mention_text>Egyptian</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-87" type="GPE" specificity="specific">
+      <entity_mention id="m-495" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="1106" length="7">
+        <mention_text>Britain</mention_text>
+      </entity_mention>
+      <entity_mention id="m-501" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="1946" length="7">
+        <mention_text>British</mention_text>
+      </entity_mention>
+      <entity_mention id="m-513" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="1415" length="7">
+        <mention_text>British</mention_text>
+      </entity_mention>
+      <entity_mention id="m-519" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="1690" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-90" type="GPE" specificity="specific">
+      <entity_mention id="m-525" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="5357" length="7">
+        <mention_text>Israeli</mention_text>
+      </entity_mention>
+      <entity_mention id="m-531" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="161" length="6">
+        <mention_text>Israel</mention_text>
+      </entity_mention>
+      <entity_mention id="m-537" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="1868" length="6">
+        <mention_text>Israel</mention_text>
+      </entity_mention>
+      <entity_mention id="m-543" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="5495" length="7">
+        <mention_text>Israeli</mention_text>
+      </entity_mention>
+      <entity_mention id="m-549" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="5859" length="7">
+        <mention_text>Israeli</mention_text>
+      </entity_mention>
+      <entity_mention id="m-555" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="554" length="17">
+        <mention_text>a Jewish homeland</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="563" length="8">homeland</nom_head>
+      </entity_mention>
+      <entity_mention id="m-561" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="704" length="17">
+        <mention_text>a Jewish homeland</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="713" length="8">homeland</nom_head>
+      </entity_mention>
+      <entity_mention id="m-567" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="3444" length="14">
+        <mention_text>a Jewish state</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="3453" length="5">state</nom_head>
+      </entity_mention>
+      <entity_mention id="m-573" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="928" length="17">
+        <mention_text>a Jewish homeland</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="937" length="8">homeland</nom_head>
+      </entity_mention>
+      <entity_mention id="m-579" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="3591" length="7">
+        <mention_text>a state</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="3593" length="5">state</nom_head>
+      </entity_mention>
+      <entity_mention id="m-585" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="3761" length="9">
+        <mention_text>The state</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="3765" length="5">state</nom_head>
+      </entity_mention>
+      <entity_mention id="m-591" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="3581" length="2">
+        <mention_text>it</mention_text>
+      </entity_mention>
+      <entity_mention id="m-597" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="5165" length="11">
+        <mention_text>the country</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="5169" length="7">country</nom_head>
+      </entity_mention>
+      <entity_mention id="m-603" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4997" length="11">
+        <mention_text>the country</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="5001" length="7">country</nom_head>
+      </entity_mention>
+      <entity_mention id="m-609" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="1992" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-615" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="3836" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1948" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="3845" length="3">
+        <mention_text>all</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-93" type="GPE" specificity="specific">
+      <entity_mention id="m-621" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="4071" length="8">
+        <mention_text>algerian</mention_text>
+      </entity_mention>
+      <entity_mention id="m-633" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4166" length="13">
+        <mention_text>their country</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4172" length="7">country</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-96" type="GPE" specificity="specific">
+      <entity_mention id="m-639" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="1115" length="6">
+        <mention_text>France</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-99" type="GPE" specificity="specific">
+      <entity_mention id="m-645" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="1123" length="5">
+        <mention_text>Italy</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-102" type="GPE" specificity="specific">
+      <entity_mention id="m-651" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="1130" length="5">
+        <mention_text>Japan</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-105" type="GPE" specificity="specific">
+      <entity_mention id="m-657" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="1144" length="2">
+        <mention_text>US</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-108" type="GPE" specificity="specific">
+      <entity_mention id="m-663" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="4240" length="6">
+        <mention_text>German</mention_text>
+      </entity_mention>
+      <entity_mention id="m-669" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="2578" length="6">
+        <mention_text>German</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-111" type="GPE" specificity="specific">
+      <entity_mention id="m-675" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="505" length="18">
+        <mention_text>Mandated Palestine</mention_text>
+      </entity_mention>
+      <entity_mention id="m-681" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4322" length="8">
+        <mention_text>a colony</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4324" length="6">colony</nom_head>
+      </entity_mention>
+      <entity_mention id="m-687" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="4350" length="3">
+        <mention_text>its</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-114" type="GPE" specificity="specific">
+      <entity_mention id="m-693" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="1062" length="8">
+        <mention_text>San Remo</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-117" type="GPE" specificity="specific">
+      <entity_mention id="m-699" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4232" length="19">
+        <mention_text>a 1930s German city</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4247" length="4">city</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-120" type="GPE" specificity="specific">
+      <entity_mention id="m-705" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="3386" length="27">
+        <mention_text>the western european states</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="3407" length="6">states</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-123" type="LOC" specificity="specific">
+      <entity_mention id="m-711" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="5268" length="10">
+        <mention_text>the border</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="5272" length="6">border</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-126" type="LOC" specificity="specific">
+      <entity_mention id="m-717" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="3390" length="16">
+        <mention_text>western european</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="3398" length="8">european</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-129" type="LOC" specificity="specific">
+      <entity_mention id="m-723" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="3398" length="8">
+        <mention_text>european</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-132" type="LOC" specificity="specific">
+      <entity_mention id="m-729" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4726" length="7">
+        <mention_text>western</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4726" length="7">western</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-135" type="LOC" specificity="specific">
+      <entity_mention id="m-735" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="5943" length="5">
+        <mention_text>world</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="5943" length="5">world</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-138" type="LOC" specificity="specific">
+      <entity_mention id="m-741" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="5495" length="19">
+        <mention_text>Israeli settlements</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="5503" length="11">settlements</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-924" type="PER" specificity="specific">
+      <entity_mention id="m-918" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="230" length="4">
+        <mention_text>Jews</mention_text>
+      </entity_mention>
+      <entity_mention id="m-927" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="485" length="4">
+        <mention_text>Jews</mention_text>
+      </entity_mention>
+      <entity_mention id="m-933" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="2032" length="4">
+        <mention_text>Jews</mention_text>
+      </entity_mention>
+      <entity_mention id="m-939" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="2338" length="4">
+        <mention_text>Jews</mention_text>
+      </entity_mention>
+      <entity_mention id="m-945" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="2629" length="4">
+        <mention_text>Jews</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="2629" length="4">Jews</nom_head>
+      </entity_mention>
+      <entity_mention id="m-951" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="3095" length="4">
+        <mention_text>Jews</mention_text>
+      </entity_mention>
+      <entity_mention id="m-999" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="1449" length="6">
+        <mention_text>Jewish</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="1449" length="6">Jewish</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1005" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="1521" length="6">
+        <mention_text>Jewish</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="1521" length="6">Jewish</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1053" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="2052" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1059" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="2310" length="3">
+        <mention_text>Jew</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1065" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="2372" length="3">
+        <mention_text>Jew</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1098" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="2567" length="3">
+        <mention_text>Jew</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1114" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="2635" length="18">
+        <mention_text>not Semitic people</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="2647" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1159" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="3179" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1174" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="3313" length="13">
+        <mention_text>jewish people</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="3320" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1203" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="3544" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1232" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="3615" length="4">
+        <mention_text>They</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1469" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4371" length="6">
+        <mention_text>jewish</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4371" length="6">jewish</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1484" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="3313" length="6">
+        <mention_text>jewish</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="3313" length="6">jewish</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1530" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="4526" length="4">
+        <mention_text>They</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1536" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="4582" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1766" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="6229" length="6">
+        <mention_text>Jewish</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1918" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="272" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-986" type="PER" specificity="nonspecific">
+      <entity_mention id="m-980" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="616" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1011" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1014" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="1532" length="4">
+        <mention_text>Arab</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="1532" length="4">Arab</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1080" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="2483" length="5">
+        <mention_text>Arabs</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="2483" length="5">Arabs</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1092" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="2518" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1924" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="6259" length="4">
+        <mention_text>Arab</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="6259" length="4">Arab</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1020" type="PER" specificity="nonspecific">
+      <entity_mention id="m-507" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="1625" length="7">
+        <mention_text>British</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1077" type="PER" specificity="specific">
+      <entity_mention id="m-1071" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="2452" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1086" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="2505" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1120" type="PER" specificity="specific">
+      <entity_mention id="m-459" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="2692" length="12">
+        <mention_text>Palestinians</mention_text>
+      </entity_mention>
+      <entity_mention id="m-471" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="2732" length="10">
+        <mention_text>themselves</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1144" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="2751" length="12">
+        <mention_text>the bastards</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="2755" length="8">bastards</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1171" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1165" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="3213" length="20">
+        <mention_text>the total population</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="3223" length="10">population</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1244" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1238" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="3663" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1253" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1247" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="3743" length="16">
+        <mention_text>the perpetrators</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="3747" length="12">perpetrators</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1930" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="3681" length="16">
+        <mention_text>the perpetrators</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="3685" length="12">perpetrators</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1292" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1286" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="3906" length="18">
+        <mention_text>a number of people</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="3908" length="6">number</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1295" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="3947" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1301" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4003" length="10">
+        <mention_text>that group</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4008" length="5">group</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1307" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="3956" length="3">
+        <mention_text>all</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1319" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1313" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="3981" length="32">
+        <mention_text>a small percentage of that group</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="3989" length="10">percentage</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1328" type="PER" specificity="specific">
+      <entity_mention id="m-1322" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4048" length="60">
+        <mention_text>people who blame every algerian immigrant they see for theft</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4048" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1360" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="4090" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1337" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1331" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4071" length="18">
+        <mention_text>algerian immigrant</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4080" length="9">immigrant</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1395" type="PER" specificity="specific">
+      <entity_mention id="m-627" noun_type="NAM" source="4a3d067b19686b281e0beb437573a28c" offset="4117" length="9">
+        <mention_text>algerians</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1404" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1398" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4192" length="9">
+        <mention_text>christian</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4192" length="9">christian</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1433" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1407" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4188" length="23">
+        <mention_text>the christian democrats</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4202" length="9">democrats</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1442" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1436" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="4294" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1445" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="4313" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1457" type="PER" specificity="specific">
+      <entity_mention id="m-1451" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4344" length="20">
+        <mention_text>2% of its population</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4344" length="2">2%</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1466" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1460" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4350" length="14">
+        <mention_text>its population</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4354" length="10">population</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1548" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1542" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4618" length="14">
+        <mention_text>the population</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4622" length="10">population</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1560" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4665" length="14">
+        <mention_text>the population</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4669" length="10">population</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1557" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1551" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4658" length="21">
+        <mention_text>98% of the population</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4658" length="3">98%</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1572" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1566" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4726" length="47">
+        <mention_text>western societies who are afraid of immigration</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4734" length="9">societies</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1585" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="4776" length="4">
+        <mention_text>They</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1603" type="GPE" specificity="nonspecific">
+      <entity_mention id="m-1591" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4811" length="22">
+        <mention_text>two separate countries</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4824" length="9">countries</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1615" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1609" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4841" length="23">
+        <mention_text>some inhabitants of one</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4841" length="4">some</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1624" type="LOC" specificity="nonspecific">
+      <entity_mention id="m-1618" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4887" length="14">
+        <mention_text>the other side</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4897" length="4">side</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1664" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4916" length="14">
+        <mention_text>The other side</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4926" length="4">side</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1709" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="5034" length="14">
+        <mention_text>the other side</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="5044" length="4">side</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1697" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1691" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="4948" length="8">
+        <mention_text>soldiers</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="4948" length="8">soldiers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1721" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1715" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="5075" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1724" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="5022" length="6">
+        <mention_text>people</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="5022" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1878" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="5742" length="6">
+        <mention_text>people</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="5742" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1736" type="FAC" specificity="nonspecific">
+      <entity_mention id="m-1730" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="5086" length="11">
+        <mention_text>checkpoints</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="5086" length="11">checkpoints</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1745" type="LOC" specificity="nonspecific">
+      <entity_mention id="m-1739" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="5101" length="10">
+        <mention_text>the border</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="5105" length="6">border</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1754" type="FAC" specificity="nonspecific">
+      <entity_mention id="m-1748" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="6054" length="7">
+        <mention_text>schools</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="6054" length="7">schools</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1763" type="FAC" specificity="nonspecific">
+      <entity_mention id="m-1757" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="6066" length="9">
+        <mention_text>hospitals</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="6066" length="9">hospitals</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1778" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1772" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="6313" length="6">
+        <mention_text>anyone</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1787" type="PER" specificity="specific">
+      <entity_mention id="m-1781" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="6332" length="13">
+        <mention_text>my own people</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="6339" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1875" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1869" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="5737" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1884" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="5749" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1890" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="5787" length="10">
+        <mention_text>themselves</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1896" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="5832" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1902" noun_type="PRO" source="4a3d067b19686b281e0beb437573a28c" offset="5893" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1945" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1939" noun_type="NOM" source="4a3d067b19686b281e0beb437573a28c" offset="3710" length="17">
+        <mention_text>a group of people</mention_text>
+        <nom_head source="4a3d067b19686b281e0beb437573a28c" offset="3712" length="5">group</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-888" source="4a3d067b19686b281e0beb437573a28c" offset="772" length="11" type="time" nom_time="1800-XX-XX">late 1800's</filler>
+    <filler id="f-895" source="4a3d067b19686b281e0beb437573a28c" offset="1726" length="4" type="time" nom_time="1947-XX-XX">1947</filler>
+    <filler id="f-909" source="4a3d067b19686b281e0beb437573a28c" offset="4234" length="5" type="time" nom_time="1930-XX-XX">1930s</filler>
+    <filler id="f-1281" source="4a3d067b19686b281e0beb437573a28c" offset="3819" length="7" type="weapon">rockets</filler>
+    <filler id="f-1644" source="4a3d067b19686b281e0beb437573a28c" offset="4870" length="13" type="weapon">a few rockets</filler>
+    <filler id="f-1706" source="4a3d067b19686b281e0beb437573a28c" offset="4961" length="5" type="vehicle">tanks</filler>
+  </fillers>
+  <relations>
+    <relation id="r-1865" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-747" realis="true">
+        <rel_arg1 entity_id="ent-51" entity_mention_id="m-327" role="suborg">UNSCOP</rel_arg1>
+        <rel_arg2 entity_id="ent-54" entity_mention_id="m-351" role="parent">UN</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1866" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-757" realis="true">
+        <rel_arg1 entity_id="ent-69" entity_mention_id="m-399" role="suborg">the new Egyptian government</rel_arg1>
+        <rel_arg2 entity_id="ent-84" entity_mention_id="m-489" role="parent">Egyptian</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1867" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-767" realis="true">
+        <rel_arg1 entity_id="ent-66" entity_mention_id="m-387" role="suborg">the Israeli government</rel_arg1>
+        <rel_arg2 entity_id="ent-90" entity_mention_id="m-525" role="parent">Israeli</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1868" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-777" realis="true">
+        <rel_arg1 entity_id="ent-27" entity_mention_id="m-273" role="leader">Theodore Herzl</rel_arg1>
+        <rel_arg2 entity_id="ent-57" entity_mention_id="m-369" role="entity">First Zionist Congress</rel_arg2>
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="804" length="4">lead</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1869" type="physical" subtype="locatednear">
+      <relation_mention id="relm-787" realis="true">
+        <rel_arg1 entity_id="ent-117" entity_mention_id="m-699" role="entity">a 1930s German city</rel_arg1>
+        <rel_arg2 entity_id="ent-108" entity_mention_id="m-663" role="loc">German</rel_arg2>
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="4240" length="6">German</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1870" type="physical" subtype="locatednear">
+      <relation_mention id="relm-797" realis="true">
+        <rel_arg1 entity_id="ent-126" entity_mention_id="m-717" role="entity">western european</rel_arg1>
+        <rel_arg2 entity_id="ent-129" entity_mention_id="m-723" role="loc">european</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1871" type="physical" subtype="locatednear">
+      <relation_mention id="relm-807" realis="true">
+        <rel_arg1 entity_id="ent-120" entity_mention_id="m-705" role="entity">the western european states</rel_arg1>
+        <rel_arg2 entity_id="ent-126" entity_mention_id="m-717" role="loc">western european</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1872" type="physical" subtype="locatednear">
+      <relation_mention id="relm-989" realis="true">
+        <rel_arg1 entity_id="ent-90" entity_mention_id="m-573" role="entity">a Jewish homeland</rel_arg1>
+        <rel_arg2 entity_id="ent-81" entity_mention_id="m-435" role="loc">Palestine</rel_arg2>
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="946" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1873" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1104" realis="true">
+        <rel_arg1 entity_id="ent-33" entity_mention_id="m-285" role="per">Wilhelm Marr</rel_arg1>
+        <rel_arg2 entity_id="ent-108" entity_mention_id="m-669" role="entity">German</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1874" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1340" realis="true">
+        <rel_arg1 entity_id="ent-1337" entity_mention_id="m-1331" role="per">algerian immigrant</rel_arg1>
+        <rel_arg2 entity_id="ent-93" entity_mention_id="m-621" role="entity">algerian</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1875" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1413" realis="true">
+        <rel_arg1 entity_id="ent-42" entity_mention_id="m-309" role="per">all the christian democrats</rel_arg1>
+        <rel_arg2 entity_id="ent-1404" entity_mention_id="m-1398" role="entity">christian</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1876" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1423" realis="true">
+        <rel_arg1 entity_id="ent-1433" entity_mention_id="m-1407" role="per">the christian democrats</rel_arg1>
+        <rel_arg2 entity_id="ent-1404" entity_mention_id="m-1398" role="entity">christian</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1877" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1520" realis="true">
+        <rel_arg1 entity_id="ent-1457" entity_mention_id="m-1451" role="per">2% of its population</rel_arg1>
+        <rel_arg2 entity_id="ent-924" entity_mention_id="m-1469" role="entity">jewish</rel_arg2>
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="4365" length="5">being</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1878" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1575" realis="true">
+        <rel_arg1 entity_id="ent-1572" entity_mention_id="m-1566" role="entity">western societies who are afraid of immigration</rel_arg1>
+        <rel_arg2 entity_id="ent-132" entity_mention_id="m-729" role="loc">western</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1879" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1790" realis="true">
+        <rel_arg1 entity_id="ent-18" entity_mention_id="m-159" role="per">an individual who is of Jewish descent</rel_arg1>
+        <rel_arg2 entity_id="ent-924" entity_mention_id="m-1766" role="entity">Jewish</rel_arg2>
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="6223" length="2">is</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1880" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1908" realis="true">
+        <rel_arg1 entity_id="ent-138" entity_mention_id="m-741" role="entity">Israeli settlements</rel_arg1>
+        <rel_arg2 entity_id="ent-81" entity_mention_id="m-465" role="loc">Palestinia</rel_arg2>
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="5521" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-16">
+      <event_mention id="em-821" type="business" subtype="startorg" realis="actual">
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="859" length="8">creation</trigger>
+        <em_arg entity_id="ent-48" entity_mention_id="m-321" role="org" realis="true">World Zionist Organization</em_arg>
+        <em_arg filler_id="f-888" role="time" realis="true">late 1800's</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-817">
+      <event_mention id="em-842" type="business" subtype="startorg" realis="actual">
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="1744" length="11">established</trigger>
+        <em_arg entity_id="ent-51" entity_mention_id="m-327" role="org" realis="true">UNSCOP</em_arg>
+        <em_arg filler_id="f-895" role="time" realis="true">1947</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-819">
+      <event_mention id="em-863" type="life" subtype="die" realis="actual">
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="4220" length="8">murdered</trigger>
+        <em_arg entity_id="ent-42" entity_mention_id="m-309" role="victim" realis="true">all the christian democrats</em_arg>
+        <em_arg entity_id="ent-117" entity_mention_id="m-699" role="place" realis="true">a 1930s German city</em_arg>
+        <em_arg filler_id="f-909" role="time" realis="true">1930s</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-978">
+      <event_mention id="em-957" type="movement" subtype="transportperson" realis="other">
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="243" length="9">immigrate</trigger>
+        <em_arg entity_id="ent-924" entity_mention_id="m-918" role="person" realis="true">Jews</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1051">
+      <event_mention id="em-1023" type="movement" subtype="transportperson" realis="other">
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="1640" length="3">out</trigger>
+        <em_arg entity_id="ent-1020" entity_mention_id="m-507" role="person" realis="true">British</em_arg>
+        <em_arg entity_id="ent-81" entity_mention_id="m-447" role="origin" realis="true">Palestine</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1157">
+      <event_mention id="em-1123" type="life" subtype="die" realis="actual">
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="2780" length="7">killing</trigger>
+        <em_arg entity_id="ent-1120" entity_mention_id="m-1144" role="agent" realis="true">the bastards</em_arg>
+        <em_arg entity_id="ent-39" entity_mention_id="m-303" role="victim" realis="true">innocent Jews</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1201">
+      <event_mention id="em-1180" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="3327" length="10">immigrated</trigger>
+        <em_arg entity_id="ent-30" entity_mention_id="m-279" role="person" realis="true">850 000 jewish people</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1230">
+      <event_mention id="em-1209" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="3558" length="9">immigrate</trigger>
+        <em_arg entity_id="ent-924" entity_mention_id="m-1203" role="person" realis="true">they</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1284">
+      <event_mention id="em-1256" type="conflict" subtype="attack" realis="actual">
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="3809" length="6">firing</trigger>
+        <em_arg entity_id="ent-90" entity_mention_id="m-585" role="attacker" realis="false">The state</em_arg>
+        <em_arg filler_id="f-1281" role="instrument" realis="true">rockets</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1393">
+      <event_mention id="em-1372" type="transaction" subtype="transaction" realis="generic" ways="canttell">
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="4103" length="5">theft</trigger>
+        <em_arg entity_id="ent-1337" entity_mention_id="m-1331" role="recipient" realis="false">algerian immigrant</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1655">
+      <event_mention id="em-1627" type="movement" subtype="transportartifact" realis="actual">
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="4865" length="4">send</trigger>
+        <em_arg filler_id="f-1644" role="artifact" realis="true">a few rockets</em_arg>
+        <em_arg entity_id="ent-1624" entity_mention_id="m-1618" role="destination" realis="true">the other side</em_arg>
+        <em_arg entity_id="ent-1615" entity_mention_id="m-1609" role="agent" realis="true">some inhabitants of one</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1700">
+      <event_mention id="em-1670" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="4935" length="7">invaded</trigger>
+        <em_arg entity_id="ent-1697" entity_mention_id="m-1691" role="person" realis="true">soldiers</em_arg>
+        <em_arg filler_id="f-1706" role="instrument" realis="true">tanks</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1821">
+      <event_mention id="em-1800" type="conflict" subtype="attack" realis="actual">
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="6046" length="7">bombing</trigger>
+        <em_arg entity_id="ent-1754" entity_mention_id="m-1748" role="target" realis="true">schools</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1844">
+      <event_mention id="em-1823" type="conflict" subtype="attack" realis="actual">
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="6046" length="7">bombing</trigger>
+        <em_arg entity_id="ent-1763" entity_mention_id="m-1757" role="target" realis="true">hospitals</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1867">
+      <event_mention id="em-1846" type="conflict" subtype="attack" realis="actual">
+        <trigger source="4a3d067b19686b281e0beb437573a28c" offset="6027" length="7">torture</trigger>
+        <em_arg entity_id="ent-81" entity_mention_id="m-423" role="target" realis="true">Palestinians</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

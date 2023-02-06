@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="54ef5f510000000000000029" doc_id="AFP_ENG_20100414.0615-kbp" source_type="newswire">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-18" noun_type="NOM" source="AFP_ENG_20100414.0615-kbp" offset="149" length="22">
+        <mention_text>French far-left killer</mention_text>
+        <nom_head source="AFP_ENG_20100414.0615-kbp" offset="165" length="6">killer</nom_head>
+      </entity_mention>
+      <entity_mention id="m-42" noun_type="NOM" source="AFP_ENG_20100414.0615-kbp" offset="272" length="61">
+        <mention_text>A former militant of the French far-left group Action Directe</mention_text>
+        <nom_head source="AFP_ENG_20100414.0615-kbp" offset="281" length="8">militant</nom_head>
+      </entity_mention>
+      <entity_mention id="m-69" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="335" length="16">
+        <mention_text>Georges Cipriani</mention_text>
+      </entity_mention>
+      <entity_mention id="m-108" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="512" length="8">
+        <mention_text>Cipriani</mention_text>
+      </entity_mention>
+      <entity_mention id="m-114" noun_type="PRO" source="AFP_ENG_20100414.0615-kbp" offset="526" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+      <entity_mention id="m-162" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="642" length="8">
+        <mention_text>Cipriani</mention_text>
+      </entity_mention>
+      <entity_mention id="m-222" noun_type="NOM" source="AFP_ENG_20100414.0615-kbp" offset="655" length="183">
+        <mention_text>one of four members of Action Directe sentenced to life in prison for the murder of Renault chief George Besse in 1986 and the head of government arms sales Rene Audran a year earlier</mention_text>
+        <nom_head source="AFP_ENG_20100414.0615-kbp" offset="655" length="3">one</nom_head>
+      </entity_mention>
+      <entity_mention id="m-297" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="1039" length="8">
+        <mention_text>Cipriani</mention_text>
+      </entity_mention>
+      <entity_mention id="m-333" noun_type="PRO" source="AFP_ENG_20100414.0615-kbp" offset="1154" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-339" noun_type="PRO" source="AFP_ENG_20100414.0615-kbp" offset="1233" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-30" type="GPE" specificity="specific">
+      <entity_mention id="m-24" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="149" length="6">
+        <mention_text>French</mention_text>
+      </entity_mention>
+      <entity_mention id="m-48" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="297" length="6">
+        <mention_text>French</mention_text>
+      </entity_mention>
+      <entity_mention id="m-144" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="575" length="6">
+        <mention_text>France</mention_text>
+      </entity_mention>
+      <entity_mention id="m-156" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="218" length="6">
+        <mention_text>France</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-39" type="FAC" specificity="specific">
+      <entity_mention id="m-33" noun_type="NOM" source="AFP_ENG_20100414.0615-kbp" offset="179" length="4">
+        <mention_text>jail</mention_text>
+        <nom_head source="AFP_ENG_20100414.0615-kbp" offset="179" length="4">jail</nom_head>
+      </entity_mention>
+      <entity_mention id="m-75" noun_type="NOM" source="AFP_ENG_20100414.0615-kbp" offset="358" length="6">
+        <mention_text>prison</mention_text>
+        <nom_head source="AFP_ENG_20100414.0615-kbp" offset="358" length="6">prison</nom_head>
+      </entity_mention>
+      <entity_mention id="m-120" noun_type="NOM" source="AFP_ENG_20100414.0615-kbp" offset="535" length="46">
+        <mention_text>the prison in Ensisheim in northeastern France</mention_text>
+        <nom_head source="AFP_ENG_20100414.0615-kbp" offset="539" length="6">prison</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-60" type="ORG" specificity="specific">
+      <entity_mention id="m-54" noun_type="NOM" source="AFP_ENG_20100414.0615-kbp" offset="293" length="25">
+        <mention_text>the French far-left group</mention_text>
+        <nom_head source="AFP_ENG_20100414.0615-kbp" offset="313" length="5">group</nom_head>
+      </entity_mention>
+      <entity_mention id="m-63" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="319" length="14">
+        <mention_text>Action Directe</mention_text>
+      </entity_mention>
+      <entity_mention id="m-168" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="678" length="14">
+        <mention_text>Action Directe</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-87" type="PER" specificity="specific">
+      <entity_mention id="m-81" noun_type="NOM" source="AFP_ENG_20100414.0615-kbp" offset="454" length="24">
+        <mention_text>A policeman at the scene</mention_text>
+        <nom_head source="AFP_ENG_20100414.0615-kbp" offset="456" length="9">policeman</nom_head>
+      </entity_mention>
+      <entity_mention id="m-327" noun_type="NOM" source="AFP_ENG_20100414.0615-kbp" offset="1130" length="18">
+        <mention_text>the police officer</mention_text>
+        <nom_head source="AFP_ENG_20100414.0615-kbp" offset="1141" length="7">officer</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-96" type="LOC" specificity="specific">
+      <entity_mention id="m-90" noun_type="NOM" source="AFP_ENG_20100414.0615-kbp" offset="469" length="9">
+        <mention_text>the scene</mention_text>
+        <nom_head source="AFP_ENG_20100414.0615-kbp" offset="473" length="5">scene</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-105" type="ORG" specificity="specific">
+      <entity_mention id="m-99" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="492" length="3">
+        <mention_text>AFP</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-132" type="GPE" specificity="specific">
+      <entity_mention id="m-126" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="549" length="9">
+        <mention_text>Ensisheim</mention_text>
+      </entity_mention>
+      <entity_mention id="m-150" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="207" length="9">
+        <mention_text>ENSISHEIM</mention_text>
+      </entity_mention>
+      <entity_mention id="m-303" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="1053" length="9">
+        <mention_text>Ensisheim</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-141" type="LOC" specificity="specific">
+      <entity_mention id="m-135" noun_type="NOM" source="AFP_ENG_20100414.0615-kbp" offset="562" length="19">
+        <mention_text>northeastern France</mention_text>
+        <nom_head source="AFP_ENG_20100414.0615-kbp" offset="575" length="6">France</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-180" type="ORG" specificity="specific">
+      <entity_mention id="m-174" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="739" length="7">
+        <mention_text>Renault</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-189" type="PER" specificity="specific">
+      <entity_mention id="m-183" noun_type="NOM" source="AFP_ENG_20100414.0615-kbp" offset="739" length="13">
+        <mention_text>Renault chief</mention_text>
+        <nom_head source="AFP_ENG_20100414.0615-kbp" offset="747" length="5">chief</nom_head>
+      </entity_mention>
+      <entity_mention id="m-192" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="753" length="12">
+        <mention_text>George Besse</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-204" type="PER" specificity="specific">
+      <entity_mention id="m-198" noun_type="NOM" source="AFP_ENG_20100414.0615-kbp" offset="778" length="33">
+        <mention_text>the head of government arms sales</mention_text>
+        <nom_head source="AFP_ENG_20100414.0615-kbp" offset="782" length="4">head</nom_head>
+      </entity_mention>
+      <entity_mention id="m-207" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="812" length="11">
+        <mention_text>Rene Audran</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-219" type="ORG" specificity="specific">
+      <entity_mention id="m-213" noun_type="NOM" source="AFP_ENG_20100414.0615-kbp" offset="790" length="10">
+        <mention_text>government</mention_text>
+        <nom_head source="AFP_ENG_20100414.0615-kbp" offset="790" length="10">government</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-234" type="PER" specificity="specific">
+      <entity_mention id="m-228" noun_type="NOM" source="AFP_ENG_20100414.0615-kbp" offset="662" length="176">
+        <mention_text>four members of Action Directe sentenced to life in prison for the murder of Renault chief George Besse in 1986 and the head of government arms sales Rene Audran a year earlier</mention_text>
+        <nom_head source="AFP_ENG_20100414.0615-kbp" offset="667" length="7">members</nom_head>
+      </entity_mention>
+      <entity_mention id="m-237" noun_type="NOM" source="AFP_ENG_20100414.0615-kbp" offset="849" length="8">
+        <mention_text>The four</mention_text>
+        <nom_head source="AFP_ENG_20100414.0615-kbp" offset="853" length="4">four</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-249" type="PER" specificity="specific">
+      <entity_mention id="m-243" noun_type="NOM" source="AFP_ENG_20100414.0615-kbp" offset="867" length="9">
+        <mention_text>two women</mention_text>
+        <nom_head source="AFP_ENG_20100414.0615-kbp" offset="871" length="5">women</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-258" type="PER" specificity="specific">
+      <entity_mention id="m-252" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="878" length="13">
+        <mention_text>Joelle Aubron</mention_text>
+      </entity_mention>
+      <entity_mention id="m-261" noun_type="PRO" source="AFP_ENG_20100414.0615-kbp" offset="892" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-273" type="PER" specificity="specific">
+      <entity_mention id="m-267" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="928" length="17">
+        <mention_text>Nathalie Menignon</mention_text>
+      </entity_mention>
+      <entity_mention id="m-276" noun_type="PRO" source="AFP_ENG_20100414.0615-kbp" offset="947" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-288" type="PER" specificity="specific">
+      <entity_mention id="m-282" noun_type="NOM" source="AFP_ENG_20100414.0615-kbp" offset="972" length="15">
+        <mention_text>A fourth member</mention_text>
+        <nom_head source="AFP_ENG_20100414.0615-kbp" offset="981" length="6">member</nom_head>
+      </entity_mention>
+      <entity_mention id="m-291" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="989" length="18">
+        <mention_text>Jean-Marc Rouillan</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-315" type="FAC" specificity="specific">
+      <entity_mention id="m-309" noun_type="NOM" source="AFP_ENG_20100414.0615-kbp" offset="1093" length="150">
+        <mention_text>an open prison near Strasbourg where the police officer said he was due to do community service including working at a food bank as part of his parole</mention_text>
+        <nom_head source="AFP_ENG_20100414.0615-kbp" offset="1101" length="6">prison</nom_head>
+      </entity_mention>
+      <entity_mention id="m-534" noun_type="PRO" source="AFP_ENG_20100414.0615-kbp" offset="1124" length="5">
+        <mention_text>where</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-324" type="ORG" specificity="specific">
+      <entity_mention id="m-318" noun_type="NOM" source="AFP_ENG_20100414.0615-kbp" offset="1210" length="11">
+        <mention_text>a food bank</mention_text>
+        <nom_head source="AFP_ENG_20100414.0615-kbp" offset="1217" length="4">bank</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-531" type="GPE" specificity="specific">
+      <entity_mention id="m-525" noun_type="NAM" source="AFP_ENG_20100414.0615-kbp" offset="1113" length="10">
+        <mention_text>Strasbourg</mention_text>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-493" source="AFP_ENG_20100414.0615-kbp" offset="747" length="5" type="title">chief</filler>
+    <filler id="f-548" source="AFP_ENG_20100414.0615-kbp" offset="522" length="2" type="age">59</filler>
+    <filler id="f-1252" source="AFP_ENG_20100414.0615-kbp" offset="378" length="9" type="time" nom_time="2010-04-14">Wednesday</filler>
+    <filler id="f-1259" source="AFP_ENG_20100414.0615-kbp" offset="378" length="9" type="time" nom_time="2010-04-14">Wednesday</filler>
+    <filler id="f-704" source="AFP_ENG_20100414.0615-kbp" offset="419" length="24" type="crime">two high-profile murders</filler>
+    <filler id="f-830" source="AFP_ENG_20100414.0615-kbp" offset="729" length="6" type="crime">murder</filler>
+    <filler id="f-836" source="AFP_ENG_20100414.0615-kbp" offset="706" length="4" type="sentence">life</filler>
+    <filler id="f-864" source="AFP_ENG_20100414.0615-kbp" offset="729" length="6" type="crime">murder</filler>
+    <filler id="f-870" source="AFP_ENG_20100414.0615-kbp" offset="706" length="4" type="sentence">life</filler>
+    <filler id="f-1266" source="AFP_ENG_20100414.0615-kbp" offset="769" length="4" type="time" nom_time="1986-XX-XX">1986</filler>
+    <filler id="f-1273" source="AFP_ENG_20100414.0615-kbp" offset="769" length="4" type="time" nom_time="1986-XX-XX">1986</filler>
+    <filler id="f-1280" source="AFP_ENG_20100414.0615-kbp" offset="824" length="14" type="time" nom_time="1985-XX-XX">a year earlier</filler>
+    <filler id="f-1287" source="AFP_ENG_20100414.0615-kbp" offset="824" length="14" type="time" nom_time="1985-XX-XX">a year earlier</filler>
+    <filler id="f-1294" source="AFP_ENG_20100414.0615-kbp" offset="919" length="4" type="time" nom_time="2006-XX-XX">2006</filler>
+    <filler id="f-1301" source="AFP_ENG_20100414.0615-kbp" offset="966" length="4" type="time" nom_time="2008-XX-XX">2008</filler>
+    <filler id="f-1226" source="AFP_ENG_20100414.0615-kbp" offset="1066" length="16" type="vehicle">a police vehicle</filler>
+  </fillers>
+  <relations>
+    <relation id="r-1577" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-345" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-18" role="per">French far-left killer</rel_arg1>
+        <rel_arg2 entity_id="ent-30" entity_mention_id="m-24" role="entity">French</rel_arg2>
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="149" length="6">French</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1578" type="physical" subtype="locatednear">
+      <relation_mention id="relm-355" realis="true">
+        <rel_arg1 entity_id="ent-132" entity_mention_id="m-150" role="entity">ENSISHEIM</rel_arg1>
+        <rel_arg2 entity_id="ent-30" entity_mention_id="m-156" role="loc">France</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1579" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-365" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-42" role="employeemember">A former militant of the French far-left group Action Directe</rel_arg1>
+        <rel_arg2 entity_id="ent-60" entity_mention_id="m-54" role="org">the French far-left group</rel_arg2>
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="290" length="2">of</trigger>
+      </relation_mention>
+      <relation_mention id="relm-455" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-222" role="employeemember">one of four members of Action Directe sentenced to life in prison for the murder of Renault chief George Besse in 1986 and the head of government arms sales Rene Audran a year earlier</rel_arg1>
+        <rel_arg2 entity_id="ent-60" entity_mention_id="m-168" role="org">Action Directe</rel_arg2>
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="667" length="7">members</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1580" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-375" realis="true">
+        <rel_arg1 entity_id="ent-60" entity_mention_id="m-54" role="org">the French far-left group</rel_arg1>
+        <rel_arg2 entity_id="ent-30" entity_mention_id="m-48" role="loc">French</rel_arg2>
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="297" length="6">French</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1581" type="physical" subtype="locatednear">
+      <relation_mention id="relm-385" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-18" role="entity">French far-left killer</rel_arg1>
+        <rel_arg2 entity_id="ent-39" entity_mention_id="m-33" role="loc">jail</rel_arg2>
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="172" length="6">leaves</trigger>
+      </relation_mention>
+      <relation_mention id="relm-395" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-69" role="entity">Georges Cipriani</rel_arg1>
+        <rel_arg2 entity_id="ent-39" entity_mention_id="m-75" role="loc">prison</rel_arg2>
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="353" length="4">left</trigger>
+      </relation_mention>
+      <relation_mention id="relm-445" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-114" role="entity">who</rel_arg1>
+        <rel_arg2 entity_id="ent-39" entity_mention_id="m-120" role="loc">the prison in Ensisheim in northeastern France</rel_arg2>
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="530" length="4">left</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1582" type="physical" subtype="locatednear">
+      <relation_mention id="relm-405" realis="true">
+        <rel_arg1 entity_id="ent-87" entity_mention_id="m-81" role="entity">A policeman at the scene</rel_arg1>
+        <rel_arg2 entity_id="ent-96" entity_mention_id="m-90" role="loc">the scene</rel_arg2>
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="466" length="2">at</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1583" type="physical" subtype="locatednear">
+      <relation_mention id="relm-415" realis="true">
+        <rel_arg1 entity_id="ent-141" entity_mention_id="m-135" role="entity">northeastern France</rel_arg1>
+        <rel_arg2 entity_id="ent-30" entity_mention_id="m-144" role="loc">France</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1584" type="physical" subtype="locatednear">
+      <relation_mention id="relm-425" realis="true">
+        <rel_arg1 entity_id="ent-132" entity_mention_id="m-126" role="entity">Ensisheim</rel_arg1>
+        <rel_arg2 entity_id="ent-141" entity_mention_id="m-135" role="loc">northeastern France</rel_arg2>
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="559" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1585" type="physical" subtype="locatednear">
+      <relation_mention id="relm-435" realis="true">
+        <rel_arg1 entity_id="ent-39" entity_mention_id="m-120" role="entity">the prison in Ensisheim in northeastern France</rel_arg1>
+        <rel_arg2 entity_id="ent-132" entity_mention_id="m-126" role="loc">Ensisheim</rel_arg2>
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="546" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1586" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-465" realis="true">
+        <rel_arg1 entity_id="ent-234" entity_mention_id="m-228" role="employeemember">four members of Action Directe sentenced to life in prison for the murder of Renault chief George Besse in 1986 and the head of government arms sales Rene Audran a year earlier</rel_arg1>
+        <rel_arg2 entity_id="ent-60" entity_mention_id="m-168" role="org">Action Directe</rel_arg2>
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="667" length="7">members</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1587" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-475" realis="true">
+        <rel_arg1 entity_id="ent-189" entity_mention_id="m-192" role="leader">George Besse</rel_arg1>
+        <rel_arg2 entity_id="ent-180" entity_mention_id="m-174" role="entity">Renault</rel_arg2>
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="747" length="5">chief</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1588" type="personalsocial" subtype="role">
+      <relation_mention id="relm-485" realis="true">
+        <rel_arg1 entity_id="ent-189" entity_mention_id="m-192" role="per">George Besse</rel_arg1>
+        <rel_arg2 filler_id="f-493" role="role">chief</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1589" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-495" realis="true">
+        <rel_arg1 entity_id="ent-204" entity_mention_id="m-198" role="employeemember">the head of government arms sales</rel_arg1>
+        <rel_arg2 entity_id="ent-219" entity_mention_id="m-213" role="org">government</rel_arg2>
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="782" length="4">head</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1590" type="physical" subtype="locatednear">
+      <relation_mention id="relm-505" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-297" role="entity">Cipriani</rel_arg1>
+        <rel_arg2 entity_id="ent-132" entity_mention_id="m-303" role="loc">Ensisheim</rel_arg2>
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="1048" length="4">left</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1591" type="physical" subtype="locatednear">
+      <relation_mention id="relm-515" realis="true">
+        <rel_arg1 entity_id="ent-315" entity_mention_id="m-309" role="entity">an open prison near Strasbourg where the police officer said he was due to do community service including working at a food bank as part of his parole</rel_arg1>
+        <rel_arg2 entity_id="ent-531" entity_mention_id="m-525" role="loc">Strasbourg</rel_arg2>
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="1108" length="4">near</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1592" type="generalaffiliation" subtype="personage">
+      <relation_mention id="relm-540" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-108" role="per">Cipriani</rel_arg1>
+        <rel_arg2 filler_id="f-548" role="age">59</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-1593" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-550" realis="false">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-333" role="employeemember">he</rel_arg1>
+        <rel_arg2 entity_id="ent-324" entity_mention_id="m-318" role="org">a food bank</rel_arg2>
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="1199" length="7">working</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-16">
+      <event_mention id="em-560" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="172" length="6">leaves</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-18" role="person" realis="true">French far-left killer</em_arg>
+        <em_arg entity_id="ent-39" entity_mention_id="m-33" role="origin" realis="true">jail</em_arg>
+      </event_mention>
+      <event_mention id="em-614" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="353" length="4">left</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-69" role="person" realis="true">Georges Cipriani</em_arg>
+        <em_arg entity_id="ent-39" entity_mention_id="m-75" role="origin" realis="true">prison</em_arg>
+        <em_arg filler_id="f-1252" role="time" realis="true">Wednesday</em_arg>
+      </event_mention>
+      <event_mention id="em-780" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="530" length="4">left</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-114" role="person" realis="true">who</em_arg>
+        <em_arg entity_id="ent-39" entity_mention_id="m-120" role="origin" realis="true">the prison in Ensisheim in northeastern France</em_arg>
+      </event_mention>
+      <event_mention id="em-1190" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="1048" length="4">left</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-297" role="person" realis="true">Cipriani</em_arg>
+        <em_arg entity_id="ent-132" entity_mention_id="m-303" role="origin" realis="true">Ensisheim</em_arg>
+        <em_arg entity_id="ent-315" entity_mention_id="m-309" role="destination" realis="false">an open prison near Strasbourg where the police officer said he was due to do community service including working at a food bank as part of his parole</em_arg>
+        <em_arg filler_id="f-1226" role="instrument" realis="true">a police vehicle</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-612">
+      <event_mention id="em-586" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="274" length="6">former</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-42" role="person" realis="true">A former militant of the French far-left group Action Directe</em_arg>
+        <em_arg entity_id="ent-60" entity_mention_id="m-54" role="entity" realis="true">the French far-left group</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-678">
+      <event_mention id="em-646" type="justice" subtype="releaseparole" realis="actual">
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="368" length="6">parole</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-69" role="person" realis="true">Georges Cipriani</em_arg>
+        <em_arg entity_id="ent-39" entity_mention_id="m-75" role="place" realis="true">prison</em_arg>
+        <em_arg filler_id="f-1259" role="time" realis="true">Wednesday</em_arg>
+      </event_mention>
+      <event_mention id="em-1228" type="justice" subtype="releaseparole" realis="actual">
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="1237" length="6">parole</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-339" role="person" realis="true">his</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-706">
+      <event_mention id="em-680" type="justice" subtype="arrestjail" realis="actual">
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="403" length="11">behind bars</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-69" role="person" realis="true">Georges Cipriani</em_arg>
+        <em_arg filler_id="f-704" role="crime" realis="true">two high-profile murders</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-734">
+      <event_mention id="em-708" type="contact" subtype="contact" realis="actual" audience="twoway" formality="formal" medium="canttell" schedule="canttell">
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="479" length="9">confirmed</trigger>
+        <em_arg entity_id="ent-87" entity_mention_id="m-81" role="entity" realis="true">A policeman at the scene</em_arg>
+        <em_arg entity_id="ent-105" entity_mention_id="m-99" role="entity" realis="true">AFP</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-756">
+      <event_mention id="em-736" type="conflict" subtype="attack" realis="actual">
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="436" length="7">murders</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-69" role="attacker" realis="true">Georges Cipriani</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-778">
+      <event_mention id="em-758" type="life" subtype="die" realis="actual">
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="436" length="7">murders</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-69" role="agent" realis="true">Georges Cipriani</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-838">
+      <event_mention id="em-806" type="justice" subtype="sentence" realis="actual">
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="693" length="9">sentenced</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-222" role="defendant" realis="true">one of four members of Action Directe sentenced to life in prison for the murder of Renault chief George Besse in 1986 and the head of government arms sales Rene Audran a year earlier</em_arg>
+        <em_arg filler_id="f-830" role="crime" realis="true">murder</em_arg>
+        <em_arg filler_id="f-836" role="sentence" realis="true">life</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-872">
+      <event_mention id="em-840" type="justice" subtype="sentence" realis="actual">
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="693" length="9">sentenced</trigger>
+        <em_arg entity_id="ent-234" entity_mention_id="m-228" role="defendant" realis="true">four members of Action Directe sentenced to life in prison for the murder of Renault chief George Besse in 1986 and the head of government arms sales Rene Audran a year earlier</em_arg>
+        <em_arg filler_id="f-864" role="crime" realis="true">murder</em_arg>
+        <em_arg filler_id="f-870" role="sentence" realis="true">life</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-930">
+      <event_mention id="em-874" type="conflict" subtype="attack" realis="actual">
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="729" length="6">murder</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-222" role="attacker" realis="true">one of four members of Action Directe sentenced to life in prison for the murder of Renault chief George Besse in 1986 and the head of government arms sales Rene Audran a year earlier</em_arg>
+        <em_arg entity_id="ent-234" entity_mention_id="m-228" role="attacker" realis="true">four members of Action Directe sentenced to life in prison for the murder of Renault chief George Besse in 1986 and the head of government arms sales Rene Audran a year earlier</em_arg>
+        <em_arg entity_id="ent-258" entity_mention_id="m-252" role="attacker" realis="true">Joelle Aubron</em_arg>
+        <em_arg entity_id="ent-273" entity_mention_id="m-267" role="attacker" realis="true">Nathalie Menignon</em_arg>
+        <em_arg entity_id="ent-288" entity_mention_id="m-291" role="attacker" realis="true">Jean-Marc Rouillan</em_arg>
+        <em_arg entity_id="ent-189" entity_mention_id="m-192" role="target" realis="true">George Besse</em_arg>
+        <em_arg filler_id="f-1266" role="time" realis="true">1986</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-988">
+      <event_mention id="em-932" type="life" subtype="die" realis="actual">
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="729" length="6">murder</trigger>
+        <em_arg entity_id="ent-189" entity_mention_id="m-192" role="victim" realis="true">George Besse</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-222" role="agent" realis="true">one of four members of Action Directe sentenced to life in prison for the murder of Renault chief George Besse in 1986 and the head of government arms sales Rene Audran a year earlier</em_arg>
+        <em_arg entity_id="ent-234" entity_mention_id="m-228" role="agent" realis="true">four members of Action Directe sentenced to life in prison for the murder of Renault chief George Besse in 1986 and the head of government arms sales Rene Audran a year earlier</em_arg>
+        <em_arg entity_id="ent-258" entity_mention_id="m-252" role="agent" realis="true">Joelle Aubron</em_arg>
+        <em_arg entity_id="ent-273" entity_mention_id="m-267" role="agent" realis="true">Nathalie Menignon</em_arg>
+        <em_arg entity_id="ent-288" entity_mention_id="m-291" role="agent" realis="true">Jean-Marc Rouillan</em_arg>
+        <em_arg filler_id="f-1273" role="time" realis="true">1986</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1046">
+      <event_mention id="em-990" type="conflict" subtype="attack" realis="actual">
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="729" length="6">murder</trigger>
+        <em_arg entity_id="ent-204" entity_mention_id="m-207" role="target" realis="true">Rene Audran</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-222" role="attacker" realis="true">one of four members of Action Directe sentenced to life in prison for the murder of Renault chief George Besse in 1986 and the head of government arms sales Rene Audran a year earlier</em_arg>
+        <em_arg entity_id="ent-234" entity_mention_id="m-228" role="attacker" realis="true">four members of Action Directe sentenced to life in prison for the murder of Renault chief George Besse in 1986 and the head of government arms sales Rene Audran a year earlier</em_arg>
+        <em_arg entity_id="ent-258" entity_mention_id="m-252" role="attacker" realis="true">Joelle Aubron</em_arg>
+        <em_arg entity_id="ent-273" entity_mention_id="m-267" role="attacker" realis="true">Nathalie Menignon</em_arg>
+        <em_arg entity_id="ent-288" entity_mention_id="m-291" role="attacker" realis="true">Jean-Marc Rouillan</em_arg>
+        <em_arg filler_id="f-1280" role="time" realis="true">a year earlier</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1104">
+      <event_mention id="em-1048" type="life" subtype="die" realis="actual">
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="729" length="6">murder</trigger>
+        <em_arg entity_id="ent-204" entity_mention_id="m-207" role="victim" realis="true">Rene Audran</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-222" role="agent" realis="true">one of four members of Action Directe sentenced to life in prison for the murder of Renault chief George Besse in 1986 and the head of government arms sales Rene Audran a year earlier</em_arg>
+        <em_arg entity_id="ent-234" entity_mention_id="m-228" role="agent" realis="true">four members of Action Directe sentenced to life in prison for the murder of Renault chief George Besse in 1986 and the head of government arms sales Rene Audran a year earlier</em_arg>
+        <em_arg entity_id="ent-258" entity_mention_id="m-252" role="agent" realis="true">Joelle Aubron</em_arg>
+        <em_arg entity_id="ent-273" entity_mention_id="m-267" role="agent" realis="true">Nathalie Menignon</em_arg>
+        <em_arg entity_id="ent-288" entity_mention_id="m-291" role="agent" realis="true">Jean-Marc Rouillan</em_arg>
+        <em_arg filler_id="f-1287" role="time" realis="true">a year earlier</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1138">
+      <event_mention id="em-1106" type="life" subtype="die" realis="actual">
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="896" length="4">died</trigger>
+        <em_arg entity_id="ent-258" entity_mention_id="m-261" role="victim" realis="true">who</em_arg>
+        <em_arg filler_id="f-1294" role="time" realis="true">2006</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1166">
+      <event_mention id="em-1140" type="justice" subtype="releaseparole" realis="actual">
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="955" length="7">paroled</trigger>
+        <em_arg entity_id="ent-273" entity_mention_id="m-276" role="person" realis="true">who</em_arg>
+        <em_arg filler_id="f-1301" role="time" realis="true">2008</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1188">
+      <event_mention id="em-1168" type="justice" subtype="arrestjail" realis="actual">
+        <trigger source="AFP_ENG_20100414.0615-kbp" offset="1017" length="11">behind bars</trigger>
+        <em_arg entity_id="ent-288" entity_mention_id="m-291" role="person" realis="true">Jean-Marc Rouillan</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

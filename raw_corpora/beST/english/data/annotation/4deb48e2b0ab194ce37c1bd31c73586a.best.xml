@@ -1,0 +1,2705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56ce1d280000000000000111">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-846">
+        <trigger offset="372" length="7">Justice</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-856">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-866">
+        <trigger offset="868" length="8">Governor</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-876">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-886">
+        <trigger offset="2178" length="7">Jacobs'</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-896">
+        <trigger offset="2929" length="9">Coleman's</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2795">
+        <trigger offset="3406" length="3">his</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-906">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-916">
+        <trigger offset="3739" length="4">your</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-492" offset="3607" length="5">Scrat</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-3088">
+        <trigger offset="3838" length="5">lived</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-926">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-936">
+        <trigger offset="550" length="4">from</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1570">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1603">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2669">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2896">
+        <trigger offset="4168" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-2906">
+        <trigger offset="4168" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-3006">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-960">
+        <trigger offset="1300" length="8">executed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-750" offset="1291" length="8">
+            <text>Virginia</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-186" offset="1309" length="13">
+            <text>Joseph O'Dell</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1139" offset="1326" length="13">
+            <text>July 23, 1997</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-981">
+        <trigger offset="1606" length="8">executed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-708" offset="1600" length="5">
+            <text>Texas</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-198" offset="1615" length="12">
+            <text>Jesse Jacobs</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1153" offset="1631" length="15">
+            <text>January 4, 1995</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-3020" offset="1870" length="6">
+            <text>murder</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1002">
+        <trigger offset="1748" length="9">convicted</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-210" offset="1737" length="6">
+            <text>Jacobs</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1023">
+        <trigger offset="2208" length="9">convicted</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-306" offset="2178" length="20">
+            <text>Jacobs' co-defendant</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1044">
+        <trigger offset="2418" length="6">murder</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-348" offset="2398" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-336" offset="2446" length="4">
+            <text>Drew</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1065">
+        <trigger offset="2735" length="10">conviction</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-372" offset="2731" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1202">
+        <trigger offset="456" length="8">executed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1193" offset="409" length="15">
+            <text>Innocent people</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1228">
+        <trigger offset="499" length="10">exonerated</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-156" offset="468" length="20">
+            <text>More than 110 people</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-594" offset="547" length="34">
+            <text>22 from the state of Florida alone</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1257">
+        <trigger offset="1104" length="8">executed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-684" offset="1116" length="14">
+            <text>the government</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1251" offset="1037" length="57">
+            <text>a person with an extraordinarily strong case of innocence</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1310">
+        <trigger offset="1719" length="5">trial</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-204" offset="1711" length="6">
+            <text>Jacobs</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1333">
+        <trigger offset="1870" length="6">murder</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-216" offset="1799" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-276" offset="1815" length="16">
+            <text>his co-defendant</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1356">
+        <trigger offset="1896" length="5">trial</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-282" offset="1905" length="16">
+            <text>the co-defendant</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-720" offset="1923" length="9">
+            <text>the state</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-3116" offset="1870" length="6">
+            <text>murder</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1425">
+        <trigger offset="2077" length="9">testimony</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-306" offset="2178" length="20">
+            <text>Jacobs' co-defendant</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-3123" offset="1870" length="6">
+            <text>murder</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-270" offset="2022" length="15">
+            <text>The prosecution</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1448">
+        <trigger offset="2077" length="9">testimony</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-234" offset="2069" length="6">
+            <text>Jacobs</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1379">
+        <trigger offset="1833" length="18">pulled the trigger</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-216" offset="1799" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-276" offset="1815" length="16">
+            <text>his co-defendant</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1404">
+        <trigger offset="2002" length="18">pulled the trigger</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-288" offset="1968" length="16">
+            <text>the co-defendant</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-228" offset="1990" length="6">
+            <text>Jacobs</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1471">
+        <trigger offset="2114" length="8">shooting</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-240" offset="2092" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2366">
+        <trigger offset="1870" length="6">murder</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-216" offset="1799" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-276" offset="1815" length="16">
+            <text>his co-defendant</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1494">
+        <trigger offset="2237" length="9">sentenced</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-312" offset="2226" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1519" offset="2250" length="5">
+            <text>death</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1524">
+        <trigger offset="2343" length="7">hearing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-330" offset="2333" length="3">
+            <text>him</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-3137" offset="2418" length="6">
+            <text>murder</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1547">
+        <trigger offset="2434" length="11">exonerating</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-336" offset="2446" length="4">
+            <text>Drew</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1631">
+        <trigger offset="3914" length="7">murders</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-552" offset="3907" length="6">
+            <text>Manson</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-510" offset="3676" length="4">Moot</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1763">
+        <trigger offset="4573" length="2">go</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-570" offset="4549" length="20">
+            <text>California criminals</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1754" offset="4579" length="27">
+            <text>other states less stringent</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-510" offset="3676" length="4">Moot</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1972">
+        <trigger offset="781" length="7">execute</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-162" offset="743" length="20">
+            <text>the Attorney General</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-600" offset="722" length="66">
+            <text>3.5% of persons whom the Attorney General has attempted to execute</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2159">
+        <trigger offset="781" length="7">execute</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-162" offset="743" length="20">
+            <text>the Attorney General</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-606" offset="730" length="58">
+            <text>persons whom the Attorney General has attempted to execute</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-600" offset="722" length="66">
+            <text>3.5% of persons whom the Attorney General has attempted to execute</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2076">
+        <trigger offset="456" length="8">executed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1193" offset="409" length="15">
+            <text>Innocent people</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2209">
+        <trigger offset="1104" length="8">executed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1251" offset="1037" length="57">
+            <text>a person with an extraordinarily strong case of innocence</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2276">
+        <trigger offset="1300" length="8">executed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-750" offset="1291" length="8">
+            <text>Virginia</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-186" offset="1309" length="13">
+            <text>Joseph O'Dell</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2308" offset="1326" length="13">
+            <text>July 23, 1997</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2322">
+        <trigger offset="1606" length="8">executed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-708" offset="1600" length="5">
+            <text>Texas</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-198" offset="1615" length="12">
+            <text>Jesse Jacobs</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2354" offset="1631" length="15">
+            <text>January 4, 1995</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2454">
+        <trigger offset="2259" length="13">Texasexecuted</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-732" offset="2259" length="13">
+            <text>Texasexecuted</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-324" offset="2273" length="18">
+            <text>Robert Nelson Drew</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2486" offset="2295" length="14">
+            <text>August 2, 1994</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2491">
+        <trigger offset="2259" length="13">Texasexecuted</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-732" offset="2259" length="13">
+            <text>Texasexecuted</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-324" offset="2273" length="18">
+            <text>Robert Nelson Drew</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2523" offset="2418" length="6">
+            <text>murder</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2530" offset="2295" length="14">
+            <text>August 2, 1994</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2535">
+        <trigger offset="2418" length="6">murder</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-348" offset="2398" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-336" offset="2446" length="4">
+            <text>Drew</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1107">
+        <trigger offset="2830" length="9">execution</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-378" offset="2826" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-738" offset="2454" length="13">
+            <text>Texasexecuted</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1181" offset="2486" length="4">
+            <text>1993</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1580">
+        <trigger offset="2662" length="9">execution</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-366" offset="2643" length="7">
+            <text>Herrera</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2572">
+        <trigger offset="2454" length="13">Texasexecuted</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-738" offset="2454" length="13">
+            <text>Texasexecuted</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-354" offset="2468" length="14">
+            <text>Leonel Herrera</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2604" offset="2486" length="4">
+            <text>1993</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2609">
+        <trigger offset="2454" length="13">Texasexecuted</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-738" offset="2454" length="13">
+            <text>Texasexecuted</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-354" offset="2468" length="14">
+            <text>Leonel Herrera</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2662" offset="2486" length="4">
+            <text>1993</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2679">
+        <trigger offset="2662" length="9">execution</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-366" offset="2643" length="7">
+            <text>Herrera</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2700">
+        <trigger offset="2830" length="9">execution</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-378" offset="2826" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2630">
+        <trigger offset="2571" length="9">affidavit</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-396" offset="2537" length="20">
+            <text>A former Texas judge</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1086">
+        <trigger offset="3565" length="9">execution</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-462" offset="3561" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-774" offset="3310" length="5">
+            <text>state</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1167" offset="2923" length="4">
+            <text>1992</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2721">
+        <trigger offset="2883" length="16">Virginiaexecuted</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-762" offset="2883" length="16">
+            <text>Virginiaexecuted</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-402" offset="2900" length="19">
+            <text>Roger Keith Coleman</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2753" offset="2923" length="4">
+            <text>1992</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2758">
+        <trigger offset="2883" length="16">Virginiaexecuted</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-762" offset="2883" length="16">
+            <text>Virginiaexecuted</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-402" offset="2900" length="19">
+            <text>Roger Keith Coleman</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2790" offset="2923" length="4">
+            <text>1992</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2805">
+        <trigger offset="3565" length="9">execution</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-462" offset="3561" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-2830" offset="2923" length="4">
+            <text>1992</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2916">
+        <trigger offset="4188" length="3">die</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-588" offset="4183" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-510" offset="3676" length="4">Moot</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1686" offset="4171" length="6">
+            <text>prison</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-510" offset="3676" length="4">Moot</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2976">
+        <trigger offset="4439" length="4">left</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-2967" offset="4423" length="10">
+            <text>2 strikers</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-510" offset="3676" length="4">Moot</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-810" offset="4444" length="9">
+            <text>the state</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-510" offset="3676" length="4">Moot</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-3023">
+        <trigger offset="2379" length="9">affidavit</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-342" offset="2357" length="11">
+            <text>another man</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="120" length="5">NCADP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-3053">
+        <trigger offset="3914" length="7">murders</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-552" offset="3907" length="6">
+            <text>Manson</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="yes">
+                <source ere_id="m-510" offset="3676" length="4">Moot</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-150" offset="380" length="22">
+        <text>William J. Brennan Jr.</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+          <sentiment polarity="pos" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-156" offset="468" length="20">
+        <text>More than 110 people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-162" offset="743" length="20">
+        <text>the Attorney General</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-168" offset="877" length="4">
+        <text>Ryan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-174" offset="1149" length="10">
+        <text>M. Radelet</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-180" offset="1133" length="9">
+        <text>H. Bedeau</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="1309" length="13">
+        <text>Joseph O'Dell</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-192" offset="1401" length="6">
+        <text>O'Dell</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-198" offset="1615" length="12">
+        <text>Jesse Jacobs</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-204" offset="1711" length="6">
+        <text>Jacobs</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-210" offset="1737" length="6">
+        <text>Jacobs</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-216" offset="1799" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-222" offset="1815" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-228" offset="1990" length="6">
+        <text>Jacobs</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-234" offset="2069" length="6">
+        <text>Jacobs</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-240" offset="2092" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-246" offset="2150" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-252" offset="2178" length="6">
+        <text>Jacobs</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-258" offset="1655" length="15">
+        <text>the prosecution</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-264" offset="1698" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-270" offset="2022" length="15">
+        <text>The prosecution</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-276" offset="1815" length="16">
+        <text>his co-defendant</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-282" offset="1905" length="16">
+        <text>the co-defendant</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-288" offset="1968" length="16">
+        <text>the co-defendant</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-294" offset="1998" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-300" offset="2150" length="16">
+        <text>his co-defendant</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-306" offset="2178" length="20">
+        <text>Jacobs' co-defendant</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-312" offset="2226" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-318" offset="14" length="8">
+        <text>hobitbob</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-324" offset="2273" length="18">
+        <text>Robert Nelson Drew</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-330" offset="2333" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-336" offset="2446" length="4">
+        <text>Drew</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-342" offset="2357" length="11">
+        <text>another man</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-348" offset="2398" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-354" offset="2468" length="14">
+        <text>Leonel Herrera</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-360" offset="2522" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-366" offset="2643" length="7">
+        <text>Herrera</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-372" offset="2731" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-378" offset="2826" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-384" offset="2869" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-390" offset="2594" length="11">
+        <text>another man</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-396" offset="2537" length="20">
+        <text>A former Texas judge</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-402" offset="2900" length="19">
+        <text>Roger Keith Coleman</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-408" offset="2929" length="7">
+        <text>Coleman</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-414" offset="3190" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-420" offset="3244" length="7">
+        <text>Coleman</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-426" offset="3292" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-432" offset="3306" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-438" offset="3367" length="7">
+        <text>Coleman</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-444" offset="3406" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-450" offset="3438" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-456" offset="3538" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-462" offset="3561" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-468" offset="2929" length="29">
+        <text>Coleman's appellate attorneys</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-474" offset="3039" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-480" offset="3406" length="13">
+        <text>his attorneys</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-486" offset="3420" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-492" offset="3607" length="5">
+        <text>Scrat</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-498" offset="3683" length="5">
+        <text>Scrat</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-504" offset="4666" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-510" offset="3676" length="4">
+        <text>Moot</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-516" offset="3698" length="4">
+        <text>Moot</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-522" offset="3739" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-528" offset="3831" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-534" offset="4194" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-540" offset="4215" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-546" offset="4378" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-552" offset="3907" length="6">
+        <text>Manson</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-558" offset="4117" length="6">
+        <text>Manson</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-564" offset="4128" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-570" offset="4549" length="20">
+        <text>California criminals</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-576" offset="3990" length="14">
+        <text>these monsters</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-588" offset="4183" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-582" offset="4128" length="8">
+        <text>his gang</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-594" offset="547" length="34">
+        <text>22 from the state of Florida alone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-600" offset="722" length="66">
+        <text>3.5% of persons whom the Attorney General has attempted to execute</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-606" offset="730" length="58">
+        <text>persons whom the Attorney General has attempted to execute</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-612" offset="120" length="5">
+        <text>NCADP</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-618" offset="358" length="13">
+        <text>Supreme Court</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-624" offset="2764" length="13">
+        <text>Supreme Court</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-630" offset="3337" length="13">
+        <text>Supreme Court</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-636" offset="584" length="32">
+        <text>Death Penalty Information Center</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-642" offset="942" length="30">
+        <text>American Civil Liberties Union</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1715" offset="4248" length="7">
+        <text>prisons</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-648" offset="1421" length="10">
+        <text>The courts</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-654" offset="3069" length="25">
+        <text>The Virginia state courts</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-660" offset="3202" length="18">
+        <text>The federal courts</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-666" offset="3708" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-672" offset="3765" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-678" offset="3794" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-684" offset="1116" length="14">
+        <text>the government</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="1133" length="9">H. Bedeau</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-174" offset="1149" length="10">M. Radelet</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-690" offset="1216" length="8">
+        <text>Stanford</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-696" offset="555" length="9">
+        <text>the state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-702" offset="568" length="7">
+        <text>Florida</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-708" offset="1600" length="5">
+        <text>Texas</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-714" offset="1764" length="9">
+        <text>the state</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-720" offset="1923" length="9">
+        <text>the state</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-726" offset="1942" length="3">
+        <text>its</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-732" offset="2259" length="13">
+        <text>Texasexecuted</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-738" offset="2454" length="13">
+        <text>Texasexecuted</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-744" offset="2546" length="5">
+        <text>Texas</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-750" offset="1291" length="8">
+        <text>Virginia</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-756" offset="1478" length="8">
+        <text>Virginia</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-762" offset="2883" length="16">
+        <text>Virginiaexecuted</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-768" offset="3073" length="8">
+        <text>Virginia</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-774" offset="3310" length="5">
+        <text>state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-780" offset="849" length="8">
+        <text>Illinois</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-786" offset="4616" length="7">
+        <text>Nevadas</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-792" offset="3739" length="10">
+        <text>your state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-798" offset="3851" length="10">
+        <text>California</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-804" offset="4223" length="10">
+        <text>California</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-810" offset="4444" length="9">
+        <text>the state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-816" offset="4549" length="10">
+        <text>California</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-822" offset="3844" length="4">
+        <text>here</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-828" offset="3937" length="4">
+        <text>here</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-834" offset="4278" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-840" offset="4324" length="11">
+        <text>The prisons</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1184" offset="317" length="36">
+        <text>defendants who are actually innocent</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1193" offset="409" length="15">
+        <text>Innocent people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1251" offset="1037" length="57">
+        <text>a person with an extraordinarily strong case of innocence</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1613" offset="3461" length="11">
+        <text>an attorney</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1622" offset="3496" length="5">
+        <text>court</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1654" offset="3930" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1686" offset="4171" length="6">
+        <text>prison</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1721" offset="4261" length="15">
+        <text>any other state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1730" offset="4307" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1745" offset="4461" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1754" offset="4579" length="27">
+        <text>other states less stringent</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1805" offset="4713" length="7">
+        <text>a judge</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-492" offset="3607" length="5">Scrat</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1811" offset="4724" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-492" offset="3607" length="5">Scrat</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1817" offset="4731" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-492" offset="3607" length="5">Scrat</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2150" offset="675" length="5">
+        <text>state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2194" offset="827" length="5">
+        <text>state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2200" offset="942" length="8">
+        <text>American</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2313" offset="1578" length="18">
+        <text>a convicted person</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2967" offset="4423" length="10">
+        <text>2 strikers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-3076" offset="4511" length="6">
+        <text>prison</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1739" offset="4355" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-3140" offset="478" length="10">
+        <text>110 people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-846">
+        <trigger offset="372" length="7">Justice</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-856">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-866">
+        <trigger offset="868" length="8">Governor</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-876">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-886">
+        <trigger offset="2178" length="7">Jacobs'</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-896">
+        <trigger offset="2929" length="9">Coleman's</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2795">
+        <trigger offset="3406" length="3">his</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-906">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-916">
+        <trigger offset="3739" length="4">your</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-3088">
+        <trigger offset="3838" length="5">lived</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-926">
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-936">
+        <trigger offset="550" length="4">from</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1570">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1603">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2669">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2896">
+        <trigger offset="4168" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-2906">
+        <trigger offset="4168" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-3006">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-960">
+        <trigger offset="1300" length="8">executed</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-981">
+        <trigger offset="1606" length="8">executed</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1002">
+        <trigger offset="1748" length="9">convicted</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1023">
+        <trigger offset="2208" length="9">convicted</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1044">
+        <trigger offset="2418" length="6">murder</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1065">
+        <trigger offset="2735" length="10">conviction</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1202">
+        <trigger offset="456" length="8">executed</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1228">
+        <trigger offset="499" length="10">exonerated</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1257">
+        <trigger offset="1104" length="8">executed</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1310">
+        <trigger offset="1719" length="5">trial</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1333">
+        <trigger offset="1870" length="6">murder</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1356">
+        <trigger offset="1896" length="5">trial</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1425">
+        <trigger offset="2077" length="9">testimony</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1448">
+        <trigger offset="2077" length="9">testimony</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1379">
+        <trigger offset="1833" length="18">pulled the trigger</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1404">
+        <trigger offset="2002" length="18">pulled the trigger</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1471">
+        <trigger offset="2114" length="8">shooting</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2366">
+        <trigger offset="1870" length="6">murder</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1494">
+        <trigger offset="2237" length="9">sentenced</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1524">
+        <trigger offset="2343" length="7">hearing</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1547">
+        <trigger offset="2434" length="11">exonerating</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1631">
+        <trigger offset="3914" length="7">murders</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1763">
+        <trigger offset="4573" length="2">go</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1972">
+        <trigger offset="781" length="7">execute</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2159">
+        <trigger offset="781" length="7">execute</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2076">
+        <trigger offset="456" length="8">executed</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2209">
+        <trigger offset="1104" length="8">executed</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2276">
+        <trigger offset="1300" length="8">executed</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2322">
+        <trigger offset="1606" length="8">executed</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2454">
+        <trigger offset="2259" length="13">Texasexecuted</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2491">
+        <trigger offset="2259" length="13">Texasexecuted</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2535">
+        <trigger offset="2418" length="6">murder</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1107">
+        <trigger offset="2830" length="9">execution</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1580">
+        <trigger offset="2662" length="9">execution</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2572">
+        <trigger offset="2454" length="13">Texasexecuted</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2609">
+        <trigger offset="2454" length="13">Texasexecuted</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2679">
+        <trigger offset="2662" length="9">execution</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2700">
+        <trigger offset="2830" length="9">execution</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2630">
+        <trigger offset="2571" length="9">affidavit</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1086">
+        <trigger offset="3565" length="9">execution</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2721">
+        <trigger offset="2883" length="16">Virginiaexecuted</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2758">
+        <trigger offset="2883" length="16">Virginiaexecuted</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2805">
+        <trigger offset="3565" length="9">execution</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="120" length="5">NCADP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2916">
+        <trigger offset="4188" length="3">die</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2976">
+        <trigger offset="4439" length="4">left</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-3023">
+        <trigger offset="2379" length="9">affidavit</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-3053">
+        <trigger offset="3914" length="7">murders</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-510" offset="3676" length="4">Moot</source>
+          </sentiment>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

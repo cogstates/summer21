@@ -1,0 +1,1897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56ce1dab0000000000000134">
+  <belief_annotations>
+    <relations/>
+    <events>
+      <event ere_id="em-442">
+        <trigger offset="666" length="9">purchased</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-66" offset="683" length="2">
+            <text>my</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-186" offset="651" length="3">
+            <text>who</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-792" offset="676" length="15">
+            <text>two of my items</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1619">
+        <trigger offset="644" length="5">buyer</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-60" offset="618" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-180" offset="624" length="25">
+            <text>a rather infrequent buyer</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-463">
+        <trigger offset="790" length="4">sent</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-78" offset="788" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-204" offset="795" length="3">
+            <text>her</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-484">
+        <trigger offset="1490" length="8">answered</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-132" offset="1488" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-222" offset="1499" length="3">
+            <text>her</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-505">
+        <trigger offset="1237" length="8">question</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-114" offset="1224" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-210" offset="1262" length="8">
+            <text>customer</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-579" offset="1217" length="5">
+            <text>Today</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-526">
+        <trigger offset="2940" length="6">called</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-246" offset="2935" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-414" offset="2947" length="4">
+            <text>eBay</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1342">
+        <trigger offset="157" length="6">payers</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-589" offset="153" length="10">
+            <text>non-payers</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-402" offset="76" length="7">
+            <text>sellers</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-825">
+        <trigger offset="318" length="4">sale</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-378" offset="346" length="9">
+            <text>the buyer</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1073">
+        <trigger offset="1160" length="7">selling</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1062" offset="1197" length="17">
+            <text>a physical outlet</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1261">
+        <trigger offset="76" length="7">sellers</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-402" offset="76" length="7">
+            <text>sellers</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1398">
+        <trigger offset="350" length="5">buyer</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-378" offset="346" length="9">
+            <text>the buyer</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-396" offset="247" length="2">
+            <text>We</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1482">
+        <trigger offset="455" length="6">buyers</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-384" offset="455" length="6">
+            <text>buyers</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1507" offset="492" length="5">
+            <text>items</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1997">
+        <trigger offset="2926" length="7">sellers</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-661" offset="2926" length="7">
+            <text>sellers</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2067">
+        <trigger offset="2753" length="7">sellers</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-750" offset="2748" length="12">
+            <text>Most sellers</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2109">
+        <trigger offset="3021" length="7">sellers</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-670" offset="3021" length="7">
+            <text>sellers</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-869">
+        <trigger offset="441" length="8">purchase</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-372" offset="422" length="15">
+            <text>other consumers</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-894" offset="375" length="18">
+            <text>those "cart" items</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1018">
+        <trigger offset="984" length="5">fee's</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-102" offset="1002" length="2">
+            <text>me</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1094">
+        <trigger offset="1877" length="7">crafted</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-1111" offset="1885" length="10">
+            <text>metal work</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1168">
+        <trigger offset="2765" length="4">buys</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-750" offset="2748" length="12">
+            <text>Most sellers</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-306" offset="2761" length="3">
+            <text>she</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-240" offset="2785" length="2">
+            <text>me</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2197">
+        <trigger offset="2639" length="5">buyer</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-288" offset="2618" length="52">
+            <text>The worst non paying buyer I've encountered recently</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1203">
+        <trigger offset="2890" length="8">comments</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-661" offset="2926" length="7">
+            <text>sellers</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-899">
+        <trigger offset="537" length="3">pay</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-390" offset="505" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1321">
+        <trigger offset="76" length="7">sellers</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-402" offset="76" length="7">
+            <text>sellers</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1370">
+        <trigger offset="318" length="4">sale</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-378" offset="346" length="9">
+            <text>the buyer</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-396" offset="247" length="2">
+            <text>We</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1426">
+        <trigger offset="350" length="5">buyer</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-378" offset="346" length="9">
+            <text>the buyer</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-396" offset="247" length="2">
+            <text>We</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1454">
+        <trigger offset="365" length="4">pays</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-378" offset="346" length="9">
+            <text>the buyer</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-396" offset="247" length="2">
+            <text>We</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1510">
+        <trigger offset="455" length="6">buyers</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-384" offset="455" length="6">
+            <text>buyers</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1770">
+        <trigger offset="1160" length="7">selling</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1062" offset="1197" length="17">
+            <text>a physical outlet</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2018">
+        <trigger offset="2926" length="7">sellers</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-661" offset="2926" length="7">
+            <text>sellers</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2088">
+        <trigger offset="2753" length="7">sellers</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-750" offset="2748" length="12">
+            <text>Most sellers</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2130">
+        <trigger offset="3021" length="7">sellers</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-670" offset="3021" length="7">
+            <text>sellers</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1298">
+        <trigger offset="441" length="8">purchase</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-372" offset="422" length="15">
+            <text>other consumers</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1552">
+        <trigger offset="581" length="6">buyers</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-622" offset="572" length="15">
+            <text>problem" buyers</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1575">
+        <trigger offset="581" length="6">buyers</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-622" offset="572" length="15">
+            <text>problem" buyers</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1647">
+        <trigger offset="644" length="5">buyer</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-180" offset="624" length="25">
+            <text>a rather infrequent buyer</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-60" offset="618" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1677">
+        <trigger offset="734" length="4">paid</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-192" offset="730" length="3">
+            <text>she</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1698">
+        <trigger offset="758" length="7">payment</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-198" offset="740" length="3">
+            <text>she</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1719">
+        <trigger offset="666" length="9">purchased</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-186" offset="651" length="3">
+            <text>who</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-66" offset="683" length="2">
+            <text>my</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1791">
+        <trigger offset="1834" length="6">buyers</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-628" offset="1830" length="65">
+            <text>The buyers who have an appreciation for finely crafted metal work</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1821">
+        <trigger offset="1834" length="6">buyers</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-628" offset="1830" length="65">
+            <text>The buyers who have an appreciation for finely crafted metal work</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1844">
+        <trigger offset="2049" length="6">buyers</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-646" offset="2029" length="26">
+            <text>potential "problem" buyers</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1867">
+        <trigger offset="2049" length="6">buyers</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-646" offset="2029" length="26">
+            <text>potential "problem" buyers</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1890">
+        <trigger offset="2632" length="6">paying</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-288" offset="2618" length="52">
+            <text>The worst non paying buyer I've encountered recently</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1913">
+        <trigger offset="2698" length="7">stiffed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-300" offset="2692" length="3">
+            <text>she</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-336" offset="2706" length="10">
+            <text>14 sellers</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1962">
+        <trigger offset="2765" length="4">buys</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-306" offset="2761" length="3">
+            <text>she</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-750" offset="2748" length="12">
+            <text>Most sellers</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-240" offset="2785" length="2">
+            <text>me</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2039">
+        <trigger offset="3013" length="7">burning</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-318" offset="3000" length="3">
+            <text>she</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-670" offset="3021" length="7">
+            <text>sellers</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2218">
+        <trigger offset="2639" length="5">buyer</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-288" offset="2618" length="52">
+            <text>The worst non paying buyer I've encountered recently</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2151">
+        <trigger offset="2709" length="7">sellers</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-336" offset="2706" length="10">
+            <text>14 sellers</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-2174">
+        <trigger offset="2709" length="7">sellers</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-336" offset="2706" length="10">
+            <text>14 sellers</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-54" offset="14" length="10">
+        <text>ldcdesigns</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-60" offset="618" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-66" offset="683" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-72" offset="706" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-78" offset="788" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-84" offset="866" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-90" offset="947" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-96" offset="981" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-102" offset="1002" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-108" offset="1041" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-114" offset="1224" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-120" offset="1300" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-126" offset="1010" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-132" offset="1488" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-138" offset="1547" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-144" offset="1587" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-150" offset="1665" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-156" offset="1679" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-162" offset="1744" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-168" offset="1780" length="6">
+        <text>myself</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-174" offset="1950" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-180" offset="624" length="25">
+        <text>a rather infrequent buyer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="651" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-192" offset="730" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-198" offset="740" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-204" offset="795" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-210" offset="1262" length="8">
+        <text>customer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-216" offset="1384" length="12">
+        <text>the consumer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-222" offset="1499" length="3">
+        <text>her</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-228" offset="2331" length="7">
+        <text>ducmarc</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-234" offset="2645" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-240" offset="2785" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-246" offset="2935" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-252" offset="3150" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-258" offset="3173" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-264" offset="3234" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-270" offset="3263" length="6">
+        <text>myself</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-276" offset="3271" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-282" offset="3359" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-288" offset="2618" length="52">
+        <text>The worst non paying buyer I've encountered recently</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-294" offset="2674" length="10">
+        <text>mustyann10</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-300" offset="2692" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-306" offset="2761" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-312" offset="2821" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-318" offset="3000" length="3">
+        <text>she</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-324" offset="3377" length="10">
+        <text>mustyann10</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-330" offset="3393" length="11">
+        <text>that member</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-336" offset="2706" length="10">
+        <text>14 sellers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-342" offset="3446" length="18">
+        <text>a brand new member</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-348" offset="3477" length="10">
+        <text>mistyann10</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-354" offset="1793" length="9">
+        <text>customers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-360" offset="1811" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-372" offset="422" length="15">
+        <text>other consumers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-378" offset="346" length="9">
+        <text>the buyer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-384" offset="455" length="6">
+        <text>buyers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-390" offset="505" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-598" offset="273" length="7">
+        <text>someone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-607" offset="300" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-396" offset="247" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-402" offset="76" length="7">
+        <text>sellers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-2239" offset="73" length="2">
+        <text>us</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-408" offset="2902" length="4">
+        <text>eBay</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-414" offset="2947" length="4">
+        <text>eBay</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-420" offset="2953" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-589" offset="153" length="10">
+        <text>non-payers</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-613" offset="552" length="10">
+        <text>Some folks</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-622" offset="572" length="15">
+        <text>problem" buyers</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-700" offset="3198" length="34">
+        <text>members that are not at their best</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-366" offset="1936" length="24">
+        <text>the customers I cater to</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-628" offset="1830" length="65">
+        <text>The buyers who have an appreciation for finely crafted metal work</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-637" offset="1962" length="61">
+        <text>The ones hoping to find real silver or gold for less than $20</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-646" offset="2029" length="26">
+        <text>potential "problem" buyers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-652" offset="2832" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-661" offset="2926" length="7">
+        <text>sellers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-670" offset="3021" length="7">
+        <text>sellers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-694" offset="3179" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-706" offset="3295" length="15">
+        <text>someone on here</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-715" offset="3418" length="17">
+        <text>a registered user</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-721" offset="3498" length="29">
+        <text>you members that had problems</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-750" offset="2748" length="12">
+        <text>Most sellers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-779" offset="3158" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1062" offset="1197" length="17">
+        <text>a physical outlet</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations/>
+    <events>
+      <event ere_id="em-442">
+        <trigger offset="666" length="9">purchased</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1619">
+        <trigger offset="644" length="5">buyer</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-463">
+        <trigger offset="790" length="4">sent</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-484">
+        <trigger offset="1490" length="8">answered</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-505">
+        <trigger offset="1237" length="8">question</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-526">
+        <trigger offset="2940" length="6">called</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1342">
+        <trigger offset="157" length="6">payers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-825">
+        <trigger offset="318" length="4">sale</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1073">
+        <trigger offset="1160" length="7">selling</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1261">
+        <trigger offset="76" length="7">sellers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1398">
+        <trigger offset="350" length="5">buyer</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1482">
+        <trigger offset="455" length="6">buyers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1997">
+        <trigger offset="2926" length="7">sellers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2067">
+        <trigger offset="2753" length="7">sellers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2109">
+        <trigger offset="3021" length="7">sellers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-869">
+        <trigger offset="441" length="8">purchase</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1018">
+        <trigger offset="984" length="5">fee's</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1094">
+        <trigger offset="1877" length="7">crafted</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1168">
+        <trigger offset="2765" length="4">buys</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2197">
+        <trigger offset="2639" length="5">buyer</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1203">
+        <trigger offset="2890" length="8">comments</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-899">
+        <trigger offset="537" length="3">pay</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1321">
+        <trigger offset="76" length="7">sellers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1370">
+        <trigger offset="318" length="4">sale</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1426">
+        <trigger offset="350" length="5">buyer</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1454">
+        <trigger offset="365" length="4">pays</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1510">
+        <trigger offset="455" length="6">buyers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1770">
+        <trigger offset="1160" length="7">selling</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2018">
+        <trigger offset="2926" length="7">sellers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2088">
+        <trigger offset="2753" length="7">sellers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-2130">
+        <trigger offset="3021" length="7">sellers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1298">
+        <trigger offset="441" length="8">purchase</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1552">
+        <trigger offset="581" length="6">buyers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1575">
+        <trigger offset="581" length="6">buyers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1647">
+        <trigger offset="644" length="5">buyer</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1677">
+        <trigger offset="734" length="4">paid</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1698">
+        <trigger offset="758" length="7">payment</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1719">
+        <trigger offset="666" length="9">purchased</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1791">
+        <trigger offset="1834" length="6">buyers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1821">
+        <trigger offset="1834" length="6">buyers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1844">
+        <trigger offset="2049" length="6">buyers</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1867">
+        <trigger offset="2049" length="6">buyers</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-54" offset="14" length="10">ldcdesigns</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1890">
+        <trigger offset="2632" length="6">paying</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1913">
+        <trigger offset="2698" length="7">stiffed</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1962">
+        <trigger offset="2765" length="4">buys</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2039">
+        <trigger offset="3013" length="7">burning</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2218">
+        <trigger offset="2639" length="5">buyer</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2151">
+        <trigger offset="2709" length="7">sellers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-2174">
+        <trigger offset="2709" length="7">sellers</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no">
+            <source ere_id="m-228" offset="2331" length="7">ducmarc</source>
+          </sentiment>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

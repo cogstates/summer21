@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56fc404b0000000000000068">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-97">
+        <trigger offset="70" length="6">friend</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="12">skunkfeather</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-107">
+        <trigger offset="246" length="7">friends</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="12">skunkfeather</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-117">
+        <trigger offset="254" length="4">sons</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="12">skunkfeather</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-132">
+        <trigger offset="77" length="4">gave</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="12">skunkfeather</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-19" offset="68" length="8">
+            <text>A friend</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="12">skunkfeather</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-28" offset="82" length="2">
+            <text>me</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="12">skunkfeather</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-273" offset="85" length="22">
+            <text>two New Zealand Whites</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="12">skunkfeather</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-167">
+        <trigger offset="259" length="11">passed away</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="12">skunkfeather</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-70" offset="244" length="14">
+            <text>A friends sons</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="12">skunkfeather</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-190">
+        <trigger offset="326" length="9">inherited</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="12">skunkfeather</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-76" offset="324" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="12">skunkfeather</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-215" offset="336" length="19">
+            <text>four French Angoras</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="12">skunkfeather</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-220">
+        <trigger offset="188" length="3">got</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="12">skunkfeather</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-248" offset="175" length="9">
+            <text>freecycle</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="12">skunkfeather</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-55" offset="186" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="12">skunkfeather</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-280" offset="192" length="10">
+            <text>a mini rex</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="12">skunkfeather</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-13" offset="14" length="12">
+        <text>skunkfeather</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-28" offset="82" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-43" offset="114" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-49" offset="134" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-55" offset="186" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-76" offset="324" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-82" offset="357" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-19" offset="68" length="8">
+        <text>A friend</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-34" offset="89" length="11">
+        <text>New Zealand</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-61" offset="244" length="9">
+        <text>A friends</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-88" offset="404" length="10">
+        <text>MrFreshdew</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-248" offset="175" length="9">
+        <text>freecycle</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-70" offset="244" length="14">
+        <text>A friends sons</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-97">
+        <trigger offset="70" length="6">friend</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-107">
+        <trigger offset="246" length="7">friends</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-117">
+        <trigger offset="254" length="4">sons</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-132">
+        <trigger offset="77" length="4">gave</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-167">
+        <trigger offset="259" length="11">passed away</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-190">
+        <trigger offset="326" length="9">inherited</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-220">
+        <trigger offset="188" length="3">got</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

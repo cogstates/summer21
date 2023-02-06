@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="55490d330000000000000002" doc_id="010aaf594ae6ef20eb28e3ee26038375" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-120" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="14" length="7">
+        <mention_text>randman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-126" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="943" length="7">
+        <mention_text>randman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-132" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="5256" length="7">
+        <mention_text>randman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-138" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="1882" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-144" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2157" length="7">
+        <mention_text>randman</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-18" type="PER" specificity="specific">
+      <entity_mention id="m-150" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="566" length="4">
+        <mention_text>Bush</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-21" type="PER" specificity="specific">
+      <entity_mention id="m-156" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2387" length="41">
+        <mention_text>those naughty naughty naughty little boys</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="2424" length="4">boys</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-24" type="PER" specificity="specific">
+      <entity_mention id="m-162" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2539" length="19">
+        <mention_text>Francois Mitterrand</mention_text>
+      </entity_mention>
+      <entity_mention id="m-168" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2830" length="10">
+        <mention_text>Mitterrand</mention_text>
+      </entity_mention>
+      <entity_mention id="m-174" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2937" length="10">
+        <mention_text>Mitterrand</mention_text>
+      </entity_mention>
+      <entity_mention id="m-180" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="4636" length="10">
+        <mention_text>Mitterrand</mention_text>
+      </entity_mention>
+      <entity_mention id="m-186" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="2600" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-192" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="2618" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-198" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="2629" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-204" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="2711" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-210" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="2911" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-216" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="4678" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-222" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="4706" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-228" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="4648" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1313" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="4611" length="23">
+        <mention_text>the President of France</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="4615" length="9">President</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-27" type="PER" specificity="specific">
+      <entity_mention id="m-234" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2363" length="6">
+        <mention_text>Casson</mention_text>
+      </entity_mention>
+      <entity_mention id="m-240" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2271" length="13">
+        <mention_text>Felice Casson</mention_text>
+      </entity_mention>
+      <entity_mention id="m-246" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3290" length="13">
+        <mention_text>Felice Casson</mention_text>
+      </entity_mention>
+      <entity_mention id="m-252" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3612" length="6">
+        <mention_text>Casson</mention_text>
+      </entity_mention>
+      <entity_mention id="m-258" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="4024" length="6">
+        <mention_text>CASSON</mention_text>
+      </entity_mention>
+      <entity_mention id="m-264" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="3682" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-270" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="3650" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-276" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3901" length="24">
+        <mention_text>One little Italian judge</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="3920" length="5">judge</nom_head>
+      </entity_mention>
+      <entity_mention id="m-282" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3305" length="73">
+        <mention_text>The only guy both smart and brave enough to pull it off, expose the thing</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="3314" length="3">guy</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1128" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2242" length="28">
+        <mention_text>The Courageous Italian Judge</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="2265" length="5">Judge</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1169" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3265" length="23">
+        <mention_text>the Great Italian judge</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="3283" length="5">judge</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1185" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3402" length="8">
+        <mention_text>one dude</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="3406" length="4">dude</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-30" type="PER" specificity="specific">
+      <entity_mention id="m-288" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="1014" length="8">
+        <mention_text>Gazpacho</mention_text>
+      </entity_mention>
+      <entity_mention id="m-294" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="5184" length="8">
+        <mention_text>Gazpacho</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-33" type="PER" specificity="specific">
+      <entity_mention id="m-306" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="4055" length="4">
+        <mention_text>Greg</mention_text>
+      </entity_mention>
+      <entity_mention id="m-312" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="4762" length="4">
+        <mention_text>Greg</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1807" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="4384" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1813" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="4591" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1819" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="4731" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-36" type="PER" specificity="specific">
+      <entity_mention id="m-318" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2463" length="16">
+        <mention_text>Giulio Andreotti</mention_text>
+      </entity_mention>
+      <entity_mention id="m-324" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2813" length="9">
+        <mention_text>Andriotti</mention_text>
+      </entity_mention>
+      <entity_mention id="m-330" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="4547" length="9">
+        <mention_text>Andreotti</mention_text>
+      </entity_mention>
+      <entity_mention id="m-336" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="2801" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-342" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="4558" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1144" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2435" length="26">
+        <mention_text>the Italian Prime Minister</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="2453" length="8">Minister</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1297" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="4518" length="27">
+        <mention_text>the Prime Minister of Italy</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="4528" length="8">Minister</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-39" type="PER" specificity="specific">
+      <entity_mention id="m-348" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3693" length="16">
+        <mention_text>Giovanni Falcone</mention_text>
+      </entity_mention>
+      <entity_mention id="m-354" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3711" length="141">
+        <mention_text>the magistrate from Palermo who was so successful in prosecuting Mafia guys in the Maxi Trials, and got blown up for it along with his family</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="3715" length="10">magistrate</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-42" type="PER" specificity="specific">
+      <entity_mention id="m-360" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2042" length="6">
+        <mention_text>Koresh</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-45" type="PER" specificity="specific">
+      <entity_mention id="m-366" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2228" length="11">
+        <mention_text>Patrick1000</mention_text>
+      </entity_mention>
+      <entity_mention id="m-372" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="3583" length="2">
+        <mention_text>My</mention_text>
+      </entity_mention>
+      <entity_mention id="m-378" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="3436" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-384" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="3533" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1191" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3441" length="19">
+        <mention_text>an American citizen</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="3453" length="7">citizen</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-48" type="PER" specificity="specific">
+      <entity_mention id="m-390" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3866" length="10">
+        <mention_text>these guys</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="3872" length="4">guys</nom_head>
+      </entity_mention>
+      <entity_mention id="m-396" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="3885" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-51" type="PER" specificity="specific">
+      <entity_mention id="m-402" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3842" length="10">
+        <mention_text>his family</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="3846" length="6">family</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-54" type="PER" specificity="specific">
+      <entity_mention id="m-408" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3583" length="21">
+        <mention_text>My friends and family</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="3586" length="7">friends</nom_head>
+      </entity_mention>
+      <entity_mention id="m-414" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3540" length="41">
+        <mention_text>many friends and a large family in Sicily</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="3545" length="7">friends</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-57" type="PER" specificity="specific">
+      <entity_mention id="m-420" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3583" length="21">
+        <mention_text>My friends and family</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="3598" length="6">family</nom_head>
+      </entity_mention>
+      <entity_mention id="m-426" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3540" length="41">
+        <mention_text>many friends and a large family in Sicily</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="3565" length="6">family</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-60" type="PER" specificity="specific">
+      <entity_mention id="m-432" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="1606" length="4">
+        <mention_text>Reno</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-63" type="PER" specificity="specific">
+      <entity_mention id="m-438" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="1806" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-66" type="PER" specificity="specific">
+      <entity_mention id="m-444" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="1977" length="34">
+        <mention_text>a bunch of people they didn't like</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="1979" length="5">bunch</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-69" type="PER" specificity="specific">
+      <entity_mention id="m-450" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="2070" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1606" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2079" length="7">
+        <mention_text>killers</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="2079" length="7">killers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-72" type="PER" specificity="specific">
+      <entity_mention id="m-456" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2121" length="12">
+        <mention_text>the children</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="2125" length="8">children</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-75" type="PER" specificity="specific">
+      <entity_mention id="m-462" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="2053" length="6">
+        <mention_text>others</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-78" type="ORG" specificity="specific">
+      <entity_mention id="m-468" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="1046" length="21">
+        <mention_text>Trilateral Commission</mention_text>
+      </entity_mention>
+      <entity_mention id="m-474" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="5553" length="3">
+        <mention_text>its</mention_text>
+      </entity_mention>
+      <entity_mention id="m-480" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="1076" length="3">
+        <mention_text>its</mention_text>
+      </entity_mention>
+      <entity_mention id="m-486" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="5538" length="10">
+        <mention_text>Commission</mention_text>
+      </entity_mention>
+      <entity_mention id="m-492" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="1355" length="10">
+        <mention_text>Commission</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-81" type="ORG" specificity="specific">
+      <entity_mention id="m-498" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3153" length="4">
+        <mention_text>NATO</mention_text>
+      </entity_mention>
+      <entity_mention id="m-504" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3414" length="4">
+        <mention_text>NATO</mention_text>
+      </entity_mention>
+      <entity_mention id="m-510" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="4065" length="4">
+        <mention_text>NATO</mention_text>
+      </entity_mention>
+      <entity_mention id="m-516" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3934" length="4">
+        <mention_text>NATO</mention_text>
+      </entity_mention>
+      <entity_mention id="m-522" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="3975" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-528" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="3945" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-84" type="ORG" specificity="specific">
+      <entity_mention id="m-534" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2324" length="6">
+        <mention_text>Gladio</mention_text>
+      </entity_mention>
+      <entity_mention id="m-540" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2333" length="23">
+        <mention_text>the Italian Secret Army</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="2352" length="4">Army</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-87" type="ORG" specificity="specific">
+      <entity_mention id="m-546" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2994" length="22">
+        <mention_text>the French Secret Army</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="2998" length="6">French</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1743" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="2791" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-90" type="ORG" specificity="specific">
+      <entity_mention id="m-552" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="1947" length="22">
+        <mention_text>the federal government</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="1959" length="10">government</nom_head>
+      </entity_mention>
+      <entity_mention id="m-558" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="688" length="17">
+        <mention_text>the US government</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="695" length="10">government</nom_head>
+      </entity_mention>
+      <entity_mention id="m-564" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="1995" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-93" type="ORG" specificity="specific">
+      <entity_mention id="m-570" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="4061" length="20">
+        <mention_text>the NATO SECRET ARMY</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="4077" length="4">ARMY</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-96" type="GPE" specificity="specific">
+      <entity_mention id="m-576" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="692" length="2">
+        <mention_text>US</mention_text>
+      </entity_mention>
+      <entity_mention id="m-588" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="4283" length="2">
+        <mention_text>US</mention_text>
+      </entity_mention>
+      <entity_mention id="m-594" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3444" length="8">
+        <mention_text>American</mention_text>
+      </entity_mention>
+      <entity_mention id="m-612" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="883" length="10">
+        <mention_text>the nation</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="887" length="6">nation</nom_head>
+      </entity_mention>
+      <entity_mention id="m-624" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3167" length="9">
+        <mention_text>Americans</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-99" type="GPE" specificity="specific">
+      <entity_mention id="m-630" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2337" length="7">
+        <mention_text>Italian</mention_text>
+      </entity_mention>
+      <entity_mention id="m-636" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3275" length="7">
+        <mention_text>Italian</mention_text>
+      </entity_mention>
+      <entity_mention id="m-642" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2257" length="7">
+        <mention_text>Italian</mention_text>
+      </entity_mention>
+      <entity_mention id="m-648" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2439" length="7">
+        <mention_text>Italian</mention_text>
+      </entity_mention>
+      <entity_mention id="m-654" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3912" length="7">
+        <mention_text>Italian</mention_text>
+      </entity_mention>
+      <entity_mention id="m-660" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="4540" length="5">
+        <mention_text>Italy</mention_text>
+      </entity_mention>
+      <entity_mention id="m-666" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3631" length="8">
+        <mention_text>Italians</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-102" type="GPE" specificity="specific">
+      <entity_mention id="m-672" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2998" length="6">
+        <mention_text>French</mention_text>
+      </entity_mention>
+      <entity_mention id="m-678" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="2522" length="6">
+        <mention_text>French</mention_text>
+      </entity_mention>
+      <entity_mention id="m-684" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="4628" length="6">
+        <mention_text>France</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-105" type="GPE" specificity="specific">
+      <entity_mention id="m-690" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3575" length="6">
+        <mention_text>Sicily</mention_text>
+      </entity_mention>
+      <entity_mention id="m-696" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3508" length="8">
+        <mention_text>Sicilian</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-108" type="GPE" specificity="specific">
+      <entity_mention id="m-702" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="1520" length="4">
+        <mention_text>Waco</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-111" type="GPE" specificity="specific">
+      <entity_mention id="m-708" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3731" length="7">
+        <mention_text>Palermo</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-114" type="LOC" specificity="specific">
+      <entity_mention id="m-714" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="102" length="9">
+        <mention_text>the world</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="106" length="5">world</nom_head>
+      </entity_mention>
+      <entity_mention id="m-720" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="1131" length="9">
+        <mention_text>the world</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="1135" length="5">world</nom_head>
+      </entity_mention>
+      <entity_mention id="m-726" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="5344" length="5">
+        <mention_text>world</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="5344" length="5">world</nom_head>
+      </entity_mention>
+      <entity_mention id="m-732" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="1498" length="5">
+        <mention_text>world</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="1498" length="5">world</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-117" type="PER" specificity="nonspecific">
+      <entity_mention id="m-738" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="4270" length="9">
+        <mention_text>Europeans</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="4270" length="9">Europeans</nom_head>
+      </entity_mention>
+      <entity_mention id="m-744" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="4325" length="13">
+        <mention_text>the Europeans</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="4329" length="9">Europeans</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1097" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1091" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="288" length="7">
+        <mention_text>someone</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1106" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1100" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="674" length="31">
+        <mention_text>agents within the US government</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="674" length="6">agents</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1115" type="PER" specificity="specific">
+      <entity_mention id="m-1109" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="1988" length="23">
+        <mention_text>people they didn't like</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="1988" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1166" type="PER" specificity="nonspecific">
+      <entity_mention id="m-600" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="3109" length="3">
+        <mention_text>our</mention_text>
+      </entity_mention>
+      <entity_mention id="m-606" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="3205" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-618" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="3159" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1160" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3163" length="13">
+        <mention_text>the Americans</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="3167" length="9">Americans</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1213" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1207" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="1761" length="5">
+        <mention_text>women</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="1761" length="5">women</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1222" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1216" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="1771" length="8">
+        <mention_text>children</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="1771" length="8">children</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1263" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="4228" length="8">
+        <mention_text>children</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="4228" length="8">children</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1241" type="PER" specificity="specific">
+      <entity_mention id="m-1235" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3626" length="13">
+        <mention_text>many Italians</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="3631" length="8">Italians</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1260" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1254" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="4201" length="35">
+        <mention_text>innocent people, including children</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="4210" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1275" type="ORG" specificity="specific">
+      <entity_mention id="m-1269" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="4283" length="11">
+        <mention_text>US military</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="4286" length="8">military</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1294" type="LOC" specificity="specific">
+      <entity_mention id="m-1288" noun_type="NAM" source="010aaf594ae6ef20eb28e3ee26038375" offset="4329" length="9">
+        <mention_text>Europeans</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1335" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1329" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="5064" length="6">
+        <mention_text>people</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="5064" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1585" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="1229" length="6">
+        <mention_text>People</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="1229" length="6">People</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1344" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1338" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="5313" length="14">
+        <mention_text>the globalists</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="5317" length="10">globalists</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1386" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="1467" length="14">
+        <mention_text>the globalists</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="1471" length="10">globalists</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1353" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-1347" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="5344" length="16">
+        <mention_text>world government</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="5350" length="10">government</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1392" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="1498" length="16">
+        <mention_text>world government</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="1504" length="10">government</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1362" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1356" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="5405" length="9">
+        <mention_text>the press</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="5409" length="5">press</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1365" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="5495" length="5">
+        <mention_text>press</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="5495" length="5">press</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1377" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1371" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="83" length="9">
+        <mention_text>terrorist</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="83" length="9">terrorist</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1380" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="131" length="9">
+        <mention_text>terrorist</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="131" length="9">terrorist</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1573" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1567" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="331" length="6">
+        <mention_text>others</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1582" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1576" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="529" length="4">
+        <mention_text>some</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1591" type="PER" specificity="nonspecific">
+      <entity_mention id="m-300" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="1695" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1398" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="2021" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1594" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="3216" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1600" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="1324" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1679" type="PER" specificity="nonspecific">
+      <entity_mention id="m-582" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="846" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1531" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="1932" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1682" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="1747" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1740" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1734" noun_type="PRO" source="010aaf594ae6ef20eb28e3ee26038375" offset="2762" length="8">
+        <mention_text>everyone</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1755" type="PER" specificity="specific">
+      <entity_mention id="m-1749" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3776" length="10">
+        <mention_text>Mafia guys</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="3782" length="4">guys</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1764" type="ORG" specificity="specific">
+      <entity_mention id="m-1758" noun_type="NOM" source="010aaf594ae6ef20eb28e3ee26038375" offset="3776" length="5">
+        <mention_text>Mafia</mention_text>
+        <nom_head source="010aaf594ae6ef20eb28e3ee26038375" offset="3776" length="5">Mafia</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-928" source="010aaf594ae6ef20eb28e3ee26038375" offset="3715" length="10" type="title">magistrate</filler>
+    <filler id="f-938" source="010aaf594ae6ef20eb28e3ee26038375" offset="3283" length="5" type="title">judge</filler>
+    <filler id="f-948" source="010aaf594ae6ef20eb28e3ee26038375" offset="4522" length="14" type="title">Prime Minister</filler>
+    <filler id="f-958" source="010aaf594ae6ef20eb28e3ee26038375" offset="4615" length="9" type="title">President</filler>
+    <filler id="f-1126" source="010aaf594ae6ef20eb28e3ee26038375" offset="2265" length="5" type="title">Judge</filler>
+    <filler id="f-1142" source="010aaf594ae6ef20eb28e3ee26038375" offset="2447" length="14" type="title">Prime Minister</filler>
+    <filler id="f-1158" source="010aaf594ae6ef20eb28e3ee26038375" offset="2529" length="9" type="title">President</filler>
+    <filler id="f-1896" source="010aaf594ae6ef20eb28e3ee26038375" offset="1678" length="6" type="weapon">CS gas</filler>
+    <filler id="f-1519" source="010aaf594ae6ef20eb28e3ee26038375" offset="1822" length="18" type="weapon">flash-bang devices</filler>
+  </fillers>
+  <relations>
+    <relation id="r-5" type="personalsocial" subtype="unspecified">
+      <relation_mention id="relm-750" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-372" role="per">My</rel_arg1>
+        <rel_arg2 entity_id="ent-54" entity_mention_id="m-408" role="per">My friends and family</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="3586" length="7">friends</trigger>
+      </relation_mention>
+      <relation_mention id="relm-780" realis="true">
+        <rel_arg1 entity_id="ent-54" entity_mention_id="m-414" role="per">many friends and a large family in Sicily</rel_arg1>
+        <rel_arg2 entity_id="ent-45" entity_mention_id="m-384" role="per">I</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="3545" length="7">friends</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-6" type="personalsocial" subtype="family">
+      <relation_mention id="relm-760" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-372" role="per">My</rel_arg1>
+        <rel_arg2 entity_id="ent-57" entity_mention_id="m-420" role="per">My friends and family</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="3598" length="6">family</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1225" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-384" role="per">I</rel_arg1>
+        <rel_arg2 entity_id="ent-57" entity_mention_id="m-426" role="per">many friends and a large family in Sicily</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="3565" length="6">family</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-7" type="personalsocial" subtype="family">
+      <relation_mention id="relm-770" realis="true">
+        <rel_arg1 entity_id="ent-39" entity_mention_id="m-354" role="per">the magistrate from Palermo who was so successful in prosecuting Mafia guys in the Maxi Trials, and got blown up for it along with his family</rel_arg1>
+        <rel_arg2 entity_id="ent-51" entity_mention_id="m-402" role="per">his family</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="3846" length="6">family</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-8" type="physical" subtype="resident">
+      <relation_mention id="relm-790" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-378" role="per">I</rel_arg1>
+        <rel_arg2 entity_id="ent-96" entity_mention_id="m-594" role="loc">American</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="3444" length="8">American</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-9" type="physical" subtype="locatednear">
+      <relation_mention id="relm-800" realis="true">
+        <rel_arg1 entity_id="ent-57" entity_mention_id="m-426" role="entity">many friends and a large family in Sicily</rel_arg1>
+        <rel_arg2 entity_id="ent-105" entity_mention_id="m-690" role="loc">Sicily</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="3572" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-10" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-810" realis="true">
+        <rel_arg1 entity_id="ent-27" entity_mention_id="m-240" role="per">Felice Casson</rel_arg1>
+        <rel_arg2 entity_id="ent-99" entity_mention_id="m-642" role="entity">Italian</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="2257" length="7">Italian</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1175" realis="true">
+        <rel_arg1 entity_id="ent-27" entity_mention_id="m-1169" role="per">the Great Italian judge</rel_arg1>
+        <rel_arg2 entity_id="ent-99" entity_mention_id="m-636" role="entity">Italian</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="3275" length="7">Italian</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1244" realis="true">
+        <rel_arg1 entity_id="ent-27" entity_mention_id="m-276" role="per">One little Italian judge</rel_arg1>
+        <rel_arg2 entity_id="ent-99" entity_mention_id="m-654" role="entity">Italian</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="3912" length="7">Italian</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-11" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-820" realis="true">
+        <rel_arg1 entity_id="ent-84" entity_mention_id="m-540" role="suborg">the Italian Secret Army</rel_arg1>
+        <rel_arg2 entity_id="ent-99" entity_mention_id="m-630" role="parent">Italian</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="2337" length="7">Italian</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-12" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-830" realis="true">
+        <rel_arg1 entity_id="ent-36" entity_mention_id="m-318" role="per">Giulio Andreotti</rel_arg1>
+        <rel_arg2 entity_id="ent-99" entity_mention_id="m-648" role="entity">Italian</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="2439" length="7">Italian</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-13" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-840" realis="true">
+        <rel_arg1 entity_id="ent-36" entity_mention_id="m-318" role="leader">Giulio Andreotti</rel_arg1>
+        <rel_arg2 entity_id="ent-99" entity_mention_id="m-648" role="entity">Italian</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="2447" length="14">Prime Minister</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1303" realis="true">
+        <rel_arg1 entity_id="ent-36" entity_mention_id="m-1297" role="leader">the Prime Minister of Italy</rel_arg1>
+        <rel_arg2 entity_id="ent-99" entity_mention_id="m-660" role="entity">Italy</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="4522" length="14">Prime Minister</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-14" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-850" realis="true">
+        <rel_arg1 entity_id="ent-24" entity_mention_id="m-162" role="leader">Francois Mitterrand</rel_arg1>
+        <rel_arg2 entity_id="ent-102" entity_mention_id="m-678" role="entity">French</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="2529" length="9">President</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1319" realis="true">
+        <rel_arg1 entity_id="ent-24" entity_mention_id="m-1313" role="leader">the President of France</rel_arg1>
+        <rel_arg2 entity_id="ent-102" entity_mention_id="m-684" role="entity">France</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="4615" length="9">President</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-15" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-860" realis="true">
+        <rel_arg1 entity_id="ent-24" entity_mention_id="m-162" role="per">Francois Mitterrand</rel_arg1>
+        <rel_arg2 entity_id="ent-102" entity_mention_id="m-678" role="entity">French</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="2522" length="6">French</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-16" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-870" realis="true">
+        <rel_arg1 entity_id="ent-87" entity_mention_id="m-546" role="suborg">the French Secret Army</rel_arg1>
+        <rel_arg2 entity_id="ent-102" entity_mention_id="m-672" role="parent">French</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="2998" length="6">French</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-17" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-880" realis="true">
+        <rel_arg1 entity_id="ent-54" entity_mention_id="m-414" role="per">many friends and a large family in Sicily</rel_arg1>
+        <rel_arg2 entity_id="ent-105" entity_mention_id="m-690" role="entity">Sicily</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="3572" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-18" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-890" realis="true">
+        <rel_arg1 entity_id="ent-39" entity_mention_id="m-348" role="per">Giovanni Falcone</rel_arg1>
+        <rel_arg2 entity_id="ent-111" entity_mention_id="m-708" role="entity">Palermo</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="3726" length="4">from</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-19" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-900" realis="true">
+        <rel_arg1 entity_id="ent-39" entity_mention_id="m-348" role="employeemember">Giovanni Falcone</rel_arg1>
+        <rel_arg2 entity_id="ent-111" entity_mention_id="m-708" role="org">Palermo</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="3715" length="10">magistrate</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-20" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-910" realis="true">
+        <rel_arg1 entity_id="ent-90" entity_mention_id="m-558" role="suborg">the US government</rel_arg1>
+        <rel_arg2 entity_id="ent-96" entity_mention_id="m-576" role="parent">US</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-21" type="personalsocial" subtype="role">
+      <relation_mention id="relm-920" realis="true">
+        <rel_arg1 entity_id="ent-39" entity_mention_id="m-348" role="per">Giovanni Falcone</rel_arg1>
+        <rel_arg2 filler_id="f-928" role="role">magistrate</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-22" type="personalsocial" subtype="role">
+      <relation_mention id="relm-930" realis="true">
+        <rel_arg1 entity_id="ent-27" entity_mention_id="m-246" role="per">Felice Casson</rel_arg1>
+        <rel_arg2 filler_id="f-938" role="role">judge</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-1118" realis="true">
+        <rel_arg1 entity_id="ent-27" entity_mention_id="m-240" role="per">Felice Casson</rel_arg1>
+        <rel_arg2 filler_id="f-1126" role="role">Judge</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-23" type="personalsocial" subtype="role">
+      <relation_mention id="relm-940" realis="true">
+        <rel_arg1 entity_id="ent-36" entity_mention_id="m-330" role="per">Andreotti</rel_arg1>
+        <rel_arg2 filler_id="f-948" role="role">Prime Minister</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-1134" realis="true">
+        <rel_arg1 entity_id="ent-36" entity_mention_id="m-318" role="per">Giulio Andreotti</rel_arg1>
+        <rel_arg2 filler_id="f-1142" role="role">Prime Minister</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-24" type="personalsocial" subtype="role">
+      <relation_mention id="relm-950" realis="true">
+        <rel_arg1 entity_id="ent-24" entity_mention_id="m-180" role="per">Mitterrand</rel_arg1>
+        <rel_arg2 filler_id="f-958" role="role">President</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-1150" realis="true">
+        <rel_arg1 entity_id="ent-24" entity_mention_id="m-162" role="per">Francois Mitterrand</rel_arg1>
+        <rel_arg2 filler_id="f-1158" role="role">President</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-25" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-960" realis="true">
+        <rel_arg1 entity_id="ent-93" entity_mention_id="m-570" role="suborg">the NATO SECRET ARMY</rel_arg1>
+        <rel_arg2 entity_id="ent-81" entity_mention_id="m-510" role="parent">NATO</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-26" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1197" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-1191" role="per">an American citizen</rel_arg1>
+        <rel_arg2 entity_id="ent-105" entity_mention_id="m-696" role="entity">Sicilian</rel_arg2>
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="3508" length="8">Sicilian</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-27" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-1278" realis="true">
+        <rel_arg1 entity_id="ent-1275" entity_mention_id="m-1269" role="suborg">US military</rel_arg1>
+        <rel_arg2 entity_id="ent-96" entity_mention_id="m-588" role="parent">US</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-28" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1767" realis="true">
+        <rel_arg1 entity_id="ent-1755" entity_mention_id="m-1749" role="employeemember">Mafia guys</rel_arg1>
+        <rel_arg2 entity_id="ent-1764" entity_mention_id="m-1758" role="org">Mafia</rel_arg2>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-16">
+      <event_mention id="em-976" type="life" subtype="die" realis="actual">
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="2113" length="7">killing</trigger>
+        <em_arg entity_id="ent-72" entity_mention_id="m-456" role="victim" realis="true">the children</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-972">
+      <event_mention id="em-1018" type="life" subtype="die" realis="actual">
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="1970" length="6">murder</trigger>
+        <em_arg entity_id="ent-90" entity_mention_id="m-552" role="agent" realis="true">the federal government</em_arg>
+        <em_arg entity_id="ent-66" entity_mention_id="m-444" role="victim" realis="true">a bunch of people they didn't like</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-974">
+      <event_mention id="em-1039" type="life" subtype="die" realis="actual">
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="3815" length="8">blown up</trigger>
+        <em_arg entity_id="ent-51" entity_mention_id="m-402" role="victim" realis="true">his family</em_arg>
+        <em_arg entity_id="ent-39" entity_mention_id="m-354" role="victim" realis="true">the magistrate from Palermo who was so successful in prosecuting Mafia guys in the Maxi Trials, and got blown up for it along with his family</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1425">
+      <event_mention id="em-1404" type="conflict" subtype="attack" realis="generic">
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="1736" length="6">murder</trigger>
+        <em_arg entity_id="ent-1213" entity_mention_id="m-1207" role="target" realis="true">women</em_arg>
+        <em_arg entity_id="ent-1222" entity_mention_id="m-1216" role="target" realis="true">children</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1455">
+      <event_mention id="em-1427" type="life" subtype="die" realis="generic">
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="1736" length="6">murder</trigger>
+        <em_arg entity_id="ent-1213" entity_mention_id="m-1207" role="victim" realis="false">women</em_arg>
+        <em_arg entity_id="ent-1222" entity_mention_id="m-1216" role="victim" realis="false">children</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1492">
+      <event_mention id="em-1464" type="conflict" subtype="attack" realis="actual">
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="1628" length="8">spraying</trigger>
+        <em_arg entity_id="ent-108" entity_mention_id="m-702" role="place" realis="true">Waco</em_arg>
+        <em_arg entity_id="ent-63" entity_mention_id="m-438" role="attacker" realis="true">they</em_arg>
+        <em_arg filler_id="f-1896" role="instrument" realis="true">CS gas</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1522">
+      <event_mention id="em-1494" type="conflict" subtype="attack" realis="actual">
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="1816" length="5">fired</trigger>
+        <em_arg entity_id="ent-63" entity_mention_id="m-438" role="attacker" realis="true">they</em_arg>
+        <em_arg filler_id="f-1519" role="instrument" realis="true">flash-bang devices</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1565">
+      <event_mention id="em-1537" type="justice" subtype="arrestjail" realis="other">
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="2035" length="6">arrest</trigger>
+        <em_arg entity_id="ent-42" entity_mention_id="m-360" role="person" realis="true">Koresh</em_arg>
+        <em_arg entity_id="ent-75" entity_mention_id="m-462" role="person" realis="true">others</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1633">
+      <event_mention id="em-1612" type="life" subtype="die" realis="other">
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="2079" length="7">killers</trigger>
+        <em_arg entity_id="ent-69" entity_mention_id="m-1606" role="agent" realis="true">killers</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1656">
+      <event_mention id="em-1635" type="conflict" subtype="attack" realis="other">
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="2079" length="7">killers</trigger>
+        <em_arg entity_id="ent-69" entity_mention_id="m-1606" role="attacker" realis="true">killers</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1709">
+      <event_mention id="em-1688" type="contact" subtype="contact" realis="actual" audience="canttell" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="2487" length="3">say</trigger>
+        <em_arg entity_id="ent-36" entity_mention_id="m-318" role="entity" realis="true">Giulio Andreotti</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1732">
+      <event_mention id="em-1711" type="contact" subtype="contact" realis="actual" audience="canttell" formality="formal" medium="canttell" schedule="canttell">
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="2603" length="7">claimed</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-186" role="entity" realis="true">He</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1805">
+      <event_mention id="em-1777" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="3799" length="6">Trials</trigger>
+        <em_arg entity_id="ent-39" entity_mention_id="m-354" role="prosecutor" realis="true">the magistrate from Palermo who was so successful in prosecuting Mafia guys in the Maxi Trials, and got blown up for it along with his family</em_arg>
+        <em_arg entity_id="ent-1755" entity_mention_id="m-1749" role="defendant" realis="true">Mafia guys</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1846">
+      <event_mention id="em-1825" type="contact" subtype="broadcast" realis="generic" audience="oneway" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="1489" length="4">call</trigger>
+        <em_arg entity_id="ent-1344" entity_mention_id="m-1386" role="entity" realis="true">the globalists</em_arg>
+      </event_mention>
+      <event_mention id="em-1848" type="contact" subtype="broadcast" realis="generic" audience="oneway" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="5335" length="4">call</trigger>
+        <em_arg entity_id="ent-1344" entity_mention_id="m-1338" role="entity" realis="true">the globalists</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1890">
+      <event_mention id="em-1869" type="contact" subtype="broadcast" realis="other" audience="oneway" formality="formal" medium="canttell" schedule="planned">
+        <trigger source="010aaf594ae6ef20eb28e3ee26038375" offset="5428" length="6">report</trigger>
+        <em_arg entity_id="ent-1362" entity_mention_id="m-1356" role="entity" realis="true">the press</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

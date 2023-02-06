@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56cde0560000000000000026">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-264">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-204" offset="14" length="10">blankslate</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-274">
+        <trigger offset="1536" length="2">on</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-284">
+        <trigger offset="2062" length="6">shoots</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-48" offset="2059" length="2">
+            <text>26</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-162" offset="2069" length="11">
+            <text>17 year old</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-312">
+        <trigger offset="757" length="6">called</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-204" offset="14" length="10">blankslate</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-96" offset="739" length="9">
+            <text>Zimmerman</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-204" offset="14" length="10">blankslate</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-234" offset="764" length="10">
+            <text>the police</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-204" offset="14" length="10">blankslate</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-375">
+        <trigger offset="1623" length="7">reports</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-78" offset="1567" length="55">
+            <text>26 year old "self appointed neighborhood watch captain"</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-174" offset="1634" length="6">
+            <text>police</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-433">
+        <trigger offset="2086" length="7">charges</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-42" offset="2108" length="11">
+            <text>26 year old</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-405">
+        <trigger offset="1740" length="4">tell</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-192" offset="1735" length="4">
+            <text>Cops</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-72" offset="1745" length="3">
+            <text>him</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-481">
+        <trigger offset="1871" length="7">walking</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-126" offset="1862" length="32">
+            <text>a person walking on the sidewalk</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-258" offset="1882" length="12">
+            <text>the sidewalk</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-511">
+        <trigger offset="1528" length="7">walking</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-144" offset="1512" length="15">
+            <text>17 year old kid</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-246" offset="1539" length="8">
+            <text>sidewalk</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-541">
+        <trigger offset="1677" length="7">walking</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-138" offset="1646" length="11">
+            <text>17 year old</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-252" offset="1688" length="12">
+            <text>the sidewalk</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-590">
+        <trigger offset="855" length="4">told</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-204" offset="14" length="10">blankslate</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-186" offset="833" length="10">
+            <text>the police</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-204" offset="14" length="10">blankslate</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-90" offset="864" length="9">
+            <text>Zimmerman</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-204" offset="14" length="10">blankslate</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-620">
+        <trigger offset="1156" length="8">arrested</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-204" offset="14" length="10">blankslate</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-84" offset="1137" length="11">
+            <text>the shooter</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-204" offset="14" length="10">blankslate</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-42" offset="2108" length="11">
+        <text>26 year old</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-48" offset="2059" length="2">
+        <text>26</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-54" offset="2009" length="7">
+        <text>26 year</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-60" offset="1924" length="8">
+        <text>some guy</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-66" offset="1783" length="11">
+        <text>26 year old</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-72" offset="1745" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-78" offset="1567" length="55">
+        <text>26 year old "self appointed neighborhood watch captain"</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-84" offset="1137" length="11">
+        <text>the shooter</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-204" offset="14" length="10">blankslate</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-90" offset="864" length="9">
+        <text>Zimmerman</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-204" offset="14" length="10">blankslate</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-96" offset="739" length="9">
+        <text>Zimmerman</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-204" offset="14" length="10">blankslate</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-102" offset="1996" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-120" offset="1896" length="11">17 year old</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-108" offset="1968" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-114" offset="1946" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-120" offset="1896" length="11">
+        <text>17 year old</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-126" offset="1862" length="32">
+        <text>a person walking on the sidewalk</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-132" offset="1815" length="11">
+        <text>17 year old</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-138" offset="1646" length="11">
+        <text>17 year old</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-144" offset="1512" length="15">
+        <text>17 year old kid</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-150" offset="937" length="17">
+        <text>a 17-year old kid</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-156" offset="711" length="8">
+        <text>the teen</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-162" offset="2069" length="11">
+        <text>17 year old</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-168" offset="1749" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-174" offset="1634" length="6">
+        <text>police</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-180" offset="907" length="10">
+        <text>the police</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="833" length="10">
+        <text>the police</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-192" offset="1735" length="4">
+        <text>Cops</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-198" offset="919" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-204" offset="14" length="10">
+        <text>blankslate</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-210" offset="1230" length="12">
+        <text>Blackjack200</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-216" offset="1407" length="11">
+        <text>monovillage</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-222" offset="1460" length="10">
+        <text>pauldun170</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-228" offset="643" length="10">
+        <text>the police</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-204" offset="14" length="10">blankslate</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-234" offset="764" length="10">
+        <text>the police</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-240" offset="1169" length="10">
+        <text>the police</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-204" offset="14" length="10">blankslate</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-246" offset="1539" length="8">
+        <text>sidewalk</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-252" offset="1688" length="12">
+        <text>the sidewalk</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-258" offset="1882" length="12">
+        <text>the sidewalk</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-340" offset="991" length="7">
+        <text>someone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-349" offset="1004" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-355" offset="1046" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-364" offset="1061" length="26">
+        <text>the person without the gun</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-264">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-274">
+        <trigger offset="1536" length="2">on</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-284">
+        <trigger offset="2062" length="6">shoots</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-312">
+        <trigger offset="757" length="6">called</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-375">
+        <trigger offset="1623" length="7">reports</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-433">
+        <trigger offset="2086" length="7">charges</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-222" offset="1460" length="10">pauldun170</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-405">
+        <trigger offset="1740" length="4">tell</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-481">
+        <trigger offset="1871" length="7">walking</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-511">
+        <trigger offset="1528" length="7">walking</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-541">
+        <trigger offset="1677" length="7">walking</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-590">
+        <trigger offset="855" length="4">told</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-620">
+        <trigger offset="1156" length="8">arrested</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-204" offset="14" length="10">blankslate</source>
+          </sentiment>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

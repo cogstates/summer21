@@ -1,0 +1,114 @@
+<!--
+
+DTD for Rich ERE XML
+Xiaoyi Ma, LDC 
+xma@ldc.upenn.edu
+DTD version 1.0
+April 9, 2015
+
+Notes for using Rich ERE XML from LDC: 
+   Character offsets and lengths for text extents are calculated based on "raw"
+   text before escaping XML metacharacters. For example, the raw string "R&D" 
+   will have length 3 but will be printed into the XML file as "R&amp;D". An XML
+   parser is required to correctly ingest data for offsets to be meaningful. 
+   Using regular expressions without an XML parser will not unescape 
+   metacharacters properly. 
+
+-->
+
+<!-- ELEMENTS -->
+
+<!ELEMENT deft_ere (entities, fillers, relations, hoppers)>
+<!ELEMENT entities (entity*)>
+<!ELEMENT fillers (filler*)>
+<!ELEMENT entity (entity_mention+)>
+<!ELEMENT entity_mention (mention_text, nom_head?)> 
+<!ELEMENT hoppers (hopper*)>
+<!ELEMENT hopper (event_mention+)>
+<!ELEMENT event_mention (trigger, em_arg*)>
+<!ELEMENT mention_text ANY>
+<!ELEMENT nom_head ANY>
+<!ELEMENT relations (relation*)>
+<!ELEMENT relation (relation_mention+)> 
+<!ELEMENT relation_mention (rel_arg1, rel_arg2, trigger?)> 
+<!ELEMENT trigger ANY> 
+<!ELEMENT rel_arg1 ANY> <!-- rel_arg1: must be an entity_mention -->
+<!ELEMENT rel_arg2 ANY> <!-- rel_arg2: can be an entity_mention or filler-->
+<!ELEMENT em_arg ANY>
+<!ELEMENT filler ANY>
+
+<!-- ATTRIBUTES In alphabetical order -->
+
+<!ATTLIST deft_ere             kit_id                CDATA      #REQUIRED>
+<!ATTLIST deft_ere             doc_id                 CDATA      #IMPLIED>  
+<!ATTLIST deft_ere             conversation_id       ID         #IMPLIED>
+<!ATTLIST deft_ere             source_type           (newswire|multi_post)   #REQUIRED> 
+
+<!-- em_arg can be either an entity OR a filler, but not both -->
+<!ATTLIST em_arg               entity_mention_id     IDREF      #IMPLIED>
+<!ATTLIST em_arg               entity_id             IDREF      #IMPLIED>  
+<!ATTLIST em_arg               filler_id     	     IDREF      #IMPLIED>
+<!ATTLIST em_arg               role                  NMTOKEN    #REQUIRED>
+<!ATTLIST em_arg               realis                (true|false)    #REQUIRED>
+
+<!ATTLIST entity               type                  (PER|ORG|LOC|GPE|FAC) #REQUIRED>
+<!ATTLIST entity               id                    ID         #REQUIRED> 
+<!ATTLIST entity               specificity           CDATA      #REQUIRED>
+
+
+<!ATTLIST entity_mention      id                     ID         #REQUIRED>
+<!ATTLIST entity_mention      source                 CDATA      #REQUIRED>
+<!ATTLIST entity_mention      offset                 NMTOKEN    #REQUIRED>
+<!ATTLIST entity_mention      length                 NMTOKEN    #REQUIRED>
+<!ATTLIST entity_mention      noun_type              (NOM|NAM|PRO) #REQUIRED>
+
+<!ATTLIST event_mention       id                    ID         #REQUIRED>
+<!ATTLIST event_mention       type  		    (business|conflict|contact|justice|life|manufacture|
+												movement|personnel|transaction) #REQUIRED>
+<!ATTLIST event_mention       subtype 		    (acquit|appeal|arrestjail|artifact|attack|beborn|broadcast|chargeindict|contact|convict|correspondence|declarebankruptcy|demonstrate|die|divorce|elect|endorg|endposition|execute|extradite|fine|injure|marry|meet|membership|mergeorg|nominate|pardon|releaseparole|sentence|startorg|startposition|sue|transaction|transfermoney|transferownership|transportartifact|transportperson|trialhearing)           #REQUIRED>
+<!ATTLIST event_mention       realis  (actual|generic|other) #REQUIRED>
+
+<!-- contact only attributes -->
+<!ATTLIST event_mention      audience     (oneway|twoway|canttell) #IMPLIED>
+<!ATTLIST event_mention      formality    (formal|informal|canttell) #IMPLIED>
+<!ATTLIST event_mention      medium       (inperson|notinperson|canttell) #IMPLIED>
+<!ATTLIST event_mention      schedule     (planned|spontaneous|canttell) #IMPLIED>
+
+<!-- transaction only attribute -->
+<!ATTLIST event_mention      ways         (voluntary|involuntaryforce|involuntarynoforce|canttell) #IMPLIED>
+
+<!ATTLIST filler     	       id                    ID      	     #REQUIRED>
+<!ATTLIST filler     	       source                CDATA      #REQUIRED>
+<!ATTLIST filler     	       offset                CDATA      #REQUIRED>
+<!ATTLIST filler     	       length                CDATA      #REQUIRED>
+<!ATTLIST filler     	       type                  (age|commodity|crime|money|sentence|time|title|url|vehicle|weapon)      #REQUIRED>
+<!ATTLIST filler     	       nom_time              CDATA      #IMPLIED>
+
+<!ATTLIST hopper              id                     ID         #REQUIRED>
+
+<!ATTLIST nom_head  	      source                 CDATA      #REQUIRED> 
+<!ATTLIST nom_head  	      offset                 NMTOKEN    #REQUIRED>
+<!ATTLIST nom_head  	      length                 NMTOKEN    #REQUIRED>
+
+<!ATTLIST rel_arg1             entity_mention_id     IDREF      #REQUIRED>
+<!ATTLIST rel_arg1             entity_id             IDREF      #REQUIRED>
+<!ATTLIST rel_arg1             role                  NMTOKEN    #REQUIRED>
+
+<!-- rel_arg2 can be either an entity OR a filler, but not both -->
+<!ATTLIST rel_arg2             entity_mention_id     IDREF      #IMPLIED>
+<!ATTLIST rel_arg2             entity_id             IDREF      #IMPLIED>
+<!ATTLIST rel_arg2             filler_id             IDREF      #IMPLIED>
+<!ATTLIST rel_arg2             role                  NMTOKEN    #REQUIRED>
+
+<!ATTLIST relation          id                       ID         #REQUIRED>
+<!ATTLIST relation          type  		     (generalaffiliation|orgaffiliation|partwhole|personalsocial|physical) #REQUIRED>
+<!ATTLIST relation          subtype 		   (business|employmentmembership|family|founder|investorshareholder|leadership|locatednear|more|opra|orgheadquarter|orglocationorigin|orgwebsite|ownership|personage|resident|role|studentalum|subsidiary|unspecified|membership) #REQUIRED>
+
+<!ATTLIST relation_mention  id                 	     ID         #REQUIRED>
+<!ATTLIST relation_mention  realis                   (true|false)    #REQUIRED>
+
+
+<!ATTLIST trigger           source                   CDATA      #REQUIRED>
+<!ATTLIST trigger           offset                   CDATA      #REQUIRED>
+<!ATTLIST trigger           length                   CDATA      #REQUIRED>
+

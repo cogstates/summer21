@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="55142ee50000000000000051" doc_id="edb392c8323a4f5f27cc0e59df409c68" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-41" noun_type="NAM" source="edb392c8323a4f5f27cc0e59df409c68" offset="14" length="10">
+        <mention_text>Anonymouse</mention_text>
+      </entity_mention>
+      <entity_mention id="m-212" noun_type="PRO" source="edb392c8323a4f5f27cc0e59df409c68" offset="991" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-53" type="PER" specificity="specific">
+      <entity_mention id="m-47" noun_type="NOM" source="edb392c8323a4f5f27cc0e59df409c68" offset="66" length="6">
+        <mention_text>Afghan</mention_text>
+        <nom_head source="edb392c8323a4f5f27cc0e59df409c68" offset="66" length="6">Afghan</nom_head>
+      </entity_mention>
+      <entity_mention id="m-56" noun_type="NOM" source="edb392c8323a4f5f27cc0e59df409c68" offset="112" length="20">
+        <mention_text>A man in Afghanistan</mention_text>
+        <nom_head source="edb392c8323a4f5f27cc0e59df409c68" offset="114" length="3">man</nom_head>
+      </entity_mention>
+      <entity_mention id="m-137" noun_type="NOM" source="edb392c8323a4f5f27cc0e59df409c68" offset="528" length="13">
+        <mention_text>The defendant</mention_text>
+        <nom_head source="edb392c8323a4f5f27cc0e59df409c68" offset="532" length="9">defendant</nom_head>
+      </entity_mention>
+      <entity_mention id="m-149" noun_type="NAM" source="edb392c8323a4f5f27cc0e59df409c68" offset="543" length="12">
+        <mention_text>Abdul Rahman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-155" noun_type="PRO" source="edb392c8323a4f5f27cc0e59df409c68" offset="591" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-170" noun_type="PRO" source="edb392c8323a4f5f27cc0e59df409c68" offset="610" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-191" noun_type="NAM" source="edb392c8323a4f5f27cc0e59df409c68" offset="682" length="6">
+        <mention_text>Rahman</mention_text>
+      </entity_mention>
+      <entity_mention id="m-197" noun_type="PRO" source="edb392c8323a4f5f27cc0e59df409c68" offset="723" length="3">
+        <mention_text>His</mention_text>
+      </entity_mention>
+      <entity_mention id="m-290" noun_type="NOM" source="edb392c8323a4f5f27cc0e59df409c68" offset="1293" length="7">
+        <mention_text>the man</mention_text>
+        <nom_head source="edb392c8323a4f5f27cc0e59df409c68" offset="1297" length="3">man</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-68" type="GPE" specificity="specific">
+      <entity_mention id="m-62" noun_type="NAM" source="edb392c8323a4f5f27cc0e59df409c68" offset="121" length="11">
+        <mention_text>Afghanistan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-89" noun_type="NOM" source="edb392c8323a4f5f27cc0e59df409c68" offset="280" length="11">
+        <mention_text>the country</mention_text>
+        <nom_head source="edb392c8323a4f5f27cc0e59df409c68" offset="284" length="7">country</nom_head>
+      </entity_mention>
+      <entity_mention id="m-122" noun_type="PRO" source="edb392c8323a4f5f27cc0e59df409c68" offset="448" length="4">
+        <mention_text>here</mention_text>
+      </entity_mention>
+      <entity_mention id="m-284" noun_type="NAM" source="edb392c8323a4f5f27cc0e59df409c68" offset="1265" length="6">
+        <mention_text>Afghan</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-77" type="ORG" specificity="specific">
+      <entity_mention id="m-71" noun_type="NOM" source="edb392c8323a4f5f27cc0e59df409c68" offset="156" length="13">
+        <mention_text>a Kabul court</mention_text>
+        <nom_head source="edb392c8323a4f5f27cc0e59df409c68" offset="164" length="5">court</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-86" type="GPE" specificity="specific">
+      <entity_mention id="m-143" noun_type="NAM" source="edb392c8323a4f5f27cc0e59df409c68" offset="158" length="5">
+        <mention_text>Kabul</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-101" type="PER" specificity="specific">
+      <entity_mention id="m-95" noun_type="NOM" source="edb392c8323a4f5f27cc0e59df409c68" offset="315" length="7">
+        <mention_text>a judge</mention_text>
+        <nom_head source="edb392c8323a4f5f27cc0e59df409c68" offset="317" length="5">judge</nom_head>
+      </entity_mention>
+      <entity_mention id="m-185" noun_type="NAM" source="edb392c8323a4f5f27cc0e59df409c68" offset="658" length="22">
+        <mention_text>Ansarullah Mawlavezada</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-110" type="PER" specificity="nonspecific">
+      <entity_mention id="m-104" noun_type="NOM" source="edb392c8323a4f5f27cc0e59df409c68" offset="377" length="23">
+        <mention_text>religious conservatives</mention_text>
+        <nom_head source="edb392c8323a4f5f27cc0e59df409c68" offset="387" length="13">conservatives</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-119" type="PER" specificity="nonspecific">
+      <entity_mention id="m-113" noun_type="NOM" source="edb392c8323a4f5f27cc0e59df409c68" offset="405" length="10">
+        <mention_text>reformists</mention_text>
+        <nom_head source="edb392c8323a4f5f27cc0e59df409c68" offset="405" length="10">reformists</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-134" type="ORG" specificity="specific">
+      <entity_mention id="m-128" noun_type="NAM" source="edb392c8323a4f5f27cc0e59df409c68" offset="511" length="7">
+        <mention_text>Taliban</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-167" type="PER" specificity="specific">
+      <entity_mention id="m-161" noun_type="NOM" source="edb392c8323a4f5f27cc0e59df409c68" offset="591" length="10">
+        <mention_text>his family</mention_text>
+        <nom_head source="edb392c8323a4f5f27cc0e59df409c68" offset="595" length="6">family</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-182" type="PER" specificity="nonspecific">
+      <entity_mention id="m-176" noun_type="NOM" source="edb392c8323a4f5f27cc0e59df409c68" offset="626" length="11">
+        <mention_text>a Christian</mention_text>
+        <nom_head source="edb392c8323a4f5f27cc0e59df409c68" offset="628" length="9">Christian</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-209" type="PER" specificity="specific">
+      <entity_mention id="m-203" noun_type="NAM" source="edb392c8323a4f5f27cc0e59df409c68" offset="924" length="9">
+        <mention_text>neologist</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-224" type="PER" specificity="specific">
+      <entity_mention id="m-218" noun_type="NAM" source="edb392c8323a4f5f27cc0e59df409c68" offset="1000" length="7">
+        <mention_text>Brandon</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-233" type="PER" specificity="specific">
+      <entity_mention id="m-227" noun_type="NAM" source="edb392c8323a4f5f27cc0e59df409c68" offset="1044" length="6">
+        <mention_text>peterW</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-242" type="PER" specificity="nonspecific">
+      <entity_mention id="m-236" noun_type="PRO" source="edb392c8323a4f5f27cc0e59df409c68" offset="1097" length="6">
+        <mention_text>anyone</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-251" type="PER" specificity="specific">
+      <entity_mention id="m-245" noun_type="NAM" source="edb392c8323a4f5f27cc0e59df409c68" offset="1175" length="7">
+        <mention_text>Setanta</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-260" type="ORG" specificity="specific">
+      <entity_mention id="m-272" noun_type="NAM" source="edb392c8323a4f5f27cc0e59df409c68" offset="1227" length="3">
+        <mention_text>CBC</mention_text>
+      </entity_mention>
+      <entity_mention id="m-278" noun_type="PRO" source="edb392c8323a4f5f27cc0e59df409c68" offset="1251" length="3">
+        <mention_text>the</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-269" type="PER" specificity="specific">
+      <entity_mention id="m-263" noun_type="NOM" source="edb392c8323a4f5f27cc0e59df409c68" offset="1262" length="20">
+        <mention_text>an Afghan prosecutor</mention_text>
+        <nom_head source="edb392c8323a4f5f27cc0e59df409c68" offset="1272" length="10">prosecutor</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-322" type="ORG" specificity="specific">
+      <entity_mention id="m-316" noun_type="NOM" source="edb392c8323a4f5f27cc0e59df409c68" offset="484" length="41">
+        <mention_text>the Islamic fundamentalist Taliban regime</mention_text>
+        <nom_head source="edb392c8323a4f5f27cc0e59df409c68" offset="519" length="6">regime</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-361" type="PER" specificity="nonspecific">
+      <entity_mention id="m-355" noun_type="NAM" source="edb392c8323a4f5f27cc0e59df409c68" offset="628" length="9">
+        <mention_text>Christian</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-939" type="PER" specificity="nonspecific">
+      <entity_mention id="m-933" noun_type="NAM" source="edb392c8323a4f5f27cc0e59df409c68" offset="294" length="7">
+        <mention_text>Islamic</mention_text>
+      </entity_mention>
+      <entity_mention id="m-942" noun_type="NAM" source="edb392c8323a4f5f27cc0e59df409c68" offset="432" length="5">
+        <mention_text>Islam</mention_text>
+      </entity_mention>
+      <entity_mention id="m-948" noun_type="NAM" source="edb392c8323a4f5f27cc0e59df409c68" offset="488" length="7">
+        <mention_text>Islamic</mention_text>
+      </entity_mention>
+      <entity_mention id="m-954" noun_type="NAM" source="edb392c8323a4f5f27cc0e59df409c68" offset="716" length="5">
+        <mention_text>Islam</mention_text>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-343" source="edb392c8323a4f5f27cc0e59df409c68" offset="557" length="2" type="age">41</filler>
+    <filler id="f-382" source="edb392c8323a4f5f27cc0e59df409c68" offset="652" length="5" type="title">Judge</filler>
+    <filler id="f-451" source="edb392c8323a4f5f27cc0e59df409c68" offset="100" length="10" type="crime">conversion</filler>
+    <filler id="f-495" source="edb392c8323a4f5f27cc0e59df409c68" offset="227" length="37" type="crime">converting from Islam to Christianity</filler>
+    <filler id="f-539" source="edb392c8323a4f5f27cc0e59df409c68" offset="196" length="5" type="sentence">death</filler>
+    <filler id="f-546" source="edb392c8323a4f5f27cc0e59df409c68" offset="227" length="37" type="crime">converting from Islam to Christianity</filler>
+    <filler id="f-625" source="edb392c8323a4f5f27cc0e59df409c68" offset="227" length="37" type="crime">converting from Islam to Christianity</filler>
+    <filler id="f-674" source="edb392c8323a4f5f27cc0e59df409c68" offset="227" length="37" type="crime">converting from Islam to Christianity</filler>
+    <filler id="f-739" source="edb392c8323a4f5f27cc0e59df409c68" offset="741" length="8" type="time" nom_time="2006-03-16">Thursday</filler>
+    <filler id="f-767" source="edb392c8323a4f5f27cc0e59df409c68" offset="574" length="10" type="time" nom_time="2006-02-XX">last month</filler>
+    <filler id="f-774" source="edb392c8323a4f5f27cc0e59df409c68" offset="617" length="20" type="crime">becoming a Christian</filler>
+    <filler id="f-860" source="edb392c8323a4f5f27cc0e59df409c68" offset="1237" length="12" type="time" nom_time="2006-03-22">this morning</filler>
+    <filler id="f-890" source="edb392c8323a4f5f27cc0e59df409c68" offset="706" length="15" type="crime">rejecting Islam</filler>
+    <filler id="f-930" source="edb392c8323a4f5f27cc0e59df409c68" offset="328" length="6" type="time" nom_time="2006-03-19">Sunday</filler>
+  </fillers>
+  <relations>
+    <relation id="r-712" type="physical" subtype="locatednear">
+      <relation_mention id="relm-296" realis="true">
+        <rel_arg1 entity_id="ent-53" entity_mention_id="m-56" role="entity">A man in Afghanistan</rel_arg1>
+        <rel_arg2 entity_id="ent-68" entity_mention_id="m-62" role="loc">Afghanistan</rel_arg2>
+        <trigger source="edb392c8323a4f5f27cc0e59df409c68" offset="118" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-713" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-306" realis="true">
+        <rel_arg1 entity_id="ent-77" entity_mention_id="m-71" role="org">a Kabul court</rel_arg1>
+        <rel_arg2 entity_id="ent-86" entity_mention_id="m-143" role="loc">Kabul</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-714" type="generalaffiliation" subtype="opra">
+      <relation_mention id="relm-325" realis="true">
+        <rel_arg1 entity_id="ent-322" entity_mention_id="m-316" role="org">the Islamic fundamentalist Taliban regime</rel_arg1>
+        <rel_arg2 entity_id="ent-134" entity_mention_id="m-128" role="entity">Taliban</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-715" type="generalaffiliation" subtype="personage">
+      <relation_mention id="relm-335" realis="true">
+        <rel_arg1 entity_id="ent-53" entity_mention_id="m-149" role="per">Abdul Rahman</rel_arg1>
+        <rel_arg2 filler_id="f-343" role="age">41</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-716" type="personalsocial" subtype="family">
+      <relation_mention id="relm-345" realis="true">
+        <rel_arg1 entity_id="ent-53" entity_mention_id="m-155" role="per">his</rel_arg1>
+        <rel_arg2 entity_id="ent-167" entity_mention_id="m-161" role="per">his family</rel_arg2>
+        <trigger source="edb392c8323a4f5f27cc0e59df409c68" offset="595" length="6">family</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-717" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-364" realis="true">
+        <rel_arg1 entity_id="ent-182" entity_mention_id="m-176" role="per">a Christian</rel_arg1>
+        <rel_arg2 entity_id="ent-361" entity_mention_id="m-355" role="entity">Christian</rel_arg2>
+        <trigger source="edb392c8323a4f5f27cc0e59df409c68" offset="628" length="9">Christian</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-718" type="personalsocial" subtype="role">
+      <relation_mention id="relm-374" realis="true">
+        <rel_arg1 entity_id="ent-101" entity_mention_id="m-185" role="per">Ansarullah Mawlavezada</rel_arg1>
+        <rel_arg2 filler_id="f-382" role="role">Judge</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-719" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-384" realis="true">
+        <rel_arg1 entity_id="ent-269" entity_mention_id="m-263" role="per">an Afghan prosecutor</rel_arg1>
+        <rel_arg2 entity_id="ent-68" entity_mention_id="m-284" role="entity">Afghan</rel_arg2>
+        <trigger source="edb392c8323a4f5f27cc0e59df409c68" offset="1265" length="6">Afghan</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-720" type="generalaffiliation" subtype="opra">
+      <relation_mention id="relm-960" realis="true">
+        <rel_arg1 entity_id="ent-322" entity_mention_id="m-316" role="org">the Islamic fundamentalist Taliban regime</rel_arg1>
+        <rel_arg2 entity_id="ent-939" entity_mention_id="m-948" role="entity">Islamic</rel_arg2>
+        <trigger source="edb392c8323a4f5f27cc0e59df409c68" offset="488" length="7">Islamic</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-396">
+      <event_mention id="em-398" type="life" subtype="die" realis="other">
+        <trigger source="edb392c8323a4f5f27cc0e59df409c68" offset="82" length="5">death</trigger>
+        <em_arg entity_id="ent-53" entity_mention_id="m-47" role="victim" realis="false">Afghan</em_arg>
+      </event_mention>
+      <event_mention id="em-558" type="life" subtype="die" realis="other">
+        <trigger source="edb392c8323a4f5f27cc0e59df409c68" offset="196" length="5">death</trigger>
+        <em_arg entity_id="ent-53" entity_mention_id="m-56" role="victim" realis="false">A man in Afghanistan</em_arg>
+        <em_arg entity_id="ent-68" entity_mention_id="m-62" role="place" realis="true">Afghanistan</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-454">
+      <event_mention id="em-426" type="justice" subtype="execute" realis="other">
+        <trigger source="edb392c8323a4f5f27cc0e59df409c68" offset="82" length="5">death</trigger>
+        <em_arg entity_id="ent-53" entity_mention_id="m-47" role="person" realis="false">Afghan</em_arg>
+        <em_arg filler_id="f-451" role="crime" realis="false">conversion</em_arg>
+      </event_mention>
+      <event_mention id="em-593" type="justice" subtype="execute" realis="other">
+        <trigger source="edb392c8323a4f5f27cc0e59df409c68" offset="196" length="5">death</trigger>
+        <em_arg entity_id="ent-77" entity_mention_id="m-71" role="agent" realis="true">a Kabul court</em_arg>
+        <em_arg entity_id="ent-53" entity_mention_id="m-56" role="person" realis="true">A man in Afghanistan</em_arg>
+        <em_arg filler_id="f-625" role="crime" realis="true">converting from Islam to Christianity</em_arg>
+        <em_arg entity_id="ent-68" entity_mention_id="m-62" role="place" realis="true">Afghanistan</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-505">
+      <event_mention id="em-456" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="edb392c8323a4f5f27cc0e59df409c68" offset="142" length="10">prosecuted</trigger>
+        <em_arg entity_id="ent-53" entity_mention_id="m-56" role="defendant" realis="true">A man in Afghanistan</em_arg>
+        <em_arg entity_id="ent-77" entity_mention_id="m-71" role="adjudicator" realis="true">a Kabul court</em_arg>
+        <em_arg entity_id="ent-68" entity_mention_id="m-89" role="prosecutor" realis="true">the country</em_arg>
+        <em_arg filler_id="f-495" role="crime" realis="true">converting from Islam to Christianity</em_arg>
+      </event_mention>
+      <event_mention id="em-686" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="edb392c8323a4f5f27cc0e59df409c68" offset="341" length="5">trial</trigger>
+        <em_arg entity_id="ent-53" entity_mention_id="m-137" role="defendant" realis="true">The defendant</em_arg>
+      </event_mention>
+      <event_mention id="em-714" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="edb392c8323a4f5f27cc0e59df409c68" offset="727" length="5">trial</trigger>
+        <em_arg entity_id="ent-53" entity_mention_id="m-197" role="defendant" realis="true">His</em_arg>
+        <em_arg filler_id="f-739" role="time" realis="true">Thursday</em_arg>
+      </event_mention>
+      <event_mention id="em-779" type="justice" subtype="trialhearing" realis="other">
+        <trigger source="edb392c8323a4f5f27cc0e59df409c68" offset="1349" length="5">trial</trigger>
+        <em_arg entity_id="ent-53" entity_mention_id="m-290" role="defendant" realis="true">the man</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-556">
+      <event_mention id="em-507" type="justice" subtype="sentence" realis="other">
+        <trigger source="edb392c8323a4f5f27cc0e59df409c68" offset="183" length="9">sentenced</trigger>
+        <em_arg entity_id="ent-53" entity_mention_id="m-56" role="defendant" realis="true">A man in Afghanistan</em_arg>
+        <em_arg entity_id="ent-77" entity_mention_id="m-71" role="adjudicator" realis="true">a Kabul court</em_arg>
+        <em_arg filler_id="f-539" role="sentence" realis="true">death</em_arg>
+        <em_arg filler_id="f-546" role="crime" realis="true">converting from Islam to Christianity</em_arg>
+        <em_arg entity_id="ent-86" entity_mention_id="m-143" role="place" realis="true">Kabul</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-684">
+      <event_mention id="em-635" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="edb392c8323a4f5f27cc0e59df409c68" offset="214" length="7">charged</trigger>
+        <em_arg entity_id="ent-53" entity_mention_id="m-56" role="defendant" realis="true">A man in Afghanistan</em_arg>
+        <em_arg entity_id="ent-77" entity_mention_id="m-71" role="adjudicator" realis="true">a Kabul court</em_arg>
+        <em_arg entity_id="ent-68" entity_mention_id="m-89" role="prosecutor" realis="true">the country</em_arg>
+        <em_arg filler_id="f-674" role="crime" realis="true">converting from Islam to Christianity</em_arg>
+        <em_arg entity_id="ent-68" entity_mention_id="m-62" role="place" realis="true">Afghanistan</em_arg>
+      </event_mention>
+      <event_mention id="em-865" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="edb392c8323a4f5f27cc0e59df409c68" offset="693" length="7">charged</trigger>
+        <em_arg entity_id="ent-53" entity_mention_id="m-191" role="defendant" realis="true">Rahman</em_arg>
+        <em_arg filler_id="f-890" role="crime" realis="true">rejecting Islam</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-777">
+      <event_mention id="em-742" type="justice" subtype="arrestjail" realis="actual">
+        <trigger source="edb392c8323a4f5f27cc0e59df409c68" offset="565" length="8">arrested</trigger>
+        <em_arg entity_id="ent-53" entity_mention_id="m-149" role="person" realis="true">Abdul Rahman</em_arg>
+        <em_arg filler_id="f-767" role="time" realis="true">last month</em_arg>
+        <em_arg filler_id="f-774" role="crime" realis="true">becoming a Christian</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-863">
+      <event_mention id="em-835" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="formal" medium="notinperson" schedule="planned">
+        <trigger source="edb392c8323a4f5f27cc0e59df409c68" offset="1231" length="5">radio</trigger>
+        <em_arg entity_id="ent-260" entity_mention_id="m-278" role="entity" realis="true">the</em_arg>
+        <em_arg filler_id="f-860" role="time" realis="true">this morning</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-914">
+      <event_mention id="em-893" type="contact" subtype="contact" realis="actual" audience="canttell" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="edb392c8323a4f5f27cc0e59df409c68" offset="323" length="4">said</trigger>
+        <em_arg entity_id="ent-101" entity_mention_id="m-95" role="entity" realis="true">a judge</em_arg>
+        <em_arg filler_id="f-930" role="time" realis="true">Sunday</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

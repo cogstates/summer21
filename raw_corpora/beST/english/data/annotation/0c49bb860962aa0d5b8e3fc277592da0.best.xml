@@ -1,0 +1,1211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56997de10000000000000023">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-666">
+        <trigger offset="125" length="3">ran</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-676">
+        <beliefs>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-686">
+        <trigger offset="1739" length="6">family</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-348" offset="1638" length="5">Darat</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-696">
+        <trigger offset="1759" length="7">friends</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-348" offset="1638" length="5">Darat</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-706">
+        <trigger offset="3143" length="5">staff</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-312" offset="3001" length="6">Resume</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-716">
+        <beliefs>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-726">
+        <trigger offset="552" length="7">players</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-736">
+        <trigger offset="3143" length="5">staff</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-312" offset="3001" length="6">Resume</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1065">
+        <trigger offset="486" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1075">
+        <trigger offset="1088" length="2">to</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1085">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-748">
+        <trigger offset="4506" length="5">raped</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-402" offset="3576" length="5">Darat</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-294" offset="4531" length="10">
+            <text>the rapist</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-402" offset="3576" length="5">Darat</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-336" offset="4490" length="9">
+            <text>the child</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-402" offset="3576" length="5">Darat</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-769">
+        <trigger offset="4293" length="5">raped</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-402" offset="3576" length="5">Darat</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-330" offset="4277" length="9">
+            <text>the child</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-402" offset="3576" length="5">Darat</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-790">
+        <trigger offset="915" length="7">donated</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-114" offset="910" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-606" offset="904" length="5">
+            <text>which</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1095">
+        <trigger offset="775" length="4">made</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-96" offset="762" length="3">
+            <text>Joe</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1118">
+        <trigger offset="1079" length="4">sent</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-126" offset="1084" length="3">
+            <text>him</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-660" offset="1095" length="16">
+            <text>Bermuda Triangle</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1148">
+        <trigger offset="2307" length="11">go to court</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-456" offset="1568" length="6">bigred</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-891" offset="2313" length="5">
+            <text>court</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-456" offset="1568" length="6">bigred</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1171">
+        <trigger offset="2362" length="8">throwing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-456" offset="1568" length="6">bigred</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-903" offset="2347" length="6">
+            <text>people</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-456" offset="1568" length="6">bigred</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1196" offset="2371" length="17">
+            <text>molotov cocktails</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-456" offset="1568" length="6">bigred</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-84" offset="84" length="10">
+        <text>The Shrike</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-90" offset="110" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-96" offset="762" length="3">
+        <text>Joe</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-102" offset="797" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-108" offset="867" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-114" offset="910" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-120" offset="1059" length="3">
+        <text>Joe</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-126" offset="1084" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-132" offset="1113" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-138" offset="1165" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-144" offset="1212" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-150" offset="1323" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-156" offset="1362" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-162" offset="1393" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-168" offset="1521" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-174" offset="2525" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-474" offset="2497" length="6">bigred</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-180" offset="2564" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="2758" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-390" offset="2428" length="5">Darat</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-192" offset="2795" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-390" offset="2428" length="5">Darat</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-198" offset="3081" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-204" offset="3139" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-210" offset="3765" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-216" offset="3926" length="8">
+        <text>This man</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="3645" length="14">Tsukasa Buddha</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-222" offset="4270" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-228" offset="4512" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-402" offset="3576" length="5">Darat</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-234" offset="2723" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-474" offset="2497" length="6">bigred</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-240" offset="4232" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-402" offset="3576" length="5">Darat</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-246" offset="2595" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-474" offset="2497" length="6">bigred</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-252" offset="4045" length="9">
+        <text>Uncle Joe</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="3645" length="14">Tsukasa Buddha</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1005" offset="1126" length="20">
+        <text>a superb human being</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1011" offset="3034" length="20">
+        <text>a superb human being</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-258" offset="380" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-264" offset="607" length="11">
+        <text>all of them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-858" offset="405" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-270" offset="514" length="45">
+        <text>one or more of their African American players</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-276" offset="3132" length="16">
+        <text>one of his staff</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-282" offset="3159" length="8">
+        <text>Sandusky</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-288" offset="3392" length="8">
+        <text>Sandusky</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-294" offset="4531" length="10">
+        <text>the rapist</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="3645" length="14">Tsukasa Buddha</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-300" offset="1736" length="9">
+        <text>my family</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-306" offset="1749" length="17">
+        <text>circle of friends</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-312" offset="3001" length="6">
+        <text>Resume</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-318" offset="3010" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-324" offset="3031" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-330" offset="4277" length="9">
+        <text>the child</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-336" offset="4490" length="9">
+        <text>the child</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-342" offset="4872" length="9">
+        <text>Bruce Lee</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-348" offset="1638" length="5">
+        <text>Darat</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-354" offset="1646" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-360" offset="1699" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-366" offset="1714" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-372" offset="1736" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-378" offset="1822" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-384" offset="1849" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-390" offset="2428" length="5">
+        <text>Darat</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-396" offset="2853" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-402" offset="3576" length="5">
+        <text>Darat</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-408" offset="4176" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-414" offset="4202" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-420" offset="4209" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-426" offset="4303" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-432" offset="4574" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-438" offset="1983" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-444" offset="1961" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-450" offset="14" length="6">
+        <text>bigred</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-456" offset="1568" length="6">
+        <text>bigred</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-462" offset="2194" length="3">
+        <text>IMO</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-468" offset="2247" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-474" offset="2497" length="6">
+        <text>bigred</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-480" offset="2931" length="6">
+        <text>bigred</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-486" offset="3209" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-492" offset="3240" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-498" offset="3383" length="6">
+        <text>bigred</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-504" offset="3442" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-510" offset="3473" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-516" offset="4709" length="6">
+        <text>bigred</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-522" offset="5300" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-528" offset="3313" length="6">
+        <text>tyr_13</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-534" offset="3645" length="14">
+        <text>Tsukasa Buddha</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-540" offset="3674" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-546" offset="3683" length="2">
+        <text>My</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-552" offset="3828" length="2">
+        <text>My</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-558" offset="4073" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-564" offset="4779" length="6">
+        <text>AlBell</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-570" offset="3139" length="9">
+        <text>his staff</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-576" offset="3183" length="10">
+        <text>this staff</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-582" offset="3416" length="10">
+        <text>this staff</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-588" offset="529" length="30">
+        <text>their African American players</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-594" offset="412" length="10">
+        <text>Penn State</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-600" offset="884" length="14">
+        <text>that community</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-606" offset="904" length="5">
+        <text>which</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-612" offset="654" length="9">
+        <text>that team</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-618" offset="578" length="8">
+        <text>The team</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-624" offset="461" length="8">
+        <text>the team</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-630" offset="129" length="9">
+        <text>that team</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-636" offset="529" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-990" offset="142" length="8">
+        <text>a family</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-642" offset="412" length="4">
+        <text>Penn</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-648" offset="1095" length="7">
+        <text>Bermuda</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-654" offset="489" length="20">
+        <text>the segregated South</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-660" offset="1095" length="16">
+        <text>Bermuda Triangle</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-825" offset="274" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-834" offset="320" length="8">
+        <text>the team</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-843" offset="335" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-852" offset="348" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-867" offset="819" length="15">
+        <text>better athletes</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-873" offset="1801" length="14">
+        <text>the Grand Jury</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-882" offset="1913" length="16">
+        <text>a work colleague</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-891" offset="2313" length="5">
+        <text>court</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-456" offset="1568" length="6">bigred</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-903" offset="2347" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-456" offset="1568" length="6">bigred</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1017" offset="3736" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="3645" length="14">Tsukasa Buddha</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1038" offset="4324" length="6">
+        <text>humans</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-402" offset="3576" length="5">Darat</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-909" offset="3970" length="15">
+        <text>one's neighbour</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="3645" length="14">Tsukasa Buddha</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1023" offset="3987" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="3645" length="14">Tsukasa Buddha</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-918" offset="4547" length="14">
+        <text>young children</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-927" offset="4817" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-936" offset="5075" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1053" offset="5259" length="5">
+        <text>human</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-516" offset="4709" length="6">bigred</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1059" offset="5265" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-516" offset="4709" length="6">bigred</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-945" offset="5195" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-954" offset="1724" length="21">
+        <text>a member of my family</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-963" offset="2234" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-972" offset="4430" length="6">
+        <text>others</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-981" offset="5316" length="35">
+        <text>anyone in this situation who didn't</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-516" offset="4709" length="6">bigred</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-996" offset="152" length="17">
+        <text>Very few programs</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1029" offset="3970" length="3">
+        <text>one</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1044" offset="4861" length="7">
+        <text>everone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1201" offset="514" length="45">
+        <text>one or more of their African American players</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-666">
+        <trigger offset="125" length="3">ran</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-676">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-686">
+        <trigger offset="1739" length="6">family</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-696">
+        <trigger offset="1759" length="7">friends</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-706">
+        <trigger offset="3143" length="5">staff</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-716">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-726">
+        <trigger offset="552" length="7">players</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-736">
+        <trigger offset="3143" length="5">staff</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-312" offset="3001" length="6">Resume</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1065">
+        <trigger offset="486" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1075">
+        <trigger offset="1088" length="2">to</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1085">
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-748">
+        <trigger offset="4506" length="5">raped</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-402" offset="3576" length="5">Darat</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-769">
+        <trigger offset="4293" length="5">raped</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-402" offset="3576" length="5">Darat</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-790">
+        <trigger offset="915" length="7">donated</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1095">
+        <trigger offset="775" length="4">made</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1118">
+        <trigger offset="1079" length="4">sent</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-84" offset="84" length="10">The Shrike</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1148">
+        <trigger offset="2307" length="11">go to court</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1171">
+        <trigger offset="2362" length="8">throwing</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-456" offset="1568" length="6">bigred</source>
+          </sentiment>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

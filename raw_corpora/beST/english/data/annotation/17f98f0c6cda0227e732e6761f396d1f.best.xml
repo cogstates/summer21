@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-571915290000000000000003">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-210">
+        <trigger offset="172" length="2">to</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-66" offset="14" length="16">Fat.The.Gangster</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-220">
+        <trigger offset="1076" length="4">from</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-102" offset="809" length="8">wallrock</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-230">
+        <trigger offset="1097" length="6">across</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-102" offset="809" length="8">wallrock</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-240">
+        <trigger offset="1175" length="5">tried</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-102" offset="809" length="8">wallrock</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-250">
+        <trigger offset="1218" length="6">taking</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-102" offset="809" length="8">wallrock</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-260">
+        <trigger offset="1238" length="4">from</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-102" offset="809" length="8">wallrock</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-274">
+        <trigger offset="164" length="7">getting</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-66" offset="14" length="16">Fat.The.Gangster</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-72" offset="140" length="2">
+            <text>my</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-156" offset="175" length="11">
+            <text>Miller Park</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-295">
+        <trigger offset="1068" length="7">leaving</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-102" offset="809" length="8">wallrock</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-108" offset="1050" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-186" offset="1081" length="37">
+            <text>the parking lot across the Interstate</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-316">
+        <trigger offset="664" length="4">went</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="562" length="10">fisticuffs</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-90" offset="662" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-571">
+        <trigger offset="614" length="6">Got in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="562" length="10">fisticuffs</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-162" offset="287" length="11">
+            <text>the stadium</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-412">
+        <trigger offset="1264" length="7">meeting</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-102" offset="809" length="8">wallrock</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-114" offset="1173" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-138" offset="1280" length="7">
+            <text>someone</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-204" offset="1243" length="14">
+            <text>Goerkes Corner</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-458">
+        <trigger offset="859" length="6">Coming</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-102" offset="809" length="8">wallrock</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-364" offset="871" length="8">
+            <text>the west</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-102" offset="809" length="8">wallrock</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-481">
+        <trigger offset="1141" length="7">show up</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-102" offset="809" length="8">wallrock</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-132" offset="1131" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-102" offset="809" length="8">wallrock</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-504">
+        <trigger offset="1159" length="5">leave</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-102" offset="809" length="8">wallrock</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-132" offset="1131" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-102" offset="809" length="8">wallrock</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-527">
+        <trigger offset="280" length="6">get to</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-66" offset="14" length="16">Fat.The.Gangster</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-162" offset="287" length="11">
+            <text>the stadium</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-66" offset="14" length="16">Fat.The.Gangster</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-550">
+        <trigger offset="757" length="3">Get</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-96" offset="709" length="6">Elliot</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-358" offset="761" length="5">
+            <text>there</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-96" offset="709" length="6">Elliot</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-592">
+        <trigger offset="625" length="3">out</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-84" offset="562" length="10">fisticuffs</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-162" offset="287" length="11">
+            <text>the stadium</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-90" offset="662" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-60" offset="72" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-66" offset="14" length="16">
+        <text>Fat.The.Gangster</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-72" offset="140" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-78" offset="207" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-84" offset="562" length="10">
+        <text>fisticuffs</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-90" offset="662" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-96" offset="709" length="6">
+        <text>Elliot</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-102" offset="809" length="8">
+        <text>wallrock</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-108" offset="1050" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-114" offset="1173" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-120" offset="1320" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-126" offset="1046" length="2">
+        <text>us</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-132" offset="1131" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-138" offset="1280" length="7">
+        <text>someone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-144" offset="112" length="4">
+        <text>Cubs</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-150" offset="104" length="7">
+        <text>Brewers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-156" offset="175" length="11">
+        <text>Miller Park</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-162" offset="287" length="11">
+        <text>the stadium</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-358" offset="761" length="5">
+        <text>there</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-168" offset="328" length="14">
+        <text>the Interstate</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-174" offset="1104" length="14">
+        <text>the Interstate</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-180" offset="942" length="17">
+        <text>National Cemetery</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="1081" length="37">
+        <text>the parking lot across the Interstate</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-192" offset="1181" length="20">
+        <text>an alternative route</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-198" offset="1225" length="9">
+        <text>Bluemound</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-204" offset="1243" length="14">
+        <text>Goerkes Corner</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-406" offset="1288" length="5">
+        <text>there</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-364" offset="871" length="8">
+        <text>the west</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-379" offset="435" length="11">
+        <text>Illinoisans</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="14" length="16">Fat.The.Gangster</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-391" offset="359" length="87">
+        <text>cargo-short/flip-flop wearing, Jeep Wrangler driving, backward hat styling, Illinoisans</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="14" length="16">Fat.The.Gangster</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-397" offset="348" length="98">
+        <text>a bunch of cargo-short/flip-flop wearing, Jeep Wrangler driving, backward hat styling, Illinoisans</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="14" length="16">Fat.The.Gangster</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-449" offset="455" length="16">
+        <text>Alternate routes</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-210">
+        <trigger offset="172" length="2">to</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-66" offset="14" length="16">Fat.The.Gangster</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-220">
+        <trigger offset="1076" length="4">from</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-230">
+        <trigger offset="1097" length="6">across</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-240">
+        <trigger offset="1175" length="5">tried</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-250">
+        <trigger offset="1218" length="6">taking</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-260">
+        <trigger offset="1238" length="4">from</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-274">
+        <trigger offset="164" length="7">getting</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="14" length="16">Fat.The.Gangster</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-295">
+        <trigger offset="1068" length="7">leaving</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-316">
+        <trigger offset="664" length="4">went</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-571">
+        <trigger offset="614" length="6">Got in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-412">
+        <trigger offset="1264" length="7">meeting</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-458">
+        <trigger offset="859" length="6">Coming</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-481">
+        <trigger offset="1141" length="7">show up</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-504">
+        <trigger offset="1159" length="5">leave</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-527">
+        <trigger offset="280" length="6">get to</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-550">
+        <trigger offset="757" length="3">Get</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-592">
+        <trigger offset="625" length="3">out</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

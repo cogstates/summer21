@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="55490d330000000000000004" doc_id="01f69c4c2206e7c3fa3706ccd5b8b350" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-81" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="14" length="8">
+        <mention_text>Merijeek</mention_text>
+      </entity_mention>
+      <entity_mention id="m-87" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="365" length="3">
+        <mention_text>Joe</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-18" type="PER" specificity="specific">
+      <entity_mention id="m-93" noun_type="NOM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="199" length="11">
+        <mention_text>the sheriff</mention_text>
+        <nom_head source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="203" length="7">sheriff</nom_head>
+      </entity_mention>
+      <entity_mention id="m-99" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="231" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-21" type="PER" specificity="specific">
+      <entity_mention id="m-105" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="86" length="7">
+        <mention_text>Bricker</mention_text>
+      </entity_mention>
+      <entity_mention id="m-111" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="1225" length="7">
+        <mention_text>Bricker</mention_text>
+      </entity_mention>
+      <entity_mention id="m-117" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2142" length="7">
+        <mention_text>Bricker</mention_text>
+      </entity_mention>
+      <entity_mention id="m-123" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2152" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-129" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3031" length="7">
+        <mention_text>Bricker</mention_text>
+      </entity_mention>
+      <entity_mention id="m-135" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4154" length="7">
+        <mention_text>Bricker</mention_text>
+      </entity_mention>
+      <entity_mention id="m-141" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4602" length="7">
+        <mention_text>Bricker</mention_text>
+      </entity_mention>
+      <entity_mention id="m-763" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2810" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-769" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3426" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-24" type="PER" specificity="specific">
+      <entity_mention id="m-147" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="391" length="8">
+        <mention_text>Irishman</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-27" type="PER" specificity="specific">
+      <entity_mention id="m-153" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="1151" length="10">
+        <mention_text>DanBlather</mention_text>
+      </entity_mention>
+      <entity_mention id="m-159" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="1931" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-30" type="PER" specificity="specific">
+      <entity_mention id="m-165" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="1971" length="10">
+        <mention_text>conurepete</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-33" type="PER" specificity="specific">
+      <entity_mention id="m-171" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2071" length="7">
+        <mention_text>suranyi</mention_text>
+      </entity_mention>
+      <entity_mention id="m-177" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4083" length="7">
+        <mention_text>suranyi</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-36" type="PER" specificity="specific">
+      <entity_mention id="m-183" noun_type="NOM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2240" length="19">
+        <mention_text>The head of Diebold</mention_text>
+        <nom_head source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2244" length="4">head</nom_head>
+      </entity_mention>
+      <entity_mention id="m-189" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2265" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-195" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2314" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-201" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2329" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-39" type="PER" specificity="specific">
+      <entity_mention id="m-207" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2293" length="4">
+        <mention_text>Bush</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-42" type="PER" specificity="specific">
+      <entity_mention id="m-213" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2959" length="8">
+        <mention_text>gonzomax</mention_text>
+      </entity_mention>
+      <entity_mention id="m-219" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4530" length="8">
+        <mention_text>gonzomax</mention_text>
+      </entity_mention>
+      <entity_mention id="m-225" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3835" length="8">
+        <mention_text>gonzomax</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-45" type="PER" specificity="specific">
+      <entity_mention id="m-231" noun_type="NOM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3738" length="12">
+        <mention_text>a Diebold VP</mention_text>
+        <nom_head source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3748" length="2">VP</nom_head>
+      </entity_mention>
+      <entity_mention id="m-237" noun_type="NOM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3723" length="10">
+        <mention_text>Half owner</mention_text>
+        <nom_head source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3728" length="5">owner</nom_head>
+      </entity_mention>
+      <entity_mention id="m-243" noun_type="NOM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4339" length="12">
+        <mention_text>a Diebold VP</mention_text>
+        <nom_head source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4349" length="2">VP</nom_head>
+      </entity_mention>
+      <entity_mention id="m-249" noun_type="NOM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4324" length="10">
+        <mention_text>Half owner</mention_text>
+        <nom_head source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4329" length="5">owner</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-48" type="ORG" specificity="specific">
+      <entity_mention id="m-255" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="343" length="8">
+        <mention_text>Democrat</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-51" type="ORG" specificity="specific">
+      <entity_mention id="m-261" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2252" length="7">
+        <mention_text>Diebold</mention_text>
+      </entity_mention>
+      <entity_mention id="m-267" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2409" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+      <entity_mention id="m-273" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2425" length="7">
+        <mention_text>Diebold</mention_text>
+      </entity_mention>
+      <entity_mention id="m-279" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2479" length="3">
+        <mention_text>its</mention_text>
+      </entity_mention>
+      <entity_mention id="m-285" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2845" length="7">
+        <mention_text>Diebold</mention_text>
+      </entity_mention>
+      <entity_mention id="m-291" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2892" length="7">
+        <mention_text>Diebold</mention_text>
+      </entity_mention>
+      <entity_mention id="m-297" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3041" length="7">
+        <mention_text>Diebold</mention_text>
+      </entity_mention>
+      <entity_mention id="m-303" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3095" length="3">
+        <mention_text>its</mention_text>
+      </entity_mention>
+      <entity_mention id="m-309" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3461" length="7">
+        <mention_text>Diebold</mention_text>
+      </entity_mention>
+      <entity_mention id="m-315" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3508" length="7">
+        <mention_text>Diebold</mention_text>
+      </entity_mention>
+      <entity_mention id="m-321" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3740" length="7">
+        <mention_text>Diebold</mention_text>
+      </entity_mention>
+      <entity_mention id="m-327" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4341" length="7">
+        <mention_text>Diebold</mention_text>
+      </entity_mention>
+      <entity_mention id="m-333" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4452" length="7">
+        <mention_text>Diebold</mention_text>
+      </entity_mention>
+      <entity_mention id="m-339" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4640" length="7">
+        <mention_text>Diebold</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-54" type="ORG" specificity="specific">
+      <entity_mention id="m-345" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2602" length="26">
+        <mention_text>Premier Election Solutions</mention_text>
+      </entity_mention>
+      <entity_mention id="m-351" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3218" length="26">
+        <mention_text>Premier Election Solutions</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-57" type="ORG" specificity="specific">
+      <entity_mention id="m-357" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2762" length="31">
+        <mention_text>Election Systems &amp;amp; Software</mention_text>
+      </entity_mention>
+      <entity_mention id="m-363" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3689" length="10">
+        <mention_text>ES &amp;amp; S</mention_text>
+      </entity_mention>
+      <entity_mention id="m-369" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4021" length="8">
+        <mention_text>ES&amp;amp;S</mention_text>
+      </entity_mention>
+      <entity_mention id="m-375" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4031" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-381" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4290" length="10">
+        <mention_text>ES &amp;amp; S</mention_text>
+      </entity_mention>
+      <entity_mention id="m-387" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4496" length="10">
+        <mention_text>ES &amp;amp; S</mention_text>
+      </entity_mention>
+      <entity_mention id="m-393" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3378" length="31">
+        <mention_text>Election Systems &amp;amp; Software</mention_text>
+      </entity_mention>
+      <entity_mention id="m-399" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4684" length="10">
+        <mention_text>ES &amp;amp; S</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-60" type="ORG" specificity="specific">
+      <entity_mention id="m-405" noun_type="NOM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4813" length="27">
+        <mention_text>The voter machine companies</mention_text>
+        <nom_head source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4831" length="9">companies</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-63" type="ORG" specificity="specific">
+      <entity_mention id="m-411" noun_type="NOM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4951" length="33">
+        <mention_text>Canadian and Venezuelan companies</mention_text>
+        <nom_head source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4975" length="9">companies</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-66" type="GPE" specificity="specific">
+      <entity_mention id="m-417" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="155" length="10">
+        <mention_text>Lee County</mention_text>
+      </entity_mention>
+      <entity_mention id="m-423" noun_type="NOM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="167" length="100">
+        <mention_text>the South Carolina county where the sheriff just got busted for his involvement in the drug business</mention_text>
+        <nom_head source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="186" length="6">county</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-69" type="GPE" specificity="specific">
+      <entity_mention id="m-429" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="171" length="14">
+        <mention_text>South Carolina</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-72" type="GPE" specificity="specific">
+      <entity_mention id="m-435" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4911" length="3">
+        <mention_text>our</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-75" type="GPE" specificity="specific">
+      <entity_mention id="m-441" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4951" length="8">
+        <mention_text>Canadian</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-78" type="GPE" specificity="specific">
+      <entity_mention id="m-447" noun_type="NAM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4964" length="10">
+        <mention_text>Venezuelan</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-592" type="PER" specificity="nonspecific">
+      <entity_mention id="m-586" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="277" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-601" type="PER" specificity="nonspecific">
+      <entity_mention id="m-595" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="332" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-610" type="PER" specificity="nonspecific">
+      <entity_mention id="m-604" noun_type="NOM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="341" length="20">
+        <mention_text>a Democrat president</mention_text>
+        <nom_head source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="352" length="9">president</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-619" type="PER" specificity="nonspecific">
+      <entity_mention id="m-613" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="478" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-622" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="509" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-628" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="532" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-634" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="564" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-640" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="586" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-664" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="843" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-670" noun_type="NOM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="965" length="9">
+        <mention_text>the voter</mention_text>
+        <nom_head source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="969" length="5">voter</nom_head>
+      </entity_mention>
+      <entity_mention id="m-676" noun_type="NOM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="996" length="9">
+        <mention_text>the voter</mention_text>
+        <nom_head source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="1000" length="5">voter</nom_head>
+      </entity_mention>
+      <entity_mention id="m-682" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="1270" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-688" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="1301" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-694" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="1324" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-700" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="1356" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-706" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="1378" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-724" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="1635" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-730" noun_type="NOM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="1757" length="9">
+        <mention_text>the voter</mention_text>
+        <nom_head source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="1761" length="5">voter</nom_head>
+      </entity_mention>
+      <entity_mention id="m-736" noun_type="NOM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="1788" length="9">
+        <mention_text>the voter</mention_text>
+        <nom_head source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="1792" length="5">voter</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-652" type="LOC" specificity="nonspecific">
+      <entity_mention id="m-646" noun_type="NOM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="634" length="17">
+        <mention_text>the polling place</mention_text>
+        <nom_head source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="646" length="5">place</nom_head>
+      </entity_mention>
+      <entity_mention id="m-712" noun_type="NOM" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="1426" length="17">
+        <mention_text>the polling place</mention_text>
+        <nom_head source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="1438" length="5">place</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-661" type="PER" specificity="nonspecific">
+      <entity_mention id="m-655" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="701" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-718" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="1493" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-742" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2166" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-757" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2394" length="2">
+        <mention_text>us</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-754" type="PER" specificity="nonspecific">
+      <entity_mention id="m-748" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2202" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-781" type="PER" specificity="nonspecific">
+      <entity_mention id="m-775" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4873" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-790" type="PER" specificity="nonspecific">
+      <entity_mention id="m-784" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4883" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-799" type="PER" specificity="nonspecific">
+      <entity_mention id="m-793" noun_type="PRO" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="5009" length="2">
+        <mention_text>We</mention_text>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-569" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="211" length="4" type="time" nom_time="2010-0X-XX">just</filler>
+    <filler id="f-836" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="231" length="36" type="crime">his involvement in the drug business</filler>
+    <filler id="f-576" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2801" length="4" type="time" nom_time="2009-XX-XX">2009</filler>
+    <filler id="f-583" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3417" length="4" type="time" nom_time="2009-XX-XX">2009</filler>
+    <filler id="f-968" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2449" length="15" type="commodity">voting machines</filler>
+    <filler id="f-998" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2923" length="12" type="commodity">ATM machines</filler>
+    <filler id="f-1028" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3065" length="15" type="commodity">voting machines</filler>
+    <filler id="f-1070" source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3539" length="12" type="commodity">ATM machines</filler>
+  </fillers>
+  <relations>
+    <relation id="r-49" type="physical" subtype="locatednear">
+      <relation_mention id="relm-453" realis="true">
+        <rel_arg1 entity_id="ent-66" entity_mention_id="m-423" role="entity">the South Carolina county where the sheriff just got busted for his involvement in the drug business</rel_arg1>
+        <rel_arg2 entity_id="ent-69" entity_mention_id="m-429" role="loc">South Carolina</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-50" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-463" realis="true">
+        <rel_arg1 entity_id="ent-18" entity_mention_id="m-93" role="employeemember">the sheriff</rel_arg1>
+        <rel_arg2 entity_id="ent-66" entity_mention_id="m-423" role="org">the South Carolina county where the sheriff just got busted for his involvement in the drug business</rel_arg2>
+        <trigger source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="203" length="7">sheriff</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-51" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-473" realis="true">
+        <rel_arg1 entity_id="ent-36" entity_mention_id="m-183" role="leader">The head of Diebold</rel_arg1>
+        <rel_arg2 entity_id="ent-51" entity_mention_id="m-261" role="entity">Diebold</rel_arg2>
+        <trigger source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2244" length="4">head</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-52" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-483" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-231" role="employeemember">a Diebold VP</rel_arg1>
+        <rel_arg2 entity_id="ent-51" entity_mention_id="m-321" role="org">Diebold</rel_arg2>
+        <trigger source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3748" length="2">VP</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-53" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-802" realis="true">
+        <rel_arg1 entity_id="ent-610" entity_mention_id="m-604" role="employeemember">a Democrat president</rel_arg1>
+        <rel_arg2 entity_id="ent-48" entity_mention_id="m-255" role="org">Democrat</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-54" type="physical" subtype="locatednear">
+      <relation_mention id="relm-812" realis="false">
+        <rel_arg1 entity_id="ent-619" entity_mention_id="m-640" role="entity">you</rel_arg1>
+        <rel_arg2 entity_id="ent-652" entity_mention_id="m-646" role="loc">the polling place</rel_arg2>
+        <trigger source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="626" length="7">leaving</trigger>
+      </relation_mention>
+      <relation_mention id="relm-822" realis="false">
+        <rel_arg1 entity_id="ent-619" entity_mention_id="m-706" role="entity">you</rel_arg1>
+        <rel_arg2 entity_id="ent-652" entity_mention_id="m-712" role="loc">the polling place</rel_arg2>
+        <trigger source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="1418" length="7">leaving</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-55" type="orgaffiliation" subtype="ownership">
+      <relation_mention id="relm-1083" realis="true">
+        <rel_arg1 entity_id="ent-45" entity_mention_id="m-243" role="owner">a Diebold VP</rel_arg1>
+        <rel_arg2 entity_id="ent-57" entity_mention_id="m-381" role="org">ES &amp;amp; S</rel_arg2>
+        <trigger source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="4329" length="5">owner</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-16">
+      <event_mention id="em-495" type="justice" subtype="arrestjail" realis="actual">
+        <trigger source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="220" length="6">busted</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-93" role="person" realis="true">the sheriff</em_arg>
+        <em_arg entity_id="ent-66" entity_mention_id="m-423" role="place" realis="true">the South Carolina county where the sheriff just got busted for his involvement in the drug business</em_arg>
+        <em_arg filler_id="f-569" role="time" realis="true">just</em_arg>
+        <em_arg filler_id="f-836" role="crime" realis="true">his involvement in the drug business</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-493">
+      <event_mention id="em-516" type="transaction" subtype="transferownership" realis="actual" ways="voluntary">
+        <trigger source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2663" length="6">bought</trigger>
+        <em_arg entity_id="ent-57" entity_mention_id="m-357" role="recipient" realis="true">Election Systems &amp;amp; Software</em_arg>
+        <em_arg filler_id="f-576" role="time" realis="true">2009</em_arg>
+        <em_arg entity_id="ent-54" entity_mention_id="m-351" role="thing" realis="true">Premier Election Solutions</em_arg>
+      </event_mention>
+      <event_mention id="em-537" type="transaction" subtype="transferownership" realis="actual" ways="voluntary">
+        <trigger source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3279" length="6">bought</trigger>
+        <em_arg entity_id="ent-57" entity_mention_id="m-393" role="recipient" realis="true">Election Systems &amp;amp; Software</em_arg>
+        <em_arg filler_id="f-583" role="time" realis="true">2009</em_arg>
+        <em_arg entity_id="ent-54" entity_mention_id="m-351" role="thing" realis="true">Premier Election Solutions</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-867">
+      <event_mention id="em-839" type="movement" subtype="transportperson" realis="other">
+        <trigger source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="1418" length="7">leaving</trigger>
+        <em_arg entity_id="ent-619" entity_mention_id="m-706" role="person" realis="true">you</em_arg>
+        <em_arg entity_id="ent-652" entity_mention_id="m-712" role="origin" realis="true">the polling place</em_arg>
+      </event_mention>
+      <event_mention id="em-869" type="movement" subtype="transportperson" realis="other">
+        <trigger source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="626" length="7">leaving</trigger>
+        <em_arg entity_id="ent-619" entity_mention_id="m-640" role="person" realis="true">you</em_arg>
+        <em_arg entity_id="ent-652" entity_mention_id="m-646" role="origin" realis="true">the polling place</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-918">
+      <event_mention id="em-897" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2260" length="4">said</trigger>
+        <em_arg entity_id="ent-36" entity_mention_id="m-183" role="entity" realis="true">The head of Diebold</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-941">
+      <event_mention id="em-920" type="personnel" subtype="elect" realis="other">
+        <trigger source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2302" length="10">re-elected</trigger>
+        <em_arg entity_id="ent-39" entity_mention_id="m-207" role="person" realis="true">Bush</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-971">
+      <event_mention id="em-943" type="manufacture" subtype="artifact" realis="other">
+        <trigger source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2443" length="5">makes</trigger>
+        <em_arg entity_id="ent-51" entity_mention_id="m-273" role="agent" realis="false">Diebold</em_arg>
+        <em_arg filler_id="f-968" role="artifact" realis="true">voting machines</em_arg>
+      </event_mention>
+      <event_mention id="em-1003" type="manufacture" subtype="artifact" realis="other">
+        <trigger source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3059" length="5">makes</trigger>
+        <em_arg entity_id="ent-51" entity_mention_id="m-297" role="agent" realis="true">Diebold</em_arg>
+        <em_arg filler_id="f-1028" role="artifact" realis="true">voting machines</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1001">
+      <event_mention id="em-973" type="manufacture" subtype="artifact" realis="generic">
+        <trigger source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="2902" length="8">business</trigger>
+        <em_arg entity_id="ent-51" entity_mention_id="m-291" role="agent" realis="true">Diebold</em_arg>
+        <em_arg filler_id="f-998" role="artifact" realis="true">ATM machines</em_arg>
+      </event_mention>
+      <event_mention id="em-1045" type="manufacture" subtype="artifact" realis="generic">
+        <trigger source="01f69c4c2206e7c3fa3706ccd5b8b350" offset="3518" length="8">business</trigger>
+        <em_arg entity_id="ent-51" entity_mention_id="m-315" role="agent" realis="true">Diebold</em_arg>
+        <em_arg filler_id="f-1070" role="artifact" realis="true">ATM machines</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="55142ee50000000000000052" doc_id="NYT_ENG_20130422.0048" source_type="newswire">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-41" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="172" length="19">
+        <mention_text>EX-DEFENSE MINISTER</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="183" length="8">MINISTER</nom_head>
+      </entity_mention>
+      <entity_mention id="m-71" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="309" length="12">
+        <mention_text>a politician</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="311" length="10">politician</nom_head>
+      </entity_mention>
+      <entity_mention id="m-83" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="386" length="20">
+        <mention_text>Akis Tsochatzopoulos</mention_text>
+      </entity_mention>
+      <entity_mention id="m-98" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="559" length="15">
+        <mention_text>Tsochatzopoulos</mention_text>
+      </entity_mention>
+      <entity_mention id="m-113" noun_type="PRO" source="NYT_ENG_20130422.0048" offset="630" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-146" noun_type="PRO" source="NYT_ENG_20130422.0048" offset="728" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-161" noun_type="PRO" source="NYT_ENG_20130422.0048" offset="732" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-212" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="974" length="15">
+        <mention_text>Tsochatzopoulos</mention_text>
+      </entity_mention>
+      <entity_mention id="m-227" noun_type="PRO" source="NYT_ENG_20130422.0048" offset="1049" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-233" noun_type="PRO" source="NYT_ENG_20130422.0048" offset="1178" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-257" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="1359" length="15">
+        <mention_text>Tsochatzopoulos</mention_text>
+      </entity_mention>
+      <entity_mention id="m-272" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="1561" length="19">
+        <mention_text>The former minister</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="1572" length="8">minister</nom_head>
+      </entity_mention>
+      <entity_mention id="m-293" noun_type="PRO" source="NYT_ENG_20130422.0048" offset="1730" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-404" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="2648" length="15">
+        <mention_text>Tsochatzopoulos</mention_text>
+      </entity_mention>
+      <entity_mention id="m-727" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="1582" length="64">
+        <mention_text>a founding member of the country’s once dominant socialist party</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="1593" length="6">member</nom_head>
+      </entity_mention>
+      <entity_mention id="m-866" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="2668" length="173">
+        <mention_text>he most senior government official to stand trial since the former prime minister and Pasok founder, Andreas Papandreou, was acquitted in 1991 on charges of accepting bribes</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="2694" length="8">official</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1084" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="359" length="25">
+        <mention_text>a former defense minister</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="376" length="8">minister</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1119" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="1062" length="16">
+        <mention_text>defense minister</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="1070" length="8">minister</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1708" noun_type="PRO" source="NYT_ENG_20130422.0048" offset="1745" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-53" type="GPE" specificity="specific">
+      <entity_mention id="m-47" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="204" length="5">
+        <mention_text>GREEK</mention_text>
+      </entity_mention>
+      <entity_mention id="m-65" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="257" length="6">
+        <mention_text>Greece</mention_text>
+      </entity_mention>
+      <entity_mention id="m-77" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="325" length="6">
+        <mention_text>Greece</mention_text>
+      </entity_mention>
+      <entity_mention id="m-197" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="898" length="9">
+        <mention_text>a country</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="900" length="7">country</nom_head>
+      </entity_mention>
+      <entity_mention id="m-278" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="1603" length="11">
+        <mention_text>the country</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="1607" length="7">country</nom_head>
+      </entity_mention>
+      <entity_mention id="m-332" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="2042" length="11">
+        <mention_text>the country</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="2046" length="7">country</nom_head>
+      </entity_mention>
+      <entity_mention id="m-353" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="2199" length="6">
+        <mention_text>Greece</mention_text>
+      </entity_mention>
+      <entity_mention id="m-850" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="2389" length="5">
+        <mention_text>Greek</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1131" noun_type="PRO" source="NYT_ENG_20130422.0048" offset="2082" length="2">
+        <mention_text>it</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-62" type="GPE" specificity="specific">
+      <entity_mention id="m-56" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="249" length="6">
+        <mention_text>ATHENS</mention_text>
+      </entity_mention>
+      <entity_mention id="m-176" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="796" length="6">
+        <mention_text>Athens</mention_text>
+      </entity_mention>
+      <entity_mention id="m-501" noun_type="PRO" source="NYT_ENG_20130422.0048" offset="428" length="4">
+        <mention_text>here</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-95" type="ORG" specificity="specific">
+      <entity_mention id="m-338" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="2178" length="19">
+        <mention_text>a court in Salonika</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="2180" length="5">court</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-110" type="PER" specificity="specific">
+      <entity_mention id="m-104" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="630" length="8">
+        <mention_text>his wife</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="634" length="4">wife</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-119" type="FAC" specificity="specific">
+      <entity_mention id="m-182" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="818" length="17">
+        <mention_text>Korydallos Prison</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-128" type="PER" specificity="specific">
+      <entity_mention id="m-122" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="640" length="8">
+        <mention_text>daughter</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="640" length="8">daughter</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-137" type="PER" specificity="specific">
+      <entity_mention id="m-131" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="653" length="30">
+        <mention_text>16 former aides and associates</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="663" length="5">aides</nom_head>
+      </entity_mention>
+      <entity_mention id="m-140" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="653" length="30">
+        <mention_text>16 former aides and associates</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="673" length="10">associates</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-158" type="PER" specificity="specific">
+      <entity_mention id="m-152" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="732" length="13">
+        <mention_text>his relatives</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="736" length="9">relatives</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-173" type="PER" specificity="specific">
+      <entity_mention id="m-167" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="750" length="21">
+        <mention_text>another five suspects</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="763" length="8">suspects</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-194" type="LOC" specificity="specific">
+      <entity_mention id="m-188" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="818" length="10">
+        <mention_text>Korydallos</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-209" type="PER" specificity="specific">
+      <entity_mention id="m-203" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="926" length="15">
+        <mention_text>state officials</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="932" length="9">officials</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-224" type="ORG" specificity="specific">
+      <entity_mention id="m-218" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="1023" length="18">
+        <mention_text>offshore companies</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="1032" length="9">companies</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-245" type="GPE" specificity="specific">
+      <entity_mention id="m-239" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="1270" length="7">
+        <mention_text>Russian</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-254" type="GPE" specificity="specific">
+      <entity_mention id="m-248" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="1305" length="6">
+        <mention_text>German</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-269" type="PER" specificity="specific">
+      <entity_mention id="m-263" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="1510" length="11">
+        <mention_text>Authorities</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="1510" length="11">Authorities</nom_head>
+      </entity_mention>
+      <entity_mention id="m-374" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="2385" length="21">
+        <mention_text>the Greek authorities</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="2395" length="11">authorities</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-290" type="ORG" specificity="specific">
+      <entity_mention id="m-733" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="1648" length="5">
+        <mention_text>Pasok</mention_text>
+      </entity_mention>
+      <entity_mention id="m-894" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="2754" length="5">
+        <mention_text>Pasok</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1125" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="1603" length="43">
+        <mention_text>the country’s once dominant socialist party</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="1641" length="5">party</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-305" type="ORG" specificity="specific">
+      <entity_mention id="m-326" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="2016" length="5">
+        <mention_text>state</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="2016" length="5">state</nom_head>
+      </entity_mention>
+      <entity_mention id="m-410" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="2683" length="10">
+        <mention_text>government</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="2683" length="10">government</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1090" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="926" length="5">
+        <mention_text>state</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="926" length="5">state</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-314" type="PER" specificity="specific">
+      <entity_mention id="m-308" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="1891" length="15">
+        <mention_text>Antonis Samaras</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-323" type="PER" specificity="specific">
+      <entity_mention id="m-317" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="1976" length="11">
+        <mention_text>most Greeks</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="1981" length="6">Greeks</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-350" type="GPE" specificity="specific">
+      <entity_mention id="m-344" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="2189" length="8">
+        <mention_text>Salonika</mention_text>
+      </entity_mention>
+      <entity_mention id="m-368" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="2348" length="4">
+        <mention_text>city</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="2348" length="4">city</nom_head>
+      </entity_mention>
+      <entity_mention id="m-788" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="2199" length="28">
+        <mention_text>Greece’s second-largest city</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="2223" length="4">city</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-365" type="PER" specificity="specific">
+      <entity_mention id="m-359" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="2257" length="25">
+        <mention_text>Vassilis Papageorgopoulos</mention_text>
+      </entity_mention>
+      <entity_mention id="m-814" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="2239" length="16">
+        <mention_text>the former mayor</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="2250" length="5">mayor</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-386" type="PER" specificity="specific">
+      <entity_mention id="m-380" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="2444" length="24">
+        <mention_text>more than 30 politicians</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="2457" length="11">politicians</nom_head>
+      </entity_mention>
+      <entity_mention id="m-389" noun_type="PRO" source="NYT_ENG_20130422.0048" offset="2490" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-401" type="PER" specificity="specific">
+      <entity_mention id="m-395" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="2560" length="22">
+        <mention_text>three former ministers</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="2573" length="9">ministers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-422" type="PER" specificity="specific">
+      <entity_mention id="m-416" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="2769" length="18">
+        <mention_text>Andreas Papandreou</mention_text>
+      </entity_mention>
+      <entity_mention id="m-882" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="2724" length="43">
+        <mention_text>the former prime minister and Pasok founder</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="2741" length="8">minister</nom_head>
+      </entity_mention>
+      <entity_mention id="m-888" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="2724" length="43">
+        <mention_text>the former prime minister and Pasok founder</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="2760" length="7">founder</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-785" type="PER" specificity="nonspecific">
+      <entity_mention id="m-779" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="1951" length="171">
+        <mention_text>the political elite whom most Greeks blame for the dysfunctional state system that created the country’s huge debt problem and led it to dependence on foreign rescue loans</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="1965" length="5">elite</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-964" type="ORG" specificity="specific">
+      <entity_mention id="m-958" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="175" length="7">
+        <mention_text>DEFENSE</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1032" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="368" length="7">
+        <mention_text>defense</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1038" noun_type="NAM" source="NYT_ENG_20130422.0048" offset="1062" length="7">
+        <mention_text>defense</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1096" type="ORG" specificity="specific">
+      <entity_mention id="m-299" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="1858" length="48">
+        <mention_text>the government of Prime Minister Antonis Samaras</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="1862" length="10">government</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1171" type="FAC" specificity="specific">
+      <entity_mention id="m-495" noun_type="NOM" source="NYT_ENG_20130422.0048" offset="420" length="12">
+        <mention_text>a court here</mention_text>
+        <nom_head source="NYT_ENG_20130422.0048" offset="422" length="5">court</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-483" source="NYT_ENG_20130422.0048" offset="368" length="16" type="title">defense minister</filler>
+    <filler id="f-565" source="NYT_ENG_20130422.0048" offset="576" length="2" type="age">73</filler>
+    <filler id="f-715" source="NYT_ENG_20130422.0048" offset="1070" length="8" type="title">minister</filler>
+    <filler id="f-767" source="NYT_ENG_20130422.0048" offset="1876" length="14" type="title">Prime Minister</filler>
+    <filler id="f-918" source="NYT_ENG_20130422.0048" offset="2735" length="14" type="title">prime minister</filler>
+    <filler id="f-1052" source="NYT_ENG_20130422.0048" offset="2250" length="5" type="title">mayor</filler>
+    <filler id="f-955" source="NYT_ENG_20130422.0048" offset="183" length="8" type="title">MINISTER</filler>
+    <filler id="f-999" source="NYT_ENG_20130422.0048" offset="210" length="10" type="crime">CORRUPTION</filler>
+    <filler id="f-1161" source="NYT_ENG_20130422.0048" offset="453" length="95" type="crime">setting up a complex money laundering network to cover the trail of millions of euros in bribes</filler>
+    <filler id="f-1178" source="NYT_ENG_20130422.0048" offset="433" length="6" type="time" nom_time="2013-04-22">Monday</filler>
+    <filler id="f-1219" source="NYT_ENG_20130422.0048" offset="376" length="8" type="title">minister</filler>
+    <filler id="f-1269" source="NYT_ENG_20130422.0048" offset="453" length="95" type="crime">setting up a complex money laundering network to cover the trail of millions of euros in bribes</filler>
+    <filler id="f-1299" source="NYT_ENG_20130422.0048" offset="521" length="17" type="money">millions of euros</filler>
+    <filler id="f-1329" source="NYT_ENG_20130422.0048" offset="1004" length="318" type="crime">using a network of offshore companies during his stint as defense minister between 1996 and 2001, and for several years after that, to siphon off millions of euros in bribes he is said to have taken in exchange for procurement contracts, including the purchase of a Russian missile defense system and German submarines</filler>
+    <filler id="f-1364" source="NYT_ENG_20130422.0048" offset="1070" length="8" type="title">minister</filler>
+    <filler id="f-1371" source="NYT_ENG_20130422.0048" offset="1087" length="4" type="time" nom_time="1996-XX-XX">1996</filler>
+    <filler id="f-1408" source="NYT_ENG_20130422.0048" offset="1070" length="8" type="title">minister</filler>
+    <filler id="f-1415" source="NYT_ENG_20130422.0048" offset="1096" length="4" type="time" nom_time="2001-XX-XX">2001</filler>
+    <filler id="f-1464" source="NYT_ENG_20130422.0048" offset="1150" length="17" type="money">millions of euros</filler>
+    <filler id="f-1471" source="NYT_ENG_20130422.0048" offset="1087" length="4" type="time" nom_time="1996-XX-XX">1996</filler>
+    <filler id="f-1478" source="NYT_ENG_20130422.0048" offset="1096" length="4" type="time" nom_time="2001-XX-XX">2001</filler>
+    <filler id="f-1485" source="NYT_ENG_20130422.0048" offset="1110" length="24" type="time" nom_time="2002-XX-XX">several years after that</filler>
+    <filler id="f-1492" source="NYT_ENG_20130422.0048" offset="1110" length="24" type="time" nom_time="2003-XX-XX">several years after that</filler>
+    <filler id="f-1512" source="NYT_ENG_20130422.0048" offset="1270" length="30" type="weapon">Russian missile defense system</filler>
+    <filler id="f-1535" source="NYT_ENG_20130422.0048" offset="1305" length="17" type="vehicle">German submarines</filler>
+    <filler id="f-1566" source="NYT_ENG_20130422.0048" offset="1391" length="17" type="money">160 million euros</filler>
+    <filler id="f-1573" source="NYT_ENG_20130422.0048" offset="1419" length="12" type="money">$210 million</filler>
+    <filler id="f-1616" source="NYT_ENG_20130422.0048" offset="1493" length="15" type="money">3 billion euros</filler>
+    <filler id="f-1647" source="NYT_ENG_20130422.0048" offset="1572" length="8" type="title">minister</filler>
+    <filler id="f-1767" source="NYT_ENG_20130422.0048" offset="2287" length="14" type="sentence">life in prison</filler>
+    <filler id="f-1774" source="NYT_ENG_20130422.0048" offset="2306" length="54" type="crime">embezzling at least 18 million euros from city coffers</filler>
+    <filler id="f-1788" source="NYT_ENG_20130422.0048" offset="2168" length="8" type="time" nom_time="2013-02-XX">February</filler>
+    <filler id="f-1825" source="NYT_ENG_20130422.0048" offset="2306" length="54" type="crime">embezzling at least 18 million euros from city coffers</filler>
+    <filler id="f-1869" source="NYT_ENG_20130422.0048" offset="2250" length="5" type="title">mayor</filler>
+    <filler id="f-1906" source="NYT_ENG_20130422.0048" offset="2326" length="16" type="money">18 million euros</filler>
+    <filler id="f-1943" source="NYT_ENG_20130422.0048" offset="2518" length="11" type="crime">tax evasion</filler>
+    <filler id="f-1950" source="NYT_ENG_20130422.0048" offset="2534" length="12" type="crime">other crimes</filler>
+    <filler id="f-1987" source="NYT_ENG_20130422.0048" offset="2548" length="10" type="time" nom_time="2013-03-XX">Last month</filler>
+    <filler id="f-1994" source="NYT_ENG_20130422.0048" offset="2601" length="36" type="crime">submitting false income declarations</filler>
+    <filler id="f-2024" source="NYT_ENG_20130422.0048" offset="2573" length="9" type="title">ministers</filler>
+    <filler id="f-2089" source="NYT_ENG_20130422.0048" offset="2735" length="14" type="title">prime minister</filler>
+    <filler id="f-2147" source="NYT_ENG_20130422.0048" offset="2806" length="4" type="time" nom_time="1991-XX-XX">1991</filler>
+    <filler id="f-2154" source="NYT_ENG_20130422.0048" offset="2825" length="16" type="crime">accepting bribes</filler>
+    <filler id="f-2184" source="NYT_ENG_20130422.0048" offset="2825" length="16" type="crime">accepting bribes</filler>
+  </fillers>
+  <relations>
+    <relation id="r-721" type="physical" subtype="locatednear">
+      <relation_mention id="relm-455" realis="true">
+        <rel_arg1 entity_id="ent-62" entity_mention_id="m-56" role="entity">ATHENS</rel_arg1>
+        <rel_arg2 entity_id="ent-53" entity_mention_id="m-65" role="loc">Greece</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-722" type="physical" subtype="locatednear">
+      <relation_mention id="relm-465" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-71" role="entity">a politician</rel_arg1>
+        <rel_arg2 entity_id="ent-53" entity_mention_id="m-77" role="loc">Greece</rel_arg2>
+        <trigger source="NYT_ENG_20130422.0048" offset="322" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-723" type="personalsocial" subtype="role">
+      <relation_mention id="relm-475" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-83" role="per">Akis Tsochatzopoulos</rel_arg1>
+        <rel_arg2 filler_id="f-483" role="role">defense minister</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-707" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-212" role="per">Tsochatzopoulos</rel_arg1>
+        <rel_arg2 filler_id="f-715" role="role">minister</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-724" type="physical" subtype="locatednear">
+      <relation_mention id="relm-537" realis="true">
+        <rel_arg1 entity_id="ent-1171" entity_mention_id="m-495" role="entity">a court here</rel_arg1>
+        <rel_arg2 entity_id="ent-62" entity_mention_id="m-501" role="loc">here</rel_arg2>
+        <trigger source="NYT_ENG_20130422.0048" offset="417" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-725" type="physical" subtype="locatednear">
+      <relation_mention id="relm-547" realis="true">
+        <rel_arg1 entity_id="ent-110" entity_mention_id="m-104" role="entity">wife</rel_arg1>
+        <rel_arg2 entity_id="ent-1171" entity_mention_id="m-495" role="loc">a court here</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-726" type="generalaffiliation" subtype="personage">
+      <relation_mention id="relm-557" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-98" role="per">Tsochatzopoulos</rel_arg1>
+        <rel_arg2 filler_id="f-565" role="age">73</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-727" type="personalsocial" subtype="family">
+      <relation_mention id="relm-587" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-113" role="per">his</rel_arg1>
+        <rel_arg2 entity_id="ent-110" entity_mention_id="m-104" role="per">his wife</rel_arg2>
+        <trigger source="NYT_ENG_20130422.0048" offset="634" length="4">wife</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-728" type="personalsocial" subtype="family">
+      <relation_mention id="relm-597" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-113" role="per">his</rel_arg1>
+        <rel_arg2 entity_id="ent-128" entity_mention_id="m-122" role="per">daughter</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-729" type="personalsocial" subtype="business">
+      <relation_mention id="relm-607" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-113" role="per">his</rel_arg1>
+        <rel_arg2 entity_id="ent-137" entity_mention_id="m-131" role="per">16 former aides and associates</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-617" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-113" role="per">his</rel_arg1>
+        <rel_arg2 entity_id="ent-137" entity_mention_id="m-140" role="per">associates</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-730" type="personalsocial" subtype="family">
+      <relation_mention id="relm-627" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-161" role="per">his</rel_arg1>
+        <rel_arg2 entity_id="ent-158" entity_mention_id="m-152" role="per">his relatives</rel_arg2>
+        <trigger source="NYT_ENG_20130422.0048" offset="736" length="9">relatives</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-731" type="physical" subtype="locatednear">
+      <relation_mention id="relm-637" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-161" role="entity">his</rel_arg1>
+        <rel_arg2 entity_id="ent-119" entity_mention_id="m-182" role="loc">Korydallos Prison</rel_arg2>
+        <trigger source="NYT_ENG_20130422.0048" offset="793" length="2">at</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-732" type="physical" subtype="locatednear">
+      <relation_mention id="relm-647" realis="true">
+        <rel_arg1 entity_id="ent-158" entity_mention_id="m-152" role="entity">his relatives</rel_arg1>
+        <rel_arg2 entity_id="ent-119" entity_mention_id="m-182" role="loc">Korydallos Prison</rel_arg2>
+        <trigger source="NYT_ENG_20130422.0048" offset="793" length="2">at</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-733" type="physical" subtype="locatednear">
+      <relation_mention id="relm-657" realis="true">
+        <rel_arg1 entity_id="ent-173" entity_mention_id="m-167" role="entity">another five suspects</rel_arg1>
+        <rel_arg2 entity_id="ent-119" entity_mention_id="m-182" role="loc">Korydallos Prison</rel_arg2>
+        <trigger source="NYT_ENG_20130422.0048" offset="793" length="2">at</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-734" type="physical" subtype="locatednear">
+      <relation_mention id="relm-667" realis="true">
+        <rel_arg1 entity_id="ent-194" entity_mention_id="m-188" role="entity">Korydallos</rel_arg1>
+        <rel_arg2 entity_id="ent-62" entity_mention_id="m-176" role="loc">Athens</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-735" type="physical" subtype="locatednear">
+      <relation_mention id="relm-677" realis="true">
+        <rel_arg1 entity_id="ent-119" entity_mention_id="m-182" role="entity">Korydallos Prison</rel_arg1>
+        <rel_arg2 entity_id="ent-194" entity_mention_id="m-188" role="loc">Korydallos</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-736" type="physical" subtype="locatednear">
+      <relation_mention id="relm-697" realis="true">
+        <rel_arg1 entity_id="ent-209" entity_mention_id="m-203" role="entity">state officials</rel_arg1>
+        <rel_arg2 entity_id="ent-53" entity_mention_id="m-197" role="loc">a country</rel_arg2>
+        <trigger source="NYT_ENG_20130422.0048" offset="908" length="5">where</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-737" type="orgaffiliation" subtype="founder">
+      <relation_mention id="relm-739" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-727" role="founder">a founding member of the country’s once dominant socialist party</rel_arg1>
+        <rel_arg2 entity_id="ent-290" entity_mention_id="m-1125" role="org">the country’s once dominant socialist party</rel_arg2>
+        <trigger source="NYT_ENG_20130422.0048" offset="1584" length="8">founding</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-738" type="personalsocial" subtype="role">
+      <relation_mention id="relm-759" realis="true">
+        <rel_arg1 entity_id="ent-314" entity_mention_id="m-308" role="per">Antonis Samaras</rel_arg1>
+        <rel_arg2 filler_id="f-767" role="role">Prime Minister</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-739" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-769" realis="true">
+        <rel_arg1 entity_id="ent-314" entity_mention_id="m-308" role="leader">Antonis Samaras</rel_arg1>
+        <rel_arg2 entity_id="ent-1096" entity_mention_id="m-299" role="entity">the government of Prime Minister Antonis Samaras</rel_arg2>
+        <trigger source="NYT_ENG_20130422.0048" offset="1873" length="2">of</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-740" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-794" realis="true">
+        <rel_arg1 entity_id="ent-95" entity_mention_id="m-338" role="org">a court in Salonika</rel_arg1>
+        <rel_arg2 entity_id="ent-350" entity_mention_id="m-344" role="loc">Salonika</rel_arg2>
+        <trigger source="NYT_ENG_20130422.0048" offset="2186" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-741" type="physical" subtype="locatednear">
+      <relation_mention id="relm-804" realis="true">
+        <rel_arg1 entity_id="ent-350" entity_mention_id="m-788" role="entity">Greece’s second-largest city</rel_arg1>
+        <rel_arg2 entity_id="ent-53" entity_mention_id="m-353" role="loc">Greece</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-742" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-840" realis="true">
+        <rel_arg1 entity_id="ent-269" entity_mention_id="m-374" role="employeemember">the Greek authorities</rel_arg1>
+        <rel_arg2 entity_id="ent-53" entity_mention_id="m-850" role="org">Greek</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-743" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-872" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-866" role="leader">he most senior government official to stand trial since the former prime minister and Pasok founder, Andreas Papandreou, was acquitted in 1991 on charges of accepting bribes</rel_arg1>
+        <rel_arg2 entity_id="ent-305" entity_mention_id="m-410" role="entity">government</rel_arg2>
+        <trigger source="NYT_ENG_20130422.0048" offset="2676" length="6">senior</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-744" type="personalsocial" subtype="role">
+      <relation_mention id="relm-910" realis="true">
+        <rel_arg1 entity_id="ent-422" entity_mention_id="m-416" role="per">Andreas Papandreou</rel_arg1>
+        <rel_arg2 filler_id="f-918" role="role">prime minister</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-745" type="orgaffiliation" subtype="founder">
+      <relation_mention id="relm-920" realis="true">
+        <rel_arg1 entity_id="ent-422" entity_mention_id="m-888" role="founder">the former prime minister and Pasok founder</rel_arg1>
+        <rel_arg2 entity_id="ent-290" entity_mention_id="m-894" role="org">Pasok</rel_arg2>
+        <trigger source="NYT_ENG_20130422.0048" offset="2760" length="7">founder</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-746" type="personalsocial" subtype="role">
+      <relation_mention id="relm-1044" realis="true">
+        <rel_arg1 entity_id="ent-365" entity_mention_id="m-359" role="per">Vassilis Papageorgopoulos</rel_arg1>
+        <rel_arg2 filler_id="f-1052" role="role">mayor</rel_arg2>
+        <trigger source="NYT_ENG_20130422.0048" offset="2250" length="5">mayor</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-747" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1064" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-41" role="employeemember">EX-DEFENSE MINISTER</rel_arg1>
+        <rel_arg2 entity_id="ent-964" entity_mention_id="m-958" role="org">DEFENSE</rel_arg2>
+        <trigger source="NYT_ENG_20130422.0048" offset="183" length="8">MINISTER</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1074" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-1084" role="employeemember">a former defense minister</rel_arg1>
+        <rel_arg2 entity_id="ent-964" entity_mention_id="m-1032" role="org">defense</rel_arg2>
+        <trigger source="NYT_ENG_20130422.0048" offset="376" length="8">minister</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-748" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1099" realis="true">
+        <rel_arg1 entity_id="ent-209" entity_mention_id="m-203" role="employeemember">state officials</rel_arg1>
+        <rel_arg2 entity_id="ent-305" entity_mention_id="m-1090" role="org">state</rel_arg2>
+        <trigger source="NYT_ENG_20130422.0048" offset="932" length="9">officials</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-749" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-1109" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-1119" role="leader">defense minister</rel_arg1>
+        <rel_arg2 entity_id="ent-964" entity_mention_id="m-1038" role="entity">defense</rel_arg2>
+        <trigger source="NYT_ENG_20130422.0048" offset="1070" length="8">minister</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-750" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-1137" realis="true">
+        <rel_arg1 entity_id="ent-365" entity_mention_id="m-814" role="leader">the former mayor</rel_arg1>
+        <rel_arg2 entity_id="ent-350" entity_mention_id="m-788" role="entity">Greece’s second-largest city</rel_arg2>
+        <trigger source="NYT_ENG_20130422.0048" offset="2250" length="5">mayor</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-751" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-1147" realis="true">
+        <rel_arg1 entity_id="ent-422" entity_mention_id="m-882" role="leader">the former prime minister and Pasok founder</rel_arg1>
+        <rel_arg2 entity_id="ent-305" entity_mention_id="m-410" role="entity">government</rel_arg2>
+        <trigger source="NYT_ENG_20130422.0048" offset="2741" length="8">minister</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-39">
+      <event_mention id="em-930" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="172" length="10">EX-DEFENSE</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-41" role="person" realis="true">EX-DEFENSE MINISTER</em_arg>
+        <em_arg filler_id="f-955" role="position" realis="true">MINISTER</em_arg>
+        <em_arg entity_id="ent-964" entity_mention_id="m-958" role="entity" realis="true">DEFENSE</em_arg>
+      </event_mention>
+      <event_mention id="em-1202" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="361" length="6">former</trigger>
+        <em_arg filler_id="f-1219" role="position" realis="true">minister</em_arg>
+        <em_arg entity_id="ent-964" entity_mention_id="m-1032" role="entity" realis="true">defense</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-1084" role="person" realis="true">a former defense minister</em_arg>
+        <em_arg entity_id="ent-53" entity_mention_id="m-77" role="place" realis="true">Greece</em_arg>
+      </event_mention>
+      <event_mention id="em-1376" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="1079" length="7">between</trigger>
+        <em_arg entity_id="ent-964" entity_mention_id="m-1038" role="entity" realis="true">defense</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-227" role="person" realis="true">his</em_arg>
+        <em_arg filler_id="f-1408" role="position" realis="true">minister</em_arg>
+        <em_arg filler_id="f-1415" role="time" realis="true">2001</em_arg>
+      </event_mention>
+      <event_mention id="em-1622" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="1565" length="6">former</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-272" role="person" realis="true">The former minister</em_arg>
+        <em_arg filler_id="f-1647" role="position" realis="true">minister</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1009">
+      <event_mention id="em-974" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="195" length="5">TRIAL</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-41" role="defendant" realis="true">EX-DEFENSE MINISTER</em_arg>
+        <em_arg filler_id="f-999" role="crime" realis="true">CORRUPTION</em_arg>
+        <em_arg entity_id="ent-53" entity_mention_id="m-47" role="place" realis="true">GREEK</em_arg>
+      </event_mention>
+      <event_mention id="em-1011" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="300" length="5">trial</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-71" role="defendant" realis="true">a politician</em_arg>
+        <em_arg filler_id="f-1161" role="crime" realis="true">setting up a complex money laundering network to cover the trail of millions of euros in bribes</em_arg>
+        <em_arg entity_id="ent-62" entity_mention_id="m-501" role="place" realis="true">here</em_arg>
+        <em_arg filler_id="f-1178" role="time" realis="true">Monday</em_arg>
+      </event_mention>
+      <event_mention id="em-1714" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="1749" length="11">prosecution</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-1708" role="defendant" realis="true">his</em_arg>
+      </event_mention>
+      <event_mention id="em-2029" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="2712" length="5">trial</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-866" role="defendant" realis="true">he most senior government official to stand trial since the former prime minister and Pasok founder, Andreas Papandreou, was acquitted in 1991 on charges of accepting bribes</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1272">
+      <event_mention id="em-1244" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="440" length="7">charged</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-83" role="defendant" realis="true">Akis Tsochatzopoulos</em_arg>
+        <em_arg filler_id="f-1269" role="crime" realis="true">setting up a complex money laundering network to cover the trail of millions of euros in bribes</em_arg>
+      </event_mention>
+      <event_mention id="em-1304" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="993" length="7">accused</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-212" role="defendant" realis="true">Tsochatzopoulos</em_arg>
+        <em_arg filler_id="f-1329" role="crime" realis="true">using a network of offshore companies during his stint as defense minister between 1996 and 2001, and for several years after that, to siphon off millions of euros in bribes he is said to have taken in exchange for procurement contracts, including the purchase of a Russian missile defense system and German submarines</em_arg>
+      </event_mention>
+      <event_mention id="em-1687" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="1721" length="7">charges</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-727" role="defendant" realis="true">a founding member of the country’s once dominant socialist party</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1302">
+      <event_mention id="em-1274" type="transaction" subtype="transfermoney" realis="generic" ways="canttell">
+        <trigger source="NYT_ENG_20130422.0048" offset="542" length="6">bribes</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-83" role="recipient" realis="true">Akis Tsochatzopoulos</em_arg>
+        <em_arg filler_id="f-1299" role="money" realis="true">millions of euros</em_arg>
+      </event_mention>
+      <event_mention id="em-1439" type="transaction" subtype="transfermoney" realis="other" ways="canttell">
+        <trigger source="NYT_ENG_20130422.0048" offset="1171" length="6">bribes</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-233" role="recipient" realis="false">he</em_arg>
+        <em_arg filler_id="f-1464" role="money" realis="false">millions of euros</em_arg>
+        <em_arg filler_id="f-1471" role="time" realis="false">1996</em_arg>
+        <em_arg filler_id="f-1478" role="time" realis="false">2001</em_arg>
+        <em_arg filler_id="f-1485" role="time" realis="false">several years after that</em_arg>
+        <em_arg filler_id="f-1492" role="time" realis="false">several years after that</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1374">
+      <event_mention id="em-1332" type="personnel" subtype="startposition" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="1079" length="7">between</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-227" role="person" realis="true">his</em_arg>
+        <em_arg entity_id="ent-964" entity_mention_id="m-1038" role="entity" realis="true">defense</em_arg>
+        <em_arg filler_id="f-1364" role="position" realis="true">minister</em_arg>
+        <em_arg filler_id="f-1371" role="time" realis="true">1996</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1516">
+      <event_mention id="em-1495" type="transaction" subtype="transferownership" realis="other" ways="canttell">
+        <trigger source="NYT_ENG_20130422.0048" offset="1256" length="8">purchase</trigger>
+        <em_arg filler_id="f-1512" role="thing" realis="true">Russian missile defense system</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1539">
+      <event_mention id="em-1518" type="transaction" subtype="transferownership" realis="other" ways="canttell">
+        <trigger source="NYT_ENG_20130422.0048" offset="1256" length="8">purchase</trigger>
+        <em_arg filler_id="f-1535" role="thing" realis="true">German submarines</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1576">
+      <event_mention id="em-1541" type="transaction" subtype="transfermoney" realis="actual" ways="canttell">
+        <trigger source="NYT_ENG_20130422.0048" offset="1375" length="8">received</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-257" role="recipient" realis="true">Tsochatzopoulos</em_arg>
+        <em_arg filler_id="f-1566" role="money" realis="true">160 million euros</em_arg>
+        <em_arg filler_id="f-1573" role="money" realis="true">$210 million</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1620">
+      <event_mention id="em-1599" type="transaction" subtype="transfermoney" realis="actual" ways="canttell">
+        <trigger source="NYT_ENG_20130422.0048" offset="1474" length="5">worth</trigger>
+        <em_arg filler_id="f-1616" role="money" realis="true">3 billion euros</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1685">
+      <event_mention id="em-1650" type="business" subtype="startorg" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="1584" length="8">founding</trigger>
+        <em_arg entity_id="ent-290" entity_mention_id="m-1125" role="org" realis="true">the country’s once dominant socialist party</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-727" role="agent" realis="true">a founding member of the country’s once dominant socialist party</em_arg>
+        <em_arg entity_id="ent-53" entity_mention_id="m-278" role="place" realis="true">the country</em_arg>
+      </event_mention>
+      <event_mention id="em-2094" type="business" subtype="startorg" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="2760" length="7">founder</trigger>
+        <em_arg entity_id="ent-290" entity_mention_id="m-894" role="org" realis="true">Pasok</em_arg>
+        <em_arg entity_id="ent-422" entity_mention_id="m-888" role="agent" realis="true">the former prime minister and Pasok founder</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1791">
+      <event_mention id="em-1735" type="justice" subtype="sentence" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="2156" length="8">sentence</trigger>
+        <em_arg entity_id="ent-95" entity_mention_id="m-338" role="adjudicator" realis="true">a court in Salonika</em_arg>
+        <em_arg entity_id="ent-365" entity_mention_id="m-814" role="defendant" realis="true">the former mayor</em_arg>
+        <em_arg filler_id="f-1767" role="sentence" realis="true">life in prison</em_arg>
+        <em_arg filler_id="f-1774" role="crime" realis="true">embezzling at least 18 million euros from city coffers</em_arg>
+        <em_arg entity_id="ent-350" entity_mention_id="m-344" role="place" realis="true">Salonika</em_arg>
+        <em_arg filler_id="f-1788" role="time" realis="true">February</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1835">
+      <event_mention id="em-1793" type="justice" subtype="convict" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="2229" length="9">convicted</trigger>
+        <em_arg entity_id="ent-95" entity_mention_id="m-338" role="adjudicator" realis="true">a court in Salonika</em_arg>
+        <em_arg entity_id="ent-365" entity_mention_id="m-814" role="defendant" realis="true">the former mayor</em_arg>
+        <em_arg filler_id="f-1825" role="crime" realis="true">embezzling at least 18 million euros from city coffers</em_arg>
+        <em_arg entity_id="ent-350" entity_mention_id="m-344" role="place" realis="true">Salonika</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1872">
+      <event_mention id="em-1837" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="2243" length="6">former</trigger>
+        <em_arg entity_id="ent-350" entity_mention_id="m-788" role="entity" realis="true">Greece’s second-largest city</em_arg>
+        <em_arg entity_id="ent-365" entity_mention_id="m-814" role="person" realis="true">the former mayor</em_arg>
+        <em_arg filler_id="f-1869" role="position" realis="true">mayor</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1916">
+      <event_mention id="em-1874" type="transaction" subtype="transfermoney" realis="actual" ways="canttell">
+        <trigger source="NYT_ENG_20130422.0048" offset="2306" length="10">embezzling</trigger>
+        <em_arg entity_id="ent-350" entity_mention_id="m-368" role="giver" realis="true">city</em_arg>
+        <em_arg entity_id="ent-365" entity_mention_id="m-359" role="recipient" realis="true">Vassilis Papageorgopoulos</em_arg>
+        <em_arg filler_id="f-1906" role="money" realis="true">18 million euros</em_arg>
+        <em_arg entity_id="ent-350" entity_mention_id="m-368" role="place" realis="true">city</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1960">
+      <event_mention id="em-1918" type="justice" subtype="chargeindict" realis="other">
+        <trigger source="NYT_ENG_20130422.0048" offset="2505" length="7">charged</trigger>
+        <em_arg entity_id="ent-386" entity_mention_id="m-380" role="defendant" realis="false">more than 30 politicians</em_arg>
+        <em_arg filler_id="f-1943" role="crime" realis="false">tax evasion</em_arg>
+        <em_arg filler_id="f-1950" role="crime" realis="false">other crimes</em_arg>
+        <em_arg entity_id="ent-269" entity_mention_id="m-374" role="prosecutor" realis="false">the Greek authorities</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1997">
+      <event_mention id="em-1962" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="2588" length="7">charged</trigger>
+        <em_arg entity_id="ent-401" entity_mention_id="m-395" role="defendant" realis="true">three former ministers</em_arg>
+        <em_arg filler_id="f-1987" role="time" realis="true">Last month</em_arg>
+        <em_arg filler_id="f-1994" role="crime" realis="true">submitting false income declarations</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2027">
+      <event_mention id="em-1999" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="2566" length="6">former</trigger>
+        <em_arg entity_id="ent-401" entity_mention_id="m-395" role="person" realis="true">three former ministers</em_arg>
+        <em_arg filler_id="f-2024" role="position" realis="true">ministers</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2092">
+      <event_mention id="em-2057" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="2728" length="6">former</trigger>
+        <em_arg entity_id="ent-422" entity_mention_id="m-882" role="person" realis="true">the former prime minister and Pasok founder</em_arg>
+        <em_arg entity_id="ent-305" entity_mention_id="m-410" role="entity" realis="true">government</em_arg>
+        <em_arg filler_id="f-2089" role="position" realis="true">prime minister</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2157">
+      <event_mention id="em-2122" type="justice" subtype="acquit" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="2793" length="9">acquitted</trigger>
+        <em_arg entity_id="ent-422" entity_mention_id="m-416" role="defendant" realis="true">Andreas Papandreou</em_arg>
+        <em_arg filler_id="f-2147" role="time" realis="true">1991</em_arg>
+        <em_arg filler_id="f-2154" role="crime" realis="true">accepting bribes</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2187">
+      <event_mention id="em-2159" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20130422.0048" offset="2814" length="7">charges</trigger>
+        <em_arg entity_id="ent-422" entity_mention_id="m-416" role="defendant" realis="true">Andreas Papandreou</em_arg>
+        <em_arg filler_id="f-2184" role="crime" realis="true">accepting bribes</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2217">
+      <event_mention id="em-2189" type="transaction" subtype="transfermoney" realis="other" ways="canttell">
+        <trigger source="NYT_ENG_20130422.0048" offset="2835" length="6">bribes</trigger>
+        <em_arg entity_id="ent-422" entity_mention_id="m-416" role="recipient" realis="false">Andreas Papandreou</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

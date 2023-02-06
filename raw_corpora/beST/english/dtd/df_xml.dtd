@@ -1,0 +1,22 @@
+<!ELEMENT  doc         (headline, post+)                     >
+<!ATTLIST  doc         id            CDATA #REQUIRED         >
+
+<!ELEMENT  headline    (#PCDATA)                             >
+
+<!ELEMENT  post        (#PCDATA|quote|a|img)*                >
+<!ATTLIST  post        id            ID    #REQUIRED
+                       author        CDATA #IMPLIED
+                       datetime        CDATA #IMPLIED
+                       datetime_collected      CDATA #IMPLIED         >
+
+<!ELEMENT  quote       (#PCDATA|quote|a|img)*                >
+<!ATTLIST  quote       orig_author   CDATA #IMPLIED
+	               orig_datetime CDATA #IMPLIED
+                       orig_post     IDREF #IMPLIED          >
+
+<!ELEMENT  a           (#PCDATA)                             >
+<!ATTLIST  a           href          CDATA #REQUIRED         >
+
+<!ELEMENT  img         EMPTY                                 >
+<!ATTLIST  img         src           CDATA #IMPLIED
+	               alt           CDATA #IMPLIED          >

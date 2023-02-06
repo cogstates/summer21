@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56ce1d2d0000000000000112">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-366">
+        <trigger offset="432" length="3">his</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-72" offset="141" length="7">Mustang</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-376">
+        <trigger offset="1813" length="9">president</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-554">
+        <trigger offset="1100" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-755">
+        <trigger offset="2473" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-771">
+        <trigger offset="2499" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1093">
+        <trigger offset="4275" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1223">
+        <trigger offset="4747" length="2">in</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-240" offset="4497" length="11">spectrumc01</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-388">
+        <trigger offset="1826" length="5">trial</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-192" offset="1800" length="22">
+            <text>THEIR former president</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-66" offset="82" length="7">Mustang</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-354" offset="1800" length="5">
+            <text>THEIR</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-66" offset="82" length="7">Mustang</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-669" offset="1836" length="10">
+            <text>corruption</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-66" offset="82" length="7">Mustang</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-409">
+        <trigger offset="2028" length="8">pardoned</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-198" offset="2023" length="4">
+            <text>Ford</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-66" offset="82" length="7">Mustang</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-204" offset="2037" length="5">
+            <text>Nixon</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-66" offset="82" length="7">Mustang</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-430">
+        <trigger offset="2103" length="6">pardon</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-210" offset="2095" length="5">
+            <text>Nixon</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-66" offset="82" length="7">Mustang</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-474">
+        <trigger offset="405" length="6">murder</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-72" offset="141" length="7">Mustang</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-162" offset="365" length="11">
+            <text>O J Simpson</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-72" offset="141" length="7">Mustang</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-621">
+        <trigger offset="1676" length="7">pardons</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-612" offset="1637" length="34">
+            <text>our political and financial elites</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-66" offset="82" length="7">Mustang</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-844">
+        <trigger offset="3019" length="5">taken</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-865" offset="3030" length="4">
+            <text>them</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-940" offset="2964" length="8">
+            <text>The rich</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-955">
+        <trigger offset="3114" length="5">given</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-883" offset="3123" length="4">
+            <text>them</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1001">
+        <trigger offset="3424" length="5">spend</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-919" offset="3416" length="4">
+            <text>them</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1136">
+        <trigger offset="4623" length="8">embezzle</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-240" offset="4497" length="11">spectrumc01</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1118" offset="4590" length="16">
+            <text>public officials</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-240" offset="4497" length="11">spectrumc01</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1159">
+        <trigger offset="4623" length="8">embezzle</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-240" offset="4497" length="11">spectrumc01</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1127" offset="4611" length="11">
+            <text>secretaries</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-240" offset="4497" length="11">spectrumc01</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1233">
+        <trigger offset="4762" length="5">Steel</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-240" offset="4497" length="11">spectrumc01</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-258" offset="4783" length="8">
+            <text>Wal Mart</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-240" offset="4497" length="11">spectrumc01</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1289">
+        <trigger offset="4903" length="6">killed</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-240" offset="4497" length="11">spectrumc01</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1283" offset="4880" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-240" offset="4497" length="11">spectrumc01</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1256" offset="4910" length="7">
+            <text>someone</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-240" offset="4497" length="11">spectrumc01</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1319">
+        <trigger offset="4928" length="17">throwing the book</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-240" offset="4497" length="11">spectrumc01</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1277" offset="4949" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-240" offset="4497" length="11">spectrumc01</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-66" offset="82" length="7">
+        <text>Mustang</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-72" offset="141" length="7">
+        <text>Mustang</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-78" offset="260" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-84" offset="489" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-90" offset="762" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-96" offset="2044" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-102" offset="2417" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-108" offset="355" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-114" offset="112" length="6">
+        <text>Trajan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-120" offset="461" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-126" offset="770" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-132" offset="14" length="5">
+        <text>FA_Q2</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-138" offset="2755" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-144" offset="2821" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-150" offset="3494" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-156" offset="3863" length="5">
+        <text>FA_Q2</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-162" offset="365" length="11">
+        <text>O J Simpson</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-72" offset="141" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-168" offset="432" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-72" offset="141" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-174" offset="803" length="20">
+        <text>The founding fathers</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-180" offset="889" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="942" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-192" offset="1800" length="22">
+        <text>THEIR former president</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-198" offset="2023" length="4">
+        <text>Ford</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-204" offset="2037" length="5">
+        <text>Nixon</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-210" offset="2095" length="5">
+        <text>Nixon</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-216" offset="3725" length="8">
+        <text>Polanski</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-222" offset="3778" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-228" offset="3931" length="14">
+        <text>Uncensored2008</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-234" offset="3948" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-240" offset="4497" length="11">
+        <text>spectrumc01</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-246" offset="4551" length="2">
+        <text>My</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-252" offset="432" length="16">
+        <text>his 'dream team'</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-72" offset="141" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-258" offset="4783" length="8">
+        <text>Wal Mart</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-264" offset="1103" length="12">
+        <text>this country</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-270" offset="1398" length="12">
+        <text>this country</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-276" offset="1550" length="11">
+        <text>Our country</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-282" offset="1637" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-288" offset="1852" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-294" offset="1916" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-300" offset="1941" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-306" offset="1982" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-312" offset="1988" length="8">
+        <text>a nation</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-318" offset="2251" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-324" offset="2440" length="2">
+        <text>US</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-330" offset="2492" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-336" offset="2527" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-342" offset="2650" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-597" offset="1580" length="8">
+        <text>a nation</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-348" offset="1762" length="6">
+        <text>France</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-354" offset="1800" length="5">
+        <text>THEIR</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-360" offset="3740" length="4">
+        <text>HERE</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-465" offset="296" length="11">
+        <text>rich people</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-548" offset="1088" length="11">
+        <text>the wealthy</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-564" offset="1469" length="11">
+        <text>the wealthy</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-790" offset="2663" length="8">
+        <text>The rich</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-796" offset="2688" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-811" offset="2774" length="11">
+        <text>the wealthy</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-838" offset="2954" length="8">
+        <text>the rich</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-895" offset="3258" length="8">
+        <text>The rich</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-940" offset="2964" length="8">
+        <text>The rich</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1349" offset="1187" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1355" offset="2306" length="21">
+        <text>the rich and powerful</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-497" offset="534" length="7">
+        <text>mankind</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-114" offset="112" length="6">Trajan</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-506" offset="559" length="3">
+        <text>Who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-515" offset="652" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-524" offset="712" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-533" offset="917" length="8">
+        <text>everyone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-542" offset="966" length="8">
+        <text>everyone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-681" offset="2052" length="8">
+        <text>everyone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-570" offset="1518" length="8">
+        <text>the poor</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-725" offset="2376" length="8">
+        <text>the poor</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-817" offset="2888" length="8">
+        <text>the poor</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-832" offset="2941" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-865" offset="3030" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-871" offset="3050" length="8">
+        <text>the poor</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-877" offset="3086" length="8">
+        <text>the poor</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-883" offset="3123" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-889" offset="3206" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-901" offset="3304" length="8">
+        <text>the poor</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-913" offset="3373" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-919" offset="3416" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-579" offset="1531" length="16">
+        <text>the middle class</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-731" offset="2389" length="16">
+        <text>the middle class</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-603" offset="1605" length="3">
+        <text>men</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-612" offset="1637" length="34">
+        <text>our political and financial elites</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-644" offset="1688" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-650" offset="1704" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="yes">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-656" offset="1747" length="9">
+        <text>a country</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-672" offset="1954" length="6">
+        <text>others</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-710" offset="2306" length="21">
+        <text>the rich and powerful</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-737" offset="2447" length="25">
+        <text>12.5 times as many people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-746" offset="2476" length="6">
+        <text>prison</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-765" offset="2502" length="6">
+        <text>prison</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-781" offset="2527" length="14">
+        <text>our population</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-823" offset="2920" length="11">
+        <text>politicians</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-907" offset="3336" length="15">
+        <text>the politicians</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-925" offset="3548" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-934" offset="3632" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1024" offset="3713" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1030" offset="3745" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1036" offset="3792" length="6">
+        <text>people</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1042" offset="3825" length="14">
+        <text>the normal guy</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1051" offset="4018" length="13">
+        <text>A better jury</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-156" offset="3863" length="5">FA_Q2</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1060" offset="4062" length="10">
+        <text>a blind DA</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-156" offset="3863" length="5">FA_Q2</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1069" offset="4074" length="128">
+        <text>One that makes the decition to hear a case without names involved or any other information other than the facts uncovered so far</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-156" offset="3863" length="5">FA_Q2</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1075" offset="4243" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1112" offset="4377" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1084" offset="4278" length="15">
+        <text>a closed bunker</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1103" offset="4342" length="12">
+        <text>the military</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1118" offset="4590" length="16">
+        <text>public officials</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-240" offset="4497" length="11">spectrumc01</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1127" offset="4611" length="11">
+        <text>secretaries</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-240" offset="4497" length="11">spectrumc01</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1182" offset="4691" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-240" offset="4497" length="11">spectrumc01</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1211" offset="4750" length="10">
+        <text>the county</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1256" offset="4910" length="7">
+        <text>someone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1265" offset="4919" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1277" offset="4949" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1283" offset="4880" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-366">
+        <trigger offset="432" length="3">his</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-72" offset="141" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-376">
+        <trigger offset="1813" length="9">president</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-554">
+        <trigger offset="1100" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-755">
+        <trigger offset="2473" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-771">
+        <trigger offset="2499" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1093">
+        <trigger offset="4275" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-156" offset="3863" length="5">FA_Q2</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1223">
+        <trigger offset="4747" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-388">
+        <trigger offset="1826" length="5">trial</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-409">
+        <trigger offset="2028" length="8">pardoned</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-430">
+        <trigger offset="2103" length="6">pardon</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-474">
+        <trigger offset="405" length="6">murder</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-621">
+        <trigger offset="1676" length="7">pardons</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-66" offset="82" length="7">Mustang</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-844">
+        <trigger offset="3019" length="5">taken</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-955">
+        <trigger offset="3114" length="5">given</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1001">
+        <trigger offset="3424" length="5">spend</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1136">
+        <trigger offset="4623" length="8">embezzle</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-132" offset="14" length="5">FA_Q2</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1159">
+        <trigger offset="4623" length="8">embezzle</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-240" offset="4497" length="11">spectrumc01</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1233">
+        <trigger offset="4762" length="5">Steel</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1289">
+        <trigger offset="4903" length="6">killed</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1319">
+        <trigger offset="4928" length="17">throwing the book</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

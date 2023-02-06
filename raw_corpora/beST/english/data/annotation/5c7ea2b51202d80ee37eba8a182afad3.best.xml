@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56fc40450000000000000064">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-97">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="11">debt.b.gone</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-112">
+        <trigger offset="146" length="9">redundant</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="11">debt.b.gone</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-25" offset="126" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="11">debt.b.gone</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-133">
+        <trigger offset="254" length="6">letter</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-13" offset="14" length="11">debt.b.gone</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-52" offset="264" length="2">
+            <text>my</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-13" offset="14" length="11">debt.b.gone</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-43" offset="264" length="11">
+            <text>my employer</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-13" offset="14" length="11">debt.b.gone</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-192">
+        <trigger offset="236" length="7">advised</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="11">debt.b.gone</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-37" offset="224" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="11">debt.b.gone</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-215">
+        <trigger offset="102" length="6">advice</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-13" offset="14" length="11">debt.b.gone</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-19" offset="112" length="2">
+            <text>my</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-13" offset="14" length="11">debt.b.gone</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-13" offset="14" length="11">
+        <text>debt.b.gone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-19" offset="112" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-25" offset="126" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-31" offset="180" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-37" offset="224" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-52" offset="264" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-58" offset="294" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-79" offset="359" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-85" offset="424" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="430" length="20">
+        <text>a temporary employer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-43" offset="264" length="11">
+        <text>my employer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-64" offset="311" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-70" offset="332" length="6">
+        <text>anyone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-97">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-112">
+        <trigger offset="146" length="9">redundant</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-133">
+        <trigger offset="254" length="6">letter</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-192">
+        <trigger offset="236" length="7">advised</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-215">
+        <trigger offset="102" length="6">advice</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

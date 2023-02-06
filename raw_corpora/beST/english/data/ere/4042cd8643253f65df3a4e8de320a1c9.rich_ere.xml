@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="557f043e0000000000000018" doc_id="4042cd8643253f65df3a4e8de320a1c9" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-99" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="14" length="7">
+        <mention_text>Vargulf</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-18" type="PER" specificity="specific">
+      <entity_mention id="m-1371" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1400" length="74">
+        <mention_text>thousands of sons, daughters, fathers, siblings, uncles, aunts and cousins</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="1400" length="9">thousands</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-21" type="PER" specificity="specific">
+      <entity_mention id="m-111" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="864" length="14">
+        <mention_text>Saddam Hussein</mention_text>
+      </entity_mention>
+      <entity_mention id="m-117" noun_type="PRO" source="4042cd8643253f65df3a4e8de320a1c9" offset="951" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-24" type="PER" specificity="specific">
+      <entity_mention id="m-123" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1538" length="7">
+        <mention_text>ginscpy</mention_text>
+      </entity_mention>
+      <entity_mention id="m-129" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="2058" length="7">
+        <mention_text>ginscpy</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-27" type="PER" specificity="specific">
+      <entity_mention id="m-135" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1776" length="9">
+        <mention_text>whitehall</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-30" type="PER" specificity="specific">
+      <entity_mention id="m-141" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1839" length="12">
+        <mention_text>Bill Clinton</mention_text>
+      </entity_mention>
+      <entity_mention id="m-147" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1938" length="7">
+        <mention_text>Clinton</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-33" type="PER" specificity="specific">
+      <entity_mention id="m-153" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="2027" length="7">
+        <mention_text>one man</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="2031" length="3">man</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-36" type="PER" specificity="specific">
+      <entity_mention id="m-159" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="2108" length="18">
+        <mention_text>The dimwits in Nam</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="2112" length="7">dimwits</nom_head>
+      </entity_mention>
+      <entity_mention id="m-165" noun_type="PRO" source="4042cd8643253f65df3a4e8de320a1c9" offset="2184" length="4">
+        <mention_text>They</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-39" type="PER" specificity="specific">
+      <entity_mention id="m-171" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="2129" length="3">
+        <mention_text>LBJ</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-42" type="PER" specificity="specific">
+      <entity_mention id="m-177" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="2134" length="8">
+        <mention_text>McNamara</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-45" type="PER" specificity="specific">
+      <entity_mention id="m-183" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="2144" length="4">
+        <mention_text>Rusk</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-48" type="PER" specificity="specific">
+      <entity_mention id="m-189" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="2149" length="12">
+        <mention_text>Westmoreland</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-51" type="ORG" specificity="specific">
+      <entity_mention id="m-195" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="891" length="27">
+        <mention_text>a Shia dominated government</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="908" length="10">government</nom_head>
+      </entity_mention>
+      <entity_mention id="m-201" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="923" length="19">
+        <mention_text>future ally of Iran</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="930" length="4">ally</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-54" type="ORG" specificity="specific">
+      <entity_mention id="m-207" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1089" length="14">
+        <mention_text>the government</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="1093" length="10">government</nom_head>
+      </entity_mention>
+      <entity_mention id="m-213" noun_type="PRO" source="4042cd8643253f65df3a4e8de320a1c9" offset="1158" length="3">
+        <mention_text>its</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-57" type="ORG" specificity="specific">
+      <entity_mention id="m-219" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1140" length="7">
+        <mention_text>Taliban</mention_text>
+      </entity_mention>
+      <entity_mention id="m-225" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1238" length="7">
+        <mention_text>Taliban</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-60" type="GPE" specificity="specific">
+      <entity_mention id="m-231" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="149" length="5">
+        <mention_text>Japan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-237" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="225" length="5">
+        <mention_text>Japan</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-63" type="GPE" specificity="specific">
+      <entity_mention id="m-243" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="159" length="7">
+        <mention_text>Germany</mention_text>
+      </entity_mention>
+      <entity_mention id="m-249" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="168" length="7">
+        <mention_text>Germany</mention_text>
+      </entity_mention>
+      <entity_mention id="m-255" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="180" length="17">
+        <mention_text>a European nation</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="191" length="6">nation</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-66" type="GPE" specificity="specific">
+      <entity_mention id="m-261" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="182" length="8">
+        <mention_text>European</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-69" type="GPE" specificity="specific">
+      <entity_mention id="m-267" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="268" length="34">
+        <mention_text>the nations we are fighting in now</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="272" length="7">nations</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-72" type="GPE" specificity="specific">
+      <entity_mention id="m-273" noun_type="PRO" source="4042cd8643253f65df3a4e8de320a1c9" offset="280" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-279" noun_type="PRO" source="4042cd8643253f65df3a4e8de320a1c9" offset="714" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-285" noun_type="PRO" source="4042cd8643253f65df3a4e8de320a1c9" offset="760" length="2">
+        <mention_text>We</mention_text>
+      </entity_mention>
+      <entity_mention id="m-291" noun_type="PRO" source="4042cd8643253f65df3a4e8de320a1c9" offset="830" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-297" noun_type="PRO" source="4042cd8643253f65df3a4e8de320a1c9" offset="850" length="2">
+        <mention_text>We</mention_text>
+      </entity_mention>
+      <entity_mention id="m-303" noun_type="PRO" source="4042cd8643253f65df3a4e8de320a1c9" offset="1366" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-75" type="GPE" specificity="specific">
+      <entity_mention id="m-309" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="636" length="8">
+        <mention_text>Pakistan</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-78" type="GPE" specificity="specific">
+      <entity_mention id="m-315" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="795" length="4">
+        <mention_text>Iraq</mention_text>
+      </entity_mention>
+      <entity_mention id="m-321" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="997" length="4">
+        <mention_text>Iraq</mention_text>
+      </entity_mention>
+      <entity_mention id="m-327" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1029" length="4">
+        <mention_text>Iraq</mention_text>
+      </entity_mention>
+      <entity_mention id="m-333" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1655" length="4">
+        <mention_text>Iraq</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-81" type="GPE" specificity="specific">
+      <entity_mention id="m-339" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="804" length="11">
+        <mention_text>Afghanistan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-345" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1076" length="11">
+        <mention_text>Afghanistan</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-84" type="GPE" specificity="specific">
+      <entity_mention id="m-351" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="938" length="4">
+        <mention_text>Iran</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-87" type="GPE" specificity="specific">
+      <entity_mention id="m-357" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1709" length="6">
+        <mention_text>Korean</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-90" type="GPE" specificity="specific">
+      <entity_mention id="m-363" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1904" length="9">
+        <mention_text>a country</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="1906" length="7">country</nom_head>
+      </entity_mention>
+      <entity_mention id="m-369" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1990" length="10">
+        <mention_text>Yugoslavia</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-93" type="GPE" specificity="specific">
+      <entity_mention id="m-375" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="2123" length="3">
+        <mention_text>Nam</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-96" type="LOC" specificity="specific">
+      <entity_mention id="m-381" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="617" length="17">
+        <mention_text>The entire region</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="628" length="6">region</nom_head>
+      </entity_mention>
+      <entity_mention id="m-387" noun_type="PRO" source="4042cd8643253f65df3a4e8de320a1c9" offset="703" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-527" type="GPE" specificity="nonspecific">
+      <entity_mention id="m-521" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="95" length="6">
+        <mention_text>nation</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="95" length="6">nation</nom_head>
+      </entity_mention>
+      <entity_mention id="m-553" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="456" length="8">
+        <mention_text>a nation</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="458" length="6">nation</nom_head>
+      </entity_mention>
+      <entity_mention id="m-559" noun_type="PRO" source="4042cd8643253f65df3a4e8de320a1c9" offset="477" length="3">
+        <mention_text>its</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1201" noun_type="PRO" source="4042cd8643253f65df3a4e8de320a1c9" offset="571" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-592" type="PER" specificity="nonspecific">
+      <entity_mention id="m-586" noun_type="PRO" source="4042cd8643253f65df3a4e8de320a1c9" offset="536" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-597" noun_type="PRO" source="4042cd8643253f65df3a4e8de320a1c9" offset="556" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-646" type="PER" specificity="specific">
+      <entity_mention id="m-640" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="773" length="18">
+        <mention_text>thousands of lives</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="773" length="9">thousands</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-729" type="PER" specificity="specific">
+      <entity_mention id="m-723" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="965" length="5">
+        <mention_text>Women</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="965" length="5">Women</nom_head>
+      </entity_mention>
+      <entity_mention id="m-817" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1171" length="5">
+        <mention_text>women</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="1171" length="5">women</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1250" noun_type="PRO" source="4042cd8643253f65df3a4e8de320a1c9" offset="1218" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-738" type="PER" specificity="specific">
+      <entity_mention id="m-732" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1006" length="10">
+        <mention_text>Christians</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-829" type="PER" specificity="specific">
+      <entity_mention id="m-823" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1247" length="17">
+        <mention_text>Closet Christians</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="1254" length="10">Christians</nom_head>
+      </entity_mention>
+      <entity_mention id="m-832" noun_type="PRO" source="4042cd8643253f65df3a4e8de320a1c9" offset="1281" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-888" type="PER" specificity="specific">
+      <entity_mention id="m-882" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1310" length="8">
+        <mention_text>Citizens</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="1310" length="8">Citizens</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-949" type="PER" specificity="nonspecific">
+      <entity_mention id="m-943" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1413" length="61">
+        <mention_text>sons, daughters, fathers, siblings, uncles, aunts and cousins</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="1457" length="5">aunts</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-952" type="PER" specificity="nonspecific">
+      <entity_mention id="m-937" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1413" length="61">
+        <mention_text>sons, daughters, fathers, siblings, uncles, aunts and cousins</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="1467" length="7">cousins</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-961" type="PER" specificity="nonspecific">
+      <entity_mention id="m-955" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1413" length="61">
+        <mention_text>sons, daughters, fathers, siblings, uncles, aunts and cousins</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="1449" length="6">uncles</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-970" type="PER" specificity="nonspecific">
+      <entity_mention id="m-964" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1413" length="61">
+        <mention_text>sons, daughters, fathers, siblings, uncles, aunts and cousins</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="1439" length="8">siblings</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-979" type="PER" specificity="nonspecific">
+      <entity_mention id="m-973" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1413" length="61">
+        <mention_text>sons, daughters, fathers, siblings, uncles, aunts and cousins</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="1430" length="7">fathers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-988" type="PER" specificity="nonspecific">
+      <entity_mention id="m-982" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1413" length="61">
+        <mention_text>sons, daughters, fathers, siblings, uncles, aunts and cousins</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="1419" length="9">daughters</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-997" type="PER" specificity="nonspecific">
+      <entity_mention id="m-991" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1413" length="61">
+        <mention_text>sons, daughters, fathers, siblings, uncles, aunts and cousins</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="1413" length="4">sons</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1207" type="PER" specificity="specific">
+      <entity_mention id="m-1256" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1588" length="6">
+        <mention_text>Police</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="1588" length="6">Police</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1297" type="GPE" specificity="specific">
+      <entity_mention id="m-1291" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="1635" length="14">
+        <mention_text>suck-countries</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="1640" length="9">countries</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1352" type="FAC" specificity="nonspecific">
+      <entity_mention id="m-1346" noun_type="NOM" source="4042cd8643253f65df3a4e8de320a1c9" offset="2343" length="12">
+        <mention_text>rice paddies</mention_text>
+        <nom_head source="4042cd8643253f65df3a4e8de320a1c9" offset="2348" length="7">paddies</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1368" type="PER" specificity="specific">
+      <entity_mention id="m-1362" noun_type="NAM" source="4042cd8643253f65df3a4e8de320a1c9" offset="64" length="14">
+        <mention_text>Political Chic</mention_text>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-431" source="4042cd8643253f65df3a4e8de320a1c9" offset="1865" length="9" type="title">president</filler>
+    <filler id="f-518" source="4042cd8643253f65df3a4e8de320a1c9" offset="2307" length="4" type="time" nom_time="1953-XX-XX">1953</filler>
+    <filler id="f-637" source="4042cd8643253f65df3a4e8de320a1c9" offset="677" length="14" type="weapon">Hydrogen bombs</filler>
+  </fillers>
+  <relations>
+    <relation id="r-1453" type="physical" subtype="locatednear">
+      <relation_mention id="relm-393" realis="true">
+        <rel_arg1 entity_id="ent-63" entity_mention_id="m-255" role="entity">a European nation</rel_arg1>
+        <rel_arg2 entity_id="ent-66" entity_mention_id="m-261" role="loc">European</rel_arg2>
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="182" length="8">European</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1454" type="physical" subtype="locatednear">
+      <relation_mention id="relm-403" realis="true">
+        <rel_arg1 entity_id="ent-75" entity_mention_id="m-309" role="entity">Pakistan</rel_arg1>
+        <rel_arg2 entity_id="ent-96" entity_mention_id="m-381" role="loc">The entire region</rel_arg2>
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="645" length="8">included</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1455" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-413" realis="true">
+        <rel_arg1 entity_id="ent-54" entity_mention_id="m-207" role="org">the government</rel_arg1>
+        <rel_arg2 entity_id="ent-81" entity_mention_id="m-345" role="loc">Afghanistan</rel_arg2>
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="1073" length="2">In</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1456" type="personalsocial" subtype="role">
+      <relation_mention id="relm-423" realis="true">
+        <rel_arg1 entity_id="ent-30" entity_mention_id="m-141" role="per">Bill Clinton</rel_arg1>
+        <rel_arg2 filler_id="f-431" role="role">president</rel_arg2>
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="1852" length="3">was</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1457" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1161" realis="true">
+        <rel_arg1 entity_id="ent-36" entity_mention_id="m-159" role="entity">The dimwits in Nam</rel_arg1>
+        <rel_arg2 entity_id="ent-93" entity_mention_id="m-375" role="loc">Nam</rel_arg2>
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="2120" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1458" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1210" realis="true">
+        <rel_arg1 entity_id="ent-646" entity_mention_id="m-640" role="entity">thousands of lives</rel_arg1>
+        <rel_arg2 entity_id="ent-78" entity_mention_id="m-315" role="loc">Iraq</rel_arg2>
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="792" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1459" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1220" realis="true">
+        <rel_arg1 entity_id="ent-646" entity_mention_id="m-640" role="entity">thousands of lives</rel_arg1>
+        <rel_arg2 entity_id="ent-81" entity_mention_id="m-339" role="loc">Afghanistan</rel_arg2>
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="792" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-1460" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1240" realis="true">
+        <rel_arg1 entity_id="ent-729" entity_mention_id="m-723" role="entity">Women</rel_arg1>
+        <rel_arg2 entity_id="ent-78" entity_mention_id="m-321" role="loc">Iraq</rel_arg2>
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="994" length="2">In</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-16">
+      <event_mention id="em-437" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="853" length="10">got rid of</trigger>
+        <em_arg entity_id="ent-21" entity_mention_id="m-111" role="person" realis="true">Saddam Hussein</em_arg>
+        <em_arg entity_id="ent-78" entity_mention_id="m-315" role="place" realis="true">Iraq</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-433">
+      <event_mention id="em-458" type="conflict" subtype="attack" realis="actual">
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="1979" length="7">bombing</trigger>
+        <em_arg entity_id="ent-90" entity_mention_id="m-369" role="place" realis="true">Yugoslavia</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-435">
+      <event_mention id="em-479" type="life" subtype="beborn" realis="actual">
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="2302" length="4">Born</trigger>
+        <em_arg entity_id="ent-24" entity_mention_id="m-129" role="person" realis="true">ginscpy</em_arg>
+        <em_arg filler_id="f-518" role="time" realis="true">1953</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-595">
+      <event_mention id="em-603" type="conflict" subtype="attack" realis="other">
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="686" length="5">bombs</trigger>
+        <em_arg entity_id="ent-96" entity_mention_id="m-387" role="place" realis="true">them</em_arg>
+        <em_arg filler_id="f-637" role="instrument" realis="true">Hydrogen bombs</em_arg>
+        <em_arg entity_id="ent-75" entity_mention_id="m-309" role="target" realis="true">Pakistan</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-624">
+      <event_mention id="em-565" type="life" subtype="die" realis="generic">
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="528" length="7">killing</trigger>
+        <em_arg entity_id="ent-592" entity_mention_id="m-586" role="victim" realis="true">you</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-684">
+      <event_mention id="em-649" type="life" subtype="die" realis="actual">
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="768" length="4">shed</trigger>
+        <em_arg entity_id="ent-72" entity_mention_id="m-285" role="agent" realis="true">We</em_arg>
+        <em_arg entity_id="ent-646" entity_mention_id="m-640" role="victim" realis="true">thousands of lives</em_arg>
+        <em_arg entity_id="ent-78" entity_mention_id="m-315" role="place" realis="true">Iraq</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-721">
+      <event_mention id="em-686" type="life" subtype="die" realis="actual">
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="768" length="4">shed</trigger>
+        <em_arg entity_id="ent-72" entity_mention_id="m-285" role="agent" realis="true">We</em_arg>
+        <em_arg entity_id="ent-646" entity_mention_id="m-640" role="victim" realis="true">thousands of lives</em_arg>
+        <em_arg entity_id="ent-81" entity_mention_id="m-339" role="place" realis="true">Afghanistan</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-769">
+      <event_mention id="em-741" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="1021" length="7">fleeing</trigger>
+        <em_arg entity_id="ent-738" entity_mention_id="m-732" role="person" realis="true">Christians</em_arg>
+        <em_arg entity_id="ent-78" entity_mention_id="m-327" role="origin" realis="true">Iraq</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-859">
+      <event_mention id="em-838" type="life" subtype="die" realis="other">
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="1303" length="5">death</trigger>
+        <em_arg entity_id="ent-829" entity_mention_id="m-832" role="victim" realis="true">their</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-912">
+      <event_mention id="em-891" type="conflict" subtype="attack" realis="actual">
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="1335" length="7">whipped</trigger>
+        <em_arg entity_id="ent-888" entity_mention_id="m-882" role="target" realis="true">Citizens</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-935">
+      <event_mention id="em-914" type="conflict" subtype="attack" realis="actual">
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="1347" length="6">stoned</trigger>
+        <em_arg entity_id="ent-888" entity_mention_id="m-882" role="target" realis="true">Citizens</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1000">
+      <event_mention id="em-1002" type="life" subtype="die" realis="actual">
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="1475" length="6">killed</trigger>
+        <em_arg entity_id="ent-18" entity_mention_id="m-1371" role="victim" realis="true">thousands of sons, daughters, fathers, siblings, uncles, aunts and cousins</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1199">
+      <event_mention id="em-1171" type="conflict" subtype="attack" realis="actual">
+        <trigger source="4042cd8643253f65df3a4e8de320a1c9" offset="287" length="8">fighting</trigger>
+        <em_arg entity_id="ent-72" entity_mention_id="m-273" role="attacker" realis="true">we</em_arg>
+        <em_arg entity_id="ent-69" entity_mention_id="m-267" role="target" realis="true">the nations we are fighting in now</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

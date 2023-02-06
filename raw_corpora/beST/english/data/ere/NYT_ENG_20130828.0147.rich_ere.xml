@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="55142ee50000000000000018" doc_id="NYT_ENG_20130828.0147" source_type="newswire">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-13" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="172" length="24">
+        <mention_text>FORMER JPMORGAN EMPLOYEE</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="188" length="8">EMPLOYEE</nom_head>
+      </entity_mention>
+      <entity_mention id="m-64" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="522" length="20">
+        <mention_text>Javier Martin-Artajo</mention_text>
+      </entity_mention>
+      <entity_mention id="m-70" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="544" length="32">
+        <mention_text>a former JPMorgan Chase employee</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="568" length="8">employee</nom_head>
+      </entity_mention>
+      <entity_mention id="m-88" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="651" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-94" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="658" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-109" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="692" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-133" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="799" length="13">
+        <mention_text>Martin-Artajo</mention_text>
+      </entity_mention>
+      <entity_mention id="m-160" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="889" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-166" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="915" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-187" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="1004" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-193" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="1044" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-235" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="1226" length="13">
+        <mention_text>Martin-Artajo</mention_text>
+      </entity_mention>
+      <entity_mention id="m-277" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="1454" length="13">
+        <mention_text>Martin-Artajo</mention_text>
+      </entity_mention>
+      <entity_mention id="m-364" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="2048" length="13">
+        <mention_text>Martin-Artajo</mention_text>
+      </entity_mention>
+      <entity_mention id="m-421" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="2208" length="13">
+        <mention_text>Martin-Artajo</mention_text>
+      </entity_mention>
+      <entity_mention id="m-436" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="2281" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-457" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="2319" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-472" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="2345" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-478" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="2358" length="13">
+        <mention_text>Martin-Artajo</mention_text>
+      </entity_mention>
+      <entity_mention id="m-490" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="2416" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-806" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="814" length="10">
+        <mention_text>a Spaniard</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="816" length="8">Spaniard</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-25" type="ORG" specificity="specific">
+      <entity_mention id="m-19" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="179" length="8">
+        <mention_text>JPMORGAN</mention_text>
+      </entity_mention>
+      <entity_mention id="m-76" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="553" length="14">
+        <mention_text>JPMorgan Chase</mention_text>
+      </entity_mention>
+      <entity_mention id="m-139" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="839" length="8">
+        <mention_text>the bank</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="843" length="4">bank</nom_head>
+      </entity_mention>
+      <entity_mention id="m-214" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="1174" length="8">
+        <mention_text>JPMorgan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-331" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="1887" length="8">
+        <mention_text>JPMorgan</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-34" type="GPE" specificity="specific">
+      <entity_mention id="m-28" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="212" length="6">
+        <mention_text>LONDON</mention_text>
+      </entity_mention>
+      <entity_mention id="m-154" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="850" length="6">
+        <mention_text>London</mention_text>
+      </entity_mention>
+      <entity_mention id="m-229" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="1212" length="6">
+        <mention_text>London</mention_text>
+      </entity_mention>
+      <entity_mention id="m-451" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="2294" length="6">
+        <mention_text>London</mention_text>
+      </entity_mention>
+      <entity_mention id="m-484" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="2377" length="6">
+        <mention_text>London</mention_text>
+      </entity_mention>
+      <entity_mention id="m-520" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="2508" length="6">
+        <mention_text>London</mention_text>
+      </entity_mention>
+      <entity_mention id="m-676" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="2977" length="6">
+        <mention_text>London</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-43" type="ORG" specificity="specific">
+      <entity_mention id="m-37" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="455" length="14">
+        <mention_text>New York Times</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-52" type="ORG" specificity="specific">
+      <entity_mention id="m-46" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="494" length="19">
+        <mention_text>the U.S. government</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="503" length="10">government</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-61" type="GPE" specificity="specific">
+      <entity_mention id="m-55" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="498" length="4">
+        <mention_text>U.S.</mention_text>
+      </entity_mention>
+      <entity_mention id="m-346" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="1949" length="4">
+        <mention_text>U.S.</mention_text>
+      </entity_mention>
+      <entity_mention id="m-589" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="2683" length="4">
+        <mention_text>U.S.</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1782" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="2689" length="5">
+        <mention_text>where</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-106" type="FAC" specificity="specific">
+      <entity_mention id="m-100" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="675" length="5">
+        <mention_text>court</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="675" length="5">court</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-121" type="ORG" specificity="specific">
+      <entity_mention id="m-115" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="710" length="19">
+        <mention_text>Spanish authorities</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="718" length="11">authorities</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-130" type="GPE" specificity="specific">
+      <entity_mention id="m-124" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="710" length="7">
+        <mention_text>Spanish</mention_text>
+      </entity_mention>
+      <entity_mention id="m-172" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="958" length="7">
+        <mention_text>Spanish</mention_text>
+      </entity_mention>
+      <entity_mention id="m-199" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="1061" length="11">
+        <mention_text>the country</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="1065" length="7">country</nom_head>
+      </entity_mention>
+      <entity_mention id="m-325" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="1817" length="5">
+        <mention_text>Spain</mention_text>
+      </entity_mention>
+      <entity_mention id="m-496" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="2427" length="5">
+        <mention_text>Spain</mention_text>
+      </entity_mention>
+      <entity_mention id="m-790" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="816" length="8">
+        <mention_text>Spaniard</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-151" type="FAC" specificity="specific">
+      <entity_mention id="m-145" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="839" length="24">
+        <mention_text>the bank’s London office</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="857" length="6">office</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-184" type="ORG" specificity="specific">
+      <entity_mention id="m-178" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="954" length="21">
+        <mention_text>the Spanish judiciary</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="966" length="9">judiciary</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-211" type="PER" specificity="specific">
+      <entity_mention id="m-205" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="1087" length="8">
+        <mention_text>a person</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="1089" length="6">person</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-226" type="FAC" specificity="specific">
+      <entity_mention id="m-220" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="1174" length="44">
+        <mention_text>JPMorgan’s chief investment office in London</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="1202" length="6">office</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1969" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="1220" length="5">
+        <mention_text>where</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-247" type="PER" specificity="nonspecific">
+      <entity_mention id="m-241" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="1307" length="7">
+        <mention_text>traders</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="1307" length="7">traders</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-256" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-250" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="1349" length="9">
+        <mention_text>companies</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="1349" length="9">companies</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-265" type="ORG" specificity="specific">
+      <entity_mention id="m-259" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="1364" length="17">
+        <mention_text>American Airlines</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-274" type="PER" specificity="specific">
+      <entity_mention id="m-268" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="1435" length="11">
+        <mention_text>prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="1435" length="11">prosecutors</nom_head>
+      </entity_mention>
+      <entity_mention id="m-313" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="1724" length="11">
+        <mention_text>Prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="1724" length="11">Prosecutors</nom_head>
+      </entity_mention>
+      <entity_mention id="m-655" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="2880" length="11">
+        <mention_text>prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="2880" length="11">prosecutors</nom_head>
+      </entity_mention>
+      <entity_mention id="m-661" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="2917" length="11">
+        <mention_text>Prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="2917" length="11">Prosecutors</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-289" type="PER" specificity="specific">
+      <entity_mention id="m-283" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="1472" length="12">
+        <mention_text>Julien Grout</mention_text>
+      </entity_mention>
+      <entity_mention id="m-292" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="1486" length="24">
+        <mention_text>a lower-ranking employee</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="1502" length="8">employee</nom_head>
+      </entity_mention>
+      <entity_mention id="m-370" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="2066" length="5">
+        <mention_text>Grout</mention_text>
+      </entity_mention>
+      <entity_mention id="m-502" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="2482" length="5">
+        <mention_text>Grout</mention_text>
+      </entity_mention>
+      <entity_mention id="m-508" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="2493" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-526" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="2529" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-565" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="2597" length="3">
+        <mention_text>His</mention_text>
+      </entity_mention>
+      <entity_mention id="m-577" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="2639" length="10">
+        <mention_text>his client</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="2643" length="6">client</nom_head>
+      </entity_mention>
+      <entity_mention id="m-613" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="2695" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-304" type="PER" specificity="specific">
+      <entity_mention id="m-298" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="1549" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-307" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="1616" length="7">
+        <mention_text>The two</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="1620" length="3">two</nom_head>
+      </entity_mention>
+      <entity_mention id="m-319" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="1749" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+      <entity_mention id="m-358" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="1991" length="11">
+        <mention_text>the traders</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="1995" length="7">traders</nom_head>
+      </entity_mention>
+      <entity_mention id="m-628" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="2770" length="26">
+        <mention_text>both of the former traders</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="2789" length="7">traders</nom_head>
+      </entity_mention>
+      <entity_mention id="m-643" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="2820" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-649" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="2839" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-724" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="3132" length="25">
+        <mention_text>his two former colleagues</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="3147" length="10">colleagues</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-343" type="ORG" specificity="specific">
+      <entity_mention id="m-337" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="1949" length="16">
+        <mention_text>U.S. authorities</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="1954" length="11">authorities</nom_head>
+      </entity_mention>
+      <entity_mention id="m-352" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="1974" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-382" type="PER" specificity="specific">
+      <entity_mention id="m-376" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="2073" length="19">
+        <mention_text>federal prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="2081" length="11">prosecutors</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-391" type="ORG" specificity="specific">
+      <entity_mention id="m-385" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="2101" length="3">
+        <mention_text>FBI</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-400" type="GPE" specificity="specific">
+      <entity_mention id="m-394" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="2108" length="9">
+        <mention_text>Manhattan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-700" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="3061" length="9">
+        <mention_text>Manhattan</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-409" type="ORG" specificity="specific">
+      <entity_mention id="m-403" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="2164" length="14">
+        <mention_text>British police</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="2172" length="6">police</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-418" type="GPE" specificity="specific">
+      <entity_mention id="m-412" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="2164" length="7">
+        <mention_text>British</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-433" type="GPE" specificity="specific">
+      <entity_mention id="m-427" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="2254" length="8">
+        <mention_text>New York</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1041" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="455" length="8">
+        <mention_text>New York</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-448" type="FAC" specificity="specific">
+      <entity_mention id="m-442" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="2281" length="9">
+        <mention_text>his house</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="2285" length="5">house</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-469" type="PER" specificity="specific">
+      <entity_mention id="m-463" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="2345" length="11">
+        <mention_text>his lawyers</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="2349" length="7">lawyers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-538" type="GPE" specificity="specific">
+      <entity_mention id="m-532" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="2540" length="6">
+        <mention_text>France</mention_text>
+      </entity_mention>
+      <entity_mention id="m-550" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="2583" length="3">
+        <mention_text>its</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1747" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="2548" length="5">
+        <mention_text>which</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-547" type="PER" specificity="specific">
+      <entity_mention id="m-541" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="2583" length="12">
+        <mention_text>its citizens</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="2587" length="8">citizens</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-562" type="PER" specificity="specific">
+      <entity_mention id="m-556" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="2597" length="10">
+        <mention_text>His lawyer</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="2601" length="6">lawyer</nom_head>
+      </entity_mention>
+      <entity_mention id="m-571" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="2609" length="13">
+        <mention_text>Edward Little</mention_text>
+      </entity_mention>
+      <entity_mention id="m-583" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="2639" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-601" type="PER" specificity="specific">
+      <entity_mention id="m-595" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="2695" length="17">
+        <mention_text>his wife’s family</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="2706" length="6">family</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-610" type="PER" specificity="specific">
+      <entity_mention id="m-604" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="2695" length="8">
+        <mention_text>his wife</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="2699" length="4">wife</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-625" type="PER" specificity="specific">
+      <entity_mention id="m-619" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="2742" length="26">
+        <mention_text>a person close to the case</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="2744" length="6">person</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-640" type="PER" specificity="specific">
+      <entity_mention id="m-634" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="2820" length="13">
+        <mention_text>their lawyers</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="2826" length="7">lawyers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-688" type="PER" specificity="specific">
+      <entity_mention id="m-667" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="2946" length="14">
+        <mention_text>a third trader</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="2954" length="6">trader</nom_head>
+      </entity_mention>
+      <entity_mention id="m-682" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="3005" length="11">
+        <mention_text>Bruno Iksil</mention_text>
+      </entity_mention>
+      <entity_mention id="m-706" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="3087" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-712" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="3110" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-718" noun_type="PRO" source="NYT_ENG_20130828.0147" offset="3132" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-2190" noun_type="NAM" source="NYT_ENG_20130828.0147" offset="2977" length="12">
+        <mention_text>London Whale</mention_text>
+      </entity_mention>
+      <entity_mention id="m-2196" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="2992" length="11">
+        <mention_text>That trader</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="2997" length="6">trader</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-697" type="ORG" specificity="specific">
+      <entity_mention id="m-691" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="3042" length="28">
+        <mention_text>the authorities in Manhattan</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="3046" length="11">authorities</nom_head>
+      </entity_mention>
+      <entity_mention id="m-882" noun_type="NOM" source="NYT_ENG_20130828.0147" offset="2239" length="23">
+        <mention_text>authorities in New York</mention_text>
+        <nom_head source="NYT_ENG_20130828.0147" offset="2239" length="11">authorities</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-1089" source="NYT_ENG_20130828.0147" offset="583" length="66" type="crime">hiding trading losses that ultimately reached more than $6 billion</filler>
+    <filler id="f-1139" source="NYT_ENG_20130828.0147" offset="629" length="20" type="money">more than $6 billion</filler>
+    <filler id="f-1389" source="NYT_ENG_20130828.0147" offset="1573" length="31" type="money">hundreds of millions of dollars</filler>
+    <filler id="f-1418" source="NYT_ENG_20130828.0147" offset="1642" length="10" type="crime">wire fraud</filler>
+    <filler id="f-1425" source="NYT_ENG_20130828.0147" offset="1654" length="23" type="crime">falsifying bank records</filler>
+    <filler id="f-1432" source="NYT_ENG_20130828.0147" offset="1682" length="40" type="crime">contributing to false regulatory filings</filler>
+    <filler id="f-1469" source="NYT_ENG_20130828.0147" offset="1759" length="33" type="crime">conspiracy to commit those crimes</filler>
+    <filler id="f-1713" source="NYT_ENG_20130828.0147" offset="2515" length="9" type="time" nom_time="2013-XX-XX">this year</filler>
+    <filler id="f-2059" source="NYT_ENG_20130828.0147" offset="1429" length="4" type="time" nom_time="2012-XX-XX">2012</filler>
+  </fillers>
+  <relations>
+    <relation id="r-241" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-730" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-13" role="employeemember">FORMER JPMORGAN EMPLOYEE</rel_arg1>
+        <rel_arg2 entity_id="ent-25" entity_mention_id="m-19" role="org">JPMORGAN</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="188" length="8">EMPLOYEE</trigger>
+      </relation_mention>
+      <relation_mention id="relm-760" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-70" role="employeemember">a former JPMorgan Chase employee</rel_arg1>
+        <rel_arg2 entity_id="ent-25" entity_mention_id="m-76" role="org">JPMorgan Chase</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="568" length="8">employee</trigger>
+      </relation_mention>
+      <relation_mention id="relm-796" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-806" role="employeemember">a Spaniard</rel_arg1>
+        <rel_arg2 entity_id="ent-25" entity_mention_id="m-139" role="org">the bank</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="829" length="6">worked</trigger>
+      </relation_mention>
+      <relation_mention id="relm-842" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-235" role="employeemember">Martin-Artajo</rel_arg1>
+        <rel_arg2 entity_id="ent-25" entity_mention_id="m-214" role="org">JPMorgan</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="1240" length="6">worked</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-242" type="physical" subtype="locatednear">
+      <relation_mention id="relm-740" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-13" role="entity">FORMER JPMORGAN EMPLOYEE</rel_arg1>
+        <rel_arg2 entity_id="ent-34" entity_mention_id="m-28" role="loc">LONDON</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="208" length="2">IN</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-243" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-750" realis="true">
+        <rel_arg1 entity_id="ent-52" entity_mention_id="m-46" role="suborg">the U.S. government</rel_arg1>
+        <rel_arg2 entity_id="ent-61" entity_mention_id="m-55" role="parent">U.S.</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-244" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-770" realis="true">
+        <rel_arg1 entity_id="ent-121" entity_mention_id="m-115" role="suborg">Spanish authorities</rel_arg1>
+        <rel_arg2 entity_id="ent-130" entity_mention_id="m-124" role="parent">Spanish</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-245" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-780" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-133" role="per">Martin-Artajo</rel_arg1>
+        <rel_arg2 entity_id="ent-130" entity_mention_id="m-790" role="entity">Spaniard</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="814" length="1">a</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-246" type="physical" subtype="locatednear">
+      <relation_mention id="relm-812" realis="true">
+        <rel_arg1 entity_id="ent-151" entity_mention_id="m-145" role="entity">the bank’s London office</rel_arg1>
+        <rel_arg2 entity_id="ent-34" entity_mention_id="m-154" role="loc">London</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-247" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-822" realis="true">
+        <rel_arg1 entity_id="ent-184" entity_mention_id="m-178" role="suborg">the Spanish judiciary</rel_arg1>
+        <rel_arg2 entity_id="ent-130" entity_mention_id="m-172" role="parent">Spanish</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-248" type="physical" subtype="locatednear">
+      <relation_mention id="relm-832" realis="true">
+        <rel_arg1 entity_id="ent-226" entity_mention_id="m-220" role="entity">JPMorgan’s chief investment office in London</rel_arg1>
+        <rel_arg2 entity_id="ent-34" entity_mention_id="m-229" role="loc">London</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="1209" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-249" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-852" realis="true">
+        <rel_arg1 entity_id="ent-343" entity_mention_id="m-337" role="suborg">U.S. authorities</rel_arg1>
+        <rel_arg2 entity_id="ent-61" entity_mention_id="m-346" role="parent">U.S.</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-250" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-862" realis="true">
+        <rel_arg1 entity_id="ent-697" entity_mention_id="m-882" role="suborg">authorities in New York</rel_arg1>
+        <rel_arg2 entity_id="ent-400" entity_mention_id="m-394" role="parent">Manhattan</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="2105" length="2">in</trigger>
+      </relation_mention>
+      <relation_mention id="relm-988" realis="true">
+        <rel_arg1 entity_id="ent-697" entity_mention_id="m-691" role="suborg">the authorities in Manhattan</rel_arg1>
+        <rel_arg2 entity_id="ent-400" entity_mention_id="m-700" role="parent">Manhattan</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="3058" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-251" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-872" realis="true">
+        <rel_arg1 entity_id="ent-409" entity_mention_id="m-403" role="suborg">British police</rel_arg1>
+        <rel_arg2 entity_id="ent-418" entity_mention_id="m-412" role="parent">British</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-252" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-888" realis="true">
+        <rel_arg1 entity_id="ent-697" entity_mention_id="m-882" role="suborg">authorities in New York</rel_arg1>
+        <rel_arg2 entity_id="ent-433" entity_mention_id="m-427" role="parent">New York</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="2251" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-253" type="physical" subtype="locatednear">
+      <relation_mention id="relm-898" realis="true">
+        <rel_arg1 entity_id="ent-448" entity_mention_id="m-442" role="entity">his house</rel_arg1>
+        <rel_arg2 entity_id="ent-34" entity_mention_id="m-451" role="loc">London</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="2291" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-254" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-908" realis="true">
+        <rel_arg1 entity_id="ent-547" entity_mention_id="m-541" role="per">its citizens</rel_arg1>
+        <rel_arg2 entity_id="ent-538" entity_mention_id="m-550" role="entity">its</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-255" type="personalsocial" subtype="business">
+      <relation_mention id="relm-918" realis="true">
+        <rel_arg1 entity_id="ent-289" entity_mention_id="m-565" role="per">His</rel_arg1>
+        <rel_arg2 entity_id="ent-562" entity_mention_id="m-556" role="per">His lawyer</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="2601" length="6">lawyer</trigger>
+      </relation_mention>
+      <relation_mention id="relm-948" realis="true">
+        <rel_arg1 entity_id="ent-562" entity_mention_id="m-583" role="per">his</rel_arg1>
+        <rel_arg2 entity_id="ent-289" entity_mention_id="m-577" role="per">his client</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="2643" length="6">client</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-256" type="personalsocial" subtype="family">
+      <relation_mention id="relm-958" realis="true">
+        <rel_arg1 entity_id="ent-289" entity_mention_id="m-613" role="per">his</rel_arg1>
+        <rel_arg2 entity_id="ent-610" entity_mention_id="m-604" role="per">his wife</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="2699" length="4">wife</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-257" type="personalsocial" subtype="family">
+      <relation_mention id="relm-968" realis="true">
+        <rel_arg1 entity_id="ent-289" entity_mention_id="m-613" role="per">his</rel_arg1>
+        <rel_arg2 entity_id="ent-601" entity_mention_id="m-595" role="per">his wife’s family</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="2706" length="6">family</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-258" type="personalsocial" subtype="business">
+      <relation_mention id="relm-978" realis="true">
+        <rel_arg1 entity_id="ent-304" entity_mention_id="m-643" role="per">their</rel_arg1>
+        <rel_arg2 entity_id="ent-640" entity_mention_id="m-634" role="per">their lawyers</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="2826" length="7">lawyers</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-259" type="personalsocial" subtype="business">
+      <relation_mention id="relm-998" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-472" role="per">his</rel_arg1>
+        <rel_arg2 entity_id="ent-469" entity_mention_id="m-463" role="per">his lawyers</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="2349" length="7">lawyers</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-260" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-1047" realis="true">
+        <rel_arg1 entity_id="ent-43" entity_mention_id="m-37" role="org">New York Times</rel_arg1>
+        <rel_arg2 entity_id="ent-433" entity_mention_id="m-1041" role="loc">New York</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-261" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1716" realis="true">
+        <rel_arg1 entity_id="ent-289" entity_mention_id="m-526" role="per">his</rel_arg1>
+        <rel_arg2 entity_id="ent-538" entity_mention_id="m-532" role="entity">France</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="2533" length="6">native</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-262" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1762" realis="true">
+        <rel_arg1 entity_id="ent-289" entity_mention_id="m-577" role="entity">his client</rel_arg1>
+        <rel_arg2 entity_id="ent-61" entity_mention_id="m-589" role="loc">U.S.</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="2676" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-263" type="physical" subtype="resident">
+      <relation_mention id="relm-1772" realis="true">
+        <rel_arg1 entity_id="ent-601" entity_mention_id="m-595" role="per">his wife’s family</rel_arg1>
+        <rel_arg2 entity_id="ent-61" entity_mention_id="m-1782" role="loc">where</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="2713" length="5">lives</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-264" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1913" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-94" role="entity">his</rel_arg1>
+        <rel_arg2 entity_id="ent-106" entity_mention_id="m-100" role="loc">court</rel_arg2>
+        <trigger source="NYT_ENG_20130828.0147" offset="672" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-1011">
+      <event_mention id="em-1013" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="172" length="6">FORMER</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-13" role="person" realis="true">FORMER JPMORGAN EMPLOYEE</em_arg>
+        <em_arg entity_id="ent-25" entity_mention_id="m-19" role="entity" realis="true">JPMORGAN</em_arg>
+      </event_mention>
+      <event_mention id="em-1101" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="546" length="6">former</trigger>
+        <em_arg entity_id="ent-25" entity_mention_id="m-76" role="entity" realis="true">JPMorgan Chase</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-70" role="person" realis="true">a former JPMorgan Chase employee</em_arg>
+      </event_mention>
+      <event_mention id="em-1175" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="829" length="6">worked</trigger>
+        <em_arg entity_id="ent-25" entity_mention_id="m-139" role="entity" realis="true">the bank</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-806" role="person" realis="true">a Spaniard</em_arg>
+        <em_arg entity_id="ent-34" entity_mention_id="m-154" role="place" realis="true">London</em_arg>
+      </event_mention>
+      <event_mention id="em-1330" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="1240" length="6">worked</trigger>
+        <em_arg entity_id="ent-25" entity_mention_id="m-214" role="entity" realis="true">JPMorgan</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-235" role="person" realis="true">Martin-Artajo</em_arg>
+        <em_arg entity_id="ent-34" entity_mention_id="m-229" role="place" realis="true">London</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1099">
+      <event_mention id="em-1057" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="514" length="7">charged</trigger>
+        <em_arg entity_id="ent-52" entity_mention_id="m-46" role="prosecutor" realis="true">the U.S. government</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-64" role="defendant" realis="true">Javier Martin-Artajo</em_arg>
+        <em_arg filler_id="f-1089" role="crime" realis="true">hiding trading losses that ultimately reached more than $6 billion</em_arg>
+      </event_mention>
+      <event_mention id="em-1309" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="1141" length="7">charges</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-235" role="defendant" realis="true">Martin-Artajo</em_arg>
+      </event_mention>
+      <event_mention id="em-1653" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="2464" length="7">charges</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-490" role="defendant" realis="true">his</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1143">
+      <event_mention id="em-1122" type="transaction" subtype="transfermoney" realis="actual" ways="involuntarynoforce">
+        <trigger source="NYT_ENG_20130828.0147" offset="598" length="6">losses</trigger>
+        <em_arg filler_id="f-1139" role="money" realis="true">more than $6 billion</em_arg>
+      </event_mention>
+      <event_mention id="em-1372" type="transaction" subtype="transfermoney" realis="actual" ways="involuntarynoforce">
+        <trigger source="NYT_ENG_20130828.0147" offset="1608" length="6">losses</trigger>
+        <em_arg filler_id="f-1389" role="money" realis="true">hundreds of millions of dollars</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1173">
+      <event_mention id="em-1145" type="justice" subtype="extradite" realis="other">
+        <trigger source="NYT_ENG_20130828.0147" offset="769" length="11">extradition</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-109" role="person" realis="true">he</em_arg>
+        <em_arg entity_id="ent-121" entity_mention_id="m-115" role="agent" realis="true">Spanish authorities</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1224">
+      <event_mention id="em-1203" type="justice" subtype="releaseparole" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="869" length="8">released</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-806" role="person" realis="true">a Spaniard</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1247">
+      <event_mention id="em-1226" type="justice" subtype="arrestjail" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="907" length="6">arrest</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-160" role="person" realis="true">his</em_arg>
+      </event_mention>
+      <event_mention id="em-1474" type="justice" subtype="arrestjail" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="1807" length="6">arrest</trigger>
+        <em_arg entity_id="ent-130" entity_mention_id="m-325" role="place" realis="true">Spain</em_arg>
+      </event_mention>
+      <event_mention id="em-1560" type="justice" subtype="arrestjail" realis="generic">
+        <trigger source="NYT_ENG_20130828.0147" offset="2189" length="6">arrest</trigger>
+        <em_arg entity_id="ent-409" entity_mention_id="m-403" role="agent" realis="true">British police</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-421" role="person" realis="false">Martin-Artajo</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1277">
+      <event_mention id="em-1249" type="transaction" subtype="transferownership" realis="other" ways="involuntarynoforce">
+        <trigger source="NYT_ENG_20130828.0147" offset="1021" length="11">confiscated</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-187" role="giver" realis="true">his</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1307">
+      <event_mention id="em-1279" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="1053" length="7">leaving</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-193" role="person" realis="true">him</em_arg>
+        <em_arg entity_id="ent-130" entity_mention_id="m-199" role="origin" realis="true">the country</em_arg>
+      </event_mention>
+      <event_mention id="em-1618" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="2372" length="4">left</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-478" role="person" realis="true">Martin-Artajo</em_arg>
+        <em_arg entity_id="ent-34" entity_mention_id="m-484" role="origin" realis="true">London</em_arg>
+      </event_mention>
+      <event_mention id="em-2116" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="2403" length="8">vacation</trigger>
+        <em_arg entity_id="ent-130" entity_mention_id="m-496" role="destination" realis="true">Spain</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-490" role="person" realis="true">his</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1456">
+      <event_mention id="em-1393" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="1629" length="7">charged</trigger>
+        <em_arg entity_id="ent-304" entity_mention_id="m-307" role="defendant" realis="true">The two</em_arg>
+        <em_arg filler_id="f-1418" role="crime" realis="true">wire fraud</em_arg>
+        <em_arg filler_id="f-1425" role="crime" realis="true">falsifying bank records</em_arg>
+        <em_arg filler_id="f-1432" role="crime" realis="true">contributing to false regulatory filings</em_arg>
+      </event_mention>
+      <event_mention id="em-1435" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="1741" length="7">charged</trigger>
+        <em_arg entity_id="ent-274" entity_mention_id="m-313" role="prosecutor" realis="true">Prosecutors</em_arg>
+        <em_arg entity_id="ent-304" entity_mention_id="m-319" role="defendant" realis="true">them</em_arg>
+        <em_arg filler_id="f-1469" role="crime" realis="true">conspiracy to commit those crimes</em_arg>
+      </event_mention>
+      <event_mention id="em-1525" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="2021" length="7">charges</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-364" role="defendant" realis="true">Martin-Artajo</em_arg>
+        <em_arg entity_id="ent-289" entity_mention_id="m-370" role="defendant" realis="true">Grout</em_arg>
+        <em_arg entity_id="ent-382" entity_mention_id="m-376" role="prosecutor" realis="true">federal prosecutors</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1472">
+      <event_mention id="em-1674" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="2503" length="4">left</trigger>
+        <em_arg entity_id="ent-289" entity_mention_id="m-508" role="person" realis="true">his</em_arg>
+        <em_arg entity_id="ent-34" entity_mention_id="m-520" role="origin" realis="true">London</em_arg>
+        <em_arg entity_id="ent-538" entity_mention_id="m-532" role="destination" realis="true">France</em_arg>
+        <em_arg filler_id="f-1713" role="time" realis="true">this year</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1523">
+      <event_mention id="em-1495" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="formal" medium="canttell" schedule="planned">
+        <trigger source="NYT_ENG_20130828.0147" offset="2010" length="10">announcing</trigger>
+        <em_arg entity_id="ent-382" entity_mention_id="m-376" role="entity" realis="true">federal prosecutors</em_arg>
+        <em_arg entity_id="ent-391" entity_mention_id="m-385" role="entity" realis="true">FBI</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1616">
+      <event_mention id="em-1588" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="2273" length="7">visited</trigger>
+        <em_arg entity_id="ent-409" entity_mention_id="m-403" role="agent" realis="true">British police</em_arg>
+        <em_arg entity_id="ent-448" entity_mention_id="m-442" role="destination" realis="true">his house</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1760">
+      <event_mention id="em-1726" type="justice" subtype="extradite" realis="other">
+        <trigger source="NYT_ENG_20130828.0147" offset="2573" length="9">extradite</trigger>
+        <em_arg entity_id="ent-538" entity_mention_id="m-1747" role="agent" realis="true">which</em_arg>
+        <em_arg entity_id="ent-547" entity_mention_id="m-541" role="person" realis="true">its citizens</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1809">
+      <event_mention id="em-1788" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="2782" length="6">former</trigger>
+        <em_arg entity_id="ent-304" entity_mention_id="m-628" role="person" realis="true">both of the former traders</em_arg>
+      </event_mention>
+      <event_mention id="em-1892" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="3140" length="6">former</trigger>
+        <em_arg entity_id="ent-304" entity_mention_id="m-724" role="person" realis="true">his two former colleagues</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1839">
+      <event_mention id="em-1811" type="justice" subtype="extradite" realis="other">
+        <trigger source="NYT_ENG_20130828.0147" offset="2856" length="11">extradition</trigger>
+        <em_arg entity_id="ent-304" entity_mention_id="m-649" role="person" realis="true">they</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1869">
+      <event_mention id="em-1841" type="justice" subtype="chargeindict" realis="other">
+        <trigger source="NYT_ENG_20130828.0147" offset="2938" length="7">charged</trigger>
+        <em_arg entity_id="ent-274" entity_mention_id="m-661" role="prosecutor" realis="false">Prosecutors</em_arg>
+        <em_arg entity_id="ent-688" entity_mention_id="m-667" role="defendant" realis="false">a third trader</em_arg>
+      </event_mention>
+      <event_mention id="em-1871" type="justice" subtype="chargeindict" realis="other">
+        <trigger source="NYT_ENG_20130828.0147" offset="3091" length="7">charges</trigger>
+        <em_arg entity_id="ent-688" entity_mention_id="m-706" role="defendant" realis="true">him</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1944">
+      <event_mention id="em-1923" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="NYT_ENG_20130828.0147" offset="675" length="5">court</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-109" role="defendant" realis="true">he</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1967">
+      <event_mention id="em-1946" type="contact" subtype="contact" realis="actual" audience="canttell" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20130828.0147" offset="1074" length="12">according to</trigger>
+        <em_arg entity_id="ent-211" entity_mention_id="m-205" role="entity" realis="true">a person</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1996">
+      <event_mention id="em-1975" type="transaction" subtype="transaction" realis="actual" ways="voluntary">
+        <trigger source="NYT_ENG_20130828.0147" offset="1167" length="3">bet</trigger>
+        <em_arg entity_id="ent-25" entity_mention_id="m-214" role="giver" realis="true">JPMorgan</em_arg>
+      </event_mention>
+      <event_mention id="em-2042" type="transaction" subtype="transaction" realis="actual" ways="voluntary">
+        <trigger source="NYT_ENG_20130828.0147" offset="1401" length="3">bet</trigger>
+        <em_arg filler_id="f-2059" role="time" realis="true">2012</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2084">
+      <event_mention id="em-2063" type="contact" subtype="contact" realis="actual" audience="canttell" formality="formal" medium="canttell" schedule="planned">
+        <trigger source="NYT_ENG_20130828.0147" offset="1447" length="5">claim</trigger>
+        <em_arg entity_id="ent-274" entity_mention_id="m-268" role="entity" realis="true">prosecutors</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2114">
+      <event_mention id="em-2086" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="formal" medium="notinperson" schedule="planned">
+        <trigger source="NYT_ENG_20130828.0147" offset="2229" length="6">behest</trigger>
+        <em_arg entity_id="ent-697" entity_mention_id="m-882" role="entity" realis="true">authorities in New York</em_arg>
+        <em_arg entity_id="ent-409" entity_mention_id="m-403" role="entity" realis="true">British police</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2165">
+      <event_mention id="em-2144" type="contact" subtype="contact" realis="actual" audience="canttell" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20130828.0147" offset="2624" length="9">explained</trigger>
+        <em_arg entity_id="ent-562" entity_mention_id="m-571" role="entity" realis="true">Edward Little</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2188">
+      <event_mention id="em-2167" type="contact" subtype="contact" realis="actual" audience="canttell" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20130828.0147" offset="2729" length="12">According to</trigger>
+        <em_arg entity_id="ent-625" entity_mention_id="m-619" role="entity" realis="true">a person close to the case</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

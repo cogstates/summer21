@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="55142ee50000000000000022" doc_id="NYT_ENG_20131220.0283" source_type="newswire">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-91" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="588" length="17">
+        <mention_text>Elisabetta Grillo</mention_text>
+      </entity_mention>
+      <entity_mention id="m-406" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="2103" length="17">
+        <mention_text>Elisabetta Grillo</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-19" type="PER" specificity="specific">
+      <entity_mention id="m-22" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="172" length="14">
+        <mention_text>NIGELLA LAWSON</mention_text>
+      </entity_mention>
+      <entity_mention id="m-55" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="460" length="14">
+        <mention_text>Nigella Lawson</mention_text>
+      </entity_mention>
+      <entity_mention id="m-97" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="626" length="6">
+        <mention_text>Lawson</mention_text>
+      </entity_mention>
+      <entity_mention id="m-115" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="748" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+      <entity_mention id="m-121" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="774" length="6">
+        <mention_text>Lawson</mention_text>
+      </entity_mention>
+      <entity_mention id="m-142" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="891" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+      <entity_mention id="m-148" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="896" length="7">
+        <mention_text>Higella</mention_text>
+      </entity_mention>
+      <entity_mention id="m-166" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="1003" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+      <entity_mention id="m-172" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="1024" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-184" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="1113" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+      <entity_mention id="m-205" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="1202" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+      <entity_mention id="m-211" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="1224" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+      <entity_mention id="m-232" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="1329" length="18">
+        <mention_text>the celebrity chef</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="1343" length="4">chef</nom_head>
+      </entity_mention>
+      <entity_mention id="m-256" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="1402" length="6">
+        <mention_text>Lawson</mention_text>
+      </entity_mention>
+      <entity_mention id="m-262" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="1447" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-268" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="1487" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+      <entity_mention id="m-301" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="1605" length="6">
+        <mention_text>Lawson</mention_text>
+      </entity_mention>
+      <entity_mention id="m-307" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="1634" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-313" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="1640" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-34" type="GPE" specificity="specific">
+      <entity_mention id="m-28" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="381" length="6">
+        <mention_text>LONDON</mention_text>
+      </entity_mention>
+      <entity_mention id="m-70" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="534" length="6">
+        <mention_text>London</mention_text>
+      </entity_mention>
+      <entity_mention id="m-226" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="1247" length="6">
+        <mention_text>London</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-43" type="GPE" specificity="specific">
+      <entity_mention id="m-37" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="394" length="8">
+        <mention_text>Italians</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-52" type="PER" specificity="specific">
+      <entity_mention id="m-13" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="172" length="25">
+        <mention_text>NIGELLA LAWSON ASSISTANTS</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="187" length="10">ASSISTANTS</nom_head>
+      </entity_mention>
+      <entity_mention id="m-46" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="390" length="99">
+        <mention_text>Two Italians sisters who spent more than $1 million on celebrity chef Nigella Lawson’s credit cards</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="403" length="7">sisters</nom_head>
+      </entity_mention>
+      <entity_mention id="m-76" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="556" length="11">
+        <mention_text>The sisters</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="560" length="7">sisters</nom_head>
+      </entity_mention>
+      <entity_mention id="m-103" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="643" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+      <entity_mention id="m-109" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="671" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-337" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="1790" length="11">
+        <mention_text>the sisters</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="1794" length="7">sisters</nom_head>
+      </entity_mention>
+      <entity_mention id="m-430" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="2241" length="11">
+        <mention_text>The Grillos</mention_text>
+      </entity_mention>
+      <entity_mention id="m-469" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="2301" length="11">
+        <mention_text>The sisters</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="2305" length="7">sisters</nom_head>
+      </entity_mention>
+      <entity_mention id="m-502" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="2338" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-67" type="PER" specificity="specific">
+      <entity_mention id="m-61" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="532" length="13">
+        <mention_text>a London jury</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="541" length="4">jury</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-88" type="PER" specificity="specific">
+      <entity_mention id="m-82" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="569" length="9">
+        <mention_text>Francesca</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-133" type="PER" specificity="specific">
+      <entity_mention id="m-127" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="843" length="18">
+        <mention_text>now former husband</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="854" length="7">husband</nom_head>
+      </entity_mention>
+      <entity_mention id="m-136" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="863" length="15">
+        <mention_text>Charles Saatchi</mention_text>
+      </entity_mention>
+      <entity_mention id="m-154" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="952" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-160" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="966" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-178" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="1036" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-199" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="1172" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-196" type="PER" specificity="specific">
+      <entity_mention id="m-190" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="1138" length="10">
+        <mention_text>The couple</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="1142" length="6">couple</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-223" type="FAC" specificity="specific">
+      <entity_mention id="m-217" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="1245" length="19">
+        <mention_text>a London restaurant</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="1254" length="10">restaurant</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-244" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-238" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="1373" length="18">
+        <mention_text>Britain’s tabloids</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="1383" length="8">tabloids</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-253" type="GPE" specificity="specific">
+      <entity_mention id="m-247" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="1373" length="7">
+        <mention_text>Britain</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-280" type="PER" specificity="specific">
+      <entity_mention id="m-274" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="1487" length="17">
+        <mention_text>her first husband</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="1497" length="7">husband</nom_head>
+      </entity_mention>
+      <entity_mention id="m-283" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="1506" length="12">
+        <mention_text>John Diamond</mention_text>
+      </entity_mention>
+      <entity_mention id="m-289" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="1525" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-295" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="1560" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-325" type="PER" specificity="specific">
+      <entity_mention id="m-319" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="1727" length="11">
+        <mention_text>Prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="1727" length="11">Prosecutors</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-334" type="FAC" specificity="specific">
+      <entity_mention id="m-424" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="2216" length="14">
+        <mention_text>the courthouse</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="2220" length="10">courthouse</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-349" type="GPE" specificity="specific">
+      <entity_mention id="m-343" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="1895" length="8">
+        <mention_text>New York</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1365" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="354" length="8">
+        <mention_text>New York</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-358" type="PER" specificity="specific">
+      <entity_mention id="m-496" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="2338" length="13">
+        <mention_text>their lawyers</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="2344" length="7">lawyers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-367" type="ORG" specificity="specific">
+      <entity_mention id="m-361" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="1984" length="13">
+        <mention_text>Louis Vuitton</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-376" type="ORG" specificity="specific">
+      <entity_mention id="m-370" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="1999" length="14">
+        <mention_text>Christian Dior</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-385" type="ORG" specificity="specific">
+      <entity_mention id="m-379" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="2018" length="17">
+        <mention_text>Vivienne Westwood</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-388" type="FAC" specificity="specific">
+      <entity_mention id="m-391" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="2068" length="13">
+        <mention_text>the courtroom</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="2072" length="9">courtroom</nom_head>
+      </entity_mention>
+      <entity_mention id="m-412" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="2159" length="5">
+        <mention_text>court</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="2159" length="5">court</nom_head>
+      </entity_mention>
+      <entity_mention id="m-418" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="945" length="5">
+        <mention_text>court</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="945" length="5">court</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-403" type="PER" specificity="nonspecific">
+      <entity_mention id="m-397" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="2046" length="14">
+        <mention_text>Neither sister</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="2054" length="6">sister</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-442" type="PER" specificity="specific">
+      <entity_mention id="m-475" noun_type="PRO" source="NYT_ENG_20131220.0283" offset="2258" length="4">
+        <mention_text>each</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-481" type="PER" specificity="specific">
+      <entity_mention id="m-484" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="2331" length="20">
+        <mention_text>one of their lawyers</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="2331" length="3">one</nom_head>
+      </entity_mention>
+      <entity_mention id="m-490" noun_type="NAM" source="NYT_ENG_20131220.0283" offset="2353" length="14">
+        <mention_text>Richard Cannon</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-738" type="ORG" specificity="specific">
+      <entity_mention id="m-328" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="1744" length="9">
+        <mention_text>the court</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="1748" length="5">court</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1371" type="FAC" specificity="nonspecific">
+      <entity_mention id="m-352" noun_type="NOM" source="NYT_ENG_20131220.0283" offset="1905" length="5">
+        <mention_text>hotel</mention_text>
+        <nom_head source="NYT_ENG_20131220.0283" offset="1905" length="5">hotel</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-556" source="NYT_ENG_20131220.0283" offset="455" length="4" type="title">chef</filler>
+    <filler id="f-596" source="NYT_ENG_20131220.0283" offset="580" length="2" type="age">35</filler>
+    <filler id="f-606" source="NYT_ENG_20131220.0283" offset="607" length="2" type="age">41</filler>
+    <filler id="f-626" source="NYT_ENG_20131220.0283" offset="782" length="2" type="age">53</filler>
+    <filler id="f-646" source="NYT_ENG_20131220.0283" offset="880" length="2" type="age">70</filler>
+    <filler id="f-799" source="NYT_ENG_20131220.0283" offset="2344" length="7" type="title">lawyers</filler>
+    <filler id="f-862" source="NYT_ENG_20131220.0283" offset="421" length="20" type="money">more than $1 million</filler>
+    <filler id="f-894" source="NYT_ENG_20131220.0283" offset="508" length="13" type="crime">fraud charges</filler>
+    <filler id="f-901" source="NYT_ENG_20131220.0283" offset="522" length="6" type="time" nom_time="2013-12-20">Friday</filler>
+    <filler id="f-1089" source="NYT_ENG_20131220.0283" offset="1161" length="4" type="time" nom_time="2013-07-XX">July</filler>
+    <filler id="f-1362" source="NYT_ENG_20131220.0283" offset="1571" length="4" type="time" nom_time="2001-XX-XX">2001</filler>
+    <filler id="f-1295" source="NYT_ENG_20131220.0283" offset="1808" length="20" type="money">thousands of dollars</filler>
+    <filler id="f-1477" source="NYT_ENG_20131220.0283" offset="1759" length="29" type="time" nom_time="2012-XX-XX">over just four months in 2012</filler>
+    <filler id="f-1353" source="NYT_ENG_20131220.0283" offset="2294" length="5" type="crime">fraud</filler>
+    <filler id="f-1465" source="NYT_ENG_20131220.0283" offset="1288" length="5" type="crime">fraud</filler>
+    <filler id="f-1512" source="NYT_ENG_20131220.0283" offset="508" length="5" type="crime">fraud</filler>
+  </fillers>
+  <relations>
+    <relation id="r-319" type="personalsocial" subtype="business">
+      <relation_mention id="relm-508" realis="true">
+        <rel_arg1 entity_id="ent-52" entity_mention_id="m-13" role="per">NIGELLA LAWSON ASSISTANTS</rel_arg1>
+        <rel_arg2 entity_id="ent-19" entity_mention_id="m-22" role="per">NIGELLA LAWSON</rel_arg2>
+        <trigger source="NYT_ENG_20131220.0283" offset="187" length="10">ASSISTANTS</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-320" type="personalsocial" subtype="role">
+      <relation_mention id="relm-548" realis="true">
+        <rel_arg1 entity_id="ent-19" entity_mention_id="m-55" role="per">Nigella Lawson</rel_arg1>
+        <rel_arg2 filler_id="f-556" role="role">chef</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-321" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-558" realis="true">
+        <rel_arg1 entity_id="ent-52" entity_mention_id="m-46" role="per">Two Italians sisters who spent more than $1 million on celebrity chef Nigella Lawson’s credit cards</rel_arg1>
+        <rel_arg2 entity_id="ent-43" entity_mention_id="m-37" role="entity">Italians</rel_arg2>
+        <trigger source="NYT_ENG_20131220.0283" offset="394" length="8">Italians</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-322" type="physical" subtype="locatednear">
+      <relation_mention id="relm-568" realis="true">
+        <rel_arg1 entity_id="ent-67" entity_mention_id="m-61" role="entity">a London jury</rel_arg1>
+        <rel_arg2 entity_id="ent-34" entity_mention_id="m-70" role="loc">London</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-323" type="personalsocial" subtype="family">
+      <relation_mention id="relm-578" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-91" role="per">Elisabetta Grillo</rel_arg1>
+        <rel_arg2 entity_id="ent-88" entity_mention_id="m-82" role="per">Francesca</rel_arg2>
+        <trigger source="NYT_ENG_20131220.0283" offset="560" length="7">sisters</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-324" type="generalaffiliation" subtype="personage">
+      <relation_mention id="relm-588" realis="true">
+        <rel_arg1 entity_id="ent-88" entity_mention_id="m-82" role="per">Francesca</rel_arg1>
+        <rel_arg2 filler_id="f-596" role="age">35</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-325" type="generalaffiliation" subtype="personage">
+      <relation_mention id="relm-598" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-91" role="per">Elisabetta Grillo</rel_arg1>
+        <rel_arg2 filler_id="f-606" role="age">41</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-326" type="generalaffiliation" subtype="personage">
+      <relation_mention id="relm-618" realis="true">
+        <rel_arg1 entity_id="ent-19" entity_mention_id="m-121" role="per">Lawson</rel_arg1>
+        <rel_arg2 filler_id="f-626" role="age">53</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-327" type="personalsocial" subtype="family">
+      <relation_mention id="relm-628" realis="true">
+        <rel_arg1 entity_id="ent-133" entity_mention_id="m-127" role="per">now former husband</rel_arg1>
+        <rel_arg2 entity_id="ent-19" entity_mention_id="m-121" role="per">Lawson</rel_arg2>
+        <trigger source="NYT_ENG_20131220.0283" offset="854" length="7">husband</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-328" type="generalaffiliation" subtype="personage">
+      <relation_mention id="relm-638" realis="true">
+        <rel_arg1 entity_id="ent-133" entity_mention_id="m-136" role="per">Charles Saatchi</rel_arg1>
+        <rel_arg2 filler_id="f-646" role="age">70</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-329" type="physical" subtype="locatednear">
+      <relation_mention id="relm-688" realis="true">
+        <rel_arg1 entity_id="ent-19" entity_mention_id="m-211" role="entity">her</rel_arg1>
+        <rel_arg2 entity_id="ent-223" entity_mention_id="m-217" role="loc">a London restaurant</rel_arg2>
+        <trigger source="NYT_ENG_20131220.0283" offset="1242" length="2">at</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-330" type="physical" subtype="locatednear">
+      <relation_mention id="relm-698" realis="true">
+        <rel_arg1 entity_id="ent-133" entity_mention_id="m-199" role="entity">he</rel_arg1>
+        <rel_arg2 entity_id="ent-223" entity_mention_id="m-217" role="loc">a London restaurant</rel_arg2>
+        <trigger source="NYT_ENG_20131220.0283" offset="1242" length="2">at</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-331" type="physical" subtype="locatednear">
+      <relation_mention id="relm-708" realis="true">
+        <rel_arg1 entity_id="ent-223" entity_mention_id="m-217" role="entity">a London restaurant</rel_arg1>
+        <rel_arg2 entity_id="ent-34" entity_mention_id="m-226" role="loc">London</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-332" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-718" realis="true">
+        <rel_arg1 entity_id="ent-244" entity_mention_id="m-238" role="org">Britain’s tabloids</rel_arg1>
+        <rel_arg2 entity_id="ent-253" entity_mention_id="m-247" role="loc">Britain</rel_arg2>
+        <trigger source="NYT_ENG_20131220.0283" offset="1373" length="9">Britain’s</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-333" type="personalsocial" subtype="family">
+      <relation_mention id="relm-728" realis="true">
+        <rel_arg1 entity_id="ent-280" entity_mention_id="m-274" role="per">her first husband</rel_arg1>
+        <rel_arg2 entity_id="ent-19" entity_mention_id="m-268" role="per">her</rel_arg2>
+        <trigger source="NYT_ENG_20131220.0283" offset="1497" length="7">husband</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-334" type="physical" subtype="locatednear">
+      <relation_mention id="relm-751" realis="true">
+        <rel_arg1 entity_id="ent-52" entity_mention_id="m-337" role="entity">the sisters</rel_arg1>
+        <rel_arg2 entity_id="ent-1371" entity_mention_id="m-352" role="loc">hotel</rel_arg2>
+        <trigger source="NYT_ENG_20131220.0283" offset="1911" length="5">stays</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-335" type="physical" subtype="locatednear">
+      <relation_mention id="relm-761" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-406" role="entity">Elisabetta Grillo</rel_arg1>
+        <rel_arg2 entity_id="ent-388" entity_mention_id="m-412" role="loc">court</rel_arg2>
+        <trigger source="NYT_ENG_20131220.0283" offset="2156" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-336" type="personalsocial" subtype="business">
+      <relation_mention id="relm-771" realis="true">
+        <rel_arg1 entity_id="ent-52" entity_mention_id="m-502" role="per">their</rel_arg1>
+        <rel_arg2 entity_id="ent-358" entity_mention_id="m-496" role="per">their lawyers</rel_arg2>
+        <trigger source="NYT_ENG_20131220.0283" offset="2344" length="7">lawyers</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-337" type="personalsocial" subtype="business">
+      <relation_mention id="relm-781" realis="true">
+        <rel_arg1 entity_id="ent-52" entity_mention_id="m-502" role="per">their</rel_arg1>
+        <rel_arg2 entity_id="ent-481" entity_mention_id="m-484" role="per">one of their lawyers</rel_arg2>
+        <trigger source="NYT_ENG_20131220.0283" offset="2344" length="7">lawyers</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-338" type="personalsocial" subtype="role">
+      <relation_mention id="relm-791" realis="true">
+        <rel_arg1 entity_id="ent-481" entity_mention_id="m-490" role="per">Richard Cannon</rel_arg1>
+        <rel_arg2 filler_id="f-799" role="role">lawyers</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-339" type="physical" subtype="locatednear">
+      <relation_mention id="relm-801" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-406" role="entity">Elisabetta Grillo</rel_arg1>
+        <rel_arg2 entity_id="ent-334" entity_mention_id="m-424" role="loc">the courthouse</rel_arg2>
+        <trigger source="NYT_ENG_20131220.0283" offset="2213" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-340" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1384" realis="true">
+        <rel_arg1 entity_id="ent-52" entity_mention_id="m-337" role="entity">the sisters</rel_arg1>
+        <rel_arg2 entity_id="ent-349" entity_mention_id="m-343" role="loc">New York</rel_arg2>
+        <trigger source="NYT_ENG_20131220.0283" offset="1892" length="2">to</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-341" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1394" realis="false">
+        <rel_arg1 entity_id="ent-403" entity_mention_id="m-397" role="entity">Neither sister</rel_arg1>
+        <rel_arg2 entity_id="ent-388" entity_mention_id="m-391" role="loc">the courtroom</rel_arg2>
+        <trigger source="NYT_ENG_20131220.0283" offset="2065" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-814">
+      <event_mention id="em-816" type="justice" subtype="acquit" realis="actual">
+        <trigger source="NYT_ENG_20131220.0283" offset="198" length="16">FOUND NOT GUILTY</trigger>
+        <em_arg entity_id="ent-52" entity_mention_id="m-13" role="defendant" realis="true">NIGELLA LAWSON ASSISTANTS</em_arg>
+      </event_mention>
+      <event_mention id="em-867" type="justice" subtype="acquit" realis="actual">
+        <trigger source="NYT_ENG_20131220.0283" offset="495" length="9">acquitted</trigger>
+        <em_arg entity_id="ent-52" entity_mention_id="m-46" role="defendant" realis="true">Two Italians sisters who spent more than $1 million on celebrity chef Nigella Lawson’s credit cards</em_arg>
+        <em_arg filler_id="f-894" role="crime" realis="true">fraud charges</em_arg>
+        <em_arg filler_id="f-901" role="time" realis="true">Friday</em_arg>
+        <em_arg entity_id="ent-67" entity_mention_id="m-61" role="adjudicator" realis="true">a London jury</em_arg>
+        <em_arg entity_id="ent-34" entity_mention_id="m-70" role="place" realis="true">London</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-865">
+      <event_mention id="em-837" type="transaction" subtype="transfermoney" realis="actual" ways="voluntary">
+        <trigger source="NYT_ENG_20131220.0283" offset="415" length="5">spent</trigger>
+        <em_arg entity_id="ent-52" entity_mention_id="m-46" role="giver" realis="true">Two Italians sisters who spent more than $1 million on celebrity chef Nigella Lawson’s credit cards</em_arg>
+        <em_arg filler_id="f-862" role="money" realis="true">more than $1 million</em_arg>
+      </event_mention>
+      <event_mention id="em-969" type="transaction" subtype="transfermoney" realis="other" ways="voluntary">
+        <trigger source="NYT_ENG_20131220.0283" offset="662" length="5">spend</trigger>
+        <em_arg entity_id="ent-52" entity_mention_id="m-103" role="giver" realis="true">them</em_arg>
+      </event_mention>
+      <event_mention id="em-1270" type="transaction" subtype="transfermoney" realis="actual" ways="voluntary">
+        <trigger source="NYT_ENG_20131220.0283" offset="1802" length="5">spent</trigger>
+        <em_arg entity_id="ent-52" entity_mention_id="m-337" role="giver" realis="true">the sisters</em_arg>
+        <em_arg filler_id="f-1295" role="money" realis="true">thousands of dollars</em_arg>
+        <em_arg filler_id="f-1477" role="time" realis="true">over just four months in 2012</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-911">
+      <event_mention id="em-913" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="NYT_ENG_20131220.0283" offset="611" length="9">testified</trigger>
+        <em_arg entity_id="ent-88" entity_mention_id="m-82" role="defendant" realis="true">Francesca</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-91" role="defendant" realis="true">Elisabetta Grillo</em_arg>
+        <em_arg entity_id="ent-52" entity_mention_id="m-76" role="defendant" realis="true">The sisters</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1018">
+      <event_mention id="em-990" type="life" subtype="divorce" realis="actual">
+        <trigger source="NYT_ENG_20131220.0283" offset="847" length="14">former husband</trigger>
+        <em_arg entity_id="ent-19" entity_mention_id="m-121" role="person" realis="true">Lawson</em_arg>
+        <em_arg entity_id="ent-133" entity_mention_id="m-127" role="person" realis="true">now former husband</em_arg>
+      </event_mention>
+      <event_mention id="em-1064" type="life" subtype="divorce" realis="actual">
+        <trigger source="NYT_ENG_20131220.0283" offset="1149" length="8">divorced</trigger>
+        <em_arg entity_id="ent-196" entity_mention_id="m-190" role="person" realis="true">The couple</em_arg>
+        <em_arg filler_id="f-1089" role="time" realis="true">July</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1020">
+      <event_mention id="em-1022" type="contact" subtype="correspondence" realis="actual" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="NYT_ENG_20131220.0283" offset="918" length="5">email</trigger>
+        <em_arg entity_id="ent-133" entity_mention_id="m-136" role="entity" realis="true">Charles Saatchi</em_arg>
+      </event_mention>
+      <event_mention id="em-1043" type="contact" subtype="correspondence" realis="actual" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="NYT_ENG_20131220.0283" offset="983" length="5">email</trigger>
+        <em_arg entity_id="ent-133" entity_mention_id="m-160" role="entity" realis="true">he</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1148">
+      <event_mention id="em-1113" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20131220.0283" offset="1215" length="8">gripping</trigger>
+        <em_arg entity_id="ent-133" entity_mention_id="m-199" role="attacker" realis="true">he</em_arg>
+        <em_arg entity_id="ent-19" entity_mention_id="m-211" role="target" realis="true">her</em_arg>
+        <em_arg entity_id="ent-223" entity_mention_id="m-217" role="place" realis="true">a London restaurant</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1171">
+      <event_mention id="em-1150" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="NYT_ENG_20131220.0283" offset="1431" length="10">testifying</trigger>
+        <em_arg entity_id="ent-19" entity_mention_id="m-256" role="defendant" realis="true">Lawson</em_arg>
+      </event_mention>
+      <event_mention id="em-1448" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="NYT_ENG_20131220.0283" offset="1294" length="4">case</trigger>
+        <em_arg filler_id="f-1465" role="crime" realis="true">fraud</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1215">
+      <event_mention id="em-1194" type="life" subtype="die" realis="actual">
+        <trigger source="NYT_ENG_20131220.0283" offset="1563" length="4">died</trigger>
+        <em_arg entity_id="ent-280" entity_mention_id="m-295" role="victim" realis="true">he</em_arg>
+        <em_arg filler_id="f-1362" role="time" realis="true">2001</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1238">
+      <event_mention id="em-1217" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="formal" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20131220.0283" offset="1622" length="9">statement</trigger>
+        <em_arg entity_id="ent-19" entity_mention_id="m-301" role="entity" realis="true">Lawson</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1268">
+      <event_mention id="em-1240" type="contact" subtype="meet" realis="actual" audience="twoway" formality="formal" medium="inperson" schedule="planned">
+        <trigger source="NYT_ENG_20131220.0283" offset="1739" length="4">told</trigger>
+        <em_arg entity_id="ent-325" entity_mention_id="m-319" role="entity" realis="true">Prosecutors</em_arg>
+        <em_arg entity_id="ent-738" entity_mention_id="m-328" role="entity" realis="true">the court</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1326">
+      <event_mention id="em-1298" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="NYT_ENG_20131220.0283" offset="1886" length="5">trips</trigger>
+        <em_arg entity_id="ent-52" entity_mention_id="m-337" role="person" realis="true">the sisters</em_arg>
+        <em_arg entity_id="ent-349" entity_mention_id="m-343" role="destination" realis="true">New York</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1356">
+      <event_mention id="em-1328" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20131220.0283" offset="2263" length="7">charged</trigger>
+        <em_arg entity_id="ent-52" entity_mention_id="m-430" role="defendant" realis="true">The Grillos</em_arg>
+        <em_arg filler_id="f-1353" role="crime" realis="true">fraud</em_arg>
+      </event_mention>
+      <event_mention id="em-1480" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20131220.0283" offset="514" length="7">charges</trigger>
+        <em_arg entity_id="ent-67" entity_mention_id="m-61" role="adjudicator" realis="true">a London jury</em_arg>
+        <em_arg entity_id="ent-52" entity_mention_id="m-46" role="defendant" realis="true">Two Italians sisters who spent more than $1 million on celebrity chef Nigella Lawson’s credit cards</em_arg>
+        <em_arg filler_id="f-1512" role="crime" realis="true">fraud</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1446">
+      <event_mention id="em-1425" type="contact" subtype="contact" realis="actual" audience="canttell" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20131220.0283" offset="961" length="4">said</trigger>
+        <em_arg entity_id="ent-133" entity_mention_id="m-154" role="entity" realis="true">He</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1469">
+      <event_mention id="em-941" type="contact" subtype="meet" realis="actual" audience="twoway" formality="formal" medium="inperson" schedule="planned">
+        <trigger source="NYT_ENG_20131220.0283" offset="611" length="9">testified</trigger>
+        <em_arg entity_id="ent-88" entity_mention_id="m-82" role="entity" realis="true">Francesca</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-91" role="entity" realis="true">Elisabetta Grillo</em_arg>
+        <em_arg entity_id="ent-52" entity_mention_id="m-76" role="entity" realis="true">The sisters</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1471">
+      <event_mention id="em-1173" type="contact" subtype="meet" realis="actual" audience="twoway" formality="formal" medium="inperson" schedule="planned">
+        <trigger source="NYT_ENG_20131220.0283" offset="1431" length="10">testifying</trigger>
+        <em_arg entity_id="ent-19" entity_mention_id="m-256" role="entity" realis="true">Lawson</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

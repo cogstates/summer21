@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56fc403e0000000000000062">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-46">
+        <trigger offset="1746" length="11">worked with</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-70" offset="1669" length="13">Dustinthewind</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-487">
+        <trigger offset="1746" length="11">worked with</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-70" offset="1669" length="13">Dustinthewind</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-424">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-70" offset="1669" length="13">Dustinthewind</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-433">
+        <trigger offset="158" length="9">connected</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="10">madcrappie</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-442">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="10">madcrappie</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-451">
+        <trigger offset="1154" length="4">know</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-253" offset="1102" length="8">daisymae</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-496">
+        <trigger offset="1347" length="4">know</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-322" offset="1334" length="8">daisymae</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-460">
+        <trigger offset="1170" length="5">knows</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-253" offset="1102" length="8">daisymae</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-505">
+        <trigger offset="1363" length="5">knows</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-322" offset="1334" length="8">daisymae</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-469">
+        <trigger offset="1570" length="2">my</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-385" offset="1518" length="10">mynameiskc</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-478">
+        <trigger offset="1584" length="2">'s</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-385" offset="1518" length="10">mynameiskc</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-528">
+        <trigger offset="133" length="4">went</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="10">madcrappie</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-37" offset="118" length="8">
+            <text>KSU fans</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="10">madcrappie</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-552" offset="101" length="15">
+            <text>a catbacker bus</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="10">madcrappie</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-560">
+        <trigger offset="352" length="12">decapitation</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="10">madcrappie</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-151" offset="289" length="10">
+            <text>one person</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="10">madcrappie</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-604">
+        <trigger offset="519" length="4">lose</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-13" offset="14" length="10">madcrappie</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-187" offset="515" length="3">
+            <text>you</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-13" offset="14" length="10">madcrappie</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-582">
+        <trigger offset="421" length="21">in critical condition</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="10">madcrappie</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-160" offset="407" length="9">
+            <text>the other</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="10">madcrappie</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-710">
+        <trigger offset="1190" length="11">decapitated</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-253" offset="1102" length="8">daisymae</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-289" offset="1176" length="30">
+            <text>a guy who got decapitated once</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-253" offset="1102" length="8">daisymae</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-846">
+        <trigger offset="1383" length="11">decapitated</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-322" offset="1334" length="8">daisymae</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-346" offset="1369" length="30">
+            <text>a guy who got decapitated once</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-322" offset="1334" length="8">daisymae</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-752">
+        <trigger offset="1603" length="11">decapitated</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-385" offset="1518" length="10">mynameiskc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-400" offset="1570" length="28">
+            <text>my grandfather's second wife</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-385" offset="1518" length="10">mynameiskc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-774">
+        <trigger offset="1638" length="7">charges</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-385" offset="1518" length="10">mynameiskc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-418" offset="1616" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-385" offset="1518" length="10">mynameiskc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-796">
+        <trigger offset="1623" length="10">cleared of</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-385" offset="1518" length="10">mynameiskc</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-418" offset="1616" length="2">
+            <text>he</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-385" offset="1518" length="10">mynameiskc</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-818">
+        <trigger offset="1781" length="11">decapatated</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-70" offset="1669" length="13">Dustinthewind</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-64" offset="1774" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-70" offset="1669" length="13">Dustinthewind</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-842" offset="1825" length="8">
+            <text>a diesel</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-70" offset="1669" length="13">Dustinthewind</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-13" offset="14" length="10">
+        <text>madcrappie</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-19" offset="91" length="4">
+        <text>town</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-28" offset="118" length="3">
+        <text>KSU</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-37" offset="118" length="8">
+        <text>KSU fans</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-55" offset="1730" length="42">
+        <text>a friend that i worked with many years ago</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-64" offset="1774" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-91" offset="1799" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-70" offset="1669" length="13">
+        <text>Dustinthewind</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-79" offset="1724" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-85" offset="1744" length="1">
+        <text>i</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-97" offset="1835" length="8">
+        <text>Poor guy</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-103" offset="1855" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-109" offset="1845" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-118" offset="144" length="29">
+        <text>a bridge that connected dorms</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-127" offset="168" length="5">
+        <text>dorms</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-136" offset="181" length="11">
+        <text>some people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-145" offset="232" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-151" offset="289" length="10">
+        <text>one person</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-178" offset="493" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-187" offset="515" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-193" offset="524" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-160" offset="407" length="9">
+        <text>the other</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-169" offset="493" length="9">
+        <text>your team</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-199" offset="622" length="9">
+        <text>stinkfoot</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-229" offset="871" length="9">
+        <text>stinkfoot</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-310" offset="1262" length="9">
+        <text>stinkfoot</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-205" offset="696" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-214" offset="734" length="14">
+        <text>MollyThe Hippy</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-223" offset="791" length="1">
+        <text>i</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-235" offset="943" length="14">
+        <text>MollyThe Hippy</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-241" offset="960" length="1">
+        <text>i</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-247" offset="1031" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-253" offset="1102" length="8">
+        <text>daisymae</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-268" offset="1152" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-316" offset="1345" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-322" offset="1334" length="8">
+        <text>daisymae</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-274" offset="1159" length="5">
+        <text>a guy</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-283" offset="1166" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-304" offset="1210" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-328" offset="1352" length="5">
+        <text>a guy</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-334" offset="1359" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-340" offset="1403" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-289" offset="1176" length="30">
+        <text>a guy who got decapitated once</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-298" offset="1182" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-346" offset="1369" length="30">
+        <text>a guy who got decapitated once</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-358" offset="1375" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-370" offset="1443" length="10">
+        <text>Some folks</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-379" offset="1464" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-385" offset="1518" length="10">
+        <text>mynameiskc</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-394" offset="1570" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-400" offset="1570" length="28">
+        <text>my grandfather's second wife</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-409" offset="1570" length="14">
+        <text>my grandfather</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-418" offset="1616" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-46">
+        <trigger offset="1746" length="11">worked with</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-487">
+        <trigger offset="1746" length="11">worked with</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-424">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-433">
+        <trigger offset="158" length="9">connected</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-442">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-451">
+        <trigger offset="1154" length="4">know</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-496">
+        <trigger offset="1347" length="4">know</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-460">
+        <trigger offset="1170" length="5">knows</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-505">
+        <trigger offset="1363" length="5">knows</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-469">
+        <trigger offset="1570" length="2">my</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-478">
+        <trigger offset="1584" length="2">'s</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-528">
+        <trigger offset="133" length="4">went</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-560">
+        <trigger offset="352" length="12">decapitation</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-604">
+        <trigger offset="519" length="4">lose</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-582">
+        <trigger offset="421" length="21">in critical condition</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-710">
+        <trigger offset="1190" length="11">decapitated</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-846">
+        <trigger offset="1383" length="11">decapitated</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-752">
+        <trigger offset="1603" length="11">decapitated</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-774">
+        <trigger offset="1638" length="7">charges</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-796">
+        <trigger offset="1623" length="10">cleared of</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-818">
+        <trigger offset="1781" length="11">decapatated</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

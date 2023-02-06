@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="55142ee50000000000000023" doc_id="d6bc66d7c8423368aaa8d789b5bdf5db" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-13" noun_type="NAM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="14" length="12">
+        <mention_text>TexasTowelie</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-25" type="PER" specificity="specific">
+      <entity_mention id="m-19" noun_type="NAM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="174" length="13">
+        <mention_text>Elaine Kaplan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-28" noun_type="NOM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="189" length="14">
+        <mention_text>An out lesbian</mention_text>
+        <nom_head source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="196" length="7">lesbian</nom_head>
+      </entity_mention>
+      <entity_mention id="m-34" noun_type="NOM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="226" length="52">
+        <mention_text>a judge of the United States Court of Federal Claims</mention_text>
+        <nom_head source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="228" length="5">judge</nom_head>
+      </entity_mention>
+      <entity_mention id="m-79" noun_type="NAM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="356" length="13">
+        <mention_text>Elaine Kaplan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-85" noun_type="NAM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="410" length="6">
+        <mention_text>Kaplan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-91" noun_type="PRO" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="418" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+      <entity_mention id="m-97" noun_type="NOM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="435" length="71">
+        <mention_text>the acting director of the United States Office of Personnel Management</mention_text>
+        <nom_head source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="446" length="8">director</nom_head>
+      </entity_mention>
+      <entity_mention id="m-127" noun_type="PRO" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="581" length="3">
+        <mention_text>She</mention_text>
+      </entity_mention>
+      <entity_mention id="m-133" noun_type="PRO" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="636" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-169" noun_type="NAM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="801" length="6">
+        <mention_text>Kaplan</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-46" type="ORG" specificity="specific">
+      <entity_mention id="m-40" noun_type="NAM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="241" length="37">
+        <mention_text>United States Court of Federal Claims</mention_text>
+      </entity_mention>
+      <entity_mention id="m-226" noun_type="NAM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="1039" length="23">
+        <mention_text>Court of Federal Claims</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-55" type="GPE" specificity="specific">
+      <entity_mention id="m-49" noun_type="NAM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="241" length="13">
+        <mention_text>United States</mention_text>
+      </entity_mention>
+      <entity_mention id="m-67" noun_type="NAM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="321" length="4">
+        <mention_text>U.S.</mention_text>
+      </entity_mention>
+      <entity_mention id="m-103" noun_type="NAM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="462" length="13">
+        <mention_text>United States</mention_text>
+      </entity_mention>
+      <entity_mention id="m-220" noun_type="NAM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="1009" length="8">
+        <mention_text>American</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-64" type="ORG" specificity="specific">
+      <entity_mention id="m-58" noun_type="NAM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="321" length="11">
+        <mention_text>U.S. Senate</mention_text>
+      </entity_mention>
+      <entity_mention id="m-73" noun_type="NAM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="339" length="6">
+        <mention_text>Senate</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-115" type="ORG" specificity="specific">
+      <entity_mention id="m-109" noun_type="NAM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="462" length="44">
+        <mention_text>United States Office of Personnel Management</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-124" type="PER" specificity="specific">
+      <entity_mention id="m-118" noun_type="NAM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="557" length="12">
+        <mention_text>Barack Obama</mention_text>
+      </entity_mention>
+      <entity_mention id="m-163" noun_type="NAM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="778" length="5">
+        <mention_text>Obama</mention_text>
+      </entity_mention>
+      <entity_mention id="m-199" noun_type="PRO" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="969" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-232" noun_type="PRO" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="1068" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-145" type="ORG" specificity="specific">
+      <entity_mention id="m-139" noun_type="NOM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="674" length="22">
+        <mention_text>the federal government</mention_text>
+        <nom_head source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="686" length="10">government</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-154" type="PER" specificity="specific">
+      <entity_mention id="m-148" noun_type="NOM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="700" length="14">
+        <mention_text>These nominees</mention_text>
+        <nom_head source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="706" length="8">nominees</nom_head>
+      </entity_mention>
+      <entity_mention id="m-157" noun_type="PRO" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="730" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-193" noun_type="PRO" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="898" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-205" noun_type="PRO" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="989" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-238" noun_type="PRO" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="1093" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-181" type="PER" specificity="specific">
+      <entity_mention id="m-175" noun_type="NAM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="819" length="23">
+        <mention_text>Patricia Campbell-Smith</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-190" type="ORG" specificity="specific">
+      <entity_mention id="m-184" noun_type="NAM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="857" length="21">
+        <mention_text>Human Rights Campaign</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-217" type="PER" specificity="nonspecific">
+      <entity_mention id="m-211" noun_type="NOM" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="1005" length="19">
+        <mention_text>the American people</mention_text>
+        <nom_head source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="1018" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-252" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="228" length="5" type="title">judge</filler>
+    <filler id="f-337" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="547" length="9" type="title">President</filler>
+    <filler id="f-719" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="446" length="8" type="title">director</filler>
+    <filler id="f-364" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="228" length="5" type="title">judge</filler>
+    <filler id="f-406" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="392" length="16" type="time" nom_time="2013-09-18">12:03 p.m. today</filler>
+    <filler id="f-434" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="228" length="5" type="title">judge</filler>
+    <filler id="f-441" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="573" length="5" type="time" nom_time="2013-03-XX">March</filler>
+    <filler id="f-478" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="619" length="9" type="title">judgeship</filler>
+    <filler id="f-638" source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="1098" length="5" type="time" nom_time="2013-03-XX">today</filler>
+  </fillers>
+  <relations>
+    <relation id="r-342" type="personalsocial" subtype="role">
+      <relation_mention id="relm-244" realis="true">
+        <rel_arg1 entity_id="ent-25" entity_mention_id="m-28" role="per">An out lesbian</rel_arg1>
+        <rel_arg2 filler_id="f-252" role="role">judge</rel_arg2>
+        <trigger source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="223" length="2">as</trigger>
+      </relation_mention>
+      <relation_mention id="relm-711" realis="true">
+        <rel_arg1 entity_id="ent-25" entity_mention_id="m-85" role="per">Kaplan</rel_arg1>
+        <rel_arg2 filler_id="f-719" role="role">director</rel_arg2>
+        <trigger source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="432" length="2">is</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-343" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-254" realis="true">
+        <rel_arg1 entity_id="ent-25" entity_mention_id="m-34" role="employeemember">a judge of the United States Court of Federal Claims</rel_arg1>
+        <rel_arg2 entity_id="ent-46" entity_mention_id="m-40" role="org">United States Court of Federal Claims</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-344" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-264" realis="true">
+        <rel_arg1 entity_id="ent-46" entity_mention_id="m-40" role="suborg">United States Court of Federal Claims</rel_arg1>
+        <rel_arg2 entity_id="ent-55" entity_mention_id="m-49" role="parent">United States</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-345" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-274" realis="true">
+        <rel_arg1 entity_id="ent-64" entity_mention_id="m-58" role="suborg">U.S. Senate</rel_arg1>
+        <rel_arg2 entity_id="ent-55" entity_mention_id="m-67" role="parent">U.S.</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-346" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-294" realis="true">
+        <rel_arg1 entity_id="ent-25" entity_mention_id="m-97" role="leader">the acting director of the United States Office of Personnel Management</rel_arg1>
+        <rel_arg2 entity_id="ent-115" entity_mention_id="m-109" role="entity">United States Office of Personnel Management</rel_arg2>
+        <trigger source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="446" length="8">director</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-347" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-304" realis="true">
+        <rel_arg1 entity_id="ent-115" entity_mention_id="m-109" role="suborg">United States Office of Personnel Management</rel_arg1>
+        <rel_arg2 entity_id="ent-55" entity_mention_id="m-103" role="parent">United States</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-348" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-314" realis="true">
+        <rel_arg1 entity_id="ent-217" entity_mention_id="m-211" role="per">the American people</rel_arg1>
+        <rel_arg2 entity_id="ent-55" entity_mention_id="m-220" role="entity">American</rel_arg2>
+        <trigger source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="1009" length="8">American</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-349" type="personalsocial" subtype="role">
+      <relation_mention id="relm-329" realis="true">
+        <rel_arg1 entity_id="ent-124" entity_mention_id="m-118" role="per">Barack Obama</rel_arg1>
+        <rel_arg2 filler_id="f-337" role="role">President</rel_arg2>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-327">
+      <event_mention id="em-339" type="personnel" subtype="startposition" realis="other">
+        <trigger source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="213" length="9">confirmed</trigger>
+        <em_arg entity_id="ent-25" entity_mention_id="m-28" role="person" realis="true">An out lesbian</em_arg>
+        <em_arg filler_id="f-364" role="position" realis="true">judge</em_arg>
+        <em_arg entity_id="ent-64" entity_mention_id="m-58" role="entity" realis="true">U.S. Senate</em_arg>
+      </event_mention>
+      <event_mention id="em-374" type="personnel" subtype="startposition" realis="other">
+        <trigger source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="346" length="9">confirmed</trigger>
+        <em_arg entity_id="ent-25" entity_mention_id="m-79" role="person" realis="true">Elaine Kaplan</em_arg>
+        <em_arg entity_id="ent-64" entity_mention_id="m-73" role="entity" realis="true">Senate</em_arg>
+        <em_arg filler_id="f-406" role="time" realis="true">12:03 p.m. today</em_arg>
+      </event_mention>
+      <event_mention id="em-453" type="personnel" subtype="startposition" realis="other">
+        <trigger source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="590" length="5">serve</trigger>
+        <em_arg entity_id="ent-25" entity_mention_id="m-127" role="person" realis="true">She</em_arg>
+        <em_arg filler_id="f-478" role="position" realis="true">judgeship</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-451">
+      <event_mention id="em-409" type="personnel" subtype="nominate" realis="actual">
+        <trigger source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="517" length="9">nominated</trigger>
+        <em_arg entity_id="ent-25" entity_mention_id="m-85" role="person" realis="true">Kaplan</em_arg>
+        <em_arg filler_id="f-434" role="position" realis="true">judge</em_arg>
+        <em_arg filler_id="f-441" role="time" realis="true">March</em_arg>
+        <em_arg entity_id="ent-124" entity_mention_id="m-118" role="agent" realis="true">Barack Obama</em_arg>
+      </event_mention>
+      <event_mention id="em-511" type="personnel" subtype="nominate" realis="actual">
+        <trigger source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="790" length="10">nominating</trigger>
+        <em_arg entity_id="ent-124" entity_mention_id="m-163" role="agent" realis="true">Obama</em_arg>
+        <em_arg entity_id="ent-25" entity_mention_id="m-169" role="person" realis="true">Kaplan</em_arg>
+        <em_arg entity_id="ent-181" entity_mention_id="m-175" role="person" realis="true">Patricia Campbell-Smith</em_arg>
+      </event_mention>
+      <event_mention id="em-606" type="personnel" subtype="nominate" realis="actual">
+        <trigger source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="1084" length="8">nominate</trigger>
+        <em_arg entity_id="ent-124" entity_mention_id="m-232" role="agent" realis="true">I</em_arg>
+        <em_arg entity_id="ent-154" entity_mention_id="m-238" role="person" realis="true">them</em_arg>
+        <em_arg filler_id="f-638" role="time" realis="true">today</em_arg>
+      </event_mention>
+      <event_mention id="em-641" type="personnel" subtype="nominate" realis="actual">
+        <trigger source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="706" length="8">nominees</trigger>
+        <em_arg entity_id="ent-154" entity_mention_id="m-148" role="person" realis="true">These nominees</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-509">
+      <event_mention id="em-481" type="justice" subtype="trialhearing" realis="other">
+        <trigger source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="645" length="4">hear</trigger>
+        <em_arg entity_id="ent-25" entity_mention_id="m-133" role="adjudicator" realis="true">she</em_arg>
+        <em_arg entity_id="ent-145" entity_mention_id="m-139" role="defendant" realis="true">the federal government</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-567">
+      <event_mention id="em-683" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="canttell" medium="canttell" schedule="planned">
+        <trigger source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="773" length="4">said</trigger>
+        <em_arg entity_id="ent-124" entity_mention_id="m-163" role="entity" realis="true">Obama</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-604">
+      <event_mention id="em-576" type="personnel" subtype="startposition" realis="other">
+        <trigger source="d6bc66d7c8423368aaa8d789b5bdf5db" offset="999" length="5">serve</trigger>
+        <em_arg entity_id="ent-154" entity_mention_id="m-205" role="person" realis="true">they</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="551564f90000000000000001" doc_id="NYT_ENG_20130504.0098" source_type="newswire">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-41" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="173" length="11">
+        <mention_text>Hiccup girl</mention_text>
+      </entity_mention>
+      <entity_mention id="m-56" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="241" length="11">
+        <mention_text>Hiccup girl</mention_text>
+      </entity_mention>
+      <entity_mention id="m-62" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="255" length="12">
+        <mention_text>Jennifer Mee</mention_text>
+      </entity_mention>
+      <entity_mention id="m-68" noun_type="PRO" source="NYT_ENG_20130504.0098" offset="269" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+      <entity_mention id="m-74" noun_type="PRO" source="NYT_ENG_20130504.0098" offset="401" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+      <entity_mention id="m-122" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="555" length="3">
+        <mention_text>Mee</mention_text>
+      </entity_mention>
+      <entity_mention id="m-128" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="581" length="11">
+        <mention_text>hiccup girl</mention_text>
+      </entity_mention>
+      <entity_mention id="m-134" noun_type="PRO" source="NYT_ENG_20130504.0098" offset="663" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+      <entity_mention id="m-140" noun_type="PRO" source="NYT_ENG_20130504.0098" offset="729" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-224" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="940" length="3">
+        <mention_text>Mee</mention_text>
+      </entity_mention>
+      <entity_mention id="m-263" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="1222" length="3">
+        <mention_text>Mee</mention_text>
+      </entity_mention>
+      <entity_mention id="m-296" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="1371" length="3">
+        <mention_text>Mee</mention_text>
+      </entity_mention>
+      <entity_mention id="m-344" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="1566" length="3">
+        <mention_text>Mee</mention_text>
+      </entity_mention>
+      <entity_mention id="m-356" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="1676" length="3">
+        <mention_text>Mee</mention_text>
+      </entity_mention>
+      <entity_mention id="m-479" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="2242" length="3">
+        <mention_text>Mee</mention_text>
+      </entity_mention>
+      <entity_mention id="m-509" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="2445" length="3">
+        <mention_text>Mee</mention_text>
+      </entity_mention>
+      <entity_mention id="m-515" noun_type="PRO" source="NYT_ENG_20130504.0098" offset="2491" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-53" type="GPE" specificity="specific">
+      <entity_mention id="m-47" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="231" length="5">
+        <mention_text>LARGO</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-86" type="PER" specificity="specific">
+      <entity_mention id="m-80" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="414" length="12">
+        <mention_text>John Trevena</mention_text>
+      </entity_mention>
+      <entity_mention id="m-302" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="1383" length="7">
+        <mention_text>Trevena</mention_text>
+      </entity_mention>
+      <entity_mention id="m-308" noun_type="PRO" source="NYT_ENG_20130504.0098" offset="1396" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-320" noun_type="PRO" source="NYT_ENG_20130504.0098" offset="1478" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-326" noun_type="PRO" source="NYT_ENG_20130504.0098" offset="1486" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-338" noun_type="PRO" source="NYT_ENG_20130504.0098" offset="1549" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-539" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="401" length="12">
+        <mention_text>her attorney</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="405" length="8">attorney</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-95" type="FAC" specificity="specific">
+      <entity_mention id="m-98" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="435" length="5">
+        <mention_text>court</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="435" length="5">court</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-110" type="PER" specificity="specific">
+      <entity_mention id="m-104" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="483" length="20">
+        <mention_text>Christopher LaBruzzo</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-119" type="PER" specificity="specific">
+      <entity_mention id="m-113" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="509" length="11">
+        <mention_text>prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="509" length="11">prosecutors</nom_head>
+      </entity_mention>
+      <entity_mention id="m-245" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="1066" length="11">
+        <mention_text>Prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="1066" length="11">Prosecutors</nom_head>
+      </entity_mention>
+      <entity_mention id="m-257" noun_type="PRO" source="NYT_ENG_20130504.0098" offset="1192" length="4">
+        <mention_text>They</mention_text>
+      </entity_mention>
+      <entity_mention id="m-314" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="1421" length="11">
+        <mention_text>prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="1421" length="11">prosecutors</nom_head>
+      </entity_mention>
+      <entity_mention id="m-332" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="1520" length="11">
+        <mention_text>prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="1520" length="11">prosecutors</nom_head>
+      </entity_mention>
+      <entity_mention id="m-350" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="1634" length="11">
+        <mention_text>Prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="1634" length="11">Prosecutors</nom_head>
+      </entity_mention>
+      <entity_mention id="m-413" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="1908" length="11">
+        <mention_text>prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="1908" length="11">prosecutors</nom_head>
+      </entity_mention>
+      <entity_mention id="m-503" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="2423" length="11">
+        <mention_text>prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="2423" length="11">prosecutors</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-152" type="PER" specificity="specific">
+      <entity_mention id="m-146" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="757" length="7">
+        <mention_text>two men</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="761" length="3">men</nom_head>
+      </entity_mention>
+      <entity_mention id="m-230" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="948" length="10">
+        <mention_text>the others</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="952" length="6">others</nom_head>
+      </entity_mention>
+      <entity_mention id="m-521" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="2491" length="21">
+        <mention_text>her two co-defendants</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="2499" length="13">co-defendants</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-161" type="GPE" specificity="specific">
+      <entity_mention id="m-155" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="790" length="14">
+        <mention_text>St. Petersburg</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-170" type="ORG" specificity="specific">
+      <entity_mention id="m-164" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="790" length="21">
+        <mention_text>St. Petersburg police</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="805" length="6">police</nom_head>
+      </entity_mention>
+      <entity_mention id="m-467" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="2170" length="6">
+        <mention_text>police</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="2170" length="6">police</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-179" type="PER" specificity="specific">
+      <entity_mention id="m-173" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="817" length="8">
+        <mention_text>the trio</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="821" length="4">trio</nom_head>
+      </entity_mention>
+      <entity_mention id="m-251" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="1163" length="14">
+        <mention_text>the defendants</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="1167" length="10">defendants</nom_head>
+      </entity_mention>
+      <entity_mention id="m-389" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="1813" length="14">
+        <mention_text>the defendants</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="1817" length="10">defendants</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-188" type="PER" specificity="specific">
+      <entity_mention id="m-182" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="841" length="15">
+        <mention_text>Shannon Griffin</mention_text>
+      </entity_mention>
+      <entity_mention id="m-191" noun_type="PRO" source="NYT_ENG_20130504.0098" offset="862" length="3">
+        <mention_text>who</mention_text>
+      </entity_mention>
+      <entity_mention id="m-407" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="1886" length="7">
+        <mention_text>Griffin</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-203" type="FAC" specificity="specific">
+      <entity_mention id="m-197" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="893" length="36">
+        <mention_text>a vacant home just north of downtown</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="902" length="4">home</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-212" type="LOC" specificity="specific">
+      <entity_mention id="m-206" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="921" length="8">
+        <mention_text>downtown</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="921" length="8">downtown</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-221" type="LOC" specificity="specific">
+      <entity_mention id="m-215" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="907" length="22">
+        <mention_text>just north of downtown</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="912" length="5">north</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-242" type="PER" specificity="specific">
+      <entity_mention id="m-236" noun_type="PRO" source="NYT_ENG_20130504.0098" offset="964" length="4">
+        <mention_text>each</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-275" type="PER" specificity="specific">
+      <entity_mention id="m-269" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="1222" length="18">
+        <mention_text>Mee’s co-defendant</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="1228" length="12">co-defendant</nom_head>
+      </entity_mention>
+      <entity_mention id="m-278" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="1241" length="21">
+        <mention_text>Laron Cordale Raiford</mention_text>
+      </entity_mention>
+      <entity_mention id="m-284" noun_type="PRO" source="NYT_ENG_20130504.0098" offset="1323" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-290" noun_type="PRO" source="NYT_ENG_20130504.0098" offset="1349" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-533" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="2525" length="7">
+        <mention_text>Raiford</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-368" type="PER" specificity="specific">
+      <entity_mention id="m-362" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="1739" length="9">
+        <mention_text>attorneys</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="1739" length="9">attorneys</nom_head>
+      </entity_mention>
+      <entity_mention id="m-473" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="2187" length="9">
+        <mention_text>Attorneys</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="2187" length="9">Attorneys</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-377" type="PER" specificity="specific">
+      <entity_mention id="m-371" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="1774" length="119">
+        <mention_text>a witness who at one point said one of the defendants, Lamont Antonio Newton, 25, was the one who actually shot Griffin</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="1776" length="7">witness</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-386" type="PER" specificity="specific">
+      <entity_mention id="m-380" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="1806" length="21">
+        <mention_text>one of the defendants</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="1806" length="3">one</nom_head>
+      </entity_mention>
+      <entity_mention id="m-395" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="1829" length="21">
+        <mention_text>Lamont Antonio Newton</mention_text>
+      </entity_mention>
+      <entity_mention id="m-401" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="1860" length="33">
+        <mention_text>the one who actually shot Griffin</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="1864" length="3">one</nom_head>
+      </entity_mention>
+      <entity_mention id="m-527" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="2514" length="6">
+        <mention_text>Newton</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-425" type="GPE" specificity="specific">
+      <entity_mention id="m-419" noun_type="NAM" source="NYT_ENG_20130504.0098" offset="1964" length="7">
+        <mention_text>Florida</mention_text>
+      </entity_mention>
+      <entity_mention id="m-575" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="468" length="5">
+        <mention_text>State</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="468" length="5">State</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-434" type="PER" specificity="nonspecific">
+      <entity_mention id="m-428" noun_type="PRO" source="NYT_ENG_20130504.0098" offset="1977" length="7">
+        <mention_text>someone</mention_text>
+      </entity_mention>
+      <entity_mention id="m-455" noun_type="PRO" source="NYT_ENG_20130504.0098" offset="2082" length="7">
+        <mention_text>someone</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-443" type="PER" specificity="nonspecific">
+      <entity_mention id="m-437" noun_type="PRO" source="NYT_ENG_20130504.0098" offset="2015" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-452" type="PER" specificity="nonspecific">
+      <entity_mention id="m-446" noun_type="PRO" source="NYT_ENG_20130504.0098" offset="2021" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-491" type="PER" specificity="specific">
+      <entity_mention id="m-485" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="2398" length="36">
+        <mention_text>the family of one of the prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="2402" length="6">family</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-500" type="PER" specificity="specific">
+      <entity_mention id="m-494" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="2412" length="22">
+        <mention_text>one of the prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="2412" length="3">one</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-657" type="PER" specificity="nonspecific">
+      <entity_mention id="m-651" noun_type="NOM" source="NYT_ENG_20130504.0098" offset="1584" length="23">
+        <mention_text>a ''youthful offender’'</mention_text>
+        <nom_head source="NYT_ENG_20130504.0098" offset="1597" length="8">offender</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-553" source="NYT_ENG_20130504.0098" offset="405" length="8" type="title">attorney</filler>
+    <filler id="f-573" source="NYT_ENG_20130504.0098" offset="458" length="24" type="title">Assistant State Attorney</filler>
+    <filler id="f-599" source="NYT_ENG_20130504.0098" offset="858" length="2" type="age">22</filler>
+    <filler id="f-649" source="NYT_ENG_20130504.0098" offset="1355" length="2" type="age">22</filler>
+    <filler id="f-668" source="NYT_ENG_20130504.0098" offset="1852" length="2" type="age">25</filler>
+    <filler id="f-906" source="NYT_ENG_20130504.0098" offset="289" length="19" type="crime">first-degree murder</filler>
+    <filler id="f-933" source="NYT_ENG_20130504.0098" offset="376" length="7" type="sentence">15-year</filler>
+    <filler id="f-980" source="NYT_ENG_20130504.0098" offset="723" length="4" type="time" nom_time="2010-XX-XX">2010</filler>
+    <filler id="f-1017" source="NYT_ENG_20130504.0098" offset="723" length="4" type="time" nom_time="2010-XX-XX">2010</filler>
+    <filler id="f-1024" source="NYT_ENG_20130504.0098" offset="782" length="6" type="crime">murder</filler>
+    <filler id="f-1175" source="NYT_ENG_20130504.0098" offset="987" length="19" type="crime">first-degree murder</filler>
+    <filler id="f-1210" source="NYT_ENG_20130504.0098" offset="1026" length="14" type="sentence">life sentences</filler>
+    <filler id="f-1643" source="NYT_ENG_20130504.0098" offset="1294" length="7" type="sentence">40-year</filler>
+    <filler id="f-1636" source="NYT_ENG_20130504.0098" offset="1453" length="7" type="sentence">15-year</filler>
+    <filler id="f-1312" source="NYT_ENG_20130504.0098" offset="1615" length="8" type="sentence">six-year</filler>
+    <filler id="f-1342" source="NYT_ENG_20130504.0098" offset="1689" length="7" type="sentence">10-year</filler>
+    <filler id="f-1369" source="NYT_ENG_20130504.0098" offset="1731" length="6" type="time" nom_time="2013-05-03">Friday</filler>
+    <filler id="f-1418" source="NYT_ENG_20130504.0098" offset="1731" length="6" type="time" nom_time="2013-05-03">Friday</filler>
+    <filler id="f-1488" source="NYT_ENG_20130504.0098" offset="2005" length="6" type="crime">murder</filler>
+    <filler id="f-1657" source="NYT_ENG_20130504.0098" offset="2221" length="4" type="time" nom_time="2013-06-XX">June</filler>
+    <filler id="f-1562" source="NYT_ENG_20130504.0098" offset="2341" length="10" type="time" nom_time="2013-05-XX">this month</filler>
+  </fillers>
+  <relations>
+    <relation id="r-796" type="personalsocial" subtype="role">
+      <relation_mention id="relm-545" realis="true">
+        <rel_arg1 entity_id="ent-86" entity_mention_id="m-80" role="per">John Trevena</rel_arg1>
+        <rel_arg2 filler_id="f-553" role="role">attorney</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-797" type="personalsocial" subtype="unspecified">
+      <relation_mention id="relm-555" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-74" role="per">her</rel_arg1>
+        <rel_arg2 entity_id="ent-86" entity_mention_id="m-539" role="per">her attorney</rel_arg2>
+        <trigger source="NYT_ENG_20130504.0098" offset="405" length="8">attorney</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-798" type="personalsocial" subtype="role">
+      <relation_mention id="relm-565" realis="true">
+        <rel_arg1 entity_id="ent-110" entity_mention_id="m-104" role="per">Christopher LaBruzzo</rel_arg1>
+        <rel_arg2 filler_id="f-573" role="role">Assistant State Attorney</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-799" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-581" realis="true">
+        <rel_arg1 entity_id="ent-170" entity_mention_id="m-164" role="suborg">St. Petersburg police</rel_arg1>
+        <rel_arg2 entity_id="ent-161" entity_mention_id="m-155" role="parent">St. Petersburg</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-800" type="generalaffiliation" subtype="personage">
+      <relation_mention id="relm-591" realis="true">
+        <rel_arg1 entity_id="ent-188" entity_mention_id="m-182" role="per">Shannon Griffin</rel_arg1>
+        <rel_arg2 filler_id="f-599" role="age">22</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-801" type="physical" subtype="locatednear">
+      <relation_mention id="relm-601" realis="true">
+        <rel_arg1 entity_id="ent-188" entity_mention_id="m-191" role="entity">who</rel_arg1>
+        <rel_arg2 entity_id="ent-203" entity_mention_id="m-197" role="loc">a vacant home just north of downtown</rel_arg2>
+        <trigger source="NYT_ENG_20130504.0098" offset="890" length="2">at</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-802" type="physical" subtype="locatednear">
+      <relation_mention id="relm-611" realis="true">
+        <rel_arg1 entity_id="ent-203" entity_mention_id="m-197" role="entity">a vacant home just north of downtown</rel_arg1>
+        <rel_arg2 entity_id="ent-221" entity_mention_id="m-215" role="loc">just north of downtown</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-803" type="physical" subtype="locatednear">
+      <relation_mention id="relm-621" realis="true">
+        <rel_arg1 entity_id="ent-221" entity_mention_id="m-215" role="entity">just north of downtown</rel_arg1>
+        <rel_arg2 entity_id="ent-212" entity_mention_id="m-206" role="loc">downtown</rel_arg2>
+        <trigger source="NYT_ENG_20130504.0098" offset="918" length="2">of</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-804" type="personalsocial" subtype="unspecified">
+      <relation_mention id="relm-631" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-263" role="per">Mee</rel_arg1>
+        <rel_arg2 entity_id="ent-275" entity_mention_id="m-269" role="per">Mee’s co-defendant</rel_arg2>
+        <trigger source="NYT_ENG_20130504.0098" offset="1222" length="5">Mee’s</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-805" type="generalaffiliation" subtype="personage">
+      <relation_mention id="relm-641" realis="true">
+        <rel_arg1 entity_id="ent-275" entity_mention_id="m-290" role="per">He</rel_arg1>
+        <rel_arg2 filler_id="f-649" role="age">22</rel_arg2>
+        <trigger source="NYT_ENG_20130504.0098" offset="1352" length="2">is</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-806" type="generalaffiliation" subtype="personage">
+      <relation_mention id="relm-660" realis="true">
+        <rel_arg1 entity_id="ent-386" entity_mention_id="m-395" role="per">Lamont Antonio Newton</rel_arg1>
+        <rel_arg2 filler_id="f-668" role="age">25</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-807" type="personalsocial" subtype="family">
+      <relation_mention id="relm-670" realis="true">
+        <rel_arg1 entity_id="ent-491" entity_mention_id="m-485" role="per">the family of one of the prosecutors</rel_arg1>
+        <rel_arg2 entity_id="ent-500" entity_mention_id="m-494" role="per">one of the prosecutors</rel_arg2>
+        <trigger source="NYT_ENG_20130504.0098" offset="2402" length="6">family</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-808" type="personalsocial" subtype="unspecified">
+      <relation_mention id="relm-680" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-515" role="per">her</rel_arg1>
+        <rel_arg2 entity_id="ent-152" entity_mention_id="m-521" role="per">her two co-defendants</rel_arg2>
+        <trigger source="NYT_ENG_20130504.0098" offset="2491" length="3">her</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-711">
+      <event_mention id="em-881" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20130504.0098" offset="276" length="7">charged</trigger>
+        <em_arg filler_id="f-906" role="crime" realis="true">first-degree murder</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-68" role="defendant" realis="true">who</em_arg>
+      </event_mention>
+      <event_mention id="em-985" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20130504.0098" offset="769" length="7">charged</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-140" role="defendant" realis="true">she</em_arg>
+        <em_arg filler_id="f-1017" role="time" realis="true">2010</em_arg>
+        <em_arg filler_id="f-1024" role="crime" realis="true">murder</em_arg>
+      </event_mention>
+      <event_mention id="em-1143" type="justice" subtype="chargeindict" realis="actual">
+        <trigger source="NYT_ENG_20130504.0098" offset="974" length="7">charged</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-224" role="defendant" realis="true">Mee</em_arg>
+        <em_arg entity_id="ent-152" entity_mention_id="m-230" role="defendant" realis="true">the others</em_arg>
+        <em_arg filler_id="f-1175" role="crime" realis="true">first-degree murder</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-944">
+      <event_mention id="em-916" type="justice" subtype="sentence" realis="other">
+        <trigger source="NYT_ENG_20130504.0098" offset="391" length="8">sentence</trigger>
+        <em_arg filler_id="f-933" role="sentence" realis="true">15-year</em_arg>
+        <em_arg entity_id="ent-8" entity_mention_id="m-68" role="defendant" realis="true">who</em_arg>
+      </event_mention>
+      <event_mention id="em-1264" type="justice" subtype="sentence" realis="other">
+        <trigger source="NYT_ENG_20130504.0098" offset="1468" length="8">sentence</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-296" role="defendant" realis="true">Mee</em_arg>
+        <em_arg filler_id="f-1636" role="sentence" realis="true">15-year</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-967">
+      <event_mention id="em-946" type="justice" subtype="arrestjail" realis="actual">
+        <trigger source="NYT_ENG_20130504.0098" offset="737" length="8">arrested</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-140" role="person" realis="true">she</em_arg>
+        <em_arg entity_id="ent-152" entity_mention_id="m-146" role="person" realis="true">two men</em_arg>
+        <em_arg filler_id="f-980" role="time" realis="true">2010</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-983">
+      <event_mention id="em-1027" type="transaction" subtype="transaction" realis="actual" ways="involuntaryforce">
+        <trigger source="NYT_ENG_20130504.0098" offset="837" length="3">rob</trigger>
+        <em_arg entity_id="ent-188" entity_mention_id="m-182" role="giver" realis="true">Shannon Griffin</em_arg>
+        <em_arg entity_id="ent-179" entity_mention_id="m-173" role="recipient" realis="true">the trio</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1076">
+      <event_mention id="em-1055" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20130504.0098" offset="876" length="4">shot</trigger>
+        <em_arg entity_id="ent-188" entity_mention_id="m-191" role="target" realis="true">who</em_arg>
+        <em_arg entity_id="ent-203" entity_mention_id="m-197" role="place" realis="true">a vacant home just north of downtown</em_arg>
+      </event_mention>
+      <event_mention id="em-1421" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20130504.0098" offset="1881" length="4">shot</trigger>
+        <em_arg entity_id="ent-386" entity_mention_id="m-401" role="attacker" realis="true">the one who actually shot Griffin</em_arg>
+        <em_arg entity_id="ent-188" entity_mention_id="m-407" role="target" realis="true">Griffin</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1078">
+      <event_mention id="em-1178" type="justice" subtype="sentence" realis="other">
+        <trigger source="NYT_ENG_20130504.0098" offset="1031" length="9">sentences</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-224" role="defendant" realis="true">Mee</em_arg>
+        <em_arg entity_id="ent-152" entity_mention_id="m-230" role="defendant" realis="true">the others</em_arg>
+        <em_arg filler_id="f-1210" role="sentence" realis="true">life sentences</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1213">
+      <event_mention id="em-1215" type="justice" subtype="releaseparole" realis="other">
+        <trigger source="NYT_ENG_20130504.0098" offset="1049" length="6">parole</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-224" role="person" realis="true">Mee</em_arg>
+        <em_arg entity_id="ent-152" entity_mention_id="m-230" role="person" realis="true">the others</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1306">
+      <event_mention id="em-1243" type="justice" subtype="sentence" realis="other">
+        <trigger source="NYT_ENG_20130504.0098" offset="1309" length="8">sentence</trigger>
+        <em_arg filler_id="f-1643" role="sentence" realis="true">40-year</em_arg>
+        <em_arg entity_id="ent-275" entity_mention_id="m-278" role="defendant" realis="true">Laron Cordale Raiford</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1315">
+      <event_mention id="em-1285" type="justice" subtype="sentence" realis="other">
+        <trigger source="NYT_ENG_20130504.0098" offset="1624" length="8">sentence</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-344" role="defendant" realis="true">Mee</em_arg>
+        <em_arg filler_id="f-1312" role="sentence" realis="true">six-year</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1373">
+      <event_mention id="em-1317" type="justice" subtype="sentence" realis="other">
+        <trigger source="NYT_ENG_20130504.0098" offset="1704" length="8">sentence</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-356" role="defendant" realis="true">Mee</em_arg>
+        <em_arg filler_id="f-1342" role="sentence" realis="true">10-year</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1375">
+      <event_mention id="em-1352" type="contact" subtype="meet" realis="actual" audience="twoway" formality="formal" medium="inperson" schedule="planned">
+        <trigger source="NYT_ENG_20130504.0098" offset="1759" length="9">testimony</trigger>
+        <em_arg filler_id="f-1369" role="time" realis="true">Friday</em_arg>
+        <em_arg entity_id="ent-368" entity_mention_id="m-362" role="entity" realis="true">attorneys</em_arg>
+        <em_arg entity_id="ent-377" entity_mention_id="m-371" role="entity" realis="true">a witness who at one point said one of the defendants, Lamont Antonio Newton, 25, was the one who actually shot Griffin</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1391">
+      <event_mention id="em-1463" type="justice" subtype="convict" realis="generic">
+        <trigger source="NYT_ENG_20130504.0098" offset="1992" length="9">convicted</trigger>
+        <em_arg entity_id="ent-434" entity_mention_id="m-428" role="defendant" realis="false">someone</em_arg>
+        <em_arg filler_id="f-1488" role="crime" realis="true">murder</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1491">
+      <event_mention id="em-1115" type="life" subtype="die" realis="actual">
+        <trigger source="NYT_ENG_20130504.0098" offset="884" length="5">death</trigger>
+        <em_arg entity_id="ent-188" entity_mention_id="m-191" role="victim" realis="true">who</em_arg>
+        <em_arg entity_id="ent-203" entity_mention_id="m-197" role="place" realis="true">a vacant home just north of downtown</em_arg>
+      </event_mention>
+      <event_mention id="em-1493" type="life" subtype="die" realis="generic">
+        <trigger source="NYT_ENG_20130504.0098" offset="2094" length="6">killed</trigger>
+        <em_arg entity_id="ent-434" entity_mention_id="m-455" role="victim" realis="true">someone</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1535">
+      <event_mention id="em-1514" type="justice" subtype="trialhearing" realis="other">
+        <trigger source="NYT_ENG_20130504.0098" offset="2226" length="5">trial</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-479" role="defendant" realis="true">Mee</em_arg>
+        <em_arg filler_id="f-1657" role="time" realis="true">June</em_arg>
+      </event_mention>
+      <event_mention id="em-1537" type="justice" subtype="trialhearing" realis="other">
+        <trigger source="NYT_ENG_20130504.0098" offset="2306" length="5">trial</trigger>
+        <em_arg filler_id="f-1562" role="time" realis="true">this month</em_arg>
+      </event_mention>
+      <event_mention id="em-1565" type="justice" subtype="trialhearing" realis="other">
+        <trigger source="NYT_ENG_20130504.0098" offset="2451" length="5">trial</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-509" role="defendant" realis="true">Mee</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1607">
+      <event_mention id="em-1586" type="justice" subtype="trialhearing" realis="other">
+        <trigger source="NYT_ENG_20130504.0098" offset="2451" length="5">trial</trigger>
+        <em_arg entity_id="ent-152" entity_mention_id="m-521" role="defendant" realis="true">her two co-defendants</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1630">
+      <event_mention id="em-1609" type="contact" subtype="meet" realis="actual" audience="twoway" formality="formal" medium="inperson" schedule="planned">
+        <trigger source="NYT_ENG_20130504.0098" offset="427" length="4">said</trigger>
+        <em_arg entity_id="ent-86" entity_mention_id="m-80" role="entity" realis="true">John Trevena</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1667">
+      <event_mention id="em-1393" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="NYT_ENG_20130504.0098" offset="1759" length="9">testimony</trigger>
+        <em_arg filler_id="f-1418" role="time" realis="true">Friday</em_arg>
+        <em_arg entity_id="ent-386" entity_mention_id="m-380" role="defendant" realis="true">one of the defendants</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

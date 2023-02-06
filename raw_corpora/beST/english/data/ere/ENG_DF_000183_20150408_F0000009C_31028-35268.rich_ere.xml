@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="568eb23c0000000000000022" doc_id="ENG_DF_000183_20150408_F0000009C_31028-35268" source_type="multi_post">
+  <entities>
+    <entity id="ent-NIL00135" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_93" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="34960" length="7">
+        <mention_text>Skinner</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.05pdb7q" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_99" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="31337" length="7">
+        <mention_text>Paulbot</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.01czt9" type="GPE" specificity="specific">
+      <entity_mention id="m-568eb23c_22_105" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="34150" length="8">
+        <mention_text>Benghazi</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.07wbk" type="ORG" specificity="specific">
+      <entity_mention id="m-568eb23c_22_111" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="34202" length="3">
+        <mention_text>GOP</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.0d075m" type="ORG" specificity="specific">
+      <entity_mention id="m-568eb23c_22_117" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="32557" length="16">
+        <mention_text>Democratic party</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_378" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="31139" length="19">
+        <mention_text>Democratsratfuckers</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="31139" length="19">Democratsratfuckers</nom_head>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_624" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="33211" length="3">
+        <mention_text>Dem</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_636" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="33273" length="5">
+        <mention_text>party</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="33273" length="5">party</nom_head>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_642" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="33321" length="8">
+        <mention_text>Democrat</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.0d06m5" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_123" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="31307" length="7">
+        <mention_text>Clinton</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_129" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="31463" length="7">
+        <mention_text>Clinton</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_135" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="31676" length="7">
+        <mention_text>Hillary</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_141" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="31822" length="7">
+        <mention_text>Hillary</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_147" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="32103" length="7">
+        <mention_text>Hillary</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_153" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="32276" length="7">
+        <mention_text>Hillary</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_159" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="32894" length="7">
+        <mention_text>Hillary</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_165" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="33226" length="7">
+        <mention_text>Hillary</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_171" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="33292" length="7">
+        <mention_text>Hillary</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_177" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="33497" length="7">
+        <mention_text>Hillary</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_183" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="33557" length="7">
+        <mention_text>Hillary</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_189" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="34434" length="7">
+        <mention_text>Hillary</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_195" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="34606" length="7">
+        <mention_text>Hillary</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_201" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="34645" length="15">
+        <mention_text>Hillary Clinton</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_207" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="34742" length="7">
+        <mention_text>Hillary</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_261" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="32447" length="3">
+        <mention_text>HRC</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_267" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="34098" length="3">
+        <mention_text>HRC</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_456" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="31887" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_462" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="31952" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_513" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="32459" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_537" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="32507" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_729" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="34143" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_747" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="34237" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_753" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="34244" length="3">
+        <mention_text>her</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_774" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="34358" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_828" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="34941" length="3">
+        <mention_text>she</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.0d3qd0" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_213" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="34548" length="5">
+        <mention_text>Kerry</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_807" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="34584" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.01_gbv" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_219" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="31374" length="7">
+        <mention_text>Sanders</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.02yy8" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_225" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="31135" length="3">
+        <mention_text>FDR</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.02dwm8" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_231" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="34121" length="9">
+        <mention_text>any DUers</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="34125" length="5">DUers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.0157m" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_243" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="34425" length="4">
+        <mention_text>Bill</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_249" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="34501" length="4">
+        <mention_text>Bill</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_255" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="34799" length="4">
+        <mention_text>Bill</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.03k_f" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_273" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="34397" length="9">
+        <mention_text>Kissinger</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.080kq" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_279" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="34160" length="6">
+        <mention_text>Foster</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.09b6zr" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_285" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="31982" length="5">
+        <mention_text>Dubya</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_291" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="34514" length="4">
+        <mention_text>Bish</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-m.01qh39" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_297" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="31588" length="6">
+        <mention_text>Warren</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_303" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="31637" length="6">
+        <mention_text>Warren</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL00818" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_309" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="34015" length="9">
+        <mention_text>mylye2222</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_723" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="34106" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_735" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="34211" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_813" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="34714" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL00849" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_315" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="31051" length="14">
+        <mention_text>MannyGoldstein</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL00850" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_321" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="31208" length="9">
+        <mention_text>Scootaloo</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_387" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="31283" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_393" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="31335" length="9">
+        <mention_text>a Paulbot</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="31337" length="7">Paulbot</nom_head>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_399" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="31395" length="17">
+        <mention_text>an "idiot leftist</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="31405" length="7">leftist</nom_head>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_405" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="31418" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_867" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="31392" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_1670" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="31332" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL00851" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_327" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="31514" length="12">
+        <mention_text>Art_from_Ark</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL00852" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_333" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="32019" length="9">
+        <mention_text>hobbit709</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL00853" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_339" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="32159" length="10">
+        <mention_text>guillaumeb</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_483" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="32220" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_504" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="32423" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_531" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="32479" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_543" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="32521" length="2">
+        <mention_text>my</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_558" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="32591" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL00854" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_345" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="32720" length="11">
+        <mention_text>daredtowork</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL00855" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_351" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="33917" length="10">
+        <mention_text>Scurrilous</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL00856" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_357" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="34883" length="9">
+        <mention_text>freshwest</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-NIL00857" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_363" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="35036" length="17">
+        <mention_text>Warren DeMontague</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_852" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="35172" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_375" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_369" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="31135" length="23">
+        <mention_text>FDR Democratsratfuckers</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="31139" length="19">Democratsratfuckers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_417" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_411" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="31463" length="18">
+        <mention_text>Clinton supporters</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="31471" length="10">supporters</nom_head>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_570" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="32894" length="18">
+        <mention_text>Hillary supporters</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="32902" length="10">supporters</nom_head>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_582" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="32996" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_630" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="33226" length="18">
+        <mention_text>Hillary supporters</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="33234" length="10">supporters</nom_head>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_648" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="33361" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_654" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="33407" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_660" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="33553" length="22">
+        <mention_text>you Hillary supporters</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="33565" length="10">supporters</nom_head>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_666" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="33598" length="10">
+        <mention_text>yourselves</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_672" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="33614" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_678" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="33631" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_693" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="33668" length="2">
+        <mention_text>us</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_705" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="33742" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_711" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="33786" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_717" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="33807" length="4">
+        <mention_text>your</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_1664" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="33697" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_426" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_840" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="34977" length="2">
+        <mention_text>us</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_429" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_447" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="31713" length="17">
+        <mention_text>our own candidate</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="31721" length="9">candidate</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_432" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_468" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="31945" length="20">
+        <mention_text>all of her opponents</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="31956" length="9">opponents</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_453" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_420" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="31662" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_435" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="31685" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_441" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="31713" length="3">
+        <mention_text>our</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_741" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="34224" length="2">
+        <mention_text>We</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_768" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="34315" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_480" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_489" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="32248" length="10">
+        <mention_text>operatives</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="32248" length="10">operatives</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_501" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_495" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="32276" length="17">
+        <mention_text>Hillary operative</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="32284" length="9">operative</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_510" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_519" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="32432" length="18">
+        <mention_text>a supporter of HRC</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="32434" length="9">supporter</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_525" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_549" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="32539" length="45">
+        <mention_text>whomever else the Democratic party decides on</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="32539" length="8">whomever</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_528" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_564" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="32821" length="11">
+        <mention_text>paid shills</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="32826" length="6">shills</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_555" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_588" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="33022" length="2">
+        <mention_text>rw</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="33022" length="2">rw</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_594" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_597" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="33013" length="7">
+        <mention_text>freeper</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="33013" length="7">freeper</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_609" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_603" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="33022" length="8">
+        <mention_text>rw troll</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="33025" length="5">troll</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_618" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_612" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="33032" length="20">
+        <mention_text>conspiracy theorists</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="33043" length="9">theorists</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_621" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_684" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="33657" length="3">
+        <mention_text>you</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_690" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_1652" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="33690" length="3">
+        <mention_text>Who</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_765" type="PER" specificity="specific">
+      <entity_mention id="m-568eb23c_22_795" noun_type="PRO" source="ENG_DF_000183_20150408_F0000009C" offset="34465" length="10">
+        <mention_text>themselves</mention_text>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_801" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="34562" length="13">
+        <mention_text>both Clintons</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="34567" length="8">Clintons</nom_head>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_1658" noun_type="NAM" source="ENG_DF_000183_20150408_F0000009C" offset="34273" length="8">
+        <mention_text>Clintons</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_786" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_780" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="34380" length="8">
+        <mention_text>criminal</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="34380" length="8">criminal</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_789" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_819" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="34778" length="5">
+        <mention_text>women</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="34778" length="5">women</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_792" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_834" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="34948" length="11">
+        <mention_text>the nominee</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="34952" length="7">nominee</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_825" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_846" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="35091" length="7">
+        <mention_text>Posters</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="35091" length="7">Posters</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_864" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_858" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="35214" length="15">
+        <mention_text>some folks here</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="35219" length="5">folks</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_1628" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_474" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="32085" length="25">
+        <mention_text>people opposed to Hillary</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="32085" length="6">people</nom_head>
+      </entity_mention>
+      <entity_mention id="m-568eb23c_22_576" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="32950" length="61">
+        <mention_text>people who refrain from getting on board with their bandwagon</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="32950" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-568eb23c_22_1682" type="PER" specificity="nonspecific">
+      <entity_mention id="m-568eb23c_22_1676" noun_type="NOM" source="ENG_DF_000183_20150408_F0000009C" offset="33312" length="25">
+        <mention_text>not even Democrat" fringe</mention_text>
+        <nom_head source="ENG_DF_000183_20150408_F0000009C" offset="33331" length="6">fringe</nom_head>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-568eb23c_22_881" source="ENG_DF_000183_20150408_F0000009C" offset="32284" length="9" type="title">operative</filler>
+    <filler id="f-568eb23c_22_1713" source="ENG_DF_000183_20150408_F0000009C" offset="34841" length="9" type="title">President</filler>
+    <filler id="f-568eb23c_22_1802" source="ENG_DF_000183_20150408_F0000009C" offset="34952" length="7" type="title">nominee</filler>
+    <filler id="f-568eb23c_22_1812" source="ENG_DF_000183_20150408_F0000009C" offset="34952" length="7" type="title">nominee</filler>
+    <filler id="f-568eb23c_22_1719" source="ENG_DF_000183_20150408_F0000009C" offset="31915" length="12" type="title">presidential</filler>
+    <filler id="f-568eb23c_22_1575" source="ENG_DF_000183_20150408_F0000009C" offset="34496" length="4" type="time" nom_time="2004-XX-XX">2004</filler>
+  </fillers>
+  <relations>
+    <relation id="r-189" type="personalsocial" subtype="role">
+      <relation_mention id="relm-568eb23c_22_873" realis="true">
+        <rel_arg1 entity_id="ent-568eb23c_22_501" entity_mention_id="m-568eb23c_22_495" role="per">Hillary operative</rel_arg1>
+        <rel_arg2 filler_id="f-568eb23c_22_881" role="role">operative</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-190" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-568eb23c_22_1685" realis="true">
+        <rel_arg1 entity_id="ent-568eb23c_22_375" entity_mention_id="m-568eb23c_22_369" role="employeemember">FDR Democratsratfuckers</rel_arg1>
+        <rel_arg2 entity_id="ent-m.0d075m" entity_mention_id="m-568eb23c_22_378" role="org">Democratsratfuckers</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-191" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-568eb23c_22_1695" realis="true">
+        <rel_arg1 entity_id="ent-568eb23c_22_525" entity_mention_id="m-568eb23c_22_549" role="employeemember">whomever else the Democratic party decides on</rel_arg1>
+        <rel_arg2 entity_id="ent-m.0d075m" entity_mention_id="m-568eb23c_22_117" role="org">Democratic party</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-192" type="personalsocial" subtype="role">
+      <relation_mention id="relm-568eb23c_22_1705" realis="true">
+        <rel_arg1 entity_id="ent-m.0157m" entity_mention_id="m-568eb23c_22_255" role="per">Bill</rel_arg1>
+        <rel_arg2 filler_id="f-568eb23c_22_1713" role="role">President</rel_arg2>
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="34838" length="2">as</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-193" type="personalsocial" subtype="role">
+      <relation_mention id="relm-568eb23c_22_1794" realis="false">
+        <rel_arg1 entity_id="ent-m.0d06m5" entity_mention_id="m-568eb23c_22_828" role="per">she</rel_arg1>
+        <rel_arg2 filler_id="f-568eb23c_22_1802" role="role">nominee</rel_arg2>
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="34945" length="2">is</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-194" type="personalsocial" subtype="role">
+      <relation_mention id="relm-568eb23c_22_1804" realis="true">
+        <rel_arg1 entity_id="ent-568eb23c_22_792" entity_mention_id="m-568eb23c_22_834" role="per">the nominee</rel_arg1>
+        <rel_arg2 filler_id="f-568eb23c_22_1812" role="role">nominee</rel_arg2>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-568eb23c_22_16">
+      <event_mention id="em-568eb23c_22_893" type="contact" subtype="correspondence" realis="generic" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="31127" length="7">calling</trigger>
+        <em_arg entity_id="ent-568eb23c_22_375" entity_mention_id="m-568eb23c_22_369" role="entity" realis="true">FDR Democratsratfuckers</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_22_935">
+      <event_mention id="em-568eb23c_22_914" type="contact" subtype="correspondence" realis="actual" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="31273" length="4">told</trigger>
+        <em_arg entity_id="ent-NIL00850" entity_mention_id="m-568eb23c_22_387" role="entity" realis="true">my</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_22_988">
+      <event_mention id="em-568eb23c_22_960" type="transaction" subtype="transfermoney" realis="other" ways="voluntary">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="31706" length="4">fund</trigger>
+        <em_arg entity_id="ent-568eb23c_22_453" entity_mention_id="m-568eb23c_22_435" role="giver" realis="true">we</em_arg>
+        <em_arg entity_id="ent-568eb23c_22_429" entity_mention_id="m-568eb23c_22_447" role="beneficiary" realis="true">our own candidate</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_22_1036">
+      <event_mention id="em-568eb23c_22_1042" type="personnel" subtype="elect" realis="other">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="31928" length="8">election</trigger>
+        <em_arg entity_id="ent-m.0d06m5" entity_mention_id="m-568eb23c_22_456" role="person" realis="true">she</em_arg>
+        <em_arg filler_id="f-568eb23c_22_1719" role="position" realis="true">presidential</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_22_1040">
+      <event_mention id="em-568eb23c_22_1105" type="contact" subtype="correspondence" realis="actual" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="32222" length="5">wrote</trigger>
+        <em_arg entity_id="ent-NIL00853" entity_mention_id="m-568eb23c_22_483" role="entity" realis="true">I</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_22_1149">
+      <event_mention id="em-568eb23c_22_1153" type="personnel" subtype="elect" realis="other">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="32498" length="8">election</trigger>
+        <em_arg entity_id="ent-m.0d06m5" entity_mention_id="m-568eb23c_22_513" role="person" realis="true">she</em_arg>
+      </event_mention>
+      <event_mention id="em-568eb23c_22_1736" type="personnel" subtype="elect" realis="other">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="32524" length="4">vote</trigger>
+        <em_arg entity_id="ent-NIL00853" entity_mention_id="m-568eb23c_22_543" role="agent" realis="true">my</em_arg>
+        <em_arg entity_id="ent-m.0d06m5" entity_mention_id="m-568eb23c_22_537" role="person" realis="true">she</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_22_1260">
+      <event_mention id="em-568eb23c_22_1239" type="contact" subtype="correspondence" realis="generic" audience="twoway" formality="formal" medium="notinperson" schedule="planned">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="32792" length="5">posts</trigger>
+        <em_arg entity_id="ent-568eb23c_22_528" entity_mention_id="m-568eb23c_22_564" role="entity" realis="true">paid shills</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_22_1283">
+      <event_mention id="em-568eb23c_22_1262" type="transaction" subtype="transfermoney" realis="generic" ways="voluntary">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="32821" length="4">paid</trigger>
+        <em_arg entity_id="ent-568eb23c_22_528" entity_mention_id="m-568eb23c_22_564" role="recipient" realis="true">paid shills</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_22_1287">
+      <event_mention id="em-568eb23c_22_1063" type="contact" subtype="correspondence" realis="generic" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="32115" length="6">called</trigger>
+        <em_arg entity_id="ent-568eb23c_22_1628" entity_mention_id="m-568eb23c_22_474" role="entity" realis="true">people opposed to Hillary</em_arg>
+      </event_mention>
+      <event_mention id="em-568eb23c_22_1310" type="contact" subtype="correspondence" realis="generic" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="32924" length="4">heap</trigger>
+        <em_arg entity_id="ent-568eb23c_22_417" entity_mention_id="m-568eb23c_22_570" role="entity" realis="true">Hillary supporters</em_arg>
+        <em_arg entity_id="ent-568eb23c_22_1628" entity_mention_id="m-568eb23c_22_576" role="entity" realis="true">people who refrain from getting on board with their bandwagon</em_arg>
+      </event_mention>
+      <event_mention id="em-568eb23c_22_1338" type="contact" subtype="correspondence" realis="generic" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="33130" length="9">onslaught</trigger>
+        <em_arg entity_id="ent-568eb23c_22_417" entity_mention_id="m-568eb23c_22_630" role="entity" realis="true">Hillary supporters</em_arg>
+      </event_mention>
+      <event_mention id="em-568eb23c_22_1412" type="contact" subtype="correspondence" realis="generic" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="33812" length="12">name-calling</trigger>
+        <em_arg entity_id="ent-568eb23c_22_417" entity_mention_id="m-568eb23c_22_717" role="entity" realis="true">your</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_22_1387">
+      <event_mention id="em-568eb23c_22_1359" type="contact" subtype="correspondence" realis="generic" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="33661" length="6">called</trigger>
+        <em_arg entity_id="ent-568eb23c_22_621" entity_mention_id="m-568eb23c_22_684" role="entity" realis="true">you</em_arg>
+        <em_arg entity_id="ent-568eb23c_22_417" entity_mention_id="m-568eb23c_22_693" role="entity" realis="true">us</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_22_1456">
+      <event_mention id="em-568eb23c_22_1435" type="contact" subtype="correspondence" realis="generic" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="33865" length="6">called</trigger>
+        <em_arg entity_id="ent-568eb23c_22_417" entity_mention_id="m-568eb23c_22_717" role="entity" realis="true">your</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_22_1502">
+      <event_mention id="em-568eb23c_22_1481" type="contact" subtype="correspondence" realis="generic" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="34131" length="11">criticizing</trigger>
+        <em_arg entity_id="ent-m.02dwm8" entity_mention_id="m-568eb23c_22_231" role="entity" realis="true">any DUers</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_22_1525">
+      <event_mention id="em-568eb23c_22_1504" type="contact" subtype="correspondence" realis="generic" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="34227" length="9">critocize</trigger>
+        <em_arg entity_id="ent-568eb23c_22_453" entity_mention_id="m-568eb23c_22_741" role="entity" realis="true">We</em_arg>
+      </event_mention>
+      <event_mention id="em-568eb23c_22_1529" type="contact" subtype="correspondence" realis="generic" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="34318" length="5">state</trigger>
+        <em_arg entity_id="ent-568eb23c_22_453" entity_mention_id="m-568eb23c_22_768" role="entity" realis="true">we</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_22_1578">
+      <event_mention id="em-568eb23c_22_1550" type="contact" subtype="contact" realis="actual" audience="canttell" formality="formal" medium="canttell" schedule="planned">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="34506" length="7">praised</trigger>
+        <em_arg entity_id="ent-m.0157m" entity_mention_id="m-568eb23c_22_249" role="entity" realis="true">Bill</em_arg>
+        <em_arg filler_id="f-568eb23c_22_1575" role="time" realis="true">2004</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_22_1601">
+      <event_mention id="em-568eb23c_22_1580" type="personnel" subtype="nominate" realis="other">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="34952" length="7">nominee</trigger>
+        <em_arg entity_id="ent-m.0d06m5" entity_mention_id="m-568eb23c_22_828" role="person" realis="true">she</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_22_1624">
+      <event_mention id="em-568eb23c_22_1631" type="contact" subtype="correspondence" realis="generic" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="35250" length="3">add</trigger>
+        <em_arg entity_id="ent-568eb23c_22_864" entity_mention_id="m-568eb23c_22_858" role="entity" realis="true">some folks here</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_22_1626">
+      <event_mention id="em-568eb23c_22_1603" type="contact" subtype="correspondence" realis="generic" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="35103" length="6">called</trigger>
+        <em_arg entity_id="ent-568eb23c_22_825" entity_mention_id="m-568eb23c_22_846" role="entity" realis="true">Posters</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_22_1792">
+      <event_mention id="em-568eb23c_22_1764" type="personnel" subtype="nominate" realis="other">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="32574" length="10">decides on</trigger>
+        <em_arg entity_id="ent-m.0d075m" entity_mention_id="m-568eb23c_22_117" role="agent" realis="true">Democratic party</em_arg>
+        <em_arg entity_id="ent-568eb23c_22_525" entity_mention_id="m-568eb23c_22_549" role="person" realis="true">whomever else the Democratic party decides on</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-568eb23c_22_1835">
+      <event_mention id="em-568eb23c_22_1814" type="contact" subtype="correspondence" realis="generic" audience="twoway" formality="informal" medium="notinperson" schedule="spontaneous">
+        <trigger source="ENG_DF_000183_20150408_F0000009C" offset="35091" length="7">Posters</trigger>
+        <em_arg entity_id="ent-568eb23c_22_825" entity_mention_id="m-568eb23c_22_846" role="entity" realis="true">Posters</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56fc40af0000000000000091">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-296">
+        <trigger offset="118" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-95" offset="315" length="7">a judge</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-306">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-95" offset="315" length="7">a judge</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-325">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-335">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-185" offset="658" length="22">Ansarullah Mawlavezada</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-345">
+        <trigger offset="595" length="6">family</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-185" offset="658" length="22">Ansarullah Mawlavezada</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-364">
+        <trigger offset="628" length="9">Christian</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-161" offset="591" length="10">his family</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-185" offset="658" length="22">Ansarullah Mawlavezada</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-374">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-384">
+        <trigger offset="1265" length="6">Afghan</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-272" offset="1227" length="3">CBC</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-245" offset="1175" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-960">
+        <trigger offset="488" length="7">Islamic</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-398">
+        <trigger offset="82" length="5">death</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-47" offset="66" length="6">
+            <text>Afghan</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-558">
+        <trigger offset="196" length="5">death</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-95" offset="315" length="7">a judge</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-56" offset="112" length="20">
+            <text>A man in Afghanistan</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-95" offset="315" length="7">a judge</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-62" offset="121" length="11">
+            <text>Afghanistan</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-95" offset="315" length="7">a judge</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-426">
+        <trigger offset="82" length="5">death</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-47" offset="66" length="6">
+            <text>Afghan</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-451" offset="100" length="10">
+            <text>conversion</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-593">
+        <trigger offset="196" length="5">death</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-95" offset="315" length="7">a judge</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-71" offset="156" length="13">
+            <text>a Kabul court</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-95" offset="315" length="7">a judge</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-56" offset="112" length="20">
+            <text>A man in Afghanistan</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-95" offset="315" length="7">a judge</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-625" offset="227" length="37">
+            <text>converting from Islam to Christianity</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-95" offset="315" length="7">a judge</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-62" offset="121" length="11">
+            <text>Afghanistan</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-95" offset="315" length="7">a judge</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-456">
+        <trigger offset="142" length="10">prosecuted</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-95" offset="315" length="7">a judge</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-56" offset="112" length="20">
+            <text>A man in Afghanistan</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-95" offset="315" length="7">a judge</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-71" offset="156" length="13">
+            <text>a Kabul court</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-95" offset="315" length="7">a judge</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-89" offset="280" length="11">
+            <text>the country</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-95" offset="315" length="7">a judge</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-495" offset="227" length="37">
+            <text>converting from Islam to Christianity</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-95" offset="315" length="7">a judge</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-686">
+        <trigger offset="341" length="5">trial</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-137" offset="528" length="13">
+            <text>The defendant</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-714">
+        <trigger offset="727" length="5">trial</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-197" offset="723" length="3">
+            <text>His</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-739" offset="741" length="8">
+            <text>Thursday</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-779">
+        <trigger offset="1349" length="5">trial</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-272" offset="1227" length="3">CBC</source>
+          </belief>
+          <belief type="rob" polarity="neg" sarcasm="no">
+            <source ere_id="m-245" offset="1175" length="7">Setanta</source>
+          </belief>
+          <belief type="rob" polarity="neg" sarcasm="no">
+            <source ere_id="m-263" offset="1262" length="20">an Afghan prosecutor</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-290" offset="1293" length="7">
+            <text>the man</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-272" offset="1227" length="3">CBC</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-245" offset="1175" length="7">Setanta</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-263" offset="1262" length="20">an Afghan prosecutor</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-507">
+        <trigger offset="183" length="9">sentenced</trigger>
+        <beliefs>
+          <belief type="ncb" polarity="pos" sarcasm="no">
+            <source ere_id="m-95" offset="315" length="7">a judge</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-56" offset="112" length="20">
+            <text>A man in Afghanistan</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-95" offset="315" length="7">a judge</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-71" offset="156" length="13">
+            <text>a Kabul court</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-95" offset="315" length="7">a judge</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-539" offset="196" length="5">
+            <text>death</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-95" offset="315" length="7">a judge</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-546" offset="227" length="37">
+            <text>converting from Islam to Christianity</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-95" offset="315" length="7">a judge</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-143" offset="158" length="5">
+            <text>Kabul</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-95" offset="315" length="7">a judge</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-635">
+        <trigger offset="214" length="7">charged</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-95" offset="315" length="7">a judge</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-56" offset="112" length="20">
+            <text>A man in Afghanistan</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-95" offset="315" length="7">a judge</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-71" offset="156" length="13">
+            <text>a Kabul court</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-95" offset="315" length="7">a judge</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-89" offset="280" length="11">
+            <text>the country</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-95" offset="315" length="7">a judge</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-674" offset="227" length="37">
+            <text>converting from Islam to Christianity</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-95" offset="315" length="7">a judge</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-62" offset="121" length="11">
+            <text>Afghanistan</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-95" offset="315" length="7">a judge</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-865">
+        <trigger offset="693" length="7">charged</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-191" offset="682" length="6">
+            <text>Rahman</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-890" offset="706" length="15">
+            <text>rejecting Islam</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-742">
+        <trigger offset="565" length="8">arrested</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-185" offset="658" length="22">Ansarullah Mawlavezada</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-149" offset="543" length="12">
+            <text>Abdul Rahman</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-185" offset="658" length="22">Ansarullah Mawlavezada</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-767" offset="574" length="10">
+            <text>last month</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-185" offset="658" length="22">Ansarullah Mawlavezada</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-774" offset="617" length="20">
+            <text>becoming a Christian</text>
+            <beliefs>
+              <belief type="ncb" polarity="pos" sarcasm="no">
+                <source ere_id="m-161" offset="591" length="10">his family</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-185" offset="658" length="22">Ansarullah Mawlavezada</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-835">
+        <trigger offset="1231" length="5">radio</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-245" offset="1175" length="7">Setanta</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-278" offset="1251" length="3">
+            <text>the</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-245" offset="1175" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-860" offset="1237" length="12">
+            <text>this morning</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-245" offset="1175" length="7">Setanta</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-893">
+        <trigger offset="323" length="4">said</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-95" offset="315" length="7">
+            <text>a judge</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-930" offset="328" length="6">
+            <text>Sunday</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-41" offset="14" length="10">Anonymouse</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-41" offset="14" length="10">
+        <text>Anonymouse</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-212" offset="991" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-203" offset="924" length="9">neologist</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-47" offset="66" length="6">
+        <text>Afghan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-56" offset="112" length="20">
+        <text>A man in Afghanistan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-137" offset="528" length="13">
+        <text>The defendant</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-149" offset="543" length="12">
+        <text>Abdul Rahman</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-155" offset="591" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-170" offset="610" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-191" offset="682" length="6">
+        <text>Rahman</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-197" offset="723" length="3">
+        <text>His</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-290" offset="1293" length="7">
+        <text>the man</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-62" offset="121" length="11">
+        <text>Afghanistan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-89" offset="280" length="11">
+        <text>the country</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-122" offset="448" length="4">
+        <text>here</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-284" offset="1265" length="6">
+        <text>Afghan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-71" offset="156" length="13">
+        <text>a Kabul court</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-143" offset="158" length="5">
+        <text>Kabul</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-95" offset="315" length="7">
+        <text>a judge</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-185" offset="658" length="22">
+        <text>Ansarullah Mawlavezada</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-104" offset="377" length="23">
+        <text>religious conservatives</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-113" offset="405" length="10">
+        <text>reformists</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-128" offset="511" length="7">
+        <text>Taliban</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-161" offset="591" length="10">
+        <text>his family</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-176" offset="626" length="11">
+        <text>a Christian</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-203" offset="924" length="9">
+        <text>neologist</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-218" offset="1000" length="7">
+        <text>Brandon</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-227" offset="1044" length="6">
+        <text>peterW</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-236" offset="1097" length="6">
+        <text>anyone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-245" offset="1175" length="7">
+        <text>Setanta</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-272" offset="1227" length="3">
+        <text>CBC</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-278" offset="1251" length="3">
+        <text>the</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-263" offset="1262" length="20">
+        <text>an Afghan prosecutor</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-316" offset="484" length="41">
+        <text>the Islamic fundamentalist Taliban regime</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-355" offset="628" length="9">
+        <text>Christian</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-933" offset="294" length="7">
+        <text>Islamic</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-942" offset="432" length="5">
+        <text>Islam</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-948" offset="488" length="7">
+        <text>Islamic</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-954" offset="716" length="5">
+        <text>Islam</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-296">
+        <trigger offset="118" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-306">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-325">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-335">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-345">
+        <trigger offset="595" length="6">family</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-364">
+        <trigger offset="628" length="9">Christian</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-161" offset="591" length="10">his family</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-374">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-384">
+        <trigger offset="1265" length="6">Afghan</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-960">
+        <trigger offset="488" length="7">Islamic</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-398">
+        <trigger offset="82" length="5">death</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-558">
+        <trigger offset="196" length="5">death</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-426">
+        <trigger offset="82" length="5">death</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-593">
+        <trigger offset="196" length="5">death</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-456">
+        <trigger offset="142" length="10">prosecuted</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-686">
+        <trigger offset="341" length="5">trial</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-714">
+        <trigger offset="727" length="5">trial</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-779">
+        <trigger offset="1349" length="5">trial</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-507">
+        <trigger offset="183" length="9">sentenced</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-635">
+        <trigger offset="214" length="7">charged</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-865">
+        <trigger offset="693" length="7">charged</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-742">
+        <trigger offset="565" length="8">arrested</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-835">
+        <trigger offset="1231" length="5">radio</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-893">
+        <trigger offset="323" length="4">said</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

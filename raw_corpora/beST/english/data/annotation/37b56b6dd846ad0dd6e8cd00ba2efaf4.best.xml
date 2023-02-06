@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56fc40370000000000000058">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-171">
+        <trigger offset="186" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="7">showmet</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-181">
+        <trigger offset="232" length="7">through</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="7">showmet</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-191">
+        <trigger offset="261" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="7">showmet</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-201">
+        <trigger offset="329" length="7">heading</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="7">showmet</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-211">
+        <trigger offset="371" length="6">across</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="7">showmet</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-221">
+        <trigger offset="433" length="6">French</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-97" offset="394" length="2">He</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="7">showmet</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-231">
+        <trigger offset="456" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="7">showmet</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-276">
+        <trigger offset="82" length="3">ask</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="7">showmet</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-19" offset="63" length="1">
+            <text>I</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="7">showmet</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-297">
+        <trigger offset="224" length="7">travels</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="7">showmet</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-49" offset="220" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="7">showmet</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-55" offset="240" length="6">
+            <text>Europe</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="7">showmet</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-392">
+        <trigger offset="507" length="4">lift</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-13" offset="14" length="7">showmet</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-118" offset="422" length="29">
+            <text>any of you French hipforumers</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-13" offset="14" length="7">showmet</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-142" offset="501" length="3">
+            <text>him</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-13" offset="14" length="7">showmet</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-355">
+        <trigger offset="402" length="6">texted</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="7">showmet</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-97" offset="394" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="7">showmet</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-103" offset="409" length="2">
+            <text>me</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="7">showmet</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-387" offset="397" length="4">
+            <text>just</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="7">showmet</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-325">
+        <trigger offset="329" length="7">heading</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="7">showmet</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-88" offset="382" length="9">
+            <text>Pyrennees</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="7">showmet</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-420">
+        <trigger offset="285" length="7">heading</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="7">showmet</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-64" offset="248" length="2">
+            <text>He</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="7">showmet</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-445" offset="316" length="10">
+            <text>December 7</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-13" offset="14" length="7">showmet</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-450">
+        <trigger offset="584" length="12">get in touch</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-13" offset="14" length="7">showmet</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-148" offset="527" length="6">
+            <text>anyone</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-154" offset="557" length="19">
+            <text>a fellow hipforumer</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-13" offset="14" length="7">showmet</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-13" offset="14" length="7">
+        <text>showmet</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-19" offset="63" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-103" offset="409" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-25" offset="155" length="10">
+        <text>smartie.uk</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-34" offset="170" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-49" offset="220" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-64" offset="248" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-97" offset="394" length="2">
+        <text>He</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-142" offset="501" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-154" offset="557" length="19">
+        <text>a fellow hipforumer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-40" offset="189" length="9">
+        <text>Angouleme</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-136" offset="459" length="8">
+        <text>the area</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-55" offset="240" length="6">
+        <text>Europe</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-70" offset="264" length="8">
+        <text>a hostel</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-79" offset="365" length="5">
+        <text>Spain</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-88" offset="382" length="9">
+        <text>Pyrennees</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-109" offset="429" length="22">
+        <text>you French hipforumers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-118" offset="422" length="29">
+        <text>any of you French hipforumers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-148" offset="527" length="6">
+        <text>anyone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-160" offset="674" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-127" offset="433" length="6">
+        <text>French</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-251" offset="440" length="11">
+        <text>hipforumers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-260" offset="566" length="10">
+        <text>hipforumer</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-171">
+        <trigger offset="186" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-181">
+        <trigger offset="232" length="7">through</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-191">
+        <trigger offset="261" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-201">
+        <trigger offset="329" length="7">heading</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-211">
+        <trigger offset="371" length="6">across</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-221">
+        <trigger offset="433" length="6">French</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-231">
+        <trigger offset="456" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-276">
+        <trigger offset="82" length="3">ask</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-297">
+        <trigger offset="224" length="7">travels</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-392">
+        <trigger offset="507" length="4">lift</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-355">
+        <trigger offset="402" length="6">texted</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-325">
+        <trigger offset="329" length="7">heading</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-420">
+        <trigger offset="285" length="7">heading</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-450">
+        <trigger offset="584" length="12">get in touch</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="5515d9b10000000000000001" doc_id="NYT_ENG_20130716.0217" source_type="newswire">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-41" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="172" length="11">
+        <mention_text>PROSECUTORS</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="172" length="11">PROSECUTORS</nom_head>
+      </entity_mention>
+      <entity_mention id="m-107" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="405" length="17">
+        <mention_text>State prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="411" length="11">prosecutors</nom_head>
+      </entity_mention>
+      <entity_mention id="m-302" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="1490" length="24">
+        <mention_text>a team of 90 prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="1492" length="4">team</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-53" type="FAC" specificity="specific">
+      <entity_mention id="m-47" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="189" length="37">
+        <mention_text>HOME OF FORMER SOUTH KOREAN PRESIDENT</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="189" length="4">HOME</nom_head>
+      </entity_mention>
+      <entity_mention id="m-113" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="457" length="19">
+        <mention_text>the Seoul residence</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="467" length="9">residence</nom_head>
+      </entity_mention>
+      <entity_mention id="m-335" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="1565" length="11">
+        <mention_text>Chun’s home</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="1572" length="4">home</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-62" type="PER" specificity="specific">
+      <entity_mention id="m-56" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="197" length="29">
+        <mention_text>FORMER SOUTH KOREAN PRESIDENT</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="217" length="9">PRESIDENT</nom_head>
+      </entity_mention>
+      <entity_mention id="m-125" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="497" length="13">
+        <mention_text>Chun Doo-hwan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-131" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="544" length="110">
+        <mention_text>the ex-military dictator who owes South Korea 167.5 billion won ($150 million) in fines but claims to be broke</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="560" length="8">dictator</nom_head>
+      </entity_mention>
+      <entity_mention id="m-152" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="700" length="4">
+        <mention_text>Chun</mention_text>
+      </entity_mention>
+      <entity_mention id="m-182" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="833" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-188" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="883" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-194" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="935" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-200" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="953" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-206" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="980" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-212" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="988" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-218" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="1028" length="4">
+        <mention_text>Chun</mention_text>
+      </entity_mention>
+      <entity_mention id="m-224" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="1069" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-239" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="1148" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-245" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="1186" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-251" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="1234" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-290" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="1348" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-296" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="1436" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-329" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="1565" length="4">
+        <mention_text>Chun</mention_text>
+      </entity_mention>
+      <entity_mention id="m-374" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="1750" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-449" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="1999" length="13">
+        <mention_text>Chun Doo-hwan</mention_text>
+      </entity_mention>
+      <entity_mention id="m-464" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="2056" length="4">
+        <mention_text>Chun</mention_text>
+      </entity_mention>
+      <entity_mention id="m-494" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="2151" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-506" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="2265" length="4">
+        <mention_text>Chun</mention_text>
+      </entity_mention>
+      <entity_mention id="m-512" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="2304" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-527" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="2366" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-557" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="2683" length="4">
+        <mention_text>Chun</mention_text>
+      </entity_mention>
+      <entity_mention id="m-569" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="2746" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-596" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="2838" length="4">
+        <mention_text>Chun</mention_text>
+      </entity_mention>
+      <entity_mention id="m-718" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="480" length="16">
+        <mention_text>former President</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="487" length="9">President</nom_head>
+      </entity_mention>
+      <entity_mention id="m-770" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="765" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-65" type="GPE" specificity="specific">
+      <entity_mention id="m-77" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="204" length="12">
+        <mention_text>SOUTH KOREAN</mention_text>
+      </entity_mention>
+      <entity_mention id="m-101" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="391" length="11">
+        <mention_text>South Korea</mention_text>
+      </entity_mention>
+      <entity_mention id="m-137" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="578" length="11">
+        <mention_text>South Korea</mention_text>
+      </entity_mention>
+      <entity_mention id="m-416" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="1836" length="11">
+        <mention_text>the country</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="1840" length="7">country</nom_head>
+      </entity_mention>
+      <entity_mention id="m-924" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="405" length="5">
+        <mention_text>State</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="405" length="5">State</nom_head>
+      </entity_mention>
+      <entity_mention id="m-930" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="739" length="9">
+        <mention_text>the state</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="743" length="5">state</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-68" type="ORG" specificity="specific">
+      <entity_mention id="m-83" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="357" length="14">
+        <mention_text>New York Times</mention_text>
+      </entity_mention>
+      <entity_mention id="m-2044" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="274" length="5">
+        <mention_text>TIMES</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-71" type="GPE" specificity="specific">
+      <entity_mention id="m-89" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="357" length="8">
+        <mention_text>New York</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-74" type="GPE" specificity="specific">
+      <entity_mention id="m-95" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="384" length="5">
+        <mention_text>SEOUL</mention_text>
+      </entity_mention>
+      <entity_mention id="m-119" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="461" length="5">
+        <mention_text>Seoul</mention_text>
+      </entity_mention>
+      <entity_mention id="m-350" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="1588" length="5">
+        <mention_text>Seoul</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-149" type="ORG" specificity="specific">
+      <entity_mention id="m-143" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="670" length="13">
+        <mention_text>Supreme Court</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-164" type="LOC" specificity="specific">
+      <entity_mention id="m-2098" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="1880" length="6">
+        <mention_text>Korean</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-179" type="ORG" specificity="specific">
+      <entity_mention id="m-173" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="811" length="14">
+        <mention_text>big businesses</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="815" length="10">businesses</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-236" type="ORG" specificity="specific">
+      <entity_mention id="m-230" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="1105" length="20">
+        <mention_text>a Buddhist monastery</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="1116" length="9">monastery</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-263" type="ORG" specificity="specific">
+      <entity_mention id="m-257" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="1207" length="8">
+        <mention_text>military</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="1207" length="8">military</nom_head>
+      </entity_mention>
+      <entity_mention id="m-266" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="1258" length="8">
+        <mention_text>military</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="1258" length="8">military</nom_head>
+      </entity_mention>
+      <entity_mention id="m-734" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="551" length="8">
+        <mention_text>military</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="551" length="8">military</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-278" type="PER" specificity="specific">
+      <entity_mention id="m-272" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="1287" length="18">
+        <mention_text>hundreds of people</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="1299" length="6">people</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-287" type="GPE" specificity="specific">
+      <entity_mention id="m-281" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="1339" length="7">
+        <mention_text>Kwangju</mention_text>
+      </entity_mention>
+      <entity_mention id="m-812" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="1318" length="17">
+        <mention_text>southwestern city</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="1331" length="4">city</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-317" type="PER" specificity="specific">
+      <entity_mention id="m-311" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="1516" length="14">
+        <mention_text>tax collectors</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="1520" length="10">collectors</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-326" type="PER" specificity="specific">
+      <entity_mention id="m-320" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="1535" length="19">
+        <mention_text>other investigators</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="1541" length="13">investigators</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-347" type="LOC" specificity="specific">
+      <entity_mention id="m-341" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="1580" length="13">
+        <mention_text>eastern Seoul</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="1588" length="5">Seoul</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-362" type="PER" specificity="specific">
+      <entity_mention id="m-356" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="1621" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-371" type="PER" specificity="specific">
+      <entity_mention id="m-365" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="1694" length="17">
+        <mention_text>The investigators</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="1698" length="13">investigators</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-386" type="PER" specificity="specific">
+      <entity_mention id="m-380" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="1750" length="14">
+        <mention_text>his eldest son</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="1761" length="3">son</nom_head>
+      </entity_mention>
+      <entity_mention id="m-389" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="1766" length="13">
+        <mention_text>Chun Jae-kook</mention_text>
+      </entity_mention>
+      <entity_mention id="m-395" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="1781" length="7">
+        <mention_text>The son</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="1785" length="3">son</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-407" type="ORG" specificity="specific">
+      <entity_mention id="m-401" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="1781" length="28">
+        <mention_text>The son’s publishing company</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="1802" length="7">company</nom_head>
+      </entity_mention>
+      <entity_mention id="m-410" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="1811" length="8">
+        <mention_text>Sigongsa</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-428" type="PER" specificity="specific">
+      <entity_mention id="m-422" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="1912" length="12">
+        <mention_text>John Grisham</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-440" type="PER" specificity="specific">
+      <entity_mention id="m-443" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="1942" length="10">
+        <mention_text>Roald Dahl</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-461" type="PER" specificity="specific">
+      <entity_mention id="m-455" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="1999" length="22">
+        <mention_text>Chun Doo-hwan’s family</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="2015" length="6">family</nom_head>
+      </entity_mention>
+      <entity_mention id="m-575" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="2746" length="18">
+        <mention_text>his family members</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="2757" length="7">members</nom_head>
+      </entity_mention>
+      <entity_mention id="m-584" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="2776" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-590" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="2805" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-476" type="PER" specificity="specific">
+      <entity_mention id="m-470" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="2080" length="11">
+        <mention_text>prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="2080" length="11">prosecutors</nom_head>
+      </entity_mention>
+      <entity_mention id="m-479" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="2112" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-500" noun_type="PRO" source="NYT_ENG_20130716.0217" offset="2165" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-551" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="2596" length="11">
+        <mention_text>prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="2596" length="11">prosecutors</nom_head>
+      </entity_mention>
+      <entity_mention id="m-563" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="2718" length="11">
+        <mention_text>prosecutors</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="2718" length="11">prosecutors</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-491" type="ORG" specificity="specific">
+      <entity_mention id="m-485" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="2126" length="13">
+        <mention_text>Mercedes-Benz</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-524" type="PER" specificity="specific">
+      <entity_mention id="m-518" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="2332" length="20">
+        <mention_text>opposition lawmakers</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="2343" length="9">lawmakers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-539" type="ORG" specificity="specific">
+      <entity_mention id="m-533" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="2433" length="17">
+        <mention_text>National Assembly</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-548" type="PER" specificity="specific">
+      <entity_mention id="m-542" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="2530" length="45">
+        <mention_text>public officials who have failed to pay fines</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="2537" length="9">officials</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-581" type="PER" specificity="nonspecific">
+      <entity_mention id="m-806" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="1107" length="8">
+        <mention_text>Buddhist</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-824" type="LOC" specificity="specific">
+      <entity_mention id="m-818" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="1318" length="12">
+        <mention_text>southwestern</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="1318" length="12">southwestern</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-873" type="FAC" specificity="specific">
+      <entity_mention id="m-867" noun_type="NOM" source="NYT_ENG_20130716.0217" offset="1726" length="14">
+        <mention_text>the properties</mention_text>
+        <nom_head source="NYT_ENG_20130716.0217" offset="1730" length="10">properties</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-921" type="PER" specificity="specific">
+      <entity_mention id="m-915" noun_type="NAM" source="NYT_ENG_20130716.0217" offset="1926" length="11">
+        <mention_text>C.?S. Lewis</mention_text>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-650" source="NYT_ENG_20130716.0217" offset="411" length="11" type="title">prosecutors</filler>
+    <filler id="f-690" source="NYT_ENG_20130716.0217" offset="487" length="9" type="title">President</filler>
+    <filler id="f-768" source="NYT_ENG_20130716.0217" offset="710" length="2" type="age">82</filler>
+    <filler id="f-994" source="NYT_ENG_20130716.0217" offset="217" length="9" type="title">PRESIDENT</filler>
+    <filler id="f-1022" source="NYT_ENG_20130716.0217" offset="487" length="9" type="title">President</filler>
+    <filler id="f-1057" source="NYT_ENG_20130716.0217" offset="560" length="8" type="title">dictator</filler>
+    <filler id="f-1114" source="NYT_ENG_20130716.0217" offset="590" length="32" type="money">167.5 billion won ($150 million)</filler>
+    <filler id="f-1158" source="NYT_ENG_20130716.0217" offset="749" length="15" type="money">220 billion won</filler>
+    <filler id="f-1165" source="NYT_ENG_20130716.0217" offset="837" length="44" type="time" nom_time="198X-XX-XX">eight and a half years in power in the 1980s</filler>
+    <filler id="f-1218" source="NYT_ENG_20130716.0217" offset="907" length="22" type="money">a quarter of the amoun</filler>
+    <filler id="f-1248" source="NYT_ENG_20130716.0217" offset="966" length="13" type="money">3 million won</filler>
+    <filler id="f-1278" source="NYT_ENG_20130716.0217" offset="1088" length="4" type="time" nom_time="1988-XX-XX">1988</filler>
+    <filler id="f-1298" source="NYT_ENG_20130716.0217" offset="1134" length="4" type="time" nom_time="1997-XX-XX">1997</filler>
+    <filler id="f-1313" source="NYT_ENG_20130716.0217" offset="1173" length="8" type="crime">sedition</filler>
+    <filler id="f-1350" source="NYT_ENG_20130716.0217" offset="1202" length="4" type="time" nom_time="1979-XX-XX">1979</filler>
+    <filler id="f-1380" source="NYT_ENG_20130716.0217" offset="1202" length="4" type="time" nom_time="1979-XX-XX">1979</filler>
+    <filler id="f-1431" source="NYT_ENG_20130716.0217" offset="1253" length="4" type="time" nom_time="1980-XX-XX">1980</filler>
+    <filler id="f-1482" source="NYT_ENG_20130716.0217" offset="1253" length="4" type="time" nom_time="1980-XX-XX">1980</filler>
+    <filler id="f-1512" source="NYT_ENG_20130716.0217" offset="1378" length="5" type="sentence">death</filler>
+    <filler id="f-1542" source="NYT_ENG_20130716.0217" offset="1417" length="17" type="sentence">life imprisonment</filler>
+    <filler id="f-1655" source="NYT_ENG_20130716.0217" offset="1639" length="9" type="commodity">paintings</filler>
+    <filler id="f-1662" source="NYT_ENG_20130716.0217" offset="1650" length="9" type="commodity">porcelain</filler>
+    <filler id="f-1669" source="NYT_ENG_20130716.0217" offset="1674" length="9" type="commodity">artifacts</filler>
+    <filler id="f-1729" source="NYT_ENG_20130716.0217" offset="2106" length="4" type="time" nom_time="2000-XX-XX">2000</filler>
+    <filler id="f-1736" source="NYT_ENG_20130716.0217" offset="2126" length="19" type="vehicle">Mercedes-Benz sedan</filler>
+    <filler id="f-1773" source="NYT_ENG_20130716.0217" offset="2159" length="4" type="time" nom_time="2003-XX-XX">2003</filler>
+    <filler id="f-1780" source="NYT_ENG_20130716.0217" offset="2184" length="12" type="commodity">refrigerator</filler>
+    <filler id="f-1787" source="NYT_ENG_20130716.0217" offset="2198" length="14" type="commodity">television set</filler>
+    <filler id="f-1794" source="NYT_ENG_20130716.0217" offset="2217" length="10" type="commodity">golf clubs</filler>
+    <filler id="f-1824" source="NYT_ENG_20130716.0217" offset="2159" length="4" type="time" nom_time="2003-XX-XX">2003</filler>
+    <filler id="f-1831" source="NYT_ENG_20130716.0217" offset="2184" length="12" type="commodity">refrigerator</filler>
+    <filler id="f-1838" source="NYT_ENG_20130716.0217" offset="2198" length="14" type="commodity">television set</filler>
+    <filler id="f-1845" source="NYT_ENG_20130716.0217" offset="2217" length="10" type="commodity">golf clubs</filler>
+    <filler id="f-1988" source="NYT_ENG_20130716.0217" offset="749" length="15" type="money">220 billion won</filler>
+    <filler id="f-1995" source="NYT_ENG_20130716.0217" offset="798" length="7" type="crime">bribery</filler>
+    <filler id="f-2002" source="NYT_ENG_20130716.0217" offset="694" length="4" type="time" nom_time="1997-XX-XX">1997</filler>
+    <filler id="f-2039" source="NYT_ENG_20130716.0217" offset="749" length="15" type="money">220 billion won</filler>
+    <filler id="f-2085" source="NYT_ENG_20130716.0217" offset="966" length="13" type="money">3 million won</filler>
+  </fillers>
+  <relations>
+    <relation id="r-819" type="physical" subtype="locatednear">
+      <relation_mention id="relm-602" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-41" role="entity">PROSECUTORS</rel_arg1>
+        <rel_arg2 entity_id="ent-53" entity_mention_id="m-47" role="loc">HOME OF FORMER SOUTH KOREAN PRESIDENT</rel_arg2>
+        <trigger source="NYT_ENG_20130716.0217" offset="184" length="4">RAID</trigger>
+      </relation_mention>
+      <relation_mention id="relm-652" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-107" role="entity">State prosecutors</rel_arg1>
+        <rel_arg2 entity_id="ent-53" entity_mention_id="m-113" role="loc">the Seoul residence</rel_arg2>
+        <trigger source="NYT_ENG_20130716.0217" offset="450" length="6">raided</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-820" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-622" realis="true">
+        <rel_arg1 entity_id="ent-62" entity_mention_id="m-56" role="per">FORMER SOUTH KOREAN PRESIDENT</rel_arg1>
+        <rel_arg2 entity_id="ent-65" entity_mention_id="m-77" role="entity">SOUTH KOREAN</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-821" type="physical" subtype="locatednear">
+      <relation_mention id="relm-632" realis="true">
+        <rel_arg1 entity_id="ent-74" entity_mention_id="m-95" role="entity">SEOUL</rel_arg1>
+        <rel_arg2 entity_id="ent-65" entity_mention_id="m-101" role="loc">South Korea</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-822" type="personalsocial" subtype="role">
+      <relation_mention id="relm-642" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-107" role="per">State prosecutors</rel_arg1>
+        <rel_arg2 filler_id="f-650" role="role">prosecutors</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-823" type="physical" subtype="locatednear">
+      <relation_mention id="relm-662" realis="true">
+        <rel_arg1 entity_id="ent-53" entity_mention_id="m-113" role="entity">the Seoul residence</rel_arg1>
+        <rel_arg2 entity_id="ent-74" entity_mention_id="m-119" role="loc">Seoul</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-824" type="physical" subtype="locatednear">
+      <relation_mention id="relm-672" realis="true">
+        <rel_arg1 entity_id="ent-62" entity_mention_id="m-125" role="entity">Chun Doo-hwan</rel_arg1>
+        <rel_arg2 entity_id="ent-53" entity_mention_id="m-113" role="loc">the Seoul residence</rel_arg2>
+        <trigger source="NYT_ENG_20130716.0217" offset="477" length="2">of</trigger>
+      </relation_mention>
+      <relation_mention id="relm-837" realis="true">
+        <rel_arg1 entity_id="ent-62" entity_mention_id="m-329" role="entity">Chun</rel_arg1>
+        <rel_arg2 entity_id="ent-53" entity_mention_id="m-335" role="loc">Chun’s home</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-825" type="personalsocial" subtype="role">
+      <relation_mention id="relm-682" realis="true">
+        <rel_arg1 entity_id="ent-62" entity_mention_id="m-125" role="per">Chun Doo-hwan</rel_arg1>
+        <rel_arg2 filler_id="f-690" role="role">President</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-826" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-702" realis="true">
+        <rel_arg1 entity_id="ent-62" entity_mention_id="m-56" role="leader">FORMER SOUTH KOREAN PRESIDENT</rel_arg1>
+        <rel_arg2 entity_id="ent-65" entity_mention_id="m-77" role="entity">SOUTH KOREAN</rel_arg2>
+        <trigger source="NYT_ENG_20130716.0217" offset="217" length="9">PRESIDENT</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-827" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-750" realis="true">
+        <rel_arg1 entity_id="ent-62" entity_mention_id="m-131" role="leader">the ex-military dictator who owes South Korea 167.5 billion won ($150 million) in fines but claims to be broke</rel_arg1>
+        <rel_arg2 entity_id="ent-263" entity_mention_id="m-734" role="entity">military</rel_arg2>
+        <trigger source="NYT_ENG_20130716.0217" offset="560" length="8">dictator</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-828" type="generalaffiliation" subtype="personage">
+      <relation_mention id="relm-760" realis="true">
+        <rel_arg1 entity_id="ent-62" entity_mention_id="m-152" role="per">Chun</rel_arg1>
+        <rel_arg2 filler_id="f-768" role="age">82</rel_arg2>
+        <trigger source="NYT_ENG_20130716.0217" offset="706" length="3">now</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-829" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-776" realis="true">
+        <rel_arg1 entity_id="ent-62" entity_mention_id="m-224" role="employeemember">he</rel_arg1>
+        <rel_arg2 entity_id="ent-236" entity_mention_id="m-230" role="org">a Buddhist monastery</rel_arg2>
+        <trigger source="NYT_ENG_20130716.0217" offset="1097" length="7">entered</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-830" type="generalaffiliation" subtype="opra">
+      <relation_mention id="relm-786" realis="true">
+        <rel_arg1 entity_id="ent-236" entity_mention_id="m-230" role="org">a Buddhist monastery</rel_arg1>
+        <rel_arg2 entity_id="ent-581" entity_mention_id="m-806" role="entity">Buddhist</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-831" type="physical" subtype="locatednear">
+      <relation_mention id="relm-827" realis="true">
+        <rel_arg1 entity_id="ent-287" entity_mention_id="m-812" role="entity">southwestern city</rel_arg1>
+        <rel_arg2 entity_id="ent-824" entity_mention_id="m-818" role="loc">southwestern</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-832" type="physical" subtype="locatednear">
+      <relation_mention id="relm-847" realis="true">
+        <rel_arg1 entity_id="ent-53" entity_mention_id="m-335" role="entity">Chun’s home</rel_arg1>
+        <rel_arg2 entity_id="ent-347" entity_mention_id="m-341" role="loc">eastern Seoul</rel_arg2>
+        <trigger source="NYT_ENG_20130716.0217" offset="1577" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-833" type="physical" subtype="locatednear">
+      <relation_mention id="relm-857" realis="true">
+        <rel_arg1 entity_id="ent-347" entity_mention_id="m-341" role="entity">eastern Seoul</rel_arg1>
+        <rel_arg2 entity_id="ent-74" entity_mention_id="m-350" role="loc">Seoul</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-834" type="personalsocial" subtype="family">
+      <relation_mention id="relm-886" realis="false">
+        <rel_arg1 entity_id="ent-62" entity_mention_id="m-374" role="per">his</rel_arg1>
+        <rel_arg2 entity_id="ent-386" entity_mention_id="m-380" role="per">his eldest son</rel_arg2>
+        <trigger source="NYT_ENG_20130716.0217" offset="1761" length="3">son</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-835" type="orgaffiliation" subtype="ownership">
+      <relation_mention id="relm-896" realis="true">
+        <rel_arg1 entity_id="ent-386" entity_mention_id="m-395" role="owner">The son</rel_arg1>
+        <rel_arg2 entity_id="ent-407" entity_mention_id="m-401" role="org">The son’s publishing company</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-836" type="personalsocial" subtype="family">
+      <relation_mention id="relm-942" realis="true">
+        <rel_arg1 entity_id="ent-62" entity_mention_id="m-449" role="per">Chun Doo-hwan</rel_arg1>
+        <rel_arg2 entity_id="ent-461" entity_mention_id="m-455" role="per">Chun Doo-hwan’s family</rel_arg2>
+        <trigger source="NYT_ENG_20130716.0217" offset="2015" length="6">family</trigger>
+      </relation_mention>
+      <relation_mention id="relm-952" realis="true">
+        <rel_arg1 entity_id="ent-62" entity_mention_id="m-569" role="per">his</rel_arg1>
+        <rel_arg2 entity_id="ent-461" entity_mention_id="m-575" role="per">his family members</rel_arg2>
+        <trigger source="NYT_ENG_20130716.0217" offset="2750" length="6">family</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-837" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-2050" realis="true">
+        <rel_arg1 entity_id="ent-68" entity_mention_id="m-83" role="org">New York Times</rel_arg1>
+        <rel_arg2 entity_id="ent-71" entity_mention_id="m-89" role="loc">New York</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-838" type="physical" subtype="locatednear">
+      <relation_mention id="relm-2088" realis="true">
+        <rel_arg1 entity_id="ent-278" entity_mention_id="m-272" role="entity">hundreds of people</rel_arg1>
+        <rel_arg2 entity_id="ent-287" entity_mention_id="m-812" role="loc">southwestern city</rel_arg2>
+        <trigger source="NYT_ENG_20130716.0217" offset="1311" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-39">
+      <event_mention id="em-962" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130716.0217" offset="197" length="6">FORMER</trigger>
+        <em_arg entity_id="ent-62" entity_mention_id="m-56" role="person" realis="true">FORMER SOUTH KOREAN PRESIDENT</em_arg>
+        <em_arg entity_id="ent-65" entity_mention_id="m-77" role="entity" realis="true">SOUTH KOREAN</em_arg>
+        <em_arg filler_id="f-994" role="position" realis="true">PRESIDENT</em_arg>
+      </event_mention>
+      <event_mention id="em-997" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130716.0217" offset="480" length="6">former</trigger>
+        <em_arg entity_id="ent-62" entity_mention_id="m-718" role="person" realis="true">former President</em_arg>
+        <em_arg filler_id="f-1022" role="position" realis="true">President</em_arg>
+      </event_mention>
+      <event_mention id="em-1253" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130716.0217" offset="1072" length="12">stepped down</trigger>
+        <em_arg entity_id="ent-62" entity_mention_id="m-224" role="person" realis="true">he</em_arg>
+        <em_arg filler_id="f-1278" role="time" realis="true">1988</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1060">
+      <event_mention id="em-1025" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130716.0217" offset="548" length="11">ex-military</trigger>
+        <em_arg entity_id="ent-263" entity_mention_id="m-734" role="entity" realis="true">military</em_arg>
+        <em_arg entity_id="ent-62" entity_mention_id="m-131" role="person" realis="true">the ex-military dictator who owes South Korea 167.5 billion won ($150 million) in fines but claims to be broke</em_arg>
+        <em_arg filler_id="f-1057" role="position" realis="true">dictator</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1124">
+      <event_mention id="em-1083" type="justice" subtype="fine" realis="actual">
+        <trigger source="NYT_ENG_20130716.0217" offset="626" length="5">fines</trigger>
+        <em_arg entity_id="ent-62" entity_mention_id="m-131" role="entity" realis="true">the ex-military dictator who owes South Korea 167.5 billion won ($150 million) in fines but claims to be broke</em_arg>
+        <em_arg filler_id="f-1114" role="money" realis="true">167.5 billion won ($150 million)</em_arg>
+        <em_arg entity_id="ent-65" entity_mention_id="m-137" role="place" realis="true">South Korea</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1168">
+      <event_mention id="em-1126" type="transaction" subtype="transfermoney" realis="actual" ways="canttell">
+        <trigger source="NYT_ENG_20130716.0217" offset="798" length="7">bribery</trigger>
+        <em_arg entity_id="ent-62" entity_mention_id="m-770" role="recipient" realis="true">he</em_arg>
+        <em_arg entity_id="ent-179" entity_mention_id="m-173" role="giver" realis="true">big businesses</em_arg>
+        <em_arg filler_id="f-1158" role="money" realis="true">220 billion won</em_arg>
+        <em_arg filler_id="f-1165" role="time" realis="true">eight and a half years in power in the 1980s</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1191">
+      <event_mention id="em-2060" type="transaction" subtype="transfermoney" realis="actual" ways="involuntarynoforce">
+        <trigger source="NYT_ENG_20130716.0217" offset="956" length="6">handed</trigger>
+        <em_arg entity_id="ent-62" entity_mention_id="m-200" role="giver" realis="true">he</em_arg>
+        <em_arg filler_id="f-2085" role="money" realis="true">3 million won</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1221">
+      <event_mention id="em-1170" type="transaction" subtype="transfermoney" realis="actual" ways="involuntarynoforce">
+        <trigger source="NYT_ENG_20130716.0217" offset="897" length="4">paid</trigger>
+        <em_arg entity_id="ent-62" entity_mention_id="m-188" role="giver" realis="true">He</em_arg>
+        <em_arg filler_id="f-1218" role="money" realis="true">a quarter of the amoun</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1251">
+      <event_mention id="em-1223" type="transaction" subtype="transfermoney" realis="actual" ways="voluntary">
+        <trigger source="NYT_ENG_20130716.0217" offset="991" length="9">collected</trigger>
+        <em_arg entity_id="ent-62" entity_mention_id="m-212" role="recipient" realis="true">he</em_arg>
+        <em_arg filler_id="f-1248" role="money" realis="true">3 million won</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1316">
+      <event_mention id="em-1281" type="justice" subtype="convict" realis="actual">
+        <trigger source="NYT_ENG_20130716.0217" offset="1160" length="9">convicted</trigger>
+        <em_arg filler_id="f-1298" role="time" realis="true">1997</em_arg>
+        <em_arg entity_id="ent-62" entity_mention_id="m-239" role="defendant" realis="true">he</em_arg>
+        <em_arg filler_id="f-1313" role="crime" realis="true">sedition</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1353">
+      <event_mention id="em-1318" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20130716.0217" offset="1216" length="4">coup</trigger>
+        <em_arg entity_id="ent-62" entity_mention_id="m-245" role="attacker" realis="true">his</em_arg>
+        <em_arg entity_id="ent-263" entity_mention_id="m-257" role="attacker" realis="true">military</em_arg>
+        <em_arg filler_id="f-1350" role="time" realis="true">1979</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1383">
+      <event_mention id="em-1355" type="personnel" subtype="startposition" realis="actual">
+        <trigger source="NYT_ENG_20130716.0217" offset="1241" length="5">power</trigger>
+        <em_arg entity_id="ent-62" entity_mention_id="m-251" role="person" realis="true">him</em_arg>
+        <em_arg filler_id="f-1380" role="time" realis="true">1979</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1434">
+      <event_mention id="em-1385" type="life" subtype="die" realis="actual">
+        <trigger source="NYT_ENG_20130716.0217" offset="1306" length="4">dead</trigger>
+        <em_arg entity_id="ent-278" entity_mention_id="m-272" role="victim" realis="true">hundreds of people</em_arg>
+        <em_arg entity_id="ent-263" entity_mention_id="m-266" role="agent" realis="true">military</em_arg>
+        <em_arg entity_id="ent-62" entity_mention_id="m-245" role="agent" realis="true">his</em_arg>
+        <em_arg entity_id="ent-287" entity_mention_id="m-812" role="place" realis="true">southwestern city</em_arg>
+        <em_arg filler_id="f-1431" role="time" realis="true">1980</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1485">
+      <event_mention id="em-1436" type="conflict" subtype="attack" realis="actual">
+        <trigger source="NYT_ENG_20130716.0217" offset="1267" length="9">crackdown</trigger>
+        <em_arg entity_id="ent-263" entity_mention_id="m-266" role="attacker" realis="true">military</em_arg>
+        <em_arg entity_id="ent-62" entity_mention_id="m-245" role="attacker" realis="true">his</em_arg>
+        <em_arg entity_id="ent-287" entity_mention_id="m-812" role="place" realis="true">southwestern city</em_arg>
+        <em_arg entity_id="ent-278" entity_mention_id="m-272" role="target" realis="true">hundreds of people</em_arg>
+        <em_arg filler_id="f-1482" role="time" realis="true">1980</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1515">
+      <event_mention id="em-1487" type="justice" subtype="sentence" realis="actual">
+        <trigger source="NYT_ENG_20130716.0217" offset="1365" length="9">sentenced</trigger>
+        <em_arg entity_id="ent-62" entity_mention_id="m-290" role="defendant" realis="true">He</em_arg>
+        <em_arg filler_id="f-1512" role="sentence" realis="true">death</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1552">
+      <event_mention id="em-1517" type="justice" subtype="sentence" realis="actual">
+        <trigger source="NYT_ENG_20130716.0217" offset="1387" length="7">penalty</trigger>
+        <em_arg entity_id="ent-62" entity_mention_id="m-290" role="defendant" realis="true">He</em_arg>
+        <em_arg filler_id="f-1542" role="sentence" realis="true">life imprisonment</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1582">
+      <event_mention id="em-1554" type="justice" subtype="arrestjail" realis="other">
+        <trigger source="NYT_ENG_20130716.0217" offset="1422" length="12">imprisonment</trigger>
+        <em_arg entity_id="ent-62" entity_mention_id="m-290" role="person" realis="false">He</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1605">
+      <event_mention id="em-1584" type="justice" subtype="pardon" realis="actual">
+        <trigger source="NYT_ENG_20130716.0217" offset="1449" length="8">pardoned</trigger>
+        <em_arg entity_id="ent-62" entity_mention_id="m-296" role="defendant" realis="true">He</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1628">
+      <event_mention id="em-1607" type="justice" subtype="releaseparole" realis="actual">
+        <trigger source="NYT_ENG_20130716.0217" offset="1462" length="5">freed</trigger>
+        <em_arg entity_id="ent-62" entity_mention_id="m-296" role="person" realis="true">He</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1672">
+      <event_mention id="em-1630" type="movement" subtype="transportartifact" realis="actual">
+        <trigger source="NYT_ENG_20130716.0217" offset="1626" length="7">hauling</trigger>
+        <em_arg entity_id="ent-362" entity_mention_id="m-356" role="agent" realis="true">them</em_arg>
+        <em_arg filler_id="f-1655" role="artifact" realis="true">paintings</em_arg>
+        <em_arg filler_id="f-1662" role="artifact" realis="true">porcelain</em_arg>
+        <em_arg filler_id="f-1669" role="artifact" realis="true">artifacts</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1695">
+      <event_mention id="em-1674" type="contact" subtype="contact" realis="other" audience="canttell" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20130716.0217" offset="1986" length="7">comment</trigger>
+        <em_arg entity_id="ent-461" entity_mention_id="m-455" role="entity" realis="true">Chun Doo-hwan’s family</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1739">
+      <event_mention id="em-1697" type="transaction" subtype="transferownership" realis="actual" ways="canttell">
+        <trigger source="NYT_ENG_20130716.0217" offset="2117" length="6">seized</trigger>
+        <em_arg entity_id="ent-62" entity_mention_id="m-494" role="giver" realis="true">him</em_arg>
+        <em_arg entity_id="ent-476" entity_mention_id="m-479" role="recipient" realis="true">they</em_arg>
+        <em_arg filler_id="f-1729" role="time" realis="true">2000</em_arg>
+        <em_arg filler_id="f-1736" role="thing" realis="true">Mercedes-Benz sedan</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1797">
+      <event_mention id="em-1741" type="transaction" subtype="transferownership" realis="actual" ways="canttell">
+        <trigger source="NYT_ENG_20130716.0217" offset="2170" length="11">confiscated</trigger>
+        <em_arg entity_id="ent-62" entity_mention_id="m-506" role="giver" realis="true">Chun</em_arg>
+        <em_arg entity_id="ent-476" entity_mention_id="m-500" role="recipient" realis="true">they</em_arg>
+        <em_arg filler_id="f-1773" role="time" realis="true">2003</em_arg>
+        <em_arg filler_id="f-1780" role="thing" realis="true">refrigerator</em_arg>
+        <em_arg filler_id="f-1787" role="thing" realis="true">television set</em_arg>
+        <em_arg filler_id="f-1794" role="thing" realis="true">golf clubs</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1848">
+      <event_mention id="em-1799" type="transaction" subtype="transferownership" realis="actual" ways="voluntary">
+        <trigger source="NYT_ENG_20130716.0217" offset="2232" length="9">auctioned</trigger>
+        <em_arg entity_id="ent-476" entity_mention_id="m-500" role="giver" realis="true">they</em_arg>
+        <em_arg filler_id="f-1824" role="time" realis="true">2003</em_arg>
+        <em_arg filler_id="f-1831" role="thing" realis="true">refrigerator</em_arg>
+        <em_arg filler_id="f-1838" role="thing" realis="true">television set</em_arg>
+        <em_arg filler_id="f-1845" role="thing" realis="true">golf clubs</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1878">
+      <event_mention id="em-1850" type="transaction" subtype="transaction" realis="generic" ways="involuntarynoforce">
+        <trigger source="NYT_ENG_20130716.0217" offset="2505" length="12">confiscating</trigger>
+        <em_arg entity_id="ent-548" entity_mention_id="m-542" role="giver" realis="true">public officials who have failed to pay fines</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1901">
+      <event_mention id="em-1880" type="justice" subtype="fine" realis="generic">
+        <trigger source="NYT_ENG_20130716.0217" offset="2570" length="5">fines</trigger>
+        <em_arg entity_id="ent-548" entity_mention_id="m-542" role="entity" realis="true">public officials who have failed to pay fines</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1924">
+      <event_mention id="em-1903" type="transaction" subtype="transfermoney" realis="generic" ways="involuntarynoforce">
+        <trigger source="NYT_ENG_20130716.0217" offset="2566" length="3">pay</trigger>
+        <em_arg entity_id="ent-548" entity_mention_id="m-542" role="giver" realis="true">public officials who have failed to pay fines</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1954">
+      <event_mention id="em-1926" type="transaction" subtype="transaction" realis="generic" ways="involuntarynoforce">
+        <trigger source="NYT_ENG_20130716.0217" offset="2733" length="7">collect</trigger>
+        <em_arg entity_id="ent-461" entity_mention_id="m-575" role="giver" realis="false">his family members</em_arg>
+        <em_arg entity_id="ent-476" entity_mention_id="m-563" role="recipient" realis="true">prosecutors</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2005">
+      <event_mention id="em-1956" type="justice" subtype="fine" realis="actual">
+        <trigger source="NYT_ENG_20130716.0217" offset="729" length="6">return</trigger>
+        <em_arg entity_id="ent-149" entity_mention_id="m-143" role="adjudicator" realis="true">Supreme Court</em_arg>
+        <em_arg entity_id="ent-62" entity_mention_id="m-152" role="entity" realis="true">Chun</em_arg>
+        <em_arg filler_id="f-1988" role="money" realis="true">220 billion won</em_arg>
+        <em_arg filler_id="f-1995" role="crime" realis="true">bribery</em_arg>
+        <em_arg filler_id="f-2002" role="time" realis="true">1997</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2042">
+      <event_mention id="em-2007" type="transaction" subtype="transfermoney" realis="other" ways="involuntarynoforce">
+        <trigger source="NYT_ENG_20130716.0217" offset="729" length="6">return</trigger>
+        <em_arg entity_id="ent-62" entity_mention_id="m-152" role="giver" realis="true">Chun</em_arg>
+        <em_arg entity_id="ent-65" entity_mention_id="m-930" role="recipient" realis="true">the state</em_arg>
+        <em_arg filler_id="f-2039" role="money" realis="true">220 billion won</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

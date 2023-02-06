@@ -1,0 +1,2115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56cdec110000000000000030">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-1152">
+        <trigger offset="826" length="3">has</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-384" offset="89" length="6">Syphon</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1162">
+        <trigger offset="1030" length="3">our</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-384" offset="89" length="6">Syphon</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1172">
+        <trigger offset="1999" length="5">under</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-390" offset="1403" length="14">luddly.neddite</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1448">
+        <trigger offset="3844" length="5">under</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-420" offset="3632" length="14">luddly.neddite</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1182">
+        <trigger offset="2095" length="5">under</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-390" offset="1403" length="14">luddly.neddite</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1458">
+        <trigger offset="3940" length="5">under</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-420" offset="3632" length="14">luddly.neddite</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1192">
+        <trigger offset="2095" length="5">under</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-390" offset="1403" length="14">luddly.neddite</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1468">
+        <trigger offset="3940" length="5">under</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-420" offset="3632" length="14">luddly.neddite</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1202">
+        <trigger offset="2220" length="5">under</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-480" offset="1326" length="13">TakeAStepBack</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-390" offset="1403" length="14">luddly.neddite</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1478">
+        <trigger offset="4065" length="5">under</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-456" offset="3669" length="13">TakeAStepBack</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-420" offset="3632" length="14">luddly.neddite</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1212">
+        <trigger offset="5363" length="4">have</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-468" offset="4844" length="13">TakeAStepBack</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1222">
+        <trigger offset="5849" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-648" offset="5623" length="11">Wry Catcher</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1523">
+        <trigger offset="625" length="4">from</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-156" offset="151" length="11">rightwinger</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-1533">
+        <trigger offset="3278" length="4">from</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-162" offset="2433" length="11">rightwinger</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-1488">
+        <trigger offset="592" length="8">bring in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-156" offset="151" length="11">rightwinger</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-750" offset="558" length="22">
+            <text>The Federal Government</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-156" offset="151" length="11">rightwinger</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1250" offset="601" length="9">
+            <text>personnel</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-156" offset="151" length="11">rightwinger</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-990" offset="637" length="11">
+            <text>the country</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-156" offset="151" length="11">rightwinger</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1592">
+        <trigger offset="3245" length="8">bring in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-162" offset="2433" length="11">rightwinger</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-738" offset="3211" length="22">
+            <text>The Federal Government</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-162" offset="2433" length="11">rightwinger</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1319" offset="3254" length="9">
+            <text>personnel</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-162" offset="2433" length="11">rightwinger</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1325" offset="3290" length="11">
+            <text>the country</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-162" offset="2433" length="11">rightwinger</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1543">
+        <trigger offset="1082" length="3">aid</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-156" offset="151" length="11">rightwinger</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1086" offset="1050" length="4">
+            <text>They</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-156" offset="151" length="11">rightwinger</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1566">
+        <trigger offset="1096" length="3">pay</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-156" offset="151" length="11">rightwinger</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1092" offset="1091" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-156" offset="151" length="11">rightwinger</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1627">
+        <trigger offset="4520" length="3">pay</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-612" offset="4434" length="10">GoneBezerk</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1337" offset="4507" length="9">
+            <text>taxpayers</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-612" offset="4434" length="10">GoneBezerk</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-240" offset="4492" length="8">
+            <text>Ron Paul</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-612" offset="4434" length="10">GoneBezerk</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1680">
+        <trigger offset="4732" length="3">pay</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-618" offset="4687" length="10">GoneBezerk</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1346" offset="4719" length="9">
+            <text>taxpayers</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-618" offset="4687" length="10">GoneBezerk</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-264" offset="4704" length="8">
+            <text>Ron Paul</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-618" offset="4687" length="10">GoneBezerk</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1908">
+        <trigger offset="6924" length="3">pay</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-630" offset="6879" length="10">GoneBezerk</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1397" offset="6911" length="9">
+            <text>taxpayers</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-630" offset="6879" length="10">GoneBezerk</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-312" offset="6896" length="8">
+            <text>Ron Paul</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-630" offset="6879" length="10">GoneBezerk</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1657">
+        <trigger offset="4541" length="5">trips</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-612" offset="4434" length="10">GoneBezerk</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-246" offset="4528" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="4434" length="10">GoneBezerk</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1740" offset="4532" length="8">
+            <text>airplane</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-612" offset="4434" length="10">GoneBezerk</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1708">
+        <trigger offset="4753" length="5">trips</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-618" offset="4687" length="10">GoneBezerk</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-270" offset="4740" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-618" offset="4687" length="10">GoneBezerk</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1733" offset="4744" length="8">
+            <text>airplane</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-618" offset="4687" length="10">GoneBezerk</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1936">
+        <trigger offset="6945" length="5">trips</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-630" offset="6879" length="10">GoneBezerk</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-318" offset="6932" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-630" offset="6879" length="10">GoneBezerk</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1961" offset="6936" length="8">
+            <text>airplane</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-630" offset="6879" length="10">GoneBezerk</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1743">
+        <trigger offset="5099" length="7">consult</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-468" offset="4844" length="13">TakeAStepBack</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-846" offset="5070" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-468" offset="4844" length="13">TakeAStepBack</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-1140" offset="5112" length="6">
+            <text>states</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-468" offset="4844" length="13">TakeAStepBack</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1779">
+        <trigger offset="5329" length="10">dismantled</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-468" offset="4844" length="13">TakeAStepBack</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-864" offset="5285" length="4">
+            <text>they</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-468" offset="4844" length="13">TakeAStepBack</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1802">
+        <trigger offset="5788" length="3">aid</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-648" offset="5623" length="11">Wry Catcher</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1361" offset="5757" length="15">
+            <text>tornado victims</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-648" offset="5623" length="11">Wry Catcher</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1825">
+        <trigger offset="5908" length="5">going</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-648" offset="5623" length="11">Wry Catcher</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-666" offset="5893" length="2">
+            <text>my</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-648" offset="5623" length="11">Wry Catcher</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-708" offset="5922" length="13">
+            <text>the survivors</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-648" offset="5623" length="11">Wry Catcher</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1857" offset="5893" length="14">
+            <text>my tax dollars</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-648" offset="5623" length="11">Wry Catcher</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1862">
+        <trigger offset="6729" length="14">Reimbursements</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-624" offset="6440" length="10">GoneBezerk</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-306" offset="6707" length="8">
+            <text>Ron Paul</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-624" offset="6440" length="10">GoneBezerk</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1885">
+        <trigger offset="6747" length="6">Travel</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-624" offset="6440" length="10">GoneBezerk</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no"/>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-306" offset="6707" length="8">
+            <text>Ron Paul</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-624" offset="6440" length="10">GoneBezerk</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-150" offset="14" length="11">
+        <text>rightwinger</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-156" offset="151" length="11">
+        <text>rightwinger</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-162" offset="2433" length="11">
+        <text>rightwinger</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-168" offset="118" length="10">
+        <text>Avatar4321</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-174" offset="2400" length="10">
+        <text>Avatar4321</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-180" offset="2467" length="10">
+        <text>Avatar4321</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="2756" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-192" offset="2005" length="4">
+        <text>Bush</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-390" offset="1403" length="14">luddly.neddite</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-198" offset="3850" length="4">
+        <text>Bush</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no">
+            <source ere_id="m-390" offset="1403" length="14">luddly.neddite</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-204" offset="2101" length="5">
+        <text>Obama</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-390" offset="1403" length="14">luddly.neddite</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-210" offset="2226" length="19">
+        <text>your supreme leader</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-480" offset="1326" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-216" offset="3946" length="5">
+        <text>Obama</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-420" offset="3632" length="14">luddly.neddite</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-222" offset="4071" length="19">
+        <text>your supreme leader</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-450" offset="3596" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-228" offset="1547" length="4">
+        <text>Paul</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="yes">
+            <source ere_id="m-534" offset="1476" length="5">rdean</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="yes"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-234" offset="1609" length="8">
+        <text>Ron Paul</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="1476" length="5">rdean</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-240" offset="4492" length="8">
+        <text>Ron Paul</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="yes">
+            <source ere_id="m-612" offset="4434" length="10">GoneBezerk</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-246" offset="4528" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="4434" length="10">GoneBezerk</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-252" offset="4556" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="4434" length="10">GoneBezerk</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-258" offset="4565" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="4434" length="10">GoneBezerk</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-264" offset="4704" length="8">
+        <text>Ron Paul</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-618" offset="4687" length="10">GoneBezerk</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-270" offset="4740" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-618" offset="4687" length="10">GoneBezerk</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-276" offset="4768" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-618" offset="4687" length="10">GoneBezerk</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-282" offset="4777" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-618" offset="4687" length="10">GoneBezerk</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-288" offset="5747" length="4">
+        <text>Paul</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-648" offset="5623" length="11">Wry Catcher</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-294" offset="5976" length="8">
+        <text>Ron Paul</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-678" offset="5595" length="5">Chris</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-300" offset="5999" length="8">
+        <text>Ron Paul</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-678" offset="5595" length="5">Chris</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-306" offset="6707" length="8">
+        <text>Ron Paul</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-624" offset="6440" length="10">GoneBezerk</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-312" offset="6896" length="8">
+        <text>Ron Paul</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-630" offset="6879" length="10">GoneBezerk</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-318" offset="6932" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-630" offset="6879" length="10">GoneBezerk</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-324" offset="6960" length="2">
+        <text>he</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-630" offset="6879" length="10">GoneBezerk</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-330" offset="6969" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-630" offset="6879" length="10">GoneBezerk</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-336" offset="1647" length="3">
+        <text>him</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="1476" length="5">rdean</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-342" offset="6497" length="12">
+        <text>Paulestinian</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-624" offset="6440" length="10">GoneBezerk</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-348" offset="4565" length="14">
+        <text>his supporters</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-354" offset="4777" length="14">
+        <text>his supporters</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-360" offset="6969" length="14">
+        <text>his supporters</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-366" offset="5838" length="27">
+        <text>the people in tornado alley</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-648" offset="5623" length="11">Wry Catcher</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-372" offset="830" length="18">
+        <text>4.5 million people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-378" offset="1774" length="28">
+        <text>your presidential candidates</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="1476" length="5">rdean</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-384" offset="89" length="6">
+        <text>Syphon</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-390" offset="1403" length="14">
+        <text>luddly.neddite</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-396" offset="4031" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-456" offset="3669" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-402" offset="4071" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-456" offset="3669" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-408" offset="2226" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-438" offset="1440" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-414" offset="2186" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-438" offset="1440" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-420" offset="3632" length="14">
+        <text>luddly.neddite</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-426" offset="2173" length="11">
+        <text>dingleberry</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-438" offset="1440" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-432" offset="4018" length="11">
+        <text>dingleberry</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-456" offset="3669" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-438" offset="1440" length="13">
+        <text>TakeAStepBack</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-444" offset="2297" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-450" offset="3596" length="13">
+        <text>TakeAStepBack</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-456" offset="3669" length="13">
+        <text>TakeAStepBack</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-462" offset="4142" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-468" offset="4844" length="13">
+        <text>TakeAStepBack</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-474" offset="4947" length="6">
+        <text>myself</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-480" offset="1326" length="13">
+        <text>TakeAStepBack</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-486" offset="1484" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="1476" length="5">rdean</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-492" offset="1633" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-498" offset="1685" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-504" offset="1731" length="8">
+        <text>you guys</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="1476" length="5">rdean</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-510" offset="3425" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-606" offset="3526" length="6">Sallow</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-516" offset="1805" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="1476" length="5">rdean</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-522" offset="1774" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="1476" length="5">rdean</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-528" offset="3415" length="8">
+        <text>you guys</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-606" offset="3526" length="6">Sallow</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-534" offset="1476" length="5">
+        <text>rdean</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-540" offset="1825" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-546" offset="7121" length="5">
+        <text>rdean</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-552" offset="7444" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-696" offset="7046" length="11">GuyPinestra</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-558" offset="7175" length="3">
+        <text>You</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-696" offset="7046" length="11">GuyPinestra</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-564" offset="7290" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-696" offset="7046" length="11">GuyPinestra</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-570" offset="7367" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-696" offset="7046" length="11">GuyPinestra</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-576" offset="7311" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-696" offset="7046" length="11">GuyPinestra</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-582" offset="7214" length="4">
+        <text>derp</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-696" offset="7046" length="11">GuyPinestra</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1412" offset="7188" length="24">
+        <text>an emotional little twit</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-696" offset="7046" length="11">GuyPinestra</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-588" offset="2036" length="6">
+        <text>We all</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-594" offset="3881" length="6">
+        <text>We all</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-600" offset="2330" length="6">
+        <text>Sallow</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-606" offset="3526" length="6">
+        <text>Sallow</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-612" offset="4434" length="10">
+        <text>GoneBezerk</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-618" offset="4687" length="10">
+        <text>GoneBezerk</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-624" offset="6440" length="10">
+        <text>GoneBezerk</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-630" offset="6879" length="10">
+        <text>GoneBezerk</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-636" offset="4610" length="13">
+        <text>Kevin_Kennedy</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-642" offset="6843" length="13">
+        <text>Kevin_Kennedy</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-648" offset="5623" length="11">
+        <text>Wry Catcher</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-654" offset="5817" length="2">
+        <text>My</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-660" offset="5870" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-666" offset="5893" length="2">
+        <text>my</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-672" offset="5523" length="8">
+        <text>Dr.Drock</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-678" offset="5595" length="5">
+        <text>Chris</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-684" offset="6345" length="5">
+        <text>Chris</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-672" offset="5523" length="8">Dr.Drock</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-690" offset="6108" length="10">
+        <text>A democrat</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-672" offset="5523" length="8">Dr.Drock</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-696" offset="7046" length="11">
+        <text>GuyPinestra</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-702" offset="7456" length="2">
+        <text>me</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-708" offset="5922" length="13">
+        <text>the survivors</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-648" offset="5623" length="11">Wry Catcher</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-714" offset="5944" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-648" offset="5623" length="11">Wry Catcher</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1367" offset="6016" length="19">
+        <text>the tornado victims</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1373" offset="6091" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-720" offset="219" length="22">
+        <text>the Federal Government</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-732" offset="2872" length="22">
+        <text>the Federal Government</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-162" offset="2433" length="11">rightwinger</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-738" offset="3211" length="22">
+        <text>The Federal Government</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-162" offset="2433" length="11">rightwinger</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-744" offset="7250" length="22">
+        <text>the Federal government</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-750" offset="558" length="22">
+        <text>The Federal Government</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-156" offset="151" length="11">rightwinger</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-756" offset="2550" length="8">
+        <text>the Feds</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="2467" length="10">Avatar4321</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-762" offset="2797" length="8">
+        <text>the Feds</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="2467" length="10">Avatar4321</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1964" offset="4375" length="10">
+        <text>Government</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-606" offset="3526" length="6">Sallow</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-768" offset="7490" length="9">
+        <text>Democrats</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-696" offset="7046" length="11">GuyPinestra</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1427" offset="7512" length="14">
+        <text>spoiled babies</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-696" offset="7046" length="11">GuyPinestra</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-774" offset="7129" length="11">
+        <text>Republicans</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-546" offset="7121" length="5">rdean</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-780" offset="1626" length="4">
+        <text>FEMA</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-234" offset="1609" length="8">Ron Paul</source>
+          </sentiment>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-534" offset="1476" length="5">rdean</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-786" offset="1846" length="4">
+        <text>FEMA</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-438" offset="1440" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-792" offset="1994" length="4">
+        <text>FEMA</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-390" offset="1403" length="14">luddly.neddite</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-798" offset="2017" length="6">
+        <text>itself</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-390" offset="1403" length="14">luddly.neddite</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-804" offset="2068" length="4">
+        <text>FEMA</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-390" offset="1403" length="14">luddly.neddite</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-810" offset="3691" length="4">
+        <text>FEMA</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-456" offset="3669" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-816" offset="3746" length="9">
+        <text>that unit</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-456" offset="3669" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-822" offset="1901" length="9">
+        <text>that unit</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-438" offset="1440" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-828" offset="3839" length="4">
+        <text>FEMA</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="3632" length="14">luddly.neddite</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-834" offset="3913" length="4">
+        <text>FEMA</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-420" offset="3632" length="14">luddly.neddite</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-840" offset="4971" length="4">
+        <text>FEMA</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-468" offset="4844" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-846" offset="5070" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-468" offset="4844" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-852" offset="5170" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-468" offset="4844" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-858" offset="5221" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-468" offset="4844" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-864" offset="5285" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-468" offset="4844" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-870" offset="5456" length="4">
+        <text>FEMA</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-468" offset="4844" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-876" offset="5475" length="2">
+        <text>it</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-882" offset="3862" length="6">
+        <text>itself</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="3632" length="14">luddly.neddite</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1773" offset="5119" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-468" offset="4844" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-888" offset="5368" length="14">
+        <text>national guard</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-894" offset="5154" length="8">
+        <text>congress</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-900" offset="6776" length="22">
+        <text>Capitol Hill Newspaper</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-906" offset="4392" length="15">
+        <text>Washington Post</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-912" offset="2499" length="21">
+        <text>the State governments</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="2467" length="10">Avatar4321</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-918" offset="2764" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-924" offset="2077" length="17">
+        <text>Homeland Security</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-390" offset="1403" length="14">luddly.neddite</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-930" offset="3922" length="17">
+        <text>Homeland Security</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-420" offset="3632" length="14">luddly.neddite</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-936" offset="2210" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-390" offset="1403" length="14">luddly.neddite</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-942" offset="4055" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-420" offset="3632" length="14">luddly.neddite</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-948" offset="323" length="9">
+        <text>50 states</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-156" offset="151" length="11">rightwinger</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-954" offset="2976" length="9">
+        <text>50 states</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-162" offset="2433" length="11">rightwinger</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-966" offset="2586" length="10">
+        <text>the States</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-180" offset="2467" length="10">Avatar4321</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-972" offset="2657" length="10">
+        <text>themselves</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-978" offset="2679" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-984" offset="2733" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-990" offset="637" length="11">
+        <text>the country</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1002" offset="3457" length="13">
+        <text>United States</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-600" offset="2330" length="6">Sallow</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1008" offset="1030" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1020" offset="5360" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1325" offset="3290" length="11">
+        <text>the country</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1026" offset="420" length="10">
+        <text>California</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1032" offset="3073" length="10">
+        <text>California</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1038" offset="408" length="7">
+        <text>Arizona</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1044" offset="3061" length="7">
+        <text>Arizona</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1050" offset="443" length="12">
+        <text>Those states</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1056" offset="3096" length="12">
+        <text>Those states</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1062" offset="773" length="2">
+        <text>LA</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1068" offset="812" length="8">
+        <text>lousiana</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1074" offset="1011" length="8">
+        <text>Loisiana</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1080" offset="1023" length="25">
+        <text>one of our poorest states</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1086" offset="1050" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1092" offset="1091" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1098" offset="1112" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1104" offset="1178" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1110" offset="1252" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1116" offset="1244" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1122" offset="4936" length="2">
+        <text>VT</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1128" offset="4944" length="2">
+        <text>Ny</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1134" offset="5041" length="10">
+        <text>the states</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-468" offset="4844" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1140" offset="5112" length="6">
+        <text>states</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1146" offset="5852" length="13">
+        <text>tornado alley</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-648" offset="5623" length="11">Wry Catcher</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-960" offset="5392" length="10">
+        <text>the statre</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1232" offset="165" length="10">
+        <text>Each state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1265" offset="678" length="10">
+        <text>each state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1307" offset="2818" length="10">
+        <text>Each state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1331" offset="3331" length="10">
+        <text>each state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1352" offset="5347" length="5">
+        <text>state</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-468" offset="4844" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1442" offset="2503" length="5">
+        <text>State</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-180" offset="2467" length="10">Avatar4321</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1241" offset="276" length="18">
+        <text>where it is needed</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1313" offset="2929" length="18">
+        <text>where it is needed</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1250" offset="601" length="9">
+        <text>personnel</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-156" offset="151" length="11">rightwinger</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1319" offset="3254" length="9">
+        <text>personnel</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-162" offset="2433" length="11">rightwinger</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1271" offset="908" length="13">
+        <text>each resident</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1280" offset="1223" length="13">
+        <text>ALL Americans</text>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-156" offset="151" length="11">rightwinger</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1289" offset="1520" length="16">
+        <text>disaster victims</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1298" offset="2563" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1337" offset="4507" length="9">
+        <text>taxpayers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1346" offset="4719" length="9">
+        <text>taxpayers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1397" offset="6911" length="9">
+        <text>taxpayers</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1379" offset="6246" length="80">
+        <text>neocons who pretend to be conservative but don't care about budgets and spending</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-672" offset="5523" length="8">Dr.Drock</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1388" offset="6332" length="84">
+        <text>neolibs like Chris who pretend to be liberal but hate the idea of personal liberties</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-672" offset="5523" length="8">Dr.Drock</source>
+          </sentiment>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1403" offset="6801" length="16">
+        <text>Business Insider</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1418" offset="7416" length="10">
+        <text>the People</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1433" offset="6776" length="12">
+        <text>Capitol Hill</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1361" offset="5757" length="15">
+        <text>tornado victims</text>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-1152">
+        <trigger offset="826" length="3">has</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1162">
+        <trigger offset="1030" length="3">our</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1172">
+        <trigger offset="1999" length="5">under</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-390" offset="1403" length="14">luddly.neddite</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1448">
+        <trigger offset="3844" length="5">under</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-420" offset="3632" length="14">luddly.neddite</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1182">
+        <trigger offset="2095" length="5">under</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-390" offset="1403" length="14">luddly.neddite</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1458">
+        <trigger offset="3940" length="5">under</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-420" offset="3632" length="14">luddly.neddite</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1192">
+        <trigger offset="2095" length="5">under</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-390" offset="1403" length="14">luddly.neddite</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1468">
+        <trigger offset="3940" length="5">under</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-420" offset="3632" length="14">luddly.neddite</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1202">
+        <trigger offset="2220" length="5">under</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-480" offset="1326" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1478">
+        <trigger offset="4065" length="5">under</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="yes">
+            <source ere_id="m-450" offset="3596" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1212">
+        <trigger offset="5363" length="4">have</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-468" offset="4844" length="13">TakeAStepBack</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1222">
+        <trigger offset="5849" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-648" offset="5623" length="11">Wry Catcher</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1523">
+        <trigger offset="625" length="4">from</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-156" offset="151" length="11">rightwinger</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-1533">
+        <trigger offset="3278" length="4">from</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-162" offset="2433" length="11">rightwinger</source>
+          </sentiment>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-1488">
+        <trigger offset="592" length="8">bring in</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-156" offset="151" length="11">rightwinger</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1592">
+        <trigger offset="3245" length="8">bring in</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-156" offset="151" length="11">rightwinger</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1543">
+        <trigger offset="1082" length="3">aid</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1566">
+        <trigger offset="1096" length="3">pay</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1627">
+        <trigger offset="4520" length="3">pay</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-612" offset="4434" length="10">GoneBezerk</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1680">
+        <trigger offset="4732" length="3">pay</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-618" offset="4687" length="10">GoneBezerk</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1908">
+        <trigger offset="6924" length="3">pay</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-630" offset="6879" length="10">GoneBezerk</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1657">
+        <trigger offset="4541" length="5">trips</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1708">
+        <trigger offset="4753" length="5">trips</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1936">
+        <trigger offset="6945" length="5">trips</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1743">
+        <trigger offset="5099" length="7">consult</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1779">
+        <trigger offset="5329" length="10">dismantled</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1802">
+        <trigger offset="5788" length="3">aid</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-288" offset="5747" length="4">Paul</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1825">
+        <trigger offset="5908" length="5">going</trigger>
+        <sentiments>
+          <sentiment polarity="pos" sarcasm="no">
+            <source ere_id="m-648" offset="5623" length="11">Wry Catcher</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1862">
+        <trigger offset="6729" length="14">Reimbursements</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-624" offset="6440" length="10">GoneBezerk</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-1885">
+        <trigger offset="6747" length="6">Travel</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

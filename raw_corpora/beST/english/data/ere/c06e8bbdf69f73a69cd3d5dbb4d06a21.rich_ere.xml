@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="55142ee50000000000000027" doc_id="c06e8bbdf69f73a69cd3d5dbb4d06a21" source_type="multi_post">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-85" noun_type="PRO" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="654" length="8">
+        <mention_text>everyone</mention_text>
+      </entity_mention>
+      <entity_mention id="m-121" noun_type="PRO" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="813" length="8">
+        <mention_text>everyone</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-25" type="GPE" specificity="specific">
+      <entity_mention id="m-19" noun_type="NAM" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="294" length="9">
+        <mention_text>St. Louis</mention_text>
+      </entity_mention>
+      <entity_mention id="m-67" noun_type="NAM" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="464" length="9">
+        <mention_text>St. Louis</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-34" type="ORG" specificity="specific">
+      <entity_mention id="m-28" noun_type="NAM" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="294" length="14">
+        <mention_text>St. Louis Rams</mention_text>
+      </entity_mention>
+      <entity_mention id="m-55" noun_type="NOM" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="372" length="8">
+        <mention_text>the team</mention_text>
+        <nom_head source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="376" length="4">team</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-43" type="PER" specificity="specific">
+      <entity_mention id="m-37" noun_type="NAM" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="321" length="15">
+        <mention_text>Steve Spagnuolo</mention_text>
+      </entity_mention>
+      <entity_mention id="m-61" noun_type="NAM" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="419" length="9">
+        <mention_text>Spagnuolo</mention_text>
+      </entity_mention>
+      <entity_mention id="m-79" noun_type="NAM" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="593" length="9">
+        <mention_text>Spagnuolo</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-52" type="PER" specificity="specific">
+      <entity_mention id="m-46" noun_type="NAM" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="357" length="13">
+        <mention_text>Billy Devaney</mention_text>
+      </entity_mention>
+      <entity_mention id="m-73" noun_type="NAM" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="509" length="7">
+        <mention_text>Devaney</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-97" type="PER" specificity="specific">
+      <entity_mention id="m-91" noun_type="NAM" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="690" length="15">
+        <mention_text>ScreamingMeemie</mention_text>
+      </entity_mention>
+      <entity_mention id="m-100" noun_type="PRO" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="750" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+      <entity_mention id="m-115" noun_type="PRO" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="790" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-112" type="PER" specificity="specific">
+      <entity_mention id="m-106" noun_type="NAM" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="764" length="4">
+        <mention_text>Norv</mention_text>
+      </entity_mention>
+      <entity_mention id="m-130" noun_type="PRO" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="830" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-347" type="PER" specificity="specific">
+      <entity_mention id="m-13" noun_type="NAM" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="14" length="11">
+        <mention_text>RockaFowler</mention_text>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-164" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="315" length="5" type="title">coach</filler>
+    <filler id="f-184" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="341" length="15" type="title">general manager</filler>
+    <filler id="f-358" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="407" length="2" type="age">52</filler>
+    <filler id="f-410" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="518" length="2" type="age">56</filler>
+    <filler id="f-420" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="628" length="5" type="title">Coach</filler>
+    <filler id="f-430" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="844" length="5" type="title">coach</filler>
+    <filler id="f-247" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="341" length="15" type="title">general manager</filler>
+    <filler id="f-275" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="394" length="6" type="time" nom_time="2012-01-02">Monday</filler>
+    <filler id="f-305" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="495" length="12" type="time" nom_time="2009-01-XX">January 2009</filler>
+    <filler id="f-335" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="538" length="15" type="title">general manager</filler>
+    <filler id="f-342" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="557" length="13" type="time" nom_time="2008-12-XX">December 2008</filler>
+    <filler id="f-392" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="315" length="5" type="title">coach</filler>
+    <filler id="f-399" source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="394" length="6" type="time" nom_time="2012-01-02">Monday</filler>
+  </fillers>
+  <relations>
+    <relation id="r-364" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-136" realis="true">
+        <rel_arg1 entity_id="ent-34" entity_mention_id="m-28" role="org">St. Louis Rams</rel_arg1>
+        <rel_arg2 entity_id="ent-25" entity_mention_id="m-19" role="loc">St. Louis</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-365" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-146" realis="true">
+        <rel_arg1 entity_id="ent-43" entity_mention_id="m-37" role="leader">Steve Spagnuolo</rel_arg1>
+        <rel_arg2 entity_id="ent-34" entity_mention_id="m-28" role="entity">St. Louis Rams</rel_arg2>
+        <trigger source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="315" length="5">coach</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-366" type="personalsocial" subtype="role">
+      <relation_mention id="relm-156" realis="true">
+        <rel_arg1 entity_id="ent-43" entity_mention_id="m-37" role="per">Steve Spagnuolo</rel_arg1>
+        <rel_arg2 filler_id="f-164" role="role">coach</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-412" realis="true">
+        <rel_arg1 entity_id="ent-43" entity_mention_id="m-79" role="per">Spagnuolo</rel_arg1>
+        <rel_arg2 filler_id="f-420" role="role">Coach</rel_arg2>
+        <trigger source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="590" length="2">is</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-367" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-166" realis="true">
+        <rel_arg1 entity_id="ent-52" entity_mention_id="m-46" role="leader">Billy Devaney</rel_arg1>
+        <rel_arg2 entity_id="ent-34" entity_mention_id="m-28" role="entity">St. Louis Rams</rel_arg2>
+        <trigger source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="349" length="7">manager</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-368" type="personalsocial" subtype="role">
+      <relation_mention id="relm-176" realis="true">
+        <rel_arg1 entity_id="ent-52" entity_mention_id="m-46" role="per">Billy Devaney</rel_arg1>
+        <rel_arg2 filler_id="f-184" role="role">general manager</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-369" type="physical" subtype="locatednear">
+      <relation_mention id="relm-186" realis="true">
+        <rel_arg1 entity_id="ent-43" entity_mention_id="m-61" role="entity">Spagnuolo</rel_arg1>
+        <rel_arg2 entity_id="ent-25" entity_mention_id="m-67" role="loc">St. Louis</rel_arg2>
+        <trigger source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="461" length="2">in</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-370" type="generalaffiliation" subtype="personage">
+      <relation_mention id="relm-350" realis="true">
+        <rel_arg1 entity_id="ent-43" entity_mention_id="m-61" role="per">Spagnuolo</rel_arg1>
+        <rel_arg2 filler_id="f-358" role="age">52</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-371" type="generalaffiliation" subtype="personage">
+      <relation_mention id="relm-402" realis="true">
+        <rel_arg1 entity_id="ent-52" entity_mention_id="m-73" role="per">Devaney</rel_arg1>
+        <rel_arg2 filler_id="f-410" role="age">56</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-372" type="personalsocial" subtype="role">
+      <relation_mention id="relm-422" realis="true">
+        <rel_arg1 entity_id="ent-112" entity_mention_id="m-130" role="per">him</rel_arg1>
+        <rel_arg2 filler_id="f-430" role="role">coach</rel_arg2>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-199">
+      <event_mention id="em-201" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="309" length="5">fired</trigger>
+        <em_arg entity_id="ent-34" entity_mention_id="m-28" role="entity" realis="true">St. Louis Rams</em_arg>
+        <em_arg entity_id="ent-52" entity_mention_id="m-46" role="entity" realis="true">Billy Devaney</em_arg>
+        <em_arg filler_id="f-247" role="position" realis="true">general manager</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-278">
+      <event_mention id="em-250" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="formal" medium="canttell" schedule="planned">
+        <trigger source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="381" length="9">announced</trigger>
+        <em_arg entity_id="ent-34" entity_mention_id="m-55" role="entity" realis="true">the team</em_arg>
+        <em_arg filler_id="f-275" role="time" realis="true">Monday</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-308">
+      <event_mention id="em-280" type="personnel" subtype="startposition" realis="actual">
+        <trigger source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="486" length="5">hired</trigger>
+        <em_arg entity_id="ent-43" entity_mention_id="m-61" role="entity" realis="true">Spagnuolo</em_arg>
+        <em_arg filler_id="f-305" role="time" realis="true">January 2009</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-345">
+      <event_mention id="em-310" type="personnel" subtype="startposition" realis="actual">
+        <trigger source="c06e8bbdf69f73a69cd3d5dbb4d06a21" offset="526" length="8">promoted</trigger>
+        <em_arg entity_id="ent-52" entity_mention_id="m-73" role="entity" realis="true">Devaney</em_arg>
+        <em_arg filler_id="f-335" role="position" realis="true">general manager</em_arg>
+        <em_arg filler_id="f-342" role="time" realis="true">December 2008</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

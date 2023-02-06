@@ -1,0 +1,1436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56fc3eb50000000000000002">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-498">
+        <trigger offset="290" length="9">President</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-93" offset="387" length="11">state press</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-508">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-93" offset="387" length="11">state press</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-518">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-528">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-165" offset="639" length="2">Hu</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-159" offset="617" length="14">People's Daily</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-538">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-548">
+        <trigger offset="691" length="6">toured</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-558">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-578">
+        <trigger offset="749" length="4">with</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-588">
+        <trigger offset="1297" length="2">at</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-598">
+        <trigger offset="1297" length="2">at</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-608">
+        <trigger offset="1315" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-618">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-628">
+        <trigger offset="1200" length="3">old</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-638">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-648">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-658">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-668">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-678">
+        <trigger offset="2118" length="5">based</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-688">
+        <trigger offset="197" length="8">killings</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-42" offset="190" length="6">
+            <text>school</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-864">
+        <trigger offset="462" length="8">killings</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-102" offset="455" length="6">
+            <text>school</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-932">
+        <trigger offset="898" length="7">attacks</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-222" offset="891" length="6">
+            <text>school</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1458">
+        <trigger offset="1770" length="10">assailants</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-414" offset="1763" length="6">
+            <text>school</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-708">
+        <trigger offset="197" length="8">killings</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-42" offset="190" length="6">
+            <text>school</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-884">
+        <trigger offset="462" length="8">killings</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-102" offset="455" length="6">
+            <text>school</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-952">
+        <trigger offset="962" length="4">dead</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-234" offset="952" length="9">
+            <text>17 people</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-243" offset="978" length="11">
+            <text>15 students</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-810">
+        <trigger offset="314" length="6">called</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-93" offset="387" length="11">state press</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-75" offset="300" length="9">
+            <text>Hu Jintao</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-93" offset="387" length="11">state press</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-81" offset="324" length="17">
+            <text>the entire nation</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-93" offset="387" length="11">state press</source>
+              </belief>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-836">
+        <trigger offset="399" length="4">said</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-93" offset="387" length="11">
+            <text>state press</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1584" offset="404" length="7">
+            <text>Tuesday</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-904">
+        <trigger offset="691" length="6">toured</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no"/>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-171" offset="662" length="2">
+            <text>Hu</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1591" offset="678" length="6">
+            <text>Monday</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1598" offset="783" length="39">
+            <text>the eve of International Children's Day</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no"/>
+              <belief type="rob" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-978">
+        <trigger offset="1002" length="7">injured</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-252" offset="995" length="6">
+            <text>scores</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1000">
+        <trigger offset="1223" length="8">executed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-309" offset="1190" length="28">
+            <text>a 47-year-old unemployed man</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1030" offset="1252" length="7">
+            <text>assault</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1605" offset="1182" length="6">
+            <text>Sunday</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1034">
+        <trigger offset="1223" length="8">executed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-309" offset="1190" length="28">
+            <text>a 47-year-old unemployed man</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1612" offset="1182" length="6">
+            <text>Sunday</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1062">
+        <trigger offset="1252" length="7">assault</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-309" offset="1190" length="28">
+            <text>a 47-year-old unemployed man</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-315" offset="1263" length="32">
+            <text>32 people, mostly small children</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-321" offset="1300" length="31">
+            <text>a kindergarten in eastern China</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1619" offset="1335" length="5">
+            <text>April</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1102">
+        <trigger offset="1362" length="7">wielded</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-348" offset="1351" length="9">
+            <text>Xu Yuyuan</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1126" offset="1370" length="38">
+            <text>a knife usually used to slaughter pigs</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1128">
+        <trigger offset="1431" length="9">sentenced</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1160" offset="1423" length="3">
+            <text>who</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1152" offset="1444" length="5">
+            <text>death</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1626" offset="1453" length="6">
+            <text>May 15</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1168">
+        <trigger offset="1461" length="4">told</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-1160" offset="1423" length="3">
+            <text>who</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-360" offset="1466" length="9">
+            <text>the court</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1202">
+        <trigger offset="1530" length="6">losing</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-1219" offset="1537" length="5">
+            <text>money</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-372" offset="1499" length="3">
+            <text>his</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1230">
+        <trigger offset="1667" length="7">stabbed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-390" offset="1647" length="82">
+            <text>a former doctor who stabbed eight schoolchildren to death in a March school attack</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-396" offset="1675" length="20">
+            <text>eight schoolchildren</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1258">
+        <trigger offset="1723" length="6">attack</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-408" offset="1716" length="6">
+            <text>school</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1633" offset="1710" length="5">
+            <text>March</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1284">
+        <trigger offset="1734" length="8">executed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-390" offset="1647" length="82">
+            <text>a former doctor who stabbed eight schoolchildren to death in a March school attack</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1640" offset="1635" length="10">
+            <text>late April</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1312">
+        <trigger offset="1699" length="5">death</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-396" offset="1675" length="20">
+            <text>eight schoolchildren</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1382">
+        <trigger offset="1734" length="8">executed</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-390" offset="1647" length="82">
+            <text>a former doctor who stabbed eight schoolchildren to death in a March school attack</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1647" offset="1635" length="10">
+            <text>late April</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1410">
+        <trigger offset="1796" length="7">suicide</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-420" offset="1753" length="27">
+            <text>Two other school assailants</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-420" offset="1753" length="27">
+            <text>Two other school assailants</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1498">
+        <trigger offset="1833" length="4">said</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-426" offset="1822" length="10">
+            <text>Wen Jiabao</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="f-1654" offset="1838" length="10">
+            <text>last month</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-1546">
+        <trigger offset="2093" length="9">interview</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-444" offset="2078" length="3">
+            <text>Wen</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-462" offset="2124" length="18">
+            <text>Phoenix Television</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="252" length="3">AFP</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-18" offset="149" length="15">
+        <text>China president</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-75" offset="300" length="9">
+        <text>Hu Jintao</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-165" offset="639" length="2">
+        <text>Hu</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-171" offset="662" length="2">
+        <text>Hu</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-216" offset="850" length="3">
+        <text>His</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-24" offset="149" length="5">
+        <text>China</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-69" offset="282" length="7">
+        <text>Chinese</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-81" offset="324" length="17">
+        <text>the entire nation</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-108" offset="387" length="5">
+        <text>state</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-141" offset="578" length="14">
+        <text>our motherland</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-228" offset="913" length="5">
+        <text>China</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-270" offset="1064" length="5">
+        <text>China</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-333" offset="1326" length="5">
+        <text>China</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-33" offset="171" length="5">
+        <text>child</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-87" offset="377" length="8">
+        <text>children</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-123" offset="538" length="8">
+        <text>children</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-129" offset="578" length="32">
+        <text>our motherland's next generation</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-210" offset="808" length="8">
+        <text>Children</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-42" offset="190" length="6">
+        <text>school</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-102" offset="455" length="6">
+        <text>school</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-222" offset="891" length="6">
+        <text>school</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-408" offset="1716" length="6">
+        <text>school</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-414" offset="1763" length="6">
+        <text>school</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-51" offset="229" length="7">
+        <text>Beijing</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-177" offset="700" length="7">
+        <text>Beijing</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-60" offset="252" length="3">
+        <text>AFP</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-93" offset="387" length="11">
+        <text>state press</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-159" offset="617" length="14">
+        <text>People's Daily</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-114" offset="482" length="18">
+        <text>The entire society</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-147" offset="578" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-183" offset="700" length="48">
+        <text>Beijing exhibit on transport and building safety</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-192" offset="754" length="25">
+        <text>a group of schoolchildren</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-201" offset="733" length="8">
+        <text>building</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-234" offset="952" length="9">
+        <text>17 people</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-243" offset="978" length="11">
+        <text>15 students</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-252" offset="995" length="6">
+        <text>scores</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-261" offset="1020" length="7">
+        <text>Experts</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-315" offset="1263" length="32">
+        <text>32 people, mostly small children</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-309" offset="1190" length="28">
+        <text>a 47-year-old unemployed man</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-342" offset="1342" length="7">
+        <text>The man</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-348" offset="1351" length="9">
+        <text>Xu Yuyuan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-354" offset="1419" length="2">
+        <text>Xu</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-366" offset="1476" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-372" offset="1499" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-384" offset="1604" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-1160" offset="1423" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-321" offset="1300" length="31">
+        <text>a kindergarten in eastern China</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-327" offset="1318" length="13">
+        <text>eastern China</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-360" offset="1466" length="9">
+        <text>the court</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-378" offset="1516" length="7">
+        <text>society</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-438" offset="1997" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-390" offset="1647" length="82">
+        <text>a former doctor who stabbed eight schoolchildren to death in a March school attack</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-396" offset="1675" length="20">
+        <text>eight schoolchildren</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-420" offset="1753" length="27">
+        <text>Two other school assailants</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-426" offset="1822" length="10">
+        <text>Wen Jiabao</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-444" offset="2078" length="3">
+        <text>Wen</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-456" offset="2108" length="9">
+        <text>Hong Kong</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-462" offset="2124" length="18">
+        <text>Phoenix Television</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-498">
+        <trigger offset="290" length="9">President</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-508">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-518">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-528">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-538">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-548">
+        <trigger offset="691" length="6">toured</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-558">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-578">
+        <trigger offset="749" length="4">with</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-588">
+        <trigger offset="1297" length="2">at</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-598">
+        <trigger offset="1297" length="2">at</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-608">
+        <trigger offset="1315" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-618">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-628">
+        <trigger offset="1200" length="3">old</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-638">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-648">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-658">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-668">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-678">
+        <trigger offset="2118" length="5">based</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-688">
+        <trigger offset="197" length="8">killings</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-864">
+        <trigger offset="462" length="8">killings</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-60" offset="252" length="3">AFP</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-932">
+        <trigger offset="898" length="7">attacks</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1458">
+        <trigger offset="1770" length="10">assailants</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-708">
+        <trigger offset="197" length="8">killings</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-884">
+        <trigger offset="462" length="8">killings</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-952">
+        <trigger offset="962" length="4">dead</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-810">
+        <trigger offset="314" length="6">called</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-836">
+        <trigger offset="399" length="4">said</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-904">
+        <trigger offset="691" length="6">toured</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-978">
+        <trigger offset="1002" length="7">injured</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1000">
+        <trigger offset="1223" length="8">executed</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1034">
+        <trigger offset="1223" length="8">executed</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1062">
+        <trigger offset="1252" length="7">assault</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1102">
+        <trigger offset="1362" length="7">wielded</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1128">
+        <trigger offset="1431" length="9">sentenced</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1168">
+        <trigger offset="1461" length="4">told</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1202">
+        <trigger offset="1530" length="6">losing</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1230">
+        <trigger offset="1667" length="7">stabbed</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1258">
+        <trigger offset="1723" length="6">attack</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1284">
+        <trigger offset="1734" length="8">executed</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1312">
+        <trigger offset="1699" length="5">death</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1382">
+        <trigger offset="1734" length="8">executed</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1410">
+        <trigger offset="1796" length="7">suicide</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1498">
+        <trigger offset="1833" length="4">said</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-1546">
+        <trigger offset="2093" length="9">interview</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

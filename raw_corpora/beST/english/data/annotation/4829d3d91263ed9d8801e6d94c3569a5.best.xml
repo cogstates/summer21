@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56fc403d0000000000000061">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-250">
+        <trigger offset="1343" length="10">subsidiary</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-19" offset="70" length="4">CNET</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="6">Eugene</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-472">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-19" offset="70" length="4">CNET</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="6">Eugene</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-482">
+        <trigger offset="1377" length="6">German</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-19" offset="70" length="4">CNET</source>
+          </belief>
+          <belief type="rob" polarity="pos" sarcasm="no">
+            <source ere_id="m-13" offset="14" length="6">Eugene</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-265">
+        <trigger offset="395" length="3">buy</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-19" offset="70" length="4">CNET</source>
+          </belief>
+          <belief type="rob">
+            <source ere_id="m-13" offset="14" length="6">Eugene</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-91" offset="384" length="3">
+            <text>its</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-19" offset="70" length="4">CNET</source>
+              </belief>
+              <belief type="rob">
+                <source ere_id="m-13" offset="14" length="6">Eugene</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-85" offset="399" length="8">
+            <text>MetroPCS</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-19" offset="70" length="4">CNET</source>
+              </belief>
+              <belief type="rob">
+                <source ere_id="m-13" offset="14" length="6">Eugene</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-293">
+        <trigger offset="504" length="6">merger</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-19" offset="70" length="4">CNET</source>
+          </belief>
+          <belief type="rob">
+            <source ere_id="m-13" offset="14" length="6">Eugene</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-109" offset="519" length="17">
+            <text>the two companies</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-19" offset="70" length="4">CNET</source>
+              </belief>
+              <belief type="rob">
+                <source ere_id="m-13" offset="14" length="6">Eugene</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-314">
+        <trigger offset="697" length="6">merger</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-19" offset="70" length="4">CNET</source>
+          </belief>
+          <belief type="rob">
+            <source ere_id="m-13" offset="14" length="6">Eugene</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-151" offset="748" length="13">
+            <text>the companies</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-19" offset="70" length="4">CNET</source>
+              </belief>
+              <belief type="rob">
+                <source ere_id="m-13" offset="14" length="6">Eugene</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-400">
+        <trigger offset="1048" length="6">merger</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-19" offset="70" length="4">CNET</source>
+          </belief>
+          <belief type="rob">
+            <source ere_id="m-13" offset="14" length="6">Eugene</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-175" offset="1074" length="8">
+            <text>T-Mobile</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-19" offset="70" length="4">CNET</source>
+              </belief>
+              <belief type="rob">
+                <source ere_id="m-13" offset="14" length="6">Eugene</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-181" offset="1087" length="8">
+            <text>MetroPCS</text>
+            <beliefs>
+              <belief type="na"/>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-428">
+        <trigger offset="1170" length="6">losses</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-19" offset="70" length="4">CNET</source>
+          </belief>
+          <belief type="rob">
+            <source ere_id="m-13" offset="14" length="6">Eugene</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-193" offset="1182" length="13">
+            <text>the companies</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-19" offset="70" length="4">CNET</source>
+              </belief>
+              <belief type="rob">
+                <source ere_id="m-13" offset="14" length="6">Eugene</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-13" offset="14" length="6">
+        <text>Eugene</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-19" offset="70" length="4">
+        <text>CNET</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-28" offset="191" length="3">
+        <text>DOJ</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-64" offset="308" length="21">
+        <text>Department of Justice</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-103" offset="445" length="3">
+        <text>DOJ</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-142" offset="658" length="3">
+        <text>DOJ</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-37" offset="227" length="8">
+        <text>T-Mobile</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-70" offset="368" length="12">
+        <text>T-Mobile USA</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-91" offset="384" length="3">
+        <text>its</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-175" offset="1074" length="8">
+        <text>T-Mobile</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-214" offset="1316" length="8">
+        <text>T-Mobile</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-220" offset="1328" length="45">
+        <text>a wholly owned subsidiary of Deutsche Telekom</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-46" offset="236" length="8">
+        <text>MetroPCS</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-85" offset="399" length="8">
+        <text>MetroPCS</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-97" offset="417" length="8">
+        <text>MetroPCS</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-181" offset="1087" length="8">
+        <text>MetroPCS</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-55" offset="258" length="18">
+        <text>Marguerite Reardon</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-76" offset="377" length="3">
+        <text>USA</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-115" offset="580" length="4">
+        <text>Hart</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-124" offset="585" length="5">
+        <text>Scott</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-133" offset="591" length="6">
+        <text>Rodino</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-109" offset="519" length="17">
+        <text>the two companies</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-151" offset="748" length="13">
+        <text>the companies</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-193" offset="1182" length="13">
+        <text>the companies</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-199" offset="1235" length="13">
+        <text>The companies</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-157" offset="803" length="33">
+        <text>Federal Communications Commission</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-187" offset="1132" length="3">
+        <text>FCC</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-166" offset="961" length="12">
+        <text>labor unions</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-205" offset="1277" length="31">
+        <text>Committee on Foreign Investment</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-226" offset="1357" length="16">
+        <text>Deutsche Telekom</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-235" offset="1375" length="35">
+        <text>a German telecommunications company</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-241" offset="1377" length="6">
+        <text>German</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-250">
+        <trigger offset="1343" length="10">subsidiary</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-472">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-482">
+        <trigger offset="1377" length="6">German</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-265">
+        <trigger offset="395" length="3">buy</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-293">
+        <trigger offset="504" length="6">merger</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-314">
+        <trigger offset="697" length="6">merger</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-400">
+        <trigger offset="1048" length="6">merger</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-428">
+        <trigger offset="1170" length="6">losses</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

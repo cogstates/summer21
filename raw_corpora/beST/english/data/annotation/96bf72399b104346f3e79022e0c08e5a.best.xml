@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56fc40550000000000000070">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-633">
+        <trigger offset="563" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-337" offset="480" length="5">ekrem</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-653">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-663">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-839">
+        <trigger offset="1607" length="4">stay</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-872">
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-337" offset="480" length="5">ekrem</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-693">
+        <trigger offset="1396" length="7">invaded</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-427" offset="1393" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-421" offset="1362" length="4">
+            <text>Iraq</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-818">
+        <trigger offset="1881" length="7">invaded</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-556" offset="1889" length="4">
+            <text>Iraq</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-912">
+        <trigger offset="1533" length="7">invaded</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-451" offset="1530" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-723">
+        <trigger offset="1795" length="4">gone</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-535" offset="1780" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-550" offset="1849" length="5">
+            <text>there</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-758">
+        <trigger offset="1804" length="5">taken</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-535" offset="1780" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-541" offset="1814" length="9">
+            <text>Bin Laden</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-790">
+        <trigger offset="1829" length="3">got</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-535" offset="1780" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-550" offset="1849" length="5">
+            <text>there</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-963">
+        <trigger offset="1729" length="8">withdraw</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-523" offset="1718" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-472" offset="1612" length="5">
+            <text>there</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-849">
+        <trigger offset="620" length="11">destruction</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-337" offset="480" length="5">ekrem</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-373" offset="648" length="5">
+            <text>there</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-337" offset="480" length="5">ekrem</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-882">
+        <trigger offset="539" length="4">lost</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-337" offset="480" length="5">ekrem</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="f-899" offset="544" length="18">
+            <text>over 11,000 trucks</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-337" offset="480" length="5">ekrem</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-361" offset="566" length="11">
+            <text>Afghanistan</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-337" offset="480" length="5">ekrem</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-933">
+        <trigger offset="1804" length="5">taken</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-535" offset="1780" length="2">
+            <text>we</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-541" offset="1814" length="9">
+            <text>Bin Laden</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-307" offset="14" length="15">
+        <text>bitterlyclingin</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-313" offset="265" length="5">
+        <text>a man</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-319" offset="275" length="3">
+        <text>his</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-325" offset="305" length="11">
+        <text>Afghanistan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-331" offset="415" length="11">
+        <text>Afghanistan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-361" offset="566" length="11">
+        <text>Afghanistan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-373" offset="648" length="5">
+        <text>there</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-457" offset="1543" length="12">
+        <text>Afghantistan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-472" offset="1612" length="5">
+        <text>there</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-550" offset="1849" length="5">
+        <text>there</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-337" offset="480" length="5">
+        <text>ekrem</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-385" offset="728" length="5">
+        <text>The T</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-403" offset="1210" length="1">
+        <text>I</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-367" offset="602" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-379" offset="667" length="3">
+        <text>you</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-391" offset="923" length="5">
+        <text>Egypt</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-397" offset="1078" length="6">
+        <text>Muslim</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-409" offset="1269" length="9">
+        <text>Old Rocks</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-415" offset="1343" length="14">
+        <text>you dumb ****s</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-427" offset="1393" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-451" offset="1530" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-523" offset="1718" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-535" offset="1780" length="2">
+        <text>we</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-624" offset="1752" length="3">
+        <text>our</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-421" offset="1362" length="4">
+        <text>Iraq</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-439" offset="1441" length="5">
+        <text>there</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-556" offset="1889" length="4">
+        <text>Iraq</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-433" offset="1426" length="14">
+        <text>the Christians</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-445" offset="1458" length="5">
+        <text>women</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-463" offset="1588" length="63">
+        <text>anybody that could stay there any amount of time as an occupier</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-478" offset="1653" length="4">
+        <text>They</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-499" offset="1680" length="7">
+        <text>British</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-493" offset="1692" length="7">
+        <text>Soviets</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-517" offset="531" length="7">
+        <text>Soviets</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-541" offset="1814" length="9">
+        <text>Bin Laden</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-615" offset="527" length="11">
+        <text>The Soviets</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-633">
+        <trigger offset="563" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-653">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-663">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-839">
+        <trigger offset="1607" length="4">stay</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-872">
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-693">
+        <trigger offset="1396" length="7">invaded</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-818">
+        <trigger offset="1881" length="7">invaded</trigger>
+        <sentiments>
+          <sentiment polarity="neg" sarcasm="no">
+            <source ere_id="m-409" offset="1269" length="9">Old Rocks</source>
+          </sentiment>
+        </sentiments>
+      </event>
+      <event ere_id="em-912">
+        <trigger offset="1533" length="7">invaded</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-723">
+        <trigger offset="1795" length="4">gone</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-758">
+        <trigger offset="1804" length="5">taken</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-790">
+        <trigger offset="1829" length="3">got</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-963">
+        <trigger offset="1729" length="8">withdraw</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-849">
+        <trigger offset="620" length="11">destruction</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-882">
+        <trigger offset="539" length="4">lost</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-933">
+        <trigger offset="1804" length="5">taken</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

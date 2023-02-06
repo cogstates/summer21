@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<belief_sentiment_doc id="tree-56cdec3d0000000000000040">
+  <belief_annotations>
+    <relations>
+      <relation ere_id="relm-246">
+        <trigger offset="300" length="2">in</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="14" length="6">Travis</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-256">
+        <trigger offset="551" length="2">of</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="14" length="6">Travis</source>
+          </belief>
+        </beliefs>
+      </relation>
+      <relation ere_id="relm-266">
+        <trigger offset="583" length="5">under</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="14" length="6">Travis</source>
+          </belief>
+        </beliefs>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-280">
+        <trigger offset="343" length="4">died</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="14" length="6">Travis</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-78" offset="325" length="17">
+            <text>a million of them</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="14" length="6">Travis</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-114" offset="303" length="6">
+            <text>Rwanda</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="14" length="6">Travis</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-301">
+        <trigger offset="496" length="9">slaughter</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="14" length="6">Travis</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-126" offset="509" length="8">
+            <text>Cambodia</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="14" length="6">Travis</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-322">
+        <trigger offset="659" length="12">slaughtering</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-60" offset="14" length="6">Travis</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-150" offset="672" length="5">
+            <text>their</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-60" offset="14" length="6">Travis</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-90" offset="672" length="9">
+            <text>their own</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-60" offset="14" length="6">Travis</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-144" offset="649" length="4">
+            <text>them</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-60" offset="14" length="6">Travis</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-413">
+        <trigger offset="270" length="4">came</trigger>
+        <beliefs>
+          <belief type="cb" polarity="neg" sarcasm="no">
+            <source ere_id="m-60" offset="14" length="6">Travis</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-404" offset="263" length="6">
+            <text>no one</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-60" offset="14" length="6">Travis</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-114" offset="303" length="6">
+            <text>Rwanda</text>
+            <beliefs>
+              <belief type="cb" polarity="neg" sarcasm="no">
+                <source ere_id="m-60" offset="14" length="6">Travis</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-449">
+        <trigger offset="613" length="8">invading</trigger>
+        <beliefs>
+          <belief type="cb" polarity="pos" sarcasm="no">
+            <source ere_id="m-60" offset="14" length="6">Travis</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-84" offset="589" length="6">
+            <text>Hitler</text>
+            <beliefs>
+              <belief type="cb" polarity="pos" sarcasm="no">
+                <source ere_id="m-60" offset="14" length="6">Travis</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-517">
+        <trigger offset="778" length="4">kill</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-60" offset="14" length="6">Travis</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-493" offset="756" length="10">
+            <text>one nation</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-60" offset="14" length="6">Travis</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-508" offset="812" length="18">
+            <text>its own population</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-60" offset="14" length="6">Travis</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-583">
+        <trigger offset="942" length="3">led</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-60" offset="14" length="6">Travis</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-574" offset="890" length="34">
+            <text>everyone of religious/ethnic group</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-60" offset="14" length="6">Travis</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-604" offset="953" length="16">
+            <text>machine gun pits</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-60" offset="14" length="6">Travis</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-631">
+        <trigger offset="990" length="4">come</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-60" offset="14" length="6">Travis</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-613" offset="980" length="3">
+            <text>who</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-60" offset="14" length="6">Travis</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-674">
+        <trigger offset="1265" length="7">killing</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-96" offset="1097" length="7">JJM 777</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-697" offset="1220" length="12">
+            <text>world police</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-96" offset="1097" length="7">JJM 777</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-712" offset="1273" length="4">
+            <text>whom</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-96" offset="1097" length="7">JJM 777</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-760">
+        <trigger offset="1626" length="9">murdering</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-96" offset="1097" length="7">JJM 777</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-751" offset="1524" length="22">
+            <text>the other armed forces</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-96" offset="1097" length="7">JJM 777</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-781" offset="1636" length="44">
+            <text>some or many or a huge amount of individuals</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-96" offset="1097" length="7">JJM 777</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-793" offset="1644" length="36">
+            <text>many or a huge amount of individuals</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-96" offset="1097" length="7">JJM 777</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-799" offset="1652" length="28">
+            <text>a huge amount of individuals</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-96" offset="1097" length="7">JJM 777</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-903">
+        <trigger offset="2029" length="4">send</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-96" offset="1097" length="7">JJM 777</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-888" offset="2008" length="16">
+            <text>The world police</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-96" offset="1097" length="7">JJM 777</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-894" offset="2034" length="6">
+            <text>troops</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-96" offset="1097" length="7">JJM 777</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+      <event ere_id="em-951">
+        <trigger offset="2152" length="10">massacring</trigger>
+        <beliefs>
+          <belief type="na">
+            <source ere_id="m-96" offset="1097" length="7">JJM 777</source>
+          </belief>
+        </beliefs>
+        <arguments>
+          <arg ere_id="m-942" offset="2135" length="16">
+            <text>the armed forces</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-96" offset="1097" length="7">JJM 777</source>
+              </belief>
+            </beliefs>
+          </arg>
+          <arg ere_id="m-979" offset="2163" length="21">
+            <text>a lot of the hostages</text>
+            <beliefs>
+              <belief type="na">
+                <source ere_id="m-96" offset="1097" length="7">JJM 777</source>
+              </belief>
+            </beliefs>
+          </arg>
+        </arguments>
+      </event>
+    </events>
+  </belief_annotations>
+  <sentiment_annotations>
+    <entities>
+      <entity ere_id="m-60" offset="14" length="6">
+        <text>Travis</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-72" offset="294" length="5">
+        <text>Tutsi</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-78" offset="325" length="17">
+        <text>a million of them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-84" offset="589" length="6">
+        <text>Hitler</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-90" offset="672" length="9">
+        <text>their own</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-96" offset="1097" length="7">
+        <text>JJM 777</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-102" offset="522" length="39">
+        <text>the new communist government of Vietnam</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-108" offset="1071" length="2">
+        <text>UN</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-114" offset="303" length="6">
+        <text>Rwanda</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-120" offset="436" length="5">
+        <text>Sudan</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-126" offset="509" length="8">
+        <text>Cambodia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-132" offset="554" length="7">
+        <text>Vietnam</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-138" offset="443" length="74">
+        <text>The only nation seemingly interested in stopping the slaughter in Cambodia</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-144" offset="649" length="4">
+        <text>them</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-150" offset="672" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-156" offset="575" length="7">
+        <text>Germany</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-162" offset="1289" length="3">
+        <text>USA</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-168" offset="1332" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-174" offset="1370" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-180" offset="1454" length="3">
+        <text>USA</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-186" offset="1552" length="3">
+        <text>USA</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-745" offset="1515" length="3">
+        <text>one</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-192" offset="1146" length="9">
+        <text>The world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-198" offset="1220" length="5">
+        <text>world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-210" offset="1472" length="5">
+        <text>world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-216" offset="2237" length="5">
+        <text>world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-222" offset="2012" length="5">
+        <text>world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-228" offset="1783" length="5">
+        <text>world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-234" offset="1713" length="5">
+        <text>world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-240" offset="1813" length="19">
+        <text>the world territory</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-487" offset="735" length="5">
+        <text>world</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-371" offset="104" length="7">
+        <text>nations</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-380" offset="124" length="5">
+        <text>their</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-386" offset="199" length="6">
+        <text>others</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-395" offset="252" length="2">
+        <text>We</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-404" offset="263" length="6">
+        <text>no one</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-443" offset="383" length="6">
+        <text>no one</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-472" offset="629" length="6">
+        <text>anyone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-204" offset="733" length="17">
+        <text>a world community</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-493" offset="756" length="10">
+        <text>one nation</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-502" offset="812" length="3">
+        <text>its</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-508" offset="812" length="18">
+        <text>its own population</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-547" offset="836" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-556" offset="836" length="15">
+        <text>your own nation</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-565" offset="856" length="20">
+        <text>a radical government</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-574" offset="890" length="34">
+        <text>everyone of religious/ethnic group</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-604" offset="953" length="16">
+        <text>machine gun pits</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-613" offset="980" length="3">
+        <text>who</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-622" offset="998" length="4">
+        <text>your</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-656" offset="1014" length="6">
+        <text>anyone</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-665" offset="1037" length="11">
+        <text>this nation</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-697" offset="1220" length="12">
+        <text>world police</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-706" offset="1245" length="6">
+        <text>itself</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-718" offset="1278" length="4">
+        <text>they</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-840" offset="1779" length="16">
+        <text>the world police</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-888" offset="2008" length="16">
+        <text>The world police</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-988" offset="2233" length="16">
+        <text>the world police</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-712" offset="1273" length="4">
+        <text>whom</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-736" offset="1401" length="11">
+        <text>anyone else</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-751" offset="1524" length="22">
+        <text>the other armed forces</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-781" offset="1636" length="44">
+        <text>some or many or a huge amount of individuals</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-793" offset="1644" length="36">
+        <text>many or a huge amount of individuals</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-799" offset="1652" length="28">
+        <text>a huge amount of individuals</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-808" offset="1708" length="17">
+        <text>this world police</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-846" offset="1846" length="11">
+        <text>each nation</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-852" offset="1872" length="3">
+        <text>its</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-861" offset="1872" length="16">
+        <text>its armed forces</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-870" offset="1902" length="14">
+        <text>an armed force</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-879" offset="1990" length="9">
+        <text>a hostage</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-894" offset="2034" length="6">
+        <text>troops</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-933" offset="2053" length="13">
+        <text>the criminals</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-942" offset="2135" length="16">
+        <text>the armed forces</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+      <entity ere_id="m-979" offset="2163" length="21">
+        <text>a lot of the hostages</text>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </entity>
+    </entities>
+    <relations>
+      <relation ere_id="relm-246">
+        <trigger offset="300" length="2">in</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-256">
+        <trigger offset="551" length="2">of</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+      <relation ere_id="relm-266">
+        <trigger offset="583" length="5">under</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </relation>
+    </relations>
+    <events>
+      <event ere_id="em-280">
+        <trigger offset="343" length="4">died</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-301">
+        <trigger offset="496" length="9">slaughter</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-322">
+        <trigger offset="659" length="12">slaughtering</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-413">
+        <trigger offset="270" length="4">came</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-449">
+        <trigger offset="613" length="8">invading</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-517">
+        <trigger offset="778" length="4">kill</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-583">
+        <trigger offset="942" length="3">led</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-631">
+        <trigger offset="990" length="4">come</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-674">
+        <trigger offset="1265" length="7">killing</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-760">
+        <trigger offset="1626" length="9">murdering</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-903">
+        <trigger offset="2029" length="4">send</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+      <event ere_id="em-951">
+        <trigger offset="2152" length="10">massacring</trigger>
+        <sentiments>
+          <sentiment polarity="none" sarcasm="no"/>
+        </sentiments>
+      </event>
+    </events>
+  </sentiment_annotations>
+</belief_sentiment_doc>

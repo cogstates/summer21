@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deft_ere kit_id="55142ee50000000000000004" doc_id="NYT_ENG_20130822.0136" source_type="newswire">
+  <entities>
+    <entity id="ent-8" type="PER" specificity="specific">
+      <entity_mention id="m-13" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="263" length="12">
+        <mention_text>John Gaherin</mention_text>
+      </entity_mention>
+      <entity_mention id="m-31" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="277" length="52">
+        <mention_text>the chief labor negotiator for Major League Baseball</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="293" length="10">negotiator</nom_head>
+      </entity_mention>
+      <entity_mention id="m-70" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="416" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-76" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="456" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-82" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="571" length="7">
+        <mention_text>Gaherin</mention_text>
+      </entity_mention>
+      <entity_mention id="m-136" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="810" length="7">
+        <mention_text>Gaherin</mention_text>
+      </entity_mention>
+      <entity_mention id="m-178" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="1010" length="7">
+        <mention_text>Gaherin</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-43" type="ORG" specificity="specific">
+      <entity_mention id="m-37" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="308" length="21">
+        <mention_text>Major League Baseball</mention_text>
+      </entity_mention>
+      <entity_mention id="m-475" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="2308" length="8">
+        <mention_text>baseball</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="2308" length="8">baseball</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1075" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="5117" length="8">
+        <mention_text>Baseball</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="5117" length="8">Baseball</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-52" type="PER" specificity="specific">
+      <entity_mention id="m-46" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="358" length="30">
+        <mention_text>the chief of the players union</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="362" length="5">chief</nom_head>
+      </entity_mention>
+      <entity_mention id="m-91" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="583" length="13">
+        <mention_text>Marvin Miller</mention_text>
+      </entity_mention>
+      <entity_mention id="m-97" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="598" length="35">
+        <mention_text>the executive director of the union</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="602" length="18">executive director</nom_head>
+      </entity_mention>
+      <entity_mention id="m-460" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="2139" length="13">
+        <mention_text>Marvin Miller</mention_text>
+      </entity_mention>
+      <entity_mention id="m-757" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="3338" length="6">
+        <mention_text>Miller</mention_text>
+      </entity_mention>
+      <entity_mention id="m-790" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="3535" length="6">
+        <mention_text>Miller</mention_text>
+      </entity_mention>
+      <entity_mention id="m-931" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="4133" length="6">
+        <mention_text>Miller</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-61" type="ORG" specificity="specific">
+      <entity_mention id="m-55" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="371" length="17">
+        <mention_text>the players union</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="383" length="5">union</nom_head>
+      </entity_mention>
+      <entity_mention id="m-103" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="624" length="9">
+        <mention_text>the union</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="628" length="5">union</nom_head>
+      </entity_mention>
+      <entity_mention id="m-583" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="2658" length="9">
+        <mention_text>the union</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="2662" length="5">union</nom_head>
+      </entity_mention>
+      <entity_mention id="m-622" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="2801" length="9">
+        <mention_text>the union</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="2805" length="5">union</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1102" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="5326" length="9">
+        <mention_text>The union</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="5330" length="5">union</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-88" type="PER" specificity="specific">
+      <entity_mention id="m-64" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="393" length="21">
+        <mention_text>baseball’s arbitrator</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="404" length="10">arbitrator</nom_head>
+      </entity_mention>
+      <entity_mention id="m-109" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="644" length="11">
+        <mention_text>Peter Seitz</mention_text>
+      </entity_mention>
+      <entity_mention id="m-115" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="657" length="14">
+        <mention_text>the arbitrator</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="661" length="10">arbitrator</nom_head>
+      </entity_mention>
+      <entity_mention id="m-142" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="857" length="5">
+        <mention_text>Seitz</mention_text>
+      </entity_mention>
+      <entity_mention id="m-148" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="890" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-154" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="932" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-160" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="955" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-172" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="1002" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-184" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="1025" length="5">
+        <mention_text>Seitz</mention_text>
+      </entity_mention>
+      <entity_mention id="m-190" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="1046" length="3">
+        <mention_text>You</mention_text>
+      </entity_mention>
+      <entity_mention id="m-253" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="1304" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-268" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="1315" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-286" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="1356" length="5">
+        <mention_text>Peter</mention_text>
+      </entity_mention>
+      <entity_mention id="m-292" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="1408" length="3">
+        <mention_text>His</mention_text>
+      </entity_mention>
+      <entity_mention id="m-430" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="1977" length="5">
+        <mention_text>Seitz</mention_text>
+      </entity_mention>
+      <entity_mention id="m-436" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="2055" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-643" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="2886" length="5">
+        <mention_text>Seitz</mention_text>
+      </entity_mention>
+      <entity_mention id="m-658" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="2896" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-664" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="2914" length="21">
+        <mention_text>baseball’s arbitrator</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="2925" length="10">arbitrator</nom_head>
+      </entity_mention>
+      <entity_mention id="m-688" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="3026" length="5">
+        <mention_text>Seitz</mention_text>
+      </entity_mention>
+      <entity_mention id="m-700" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="3076" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-733" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="3254" length="5">
+        <mention_text>Seitz</mention_text>
+      </entity_mention>
+      <entity_mention id="m-961" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="4456" length="5">
+        <mention_text>Seitz</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-127" type="PER" specificity="specific">
+      <entity_mention id="m-121" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="686" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+      <entity_mention id="m-130" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="692" length="4">
+        <mention_text>They</mention_text>
+      </entity_mention>
+      <entity_mention id="m-166" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="978" length="11">
+        <mention_text>the two men</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="986" length="3">men</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-202" type="PER" specificity="nonspecific">
+      <entity_mention id="m-196" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="1118" length="63">
+        <mention_text>impartial arbitrators in baseball and other professional sports</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="1128" length="11">arbitrators</nom_head>
+      </entity_mention>
+      <entity_mention id="m-232" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="1245" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+      <entity_mention id="m-247" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="1266" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-388" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="1811" length="11">
+        <mention_text>arbitrators</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="1811" length="11">arbitrators</nom_head>
+      </entity_mention>
+      <entity_mention id="m-394" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="1831" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-418" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="1894" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-424" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="1951" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1027" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="4883" length="11">
+        <mention_text>arbitrators</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="4883" length="11">arbitrators</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-211" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-205" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="1183" length="11">
+        <mention_text>Either side</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="1190" length="4">side</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-220" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-214" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="1197" length="10">
+        <mention_text>the league</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="1201" length="6">league</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-229" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-223" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="1211" length="9">
+        <mention_text>the union</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="1215" length="5">union</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-244" type="PER" specificity="nonspecific">
+      <entity_mention id="m-238" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="1256" length="8">
+        <mention_text>managers</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="1256" length="8">managers</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-265" type="PER" specificity="specific">
+      <entity_mention id="m-259" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="1312" length="2">
+        <mention_text>me</mention_text>
+      </entity_mention>
+      <entity_mention id="m-274" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="1341" length="13">
+        <mention_text>Michael Seitz</mention_text>
+      </entity_mention>
+      <entity_mention id="m-280" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="1356" length="11">
+        <mention_text>Peter’s son</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="1364" length="3">son</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-304" type="PER" specificity="specific">
+      <entity_mention id="m-298" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="1475" length="19">
+        <mention_text>the baseball owners</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="1488" length="6">owners</nom_head>
+      </entity_mention>
+      <entity_mention id="m-307" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="1533" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-322" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="1575" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-778" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="3430" length="10">
+        <mention_text>The owners</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="3434" length="6">owners</nom_head>
+      </entity_mention>
+      <entity_mention id="m-802" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="3575" length="10">
+        <mention_text>the owners</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="3579" length="6">owners</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1180" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="4354" length="10">
+        <mention_text>the owners</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="4358" length="6">owners</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1186" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="4442" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1192" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="4610" length="10">
+        <mention_text>the owners</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="4614" length="6">owners</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1198" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="4646" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-319" type="PER" specificity="nonspecific">
+      <entity_mention id="m-313" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="1550" length="8">
+        <mention_text>a player</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="1552" length="6">player</nom_head>
+      </entity_mention>
+      <entity_mention id="m-328" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="1612" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-508" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="2457" length="8">
+        <mention_text>a player</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="2459" length="6">player</nom_head>
+      </entity_mention>
+      <entity_mention id="m-514" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="2469" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-529" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="2484" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-340" type="PER" specificity="specific">
+      <entity_mention id="m-334" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="1627" length="19">
+        <mention_text>Fredric R. Horowitz</mention_text>
+      </entity_mention>
+      <entity_mention id="m-367" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="1726" length="2">
+        <mention_text>He</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1126" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="5500" length="8">
+        <mention_text>Horowitz</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1132" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="5533" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1138" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="1648" length="46">
+        <mention_text>a 64-year-old lawyer from Santa Monica, Calif.</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="1662" length="6">lawyer</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1144" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="1699" length="25">
+        <mention_text>the latest to take a turn</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="1703" length="6">latest</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-355" type="GPE" specificity="specific">
+      <entity_mention id="m-349" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="1674" length="12">
+        <mention_text>Santa Monica</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-364" type="GPE" specificity="specific">
+      <entity_mention id="m-358" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="1688" length="6">
+        <mention_text>Calif.</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-379" type="PER" specificity="specific">
+      <entity_mention id="m-373" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="1744" length="14">
+        <mention_text>Alex Rodriguez</mention_text>
+      </entity_mention>
+      <entity_mention id="m-382" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="1771" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1108" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="5369" length="9">
+        <mention_text>Rodriguez</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1114" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="5392" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1120" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="5454" length="9">
+        <mention_text>Rodriguez</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-406" type="PER" specificity="nonspecific">
+      <entity_mention id="m-400" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="1867" length="10">
+        <mention_text>the owners</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="1871" length="6">owners</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-415" type="PER" specificity="nonspecific">
+      <entity_mention id="m-409" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="1881" length="11">
+        <mention_text>the players</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="1885" length="7">players</nom_head>
+      </entity_mention>
+      <entity_mention id="m-649" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="371" length="11">
+        <mention_text>the players</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="375" length="7">players</nom_head>
+      </entity_mention>
+      <entity_mention id="m-817" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="3690" length="7">
+        <mention_text>players</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="3690" length="7">players</nom_head>
+      </entity_mention>
+      <entity_mention id="m-967" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="4485" length="7">
+        <mention_text>players</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="4485" length="7">players</nom_head>
+      </entity_mention>
+      <entity_mention id="m-973" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="4517" length="4">
+        <mention_text>they</mention_text>
+      </entity_mention>
+      <entity_mention id="m-979" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="4549" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1033" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="4914" length="7">
+        <mention_text>players</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="4914" length="7">players</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1096" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="5308" length="16">
+        <mention_text>baseball players</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="5317" length="7">players</nom_head>
+      </entity_mention>
+      <entity_mention id="m-2164" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="3701" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-448" type="PER" specificity="specific">
+      <entity_mention id="m-442" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="2080" length="29">
+        <mention_text>Andy Messersmith-Dave McNally</mention_text>
+      </entity_mention>
+      <entity_mention id="m-694" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="3045" length="19">
+        <mention_text>Messersmith-McNally</mention_text>
+      </entity_mention>
+      <entity_mention id="m-955" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="4398" length="19">
+        <mention_text>Messersmith-McNally</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-457" type="PER" specificity="specific">
+      <entity_mention id="m-451" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="2125" length="1">
+        <mention_text>I</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-472" type="PER" specificity="specific">
+      <entity_mention id="m-466" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="2274" length="10">
+        <mention_text>Curt Flood</mention_text>
+      </entity_mention>
+      <entity_mention id="m-502" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="2386" length="5">
+        <mention_text>Flood</mention_text>
+      </entity_mention>
+      <entity_mention id="m-796" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="3557" length="5">
+        <mention_text>Flood</mention_text>
+      </entity_mention>
+      <entity_mention id="m-829" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="3753" length="5">
+        <mention_text>Flood</mention_text>
+      </entity_mention>
+      <entity_mention id="m-844" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="3816" length="3">
+        <mention_text>him</mention_text>
+      </entity_mention>
+      <entity_mention id="m-868" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="3837" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-889" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="3918" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-895" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="3957" length="2">
+        <mention_text>he</mention_text>
+      </entity_mention>
+      <entity_mention id="m-919" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="4027" length="5">
+        <mention_text>Flood</mention_text>
+      </entity_mention>
+      <entity_mention id="m-937" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="4150" length="5">
+        <mention_text>Flood</mention_text>
+      </entity_mention>
+      <entity_mention id="m-943" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="4244" length="5">
+        <mention_text>Flood</mention_text>
+      </entity_mention>
+      <entity_mention id="m-949" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="4266" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-490" type="PER" specificity="specific">
+      <entity_mention id="m-484" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="2321" length="14">
+        <mention_text>Catfish Hunter</mention_text>
+      </entity_mention>
+      <entity_mention id="m-535" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="2517" length="6">
+        <mention_text>Hunter</mention_text>
+      </entity_mention>
+      <entity_mention id="m-571" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="2602" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-577" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="2629" length="6">
+        <mention_text>Hunter</mention_text>
+      </entity_mention>
+      <entity_mention id="m-595" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="2738" length="6">
+        <mention_text>Hunter</mention_text>
+      </entity_mention>
+      <entity_mention id="m-601" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="2773" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+      <entity_mention id="m-628" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="2829" length="11">
+        <mention_text>the pitcher</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="2833" length="7">pitcher</nom_head>
+      </entity_mention>
+      <entity_mention id="m-676" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="2977" length="6">
+        <mention_text>Hunter</mention_text>
+      </entity_mention>
+      <entity_mention id="m-682" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="2984" length="12">
+        <mention_text>a free agent</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="2991" length="5">agent</nom_head>
+      </entity_mention>
+      <entity_mention id="m-706" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="3096" length="6">
+        <mention_text>Hunter</mention_text>
+      </entity_mention>
+      <entity_mention id="m-721" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="3198" length="6">
+        <mention_text>Hunter</mention_text>
+      </entity_mention>
+      <entity_mention id="m-739" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="3274" length="6">
+        <mention_text>Hunter</mention_text>
+      </entity_mention>
+      <entity_mention id="m-763" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="3357" length="6">
+        <mention_text>Hunter</mention_text>
+      </entity_mention>
+      <entity_mention id="m-784" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="3489" length="6">
+        <mention_text>Hunter</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-499" type="PER" specificity="specific">
+      <entity_mention id="m-493" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="2361" length="14">
+        <mention_text>Charlie Finley</mention_text>
+      </entity_mention>
+      <entity_mention id="m-541" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="2551" length="6">
+        <mention_text>Finley</mention_text>
+      </entity_mention>
+      <entity_mention id="m-565" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="2559" length="28">
+        <mention_text>the Oakland Athletics’ owner</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="2582" length="5">owner</nom_head>
+      </entity_mention>
+      <entity_mention id="m-589" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="2703" length="6">
+        <mention_text>Finley</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-526" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-520" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="2469" length="8">
+        <mention_text>his team</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="2473" length="4">team</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-553" type="ORG" specificity="specific">
+      <entity_mention id="m-547" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="2563" length="17">
+        <mention_text>Oakland Athletics</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-556" type="GPE" specificity="specific">
+      <entity_mention id="m-559" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="2563" length="7">
+        <mention_text>Oakland</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-613" type="PER" specificity="specific">
+      <entity_mention id="m-607" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="2787" length="12">
+        <mention_text>Richard Moss</mention_text>
+      </entity_mention>
+      <entity_mention id="m-616" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="2801" length="16">
+        <mention_text>the union lawyer</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="2811" length="6">lawyer</nom_head>
+      </entity_mention>
+      <entity_mention id="m-670" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="2949" length="4">
+        <mention_text>Moss</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-640" type="PER" specificity="nonspecific">
+      <entity_mention id="m-634" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="2851" length="12">
+        <mention_text>a free agent</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="2858" length="5">agent</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-718" type="PER" specificity="nonspecific">
+      <entity_mention id="m-712" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="3184" length="9">
+        <mention_text>no player</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="3187" length="6">player</nom_head>
+      </entity_mention>
+      <entity_mention id="m-727" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="3206" length="15">
+        <mention_text>No other player</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="3215" length="6">player</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-775" type="PER" specificity="specific">
+      <entity_mention id="m-769" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="3406" length="2">
+        <mention_text>we</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-814" type="PER" specificity="nonspecific">
+      <entity_mention id="m-808" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="3321" length="14">
+        <mention_text>a single owner</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="3330" length="5">owner</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-841" type="ORG" specificity="specific">
+      <entity_mention id="m-835" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="3789" length="19">
+        <mention_text>St. Louis Cardinals</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-856" type="GPE" specificity="specific">
+      <entity_mention id="m-850" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="3789" length="9">
+        <mention_text>St. Louis</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-865" type="ORG" specificity="specific">
+      <entity_mention id="m-859" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="3823" length="12">
+        <mention_text>Philadelphia</mention_text>
+      </entity_mention>
+      <entity_mention id="m-883" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="3892" length="8">
+        <mention_text>Phillies</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-880" type="PER" specificity="specific">
+      <entity_mention id="m-874" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="3853" length="16">
+        <mention_text>the commissioner</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="3857" length="12">commissioner</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-907" type="LOC" specificity="nonspecific">
+      <entity_mention id="m-901" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="3951" length="15">
+        <mention_text>where he wanted</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="3951" length="5">where</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-916" type="ORG" specificity="specific">
+      <entity_mention id="m-910" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="4001" length="18">
+        <mention_text>U.S. Supreme Court</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-991" type="PER" specificity="nonspecific">
+      <entity_mention id="m-985" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="4692" length="6">
+        <mention_text>judges</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="4692" length="6">judges</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1000" type="PER" specificity="nonspecific">
+      <entity_mention id="m-994" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="4716" length="13">
+        <mention_text>an arbitrator</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="4719" length="10">arbitrator</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1003" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="4759" length="13">
+        <mention_text>an arbitrator</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="4762" length="10">arbitrator</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1015" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-1009" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="4813" length="9">
+        <mention_text>The clubs</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="4817" length="5">clubs</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1024" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1018" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="4827" length="16">
+        <mention_text>the commissioner</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="4831" length="12">commissioner</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1045" type="PER" specificity="specific">
+      <entity_mention id="m-1039" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="5007" length="9">
+        <mention_text>Shyam Das</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1057" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="5070" length="3">
+        <mention_text>Das</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1063" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="5090" length="3">
+        <mention_text>his</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1054" type="PER" specificity="specific">
+      <entity_mention id="m-1048" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="5028" length="10">
+        <mention_text>Ryan Braun</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1069" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="5094" length="5">
+        <mention_text>Braun</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1087" type="ORG" specificity="specific">
+      <entity_mention id="m-1081" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="5217" length="10">
+        <mention_text>Biogenesis</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1090" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="5229" length="95">
+        <mention_text>an anti-aging clinic that is believed to have distributed banned substances to baseball players</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="5243" length="6">clinic</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1156" type="GPE" specificity="specific">
+      <entity_mention id="m-1150" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="4001" length="4">
+        <mention_text>U.S.</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1171" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1159" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="4048" length="10">
+        <mention_text>The owners</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="4052" length="6">owners</nom_head>
+      </entity_mention>
+      <entity_mention id="m-1165" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="4189" length="4">
+        <mention_text>them</mention_text>
+      </entity_mention>
+      <entity_mention id="m-1174" noun_type="PRO" source="NYT_ENG_20130822.0136" offset="4206" length="5">
+        <mention_text>their</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1210" type="PER" specificity="nonspecific">
+      <entity_mention id="m-1204" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="4502" length="11">
+        <mention_text>free agents</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="4507" length="6">agents</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-1319" type="GPE" specificity="specific">
+      <entity_mention id="m-1313" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="2225" length="8">
+        <mention_text>New York</mention_text>
+      </entity_mention>
+    </entity>
+    <entity id="ent-2176" type="ORG" specificity="nonspecific">
+      <entity_mention id="m-2170" noun_type="NOM" source="NYT_ENG_20130822.0136" offset="3701" length="11">
+        <mention_text>their teams</mention_text>
+        <nom_head source="NYT_ENG_20130822.0136" offset="3707" length="5">teams</nom_head>
+      </entity_mention>
+    </entity>
+    <entity id="ent-3116" type="ORG" specificity="specific">
+      <entity_mention id="m-3110" noun_type="NAM" source="NYT_ENG_20130822.0136" offset="2225" length="14">
+        <mention_text>New York Times</mention_text>
+      </entity_mention>
+    </entity>
+  </entities>
+  <fillers>
+    <filler id="f-1271" source="NYT_ENG_20130822.0136" offset="661" length="10" type="title">arbitrator</filler>
+    <filler id="f-1291" source="NYT_ENG_20130822.0136" offset="1662" length="6" type="title">lawyer</filler>
+    <filler id="f-1350" source="NYT_ENG_20130822.0136" offset="2582" length="5" type="title">owner</filler>
+    <filler id="f-1370" source="NYT_ENG_20130822.0136" offset="2811" length="6" type="title">lawyer</filler>
+    <filler id="f-1380" source="NYT_ENG_20130822.0136" offset="2925" length="10" type="title">arbitrator</filler>
+    <filler id="f-1975" source="NYT_ENG_20130822.0136" offset="1650" length="2" type="age">64</filler>
+    <filler id="f-3137" source="NYT_ENG_20130822.0136" offset="293" length="10" type="title">negotiator</filler>
+    <filler id="f-3147" source="NYT_ENG_20130822.0136" offset="602" length="18" type="title">executive director</filler>
+    <filler id="f-1761" source="NYT_ENG_20130822.0136" offset="489" length="30" type="time" nom_time="1975-12-23">two days before Christmas 1975</filler>
+    <filler id="f-2032" source="NYT_ENG_20130822.0136" offset="2459" length="6" type="title">player</filler>
+    <filler id="f-2069" source="NYT_ENG_20130822.0136" offset="2459" length="6" type="title">player</filler>
+    <filler id="f-2106" source="NYT_ENG_20130822.0136" offset="2459" length="6" type="title">player</filler>
+    <filler id="f-2938" source="NYT_ENG_20130822.0136" offset="2287" length="4" type="time" nom_time="1970-XX-XX">1970</filler>
+    <filler id="f-2945" source="NYT_ENG_20130822.0136" offset="2338" length="4" type="time" nom_time="1974-XX-XX">1974</filler>
+  </fillers>
+  <relations>
+    <relation id="r-27" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1213" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-31" role="employeemember">the chief labor negotiator for Major League Baseball</rel_arg1>
+        <rel_arg2 entity_id="ent-43" entity_mention_id="m-37" role="org">Major League Baseball</rel_arg2>
+        <trigger source="NYT_ENG_20130822.0136" offset="293" length="10">negotiator</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-28" type="orgaffiliation" subtype="leadership">
+      <relation_mention id="relm-1233" realis="true">
+        <rel_arg1 entity_id="ent-52" entity_mention_id="m-46" role="leader">the chief of the players union</rel_arg1>
+        <rel_arg2 entity_id="ent-61" entity_mention_id="m-55" role="entity">the players union</rel_arg2>
+        <trigger source="NYT_ENG_20130822.0136" offset="362" length="5">chief</trigger>
+      </relation_mention>
+      <relation_mention id="relm-1253" realis="true">
+        <rel_arg1 entity_id="ent-52" entity_mention_id="m-97" role="leader">the executive director of the union</rel_arg1>
+        <rel_arg2 entity_id="ent-61" entity_mention_id="m-103" role="entity">the union</rel_arg2>
+        <trigger source="NYT_ENG_20130822.0136" offset="602" length="18">executive director</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-29" type="personalsocial" subtype="role">
+      <relation_mention id="relm-1263" realis="true">
+        <rel_arg1 entity_id="ent-88" entity_mention_id="m-109" role="per">Peter Seitz</rel_arg1>
+        <rel_arg2 filler_id="f-1271" role="role">arbitrator</rel_arg2>
+      </relation_mention>
+      <relation_mention id="relm-1372" realis="true">
+        <rel_arg1 entity_id="ent-88" entity_mention_id="m-643" role="per">Seitz</rel_arg1>
+        <rel_arg2 filler_id="f-1380" role="role">arbitrator</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-30" type="personalsocial" subtype="family">
+      <relation_mention id="relm-1273" realis="true">
+        <rel_arg1 entity_id="ent-88" entity_mention_id="m-286" role="per">Peter</rel_arg1>
+        <rel_arg2 entity_id="ent-265" entity_mention_id="m-280" role="per">Peter’s son</rel_arg2>
+        <trigger source="NYT_ENG_20130822.0136" offset="1364" length="3">son</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-31" type="personalsocial" subtype="role">
+      <relation_mention id="relm-1283" realis="true">
+        <rel_arg1 entity_id="ent-340" entity_mention_id="m-334" role="per">Fredric R. Horowitz</rel_arg1>
+        <rel_arg2 filler_id="f-1291" role="role">lawyer</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-32" type="generalaffiliation" subtype="more">
+      <relation_mention id="relm-1293" realis="true">
+        <rel_arg1 entity_id="ent-340" entity_mention_id="m-1138" role="per">a 64-year-old lawyer from Santa Monica, Calif.</rel_arg1>
+        <rel_arg2 entity_id="ent-355" entity_mention_id="m-349" role="entity">Santa Monica</rel_arg2>
+        <trigger source="NYT_ENG_20130822.0136" offset="1669" length="4">from</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-33" type="physical" subtype="locatednear">
+      <relation_mention id="relm-1303" realis="true">
+        <rel_arg1 entity_id="ent-355" entity_mention_id="m-349" role="entity">Santa Monica</rel_arg1>
+        <rel_arg2 entity_id="ent-364" entity_mention_id="m-358" role="loc">Calif.</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-34" type="physical" subtype="orgheadquarter">
+      <relation_mention id="relm-1322" realis="true">
+        <rel_arg1 entity_id="ent-553" entity_mention_id="m-547" role="org">Oakland Athletics</rel_arg1>
+        <rel_arg2 entity_id="ent-556" entity_mention_id="m-559" role="loc">Oakland</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-35" type="orgaffiliation" subtype="ownership">
+      <relation_mention id="relm-1332" realis="true">
+        <rel_arg1 entity_id="ent-499" entity_mention_id="m-565" role="owner">the Oakland Athletics’ owner</rel_arg1>
+        <rel_arg2 entity_id="ent-553" entity_mention_id="m-547" role="org">Oakland Athletics</rel_arg2>
+        <trigger source="NYT_ENG_20130822.0136" offset="2582" length="5">owner</trigger>
+      </relation_mention>
+    </relation>
+    <relation id="r-36" type="personalsocial" subtype="role">
+      <relation_mention id="relm-1342" realis="true">
+        <rel_arg1 entity_id="ent-499" entity_mention_id="m-541" role="per">Finley</rel_arg1>
+        <rel_arg2 filler_id="f-1350" role="role">owner</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-37" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-1352" realis="true">
+        <rel_arg1 entity_id="ent-613" entity_mention_id="m-616" role="employeemember">the union lawyer</rel_arg1>
+        <rel_arg2 entity_id="ent-61" entity_mention_id="m-622" role="org">the union</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-38" type="personalsocial" subtype="role">
+      <relation_mention id="relm-1362" realis="true">
+        <rel_arg1 entity_id="ent-613" entity_mention_id="m-607" role="per">Richard Moss</rel_arg1>
+        <rel_arg2 filler_id="f-1370" role="role">lawyer</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-39" type="physical" subtype="orgheadquarter">
+      <relation_mention id="relm-1382" realis="true">
+        <rel_arg1 entity_id="ent-841" entity_mention_id="m-835" role="org">St. Louis Cardinals</rel_arg1>
+        <rel_arg2 entity_id="ent-856" entity_mention_id="m-850" role="loc">St. Louis</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-40" type="partwhole" subtype="subsidiary">
+      <relation_mention id="relm-1392" realis="true">
+        <rel_arg1 entity_id="ent-916" entity_mention_id="m-910" role="suborg">U.S. Supreme Court</rel_arg1>
+        <rel_arg2 entity_id="ent-1156" entity_mention_id="m-1150" role="parent">U.S.</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-41" type="generalaffiliation" subtype="personage">
+      <relation_mention id="relm-1967" realis="true">
+        <rel_arg1 entity_id="ent-340" entity_mention_id="m-1138" role="per">a 64-year-old lawyer from Santa Monica, Calif.</rel_arg1>
+        <rel_arg2 filler_id="f-1975" role="age">64</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-42" type="orgaffiliation" subtype="employmentmembership">
+      <relation_mention id="relm-2259" realis="false">
+        <rel_arg1 entity_id="ent-415" entity_mention_id="m-2164" role="employeemember">their</rel_arg1>
+        <rel_arg2 entity_id="ent-2176" entity_mention_id="m-2170" role="org">their teams</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-43" type="physical" subtype="orglocationorigin">
+      <relation_mention id="relm-3119" realis="true">
+        <rel_arg1 entity_id="ent-3116" entity_mention_id="m-3110" role="org">New York Times</rel_arg1>
+        <rel_arg2 entity_id="ent-1319" entity_mention_id="m-1313" role="loc">New York</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-44" type="personalsocial" subtype="role">
+      <relation_mention id="relm-3129" realis="true">
+        <rel_arg1 entity_id="ent-8" entity_mention_id="m-13" role="per">John Gaherin</rel_arg1>
+        <rel_arg2 filler_id="f-3137" role="role">negotiator</rel_arg2>
+      </relation_mention>
+    </relation>
+    <relation id="r-45" type="personalsocial" subtype="role">
+      <relation_mention id="relm-3139" realis="true">
+        <rel_arg1 entity_id="ent-52" entity_mention_id="m-91" role="per">Marvin Miller</rel_arg1>
+        <rel_arg2 filler_id="f-3147" role="role">executive director</rel_arg2>
+      </relation_mention>
+    </relation>
+  </relations>
+  <hoppers>
+    <hopper id="h-1411">
+      <event_mention id="em-1553" type="contact" subtype="meet" realis="actual" audience="twoway" formality="formal" medium="inperson" schedule="planned">
+        <trigger source="NYT_ENG_20130822.0136" offset="345" length="7">meeting</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-31" role="entity" realis="true">the chief labor negotiator for Major League Baseball</em_arg>
+        <em_arg entity_id="ent-52" entity_mention_id="m-46" role="entity" realis="true">the chief of the players union</em_arg>
+        <em_arg entity_id="ent-88" entity_mention_id="m-64" role="entity" realis="true">baseball’s arbitrator</em_arg>
+        <em_arg filler_id="f-1761" role="time" realis="true">two days before Christmas 1975</em_arg>
+      </event_mention>
+      <event_mention id="em-1635" type="contact" subtype="meet" realis="actual" audience="twoway" formality="formal" medium="inperson" schedule="planned">
+        <trigger source="NYT_ENG_20130822.0136" offset="830" length="7">meeting</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-136" role="entity" realis="true">Gaherin</em_arg>
+        <em_arg entity_id="ent-88" entity_mention_id="m-154" role="entity" realis="true">he</em_arg>
+      </event_mention>
+      <event_mention id="em-1687" type="contact" subtype="meet" realis="actual" audience="twoway" formality="formal" medium="inperson" schedule="planned">
+        <trigger source="NYT_ENG_20130822.0136" offset="726" length="7">meeting</trigger>
+        <em_arg entity_id="ent-127" entity_mention_id="m-130" role="entity" realis="true">They</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1465">
+      <event_mention id="em-1655" type="contact" subtype="contact" realis="actual" audience="canttell" formality="formal" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20130822.0136" offset="677" length="8">summoned</trigger>
+        <em_arg entity_id="ent-88" entity_mention_id="m-115" role="entity" realis="true">the arbitrator</em_arg>
+        <em_arg entity_id="ent-127" entity_mention_id="m-121" role="entity" realis="true">them</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1792">
+      <event_mention id="em-1771" type="contact" subtype="correspondence" realis="actual" audience="twoway" formality="informal" medium="notinperson" schedule="canttell">
+        <trigger source="NYT_ENG_20130822.0136" offset="878" length="11">telegraphed</trigger>
+        <em_arg entity_id="ent-88" entity_mention_id="m-142" role="entity" realis="true">Seitz</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1815">
+      <event_mention id="em-1794" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130822.0136" offset="1053" length="5">fired</trigger>
+        <em_arg entity_id="ent-88" entity_mention_id="m-190" role="person" realis="true">You</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1845">
+      <event_mention id="em-1817" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="formal" medium="notinperson" schedule="planned">
+        <trigger source="NYT_ENG_20130822.0136" offset="959" length="7">written</trigger>
+        <em_arg entity_id="ent-88" entity_mention_id="m-160" role="entity" realis="true">his</em_arg>
+        <em_arg entity_id="ent-127" entity_mention_id="m-166" role="entity" realis="true">the two men</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1882">
+      <event_mention id="em-1847" type="personnel" subtype="endposition" realis="generic">
+        <trigger source="NYT_ENG_20130822.0136" offset="1240" length="4">fire</trigger>
+        <em_arg entity_id="ent-202" entity_mention_id="m-232" role="person" realis="false">them</em_arg>
+        <em_arg entity_id="ent-220" entity_mention_id="m-214" role="entity" realis="false">the league</em_arg>
+        <em_arg entity_id="ent-229" entity_mention_id="m-223" role="entity" realis="false">the union</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1912">
+      <event_mention id="em-1884" type="personnel" subtype="startposition" realis="generic">
+        <trigger source="NYT_ENG_20130822.0136" offset="1275" length="5">hired</trigger>
+        <em_arg entity_id="ent-202" entity_mention_id="m-247" role="person" realis="false">they</em_arg>
+        <em_arg entity_id="ent-244" entity_mention_id="m-238" role="person" realis="false">managers</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1942">
+      <event_mention id="em-1914" type="personnel" subtype="endposition" realis="generic">
+        <trigger source="NYT_ENG_20130822.0136" offset="1287" length="5">fired</trigger>
+        <em_arg entity_id="ent-244" entity_mention_id="m-238" role="person" realis="false">managers</em_arg>
+        <em_arg entity_id="ent-202" entity_mention_id="m-247" role="person" realis="false">they</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1965">
+      <event_mention id="em-1944" type="contact" subtype="correspondence" realis="actual" audience="twoway" formality="canttell" medium="notinperson" schedule="canttell">
+        <trigger source="NYT_ENG_20130822.0136" offset="1396" length="9">interview</trigger>
+        <em_arg entity_id="ent-265" entity_mention_id="m-280" role="entity" realis="true">Peter’s son</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-1998">
+      <event_mention id="em-1977" type="personnel" subtype="startposition" realis="actual">
+        <trigger source="NYT_ENG_20130822.0136" offset="1703" length="6">latest</trigger>
+        <em_arg entity_id="ent-340" entity_mention_id="m-1138" role="person" realis="true">a 64-year-old lawyer from Santa Monica, Calif.</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2035">
+      <event_mention id="em-2000" type="personnel" subtype="endposition" realis="generic">
+        <trigger source="NYT_ENG_20130822.0136" offset="2491" length="6">traded</trigger>
+        <em_arg entity_id="ent-319" entity_mention_id="m-529" role="person" realis="true">he</em_arg>
+        <em_arg entity_id="ent-526" entity_mention_id="m-520" role="entity" realis="true">his team</em_arg>
+        <em_arg filler_id="f-2032" role="position" realis="true">player</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2072">
+      <event_mention id="em-2037" type="personnel" subtype="endposition" realis="generic">
+        <trigger source="NYT_ENG_20130822.0136" offset="2499" length="4">sold</trigger>
+        <em_arg entity_id="ent-319" entity_mention_id="m-529" role="person" realis="true">he</em_arg>
+        <em_arg entity_id="ent-526" entity_mention_id="m-520" role="entity" realis="true">his team</em_arg>
+        <em_arg filler_id="f-2069" role="position" realis="true">player</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2109">
+      <event_mention id="em-2074" type="personnel" subtype="endposition" realis="generic">
+        <trigger source="NYT_ENG_20130822.0136" offset="2507" length="8">released</trigger>
+        <em_arg entity_id="ent-319" entity_mention_id="m-529" role="person" realis="true">he</em_arg>
+        <em_arg entity_id="ent-526" entity_mention_id="m-520" role="entity" realis="true">his team</em_arg>
+        <em_arg filler_id="f-2106" role="position" realis="true">player</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2139">
+      <event_mention id="em-2111" type="transaction" subtype="transfermoney" realis="other" ways="voluntary">
+        <trigger source="NYT_ENG_20130822.0136" offset="2718" length="4">paid</trigger>
+        <em_arg entity_id="ent-499" entity_mention_id="m-589" role="giver" realis="true">Finley</em_arg>
+        <em_arg entity_id="ent-490" entity_mention_id="m-595" role="recipient" realis="true">Hunter</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2162">
+      <event_mention id="em-2141" type="contact" subtype="contact" realis="generic" audience="twoway" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20130822.0136" offset="3392" length="13">conversations</trigger>
+        <em_arg entity_id="ent-775" entity_mention_id="m-769" role="entity" realis="true">we</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2213">
+      <event_mention id="em-2185" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130822.0136" offset="3809" length="6">traded</trigger>
+        <em_arg entity_id="ent-841" entity_mention_id="m-835" role="entity" realis="true">St. Louis Cardinals</em_arg>
+        <em_arg entity_id="ent-472" entity_mention_id="m-844" role="person" realis="true">him</em_arg>
+        <em_arg entity_id="ent-856" entity_mention_id="m-850" role="place" realis="true">St. Louis</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2257">
+      <event_mention id="em-2222" type="justice" subtype="sue" realis="actual">
+        <trigger source="NYT_ENG_20130822.0136" offset="3849" length="3">sue</trigger>
+        <em_arg entity_id="ent-472" entity_mention_id="m-868" role="plaintiff" realis="true">he</em_arg>
+        <em_arg entity_id="ent-880" entity_mention_id="m-874" role="defendant" realis="true">the commissioner</em_arg>
+      </event_mention>
+      <event_mention id="em-2299" type="justice" subtype="sue" realis="actual">
+        <trigger source="NYT_ENG_20130822.0136" offset="4170" length="7">lawsuit</trigger>
+        <em_arg entity_id="ent-472" entity_mention_id="m-937" role="plaintiff" realis="true">Flood</em_arg>
+      </event_mention>
+      <event_mention id="em-2341" type="justice" subtype="sue" realis="actual">
+        <trigger source="NYT_ENG_20130822.0136" offset="4270" length="7">lawsuit</trigger>
+        <em_arg entity_id="ent-472" entity_mention_id="m-949" role="plaintiff" realis="true">his</em_arg>
+      </event_mention>
+      <event_mention id="em-2454" type="justice" subtype="sue" realis="actual">
+        <trigger source="NYT_ENG_20130822.0136" offset="3972" length="4">suit</trigger>
+        <em_arg entity_id="ent-472" entity_mention_id="m-919" role="plaintiff" realis="true">Flood</em_arg>
+      </event_mention>
+      <event_mention id="em-2688" type="justice" subtype="sue" realis="actual">
+        <trigger source="NYT_ENG_20130822.0136" offset="2292" length="7">lawsuit</trigger>
+        <em_arg entity_id="ent-472" entity_mention_id="m-466" role="plaintiff" realis="true">Curt Flood</em_arg>
+        <em_arg entity_id="ent-43" entity_mention_id="m-475" role="defendant" realis="true">baseball</em_arg>
+        <em_arg filler_id="f-2938" role="time" realis="true">1970</em_arg>
+      </event_mention>
+      <event_mention id="em-2739" type="justice" subtype="sue" realis="actual">
+        <trigger source="NYT_ENG_20130822.0136" offset="2394" length="4">suit</trigger>
+        <em_arg entity_id="ent-472" entity_mention_id="m-502" role="plaintiff" realis="true">Flood</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2383">
+      <event_mention id="em-2362" type="contact" subtype="contact" realis="actual" audience="twoway" formality="formal" medium="canttell" schedule="planned">
+        <trigger source="NYT_ENG_20130822.0136" offset="4447" length="8">appealed</trigger>
+        <em_arg entity_id="ent-304" entity_mention_id="m-1186" role="entity" realis="true">they</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2406">
+      <event_mention id="em-2385" type="personnel" subtype="endposition" realis="actual">
+        <trigger source="NYT_ENG_20130822.0136" offset="5078" length="5">fired</trigger>
+        <em_arg entity_id="ent-1045" entity_mention_id="m-1057" role="person" realis="true">Das</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2429">
+      <event_mention id="em-2408" type="movement" subtype="transportperson" realis="actual">
+        <trigger source="NYT_ENG_20130822.0136" offset="331" length="7">arrived</trigger>
+        <em_arg entity_id="ent-8" entity_mention_id="m-31" role="person" realis="true">the chief labor negotiator for Major League Baseball</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2538">
+      <event_mention id="em-2517" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="formal" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20130822.0136" offset="908" length="9">grievance</trigger>
+        <em_arg entity_id="ent-88" entity_mention_id="m-148" role="entity" realis="true">his</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2640">
+      <event_mention id="em-2612" type="justice" subtype="appeal" realis="actual">
+        <trigger source="NYT_ENG_20130822.0136" offset="1761" length="6">appeal</trigger>
+        <em_arg entity_id="ent-340" entity_mention_id="m-367" role="adjudicator" realis="true">He</em_arg>
+        <em_arg entity_id="ent-379" entity_mention_id="m-373" role="defendant" realis="true">Alex Rodriguez</em_arg>
+      </event_mention>
+      <event_mention id="em-3036" type="justice" subtype="appeal" realis="actual">
+        <trigger source="NYT_ENG_20130822.0136" offset="5383" length="8">appealed</trigger>
+        <em_arg entity_id="ent-379" entity_mention_id="m-1108" role="defendant" realis="true">Rodriguez</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2663">
+      <event_mention id="em-2642" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="formal" medium="canttell" schedule="planned">
+        <trigger source="NYT_ENG_20130822.0136" offset="2110" length="9">grievance</trigger>
+        <em_arg entity_id="ent-448" entity_mention_id="m-442" role="entity" realis="true">Andy Messersmith-Dave McNally</em_arg>
+      </event_mention>
+      <event_mention id="em-2825" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="formal" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20130822.0136" offset="3065" length="9">grievance</trigger>
+        <em_arg entity_id="ent-448" entity_mention_id="m-694" role="entity" realis="true">Messersmith-McNally</em_arg>
+      </event_mention>
+      <event_mention id="em-2992" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="formal" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20130822.0136" offset="4418" length="9">grievance</trigger>
+        <em_arg entity_id="ent-448" entity_mention_id="m-955" role="entity" realis="true">Messersmith-McNally</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2686">
+      <event_mention id="em-2665" type="contact" subtype="contact" realis="actual" audience="canttell" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20130822.0136" offset="2161" length="8">complain</trigger>
+        <em_arg entity_id="ent-52" entity_mention_id="m-460" role="entity" realis="true">Marvin Miller</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2737">
+      <event_mention id="em-2716" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="formal" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20130822.0136" offset="2343" length="9">grievance</trigger>
+        <em_arg entity_id="ent-490" entity_mention_id="m-484" role="entity" realis="true">Catfish Hunter</em_arg>
+        <em_arg filler_id="f-2945" role="time" realis="true">1974</em_arg>
+      </event_mention>
+      <event_mention id="em-2760" type="contact" subtype="broadcast" realis="actual" audience="oneway" formality="formal" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20130822.0136" offset="2526" length="9">grievance</trigger>
+        <em_arg entity_id="ent-490" entity_mention_id="m-535" role="entity" realis="true">Hunter</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-2969">
+      <event_mention id="em-2948" type="contact" subtype="contact" realis="generic" audience="canttell" formality="canttell" medium="canttell" schedule="canttell">
+        <trigger source="NYT_ENG_20130822.0136" offset="4066" length="6">argued</trigger>
+        <em_arg entity_id="ent-1171" entity_mention_id="m-1159" role="entity" realis="true">The owners</em_arg>
+      </event_mention>
+    </hopper>
+    <hopper id="h-3080">
+      <event_mention id="em-3059" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="NYT_ENG_20130822.0136" offset="5464" length="4">case</trigger>
+        <em_arg entity_id="ent-379" entity_mention_id="m-1120" role="defendant" realis="true">Rodriguez</em_arg>
+        <em_arg entity_id="ent-340" entity_mention_id="m-1126" role="adjudicator" realis="true">Horowitz</em_arg>
+      </event_mention>
+      <event_mention id="em-3089" type="justice" subtype="trialhearing" realis="actual">
+        <trigger source="NYT_ENG_20130822.0136" offset="5523" length="4">case</trigger>
+        <em_arg entity_id="ent-340" entity_mention_id="m-1132" role="adjudicator" realis="true">his</em_arg>
+      </event_mention>
+    </hopper>
+  </hoppers>
+</deft_ere>

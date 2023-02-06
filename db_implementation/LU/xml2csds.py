@@ -3,6 +3,7 @@ import xml.etree.ElementTree as et
 import re
 from csds import CSDS, CSDSCollection
 from nltk.tokenize import SpaceTokenizer
+import pprint
 
 
 class XMLCorpusToCSDSCollection:
@@ -178,7 +179,7 @@ class XMLCorpusToCSDSCollectionWithOLabels(XMLCorpusToCSDSCollection):
     def __init__(self, corpus_name, corpus_directory):
         super().__init__(corpus_name, corpus_directory)
 
-    def add_o_annotations(self):
+    def add_o_annotations(self, xml_file):
         """
         On a second pass through the sentences of the current document,
         creates a CSDS collection with the 'O' label for each word of
@@ -204,10 +205,12 @@ class XMLCorpusToCSDSCollectionWithOLabels(XMLCorpusToCSDSCollection):
                     start,
                     end,
                     "O",
-                    sentence[start:end],
-                    self.doc_id,
-                    sentence_id
+                    xml_file,
+                    this_head=sentence[start:end],
+                    this_doc_id=self.doc_id,
+                    this_sentence_id=sentence_id
                 )
+
                 self.csds_collection.add_o_instance(cog_state)
 
     def add_file(self, xml_file):
@@ -220,7 +223,7 @@ class XMLCorpusToCSDSCollectionWithOLabels(XMLCorpusToCSDSCollection):
         tree = et.parse(xml_file)
         self.update_nodes_dictionaries(tree)
         self.add_file_to_csds_collection(tree, xml_file)
-        self.add_o_annotations()
+        self.add_o_annotations(xml_file)
         self.nodes_to_sentences.clear()
         self.nodes_to_targets.clear()
         self.nodes_to_offsets.clear()
@@ -231,7 +234,7 @@ class XMLCorpusToCSDSCollectionWithOLabels(XMLCorpusToCSDSCollection):
 if __name__ == '__main__':
     # Set verbose to True below to show the CSDS labeled_instances in the output.
     verbose = True
-    input_processor = XMLCorpusToCSDSCollection(
+    input_processor = XMLCorpusToCSDSCollectionWithOLabels(
         '2010 Language Understanding',
         'CMU')
     collection = input_processor.create_and_get_collection()
