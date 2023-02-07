@@ -58,7 +58,12 @@ FROM attitudes a
 
     # connecting to the database file and executing the master query to grab all labeled instances
     def get_data(self):
-        con = sqlite3.connect('db_implementation/LU/LU_master.db')
+        if __name__ == "__main__":
+            db_path = 'LU_master.db'
+        else:
+            db_path = 'db_implementation/LU/LU_master.db'
+
+        con = sqlite3.connect(db_path)
         cur = con.cursor()
 
         # training data collection, cleanup and cataloguing
@@ -96,7 +101,12 @@ FROM attitudes a
             target_offset_end = row[5]
             label = row[6]
 
-            formatted_sentence = f'{sentence[:target_offset_start]}** {target_head} **{sentence[target_offset_end:]}'
+            # Asterisk format
+            # formatted_sentence = f'{sentence[:target_offset_start]}** {target_head} **{sentence[target_offset_end:]}'
+
+            # Pipe format
+            formatted_sentence = f'{target_head}|||{sentence}'
+
 
             if self.doc_id_train_or_test[file] == 'train':
                 self.training_text.append(formatted_sentence)
@@ -116,6 +126,9 @@ FROM attitudes a
         print(f'Testing: {len(self.test_text)} examples, '
               f'{round(100 * (len(self.test_text) / self.master_data_size), 2)}% of all data')
         print(f'Unique labels: {self.unique_labels}')
+
+        self.pp.pprint(self.training_text[1:2])
+        self.pp.pprint(self.training_labels[1:2])
 
     # returning final dictionary containing train and test data for feeding into hf
     def get_dataset_dict(self):

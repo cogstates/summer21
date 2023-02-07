@@ -1,5 +1,6 @@
-from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trainer
+from transformers import AutoModelForSequenceClassification, AutoTokenizer, Trainer, TrainingArguments
 from sklearn.metrics import precision_recall_fscore_support, accuracy_score
+import pprint
 
 from db_implementation.LU.LU_dbhf import DB2HF
 
@@ -35,12 +36,26 @@ if __name__ == '__main__':
     model = AutoModelForSequenceClassification.from_pretrained("bert-base-cased", num_labels=num_labels)
     notify("Starting training")
     trainer = Trainer(
+        args=TrainingArguments(
+            num_train_epochs=5,
+            save_strategy='no',
+            output_dir='models/checkpoints'
+        ),
         model=model,
         train_dataset=tokenized_csds_datasets['train'],
         eval_dataset=tokenized_csds_datasets['eval'],
         compute_metrics=compute_metrics,
     )
     trainer.train()
-    notify("Done training")
+    notify("Done training.")
+    print("Evaluating...")
     results = trainer.evaluate()
-    print(results)
+
+    pp = pprint.PrettyPrinter()
+    pp.pprint(results)
+    with open("results.txt", 'w') as f:
+        f.write(pp.pformat(results))
+    
+    print("Saving the model...")
+    trainer.save_model("models")
+    
