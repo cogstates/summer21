@@ -3,6 +3,9 @@ import xml.etree.ElementTree as et
 import re
 from csds import CSDS, CSDSCollection
 from nltk.tokenize import SpaceTokenizer
+import spacy
+from progress.bar import Bar
+import string
 import pprint
 
 
@@ -12,6 +15,8 @@ class XMLCorpusToCSDSCollection:
     corresponding to a corpus consisting of XML files with annotations
     on text targets (heads) following the GATE format.
     """
+
+    nlp = spacy.load('en_core_web_lg')
 
     corpus_name = ""
 
@@ -47,6 +52,8 @@ class XMLCorpusToCSDSCollection:
 
     # List of sentences within the current document, kept in sequence.
     sentences = []
+
+    sentence_docs = []
 
     # Map from each sentence to a list of pairs of indices within the
     # sentence, each of which pair describes an annotation target (head).
@@ -84,8 +91,13 @@ class XMLCorpusToCSDSCollection:
             if '\n' in text:
                 parts = text.split('\n')
                 sentence += parts[0]
+
+                if sentence in string.punctuation or len(sentence) < 5:
+                    continue
+
                 self.sentence_to_annotation_offsets[sentence_id] = []
                 self.sentences.append(sentence)
+                # self.sentence_docs.append(self.nlp(sentence))
                 for node_in_sentence in nodes_in_sentence:
                     self.nodes_to_sentences[node_in_sentence] = sentence_id
                 nodes_in_sentence.clear()
@@ -105,8 +117,10 @@ class XMLCorpusToCSDSCollection:
         :param xml_file: String, name of the current XML file.
         :return: None.
         """
+
         self.doc_id += 1
         annotation_sets = tree.findall('AnnotationSet')
+
         for annotation_set in annotation_sets:
             for annotation in annotation_set:
                 if annotation.attrib['Type'] == 'paragraph':
@@ -120,20 +134,35 @@ class XMLCorpusToCSDSCollection:
                 head_end = head_start + target_length
                 annotation_type = annotation.attrib['Type']
                 annotation_type = re.sub(r'\s*future$', '', annotation_type, flags=re.I)
+
+                sentence_id = self.nodes_to_sentences[annotation.attrib['StartNode']]
+
+                # extracting root of span if the head is more than one word
+                sentence = self.sentences[sentence_id]
+                doc = self.nlp(sentence)
+                head_span = doc.char_span(head_start, head_end, alignment_mode='expand')
+
+                if head_span is not None and len(head_span) >= 1:
+                    head_token = head_span.root
+                    head_start = head_token.idx
+                    head_end = head_start + len(head_token.text)
+                
+                head_text = sentence[head_start:head_end]
+
                 if annotation_type == 'Committed Belief':
                     annotation_type = 'CB'
                 elif annotation_type == 'Non-Committed Belief':
                     annotation_type = 'NCB'
                 elif annotation_type == 'Not Applicable':
                     annotation_type = 'NA'
-                sentence_id = self.nodes_to_sentences[annotation.attrib['StartNode']]
+
                 cog_state = CSDS(
-                    self.sentences[sentence_id],
+                    sentence,
                     head_start,
                     head_end,
                     annotation_type,
                     xml_file,
-                    self.nodes_to_targets[annotation.attrib['StartNode']],
+                    head_text,
                     self.doc_id,
                     sentence_id
                 )
@@ -161,8 +190,12 @@ class XMLCorpusToCSDSCollection:
         self.sentences.clear()
 
     def create_and_get_collection(self):
-        for file in glob.glob(self.corpus_directory + '/*.xml'):
+        files = list(glob.glob(self.corpus_directory + '/*.xml'))
+        bar = Bar('Files Processed', max=len(files))
+        for file in files:
             self.add_file(file)
+            bar.next()
+        bar.finish()
         return self.csds_collection
 
 
@@ -189,24 +222,53 @@ class XMLCorpusToCSDSCollectionWithOLabels(XMLCorpusToCSDSCollection):
         """
         tokenizer = SpaceTokenizer()
         for sentence_id, sentence in enumerate(self.sentences):
-            o_offset_pairs = list(tokenizer.span_tokenize(sentence))
+
+            temp_o_offset_pairs = list(tokenizer.span_tokenize(sentence))
+            o_offset_pairs = []
+            for i, pair in enumerate(temp_o_offset_pairs):
+                start = pair[0]
+                end = pair[1]
+                head_text = sentence[start:end]
+
+                if "'s" in head_text:
+                    head_text = head_text.replace("'s", "")
+                    end -= 2
+                elif "'re" in head_text:
+                    head_text = head_text.replace("'re", "")
+                    end -= 3
+                while end > 0 and sentence[end - 1] in string.punctuation:
+                    end -= 1
+                while start < len(sentence) and sentence[start] in string.punctuation:
+                    start += 1
+
+                o_offset_pairs.append([start, end])
+
             includes = []
             for pair in o_offset_pairs:
+
                 include = True
-                for annotated_pair in self.sentence_to_annotation_offsets[sentence_id]:
+                annotated_pairs = sorted(list(self.sentence_to_annotation_offsets[sentence_id]),
+                                             key=lambda x: x[0])
+                for annotated_pair in annotated_pairs:
+
                     if pair[0] >= annotated_pair[0] and pair[1] <= annotated_pair[1]:
                         include = False
                         break
                 if include:
                     includes.append(pair)
+
             for (start, end) in includes:
+                head = sentence[start:end]
+                if head == '':
+                    continue
+
                 cog_state = CSDS(
                     sentence,
                     start,
                     end,
                     "O",
                     xml_file,
-                    this_head=sentence[start:end],
+                    this_head=head,
                     this_doc_id=self.doc_id,
                     this_sentence_id=sentence_id
                 )

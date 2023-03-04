@@ -58,6 +58,7 @@ FROM attitudes a
 
     # connecting to the database file and executing the master query to grab all labeled instances
     def get_data(self):
+        
         if __name__ == "__main__":
             db_path = 'LU_master.db'
         else:

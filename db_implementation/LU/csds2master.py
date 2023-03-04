@@ -1,12 +1,15 @@
 # author: tyler osborne
 # 24 december 2022
+print("Importing libraries...")
+from time import time
+START = time()
 
 from ddl import DDL
 import sqlite3
 from xml2csds import XMLCorpusToCSDSCollection, XMLCorpusToCSDSCollectionWithOLabels
 import pprint
 from progress.bar import Bar
-from time import time
+
 import spacy
 
 # a class to port CSDS objects into the unified database
@@ -18,11 +21,13 @@ class CSDS2Master:
 
     # initializing python data structures to mimic database schema as well as setting up database itself
     def __init__(self):
+
         self.unique_sentences = {}
         self.sentences = []
         self.next_sentence_id = 1
 
         self.mentions = []
+        self.mentions_no_ids = []
         self.next_mention_id = 1
 
         self.sources = []
@@ -35,23 +40,25 @@ class CSDS2Master:
         self.ma_con = sqlite3.connect("LU_master.db")
         self.ma_cur = self.ma_con.cursor()
 
+        print("Generating CSDS Collection...")
         self.LU = XMLCorpusToCSDSCollectionWithOLabels(
             '2010 Language Understanding',
             'CMU')
         collections = self.LU.create_and_get_collection().get_all_instances()
         self.collection = collections[0] + collections[1]
+        print("Collection generation done.")
 
         self.nlp = spacy.load("en_core_web_lg")
         self.current_doc = None
 
     def generate_database(self):
-        start = time()
+
         print('Loading CSDS objects into master schema...')
         self.process_data()
         print('\nExecuting SQL Inserts...')
         self.populate_tables()
         self.close()
-        print(f'Done. \nRuntime: {round(time() - start, 2)} sec')
+        print(f'Done. \nRuntime: {round(time() - START, 2)} sec')
 
     def populate_tables(self):
 
@@ -78,6 +85,12 @@ class CSDS2Master:
             # we use a dictionary with the following function: sentence -> (sentence_id, spacy DOC object)
             sentence = example.text
 
+            # skipping garbage data
+            if '<' in sentence or '---' in sentence or \
+                    [example.file, sentence, example.head,
+                     example.head_start, example.head_end] in self.mentions_no_ids:
+                continue
+
             if sentence in self.unique_sentences:
                 sentence_id = self.unique_sentences[sentence][0]
                 self.current_doc = self.unique_sentences[sentence][1]
@@ -93,34 +106,33 @@ class CSDS2Master:
             self.next_mention_id += 1
 
             # self.pp.pprint(example.get_marked_text())
-            span_start, span_end, head_token = self.get_head_span(example.head_start, example.head_end)
+            span_start, span_end, head_token = None, None, None # self.get_head_span(example.head_start, example.head_end)
 
             # cleanup
             skip = False
-            if ' ' in example.head:
-                example.head = head_token.text
-                example.head_start = head_token.idx
-                example.head_end = example.head_start + len(example.head)
-            if example.head in ['', '"']:
-                skip = True
-            elif example.head[-1] in [',', ':']:
-                example.head = example.head[-1]
-                example.head_end -= 1
-            elif len(example.head) > 1 and example.head[-2:] in [',"']:
-                example.head = example.head[:-2]
-                example.head_end -= 2
 
-            if example.head in [',', ':'] or example.head == sentence:
-                skip = True
-            
+            # if example.head in ['', '"']:
+            #     skip = True
+            # elif example.head[-1] in [',', ':']:
+            #     example.head = example.head[-1]
+            #     example.head_end -= 1
+            # elif len(example.head) > 1 and example.head[-2:] in [',"']:
+            #     example.head = example.head[:-2]
+            #     example.head_end -= 2
+            #
+            # if example.head in [',', ':'] or example.head == sentence:
+            #     skip = True
+            #
             assert skip or sentence[example.head_start:example.head_end] == example.head
 
-            span_text = sentence[span_start:span_end]
+            span_text = None  # sentence[span_start:span_end]
 
             if not skip:
                 self.mentions.append([mention_id, sentence_id, example.head,
                                       example.head_start, example.head_end,
                                       span_text, span_start, span_end])
+                self.mentions_no_ids.append([example.file, sentence, example.head,
+                                             example.head_start, example.head_end])
 
             # dealing with sources -- all author
             source_id = self.next_source_id
